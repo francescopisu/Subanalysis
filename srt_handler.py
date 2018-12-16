@@ -36,7 +36,8 @@ def compute_wh():
 def count_words(list_of_strings):
     count = 0
     for line in list_of_strings:
-        count += len(re.findall(r'\w+', line))
+        if line[0].isalpha():
+            count += len(re.findall(r'\w+', line))
 
     return count
 
