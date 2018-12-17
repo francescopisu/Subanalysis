@@ -1,0 +1,805 @@
+﻿1
+00:01:34,343 --> 00:01:35,595
+Master Bruce?
+
+2
+00:01:36,095 --> 00:01:38,806
+Are you all right, sir?
+
+3
+00:01:39,056 --> 00:01:42,018
+- I'm tired, Alfred.
+- I shouldn't wonder.
+
+4
+00:01:42,143 --> 00:01:46,480
+You've taken no meals today.
+I can't recall when you last slept.
+
+5
+00:01:47,064 --> 00:01:49,525
+A weary body can be dealt with
+
+6
+00:01:49,692 --> 00:01:52,945
+but a weary spirit,
+that's something else.
+
+7
+00:01:59,619 --> 00:02:03,664
+Sometimes, old friend, I wonder
+if I'm really doing any good out there.
+
+8
+00:02:03,956 --> 00:02:07,501
+How can you doubt it?
+The lives you've saved,
+
+9
+00:02:07,585 --> 00:02:09,920
+the criminals you've brought to justice.
+
+10
+00:02:10,004 --> 00:02:13,716
+I've put out a few fires, yes,
+won a few battles.
+
+11
+00:02:13,799 --> 00:02:17,928
+But the war goes on, Alfred. On and on.
+
+12
+00:02:22,058 --> 00:02:23,851
+You have it, Alfred?
+
+13
+00:02:23,934 --> 00:02:25,186
+Of course, sir.
+
+14
+00:02:53,714 --> 00:02:57,218
+It's a done deal. You're looking
+at the new vice president of...
+
+15
+00:02:57,301 --> 00:03:01,430
+Excuse me, folks. Spare some change?
+Trying to get bus fare home.
+
+16
+00:03:02,306 --> 00:03:04,058
+Uh, sure.
+
+17
+00:03:10,189 --> 00:03:11,774
+Works every time.
+
+18
+00:03:28,040 --> 00:03:30,501
+I say we take them now,
+before the deal happens.
+
+19
+00:03:30,668 --> 00:03:33,129
+We got enough on them.
+What are we waiting for?
+
+20
+00:03:33,212 --> 00:03:36,173
+Batman. He got us the dirt
+on the Jazzman.
+
+21
+00:03:36,257 --> 00:03:38,426
+Said he'd be here
+when the hammer went down.
+
+22
+00:03:51,439 --> 00:03:52,773
+Batman.
+
+23
+00:04:03,284 --> 00:04:05,703
+You seem quieter than usual tonight.
+
+24
+00:04:05,828 --> 00:04:09,957
+Every year I come here, I wonder
+if it should be the last time,
+
+25
+00:04:10,708 --> 00:04:12,501
+if I should put the past behind me,
+
+26
+00:04:12,918 --> 00:04:14,712
+try to lead a normal life.
+
+27
+00:04:14,795 --> 00:04:19,633
+Santayana says that those who forget
+the past are condemned to repeat it.
+
+28
+00:04:20,301 --> 00:04:22,845
+He also said a fanatic is someone
+who redoubles his efforts
+
+29
+00:04:22,928 --> 00:04:24,722
+while losing sight of his goal.
+
+30
+00:04:47,620 --> 00:04:51,373
+Wizard, you never call. You never write.
+
+31
+00:04:51,624 --> 00:04:55,419
+You never pay us our piece of kale
+for letting you work that corner.
+
+32
+00:04:56,086 --> 00:05:00,174
+Willie. Monk. Yeah,
+I was just looking for you guys.
+
+33
+00:05:03,928 --> 00:05:08,224
+Let's skip the pleasantries.
+What do you say? 50 bucks, now.
+
+34
+00:05:08,808 --> 00:05:12,436
+It's that, or I cut out your liver
+and fry it in a pan.
+
+35
+00:05:12,520 --> 00:05:15,231
+I haven't exactly got it right now.
+
+36
+00:05:15,314 --> 00:05:19,026
+Then what you do got
+is a whole world of trouble.
+
+37
+00:05:28,619 --> 00:05:29,662
+Willie?
+
+38
+00:05:30,204 --> 00:05:31,205
+Willie?
+
+39
+00:05:35,543 --> 00:05:37,336
+You're mine. Later.
+
+40
+00:05:48,931 --> 00:05:51,433
+Hey, Bats, don't worry about me.
+
+41
+00:05:51,517 --> 00:05:53,811
+I don't need help from some jerk
+in long underwear.
+
+42
+00:06:04,280 --> 00:06:07,241
+Think there's room in the
+Mitchell Street Mission for one more?
+
+43
+00:06:07,324 --> 00:06:08,576
+Of course.
+
+44
+00:06:18,085 --> 00:06:20,254
+Commissioner, it's gotta be now.
+
+45
+00:06:24,592 --> 00:06:25,593
+Hit it.
+
+46
+00:06:31,390 --> 00:06:34,935
+This is the police. You men
+in the warehouse, you're under arrest.
+
+47
+00:06:53,829 --> 00:06:56,707
+Aren't you going home?
+It's almost 3:00 a.m.
+
+48
+00:06:57,833 --> 00:06:59,877
+Promises to keep, Leslie.
+
+49
+00:06:59,960 --> 00:07:01,587
+I have promises to keep.
+
+50
+00:07:21,273 --> 00:07:23,817
+This was a setup.
+The Jazzman was ready for us.
+
+51
+00:07:27,321 --> 00:07:31,367
+I've been waiting a long time
+to play "Taps" for Gordon.
+
+52
+00:07:53,263 --> 00:07:54,640
+What the hell?
+
+53
+00:08:05,567 --> 00:08:09,363
+What's the deal? We couldn't
+get close enough to use tear gas.
+
+54
+00:09:06,587 --> 00:09:09,089
+Looks like the fat lady
+just sung, Jimmy.
+
+55
+00:09:09,631 --> 00:09:12,634
+Hey, where's the commish?
+He should see this.
+
+56
+00:09:13,552 --> 00:09:14,553
+Commissioner?
+
+57
+00:09:16,805 --> 00:09:17,973
+Oh, my God!
+
+58
+00:09:33,238 --> 00:09:34,632
+BP, 90/60.
+Respiration shallow.
+
+59
+00:09:34,656 --> 00:09:35,657
+Normal saline.
+
+60
+00:09:35,741 --> 00:09:37,785
+Type and cross match. Five units now.
+
+61
+00:09:37,868 --> 00:09:39,411
+Warm up O.R. 1.
+
+62
+00:09:55,636 --> 00:09:59,389
+<i>Last night, police broke the smuggling
+ring of Jimmy "The Jazzman" Peake.</i>
+
+63
+00:09:59,556 --> 00:10:02,351
+<i>But the victory in the drug war
+came at a high cost.</i>
+
+64
+00:10:02,768 --> 00:10:06,313
+<i>Police Commissioner James Gordon
+was badly wounded in the line of duty.</i>
+
+65
+00:10:06,980 --> 00:10:11,110
+<i>Ballistics investigation has matched
+the bullet with the Jazzman's gun.</i>
+
+66
+00:10:11,401 --> 00:10:13,070
+<i>Any comments, Jazzman?</i>
+
+67
+00:10:13,821 --> 00:10:16,532
+<i>Let's just say it was time
+to pay the piper.</i>
+
+68
+00:10:19,034 --> 00:10:21,411
+<i>Sources say that
+the Jazzman has long nursed</i>
+
+69
+00:10:21,495 --> 00:10:23,497
+<i>a grudge against Commissioner Gordon.</i>
+
+70
+00:10:23,664 --> 00:10:26,834
+<i>The commissioner remains in
+intensive care at Gotham City Hospital.</i>
+
+71
+00:10:52,401 --> 00:10:56,238
+I don't know if you can hear me, Jim.
+I'm sorry.
+
+72
+00:10:56,405 --> 00:10:58,866
+If I hadn't stopped in Crime Alley...
+
+73
+00:10:58,991 --> 00:11:00,576
+Batman.
+
+74
+00:11:01,160 --> 00:11:03,829
+- How is he?
+- Not good.
+
+75
+00:11:04,288 --> 00:11:05,539
+It's my fault.
+
+76
+00:11:06,206 --> 00:11:09,168
+I should've gotten there first,
+checked it out before.
+
+77
+00:11:09,251 --> 00:11:12,045
+Don't blame yourself.
+You caught the man who shot him.
+
+78
+00:11:12,254 --> 00:11:13,589
+If I'd been there...
+
+79
+00:11:14,047 --> 00:11:15,887
+You should've been there, pointy ears.
+
+80
+00:11:16,008 --> 00:11:18,218
+Then maybe Peake might've shot
+the right guy.
+
+81
+00:11:18,468 --> 00:11:21,068
+I thought you were supposed to know
+what's shaking on the streets.
+
+82
+00:11:21,346 --> 00:11:23,307
+How come you didn't tell us
+this was a setup?
+
+83
+00:11:23,974 --> 00:11:25,893
+- I didn't know.
+- Yeah?
+
+84
+00:11:26,310 --> 00:11:28,478
+In my book that makes you
+just as responsible
+
+85
+00:11:28,562 --> 00:11:30,397
+for him being here as the Jazzman.
+
+86
+00:11:30,731 --> 00:11:32,649
+Harvey, please. It wasn't his fault.
+
+87
+00:11:36,695 --> 00:11:41,533
+Hey, where you going?
+This ain't over yet, outlaw!
+
+88
+00:11:41,825 --> 00:11:44,286
+You hear me? You're going down for this!
+
+89
+00:11:44,369 --> 00:11:47,915
+I ain't talking law!
+I'm talking you and me!
+
+90
+00:12:39,883 --> 00:12:42,302
+James Peake, you are hereby remanded
+
+91
+00:12:42,386 --> 00:12:45,013
+to the custody
+of the state pending trial.
+
+92
+00:12:45,264 --> 00:12:47,808
+As there is no room currently
+in the Gotham City jail,
+
+93
+00:12:47,891 --> 00:12:52,062
+you will be taken to Stonegate
+Penitentiary to await a trial date.
+
+94
+00:13:02,406 --> 00:13:04,074
+It ain't going to trial.
+
+95
+00:13:04,157 --> 00:13:06,827
+They got enough on me to play
+the funeral march.
+
+96
+00:13:07,494 --> 00:13:10,622
+Not a problem, bro.
+Talk to Southside Eddy.
+
+97
+00:13:10,706 --> 00:13:12,466
+He'll get you on the street
+and out of Gotham
+
+98
+00:13:12,499 --> 00:13:14,543
+before the ink on your fingers dries.
+
+99
+00:13:15,127 --> 00:13:17,629
+Not out of Gotham. Not yet.
+
+100
+00:13:18,005 --> 00:13:21,800
+First, I'll make sure Gordon's
+got a one-way ticket to harp land.
+
+101
+00:13:22,092 --> 00:13:24,094
+Not now, Jimmy. You gotta lay low.
+
+102
+00:13:24,720 --> 00:13:29,308
+Gordon busted me six years ago.
+Would've been the best score of my life.
+
+103
+00:13:29,766 --> 00:13:32,060
+I owe him big time.
+
+104
+00:13:43,822 --> 00:13:47,451
+I'm so glad you could come,
+Master Dick. It's been three days.
+
+105
+00:13:47,659 --> 00:13:49,661
+I've never seen him like this before.
+
+106
+00:14:03,175 --> 00:14:04,176
+Bruce?
+
+107
+00:14:12,642 --> 00:14:14,311
+Bruce! Stay down here much longer,
+
+108
+00:14:14,394 --> 00:14:16,646
+you'll be growing mushrooms
+in your armpits.
+
+109
+00:14:16,730 --> 00:14:20,067
+- I should have been there.
+- You can't be everywhere.
+
+110
+00:14:20,484 --> 00:14:24,196
+- I let him down.
+- You're being too hard on yourself.
+
+111
+00:14:24,363 --> 00:14:27,657
+He's a friend. More than a friend.
+
+112
+00:14:27,741 --> 00:14:31,912
+Jim Gordon's the same age
+my father would've been if he hadn't...
+
+113
+00:14:32,996 --> 00:14:34,623
+Now he's hanging by a thread.
+
+114
+00:14:35,707 --> 00:14:38,043
+If I'd gotten there five minutes sooner.
+
+115
+00:14:38,126 --> 00:14:42,047
+You're only human.
+You do all one man can do.
+
+116
+00:14:42,130 --> 00:14:44,049
+More than any man's expected to do.
+
+117
+00:14:49,346 --> 00:14:51,223
+Laundry coming through, boss.
+
+118
+00:14:52,599 --> 00:14:54,559
+I chose this life.
+
+119
+00:14:54,643 --> 00:14:58,188
+I use the night. I became the night.
+
+120
+00:14:58,855 --> 00:15:00,607
+Sooner or later, I'll go down.
+
+121
+00:15:00,774 --> 00:15:05,404
+It might be the Joker or Two-Face
+or just some punk who gets lucky.
+
+122
+00:15:06,071 --> 00:15:08,490
+My decision. No regrets.
+
+123
+00:15:08,657 --> 00:15:11,576
+But I can't let anyone else
+pay for my mistakes.
+
+124
+00:15:12,828 --> 00:15:16,373
+Jim Gordon's a cop, Bruce.
+He knows the risks.
+
+125
+00:15:16,957 --> 00:15:19,835
+How long before I let
+someone else I care about down?
+
+126
+00:15:20,210 --> 00:15:23,672
+Leslie. Alfred. You.
+
+127
+00:15:33,181 --> 00:15:34,307
+Now.
+
+128
+00:15:51,366 --> 00:15:54,202
+When all is said and done,
+how much good have I accomplished?
+
+129
+00:15:54,286 --> 00:15:55,829
+They sell T-shirts of me.
+
+130
+00:15:56,163 --> 00:15:59,958
+I've become a cliché. More good
+for the tourist trade than the streets.
+
+131
+00:16:00,125 --> 00:16:02,127
+This city would fall apart without you.
+
+132
+00:16:02,794 --> 00:16:04,796
+Maybe. Maybe not.
+
+133
+00:16:05,338 --> 00:16:09,176
+When you look too long into the abyss,
+the abyss looks back through you.
+
+134
+00:16:09,509 --> 00:16:13,013
+Maybe it's time for Batman to return
+to the night that spawned him
+
+135
+00:16:13,096 --> 00:16:14,598
+before anyone else gets hurt.
+
+136
+00:16:38,997 --> 00:16:40,832
+Jimmy Peake's a madman, Dick.
+
+137
+00:16:41,124 --> 00:16:44,628
+He'll try to finish what he started.
+I feel so helpless.
+
+138
+00:16:45,212 --> 00:16:47,547
+I can't just sit here.
+I've gotta do something to...
+
+139
+00:16:47,631 --> 00:16:50,091
+I know how you feel.
+More than you might think.
+
+140
+00:16:50,300 --> 00:16:51,468
+But your place is here.
+
+141
+00:16:51,927 --> 00:16:54,804
+There's only one person
+who can find the Jazzman now.
+
+142
+00:16:54,888 --> 00:16:58,099
+- You're talking about Batman.
+- I hope so.
+
+143
+00:17:07,526 --> 00:17:09,326
+You've gotta pull yourself
+out of this, Bruce.
+
+144
+00:17:09,402 --> 00:17:11,321
+The Jazzman broke out of Stonegate.
+
+145
+00:17:11,613 --> 00:17:13,615
+He's gone to ground somewhere in Gotham.
+
+146
+00:17:16,451 --> 00:17:18,286
+You know he'll find a way
+to get to Gordon.
+
+147
+00:17:19,120 --> 00:17:21,790
+Okay. Then I'm going after him.
+
+148
+00:17:22,582 --> 00:17:24,894
+You taught me everything I know
+about crime-fighting, Bruce.
+
+149
+00:17:24,918 --> 00:17:28,588
+But the most important lesson
+was to never give up.
+
+150
+00:17:43,311 --> 00:17:44,521
+No, Dick.
+
+151
+00:17:45,230 --> 00:17:47,065
+This is my hunt.
+
+152
+00:18:07,294 --> 00:18:08,896
+<i>Attention, all cars.</i>
+
+153
+00:18:08,920 --> 00:18:11,673
+<i>Suspect sighted near corner
+of Adams and O'Neil.</i>
+
+154
+00:18:12,132 --> 00:18:14,175
+This is Bullock. I'm on him.
+
+155
+00:18:14,259 --> 00:18:17,053
+<i>Roger, Detective. Use caution.</i>
+
+156
+00:18:42,662 --> 00:18:44,581
+I've gotta get some coffee, Dad.
+
+157
+00:18:44,831 --> 00:18:45,915
+I'll be right back.
+
+158
+00:19:02,849 --> 00:19:05,310
+Time to face the music, Gordon.
+
+159
+00:19:50,188 --> 00:19:51,189
+No!
+
+160
+00:20:09,791 --> 00:20:10,792
+Freeze, Jimmy!
+
+161
+00:20:12,502 --> 00:20:16,297
+- Barbara?
+- Dad! You're all right.
+
+162
+00:20:16,631 --> 00:20:19,300
+The bust... Went down okay?
+
+163
+00:20:19,634 --> 00:20:22,011
+Yes. Get some rest now.
+
+164
+00:20:22,303 --> 00:20:24,180
+Gotta keep fighting. Never stop.
+
+165
+00:20:24,639 --> 00:20:26,349
+What I try to live by.
+
+166
+00:20:27,350 --> 00:20:31,312
+Maybe if I'd been younger,
+could've been like you.
+
+167
+00:20:32,480 --> 00:20:34,566
+Always wanted to be a hero.
+
+168
+00:20:36,484 --> 00:20:37,986
+You are a hero, Jim.
+
+169
+00:20:55,336 --> 00:20:57,172
+Up to your old tricks, I see.
+
+170
+00:20:57,589 --> 00:20:59,799
+How about returning that suitcase
+to its owner.
+
+171
+00:21:00,425 --> 00:21:02,594
+Hey, man, I am the owner.
+
+172
+00:21:03,845 --> 00:21:05,764
+You know, I was kind of hoping
+I'd run into you.
+
+173
+00:21:05,972 --> 00:21:08,308
+I'd been in those places
+like where you left me before.
+
+174
+00:21:08,641 --> 00:21:12,854
+Heard the rap, wasn't impressed.
+But this time it made sense.
+
+175
+00:21:13,146 --> 00:21:16,149
+Maybe I was ready to hear it.
+So I'm heading back home.
+
+176
+00:21:16,232 --> 00:21:18,443
+I guess I kind of owe it to you, Batman.
+
+177
+00:21:18,860 --> 00:21:21,780
+You probably saved my life.
+I bet you hear this all the time.
+
+178
+00:21:21,863 --> 00:21:24,115
+Look, I'm gonna miss my bus.
+I'll see you around.
+
+179
+00:21:24,616 --> 00:21:27,035
+And thanks.
+
