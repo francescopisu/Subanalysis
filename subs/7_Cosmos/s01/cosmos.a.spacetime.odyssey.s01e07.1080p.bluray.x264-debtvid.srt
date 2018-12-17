@@ -1,0 +1,2468 @@
+﻿1
+00:00:08,717 --> 00:00:10,811
+TYSON:
+<i>Once there was</i> a <i>man...</i>
+
+2
+00:00:11,094 --> 00:00:14,189
+<i>...who went searching
+for the true age of the Earth.</i>
+
+3
+00:00:17,893 --> 00:00:22,399
+<i>In his struggles to discover it,
+he stumbled on a grave threat.</i>
+
+4
+00:00:26,193 --> 00:00:31,040
+<i>Beautiful spring day,
+Pasadena, California, 1966.</i>
+
+5
+00:00:31,198 --> 00:00:33,792
+<i>Business is booming, life's good.</i>
+
+6
+00:00:35,285 --> 00:00:37,253
+<i>Except for one man...</i>
+
+7
+00:00:37,412 --> 00:00:41,417
+<i>...a geochemist named Clair Patterson,
+known as Pat.</i>
+
+8
+00:00:42,125 --> 00:00:47,723
+<i>He knows that everyone he sees
+is in danger from an invisible menace.</i>
+
+9
+00:00:52,803 --> 00:00:56,774
+<i>And he's determined to put a stop to it,
+no matter what the cost.</i>
+
+10
+00:02:39,660 --> 00:02:41,947
+<i>TYSON: You can't really
+tell Pat Patterson's</i>
+
+11
+00:02:41,959 --> 00:02:44,257
+<i>story without going
+all the way back...</i>
+
+12
+00:02:44,414 --> 00:02:48,965
+<i>...to the time long before the Earth,
+our home, was built...</i>
+
+13
+00:02:49,127 --> 00:02:52,677
+<i>...when the stars brought
+forth its substance.</i>
+
+14
+00:02:54,675 --> 00:02:58,555
+<i>Iron for the planet's molten core.</i>
+
+15
+00:02:59,680 --> 00:03:04,607
+<i>Oxygen for the rocks
+and the water and the air.</i>
+
+16
+00:03:04,768 --> 00:03:09,569
+<i>Carbon for diamonds and life.</i>
+
+17
+00:03:37,384 --> 00:03:41,480
+<i>A star is born, ours.</i>
+
+18
+00:03:43,181 --> 00:03:45,809
+<i>For the first few million years,
+things ran smoothly...</i>
+
+19
+00:03:45,976 --> 00:03:50,482
+<i>...as dust grains snowballed
+into progressively larger objects.</i>
+
+20
+00:03:55,360 --> 00:03:59,786
+<i>But once these objects grew massive enough
+to have sufficient gravity...</i>
+
+21
+00:04:07,247 --> 00:04:11,093
+<i>...they began pulling each other
+into crossing orbits.</i>
+
+22
+00:04:18,258 --> 00:04:22,183
+<i>This is how our world looked
+when it was new.</i>
+
+23
+00:04:22,971 --> 00:04:25,850
+<i>No part of the Earth's surface
+could survive intact...</i>
+
+24
+00:04:26,016 --> 00:04:27,939
+<i>...from that time to the present.</i>
+
+25
+00:04:32,481 --> 00:04:35,906
+<i>So with all its birth
+and early childhood records erased...</i>
+
+26
+00:04:36,067 --> 00:04:41,415
+<i>...how could we ever hope to know, with
+any certainty, the true age of our world?</i>
+
+27
+00:04:41,573 --> 00:04:45,669
+<i>People have been wondering about this
+since antiquity.</i>
+
+28
+00:04:47,871 --> 00:04:52,627
+<i>In 1650, Archbishop James Ussher of Ireland
+made a calculation...</i>
+
+29
+00:04:52,793 --> 00:04:55,171
+<i>...that seemed to settle the question.</i>
+
+30
+00:04:55,337 --> 00:04:58,216
+<i>Like almost everyone else
+of his time and his world...</i>
+
+31
+00:04:58,381 --> 00:05:01,885
+<i>...he accepted the biblical account
+of creation as authoritative.</i>
+
+32
+00:05:02,052 --> 00:05:04,521
+<i>But the Bible does not give exact years...</i>
+
+33
+00:05:04,679 --> 00:05:07,398
+<i>...so, Ussher searched for an event
+in the Old Testament...</i>
+
+34
+00:05:07,557 --> 00:05:10,151
+<i>...that corresponded
+to a known historical date.</i>
+
+35
+00:05:10,310 --> 00:05:13,564
+<i>He found it in the Second Book of Kings...</i>
+
+36
+00:05:13,730 --> 00:05:18,577
+<i>...the death of the Babylonian ruler
+Nebuchadnezzar in 562 B.C.</i>
+
+37
+00:05:18,735 --> 00:05:22,740
+<i>Ussher added up the generations
+of the prophets and the patriarchs...</i>
+
+38
+00:05:22,906 --> 00:05:26,206
+<i>...the 139 "begets" of the Old Testament...</i>
+
+39
+00:05:26,368 --> 00:05:29,918
+<i>...between Adam
+and the time of Nebuchadnezzar...</i>
+
+40
+00:05:30,080 --> 00:05:36,588
+...and discovered that the world began
+on October <i>22</i> in the year 4004 B.C...
+
+41
+00:05:36,753 --> 00:05:39,006
+...at 6 p.m.
+
+42
+00:05:39,172 --> 00:05:41,095
+It was a Saturday.
+
+43
+00:05:41,258 --> 00:05:45,263
+Archbishop Ussher's chronology
+was taken as gospel in the Western world...
+
+44
+00:05:45,428 --> 00:05:48,853
+...until we turned to another book
+to find the age of the Earth...
+
+45
+00:05:49,015 --> 00:05:51,985
+...the one that was written
+in the rocks themselves.
+
+46
+00:05:52,143 --> 00:05:54,862
+Most of the rock layers
+in the walls of the Grand Canyon...
+
+47
+00:05:55,021 --> 00:05:56,273
+...are made of sediments...
+
+48
+00:05:56,439 --> 00:06:02,242
+...deposited as fine grains in a time
+when this part of the world was a sea.
+
+49
+00:06:07,993 --> 00:06:10,997
+Over eons, the sediments
+were compressed into rock...
+
+50
+00:06:11,162 --> 00:06:15,087
+...under the weight of succeeding layers,
+with the oldest ones at the bottom.
+
+51
+00:06:22,632 --> 00:06:24,760
+Pick a layer, any layer.
+
+52
+00:06:32,893 --> 00:06:34,236
+How about that one?
+
+53
+00:06:39,816 --> 00:06:43,161
+Once upon a time,
+there must have been shallow water here.
+
+54
+00:06:45,113 --> 00:06:48,333
+<i>Back in the Precambrian period,
+about a billion years ago...</i>
+
+55
+00:06:48,491 --> 00:06:50,994
+<i>...there was only one kind of life.</i>
+
+56
+00:06:53,663 --> 00:06:55,290
+<i>These blue-green bacteria...</i>
+
+57
+00:06:55,457 --> 00:06:58,427
+<i>...were busy harvesting sunlight
+and making oxygen.</i>
+
+58
+00:06:58,585 --> 00:07:00,462
+<i>For them, it was just a waste product...</i>
+
+59
+00:07:00,629 --> 00:07:06,386
+<i>...but for the animals who evolved later,
+including us, it was the breath of life.</i>
+
+60
+00:07:09,888 --> 00:07:12,482
+Okay, pick another layer.
+
+61
+00:07:12,641 --> 00:07:14,484
+How about that one?
+
+62
+00:07:15,477 --> 00:07:17,946
+<i>This layer is known
+as the Bright Angel Shale.</i>
+
+63
+00:07:18,104 --> 00:07:22,200
+<i>It formed about 530 million years ago.</i>
+
+64
+00:07:24,402 --> 00:07:27,531
+<i>These tracks were left
+260 million years ago.</i>
+
+65
+00:07:28,239 --> 00:07:30,162
+<i>So you want to know the age of the Earth?</i>
+
+66
+00:07:30,325 --> 00:07:32,953
+<i>Just figure out how long it took
+to deposit each layer...</i>
+
+67
+00:07:33,119 --> 00:07:37,590
+...and then instead of counting the
+"begats," add up all the layers.
+
+68
+00:07:37,749 --> 00:07:39,217
+Easy, right?
+
+69
+00:07:39,376 --> 00:07:40,969
+Just one problem.
+
+70
+00:07:41,127 --> 00:07:42,879
+We know from observing this process--
+
+71
+00:07:43,046 --> 00:07:46,175
+Because it still happens today
+in oceans and lakes around the world.
+
+72
+00:07:46,633 --> 00:07:50,103
+<i>--That sediments can be laid down
+at widely different rates.</i>
+
+73
+00:07:50,261 --> 00:07:55,313
+<i>It usually happens very slowly,
+say a foot of sediment per thousand years.</i>
+
+74
+00:07:55,475 --> 00:07:59,230
+But when there's a rare catastrophic flood,
+it can happen much faster...
+
+75
+00:07:59,396 --> 00:08:02,366
+...as much as a foot in just a few days.
+
+76
+00:08:13,702 --> 00:08:16,831
+Many geologists tried this method
+to calculate the age of the Earth.
+
+77
+00:08:16,997 --> 00:08:20,592
+They used the Grand Canyon and other
+sedimentary sequences around the planet.
+
+78
+00:08:21,084 --> 00:08:23,803
+<i>But their answers ranged too widely
+to be of much use.</i>
+
+79
+00:08:23,962 --> 00:08:27,512
+<i>Anywhere between 3 million years
+and 15 billion.</i>
+
+80
+00:08:33,054 --> 00:08:35,022
+There were other problems
+with this method.
+
+81
+00:08:35,181 --> 00:08:38,606
+Even the deepest layers of rock
+are not the oldest things on Earth.
+
+82
+00:08:38,768 --> 00:08:42,864
+Why? Because not even rocks
+could survive the Earth's violent infancy.
+
+83
+00:08:45,233 --> 00:08:48,783
+<i>In space, it's another story.</i>
+
+84
+00:09:06,087 --> 00:09:08,806
+<i>TYSON: Are there any mementos
+from when the Earth was born...</i>
+
+85
+00:09:08,965 --> 00:09:12,469
+<i>...objects that could possibly tell us
+its true age?</i>
+
+86
+00:09:12,635 --> 00:09:15,889
+<i>I know a place where the unused bricks
+and mortar left over...</i>
+
+87
+00:09:16,056 --> 00:09:19,401
+<i>...from the creation of our solar system
+can be found.</i>
+
+88
+00:09:19,559 --> 00:09:22,984
+<i>It lies between the orbits
+of Jupiter and Mars.</i>
+
+89
+00:09:23,146 --> 00:09:29,074
+<i>Here is the stuff of the newborn Earth,
+adrift in cold storage...</i>
+
+90
+00:09:29,235 --> 00:09:31,829
+<i>...unchanged ever since that time.</i>
+
+91
+00:09:32,489 --> 00:09:33,991
+<i>A million or so years ago...</i>
+
+92
+00:09:34,157 --> 00:09:37,752
+<i>...a large asteroid happened
+to jostle a much smaller one...</i>
+
+93
+00:09:37,911 --> 00:09:40,664
+<i>...sending it on a new trajectory...</i>
+
+94
+00:09:40,830 --> 00:09:45,927
+<i>...a collision course that ended one night
+some 50,000 years ago.</i>
+
+95
+00:09:46,086 --> 00:09:49,340
+[ANIMALS HOWLING AND SQUAWKING]
+
+96
+00:09:59,724 --> 00:10:01,726
+[owl_ HOOTING]
+
+97
+00:10:09,692 --> 00:10:14,619
+<i>It must have shattered the peace of the
+Grand Canyon as it sailed overhead...</i>
+
+98
+00:10:20,078 --> 00:10:22,752
+<i>...to blast out this crater...</i>
+
+99
+00:10:23,414 --> 00:10:27,635
+<i>...in what would one day be known
+as Arizona.</i>
+
+100
+00:10:37,720 --> 00:10:43,398
+Fragments of the iron asteroid
+that made this crater have survived intact.
+
+101
+00:10:43,560 --> 00:10:46,109
+If we just knew how long ago
+that iron was forged...
+
+102
+00:10:46,271 --> 00:10:49,400
+...we'd know the age of the solar system,
+including the Earth.
+
+103
+00:10:49,566 --> 00:10:51,944
+But how could we know that?
+
+104
+00:10:52,110 --> 00:10:55,159
+Pick a rock. Any rock.
+
+105
+00:10:57,991 --> 00:10:59,163
+How about that one?
+
+106
+00:11:01,411 --> 00:11:03,834
+<i>Some atoms in this rock
+could be radioactive...</i>
+
+107
+00:11:03,997 --> 00:11:08,093
+<i>...which means they spontaneously
+disintegrate and become other elements.</i>
+
+108
+00:11:08,251 --> 00:11:11,630
+<i>A uranium atom
+first becomes a thorium atom.</i>
+
+109
+00:11:11,796 --> 00:11:15,016
+<i>On average, it takes a few billion years.</i>
+
+110
+00:11:15,175 --> 00:11:16,893
+<i>The thorium is much more unstable.</i>
+
+111
+00:11:17,051 --> 00:11:20,476
+<i>In less than a month,
+it turns into protactinium.</i>
+
+112
+00:11:20,638 --> 00:11:24,268
+<i>A minute later, protactinium
+becomes something else.</i>
+
+113
+00:11:24,434 --> 00:11:28,439
+<i>The atom undergoes
+ten more nuclear transmutations...</i>
+
+114
+00:11:28,605 --> 00:11:32,109
+<i>...until it reaches the last stop
+on the decay chain...</i>
+
+115
+00:11:32,275 --> 00:11:34,949
+<i>...a stable atom of lead.</i>
+
+116
+00:11:36,738 --> 00:11:40,914
+<i>And lead it will remain for eternity.</i>
+
+117
+00:11:43,411 --> 00:11:46,506
+In the 20th century there was a huge effort
+lasting decades...
+
+118
+00:11:46,664 --> 00:11:49,588
+...to measure the time it takes
+for each radioactive element...
+
+119
+00:11:49,751 --> 00:11:51,469
+...to transmute into another element.
+
+120
+00:11:52,378 --> 00:11:55,973
+<i>Physicists discovered that the atoms
+of each unstable element decay...</i>
+
+121
+00:11:56,132 --> 00:11:57,475
+<i>...at a constant rate.</i>
+
+122
+00:11:59,385 --> 00:12:02,389
+<i>The nucleus of an atom
+is a kind of sanctuary...</i>
+
+123
+00:12:02,555 --> 00:12:06,276
+<i>...immune to the shocks and upheavals
+of its environment.</i>
+
+124
+00:12:07,227 --> 00:12:09,229
+<i>Hit it with a hammer.</i>
+
+125
+00:12:13,816 --> 00:12:15,818
+<i>Boil it in oil.</i>
+
+126
+00:12:20,740 --> 00:12:22,663
+<i>Vaporize it.</i>
+
+127
+00:12:24,118 --> 00:12:28,339
+<i>The nuclear clock goes on ticking,
+keeping an absolute standard of time...</i>
+
+128
+00:12:28,498 --> 00:12:31,843
+<i>...that does not look
+to the sun and the stars.</i>
+
+129
+00:12:32,001 --> 00:12:34,424
+<i>What better way
+to find the true age of the Earth...</i>
+
+130
+00:12:34,587 --> 00:12:36,931
+<i>...than with the uranium atom?</i>
+
+131
+00:12:37,090 --> 00:12:40,811
+<i>If you knew what fraction of the uranium
+in</i> a <i>rock had turned into</i> lead...
+
+132
+00:12:40,969 --> 00:12:45,440
+<i>...you could calculate how much time
+had passed since the rock was formed.</i>
+
+133
+00:12:45,598 --> 00:12:47,020
+<i>But there's a problem.</i>
+
+134
+00:12:47,183 --> 00:12:51,905
+<i>The rocks in the Earth that were present
+when it was formed are no more.</i>
+
+135
+00:12:52,063 --> 00:12:57,160
+<i>They've all been crushed, melted, remade.</i>
+
+136
+00:12:57,819 --> 00:13:01,699
+There is a way to calculate the amount of
+lead that was present from the beginning.
+
+137
+00:13:01,864 --> 00:13:04,538
+It's a gift from the heavens: meteorites.
+
+138
+00:13:06,286 --> 00:13:10,837
+This one, a fragment of the one
+that made this giant crater, was ideal.
+
+139
+00:13:10,999 --> 00:13:13,678
+The amount of lead deep
+inside this meteorite
+
+140
+00:13:13,690 --> 00:13:16,381
+is exactly the same
+as when Earth formed.
+
+141
+00:13:16,546 --> 00:13:19,299
+<i>Since you know the constant rate
+of uranium decay...</i>
+
+142
+00:13:19,465 --> 00:13:22,229
+<i>...that should give you
+the age of the meteorite,</i>
+
+143
+00:13:22,241 --> 00:13:25,017
+<i>which was made at the
+same time as the Earth.</i>
+
+144
+00:13:25,638 --> 00:13:29,484
+All you had to do was measure
+the amount of lead in meteorites.
+
+145
+00:13:30,226 --> 00:13:32,945
+<i>Easy, right?</i>
+
+146
+00:13:38,401 --> 00:13:41,530
+<i>A scientist named Harrison Brown,
+at the University of Chicago...</i>
+
+147
+00:13:41,696 --> 00:13:44,996
+...first understood this in 1947.
+
+148
+00:13:45,158 --> 00:13:49,959
+He chose a young graduate student,
+Clair Patterson, to do the work.
+
+149
+00:13:52,415 --> 00:13:55,259
+<i>Patterson couldn't possibly know
+how this assignment...</i>
+
+150
+00:13:55,418 --> 00:13:58,092
+<i>...would alter the course of his life...</i>
+
+151
+00:13:58,254 --> 00:14:00,427
+<i>...and ours.</i>
+
+152
+00:14:13,603 --> 00:14:18,951
+<i>What seemed like pure scientific research
+turned out to be so much more.</i>
+
+153
+00:14:23,112 --> 00:14:24,534
+[GASPS]
+
+154
+00:14:28,159 --> 00:14:30,082
+[CRYING]
+
+155
+00:14:30,286 --> 00:14:31,879
+WOMAN:
+Oh, the poor dear.
+
+156
+00:14:43,299 --> 00:14:45,927
+<i>TYSON: Clair Patterson,
+son of a letter carrier from Iowa...</i>
+
+157
+00:14:46,094 --> 00:14:49,815
+...was rebellious by nature
+and not very good in school.
+
+158
+00:14:49,972 --> 00:14:52,395
+But he was a natural-born scientist.
+
+159
+00:14:53,601 --> 00:14:56,946
+<i>A geologist named Harrison Brown
+gave Patterson...</i>
+
+160
+00:14:57,105 --> 00:15:00,780
+<i>...what seemed like
+a straightforward scientific assignment.</i>
+
+161
+00:15:00,942 --> 00:15:03,661
+First off, Pat--
+You mind if I call you Pat?
+
+162
+00:15:05,238 --> 00:15:09,618
+Now, I know you're no geologist. Probably
+couldn't tell granite from feldspar.
+
+163
+00:15:09,784 --> 00:15:13,505
+But I hear you really know your way
+around a mass spectrometer, Pat.
+
+164
+00:15:14,789 --> 00:15:16,132
+Good. You married, Pat?
+
+165
+00:15:16,290 --> 00:15:19,840
+Yeah, Laurie. Yeah, she's a chemist too.
+
+166
+00:15:20,002 --> 00:15:23,006
+We worked on the Manhattan Project
+together at Oak Ridge.
+
+167
+00:15:23,172 --> 00:15:25,846
+Good, okay, well,
+first thing you need to know:
+
+168
+00:15:26,008 --> 00:15:28,682
+There are these tiny
+crystals called zircons.
+
+169
+00:15:28,845 --> 00:15:32,349
+Real small, size of a pinhead,
+tight as a drum, and tough.
+
+170
+00:15:32,515 --> 00:15:36,986
+Nothing gets in or out of them,
+and I'm talking for billions of years.
+
+171
+00:15:37,145 --> 00:15:38,772
+We know how old these grains are...
+
+172
+00:15:38,938 --> 00:15:41,862
+...because we've already dated the rocks
+they came from.
+
+173
+00:15:42,024 --> 00:15:46,825
+Each little zircon has only a few parts
+per million of uranium inside...
+
+174
+00:15:46,988 --> 00:15:51,368
+...and that uranium is decaying
+to even tinier amounts of lead.
+
+175
+00:15:51,534 --> 00:15:53,900
+You figure out how to
+measure that lead, and
+
+176
+00:15:53,912 --> 00:15:56,290
+you'll know how to do
+it for a meteorite.
+
+177
+00:15:56,747 --> 00:15:58,499
+You think you can do that, Pat?
+
+178
+00:15:58,666 --> 00:16:01,044
+Yeah, yeah, I don't see why not.
+
+179
+00:16:01,210 --> 00:16:05,807
+Good, because when you do, you'll be
+the first man to know the age of the Earth.
+
+180
+00:16:05,965 --> 00:16:07,182
+And you'll be famous.
+
+181
+00:16:09,719 --> 00:16:12,142
+And you'll see, it'll be easy.
+
+182
+00:16:12,305 --> 00:16:14,103
+Duck soup.
+
+183
+00:16:35,536 --> 00:16:39,382
+While Patterson tried to measure the trace
+amounts of lead in the zircon grains...
+
+184
+00:16:39,540 --> 00:16:41,759
+...another grad student, George Tilton...
+
+185
+00:16:41,918 --> 00:16:44,922
+...was measuring the amount of uranium
+in the same grains.
+
+186
+00:16:45,630 --> 00:16:51,353
+<i>All Patterson had to do was measure
+the amount of lead with equal accuracy.</i>
+
+187
+00:16:51,511 --> 00:16:53,934
+She's all yours, Pat.
+Measured it six times.
+
+188
+00:16:54,096 --> 00:16:56,519
+Same result: 3.2 parts per million.
+
+189
+00:16:56,682 --> 00:16:58,776
+Yeah, nice going, George. Thanks.
+
+190
+00:17:03,606 --> 00:17:07,452
+TYSON:
+Tilton's results were always the same.
+
+191
+00:17:07,610 --> 00:17:10,397
+But Patterson's results
+on the lead content
+
+192
+00:17:10,409 --> 00:17:13,208
+of the same grains were
+wildly inconsistent.
+
+193
+00:17:13,366 --> 00:17:14,959
+This made no sense.
+
+194
+00:17:28,965 --> 00:17:33,141
+<i>Could the lab have been contaminated
+by previous experiments with lead?</i>
+
+195
+00:17:33,302 --> 00:17:36,647
+<i>Maybe it was the naturally high amounts
+of lead in the environment...</i>
+
+196
+00:17:36,806 --> 00:17:38,900
+<i>...that were messing up his results.</i>
+
+197
+00:17:44,230 --> 00:17:49,532
+<i>Patterson did everything he could
+to cleanse the lab of any lead.</i>
+
+198
+00:17:55,241 --> 00:17:57,460
+[PRINTER WHIRRING]
+
+199
+00:17:59,620 --> 00:18:02,419
+<i>There was still a hundred times
+too much lead.</i>
+
+200
+00:18:02,999 --> 00:18:05,343
+<i>He had been at it for more than two years.</i>
+
+201
+00:18:06,586 --> 00:18:09,009
+Duck soup, my ass.
+
+202
+00:18:18,347 --> 00:18:22,318
+<i>TYSON: Patterson realized he would have
+to boil his containers and tools in acid...</i>
+
+203
+00:18:22,476 --> 00:18:27,698
+<i>...and purify all his chemicals
+to further reduce the lead in his lab.</i>
+
+204
+00:18:28,399 --> 00:18:30,367
+Oh, I-- I'm new here.
+No!
+
+205
+00:18:30,526 --> 00:18:32,369
+Where's the men's room?
+Ugh.
+
+206
+00:18:32,528 --> 00:18:34,280
+Damn it.
+
+207
+00:18:35,364 --> 00:18:38,356
+All of Patterson's
+obsessive scouring and
+
+208
+00:18:38,368 --> 00:18:41,371
+sterilizing had still
+not solved the problem.
+
+209
+00:18:41,537 --> 00:18:44,666
+He would need to design his own lab
+and build it from scratch.
+
+210
+00:18:44,832 --> 00:18:47,927
+The opportunity arose
+when Harrison Brown moved...
+
+211
+00:18:48,085 --> 00:18:51,225
+...to the California
+Institute of Technology
+
+212
+00:18:51,237 --> 00:18:54,388
+in Pasadena and invited
+Patterson to join him.
+
+213
+00:19:07,396 --> 00:19:11,196
+PATTERSON: Okay, Tom, that's enough.
+We can move through the interlock now.
+
+214
+00:19:11,734 --> 00:19:14,738
+Patterson had now been
+at it for six years...
+
+215
+00:19:14,904 --> 00:19:18,204
+...doggedly tracking down
+and eliminating the many sources of lead...
+
+216
+00:19:18,366 --> 00:19:20,915
+...that were compromising his instruments.
+
+217
+00:19:21,077 --> 00:19:24,923
+He had built the world's first
+ultra-clean room.
+
+218
+00:19:25,081 --> 00:19:28,961
+He was finally able to measure
+how much lead was actually in the rock.
+
+219
+00:19:29,126 --> 00:19:32,096
+One whose age had already
+been established.
+
+220
+00:19:32,254 --> 00:19:38,057
+Now at last Patterson was ready
+to tackle the iron meteorite...
+
+221
+00:19:38,219 --> 00:19:43,020
+...to find the true age of the Earth.
+
+222
+00:19:43,516 --> 00:19:48,397
+<i>He brought his meteorite specimen back
+to the Argonne National Laboratory...</i>
+
+223
+00:19:48,562 --> 00:19:51,111
+<i>...where the world's most accurate
+mass spectrometer...</i>
+
+224
+00:19:51,273 --> 00:19:53,116
+<i>...had just become operational.</i>
+
+225
+00:19:55,820 --> 00:19:59,199
+Doc, this can't wait till tomorrow?
+
+226
+00:20:16,465 --> 00:20:21,471
+Okay, little buddy,
+we're gonna have to vaporize you.
+
+227
+00:20:22,888 --> 00:20:24,515
+[MACHINE POWERING UP]
+
+228
+00:20:31,147 --> 00:20:33,024
+<i>TYSON".
+A mass spectrometer uses magnets...</i>
+
+229
+00:20:33,190 --> 00:20:35,909
+<i>...to separate the elements contained
+in a sample...</i>
+
+230
+00:20:36,068 --> 00:20:39,368
+<i>...so that the amounts of each element
+can be quantified.</i>
+
+231
+00:20:39,530 --> 00:20:45,333
+<i>This would provide the last missing piece
+in the puzzle of the Earth's true age.</i>
+
+232
+00:20:49,290 --> 00:20:52,715
+PATTERSON:
+Now I'm gonna ionize you, yeah.
+
+233
+00:20:52,877 --> 00:20:55,175
+Sounds worse than it is.
+
+234
+00:20:55,337 --> 00:20:58,181
+What's an electron between friends?
+
+235
+00:20:58,340 --> 00:21:02,186
+<i>TYSON: Having isolated the sample
+from any outside lead contamination...</i>
+
+236
+00:21:03,012 --> 00:21:05,629
+<i>...Patterson was at last
+ready to measure the</i>
+
+237
+00:21:05,641 --> 00:21:08,269
+<i>amount of lead and
+uranium in the sample...</i>
+
+238
+00:21:08,434 --> 00:21:12,530
+<i>...and calculate how many years before
+it had formed.</i>
+
+239
+00:21:12,688 --> 00:21:15,988
+<i>The true age of the Earth.</i>
+
+240
+00:21:16,150 --> 00:21:20,200
+<i>PATTERSON". Thank you to all the scientists
+who came before.</i>
+
+241
+00:21:21,530 --> 00:21:24,033
+<i>Thank you, geologists.</i>
+
+242
+00:21:24,200 --> 00:21:27,204
+<i>Thank you, Charles Lyell.</i>
+
+243
+00:21:29,955 --> 00:21:32,549
+<i>Thank you, Michael Faraday.</i>
+
+244
+00:21:39,089 --> 00:21:41,387
+<i>J.J. Thomson.</i>
+
+245
+00:21:47,473 --> 00:21:49,475
+<i>Ernest Rutherford.</i>
+
+246
+00:21:59,068 --> 00:22:01,662
+And thank you, Harrison Brown.
+
+247
+00:22:07,660 --> 00:22:13,258
+<i>The world is 4 and a
+half billion years old.</i>
+
+248
+00:22:14,667 --> 00:22:16,340
+We did it.
+
+249
+00:22:28,013 --> 00:22:30,857
+PATTERSON:
+Mom? Mom?
+
+250
+00:22:31,016 --> 00:22:33,439
+<i>TYSON: Patterson wanted his mother
+to be the first person...</i>
+
+251
+00:22:33,602 --> 00:22:37,573
+<i>...to know what he had struggled
+for so many years to discover.</i>
+
+252
+00:22:37,731 --> 00:22:40,951
+<i>The true age of the Earth.</i>
+
+253
+00:22:43,612 --> 00:22:45,831
+<i>His reward for this discovery?</i>
+
+254
+00:22:45,990 --> 00:22:48,163
+<i>A world of trouble.</i>
+
+255
+00:22:48,325 --> 00:22:51,044
+<i>He didn't know it,
+but he was on a collision course...</i>
+
+256
+00:22:51,203 --> 00:22:55,299
+<i>...with some of the most powerful people
+on the planet.</i>
+
+257
+00:23:22,526 --> 00:23:23,903
+<i>TYSON".
+To the ancient Romans...</i>
+
+258
+00:23:24,069 --> 00:23:27,084
+<i>...the majestic ringed
+planet Saturn was not</i>
+
+259
+00:23:27,096 --> 00:23:30,122
+<i>a real place, not a
+world, but a god-king...</i>
+
+260
+00:23:30,284 --> 00:23:36,132
+<i>...a son of the marriage of heaven
+and Earth, the god of lead.</i>
+
+261
+00:23:38,751 --> 00:23:43,006
+These columns are all that remain
+of this oldest temple in the Roman Forum...
+
+262
+00:23:43,172 --> 00:23:47,177
+...first consecrated to Saturn
+2500 years ago.
+
+263
+00:23:47,343 --> 00:23:52,395
+It also served as Rome's treasury
+and its bureau of weights and measures.
+
+264
+00:23:54,725 --> 00:23:59,731
+Tonight is Saturnalia, the wild December
+holiday in Saturn's honor...
+
+265
+00:23:59,897 --> 00:24:02,525
+...and everyday life
+will be turned upside down.
+
+266
+00:24:02,691 --> 00:24:04,489
+The masters will serve the slaves...
+
+267
+00:24:04,652 --> 00:24:08,953
+...no wars or executions will be allowed,
+and gifts will be exchanged.
+
+268
+00:24:09,114 --> 00:24:10,866
+A couple of hundred years from now...
+
+269
+00:24:11,033 --> 00:24:14,378
+...when the early church fathers
+look for a way to attract more pagans...
+
+270
+00:24:14,536 --> 00:24:17,710
+...they'll decide to turn Saturnalia
+into Christmas...
+
+271
+00:24:17,873 --> 00:24:23,380
+...making it the latest in a long line of
+winter solstice holidays to be repurposed.
+
+272
+00:24:30,177 --> 00:24:32,726
+<i>This towering statue of Saturn...</i>
+
+273
+00:24:32,888 --> 00:24:37,143
+<i>...may have looked something like this
+on the night of Saturnalia.</i>
+
+274
+00:24:38,018 --> 00:24:42,615
+<i>In ancient Rome,
+this god had another darker side.</i>
+
+275
+00:24:42,773 --> 00:24:47,654
+<i>That other Saturn
+is a cold and sullen, sluggish ghoul...</i>
+
+276
+00:24:47,820 --> 00:24:50,915
+<i>...given to irrational bouts of rage.</i>
+
+277
+00:24:51,073 --> 00:24:54,828
+<i>He committed an unspeakable act of violence
+against his father...</i>
+
+278
+00:24:54,994 --> 00:24:57,873
+<i>...and devoured his own children.</i>
+
+279
+00:24:58,080 --> 00:25:01,157
+<i>Of all the planets visible
+to the unaided eye</i>
+
+280
+00:25:01,169 --> 00:25:04,258
+<i>of the ancients, Saturn
+is the slowest...</i>
+
+281
+00:25:04,420 --> 00:25:09,426
+<i>...which could explain why they named
+the planet after the god of lead.</i>
+
+282
+00:25:10,551 --> 00:25:14,431
+But there's no denying that the more
+negative aspects of Saturn's personality...
+
+283
+00:25:14,596 --> 00:25:18,351
+...reflect the age-old knowledge
+of the symptoms of lead poisoning.
+
+284
+00:25:18,934 --> 00:25:20,311
+Funny thing about the Romans.
+
+285
+00:25:20,477 --> 00:25:24,107
+Even though they knew that contact with
+lead inevitably poisoned people...
+
+286
+00:25:24,273 --> 00:25:26,412
+...rendered them sterile
+and drove them mad,
+
+287
+00:25:26,424 --> 00:25:28,574
+what metal did they use
+to make the pipes...
+
+288
+00:25:28,736 --> 00:25:31,615
+...that carried the water
+through their legendary aqueducts?
+
+289
+00:25:31,780 --> 00:25:33,157
+I'll give you a hint.
+
+290
+00:25:33,323 --> 00:25:38,921
+The word "plumbing" comes from
+the Latin word for lead, "plumbum."
+
+291
+00:25:50,507 --> 00:25:54,057
+What metal did they use
+to line their famous baths?
+
+292
+00:25:54,219 --> 00:25:57,814
+And how did they sweeten their wines
+when they were too sour?
+
+293
+00:25:57,973 --> 00:26:01,477
+What did they use to line
+their vats and cooking pots?
+
+294
+00:26:01,643 --> 00:26:05,489
+There are some historians who believe
+that the widespread use of lead...
+
+295
+00:26:05,647 --> 00:26:09,242
+...was a major cause in the decline
+and fall of the Roman Empire.
+
+296
+00:26:09,693 --> 00:26:15,075
+Why did they continue to use lead
+long after they knew it was toxic?
+
+297
+00:26:16,408 --> 00:26:19,833
+It was cheap, very malleable,
+easy to work with.
+
+298
+00:26:19,995 --> 00:26:22,965
+And the ones who were exposed to it
+at its most lethal levels...
+
+299
+00:26:23,123 --> 00:26:27,674
+...the miners and workers who processed
+the lead, were considered expendable.
+
+300
+00:26:27,836 --> 00:26:31,591
+Their lives didn't matter.
+They were slaves.
+
+301
+00:26:31,757 --> 00:26:35,387
+Most of the Earth's lead started off
+at a safe distance from living things...
+
+302
+00:26:35,552 --> 00:26:37,054
+...down below the surface.
+
+303
+00:26:37,221 --> 00:26:40,976
+But about 8500 years ago,
+humans began figuring out...
+
+304
+00:26:41,141 --> 00:26:44,020
+...how to dig into the Earth
+and extract metals from rock.
+
+305
+00:26:44,186 --> 00:26:48,407
+By the time this villa was new,
+just a couple thousand years ago...
+
+306
+00:26:48,565 --> 00:26:52,866
+...the Romans were producing
+80,000 tons of lead a year.
+
+307
+00:26:54,947 --> 00:26:58,201
+<i>Why is lead so poisonous to us?</i>
+
+308
+00:26:58,659 --> 00:27:04,257
+<i>Because when it gets into our bodies, lead
+mimics other metals, like zinc and iron...</i>
+
+309
+00:27:04,414 --> 00:27:08,044
+<i>...the ones our cells actually need
+to grow and flourish.</i>
+
+310
+00:27:10,796 --> 00:27:16,053
+<i>Enzymes in the cell are fooled by the
+lead's masquerade, and they begin to dance.</i>
+
+311
+00:27:16,218 --> 00:27:19,295
+<i>But it's a dance of death,
+because the lead is an</i>
+
+312
+00:27:19,307 --> 00:27:22,396
+<i>imposter that can't fulfill
+the cell's vital needs.</i>
+
+313
+00:27:23,767 --> 00:27:29,820
+<i>Lead also blocks neurotransmitters, the
+communication network between the cells.</i>
+
+314
+00:27:31,608 --> 00:27:36,535
+<i>It interferes with the molecular receptors
+that are vital to memory and learning.</i>
+
+315
+00:27:36,697 --> 00:27:42,375
+<i>This is especially damaging to children,
+but lead poisoning spares no one.</i>
+
+316
+00:27:43,412 --> 00:27:45,414
+<i>Starting at the turn of the 20th century...</i>
+
+317
+00:27:45,581 --> 00:27:49,757
+<i>...the makers of leaded paint
+hired the fledgling advertising industry...</i>
+
+318
+00:27:49,918 --> 00:27:53,639
+<i>...to persuade the consumer
+that lead was child-friendly.</i>
+
+319
+00:27:53,797 --> 00:27:57,267
+MAN: <i>A little toy lead soldier
+once to the Dutch Boy said:</i>
+
+320
+00:27:57,426 --> 00:28:00,179
+<i>"We have some fine relations
+who all contain some lead.</i>
+
+321
+00:28:00,345 --> 00:28:03,064
+<i>Why don't you give a party
+so folks can meet and see...</i>
+
+322
+00:28:03,223 --> 00:28:06,227
+<i>...the other happy members
+of the great lead family?"</i>
+
+323
+00:28:06,393 --> 00:28:08,896
+<i>The first one at the party
+was Gay Electric Light.</i>
+
+324
+00:28:09,062 --> 00:28:12,316
+<i>He said, "I'm very brilliant.
+I always shine at night.</i>
+
+325
+00:28:12,482 --> 00:28:15,577
+<i>No little of my brilliance
+is due to my glass head...</i>
+
+326
+00:28:15,736 --> 00:28:19,115
+<i>...which gives a light much brighter
+because it's made with lead."</i>
+
+327
+00:28:19,281 --> 00:28:22,160
+<i>A pair or rubbers entered
+and took the Dutch Boy's arm.</i>
+
+328
+00:28:22,326 --> 00:28:25,956
+<i>They said, "We are protectors
+who keep you dry and warm.</i>
+
+329
+00:28:26,121 --> 00:28:28,874
+<i>You know, when we were molded,
+the man who made us said...</i>
+
+330
+00:28:29,041 --> 00:28:32,966
+<i>...we're strong and tough and lively
+because in us, there's lead."</i>
+
+331
+00:28:33,921 --> 00:28:36,145
+<i>TYSON: But lead production
+didn't really shift</i>
+
+332
+00:28:36,157 --> 00:28:38,392
+<i>into high gear until
+the early 1920s...</i>
+
+333
+00:28:38,550 --> 00:28:42,896
+<i>...when chemist Thomas Midgley and inventor
+Charles Kettering of General Motors...</i>
+
+334
+00:28:43,055 --> 00:28:46,172
+<i>...found that tetraethyl
+lead could be marketed</i>
+
+335
+00:28:46,184 --> 00:28:49,313
+<i>as an anti-knock
+additive to gasoline.</i>
+
+336
+00:28:51,313 --> 00:28:54,943
+<i>They formed a new company
+called the Ethyl Corporation.</i>
+
+337
+00:28:56,026 --> 00:29:01,123
+<i>It had once been considered for use
+as a poison gas by the U.S. War Department.</i>
+
+338
+00:29:01,281 --> 00:29:05,502
+Unlike the lead in paint,
+tetraethyl lead was fat-soluble.
+
+339
+00:29:05,661 --> 00:29:08,961
+A half a cup of it on
+your skin could kill you.
+
+340
+00:29:09,122 --> 00:29:13,172
+The manufacturers calculated that they
+could sell 6O million tons of it a year.
+
+341
+00:29:14,753 --> 00:29:17,677
+<i>Only problem was some of the workers
+who processed the stuff...</i>
+
+342
+00:29:17,839 --> 00:29:20,183
+<i>...in factories in
+Delaware and New Jersey...</i>
+
+343
+00:29:20,342 --> 00:29:23,892
+. . . <i>were going insane, hallucinating.</i> ..
+
+344
+00:29:24,554 --> 00:29:26,147
+<i>...jumping out of windows.</i>
+
+345
+00:29:26,306 --> 00:29:28,183
+<i>They died screaming.</i>
+
+346
+00:29:28,350 --> 00:29:29,897
+[MAN SCREAMING]
+
+347
+00:29:30,060 --> 00:29:34,315
+<i>This was a selling job that would require
+a lot more than dancing light bulbs.</i>
+
+348
+00:29:34,982 --> 00:29:37,861
+[LAUGHING MANIACALLY]
+
+349
+00:29:42,698 --> 00:29:45,923
+<i>What was needed was a
+man of science to calm</i>
+
+350
+00:29:45,935 --> 00:29:49,172
+<i>the public's fears and
+improve lead's image.</i>
+
+351
+00:29:49,705 --> 00:29:52,458
+<i>They found the right man for the job.</i>
+
+352
+00:29:52,624 --> 00:29:56,595
+<i>This was one of the first times
+that the authority of science was used...</i>
+
+353
+00:29:56,753 --> 00:30:00,303
+<i>...to cloak a threat to public health
+and the environment.</i>
+
+354
+00:30:00,465 --> 00:30:05,062
+<i>Robert Kehoe, a young doctor from
+Cincinnati, was hired by GM.</i>
+
+355
+00:30:05,220 --> 00:30:10,772
+<i>He raised scientific doubts in the
+public mind about the dangers of lead.</i>
+
+356
+00:30:11,184 --> 00:30:15,064
+<i>Lead was naturally occurring
+in the environment, he said.</i>
+
+357
+00:30:15,230 --> 00:30:19,235
+<i>Yes, there might be occupational hazards
+for the people who worked with lead.</i>
+
+358
+00:30:19,401 --> 00:30:22,405
+<i>But that could be best handled
+by industry self-regulation.</i>
+
+359
+00:30:23,572 --> 00:30:27,918
+<i>And there was no evidence to suggest
+that lead posed any threat to the consumer.</i>
+
+360
+00:30:28,994 --> 00:30:32,919
+<i>For decades no one challenged him.</i>
+
+361
+00:30:34,458 --> 00:30:39,464
+<i>Until Clair Patterson went searching
+for the age of the Earth.</i>
+
+362
+00:30:44,593 --> 00:30:47,016
+Clair Patterson's research
+on the age of the Earth...
+
+363
+00:30:47,179 --> 00:30:51,059
+...had made him the world's leading expert
+on measuring trace amounts of lead.
+
+364
+00:30:51,224 --> 00:30:53,653
+And like everyone else
+at the time, he assumed
+
+365
+00:30:53,665 --> 00:30:56,105
+the prevalence of lead
+occurred naturally.
+
+366
+00:30:59,775 --> 00:31:03,655
+<i>True scientist that he was, he set out
+to discover everything he could...</i>
+
+367
+00:31:03,820 --> 00:31:07,324
+<i>...about how lead circulates
+through the environment.</i>
+
+368
+00:31:08,116 --> 00:31:10,619
+<i>On a grant from
+the American Petroleum Institute...</i>
+
+369
+00:31:10,786 --> 00:31:15,417
+<i>...he carefully measured the concentrations
+of lead in deep and shallow seawater.</i>
+
+370
+00:31:15,957 --> 00:31:20,463
+<i>Once again Patterson found
+that his initial data made no sense.</i>
+
+371
+00:31:20,629 --> 00:31:24,634
+<i>There were only minuscule concentrations
+of lead in the deep ocean water.</i>
+
+372
+00:31:24,800 --> 00:31:27,053
+<i>But in shallow waters and at the surface...</i>
+
+373
+00:31:27,219 --> 00:31:30,849
+<i>...the concentrations of lead
+were hundreds of times greater.</i>
+
+374
+00:31:31,014 --> 00:31:33,113
+<i>In any ocean, it takes
+a few hundred years</i>
+
+375
+00:31:33,125 --> 00:31:35,235
+<i>for the shallow waters
+to mix with the deep.</i>
+
+376
+00:31:35,811 --> 00:31:38,638
+<i>This told Patterson that
+the large amount of</i>
+
+377
+00:31:38,650 --> 00:31:41,489
+<i>lead in the surface waters
+had arrived recently.</i>
+
+378
+00:31:41,650 --> 00:31:44,449
+<i>Otherwise it would have been
+more evenly distributed.</i>
+
+379
+00:31:44,611 --> 00:31:47,239
+Knowing the quantity of lead
+in the shallow seas...
+
+380
+00:31:47,406 --> 00:31:50,080
+...and the time needed to mix it
+into the deeper layers...
+
+381
+00:31:50,242 --> 00:31:54,918
+...he was able to estimate the rate
+of lead contamination at the surface.
+
+382
+00:31:56,498 --> 00:31:57,841
+<i>Patterson asked himself...</i>
+
+383
+00:31:57,999 --> 00:32:02,630
+<i>...what could possibly supply lead
+to the world's oceans at such a rate.</i>
+
+384
+00:32:10,137 --> 00:32:11,605
+[ENGINE STARTS]
+
+385
+00:32:23,442 --> 00:32:25,865
+HARRISON:
+Where's all that lead coming from?
+
+386
+00:32:26,403 --> 00:32:27,700
+I think I know, Harrison.
+
+387
+00:32:28,697 --> 00:32:30,870
+It's from leaded gasoline.
+
+388
+00:32:31,032 --> 00:32:34,422
+Well, then we've got a
+problem, Pat, because
+
+389
+00:32:34,434 --> 00:32:37,836
+that's the same place
+the money comes from.
+
+390
+00:32:39,249 --> 00:32:41,547
+<i>TYSON".
+But Patterson would not give in.</i>
+
+391
+00:32:41,710 --> 00:32:44,805
+<i>He went right to work
+on publishing the scientific paper...</i>
+
+392
+00:32:44,963 --> 00:32:48,092
+<i>...that would make the case
+against leaded gasoline.</i>
+
+393
+00:32:49,759 --> 00:32:53,684
+When he sent the paper to the prestigious
+scientific journal Nature...
+
+394
+00:32:53,847 --> 00:32:55,565
+...Patterson put his own name second.
+
+395
+00:32:55,724 --> 00:32:58,728
+He often did that with his students
+to advance their reputations.
+
+396
+00:32:59,269 --> 00:33:01,823
+He made a lifelong
+point of shunning the
+
+397
+00:33:01,835 --> 00:33:04,400
+limelight and the privileges
+that come with it.
+
+398
+00:33:07,527 --> 00:33:09,700
+<i>Only three days after publication...</i>
+
+399
+00:33:12,115 --> 00:33:14,413
+<i>...the push-back began.</i>
+
+400
+00:33:24,920 --> 00:33:25,921
+Hello, Dr. Patterson.
+
+401
+00:33:26,087 --> 00:33:29,011
+Pleasure to meet you.
+Very impressed by your work.
+
+402
+00:33:29,174 --> 00:33:33,930
+Your work is of great interest to us
+in the petroleum and chemical industries.
+
+403
+00:33:34,095 --> 00:33:37,099
+Well, it wouldn't have been possible
+without your funding.
+
+404
+00:33:37,265 --> 00:33:38,437
+Precisely.
+
+405
+00:33:38,600 --> 00:33:41,103
+And there's so much more
+we'd like to do for you.
+
+406
+00:33:41,269 --> 00:33:45,115
+Well, I've been thinking about
+measuring lead in polar ice...
+
+407
+00:33:45,273 --> 00:33:48,618
+...to see if it shows the same kind
+of pattern as the oceans.
+
+408
+00:33:48,777 --> 00:33:51,326
+Lead? But you've already done that.
+
+409
+00:33:51,488 --> 00:33:55,288
+We're thinking its time you move on
+to other trace elements.
+
+410
+00:33:55,450 --> 00:34:01,799
+In fact, Dr. Patterson, our ability to
+fund you in any other line of research...
+
+411
+00:34:01,957 --> 00:34:03,550
+...is virtually limitless.
+
+412
+00:34:05,502 --> 00:34:08,005
+Lead is a neurotoxin.
+
+413
+00:34:08,171 --> 00:34:10,520
+When you ship your
+tetraethyl lead from the
+
+414
+00:34:10,532 --> 00:34:12,893
+factory, before you add
+it to the gasoline...
+
+415
+00:34:13,051 --> 00:34:16,396
+...it's handled just like a chemical
+weapon. There's a reason for that.
+
+416
+00:34:17,514 --> 00:34:21,394
+Where do you suppose all that lead goes
+after it leaves the tailpipe?
+
+417
+00:34:21,560 --> 00:34:25,235
+Think about what it might be doing
+to us and our kids.
+
+418
+00:34:26,273 --> 00:34:29,903
+Dr. Kehoe has shown that
+the level of lead in the environment...
+
+419
+00:34:30,068 --> 00:34:33,242
+...is as natural as snow in December.
+
+420
+00:34:33,405 --> 00:34:34,452
+[SIGHS]
+
+421
+00:34:34,614 --> 00:34:36,366
+Then why doesn't it show up
+in the deep water?
+
+422
+00:34:36,533 --> 00:34:38,080
+Here, let me just show you.
+
+423
+00:34:40,328 --> 00:34:41,750
+Thanks for your time.
+
+424
+00:34:41,913 --> 00:34:46,669
+You're just gonna keep on putting millions
+of tons of poison into the air we breathe?
+
+425
+00:34:47,294 --> 00:34:52,016
+If my research doesn't put you out
+of business, some future scientist will.
+
+426
+00:34:52,173 --> 00:34:55,848
+<i>TYSON: Patterson's funding from
+the oil industry vanished overnight.</i>
+
+427
+00:34:56,011 --> 00:34:58,810
+<i>In fact, they tried to get him fired.</i>
+
+428
+00:34:59,973 --> 00:35:05,446
+But the U.S. government, the Army,
+the Navy, the Atomic Energy Commission...
+
+429
+00:35:05,604 --> 00:35:08,858
+...the Public Health Service
+and the National Science Foundation...
+
+430
+00:35:09,024 --> 00:35:12,870
+...stood by him, supporting his research
+on lead pollution.
+
+431
+00:35:13,028 --> 00:35:15,940
+His investigations took
+him from Greenland in
+
+432
+00:35:15,952 --> 00:35:18,876
+the far north to Antarctica
+in the far south...
+
+433
+00:35:19,034 --> 00:35:22,709
+...and to rivers, mountains and valleys
+in between.
+
+434
+00:35:25,373 --> 00:35:28,843
+<i>In even the most hostile conditions,
+Patterson and his team...</i>
+
+435
+00:35:29,002 --> 00:35:32,677
+<i>...worked to replicate the immaculate
+environment of the clean room.</i>
+
+436
+00:35:32,839 --> 00:35:35,934
+<i>Their plastic suits were replaced daily.</i>
+
+437
+00:35:36,092 --> 00:35:39,221
+<i>Working 10- to 12-hour days
+in subzero weather...</i>
+
+438
+00:35:39,387 --> 00:35:43,984
+<i>...they dug a 200-foot-long shaft
+into the ice of Antarctica.</i>
+
+439
+00:35:44,142 --> 00:35:45,985
+<i>It was a form of time-travel.</i>
+
+440
+00:35:46,144 --> 00:35:49,398
+<i>To recover snow
+that had fallen three centuries ago...</i>
+
+441
+00:35:49,564 --> 00:35:52,408
+<i>...before the start
+of the Industrial Revolution.</i>
+
+442
+00:35:53,860 --> 00:35:55,203
+Nose!
+
+443
+00:35:55,362 --> 00:35:57,330
+Wipe your nose, damn it!
+
+444
+00:35:57,489 --> 00:36:00,993
+There's a thousand times more
+lead in you than in this ice.
+
+445
+00:36:01,159 --> 00:36:03,878
+You want to contaminate
+the whole damn sample?
+
+446
+00:36:07,707 --> 00:36:08,754
+[GROANS]
+
+447
+00:36:09,125 --> 00:36:12,675
+<i>TYSON". After four grueling weeks
+of painstaking sample collection...</i>
+
+448
+00:36:12,837 --> 00:36:16,182
+<i>...Patterson was ready
+to go back to the lab.</i>
+
+449
+00:36:18,093 --> 00:36:21,267
+As with the oceans,
+he found that the amount of lead...
+
+450
+00:36:21,429 --> 00:36:24,899
+...was much lower in the snow
+of a few hundred years before.
+
+451
+00:36:25,058 --> 00:36:30,030
+No matter where he searched on Earth, no
+matter how far he traveled back in time...
+
+452
+00:36:30,188 --> 00:36:32,816
+...the results always told the same story.
+
+453
+00:36:32,982 --> 00:36:38,955
+The naturally occurring levels in the air
+and water in the past were far lower.
+
+454
+00:36:43,451 --> 00:36:47,297
+<i>For thousands of years, lead had
+been known to cause brain damage...</i>
+
+455
+00:36:47,455 --> 00:36:52,131
+<i>...developmental impairment,
+violent behavior and even death.</i>
+
+456
+00:36:52,293 --> 00:36:54,466
+<i>In searching for the age of the Earth...</i>
+
+457
+00:36:54,629 --> 00:36:58,122
+<i>...Patterson had stumbled
+on the evidence for</i>
+
+458
+00:36:58,134 --> 00:37:01,638
+<i>a mass poisoning on an
+unprecedented scale.</i>
+
+459
+00:37:05,223 --> 00:37:08,693
+<i>But Kehoe and the other scientists
+employed by the lead industry...</i>
+
+460
+00:37:08,852 --> 00:37:12,231
+<i>...persuaded the public
+they had nothing to worry about.</i>
+
+461
+00:37:12,397 --> 00:37:19,326
+<i>Everyone thought Patterson was a crank
+until one man started to pay attention.</i>
+
+462
+00:37:26,035 --> 00:37:29,505
+Patterson went public with his
+discoveries about lead in a big way.
+
+463
+00:37:29,664 --> 00:37:32,793
+He published his findings
+in a major environmental health journal...
+
+464
+00:37:32,959 --> 00:37:35,303
+...and sent copies
+to various government leaders...
+
+465
+00:37:35,462 --> 00:37:38,636
+...including one highly
+influential senator.
+
+466
+00:37:43,762 --> 00:37:45,105
+<i>Edmund Muskie of Maine...</i>
+
+467
+00:37:45,263 --> 00:37:49,609
+<i>...was the chairman of the Senate
+subcommittee on air and water pollution.</i>
+
+468
+00:37:50,477 --> 00:37:54,653
+<i>In 1966, he held hearings
+on the lead question.</i>
+
+469
+00:37:54,814 --> 00:37:57,784
+<i>The first witness was Dr. Robert Kehoe...</i>
+
+470
+00:37:57,942 --> 00:38:01,822
+<i>...longtime scientific advocate
+for leaded gasoline.</i>
+
+471
+00:38:01,988 --> 00:38:06,710
+Is it, uh, your conclusion that in 1937
+to the present time...
+
+472
+00:38:06,868 --> 00:38:11,294
+...there has been no increase in the amount
+of lead taken in from the atmosphere...
+
+473
+00:38:11,456 --> 00:38:17,429
+...by the average traffic policeman,
+service-station attendant or motorist?
+
+474
+00:38:17,587 --> 00:38:19,555
+There is not the slightest evidence...
+
+475
+00:38:19,714 --> 00:38:23,639
+...that there has been a change in this
+picture during this period of time.
+
+476
+00:38:23,802 --> 00:38:25,600
+Not the slightest.
+
+477
+00:38:26,387 --> 00:38:28,435
+<i>TYSON". The hearings were scheduled
+to take place...</i>
+
+478
+00:38:28,598 --> 00:38:31,568
+<i>...when their fiercest
+critic, Clair Patterson...</i>
+
+479
+00:38:31,726 --> 00:38:33,899
+<i>...was off in Antarctica.</i>
+
+480
+00:38:34,062 --> 00:38:38,818
+<i>But he unexpectedly appeared
+on the fifth day of testimony.</i>
+
+481
+00:38:39,317 --> 00:38:44,574
+Looks like there seems to be an increase
+in the concentration of lead in people...
+
+482
+00:38:44,739 --> 00:38:48,744
+...as a result of exposure to the
+environment. Is that correct?
+
+483
+00:38:49,452 --> 00:38:50,544
+That is correct.
+
+484
+00:38:51,079 --> 00:38:54,407
+In identifying typical
+lead levels, you use
+
+485
+00:38:54,419 --> 00:38:57,758
+actual measurements you've
+taken in the field?
+
+486
+00:38:58,169 --> 00:38:59,261
+Yes.
+
+487
+00:39:00,255 --> 00:39:02,553
+Are these observations different
+from the ones...
+
+488
+00:39:02,715 --> 00:39:05,218
+...we've been hearing about
+from other witnesses?
+
+489
+00:39:05,635 --> 00:39:08,309
+No, they're the same observations.
+
+490
+00:39:09,973 --> 00:39:12,675
+You've testified that
+there has been no change
+
+491
+00:39:12,687 --> 00:39:15,400
+in natural lead levels,
+is that correct?
+
+492
+00:39:15,562 --> 00:39:18,361
+That is correct.
+You're sure about that?
+
+493
+00:39:18,523 --> 00:39:19,740
+Absolutely.
+
+494
+00:39:20,400 --> 00:39:22,903
+PATTERSON: The levels we see
+in people today may be typical.
+
+495
+00:39:23,069 --> 00:39:25,447
+But they are not by any means natural.
+
+496
+00:39:25,822 --> 00:39:29,076
+So you don't disagree
+with Dr. Kehoe's numbers?
+
+497
+00:39:29,492 --> 00:39:30,618
+No, no.
+
+498
+00:39:30,785 --> 00:39:35,086
+You're saying that the, uh, same numbers
+are leading to different conclusions?
+
+499
+00:39:35,498 --> 00:39:36,590
+Yes.
+
+500
+00:39:37,000 --> 00:39:40,180
+You know, this is the
+kind of thing we
+
+501
+00:39:40,192 --> 00:39:43,383
+expect to hear from
+lawyers, not scientists.
+
+502
+00:39:43,548 --> 00:39:44,970
+[CROWD CHATTERING]
+
+503
+00:39:45,133 --> 00:39:46,976
+I would agree with that, yes.
+
+504
+00:39:48,303 --> 00:39:51,227
+You seem to be very sure
+of your conclusions, Dr. Kehoe.
+
+505
+00:39:51,639 --> 00:39:56,486
+It so happens that I have more experience
+in this field than anyone else alive.
+
+506
+00:39:57,896 --> 00:40:03,403
+At these levels, lead is a severe
+chronic insult to the human body.
+
+507
+00:40:03,568 --> 00:40:08,950
+There is no medical evidence that lead
+has introduced a danger to public health.
+
+508
+00:40:09,115 --> 00:40:13,621
+It's irresponsible to mine
+millions of tons of toxic material...
+
+509
+00:40:13,786 --> 00:40:15,663
+...and disperse it into the environment.
+
+510
+00:40:15,830 --> 00:40:18,834
+If there was proof of harm,
+we would have found it.
+
+511
+00:40:19,000 --> 00:40:21,128
+Not if your purpose is to sell lead.
+
+512
+00:40:21,294 --> 00:40:22,386
+[GAVEL BANGS]
+
+513
+00:40:22,545 --> 00:40:25,594
+<i>TYSON: Patterson fought the industry
+for another 20 years...</i>
+
+514
+00:40:25,757 --> 00:40:29,762
+<i>...before lead was finally banned
+in U.S. consumer products.</i>
+
+515
+00:40:29,928 --> 00:40:32,431
+<i>The man who figured out
+the age of the Earth...</i>
+
+516
+00:40:32,597 --> 00:40:35,214
+<i>...was also responsible
+for one of the greatest</i>
+
+517
+00:40:35,226 --> 00:40:37,854
+<i>public health victories
+of the 20th century.</i>
+
+518
+00:40:38,853 --> 00:40:40,025
+In just a few years...
+
+519
+00:40:40,188 --> 00:40:45,240
+...average lead levels in the blood
+of children plummeted by some 75 percent.
+
+520
+00:40:45,401 --> 00:40:48,325
+Today the medical consensus
+is unanimous.
+
+521
+00:40:48,488 --> 00:40:54,370
+There's no such thing as a nontoxic
+level of lead in humans, however small.
+
+522
+00:40:54,535 --> 00:40:58,460
+Today scientists sound the alarm
+on other environmental dangers.
+
+523
+00:40:58,623 --> 00:41:03,003
+Vested interests still hire their own
+scientists to confuse the issue.
+
+524
+00:41:03,169 --> 00:41:07,640
+<i>But in the end, nature will not be fooled.</i>
+
