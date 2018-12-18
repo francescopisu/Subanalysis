@@ -1,0 +1,528 @@
+﻿[Script Info]
+Title: Default file
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+Audio File: 
+Video File: 
+Video Aspect Ratio: 0
+Video Zoom: 6
+Video Position: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue1,Tahoma,64,&H00FFFFFF,&H000000FF,&H1F000000,&HC7000000,0,0,0,0,100,100,0,0,1,2.8,3.4,2,120,120,30,1
+Style: Dialogue2,Tahoma,64,&H00FFFFFF,&H000000FF,&H1F000000,&HC7000000,0,0,0,0,100,100,0,0,1,2.8,3.4,2,120,120,30,1
+Style: Dialogue3,Tahoma,64,&H00FFFFFF,&H000000FF,&H1F000000,&HC7000000,0,0,0,0,100,100,0,0,1,2.8,3.4,2,120,120,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:23.40,0:01:25.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(678,873)}- Permission to come up.
+Dialogue: 0,0:01:23.40,0:01:25.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(678,939)}- Yes.
+Dialogue: 0,0:01:28.92,0:01:30.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(863,944)}Morning.
+Dialogue: 0,0:01:43.80,0:01:47.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(708,943)}Aircraft closing, 1-7-0.
+Dialogue: 0,0:01:47.16,0:01:48.20,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(885,939)}Alarm!
+Dialogue: 0,0:01:48.44,0:01:50.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(757,943)}Move it, gangway.
+Dialogue: 0,0:01:51.28,0:01:52.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(738,943)}Stay down. Move it.
+Dialogue: 0,0:01:53.48,0:01:55.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(789,874)}Out of the way.
+Dialogue: 0,0:01:53.48,0:01:55.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(830,939)}Slow down.
+Dialogue: 0,0:01:56.20,0:01:57.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(838,939)}Watch out.
+Dialogue: 0,0:01:57.96,0:01:59.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(860,939)}Watch it.
+Dialogue: 0,0:01:59.56,0:02:01.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(709,874)}- Upper deck secured.
+Dialogue: 0,0:01:59.56,0:02:01.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(709,944)}- Upper deck secured.
+Dialogue: 0,0:02:02.04,0:02:03.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(706,944)}Flood buoyancy tanks.
+Dialogue: 0,0:02:03.80,0:02:05.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(656,942)}Take her down, 60 metres.
+Dialogue: 0,0:02:11.60,0:02:17.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(569,873)}I'm sure it came from the port side,
+Dialogue: 0,0:02:11.60,0:02:17.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(634,939)}out of the sun. Not identified.
+Dialogue: 0,0:03:00.60,0:03:04.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(553,873)}These fliers they send out sure take
+Dialogue: 0,0:03:00.60,0:03:04.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(602,943)}some chances, you must admit.
+Dialogue: 0,0:03:05.32,0:03:08.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(795,874)}Up there alone
+Dialogue: 0,0:03:05.32,0:03:08.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(656,940)}in their ancient machines...
+Dialogue: 0,0:03:08.28,0:03:10.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(526,943)}...waiting to swoop down on their prey.
+Dialogue: 0,0:03:16.28,0:03:19.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(555,874)}Bombs could be dumped anywhere.
+Dialogue: 0,0:03:16.28,0:03:19.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(750,939)}Who would see it?
+Dialogue: 0,0:03:21.32,0:03:23.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(771,943)}Our loving Lord?
+Dialogue: 0,0:03:28.28,0:03:31.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(591,943)}Our loving Lord sees everything.
+Dialogue: 0,0:03:39.52,0:03:42.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(646,940)}Sheer luck he didn't see us.
+Dialogue: 0,0:03:45.08,0:03:47.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(671,943)}Or was it a sea gull, huh?
+Dialogue: 0,0:03:51.40,0:03:55.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(732,869)}Difficult to see when
+Dialogue: 0,0:03:51.40,0:03:55.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(632,944)}they fly at you out of the sun.
+Dialogue: 0,0:03:57.52,0:04:01.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(768,942)}Well, Dufte, well.
+Dialogue: 0,0:04:02.48,0:04:04.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(634,939)}We'll surface in five minutes.
+Dialogue: 0,0:04:04.64,0:04:06.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(681,944)}It can happen to anyone.
+Dialogue: 0,0:04:06.76,0:04:09.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(733,944)}Stand by to surface.
+Dialogue: 0,0:04:18.88,0:04:23.60,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(617,874)}{\i1}The days tracked by in endless{\i0}
+Dialogue: 0,0:04:18.88,0:04:23.60,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(641,939)}{\i1}succession. On watch or off.{\i0}
+Dialogue: 0,0:04:24.28,0:04:26.36,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(705,944)}{\i1}Nothing ever happens.{\i0}
+Dialogue: 0,0:04:27.28,0:04:32.60,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(705,874)}{\i1}There's only one sound{\i0}
+Dialogue: 0,0:04:27.28,0:04:32.60,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(577,939)}{\i1}that fascinates us more and more.{\i0}
+Dialogue: 0,0:04:33.64,0:04:35.88,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(660,873)}{\i1}The chirping of Morse code{\i0}
+Dialogue: 0,0:04:33.64,0:04:35.88,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(721,944)}{\i1}from the hydrophone.{\i0}
+Dialogue: 0,0:05:30.16,0:05:32.84,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(781,873)}{\i1}Very laboriously,{\i0}
+Dialogue: 0,0:05:30.16,0:05:32.84,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(588,944)}{\i1}the decoding machine converts...{\i0}
+Dialogue: 0,0:05:33.00,0:05:35.52,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(694,873)}{\i1}...a meaningless jumble{\i0}
+Dialogue: 0,0:05:33.00,0:05:35.52,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(677,943)}{\i1}of letters into a message.{\i0}
+Dialogue: 0,0:05:37.68,0:05:39.24,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(793,939)}{\i1}But is it for us?{\i0}
+Dialogue: 0,0:06:57.80,0:06:59.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(896,939)}Well?
+Dialogue: 0,0:07:03.32,0:07:04.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(895,944)}Nope.
+Dialogue: 0,0:07:07.04,0:07:09.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(796,943)}Nothing for us.
+Dialogue: 0,0:07:18.60,0:07:22.52,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(737,869)}{\i1}The line that records{\i0}
+Dialogue: 0,0:07:18.60,0:07:22.52,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(727,944)}{\i1}our course zigzags...{\i0}
+Dialogue: 0,0:07:22.68,0:07:26.56,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(702,874)}{\i1}...like a frightened hare{\i0}
+Dialogue: 0,0:07:22.68,0:07:26.56,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(774,939)}{\i1}across the chart.{\i0}
+Dialogue: 0,0:07:26.72,0:07:29.32,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(659,944)}{\i1}The routine never changes.{\i0}
+Dialogue: 0,0:07:29.48,0:07:33.20,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(579,944)}{\i1}Day in, day out, always the same.{\i0}
+Dialogue: 0,0:07:34.84,0:07:38.92,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(637,874)}{\i1}Every day, the same routine,{\i0}
+Dialogue: 0,0:07:34.84,0:07:38.92,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(695,939)}{\i1}on watch and off watch.{\i0}
+Dialogue: 0,0:07:39.08,0:07:44.72,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(523,873)}{\i1}Everywhere you smell the acrid stench{\i0}
+Dialogue: 0,0:07:39.08,0:07:44.72,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(534,943)}{\i1}of oil, sweat, bilge and damp clothing.{\i0}
+Dialogue: 0,0:07:49.84,0:07:52.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(822,943)}Morning, sir.
+Dialogue: 0,0:08:00.20,0:08:02.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(780,944)}Morning's great.
+Dialogue: 0,0:08:03.88,0:08:06.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(583,943)}Twenty minutes to go, lieutenant.
+Dialogue: 0,0:08:50.20,0:08:54.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(673,873)}Don't waste, peel thinner.
+Dialogue: 0,0:08:50.20,0:08:54.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(733,944)}Orders from the top.
+Dialogue: 0,0:08:54.16,0:08:57.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(706,940)}More coffee over here.
+Dialogue: 0,0:08:57.40,0:08:59.16,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(693,943)}{\i1}It's just before midnight.{\i0}
+Dialogue: 0,0:08:59.32,0:09:02.24,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(674,873)}{\i1}First watch is standing by{\i0}
+Dialogue: 0,0:08:59.32,0:09:02.24,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(822,944)}{\i1}to go on top.{\i0}
+Dialogue: 0,0:09:02.40,0:09:04.60,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(717,873)}{\i1}To get their eyes used{\i0}
+Dialogue: 0,0:09:02.40,0:09:04.60,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(768,939)}{\i1}to the darkness...{\i0}
+Dialogue: 0,0:09:04.76,0:09:07.04,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(709,869)}{\i1}...the control room has{\i0}
+Dialogue: 0,0:09:04.76,0:09:07.04,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(715,943)}{\i1}switched to red lights.{\i0}
+Dialogue: 0,0:09:07.28,0:09:10.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(827,869)}- Watch out
+Dialogue: 0,0:09:07.28,0:09:10.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(827,939)}- Goddamn!
+Dialogue: 0,0:09:10.68,0:09:14.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(659,869)}- I have coffee all over me.
+Dialogue: 0,0:09:10.68,0:09:14.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(659,943)}- Uneasy times, huh?
+Dialogue: 0,0:09:14.84,0:09:17.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(789,939)}Pass the towel.
+Dialogue: 0,0:09:20.28,0:09:24.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(591,944)}The captain, funny guy, isn't he?
+Dialogue: 0,0:09:26.48,0:09:28.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(624,943)}He's reading his letters again.
+Dialogue: 0,0:09:29.80,0:09:31.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(726,939)}What kind of letters?
+Dialogue: 0,0:09:33.04,0:09:35.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(823,939)}Love letters.
+Dialogue: 0,0:09:40.96,0:09:44.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(674,874)}He's got himself engaged
+Dialogue: 0,0:09:40.96,0:09:44.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(759,939)}to this Nazi chick.
+Dialogue: 0,0:09:46.56,0:09:48.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(808,940)}Flier's widow.
+Dialogue: 0,0:09:49.80,0:09:51.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(831,940)}Nazi chick?
+Dialogue: 0,0:09:52.64,0:09:55.36,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(633,944)}They say they're great fucks.
+Dialogue: 0,0:09:57.44,0:10:00.44,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(732,944)}What do you mean?
+Dialogue: 0,0:10:01.12,0:10:04.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(664,874)}They teach the girls at the
+Dialogue: 0,0:10:01.12,0:10:04.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(589,943)}Reich school special techniques.
+Dialogue: 0,0:10:04.80,0:10:06.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(854,939)}Such as?
+Dialogue: 0,0:10:06.40,0:10:12.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(568,873)}They stick chalk in their asses and
+Dialogue: 0,0:10:06.40,0:10:12.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(545,942)}write on the chalkboard, "Otto, Otto."
+Dialogue: 0,0:10:12.92,0:10:16.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(873,869)}It's true.
+Dialogue: 0,0:10:12.92,0:10:16.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(625,943)}That's why they're so flexible.
+Dialogue: 0,0:10:21.52,0:10:24.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(719,874)}- Morning, men.
+Dialogue: 0,0:10:21.52,0:10:24.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(719,943)}- Morning, lieutenant.
+Dialogue: 0,0:10:28.56,0:10:31.72,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(623,944)}{\i1}Ocean, nothing but the ocean.{\i0}
+Dialogue: 0,0:10:31.88,0:10:34.24,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(685,944)}{\i1}Not a sign of the enemy.{\i0}
+Dialogue: 0,0:10:34.40,0:10:37.80,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(622,873)}{\i1}Just grubby necks, torn shirts,{\i0}
+Dialogue: 0,0:10:34.40,0:10:37.80,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(759,944)}{\i1}sweaty blankets...{\i0}
+Dialogue: 0,0:10:37.96,0:10:40.92,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(762,872)}{\i1}...and worst of all,{\i0}
+Dialogue: 0,0:10:37.96,0:10:40.92,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(679,939)}{\i1}our own miserable faces.{\i0}
+Dialogue: 0,0:10:42.88,0:10:44.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(845,944)}Lousy fog.
+Dialogue: 0,0:10:45.32,0:10:47.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(789,944)}Lousy weather.
+Dialogue: 0,0:10:48.28,0:10:50.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(745,944)}Lousy damn patrol.
+Dialogue: 0,0:10:52.64,0:10:56.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(637,870)}None of our folks back home
+Dialogue: 0,0:10:52.64,0:10:56.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(734,940)}know where we are.
+Dialogue: 0,0:10:56.48,0:11:00.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(559,943)}No mail, contact forbidden, nothing.
+Dialogue: 0,0:11:00.44,0:11:04.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(676,874)}I guess when we're sunk,
+Dialogue: 0,0:11:00.44,0:11:04.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(483,943)}we're reported missing, some month later.
+Dialogue: 0,0:11:08.08,0:11:10.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(670,943)}Married yet, Kriechbaum?
+Dialogue: 0,0:11:23.08,0:11:25.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(653,943)}I didn't waste any time, eh?
+Dialogue: 0,0:11:27.40,0:11:29.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(614,943)}We're working on the fifth one.
+Dialogue: 0,0:11:44.60,0:11:48.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(566,943)}Johann, it's good for you, fresh air.
+Dialogue: 0,0:11:50.96,0:11:52.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(923,939)}No.
+Dialogue: 0,0:11:55.76,0:11:58.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(775,874)}They're strange,
+Dialogue: 0,0:11:55.76,0:11:58.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(635,944)}these machine-room people.
+Dialogue: 0,0:12:25.88,0:12:29.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(599,942)}"Aid to cleanliness," four letters.
+Dialogue: 0,0:12:31.24,0:12:32.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(903,939)}Bath.
+Dialogue: 0,0:12:36.12,0:12:37.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(833,944)}Thank you.
+Dialogue: 0,0:12:44.40,0:12:47.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(634,944)}"Deep affection," four letters.
+Dialogue: 0,0:12:50.64,0:12:51.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(901,939)}Love.
+Dialogue: 0,0:12:52.04,0:12:53.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(875,939)}Perfect.
+Dialogue: 0,0:13:03.84,0:13:07.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(570,944)}Intellectual starvation, I would say.
+Dialogue: 0,0:13:15.48,0:13:17.44,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(782,944)}Signal decoder.
+Dialogue: 0,0:13:28.12,0:13:29.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(807,940)}One moment.
+Dialogue: 0,0:14:01.08,0:14:05.36,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(708,943)}Five, six, seven, eight.
+Dialogue: 0,0:14:09.92,0:14:12.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(772,942)}New course, sir?
+Dialogue: 0,0:14:15.60,0:14:17.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(822,939)}One minute.
+Dialogue: 0,0:14:22.12,0:14:23.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(673,943)}Can I see the radiogram?
+Dialogue: 0,0:14:30.28,0:14:36.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(644,874)}Convoy Square at AK 2246.
+Dialogue: 0,0:14:30.28,0:14:36.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(666,944)}Mean course, 60 degrees.
+Dialogue: 0,0:14:37.04,0:14:39.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(656,944)}Speed, 8 knots. U-boat 37.
+Dialogue: 0,0:14:39.76,0:14:43.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(622,872)}U-boat 37, that's Martin's boat
+Dialogue: 0,0:14:39.76,0:14:43.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(741,943)}moving in to attack.
+Dialogue: 0,0:14:50.60,0:14:53.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(574,943)}Too far away. We'll never make it.
+Dialogue: 0,0:14:56.00,0:14:58.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(860,939)}Damned!
+Dialogue: 0,0:14:58.24,0:15:00.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(612,944)}When do we get some orders?
+Dialogue: 0,0:15:36.44,0:15:38.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(797,942)}Well, Johann?
+Dialogue: 0,0:15:38.32,0:15:40.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(866,943)}Captain.
+Dialogue: 0,0:15:40.20,0:15:42.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(649,943)}What's up with the diesels?
+Dialogue: 0,0:15:42.76,0:15:45.20,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(608,942)}The diesels seem satisfied, sir.
+Dialogue: 0,0:15:46.00,0:15:48.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(730,939)}Satisfied and all full.
+Dialogue: 0,0:15:54.64,0:15:57.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(665,870)}The chief is worried about
+Dialogue: 0,0:15:54.64,0:15:57.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(716,943)}our fuel consumption.
+Dialogue: 0,0:15:59.56,0:16:02.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(659,939)}The chief is a careful man.
+Dialogue: 0,0:16:03.64,0:16:05.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(721,944)}What's your opinion?
+Dialogue: 0,0:16:09.24,0:16:11.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(632,939)}The chief knows what's best.
+Dialogue: 0,0:16:20.24,0:16:22.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(718,944)}Funny times, Johann.
+Dialogue: 0,0:16:26.36,0:16:29.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(610,944)}To be careful means very little.
+Dialogue: 0,0:16:32.12,0:16:34.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(732,944)}They need heroes...
+Dialogue: 0,0:16:36.60,0:16:39.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(593,943)}...and they are not too particular.
+Dialogue: 0,0:16:42.96,0:16:46.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(585,944)}They make use of a broken hero.
+Dialogue: 0,0:16:47.04,0:16:49.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(795,938)}Like Thomsen.
+Dialogue: 0,0:16:54.40,0:16:56.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(782,940)}Or a dead hero.
+Dialogue: 0,0:16:58.80,0:17:00.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(824,938)}Like Kelsch.
+Dialogue: 0,0:17:08.36,0:17:12.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(594,873)}A good seaman is also a careful
+Dialogue: 0,0:17:08.36,0:17:12.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(700,944)}seaman, right Johann?
+Dialogue: 0,0:17:13.08,0:17:16.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(564,873)}Says as much in naval regulations.
+Dialogue: 0,0:17:13.08,0:17:16.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(818,939)}Isn't that so?
+Dialogue: 0,0:17:17.92,0:17:20.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(763,872)}On these diesels,
+Dialogue: 0,0:17:17.92,0:17:20.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(673,943)}you can depend, captain.
+Dialogue: 0,0:17:22.92,0:17:25.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(734,943)}It's all right, Johann.
+Dialogue: 0,0:17:35.80,0:17:38.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(830,939)}Excuse me.
+Dialogue: 0,0:17:38.24,0:17:42.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(768,944)}For your journal?
+Dialogue: 0,0:17:42.16,0:17:46.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(514,872)}- Yes, wonderful stuff.
+Dialogue: 0,0:17:42.16,0:17:46.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(514,943)}- Let's see you work! The press is here.
+Dialogue: 0,0:17:46.40,0:17:48.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(731,873)}This way a moment.
+Dialogue: 0,0:17:46.40,0:17:48.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(783,942)}Yes, wonderful.
+Dialogue: 0,0:17:48.88,0:17:53.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(536,873)}So nicely greased with Vaseline now.
+Dialogue: 0,0:17:48.88,0:17:53.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(573,944)}Come on. We're ready to ram it in!
+Dialogue: 0,0:17:53.16,0:17:55.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(687,873)}Don't let me disturb you.
+Dialogue: 0,0:17:53.16,0:17:55.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(761,944)}Carry on working.
+Dialogue: 0,0:17:55.64,0:17:58.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(539,873)}Can I just bring you around this way?
+Dialogue: 0,0:17:55.64,0:17:58.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(838,944)}Yes, good.
+Dialogue: 0,0:18:00.36,0:18:04.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(696,869)}- Yes. Yes.
+Dialogue: 0,0:18:00.36,0:18:04.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(696,939)}- Quick! Quick! Move it!
+Dialogue: 0,0:18:05.96,0:18:07.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(763,943)}Yes, this is great.
+Dialogue: 0,0:18:08.36,0:18:10.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(717,874)}Can you go this way?
+Dialogue: 0,0:18:08.36,0:18:10.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(784,939)}Can I take this?
+Dialogue: 0,0:18:10.88,0:18:13.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(559,943)}Good. Let's have some again with--
+Dialogue: 0,0:18:26.52,0:18:28.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(802,939)}Who did that?
+Dialogue: 0,0:18:31.80,0:18:33.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(795,939)}Who did that?!
+Dialogue: 0,0:18:57.28,0:18:58.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(705,943)}Apply compressed air.
+Dialogue: 0,0:19:12.00,0:19:14.00,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(556,944)}{\i1}The worst day since we shipped out.{\i0}
+Dialogue: 0,0:19:16.00,0:19:18.04,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(616,943)}{\i1}We avoid talking to each other.{\i0}
+Dialogue: 0,0:19:18.76,0:19:20.52,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(603,943)}{\i1}We avoid each other like lepers.{\i0}
+Dialogue: 0,0:19:57.52,0:19:59.44,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(563,944)}Oh, my God, what a useless yo-yo!
+Dialogue: 0,0:20:23.76,0:20:26.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(565,943)}At least she had a real nice shape.
+Dialogue: 0,0:20:28.32,0:20:30.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(560,940)}Must make the best of what's there.
+Dialogue: 0,0:20:32.92,0:20:35.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(698,874)}She hasn't got a friend.
+Dialogue: 0,0:20:32.92,0:20:35.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(650,944)}The girl's not a dame, huh?
+Dialogue: 0,0:20:38.44,0:20:39.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(911,944)}Hey.
+Dialogue: 0,0:20:39.68,0:20:44.20,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(566,872)}The exhaust doors, to countersink,
+Dialogue: 0,0:20:39.68,0:20:44.20,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(667,943)}I'll never forget that again.
+Dialogue: 0,0:20:56.24,0:21:00.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(663,874)}I remember a day in Paris,
+Dialogue: 0,0:20:56.24,0:21:00.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(843,940)}in a bistro.
+Dialogue: 0,0:21:06.00,0:21:10.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(599,943)}Good, what is it? Is it real sexy?
+Dialogue: 0,0:21:11.88,0:21:12.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(819,939)}Let's have it.
+Dialogue: 0,0:21:16.24,0:21:19.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(704,874)}There is this black guy
+Dialogue: 0,0:21:16.24,0:21:19.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(745,944)}with that blond girl.
+Dialogue: 0,0:21:22.52,0:21:25.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(656,873)}And she's playing with him
+Dialogue: 0,0:21:22.52,0:21:25.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(784,940)}under the table.
+Dialogue: 0,0:21:26.56,0:21:29.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(579,944)}They are not shy about that at all.
+Dialogue: 0,0:21:29.20,0:21:30.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(728,939)}Those sluts in Paris.
+Dialogue: 0,0:21:33.48,0:21:35.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(771,942)}Me neither, man.
+Dialogue: 0,0:21:37.08,0:21:40.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(684,873)}Then he starts moaning,
+Dialogue: 0,0:21:37.08,0:21:40.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(791,943)}rolls his eyes...
+Dialogue: 0,0:21:42.24,0:21:44.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(597,940)}...I check underneath the table...
+Dialogue: 0,0:21:44.80,0:21:46.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(712,939)}...and see him come...
+Dialogue: 0,0:21:48.64,0:21:50.44,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(651,943)}...and it lands on my shoes.
+Dialogue: 0,0:21:51.04,0:21:53.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(547,943)}That's still better than in your coffee.
+Dialogue: 0,0:22:00.56,0:22:03.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(608,870)}- Mine is warm.
+Dialogue: 0,0:22:00.56,0:22:03.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(608,943)}- They might relieve us sooner.
+Dialogue: 0,0:22:04.16,0:22:07.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(660,874)}- It's always the same.
+Dialogue: 0,0:22:04.16,0:22:07.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(660,944)}- They always turn up late.
+Dialogue: 0,0:22:07.92,0:22:09.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(723,944)}Hey, watch out, man.
+Dialogue: 0,0:22:22.28,0:22:26.00,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(611,944)}{\i1}Nothing is happening. Nothing.{\i0}
+Dialogue: 0,0:22:27.08,0:22:28.44,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(702,943)}{\i1}We are sailing in limbo.{\i0}
+Dialogue: 0,0:22:30.08,0:22:32.68,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(731,869)}{\i1}The silence on board{\i0}
+Dialogue: 0,0:22:30.08,0:22:32.68,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(654,939)}{\i1}is like the inside of a coffin.{\i0}
+Dialogue: 0,0:23:01.68,0:23:04.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(624,874)}One goddamn toilet, and then
+Dialogue: 0,0:23:01.68,0:23:04.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(572,943)}you have to share with this whore.
+Dialogue: 0,0:23:23.32,0:23:26.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(533,873)}Where is our friend the Bible-thumper
+Dialogue: 0,0:23:23.32,0:23:26.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(689,944)}coming from, Schwalle?
+Dialogue: 0,0:23:27.04,0:23:28.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(719,944)}He's a church berger.
+Dialogue: 0,0:23:33.04,0:23:35.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(583,874)}Must be a pretty good place, huh,
+Dialogue: 0,0:23:33.04,0:23:35.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(851,939)}Schwalle.
+Dialogue: 0,0:23:36.24,0:23:39.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(626,873)}They raise the afterbirths and
+Dialogue: 0,0:23:36.24,0:23:39.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(519,944)}chuck the babies in the garbage dump.
+Dialogue: 0,0:23:44.80,0:23:47.44,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(817,944)}Hey, friend...
+Dialogue: 0,0:23:50.00,0:23:53.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(672,873)}...what chapter is it today,
+Dialogue: 0,0:23:50.00,0:23:53.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(794,944)}Lord, my host?
+Dialogue: 0,0:23:55.64,0:23:57.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(710,944)}Shut your dirty mouth.
+Dialogue: 0,0:23:57.40,0:24:01.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(557,874)}- Shut up, huh? I'll shut your mouth.
+Dialogue: 0,0:23:57.40,0:24:01.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(557,939)}- Leave me alone.
+Dialogue: 0,0:24:02.08,0:24:04.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(687,874)}Gives me a bloody pain,
+Dialogue: 0,0:24:02.08,0:24:04.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(650,943)}spouting this religious stuff.
+Dialogue: 0,0:24:04.68,0:24:09.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(521,873)}Let him have his way, we'll be crawling
+Dialogue: 0,0:24:04.68,0:24:09.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(555,943)}on both knees, singing and praying.
+Dialogue: 0,0:24:47.20,0:24:48.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(793,942)}Tell me, now...
+Dialogue: 0,0:24:49.88,0:24:52.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(577,944)}...you got any hairs up your nose?
+Dialogue: 0,0:24:53.68,0:24:56.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(663,874)}- Why?
+Dialogue: 0,0:24:53.68,0:24:56.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(663,944)}- I've got some up my ass.
+Dialogue: 0,0:24:58.60,0:25:00.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(559,944)}Maybe we could knit them together.
+Dialogue: 0,0:25:09.56,0:25:11.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(726,943)}Françoise, my love...
+Dialogue: 0,0:25:11.72,0:25:15.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(706,873)}...this is my 14th letter,
+Dialogue: 0,0:25:11.72,0:25:15.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(671,944)}but you've yet to see one.
+Dialogue: 0,0:25:27.08,0:25:28.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(779,944)}20th day at sea.
+Dialogue: 0,0:25:28.64,0:25:32.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(572,874)}Head foggy, limbs hurt, eyes burn.
+Dialogue: 0,0:25:28.64,0:25:32.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(788,944)}It's all so crazy.
+Dialogue: 0,0:25:32.88,0:25:37.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(613,874)}Inhale bad smells and produce
+Dialogue: 0,0:25:32.88,0:25:37.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(657,940)}our own. What a madness.
+Dialogue: 0,0:25:37.32,0:25:40.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(871,869)}- Alarm!
+Dialogue: 0,0:25:37.32,0:25:40.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(871,939)}- Alarm!
+Dialogue: 0,0:25:40.44,0:25:41.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(824,943)}Get topside.
+Dialogue: 0,0:25:44.40,0:25:46.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(871,939)}Flood it!
+Dialogue: 0,0:25:46.28,0:25:47.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(727,943)}All main vents open!
+Dialogue: 0,0:25:48.08,0:25:50.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(514,943)}There's a shadow appearing starboard.
+Dialogue: 0,0:25:50.48,0:25:53.20,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(558,870)}- Take her down 30 metres.
+Dialogue: 0,0:25:50.48,0:25:53.20,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(558,944)}- Down 30 metres. Stern planes up.
+Dialogue: 0,0:25:53.36,0:25:55.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(648,944)}Easy. Bow planes down 10.
+Dialogue: 0,0:25:56.32,0:25:58.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(792,939)}Planes at zero.
+Dialogue: 0,0:25:59.40,0:26:01.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(580,944)}Anything on the starboard beam?
+Dialogue: 0,0:26:01.64,0:26:03.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(763,944)}Propeller sounds.
+Dialogue: 0,0:26:13.44,0:26:15.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(798,944)}1-1-0 degrees.
+Dialogue: 0,0:26:20.68,0:26:22.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(804,944)}Way aft of us.
+Dialogue: 0,0:26:32.48,0:26:34.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(691,943)}Contact growing fainter.
+Dialogue: 0,0:26:42.44,0:26:44.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(806,943)}Fading faster.
+Dialogue: 0,0:26:51.92,0:26:53.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(865,944)}All right.
+Dialogue: 0,0:26:54.84,0:26:57.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(646,944)}We'd better stay down now.
+Dialogue: 0,0:26:57.48,0:27:00.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(810,870)}- Steer 1-2-0.
+Dialogue: 0,0:26:57.48,0:27:00.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(810,940)}- Steer 1-2-0.
+Dialogue: 0,0:27:04.44,0:27:07.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(665,943)}A lone ship travelling fast.
+Dialogue: 0,0:27:07.96,0:27:10.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(734,869)}We have no chance
+Dialogue: 0,0:27:07.96,0:27:10.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(674,943)}of getting her in this light.
+Dialogue: 0,0:27:10.44,0:27:12.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(730,944)}Steady on 1-2-0, sir.
+Dialogue: 0,0:27:19.20,0:27:21.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(654,944)}Stand by to take a reading.
+Dialogue: 0,0:27:49.36,0:27:52.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(590,873)}"It's more than merely superficial
+Dialogue: 0,0:27:49.36,0:27:52.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(805,939)}to take care...
+Dialogue: 0,0:27:52.20,0:27:54.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(546,943)}...in dress and personal appearance.
+Dialogue: 0,0:27:54.48,0:27:57.36,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(637,870)}It denotes that the inner man
+Dialogue: 0,0:27:54.48,0:27:57.36,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(677,943)}is someone upstanding...
+Dialogue: 0,0:27:57.52,0:28:00.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(589,873)}...and has a corresponding effect
+Dialogue: 0,0:27:57.52,0:28:00.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(776,944)}on other people.
+Dialogue: 0,0:28:00.24,0:28:02.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(732,870)}An officer should be
+Dialogue: 0,0:28:00.24,0:28:02.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(656,944)}thoroughly unpretentious...
+Dialogue: 0,0:28:03.00,0:28:05.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(633,943)}...in his dressing deportment.
+Dialogue: 0,0:28:05.16,0:28:07.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(768,873)}This, regrettably,
+Dialogue: 0,0:28:05.16,0:28:07.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(703,944)}is not always the case.
+Dialogue: 0,0:28:07.56,0:28:08.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(775,944)}In the old days...
+Dialogue: 0,0:28:09.08,0:28:12.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(568,873)}...young officers used to be treated
+Dialogue: 0,0:28:09.08,0:28:12.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(600,943)}more indulgently in this respect.
+Dialogue: 0,0:28:12.40,0:28:15.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(569,869)}Mindful that the German lieutenant
+Dialogue: 0,0:28:12.40,0:28:15.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(568,944)}had always been prepared to die...
+Dialogue: 0,0:28:15.92,0:28:17.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(640,943)}...in a pinch, his superiors..."
+Dialogue: 0,0:28:17.84,0:28:19.36,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(751,942)}Comfortable, huh?
+Dialogue: 0,0:28:21.04,0:28:22.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(706,944)}No mail, no telephone.
+Dialogue: 0,0:28:25.00,0:28:26.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(727,939)}Well-ventilated boat.
+Dialogue: 0,0:28:27.64,0:28:29.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(715,943)}Solid-wood panelling.
+Dialogue: 0,0:28:33.92,0:28:35.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(804,939)}Free food too.
+Dialogue: 0,0:28:36.44,0:28:38.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(725,940)}We're in clover here.
+Dialogue: 0,0:28:39.36,0:28:41.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(653,943)}Like fresh horse droppings.
+Dialogue: 0,0:28:43.68,0:28:45.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(601,943)}They're rolling in clover as well.
+Dialogue: 0,0:28:46.56,0:28:49.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(681,874)}They've no need to work
+Dialogue: 0,0:28:46.56,0:28:49.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(774,943)}to make a living.
+Dialogue: 0,0:28:49.88,0:28:52.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(600,944)}They're even allowed to smoke.
+Dialogue: 0,0:28:55.80,0:28:58.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(656,870)}"And when all that remains
+Dialogue: 0,0:28:55.80,0:28:58.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(574,944)}in the gaze that they turn on him...
+Dialogue: 0,0:28:59.12,0:29:03.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(521,873)}...is the age-old question that betokens
+Dialogue: 0,0:28:59.12,0:29:03.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(626,940)}ultimate trust and confidence:
+Dialogue: 0,0:29:03.64,0:29:06.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(565,943)}'Sir, where do you order us to die?'
+Dialogue: 0,0:29:06.92,0:29:11.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(576,873)}A junior officer reaps the full fruits
+Dialogue: 0,0:29:06.92,0:29:11.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(529,940)}of his labour as leader and educator...
+Dialogue: 0,0:29:11.64,0:29:14.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(655,873)}...when given responsibility
+Dialogue: 0,0:29:11.64,0:29:14.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(764,943)}for the training..."
+Dialogue: 0,0:29:14.56,0:29:18.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(588,943)}U-boat special cocktail. Jealous?
+Dialogue: 0,0:29:29.36,0:29:31.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(852,944)}Stop that!
+Dialogue: 0,0:29:51.92,0:29:54.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(719,944)}"Our recent triumphs:
+Dialogue: 0,0:29:56.12,0:29:59.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(585,873)}We dive to evade enemy aircraft.
+Dialogue: 0,0:29:56.12,0:29:59.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(818,939)}Lost contact.
+Dialogue: 0,0:30:00.04,0:30:03.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(693,873)}Dive to avoid destroyer.
+Dialogue: 0,0:30:00.04,0:30:03.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(793,944)}Depth charge."
+Dialogue: 0,0:30:11.40,0:30:14.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(676,873)}The British have stopped
+Dialogue: 0,0:30:11.40,0:30:14.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(764,943)}making mistakes.
+Dialogue: 0,0:30:54.20,0:30:58.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(741,874)}Cut off extra supply
+Dialogue: 0,0:30:54.20,0:30:58.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(715,943)}of fuel to the engines!
+Dialogue: 0,0:31:02.00,0:31:05.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(563,874)}- Torpedo rooms, carry out lateral--
+Dialogue: 0,0:31:02.00,0:31:05.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(563,939)}- Come on!
+Dialogue: 0,0:31:14.16,0:31:16.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(628,869)}- Watch out!
+Dialogue: 0,0:31:14.16,0:31:16.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(628,943)}- Check periscope alignment.
+Dialogue: 0,0:31:16.72,0:31:18.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(676,944)}I'll be in the engine room.
+Dialogue: 0,0:31:18.92,0:31:20.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(866,869)}- 0-6-0.
+Dialogue: 0,0:31:18.92,0:31:20.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(866,939)}- Check.
+Dialogue: 0,0:31:20.80,0:31:22.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(763,944)}What's going on?
+Dialogue: 0,0:31:23.44,0:31:26.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(633,873)}- Look out! Here we go, girls.
+Dialogue: 0,0:31:23.44,0:31:26.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(633,943)}- What's happening?
+Dialogue: 0,0:31:26.44,0:31:29.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(598,873)}It's U-32. She's spotted a British
+Dialogue: 0,0:31:26.44,0:31:29.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(576,944)}convoy somewhere in our vicinity.
+Dialogue: 0,0:31:30.12,0:31:31.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(596,940)}We should be there in 10 hours.
+Dialogue: 0,0:31:39.04,0:31:40.56,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(784,869)}{\i1}- Now hear this.{\i0}
+Dialogue: 0,0:31:39.04,0:31:40.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(781,939)}- Listen.
+Dialogue: 0,0:31:40.72,0:31:44.40,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(563,874)}{\i1}U-32 is operating against a convoy.{\i0}
+Dialogue: 0,0:31:40.72,0:31:44.40,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(670,944)}{\i1}We are joining in the hunt.{\i0}
+Dialogue: 0,0:31:44.56,0:31:47.08,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(670,874)}{\i1}Contact expected anytime{\i0}
+Dialogue: 0,0:31:44.56,0:31:47.08,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(700,939)}{\i1}after 1800 hours. Over.{\i0}
+Dialogue: 0,0:31:49.28,0:31:52.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(555,873)}Soon we'll get rid of these beauties.
+Dialogue: 0,0:31:49.28,0:31:52.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(636,944)}They're all ready for blastoff.
+Dialogue: 0,0:31:54.80,0:31:57.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(749,943)}Over 30 freighters!
+Dialogue: 0,0:31:58.32,0:32:00.44,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(586,940)}Berthold has to wait till we arrive.
+Dialogue: 0,0:32:00.60,0:32:03.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(697,874)}He followed the convoy
+Dialogue: 0,0:32:00.60,0:32:03.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(631,943)}and keeps in contact with us.
+Dialogue: 0,0:32:06.56,0:32:09.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(875,872)}For me,
+Dialogue: 0,0:32:06.56,0:32:09.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(564,942)}it's the best craft afloat, the U-boat.
+Dialogue: 0,0:32:09.96,0:32:11.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(758,943)}And sailing ships.
+Dialogue: 0,0:32:11.64,0:32:14.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(675,873)}Skimming across the sea
+Dialogue: 0,0:32:11.64,0:32:14.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(727,943)}like a bird on a wing.
+Dialogue: 0,0:32:14.96,0:32:18.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(514,870)}I've sailed on a three-masted schooner.
+Dialogue: 0,0:32:14.96,0:32:18.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(782,944)}Wonderful ship.
+Dialogue: 0,0:32:18.92,0:32:22.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(555,944)}Lots of room. Hulls big as churches.
+Dialogue: 0,0:32:29.32,0:32:31.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(609,944)}That's a fine way to waste fuel.
+Dialogue: 0,0:32:33.08,0:32:34.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(873,939)}Lunatic.
+Dialogue: 0,0:32:53.04,0:32:54.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(742,939)}Damn this weather!
+Dialogue: 0,0:32:57.24,0:32:59.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(591,944)}Come on, give us another squirt.
+Dialogue: 0,0:33:04.04,0:33:05.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(744,940)}Another two hours.
+Dialogue: 0,0:33:08.56,0:33:11.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(594,943)}Why doesn't Berthold signal us?
+Dialogue: 0,0:33:20.92,0:33:23.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(624,874)}Maybe one of their destroyers
+Dialogue: 0,0:33:20.92,0:33:23.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(747,944)}got him on the run.
+Dialogue: 0,0:33:25.76,0:33:27.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(560,943)}On the alert these days, the British.
+Dialogue: 0,0:33:38.04,0:33:40.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(656,874)}They keep their destroyers
+Dialogue: 0,0:33:38.04,0:33:40.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(775,943)}well out of sight.
+Dialogue: 0,0:33:46.56,0:33:48.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(829,944)}Very neat...
+Dialogue: 0,0:33:50.00,0:33:53.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(645,870)}...deflect us from our course
+Dialogue: 0,0:33:50.00,0:33:53.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(655,944)}before our boat is in range.
+Dialogue: 0,0:33:53.96,0:33:55.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(745,940)}Or force us to dive.
+Dialogue: 0,0:33:58.00,0:34:03.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(542,873)}Yeah, yeah, it's no submarine picnic,
+Dialogue: 0,0:33:58.00,0:34:03.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(796,944)}let me tell you.
+Dialogue: 0,0:34:12.04,0:34:13.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(644,942)}Damn this weather, damn it.
+Dialogue: 0,0:34:21.00,0:34:23.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(540,873)}We could pass the British completely
+Dialogue: 0,0:34:21.00,0:34:23.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(725,943)}without seeing them.
+Dialogue: 0,0:34:26.64,0:34:31.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(598,873)}We should be well within range.
+Dialogue: 0,0:34:26.64,0:34:31.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(594,943)}Why doesn't Berthold signal us?
+Dialogue: 0,0:34:33.88,0:34:36.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(590,944)}Why haven't we heard from HQ?
+Dialogue: 0,0:34:40.88,0:34:44.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(615,943)}Visibility is nil, sir! It's useless!
+Dialogue: 0,0:34:50.92,0:34:54.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(764,873)}- Prepare to dive.
+Dialogue: 0,0:34:50.92,0:34:54.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(764,943)}- Prepare to dive!
+Dialogue: 0,0:34:57.04,0:35:01.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(701,874)}- Clear the bridge now!
+Dialogue: 0,0:34:57.04,0:35:01.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(701,939)}- Shut it!
+Dialogue: 0,0:35:05.72,0:35:09.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(521,943)}Diving positions! Stand by, main vents.
+Dialogue: 0,0:35:42.72,0:35:44.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(752,944)}Bow planes up 10.
+Dialogue: 0,0:35:45.04,0:35:46.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(803,940)}Stern down 5.
+Dialogue: 0,0:35:48.20,0:35:50.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(766,944)}Bow planes zero.
+Dialogue: 0,0:35:50.28,0:35:52.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(836,940)}Stern zero.
+Dialogue: 0,0:35:54.00,0:35:57.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(602,943)}What's up? Why are we diving?
+Dialogue: 0,0:35:58.40,0:36:01.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(725,874)}- Hydrophone check.
+Dialogue: 0,0:35:58.40,0:36:01.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(725,939)}- What?
+Dialogue: 0,0:36:01.32,0:36:06.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(638,874)}In bad weather, you are able
+Dialogue: 0,0:36:01.32,0:36:06.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(533,940)}to hear more than see on the surface.
+Dialogue: 0,0:36:06.20,0:36:10.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(681,874)}Stern planes up 5. Easy.
+Dialogue: 0,0:36:06.20,0:36:10.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(763,944)}Both planes zero.
+Dialogue: 0,0:36:43.40,0:36:45.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(660,944)}Can't you make a contact?
+Dialogue: 0,0:36:57.40,0:36:59.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(860,943)}Nothing?
+Dialogue: 0,0:37:46.80,0:37:50.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(693,943)}Captain. Captain. Here.
+Dialogue: 0,0:37:53.24,0:37:56.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(575,943)}Contact bearing 0-6-0. Quite faint.
+Dialogue: 0,0:38:11.16,0:38:12.36,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(789,944)}Depth charges.
+Dialogue: 0,0:38:16.24,0:38:18.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(660,943)}They're blasting someone.
+Dialogue: 0,0:38:25.48,0:38:28.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(586,944)}What's the bearing from us now?
+Dialogue: 0,0:38:33.08,0:38:36.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(649,943)}Moving right 0-4-5 degrees.
+Dialogue: 0,0:38:37.56,0:38:39.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(714,944)}Moving away from us.
+Dialogue: 0,0:38:46.32,0:38:49.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(708,870)}- Surface! Steer 3-3-0.
+Dialogue: 0,0:38:46.32,0:38:49.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(708,940)}- Steer 3-3-0.
+Dialogue: 0,0:38:49.80,0:38:52.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(674,874)}Bow up 10, stern down 5.
+Dialogue: 0,0:38:49.80,0:38:52.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(726,940)}All ahead two-thirds.
+Dialogue: 0,0:38:52.32,0:38:53.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(685,943)}Note this in our logbook:
+Dialogue: 0,0:38:54.00,0:38:57.20,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(599,873)}In spite of bad weather, decided
+Dialogue: 0,0:38:54.00,0:38:57.20,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(507,943)}to commence operation. Moving in now.
+Dialogue: 0,0:38:57.36,0:38:59.00,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(730,944)}Steady on 3-3-0, sir.
+Dialogue: 0,0:39:28.88,0:39:31.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(652,943)}Damn the stinking weather!
+Dialogue: 0,0:39:32.00,0:39:35.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(709,869)}- How does it look?
+Dialogue: 0,0:39:32.00,0:39:35.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(709,943)}- One minute, captain.
+Dialogue: 0,0:39:37.20,0:39:40.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(500,874)}We are here. The enemy should be here
+Dialogue: 0,0:39:37.20,0:39:40.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(672,944)}if they haven't zigzagged.
+Dialogue: 0,0:39:40.68,0:39:45.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(648,874)}Freighter on starboard bow!
+Dialogue: 0,0:39:40.68,0:39:45.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(800,943)}Bearing 0-4-0.
+Dialogue: 0,0:39:50.24,0:39:54.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(534,943)}They're over there! 0-4-0 and closing!
+Dialogue: 0,0:40:01.64,0:40:04.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(746,944)}That's no freighter.
+Dialogue: 0,0:40:06.04,0:40:08.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(781,944)}No, a destroyer.
+Dialogue: 0,0:40:09.56,0:40:13.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(515,943)}Coming straight at us. Clear the bridge.
+Dialogue: 0,0:40:19.88,0:40:21.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(784,939)}Take her down!
+Dialogue: 0,0:40:31.92,0:40:34.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(652,873)}- Come to periscope depth.
+Dialogue: 0,0:40:31.92,0:40:34.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(652,943)}- Come to periscope depth.
+Dialogue: 0,0:40:35.36,0:40:37.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(752,944)}Bow planes up 10.
+Dialogue: 0,0:40:57.64,0:40:59.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(763,944)}Both planes zero.
+Dialogue: 0,0:41:06.04,0:41:08.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(803,940)}Stern down 5.
+Dialogue: 0,0:41:10.52,0:41:12.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(852,944)}Come up.
+Dialogue: 0,0:41:33.76,0:41:36.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(664,873)}- Stand by, battle stations.
+Dialogue: 0,0:41:33.76,0:41:36.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(664,943)}- Stand by, battle stations.
+Dialogue: 0,0:41:37.00,0:41:39.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(664,873)}- Stand by, battle stations.
+Dialogue: 0,0:41:37.00,0:41:39.56,Dialogue3,Unknown,0000,0000,0000,,{\an4\pos(667,944)}{\i1}- Stand by, battle stations.{\i0}
+Dialogue: 0,0:41:39.72,0:41:41.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(691,943)}Out of the way, damn it!
+Dialogue: 0,0:41:43.04,0:41:44.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(847,944)}Gangway!
+Dialogue: 0,0:41:44.64,0:41:46.56,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(841,944)}Make way!
+Dialogue: 0,0:41:47.28,0:41:50.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(662,874)}Go, go, go! Faster! Faster!
+Dialogue: 0,0:41:47.28,0:41:50.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(795,944)}Hop, hop, hop!
+Dialogue: 0,0:41:58.08,0:42:00.36,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(746,943)}Keep it level, chief.
+Dialogue: 0,0:42:08.96,0:42:10.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(626,944)}Flood tubes one through four.
+Dialogue: 0,0:42:11.40,0:42:16.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(609,874)}- Flood tubes one through four.
+Dialogue: 0,0:42:11.40,0:42:16.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(609,944)}- Flood tubes one through four.
+Dialogue: 0,0:42:16.24,0:42:20.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(588,874)}He wants to attack the destroyer.
+Dialogue: 0,0:42:16.24,0:42:20.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(715,944)}Crazy in this weather.
+Dialogue: 0,0:42:20.28,0:42:22.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(588,944)}Tubes one through four, flooded.
+Dialogue: 0,0:42:24.20,0:42:26.40,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(684,943)}Watch your depth, chief.
+Dialogue: 0,0:42:26.56,0:42:29.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(766,874)}Bow planes up 2.
+Dialogue: 0,0:42:26.56,0:42:29.48,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(720,944)}Stern planes down 2.
+Dialogue: 0,0:42:33.12,0:42:34.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(852,939)}Come on.
+Dialogue: 0,0:42:36.28,0:42:38.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(665,944)}Both planes come to zero.
+Dialogue: 0,0:42:38.44,0:42:41.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(822,940)}13.5 metres.
+Dialogue: 0,0:42:44.44,0:42:47.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(707,874)}- Open bow caps now.
+Dialogue: 0,0:42:44.44,0:42:47.76,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(707,944)}- Open bow caps.
+Dialogue: 0,0:43:00.28,0:43:02.44,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(727,944)}Enemy speed to 1-0.
+Dialogue: 0,0:43:02.60,0:43:05.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(663,944)}Bow left. Bow angle 0-3-0.
+Dialogue: 0,0:43:05.68,0:43:07.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(809,944)}Range, 6000.
+Dialogue: 0,0:43:08.00,0:43:09.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(774,944)}Depth, 2 metres.
+Dialogue: 0,0:43:11.08,0:43:15.20,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(729,874)}Torpedo speed, 4-0.
+Dialogue: 0,0:43:11.08,0:43:15.20,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(510,944)}Spread shots from tubes one and three.
+Dialogue: 0,0:43:15.36,0:43:18.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(558,874)}- Angle of spread, 3 degrees.
+Dialogue: 0,0:43:15.36,0:43:18.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(558,944)}- Spread shot, tubes one and three.
+Dialogue: 0,0:43:18.80,0:43:21.12,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(644,944)}Angle of spread, 3 degrees.
+Dialogue: 0,0:43:21.28,0:43:24.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(694,874)}Tubes one through four
+Dialogue: 0,0:43:21.28,0:43:24.80,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(655,943)}ready for submerged firing.
+Dialogue: 0,0:43:47.48,0:43:49.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(868,939)}Damn it!
+Dialogue: 0,0:43:50.80,0:43:52.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(868,939)}Damn it!
+Dialogue: 0,0:44:07.40,0:44:10.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(665,874)}Close bow caps. Take her
+Dialogue: 0,0:44:07.40,0:44:10.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(603,944)}deeper, chief! Take her deeper!
+Dialogue: 0,0:44:17.72,0:44:18.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(688,944)}Depth charges dropped!
+Dialogue: 0,0:44:25.04,0:44:26.84,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(789,944)}Depth charges!
+Dialogue: 0,0:44:33.52,0:44:36.04,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(702,943)}Get some fuses, quick!
+Dialogue: 0,0:44:36.52,0:44:39.16,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(568,940)}Check all hull valves and closures.
+Dialogue: 0,0:44:55.80,0:44:57.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(747,942)}Control, all secure.
+Dialogue: 0,0:44:58.68,0:45:00.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(773,940)}Forecastle clear.
+Dialogue: 0,0:45:04.68,0:45:06.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(734,944)}No serious damage.
+Dialogue: 0,0:45:11.32,0:45:14.28,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(517,944)}They must have spotted our periscope.
+Dialogue: 0,0:45:18.64,0:45:20.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(764,869)}Seems incredible
+Dialogue: 0,0:45:18.64,0:45:20.52,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(698,939)}with that sea condition.
+Dialogue: 0,0:45:39.24,0:45:40.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(809,874)}- Are you ok?
+Dialogue: 0,0:45:39.24,0:45:40.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(809,938)}- I'm fine.
+Dialogue: 0,0:45:41.12,0:45:42.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(893,939)}Quiet!
+Dialogue: 0,0:46:45.12,0:46:48.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(652,874)}Both planes steady at zero.
+Dialogue: 0,0:46:45.12,0:46:48.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(745,940)}Level at 60 metres.
+Dialogue: 0,0:46:48.76,0:46:51.08,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(745,943)}Is it getting louder?
+Dialogue: 0,0:46:51.24,0:46:54.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(620,939)}Seems constant. Ahead of us.
+Dialogue: 0,0:46:59.48,0:47:01.64,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(894,939)}2-8-0.
+Dialogue: 0,0:47:10.96,0:47:16.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(663,873)}Two hundred and eighty...
+Dialogue: 0,0:47:10.96,0:47:16.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(825,943)}Thirty-five...
+Dialogue: 0,0:47:22.12,0:47:25.96,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(628,943)}Drawing further ahead, 2-9-5.
+Dialogue: 0,0:47:26.12,0:47:28.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(774,870)}- Left full rudder.
+Dialogue: 0,0:47:26.12,0:47:28.88,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(774,940)}- Left full rudder.
+Dialogue: 0,0:47:32.04,0:47:34.24,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(721,942)}Rudder is left full, sir.
+Dialogue: 0,0:47:34.40,0:47:36.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(777,940)}Steer due north.
+Dialogue: 0,0:47:37.44,0:47:40.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(555,874)}- Deeper, chief.
+Dialogue: 0,0:47:37.44,0:47:40.32,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(555,944)}- Bow planes down 15. Stern up 10.
+Dialogue: 0,0:47:41.04,0:47:43.72,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(685,943)}Pump 200 litres forward.
+Dialogue: 0,0:47:43.92,0:47:48.36,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(736,940)}All ahead one-third.
+Dialogue: 0,0:47:50.12,0:47:52.60,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(665,942)}200 metres forward, chief.
+Dialogue: 0,0:47:54.24,0:47:56.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(666,869)}Both main motors indicate
+Dialogue: 0,0:47:54.24,0:47:56.68,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(774,940)}ahead one-third.
+Dialogue: 0,0:48:01.92,0:48:03.92,Dialogue2,Unknown,0000,0000,0000,,{\an4\pos(575,943)}Now it gets psychological, friends.
