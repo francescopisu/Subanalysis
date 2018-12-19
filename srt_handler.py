@@ -29,7 +29,9 @@ def compute_wh():
                                     text = []
                                     for line in f.readlines():
                                         if not line[0].isdigit():
+                                            # filter blank lines
                                             if not re.match(r'^\s*$', line):
+                                                # clean string from new line characters
                                                 text.append(line.rstrip('\r\n'))
                                     # text must be cleared of punctuation and other symbols
                                     words_count = count_words(text)
