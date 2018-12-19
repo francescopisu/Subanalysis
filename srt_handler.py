@@ -5,7 +5,7 @@ import re
 
 def compute_wh():
     # opening the results file
-    with open('results.txt', "w+") as resFile:
+    with open('results.csv', "w+") as resFile:
         # run through each subdirectory of subs folder (i.e: tv series)
         for subdir_first_level in sorted(next(os.walk('subs'))[1]):
             current_dir = 'subs/' + subdir_first_level
