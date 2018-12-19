@@ -28,6 +28,7 @@ def compute_wh():
                                     episode += 1
                                     text = []
                                     for line in f.readlines():
+                                        # discarding all the lines starting with a number
                                         if not line[0].isdigit():
                                             # filter blank lines
                                             if not re.match(r'^\s*$', line):
@@ -45,6 +46,8 @@ def count_words(list_of_strings):
     for line in list_of_strings:
         # the sub line is not counted if it starts with \
         if line[0] != '\\':
+            # this regex allow to count actual words in a sentence
+            # "hello \\\ marcus,, !how are.. you" -> 5 words
             count += len(re.findall(r'\w+', line))
 
     return count
