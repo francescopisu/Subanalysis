@@ -6,6 +6,7 @@ import re
 def compute_wh():
     # opening the results file
     with open('results.csv', "w+") as resFile:
+        resFile.write('series, season, episode, w/h\n')
         # run through each subdirectory of subs folder (i.e: tv series)
         for subdir_first_level in sorted(next(os.walk('subs'))[1]):
             current_dir = 'subs/' + subdir_first_level
@@ -36,7 +37,6 @@ def compute_wh():
                                                 text.append(line.rstrip('\r\n'))
                                     # text must be cleared of punctuation and other symbols
                                     words_count = count_words(text)
-                                    resFile.write('series, season, episode, w/h')
                                     resFile.write(series + ',' + str(season) + ',' + str(episode) + ',' + str(words_count / float(60)))
                                     resFile.write('\n')
 
@@ -44,8 +44,8 @@ def compute_wh():
 def count_words(list_of_strings):
     count = 0
     for line in list_of_strings:
-        # the sub line is not counted if it starts with \
-        if line[0] != '\\':
+        # check if the string is actually a sentence
+        if '\\' not in line and '(' not in line and ')' not in line and "</font>" not in line:
             # this regex allow to count actual words in a sentence
             # "hello \\\ marcus,, !how are.. you" -> 5 words
             count += len(re.findall(r'\w+', line))
