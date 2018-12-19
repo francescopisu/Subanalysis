@@ -1,7 +1,312 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="869ac538-4587-482f-a554-d39a15d984e1" name="Default" comment="" />
+    <list default="true" id="869ac538-4587-482f-a554-d39a15d984e1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/1_PlanetEarthII/s01/Planet Earth II - 01x01 - Islands.C4TV.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/1_PlanetEarthII/s01/Planet Earth II - 01x02 - Mountains.BEGUN.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/1_PlanetEarthII/s01/Planet Earth II - 01x03 - Jungles.C4TV.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/1_PlanetEarthII/s01/Planet Earth II - 01x04 - Deserts.C4TV.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/1_PlanetEarthII/s01/Planet Earth II - 01x05 - Grasslands.ROVERS.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/1_PlanetEarthII/s01/Planet Earth II - 01x06 - Cities.ROVERS.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/1_PlanetEarthII/s01/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/Band of Brothers - 01x01 - Currahee.DVDRip DEiTY.English.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/Band of Brothers - 01x02 - Day of Days.DVDRip DEiTY.English.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/Band of Brothers - 01x03 - Carentan.DVDRip DEiTY.English.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/Band of Brothers - 01x04 - Replacements.DVDRip DEiTY.English.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/Band of Brothers - 01x05 - Crossroads.DVDRip DEiTY.English.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/Band of Brothers - 01x06 - Bastogne.DVDRip DEiTY.English.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/Band of Brothers - 01x07 - The Breaking Point.DVDRip DEiTY.English.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/Band of Brothers - 01x08 - The Last Patrol.DVDRip DEiTY.English.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/Band of Brothers - 01x09 - Why We Fight.BRRip PRoDJi.English.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/Band of Brothers - 01x10 - Points.DVDRip DEiTY.English.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/2_BandOfBrothers/s01/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/Game of Thrones - 01x01 - Winter is Coming.720p.CTU.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/Game of Thrones - 01x02 - The Kingsroad.720p-CTU.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/Game of Thrones - 01x03 - Lord Snow.720pCTU.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/Game of Thrones - 01x04 - Cripples, Bastards, and Broken Things.720pCTU.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/Game of Thrones - 01x05 - The Wolf and the Lion.720p.WEBDL-MrMoody.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/Game of Thrones - 01x06 - A Golden Crown.FQM.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/Game of Thrones - 01x07 - You Win or You Die.ASAP.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/Game of Thrones - 01x08 - The Pointy End.FQM.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/Game of Thrones - 01x09 - Baelor.720p-IMMERSE.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/Game of Thrones - 01x10 - Fire and Blood.FQM.English.C.edit.Addic7ed.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s01/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/Game.of.Thrones.S02E01.720p.BluRay.450MB.ShAaNiG.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/Game.of.Thrones.S02E02.720p.BluRay.450MB.ShAaNiG.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/Game.of.Thrones.S02E03.720p.BluRay.450MB.ShAaNiG.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/Game.of.Thrones.S02E04.720p.BluRay.450MB.ShAaNiG.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/Game.of.Thrones.S02E05.720p.BluRay.450MB.ShAaNiG.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/Game.of.Thrones.S02E06.720p.BluRay.450MB.ShAaNiG.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/Game.of.Thrones.S02E07.720p.BluRay.450MB.ShAaNiG.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/Game.of.Thrones.S02E08.720p.BluRay.450MB.ShAaNiG.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/Game.of.Thrones.S02E09.720p.BluRay.450MB.ShAaNiG.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/Game.of.Thrones.S02E10.720p.BluRay.500MB.ShAaNiG.com.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s02/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/S03E01 - Valar Dohaeris.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/S03E02 - Dark Wings Dark Words.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/S03E03 - Walk of Punishment.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/S03E04 - And Now His Watch is Ended.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/S03E05 - Kissed by Fire.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/S03E06 - The Climb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/S03E07 - The Bear and the Maiden Fair.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/S03E08 - Second Sons.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/S03E09 - The Rains of Castamere.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/S03E10 - Mhysa.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s03/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/Game of Thrones S04E01 - Two Swords.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/Game of Thrones S04E02 - The Lion and the Rose.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/Game of Thrones S04E03 - Breaker of Chains.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/Game of Thrones S04E04 - Oathkeeper.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/Game of Thrones S04E05 - First of His Name.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/Game of Thrones S04E06- The Laws of Gods and Men.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/Game of Thrones S04E07 - Mockingbird.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/Game of Thrones S04E08 - The Mountain and the Viper.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/Game of Thrones S04E09 - The Watchers on the Wall.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/Game of Thrones S04S10 - The Children.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s04/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/Game.of.Thrones.5E01.1080p.BluRay.x264-ROVERS.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/Game.of.Thrones.5E02.1080p.BluRay.x264-ROVERS.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/Game.of.Thrones.5E03.720p.BluRay.x264-DEMAND.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/Game.of.Thrones.5E04.1080p.BluRay.x264-ROVERS.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/Game.of.Thrones.5E05.720p.BluRay.x264-DEMAND.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/Game.of.Thrones.5E06.1080p.BluRay.x264-ROVERS.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/Game.of.Thrones.5E07.1080p.BluRay.x264-ROVERS.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/Game.of.Thrones.5E08.720p.BluRay.x264-DEMAND.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/Game.of.Thrones.5E09.720p.BluRay.x264-DEMAND.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/Game.of.Thrones.5E10.720p.BluRay.x264-DEMAND.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s05/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/Game.of.Thrones.S06E01.720p.BluRay.x264.ShAaNiG_en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/Game.of.Thrones.S06E02.720p.BluRay.x264.ShAaNiG_en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/Game.of.Thrones.S06E03.720p.BluRay.x264.ShAaNiG_en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/Game.of.Thrones.S06E04.720p.BluRay.x264.ShAaNiG_en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/Game.of.Thrones.S06E05.720p.BluRay.x264.ShAaNiG_en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/Game.of.Thrones.S06E06.720p.BluRay.x264.ShAaNiG_en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/Game.of.Thrones.S06E07.720p.BluRay.x264.ShAaNiG_en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/Game.of.Thrones.S06E08.720p.BluRay.x264.ShAaNiG_en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/Game.of.Thrones.S06E09.720p.BluRay.x264.ShAaNiG_en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/Game.of.Thrones.S06E10.720p.BluRay.x264.ShAaNiG_en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s06/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s07/Game.of.Thrones.S07E01.WEBRip.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s07/Game.of.Thrones.S07E02.WEBRip.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s07/Game.of.Thrones.S07E03.WEBRip.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s07/Game.of.Thrones.S07E04.WEBRip.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s07/Game.of.Thrones.S07E05.WebRip.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s07/Game.of.Thrones.S07E06.WebRip.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s07/Game.of.Thrones.S07E07.WebRip.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/3_GameOfThrones/s07/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP01 From Pole to Pole (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP02 Mountains (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP03 Fresh Water (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP04 Caves (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP05 Deserts (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP06 Ice Worlds (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP07 Great Plains (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP08 Jungles (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP09 Shallow Seas (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP10 Seasonal Forests (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/BBC Planet Earth [SE] EP11 Ocean Deep (2006) English.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/4_PlanetEarth/s01/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s01/Breaking Bad - 1x01 - Pilot.DVDRip.ORPHEUS.en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s01/Breaking Bad - 1x02 - Cat's in the Bag....DVDRip.ORPHEUS.en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s01/Breaking Bad - 1x03 - ...and the Bag's in the River.DVDRip.ORPHEUS.en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s01/Breaking Bad - 1x04 - Cancer Man.DVDRip.ORPHEUS.en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s01/Breaking Bad - 1x05 - Gray Matter.DVDRip.ORPHEUS.en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s01/Breaking Bad - 1x06 - Crazy Handful of Nothin'.DVDRip.ORPHEUS.en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s01/Breaking Bad - 1x07 - A-No-Rough-Stuff-Type-Deal.DVDRip.ORPHEUS.en.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s01/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 1.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 10.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 11.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 12.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 13.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 2.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 3.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 4.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 5.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 6.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 7.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 8.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/Breaking Bad - Season 2 - Episode 9.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s02/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E01.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E02.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E03.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E04.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E05.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E06.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E07.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E08.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E09.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E10.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E11.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E12.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/Breaking.Bad.S03E13.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s03/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E01.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E02.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E03.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E04.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E05.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E06.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E07.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E08.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E09.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E10.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E11.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E12.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/Breaking.Bad.S04E13.1080p.BluRay.AAC5.1.x265-DTG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s04/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E01.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E02.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E03.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E04.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E05.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E06.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E07.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E08.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E09.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E10.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E11.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E12.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E13.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E14.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E15.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/Breaking Bad Season 5 2012 MovieFull-HD BLURAY 720P 29 E16.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/5_BreakingBad/s05/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 01 - The Target.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 02 - The Detail.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 03 - The Buys.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 04 - Old Cases.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 05 - The Pager.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 06 - The Wire.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 07 - One Arrest.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 08 - Lessons.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 09 - Game Day.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 10 - The Cost.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 11 - The Hunt.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 12 - Cleaning Up.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/The Wire Season 1 Episode 13 - Sentencing.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s01/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E01.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E02.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E03.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E04.REMASTERED.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E05.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E06.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E07.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E08.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E09.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E10.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E11.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/The.Wire.S02E12.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s02/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E01.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E02.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E03.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E04.INTERNAL.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E05.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E06.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E07.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E08.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E09.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E10.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E11.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/The.Wire.S03E12.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s03/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E01.Boys.of.Summer.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E02.Soft.Eyes.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E03.Home.Rooms.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E04.Refugees.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E05.Alliances.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E06.Margin.of.Error.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E07.Unto.Others.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E08.Corner.Boys.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E09.Know.Your.Place.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E10.Misgivings.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E11.A.New.Day.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E12.Thats.Got.His.Own.720p.WEB-DL.DD5.1.H.264-NTb.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/The.Wire.S04E13.PROPER.720p.WEB-DL.DD5.1.H264-RARBG.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s04/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/The.Wire.S05E01.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/The.Wire.S05E02.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/The.Wire.S05E03.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/The.Wire.S05E04.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/The.Wire.S05E05.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/The.Wire.S05E06.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/The.Wire.S05E07.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/The.Wire.S05E08.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/The.Wire.S05E09.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/The.Wire.S05E10.720p.HDTV.x264-BATV.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/6_TheWire/s05/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e01.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e02.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e03.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e04.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e05.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e06.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e07.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e08.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e09.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e10.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e11.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e12.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/7_Cosmos/s01/cosmos.a.spacetime.odyssey.s01e13.1080p.bluray.x264-debtvid.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E01 Pilot.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E02 Lawnmower Dog.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E03 Anatomy Park.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E04  M. Night Shaym-Aliens!.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E05 Meeseeks and Destroy.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E06 Rick Potion #9.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E07 Raising Gazorpazorp.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E08 Rixty Minutes.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E09 Something Ricked.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E10 Close Rick-counters of the Rick Kind.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s01/Rick and Morty S01E11 Ricksy Business.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s02/Rick.and.Morty.S02E01.720p.BluRay.X264-REWARD.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s02/Rick.and.Morty.S02E02.720p.BluRay.X264-REWARD.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s02/Rick.and.Morty.S02E03.720p.BluRay.X264-REWARD.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s02/Rick.and.Morty.S02E04.720p.BluRay.X264-REWARD.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s02/Rick.and.Morty.S02E05.720p.BluRay.X264-REWARD.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s02/Rick.and.Morty.S02E06.720p.BluRay.X264-REWARD.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s02/Rick.and.Morty.S02E07.720p.BluRay.X264-REWARD.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s02/Rick.and.Morty.S02E08.720p.BluRay.X264-REWARD.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s02/Rick.and.Morty.S02E09.720p.BluRay.X264-REWARD.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s02/Rick.and.Morty.S02E10.720p.BluRay.X264-REWARD.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s03/Rick.and.Morty.S03E01.The.Rickshank.Rickdemption.1080p.BluRay.REMUX.AVC.TrueHD.5.1-EPSiLON.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s03/Rick.and.Morty.S03E02.Rickmancing.the.Stone.1080p.BluRay.REMUX.AVC.TrueHD.5.1-EPSiLON.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s03/Rick.and.Morty.S03E03.Pickle.Rick.1080p.BluRay.REMUX.AVC.TrueHD.5.1-EPSiLON.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s03/Rick.and.Morty.S03E04.Vindicators.3.The.Return.of.Worldender.1080p.BluRay.REMUX.AVC.TrueHD.5.1-EPSiLON.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s03/Rick.and.Morty.S03E05.The.Whirly.Dirly.Conspiracy.1080p.BluRay.REMUX.AVC.TrueHD.5.1-EPSiLON.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s03/Rick.and.Morty.S03E06.Rest.and.Ricklaxation.1080p.BluRay.REMUX.AVC.TrueHD.5.1-EPSiLON.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s03/Rick.and.Morty.S03E07.The.Ricklantis.Mixup.1080p.BluRay.REMUX.AVC.TrueHD.5.1-EPSiLON.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s03/Rick.and.Morty.S03E08.Morty's.Mind.Blowers.1080p.BluRay.REMUX.AVC.TrueHD.5.1-EPSiLON.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s03/Rick.and.Morty.S03E09.The.ABCs.of.Beth.1080p.BluRay.REMUX.AVC.TrueHD.5.1-EPSiLON.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/8_RickAndMorty/s03/Rick.and.Morty.S03E10.The.Rickchurian.Mortydate.1080p.BluRay.REMUX.AVC.TrueHD.5.1-EPSiLON.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 01.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 02.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 03.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 04.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 05.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 06.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 07.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 08.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 09.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 10.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 11.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 12.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/subs/9_Cosmos/s01/Cosmos - 13.srt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/subanalysis.iml" afterPath="$PROJECT_DIR$/.idea/subanalysis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/srt_handler.py" afterPath="$PROJECT_DIR$/srt_handler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subs/47_GravityFalls/s01/results.txt" afterPath="$PROJECT_DIR$/subs/47_GravityFalls/s01/results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subs/47_GravityFalls/s02/results.txt" afterPath="$PROJECT_DIR$/subs/47_GravityFalls/s02/results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subs/48_Westworld/s01/results.txt" afterPath="$PROJECT_DIR$/subs/48_Westworld/s01/results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subs/48_Westworld/s02/results.txt" afterPath="$PROJECT_DIR$/subs/48_Westworld/s02/results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subs/49_Narcos/s01/results.txt" afterPath="$PROJECT_DIR$/subs/49_Narcos/s01/results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subs/49_Narcos/s02/results.txt" afterPath="$PROJECT_DIR$/subs/49_Narcos/s02/results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subs/49_Narcos/s03/results.txt" afterPath="$PROJECT_DIR$/subs/49_Narcos/s03/results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subs/50_FreaksAndGeeks/s01/results.txt" afterPath="$PROJECT_DIR$/subs/50_FreaksAndGeeks/s01/results.txt" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +323,8 @@
       <file leaf-file-name="srt_handler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/srt_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -30,8 +335,8 @@
       <file leaf-file-name="re.py" pinned="false" current-in-tab="false">
         <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+            <state relative-caret-position="2070">
+              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,7 +345,7 @@
       <file leaf-file-name="os.py" pinned="false" current-in-tab="false">
         <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4005">
+            <state relative-caret-position="131">
               <caret line="267" column="0" lean-forward="false" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
               <folding />
             </state>
@@ -68,9 +373,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="1" />
+    <option name="y" value="24" />
     <option name="width" value="1440" />
-    <option name="height" value="798" />
+    <option name="height" value="795" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -87,6 +393,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -101,8 +409,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,19 +600,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="798" extended-state="6" />
-    <editor active="false" />
+    <frame x="1" y="24" width="1440" height="795" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5024665" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39829302" sideWeight="0.503876" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286119" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32859176" sideWeight="0.49753347" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39943343" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39829302" sideWeight="0.49612403" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -321,18 +627,32 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="14" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="next(os.walk('subs'))[1]" />
+        <watch expression="os.listdir(current_dir)" />
+        <watch expression="os.listdir(snd_current_dir)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/srt_handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3435">
+          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -344,18 +664,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/srt_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+        <state relative-caret-position="2070">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="267" column="0" lean-forward="false" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/srt_handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
