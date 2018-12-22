@@ -2,11 +2,10 @@ import os
 import re
 
 
-
 def compute_wh():
     # opening the results file
     with open('results.csv', "w+") as resFile:
-        resFile.write('series, season, episode, w/h\n')
+        resFile.write('series,season,episode,wh\n')
         # run through each subdirectory of subs folder (i.e: tv series)
         for subdir_first_level in sorted(next(os.walk('subs'))[1]):
             current_dir = 'subs/' + subdir_first_level
@@ -15,6 +14,7 @@ def compute_wh():
 
             # run through each subdirectory of series folders (i.e: seasons)
             for subdir_second_level in sorted(os.listdir(current_dir)):
+                # this control is necessary to avoid hidden files starting with .
                 if not subdir_second_level.startswith('.'):
                     snd_current_dir = current_dir + '/' + subdir_second_level
                     # gather season number
@@ -33,10 +33,22 @@ def compute_wh():
                                         if not line[0].isdigit():
                                             # filter blank lines
                                             if not re.match(r'^\s*$', line):
+                                                # clean string from eventual html tags
+                                                clean = re.compile('<.*?>')
+                                                line = re.sub(clean, '', line)
+
+                                                clean = re.compile('\[.*?\]')
+                                                line = re.sub(clean, '', line)
+
+                                                clean = re.compile('\(.*?\)')
+                                                line = re.sub(clean, '', line)
+
                                                 # clean string from new line characters
                                                 text.append(line.rstrip('\r\n'))
-                                    # text must be cleared of punctuation and other symbols
+
+                                    # text may contain punctuation and other symbols, only actual words must be counted
                                     words_count = count_words(text)
+
                                     resFile.write(series + ',' + str(season) + ',' + str(episode) + ',' + str(words_count / float(60)))
                                     resFile.write('\n')
 
@@ -44,11 +56,9 @@ def compute_wh():
 def count_words(list_of_strings):
     count = 0
     for line in list_of_strings:
-        # check if the string is actually a sentence
-        if '\\' not in line and '(' not in line and ')' not in line and "</font>" not in line:
-            # this regex allow to count actual words in a sentence
-            # "hello \\\ marcus,, !how are.. you" -> 5 words
-            count += len(re.findall(r'\w+', line))
+        # using this regex to count actual words in a sentence
+        # "hello \\\ marcus,, !how are.. you" -> 5 words
+        count += len(re.findall(r'\w+', line))
 
     return count
 
