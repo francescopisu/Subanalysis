@@ -14,6 +14,7 @@ def compute_wh():
 
             # run through each subdirectory of series folders (i.e: seasons)
             for subdir_second_level in sorted(os.listdir(current_dir)):
+                # this control is necessary to avoid hidden files starting with .
                 if not subdir_second_level.startswith('.'):
                     snd_current_dir = current_dir + '/' + subdir_second_level
                     # gather season number
@@ -42,12 +43,12 @@ def compute_wh():
                                                 clean = re.compile('\(.*?\)')
                                                 line = re.sub(clean, '', line)
 
-                                                print(line)
                                                 # clean string from new line characters
                                                 text.append(line.rstrip('\r\n'))
 
                                     # text may contain punctuation and other symbols, only actual words must be counted
                                     words_count = count_words(text)
+
                                     resFile.write(series + ',' + str(season) + ',' + str(episode) + ',' + str(words_count / float(60)))
                                     resFile.write('\n')
 
@@ -55,11 +56,9 @@ def compute_wh():
 def count_words(list_of_strings):
     count = 0
     for line in list_of_strings:
-        # check if the string is actually a sentence
-        if '\\':
-            # using this regex to count actual words in a sentence
-            # "hello \\\ marcus,, !how are.. you" -> 5 words
-            count += len(re.findall(r'\w+', line))
+        # using this regex to count actual words in a sentence
+        # "hello \\\ marcus,, !how are.. you" -> 5 words
+        count += len(re.findall(r'\w+', line))
 
     return count
 
