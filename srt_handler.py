@@ -64,9 +64,11 @@ def compute_wh():
                                         words_count = count_words(text)
 
                                         # in order to compute the actual words per hour, word count must be divided
-                                        # by the episode length of each series
+                                        # by the episode length of each serie
+                                        words_hour = round((words_count * 60) / float(current_series.episode_length), 2)
+
                                         resFile.write(series + ',' + str(season) + ',' + str(episode) + ',' +
-                                                      str(words_count / float(current_series.episode_length)))
+                                                      str(words_hour))
                                         resFile.write('\n')
 
 
