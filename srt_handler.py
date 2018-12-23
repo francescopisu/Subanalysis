@@ -1,5 +1,7 @@
 import os
 import re
+import csv
+from Series import Series
 
 
 def compute_wh():
@@ -12,45 +14,60 @@ def compute_wh():
             # gather series number
             series = subdir_first_level[:2]
 
-            # run through each subdirectory of series folders (i.e: seasons)
-            for subdir_second_level in sorted(os.listdir(current_dir)):
-                # this control is necessary to avoid hidden files starting with .
-                if not subdir_second_level.startswith('.'):
-                    snd_current_dir = current_dir + '/' + subdir_second_level
-                    # gather season number
-                    season = subdir_second_level[2]
+            # save information about each series; these information are contained in a spec file situated in the
+            # series' root folder
+            current_series = Series()
+            with open(current_dir + '/' + 'specs.csv') as specs:
+                csv_reader = csv.DictReader(specs)
+                for row in csv_reader:
+                    current_series.name = row['name']
+                    current_series.episode_length = int(row['length'])
+                    current_series.genre = row['genre']
+                    current_series.year = int(row['year'])
 
-                    # operate on each season's episode
-                    episode = 0
-                    for subFile in sorted(os.listdir(snd_current_dir)):
-                        if not subFile.startswith('.'):
-                            if subFile.endswith(".srt"):
-                                with open(snd_current_dir + '/' + subFile, "r") as f:
-                                    episode += 1
-                                    text = []
-                                    for line in f.readlines():
-                                        # discarding all the lines starting with a number
-                                        if not line[0].isdigit():
-                                            # filter blank lines
-                                            if not re.match(r'^\s*$', line):
-                                                # clean string from eventual html tags
-                                                clean = re.compile('<.*?>')
-                                                line = re.sub(clean, '', line)
+                # run through each subdirectory of series folders (i.e: seasons)
+                for subdir_second_level in sorted(os.listdir(current_dir)):
+                    # this control is necessary to avoid hidden files starting with .
+                    if not subdir_second_level.startswith('.') and not subdir_second_level.endswith('.csv'):
+                        snd_current_dir = current_dir + '/' + subdir_second_level
+                        # gather season number
+                        season = subdir_second_level[2]
 
-                                                clean = re.compile('\[.*?\]')
-                                                line = re.sub(clean, '', line)
+                        # operate on each season's episode
+                        episode = 0
+                        for subFile in sorted(os.listdir(snd_current_dir)):
+                            if not subFile.startswith('.'):
+                                if subFile.endswith(".srt"):
+                                    with open(snd_current_dir + '/' + subFile, encoding="utf8", errors='ignore') as f:
+                                        episode += 1
+                                        text = []
+                                        for line in f.readlines():
+                                            # discarding all the lines starting with a number
+                                            if not line[0].isdigit():
+                                                # filter blank lines
+                                                if not re.match(r'^\s*$', line):
+                                                    # clean string from eventual html tags
+                                                    clean = re.compile('<.*?>')
+                                                    line = re.sub(clean, '', line)
 
-                                                clean = re.compile('\(.*?\)')
-                                                line = re.sub(clean, '', line)
+                                                    clean = re.compile('\[.*?\]')
+                                                    line = re.sub(clean, '', line)
 
-                                                # clean string from new line characters
-                                                text.append(line.rstrip('\r\n'))
+                                                    clean = re.compile('\(.*?\)')
+                                                    line = re.sub(clean, '', line)
 
-                                    # text may contain punctuation and other symbols, only actual words must be counted
-                                    words_count = count_words(text)
+                                                    # clean string from new line characters
+                                                    text.append(line.rstrip('\r\n'))
 
-                                    resFile.write(series + ',' + str(season) + ',' + str(episode) + ',' + str(words_count / float(60)))
-                                    resFile.write('\n')
+                                        # text may contain punctuation and other symbols
+                                        # only actual words must be counted
+                                        words_count = count_words(text)
+
+                                        # in order to compute the actual words per hour, word count must be divided
+                                        # by the episode length of each series
+                                        resFile.write(series + ',' + str(season) + ',' + str(episode) + ',' +
+                                                      str(words_count / float(current_series.episode_length)))
+                                        resFile.write('\n')
 
 
 def count_words(list_of_strings):
