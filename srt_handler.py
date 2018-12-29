@@ -7,7 +7,7 @@ from Series import Series
 def compute_wh():
     # opening the results file
     with open('results.csv', "w+") as resFile:
-        resFile.write('series,season,episode,wh\n')
+        resFile.write('series_id,series_name,season,episode,wh,words_count\n')
         # run through each subdirectory of subs folder (i.e: tv series)
         for subdir_first_level in sorted(next(os.walk('subs'))[1]):
             current_dir = 'subs/' + subdir_first_level
@@ -46,7 +46,7 @@ def compute_wh():
                                             if not line[0].isdigit():
                                                 # filter blank lines
                                                 if not re.match(r'^\s*$', line):
-                                                    # clean string from eventual html tags
+                                                    # clean string of eventual html tags
                                                     clean = re.compile('<.*?>')
                                                     line = re.sub(clean, '', line)
 
@@ -56,7 +56,11 @@ def compute_wh():
                                                     clean = re.compile('\(.*?\)')
                                                     line = re.sub(clean, '', line)
 
-                                                    # clean string from new line characters
+                                                    # clean string of references on who's talking
+                                                    clean = re.compile('[a-zA-Z]*\:')
+                                                    line = re.sub(clean, '', line)
+
+                                                    # clean string of new line characters
                                                     text.append(line.rstrip('\r\n'))
 
                                         # text may contain punctuation and other symbols
@@ -67,8 +71,8 @@ def compute_wh():
                                         # by the episode length of each serie
                                         words_hour = round((words_count * 60) / float(current_series.episode_length), 2)
 
-                                        resFile.write(series + ',' + str(season) + ',' + str(episode) + ',' +
-                                                      str(words_hour))
+                                        resFile.write(series + ',' + current_series.name + ',' + str(season) + ',' + str(episode) + ',' +
+                                                      str(words_hour) + ',' + str(words_count))
                                         resFile.write('\n')
 
 
