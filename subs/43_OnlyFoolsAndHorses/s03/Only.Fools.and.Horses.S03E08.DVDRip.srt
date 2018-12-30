@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:47,246 --> 00:00:50,332
 First time I saw this film,
 was in the middle of the war.
@@ -555,7 +555,7 @@ Christmas this has turned out to be!
 
 118
 00:08:55,853 --> 00:09:01,156
-Some people get wise men bearing gifts �
+Some people get wise men bearing gifts –
 we get a wally with a disease!
 
 119

@@ -1,4 +1,4 @@
-1
+ï»¿1
 00:00:42,612 --> 00:00:46,652
 - I don't believe it! When did this arrive?
 - This morning.
@@ -1491,7 +1491,7 @@ Good.
 310
 00:23:11,308 --> 00:23:15,255
 It's old-fashioned.
-Who’s' gonna pay money to watch this?
+Whoâ€™s' gonna pay money to watch this?
 
 311
 00:23:16,869 --> 00:23:18,834
@@ -1916,7 +1916,7 @@ yuppy image, does it?
 
 400
 00:31:08,113 --> 00:31:11,726
-I don’t know. It's very trendy nowadays.
+I donâ€™t know. It's very trendy nowadays.
 All the Big Bang boys have done a bit of stir.
 
 401
@@ -2691,7 +2691,7 @@ You know what he did?
 
 563
 00:44:26,266 --> 00:44:29,481
-He charged me £1.40
+He charged me Â£1.40
 for bus fares!
 
 564

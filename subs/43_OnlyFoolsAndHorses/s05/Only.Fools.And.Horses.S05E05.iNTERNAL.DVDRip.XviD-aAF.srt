@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:42,533 --> 00:00:43,917
 What's the matter with you
 Boycie?
@@ -1491,7 +1491,7 @@ Well you had no right to!
 
 309
 00:19:24,581 --> 00:19:27,541
-Alright here�s your share.
+Alright here’s your share.
 There you go, look.
 
 310

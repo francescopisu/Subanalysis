@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:45,417 --> 00:00:48,137
 - Well?
 - 1,992!
@@ -649,7 +649,7 @@ pay for 'em?
 
 138
 00:10:08,007 --> 00:10:11,235
-Well d'you remember my pal Denzil �
+Well d'you remember my pal Denzil –
 called in here a couple of weeks ago.
 
 139

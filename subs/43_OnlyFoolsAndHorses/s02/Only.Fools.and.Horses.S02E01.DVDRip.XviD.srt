@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:49,470 --> 00:00:53,588
 - Have you seen my teeth?
 - Have you tried yer mouth?
@@ -291,7 +291,7 @@ Del Boy, I've burnt yer bacon.
 
 62
 00:05:32,252 --> 00:05:37,542
-Oh, you stupid old git. I told you to look after it, didn�t I?
+Oh, you stupid old git. I told you to look after it, didn’t I?
 Never mind, you can have it.
 
 63

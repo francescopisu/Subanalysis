@@ -1,4 +1,4 @@
-1
+ï»¿1
 00:00:40,747 --> 00:00:44,832
 Sorry, Cassandra, I'm a bit out of breath.
 I've just been doing me physical jerks.
@@ -39,7 +39,7 @@ I've gotta get this stuff in the freezer.
 9
 00:01:10,391 --> 00:01:14,390
 Raquel says she'll call you later.
-Oh yes, she’s alright.
+Oh yes, sheâ€™s alright.
 
 10
 00:01:15,541 --> 00:01:17,921
@@ -86,7 +86,7 @@ is there?
 
 19
 00:01:48,965 --> 00:01:51,978
-Oh well… Bye for now, Cassandra.
+Oh wellâ€¦ Bye for now, Cassandra.
 Bye, love.
 
 20
@@ -119,7 +119,7 @@ getting up at 11.30 in the morning.
 26
 00:02:18,273 --> 00:02:21,619
 Your brother was up and out of here
-at 7 o’clock.
+at 7 oâ€™clock.
 
 27
 00:02:21,654 --> 00:02:24,068
@@ -128,7 +128,7 @@ and took Raquel out shopping.
 
 28
 00:02:24,304 --> 00:02:29,245
-Yes, that’s because Del has got
+Yes, thatâ€™s because Del has got
 a job to go to and money-earning opportunities.
 
 29
@@ -139,12 +139,12 @@ What have I got, eh?
 30
 00:02:32,498 --> 00:02:36,475
 I've got no job to go to
-I’ve got no wife to say good morning to.
+Iâ€™ve got no wife to say good morning to.
 
 31
 00:02:37,547 --> 00:02:41,217
 You might be a bit more chirpy
-if you didn’t wake up with such a hangover!
+if you didnâ€™t wake up with such a hangover!
 
 32
 00:02:41,252 --> 00:02:42,649
@@ -199,7 +199,7 @@ What d'you mean, he didn't tell her?
 
 43
 00:03:23,481 --> 00:03:25,011
-What’s the matter?
+Whatâ€™s the matter?
 You alright, sweetheart?
 
 44
@@ -214,7 +214,7 @@ specially in my condition. I'm alright now.
 
 46
 00:03:36,088 --> 00:03:38,110
-No, no. Listen to me, sweetheart. I’ll te…
+No, no. Listen to me, sweetheart. Iâ€™ll teâ€¦
 
 47
 00:03:40,206 --> 00:03:42,594
@@ -234,7 +234,7 @@ Don't forget to deliver our birthday present.
 50
 00:03:50,630 --> 00:03:53,650
 - Whose birthday is it?
-- It’s Boycie's little kid. Anyway.
+- Itâ€™s Boycie's little kid. Anyway.
 
 51
 00:03:53,685 --> 00:03:57,685
@@ -249,7 +249,7 @@ She's already been banned from the Body Shop.
 53
 00:04:04,698 --> 00:04:08,323
 If I could just get the engine to run
-a bit smoother, I’m sure that would help.
+a bit smoother, Iâ€™m sure that would help.
 
 54
 00:04:08,515 --> 00:04:11,513
@@ -281,7 +281,7 @@ your uncle's book. Look at him.
 
 60
 00:04:27,821 --> 00:04:33,412
-He’s in there, he's joined the over-sixties club
+Heâ€™s in there, he's joined the over-sixties club
 and looks like a born-again teddy boy.
 
 61
@@ -291,7 +291,7 @@ I join the over-sixties club?
 
 62
 00:04:36,629 --> 00:04:39,005
-No, they wouldn’t have you.
+No, they wouldnâ€™t have you.
 You look too old.
 
 63
@@ -331,7 +331,7 @@ you soppy old sod?
 
 70
 00:05:07,660 --> 00:05:09,815
-You’ll have my clap as you want it
+Youâ€™ll have my clap as you want it
 on the floor in a minute.
 
 71
@@ -345,7 +345,7 @@ Oh it's you Marlene!
 
 73
 00:05:26,250 --> 00:05:30,241
-Yes, I'm going out to get Tyler’s
+Yes, I'm going out to get Tylerâ€™s
 birthday present in a minute!
 
 74
@@ -370,7 +370,7 @@ A baby grand?
 78
 00:05:46,451 --> 00:05:50,715
 Well, of course I want him to be cultured,
-but for God’s sake, Marlene, he's only two!
+but for Godâ€™s sake, Marlene, he's only two!
 
 79
 00:05:51,826 --> 00:05:55,075
@@ -393,7 +393,7 @@ Where can I get a mouth organ from?
 83
 00:06:10,532 --> 00:06:13,795
 Thank you for calling Boyce Autos
-and Car Accessories. How can…
+and Car Accessories. How canâ€¦
 
 84
 00:06:13,830 --> 00:06:15,711
@@ -402,7 +402,7 @@ How's your luck?
 
 85
 00:06:15,746 --> 00:06:17,317
-Couldn’t be better Boycie.
+Couldnâ€™t be better Boycie.
 
 86
 00:06:18,003 --> 00:06:20,713
@@ -419,7 +419,7 @@ Yeah, 'taking on' being the operative phrase!
 
 89
 00:06:25,922 --> 00:06:29,612
-Rodney, why don’t you do something useful,
+Rodney, why donâ€™t you do something useful,
 like go back to bed, son!
 
 90
@@ -439,7 +439,7 @@ along as well if you like.
 
 93
 00:06:44,534 --> 00:06:46,467
-Thank you, that’s very nice of you Boycie.
+Thank you, thatâ€™s very nice of you Boycie.
 
 94
 00:06:46,915 --> 00:06:51,581
@@ -457,7 +457,7 @@ He could do with a good laugh.
 
 97
 00:06:58,963 --> 00:07:05,005
-Sorry, Del. I just think it’s about time
+Sorry, Del. I just think itâ€™s about time
 you got yourself something more powerful.
 
 98
@@ -468,7 +468,7 @@ you got yourself something more powerful.
 99
 00:07:09,097 --> 00:07:14,478
 Very gunny Boycie, but that little van
-does everything that I need it to, don’t worry.
+does everything that I need it to, donâ€™t worry.
 
 100
 00:07:15,168 --> 00:07:19,256
@@ -478,26 +478,26 @@ I'm talking about a second car.
 101
 00:07:19,927 --> 00:07:23,602
 I've been hearing about all this crime
-that’s been occurring on your estate.
+thatâ€™s been occurring on your estate.
 
 102
 00:07:23,637 --> 00:07:28,162
-Don’t you think it’s gonna be safer for your Raquel
+Donâ€™t you think itâ€™s gonna be safer for your Raquel
 to be driving rather than walking?
 
 103
 00:07:30,744 --> 00:07:32,938
-That’s a point Boycie,
-I’d never thought of that.
+Thatâ€™s a point Boycie,
+Iâ€™d never thought of that.
 
 104
 00:07:32,973 --> 00:07:35,548
-Yes. I mean, a man in your position…
+Yes. I mean, a man in your positionâ€¦
 
 105
 00:07:35,583 --> 00:07:38,887
 I mean, you need something
-that’s gonna reflect your image.
+thatâ€™s gonna reflect your image.
 
 106
 00:07:39,857 --> 00:07:43,142
@@ -569,7 +569,7 @@ There's been a change of plan!
 120
 00:08:43,782 --> 00:08:47,635
 - What d'you think, Rodney?
-- I don’t know!
+- I donâ€™t know!
 
 121
 00:08:47,851 --> 00:08:49,523
@@ -577,7 +577,7 @@ She'll be putty in my hands.
 
 122
 00:08:50,928 --> 00:08:55,464
-Rodney, you’ll never guess what?
+Rodney, youâ€™ll never guess what?
 I've only bought a new car! Gordon Bennett!
 
 123
@@ -659,7 +659,7 @@ What, straight from school?
 139
 00:09:57,119 --> 00:10:00,782
 One minute you're a milk-monitor,
-the next minute you’re a petrochemist?
+the next minute youâ€™re a petrochemist?
 
 140
 00:10:01,086 --> 00:10:02,631
@@ -701,7 +701,7 @@ How can I join the navy?
 148
 00:10:29,019 --> 00:10:34,253
 Exactly. In the old days they used to take anyone.
-I mean, let’s face it, they took you!
+I mean, letâ€™s face it, they took you!
 
 149
 00:10:34,518 --> 00:10:37,156
@@ -869,7 +869,7 @@ I'm desperate, ain't I?
 
 185
 00:12:48,510 --> 00:12:53,553
-Alright Rodney, I’ll tell you what. I will give you a job
+Alright Rodney, Iâ€™ll tell you what. I will give you a job
 with Trotters Independent Traders PLC.
 
 186
@@ -879,7 +879,7 @@ will I have?
 
 187
 00:12:58,874 --> 00:13:01,107
-Wage structure? I don’t know.
+Wage structure? I donâ€™t know.
 The same as before.
 
 188
@@ -947,11 +947,11 @@ It's got no shine to it!
 
 202
 00:14:07,579 --> 00:14:10,195
-By the time I've finished it’ll look brand new.
+By the time I've finished itâ€™ll look brand new.
 
 203
 00:14:15,315 --> 00:14:22,793
-Listen. I’ve been meaning to ask you something..
+Listen. Iâ€™ve been meaning to ask you something..
 It's a little bit embarrassing.
 
 204
@@ -977,7 +977,7 @@ You seem to forget, Rodney, you are my employee!
 208
 00:14:41,624 --> 00:14:48,228
 Since you left Cassandra and your job,
-you’ve been eating and sleeping in my flat for nix!
+youâ€™ve been eating and sleeping in my flat for nix!
 
 209
 00:14:48,601 --> 00:14:52,248
@@ -1034,7 +1034,7 @@ bomb damage on some of 'em.
 
 220
 00:15:38,193 --> 00:15:45,055
-It’d be lovely if Albert could meet some nice old lady
+Itâ€™d be lovely if Albert could meet some nice old lady
 to keep him company. D'you know who he's after?
 
 221
@@ -1044,7 +1044,7 @@ to keep him company. D'you know who he's after?
 
 222
 00:15:48,891 --> 00:15:52,240
-Yeah, that’s right. Him and his mate
+Yeah, thatâ€™s right. Him and his mate
 are after sorting her out.
 
 223
@@ -1094,7 +1094,7 @@ and Del and Albert turned up.
 232
 00:16:27,806 --> 00:16:32,476
 Thank you very much, Boycie. Thank you.
-Now that he’s gone, who’s for another one, then?
+Now that heâ€™s gone, whoâ€™s for another one, then?
 
 233
 00:16:37,878 --> 00:16:41,881
@@ -1103,7 +1103,7 @@ The morons from outer space. Who are they?
 
 234
 00:16:42,436 --> 00:16:45,410
-I don’t know, Del. They've been using the pub
+I donâ€™t know, Del. They've been using the pub
 for about two weeks now.
 
 235
@@ -1114,7 +1114,7 @@ I didn't think they were regulars.
 236
 00:16:47,204 --> 00:16:52,740
 But, like I say, I don't know nothing about them.
-I think they’re friends of the old mongrels down there.
+I think theyâ€™re friends of the old mongrels down there.
 
 237
 00:16:53,273 --> 00:16:55,841
@@ -1128,7 +1128,7 @@ What you want, Del?
 239
 00:16:57,484 --> 00:17:00,668
 You see that gang over there by the jukebox?
-D’you know anything about 'em?
+Dâ€™you know anything about 'em?
 
 240
 00:17:00,703 --> 00:17:03,066
@@ -1225,7 +1225,7 @@ You left him cleaning your car at night?
 
 260
 00:18:15,059 --> 00:18:16,943
-I’d forgotten he worked for me!
+Iâ€™d forgotten he worked for me!
 
 261
 00:18:17,801 --> 00:18:22,344
@@ -1244,7 +1244,7 @@ Look at my clothes!
 264
 00:18:31,932 --> 00:18:34,954
 I told you to wear your
-car-cleaning gear, didn’t I?
+car-cleaning gear, didnâ€™t I?
 
 265
 00:18:34,989 --> 00:18:39,686
@@ -1263,12 +1263,12 @@ the guv'nor's Capri Ghia!
 
 268
 00:18:46,660 --> 00:18:50,429
-Yes, that’s when my hand
+Yes, thatâ€™s when my hand
 went straight through the bodywork!
 
 269
 00:18:50,615 --> 00:18:54,004
-I'm bleeding, see! That’s blood!
+I'm bleeding, see! Thatâ€™s blood!
 You got any plasters, Mike?
 
 270
@@ -1363,7 +1363,7 @@ I gotta contact to Wimbledon".
 
 289
 00:19:58,959 --> 00:20:00,638
-I got you two tickets, didn’t I?
+I got you two tickets, didnâ€™t I?
 
 290
 00:20:00,673 --> 00:20:04,808
@@ -1401,13 +1401,13 @@ in the morning.
 
 297
 00:20:33,883 --> 00:20:38,207
-I’ll get my director of commercial
+Iâ€™ll get my director of commercial
 development to drive the van back.
 
 298
 00:20:39,154 --> 00:20:42,326
 - Del, I don't wanna nag.
-- Good. I’ll put a record on.
+- Good. Iâ€™ll put a record on.
 
 299
 00:20:43,558 --> 00:20:48,775
@@ -1425,7 +1425,7 @@ was no reason for you to buy another car!
 
 302
 00:20:56,031 --> 00:20:58,327
-No, I know, but listen you’ll see. There is a very...
+No, I know, but listen youâ€™ll see. There is a very...
 
 303
 00:20:58,362 --> 00:21:01,016
@@ -1435,7 +1435,7 @@ we've got a baby on the way, don't you?
 304
 00:21:01,051 --> 00:21:06,288
 Yes, I do, little things do remind me.
-You just shut up and listen for a minute, I’ll explain.
+You just shut up and listen for a minute, Iâ€™ll explain.
 
 305
 00:21:06,834 --> 00:21:09,331
@@ -1443,13 +1443,13 @@ It's a very dangerous world out there, Raquel.
 
 306
 00:21:09,366 --> 00:21:12,516
-And I don’t want you walking
+And I donâ€™t want you walking
 down to the shops or the launderette.
 
 307
 00:21:12,551 --> 00:21:16,855
 I want you to drive. That way you'll be safe and sound.
-D'you understand what I’m saying?
+D'you understand what Iâ€™m saying?
 
 308
 00:21:17,409 --> 00:21:19,663
@@ -1458,7 +1458,7 @@ D'you understand what I’m saying?
 
 309
 00:21:20,265 --> 00:21:23,170
-- Aren’t you lovely?
+- Arenâ€™t you lovely?
 - Yes!
 
 310
@@ -1468,7 +1468,7 @@ D'you understand what I’m saying?
 
 311
 00:21:27,964 --> 00:21:30,154
-Well, you're only human, aren’t you?
+Well, you're only human, arenâ€™t you?
 
 312
 00:21:39,969 --> 00:21:41,866
@@ -1495,7 +1495,7 @@ Del! It's Albert!
 
 317
 00:21:51,597 --> 00:21:53,771
-I don’t know. But he has got double vision.
+I donâ€™t know. But he has got double vision.
 
 318
 00:21:53,806 --> 00:21:57,398
@@ -1504,7 +1504,7 @@ I don’t know. But he has got double vision.
 
 319
 00:21:58,161 --> 00:21:59,614
-I don’t mean...
+I donâ€™t mean...
 
 320
 00:21:59,649 --> 00:22:02,420
@@ -1523,13 +1523,13 @@ ambulance, a crowd of people around him.
 
 323
 00:22:09,094 --> 00:22:11,518
-Look, they’ve got him down the hospital.
-Come on, let’s go.
+Look, theyâ€™ve got him down the hospital.
+Come on, letâ€™s go.
 
 324
 00:22:11,553 --> 00:22:15,531
-Alright sweetheart, you don’t worry.
-We’ll sort it out, alright?
+Alright sweetheart, you donâ€™t worry.
+Weâ€™ll sort it out, alright?
 
 325
 00:22:19,028 --> 00:22:21,288
@@ -1538,7 +1538,7 @@ Dipstick. Rodney!
 326
 00:22:21,824 --> 00:22:24,922
 He's just gonna put some clothes on,
-and then we’ll go.
+and then weâ€™ll go.
 
 327
 00:22:30,839 --> 00:22:33,694
@@ -1581,7 +1581,7 @@ good-looking Italian bloke.
 
 335
 00:22:56,756 --> 00:23:00,319
-He wasn’t good looking after
+He wasnâ€™t good looking after
 my Dad had finished with him!
 
 336
@@ -1619,7 +1619,7 @@ How is he?
 
 343
 00:23:40,812 --> 00:23:44,582
-He looks bloody horrible, don’t he?
+He looks bloody horrible, donâ€™t he?
 They stole his watch, his wallet, everything.
 
 344
@@ -1628,22 +1628,22 @@ I know. How you feeling, Albert?
 
 345
 00:23:47,080 --> 00:23:50,679
-I’m a bit bruised, dear.
+Iâ€™m a bit bruised, dear.
 I was jumped on by five of 'em.
 
 346
 00:23:50,714 --> 00:23:54,962
-You just keep…
-Five of them? I thought it was…
+You just keepâ€¦
+Five of them? I thought it wasâ€¦
 
 347
 00:23:58,456 --> 00:24:02,038
-Rodney, why don’t you make Cassandra
+Rodney, why donâ€™t you make Cassandra
 a nice cup of coffee?
 
 348
 00:24:03,218 --> 00:24:04,845
-In the kitchen…
+In the kitchenâ€¦
 
 349
 00:24:08,270 --> 00:24:09,973
@@ -1711,7 +1711,7 @@ his car yesterday and...
 
 363
 00:25:05,562 --> 00:25:13,207
-I just did it as a favour. I don't know if you’ve noticed
+I just did it as a favour. I don't know if youâ€™ve noticed
 his new car parked downstairs. The green Pratmobile.
 
 364
@@ -1776,7 +1776,7 @@ You're even wearing the same clothes as Del.
 377
 00:26:03,571 --> 00:26:09,810
 These suits happen to be a new line
-we're selling, that’s all. These are Romanian.
+we're selling, thatâ€™s all. These are Romanian.
 
 378
 00:26:10,576 --> 00:26:13,319
@@ -1817,7 +1817,7 @@ Understand one thing, Cass!
 386
 00:26:37,437 --> 00:26:42,728
 - Look, I'm very busy, Cassandra.
-- Yeah, well… I’ll see you, Rodney.
+- Yeah, wellâ€¦ Iâ€™ll see you, Rodney.
 
 387
 00:26:42,763 --> 00:26:45,078
@@ -1835,7 +1835,7 @@ I was just putting the security chain on.
 
 390
 00:26:57,667 --> 00:27:00,380
-No one can get in. You’re safe now.
+No one can get in. Youâ€™re safe now.
 You alright?
 
 391
@@ -1845,7 +1845,7 @@ You alright?
 
 392
 00:27:03,357 --> 00:27:05,353
-I’m just looking through in me old box.
+Iâ€™m just looking through in me old box.
 
 393
 00:27:05,980 --> 00:27:12,676
@@ -1864,7 +1864,7 @@ doing his bit for king and country.
 
 396
 00:27:25,841 --> 00:27:30,465
-- Why’s he got a vest and plimsolls on?
+- Whyâ€™s he got a vest and plimsolls on?
 - Well, he'd just deserted.
 
 397
@@ -1874,7 +1874,7 @@ to take you back to where you were born?
 
 398
 00:27:35,908 --> 00:27:39,803
-Ain’t there any more, dear.
+Ainâ€™t there any more, dear.
 They knocked it down.
 
 399
@@ -1885,7 +1885,7 @@ They knocked it down.
 400
 00:27:44,248 --> 00:27:46,452
 - What film's that, then?
-- ‘Out Of Africa’.
+- â€˜Out Of Africaâ€™.
 
 401
 00:27:46,487 --> 00:27:49,536
@@ -1907,7 +1907,7 @@ the time I was in Africa?
 
 405
 00:27:59,389 --> 00:28:01,656
-‘Well, during the war’…
+â€˜Well, during the warâ€™â€¦
 
 406
 00:28:01,691 --> 00:28:04,839
@@ -1941,7 +1941,7 @@ I was a full-grown man.
 
 412
 00:28:31,137 --> 00:28:35,262
-I shed a little tear or two, didn’t I,
+I shed a little tear or two, didnâ€™t I,
 when Rodney got married and left home.
 
 413
@@ -1966,7 +1966,7 @@ We jumped at the chance.
 417
 00:28:51,302 --> 00:28:55,311
 - You're like that when you're young, ain't you?
-- Oh yeah, we've all done it, haven’t we?
+- Oh yeah, we've all done it, havenâ€™t we?
 
 418
 00:28:55,346 --> 00:28:59,016
@@ -2003,7 +2003,7 @@ was the biggest lion I've ever seen.
 
 425
 00:29:23,216 --> 00:29:25,996
-You need all that, don’t you?
+You need all that, donâ€™t you?
 
 426
 00:29:26,423 --> 00:29:33,308
@@ -2012,12 +2012,12 @@ We just stood there looking at each other.
 
 427
 00:29:33,832 --> 00:29:37,790
-Then suddenly he went ‘aaaargh!’
+Then suddenly he went â€˜aaaargh!â€™
 
 428
 00:29:38,296 --> 00:29:40,509
 - Cor blimey, Albert!
-- What’s happening?
+- Whatâ€™s happening?
 
 429
 00:29:40,872 --> 00:29:42,961
@@ -2049,7 +2049,7 @@ coming face to face with a man-eating lion!
 435
 00:30:08,646 --> 00:30:13,831
 I don't mean when I was in the jungle.
-I mean now, when I went ‘aaargh!’.
+I mean now, when I went â€˜aaargh!â€™.
 
 436
 00:30:22,942 --> 00:30:25,066
@@ -2057,7 +2057,7 @@ I don't believe it!
 
 437
 00:30:33,310 --> 00:30:35,697
-We’ve got a change of clothes
+Weâ€™ve got a change of clothes
 in the airing cupboard.
 
 438
@@ -2068,7 +2068,7 @@ in the airing cupboard.
 439
 00:30:41,707 --> 00:30:44,026
 - Oh good!
-- What do you mean, ‘good’?
+- What do you mean, â€˜goodâ€™?
 
 440
 00:30:44,061 --> 00:30:46,727
@@ -2094,7 +2094,7 @@ So he's no better then?
 
 445
 00:31:11,601 --> 00:31:15,451
-No, he hasn’t been out for ages.
+No, he hasnâ€™t been out for ages.
 
 446
 00:31:15,643 --> 00:31:18,423
@@ -2108,7 +2108,7 @@ You know, I reckon the...
 
 448
 00:31:24,652 --> 00:31:26,474
-I reckon the problem is, right…
+I reckon the problem is, rightâ€¦
 
 449
 00:31:26,680 --> 00:31:31,682
@@ -2117,7 +2117,7 @@ You're being patient, understanding.
 
 450
 00:31:33,570 --> 00:31:35,481
-Well, that’s not normal, is it?
+Well, thatâ€™s not normal, is it?
 
 451
 00:31:36,175 --> 00:31:38,316
@@ -2136,7 +2136,7 @@ people shouting and arguing at each other.
 
 454
 00:31:46,720 --> 00:31:48,926
-We don’t mean any harm
+We donâ€™t mean any harm
 it's just the way we are.
 
 455
@@ -2152,7 +2152,7 @@ he'll start using that as the normal.
 457
 00:31:55,675 --> 00:31:59,601
 Then when we go back to the real normality
-he’ll go back into shock again.
+heâ€™ll go back into shock again.
 
 458
 00:32:00,106 --> 00:32:02,268
@@ -2169,12 +2169,12 @@ The gently, gently approach don't work.
 
 461
 00:32:11,709 --> 00:32:14,360
-We’d be doing it for him, wouldn’t we?
+Weâ€™d be doing it for him, wouldnâ€™t we?
 
 462
 00:32:14,683 --> 00:32:18,115
 Otherwise Del, believe me,
-he’s gonna take root in this flat.
+heâ€™s gonna take root in this flat.
 
 463
 00:32:19,375 --> 00:32:21,046
@@ -2194,7 +2194,7 @@ Alright if I have a brandy, Del?
 
 467
 00:32:29,984 --> 00:32:34,890
-Yeah, that’s alright. I’ll get it….
+Yeah, thatâ€™s alright. Iâ€™ll get itâ€¦.
 No, no, you know where it is, go on! Help yourself!
 
 468
@@ -2204,7 +2204,7 @@ ahead of us tomorrow, Del.
 
 469
 00:32:42,195 --> 00:32:44,619
-Yes, yes, we have, haven’t we Rodney?
+Yes, yes, we have, havenâ€™t we Rodney?
 
 470
 00:32:44,654 --> 00:32:47,385
@@ -2218,7 +2218,7 @@ Not in her condition.
 
 472
 00:32:51,142 --> 00:32:54,179
-- We certainly can’t.
+- We certainly canâ€™t.
 - So it must...
 
 473
@@ -2227,7 +2227,7 @@ So, what are we going to do then?
 
 474
 00:32:58,546 --> 00:33:03,312
-Well, we’ll have to send Albert down the shops.
+Well, weâ€™ll have to send Albert down the shops.
 Albert, you'll have to go down to the shops!
 
 475
@@ -2251,7 +2251,7 @@ are very busy at the moment,
 
 479
 00:33:17,037 --> 00:33:22,783
-‘cause Trotters Independent Traders
+â€˜cause Trotters Independent Traders
 are going to a phase of commercial augmentation.
 
 480
@@ -2260,17 +2260,17 @@ And with Raquel dropping her chavvy.
 
 481
 00:33:28,378 --> 00:33:30,859
-I mean, we don’t want any lame ducks.
+I mean, we donâ€™t want any lame ducks.
 
 482
 00:33:31,451 --> 00:33:34,407
-‘Cause you’re getting under our feet.
+â€˜Cause youâ€™re getting under our feet.
 Do you understand what I'm talking about?
 
 483
 00:33:34,442 --> 00:33:38,358
 So you better get up and get out,
-‘cause you're no good to us the way you are, alright?
+â€˜cause you're no good to us the way you are, alright?
 
 484
 00:33:44,107 --> 00:33:47,758
@@ -2292,7 +2292,7 @@ Goodnight, boys.
 488
 00:34:09,134 --> 00:34:13,117
 I'm just saying
-it was a bit tougher than I expected, that’s all.
+it was a bit tougher than I expected, thatâ€™s all.
 
 489
 00:34:16,483 --> 00:34:18,700
@@ -2333,8 +2333,8 @@ Let me see that.
 
 497
 00:34:57,996 --> 00:35:01,302
-- That’s ‘cause what you said last night.
-- ‘Cause of what I said?
+- Thatâ€™s â€˜cause what you said last night.
+- â€˜Cause of what I said?
 
 498
 00:35:01,337 --> 00:35:03,758
@@ -2348,7 +2348,7 @@ to get him out of this flat and back on his feet!
 
 500
 00:35:06,870 --> 00:35:08,044
-I am not blaming anyone…
+I am not blaming anyoneâ€¦
 
 501
 00:35:08,079 --> 00:35:10,148
@@ -2380,7 +2380,7 @@ No luck at this end. How about you?
 
 507
 00:38:23,841 --> 00:38:25,396
-You’re alright, Unc?
+Youâ€™re alright, Unc?
 
 508
 00:38:28,573 --> 00:38:30,226
@@ -2407,12 +2407,12 @@ Just a guess, really.
 
 513
 00:38:45,417 --> 00:38:51,174
-- You were born round here, weren’t you?
+- You were born round here, werenâ€™t you?
 - Yeah. Tobacco Road. My house was...
 
 514
 00:38:52,421 --> 00:38:54,118
-…somewhere round here.
+â€¦somewhere round here.
 
 515
 00:38:56,760 --> 00:39:02,496
@@ -2462,7 +2462,7 @@ Life seemed easier then.
 
 525
 00:39:47,129 --> 00:39:55,919
-Things ain’t that much different now, Albert.
+Things ainâ€™t that much different now, Albert.
 You can always come home, to your family.
 
 526
@@ -2570,8 +2570,8 @@ drums are worth, Rodney?
 
 547
 00:41:57,051 --> 00:41:59,474
-I’ll tell you how much they’re worth.
-They’re worth an arm and a leg.
+Iâ€™ll tell you how much theyâ€™re worth.
+Theyâ€™re worth an arm and a leg.
 
 548
 00:42:00,155 --> 00:42:04,459
@@ -2595,16 +2595,16 @@ with the old windsurfer strapped to the roof rack.
 552
 00:42:21,734 --> 00:42:26,755
 Then have a few friends down from the City
-and we’d have a private party in a pub yonder.
+and weâ€™d have a private party in a pub yonder.
 
 553
 00:42:27,395 --> 00:42:33,729
-A few glasses of the old Moet, ‘cause I'm a champagne
+A few glasses of the old Moet, â€˜cause I'm a champagne
 and liver sausage sandwich man,
 
 554
 00:42:35,036 --> 00:42:40,598
-and then we’d watch the old currant bun go down
+and then weâ€™d watch the old currant bun go down
 behind the Docklands arena.
 
 555
@@ -2662,7 +2662,7 @@ Well, that explains it.
 566
 00:43:34,612 --> 00:43:37,785
 I met a couple of winos this afternoon
-drunk as nudes they were…
+drunk as nudes they wereâ€¦
 
 567
 00:43:38,043 --> 00:43:40,820
@@ -2670,23 +2670,23 @@ said they were celebrating St Rodney's Day.
 
 568
 00:43:42,317 --> 00:43:45,692
-- I hope he hasn’t gone to the Nag's Head!
+- I hope he hasnâ€™t gone to the Nag's Head!
 - Why, what's happening down there tonight?
 
 569
 00:43:45,727 --> 00:43:48,418
-Nothing! I just hope he hasn’t gone down
-to Nag’s Head!
+Nothing! I just hope he hasnâ€™t gone down
+to Nagâ€™s Head!
 
 570
 00:43:55,648 --> 00:44:01,947
 - Is that the bell, Del?
-- Yes. No, you’ll get it, will ya? I’m busy.
+- Yes. No, youâ€™ll get it, will ya? Iâ€™m busy.
 
 571
 00:44:02,139 --> 00:44:06,599
 - Raquel!
-- No, Raquel can’t go. She’s busy and all. You answer it.
+- No, Raquel canâ€™t go. Sheâ€™s busy and all. You answer it.
 
 572
 00:44:06,634 --> 00:44:09,041
@@ -2695,8 +2695,8 @@ to Nag’s Head!
 
 573
 00:44:09,378 --> 00:44:12,097
-Come on, there’s nothing to be afraid of, is there?
-I’m here, ain’t I?
+Come on, thereâ€™s nothing to be afraid of, is there?
+Iâ€™m here, ainâ€™t I?
 
 574
 00:44:12,132 --> 00:44:15,559
@@ -2724,7 +2724,7 @@ I can't see him, Del!
 579
 00:44:39,328 --> 00:44:41,916
 Of course you can't see him.
-You haven’t opened the door yet!
+You havenâ€™t opened the door yet!
 
 580
 00:44:42,136 --> 00:44:44,662
@@ -2733,7 +2733,7 @@ I can't face it, Del!
 
 581
 00:44:44,860 --> 00:44:48,193
-Alright, alright. Look, I’ll go, I’ll go…
+Alright, alright. Look, Iâ€™ll go, Iâ€™ll goâ€¦
 
 582
 00:44:48,559 --> 00:44:51,229
@@ -2805,7 +2805,7 @@ that went missing?
 
 596
 00:45:46,007 --> 00:45:50,100
-Well, he lost it all, didn’t he?
+Well, he lost it all, didnâ€™t he?
 At dominoes to Knock-Knock!
 
 597
@@ -2867,8 +2867,8 @@ Anyway, you know oily Ollie, the greaser?
 
 609
 00:46:34,240 --> 00:46:37,336
-His gang’s come in
-they’ve only attacked the skinheads.
+His gangâ€™s come in
+theyâ€™ve only attacked the skinheads.
 
 610
 00:46:37,371 --> 00:46:42,972
@@ -2883,7 +2883,7 @@ They're coppers!
 612
 00:46:47,774 --> 00:46:50,158
 - They're what?
-- They’re undercover policemen.
+- Theyâ€™re undercover policemen.
 
 613
 00:46:50,193 --> 00:46:53,453
@@ -2898,7 +2898,7 @@ when the muggings started.
 615
 00:46:59,598 --> 00:47:02,815
 Well, anyone would have done the same thing,
-wouldn’t they, eh?
+wouldnâ€™t they, eh?
 
 616
 00:47:03,354 --> 00:47:06,630
@@ -2923,11 +2923,11 @@ premature if I hang around you much longer!
 620
 00:47:21,034 --> 00:47:24,280
 Be fair, sweetheart.
-They looked like muggers, didn’t they?
+They looked like muggers, didnâ€™t they?
 
 621
 00:47:24,590 --> 00:47:27,784
-When Oliver and his army get out of hospital…
+When Oliver and his army get out of hospitalâ€¦
 
 622
 00:47:27,819 --> 00:47:31,083
@@ -2946,5 +2946,5 @@ I was Royal Navy boxing champion.
 625
 00:47:38,548 --> 00:47:41,679
 I'm gonna kill him! I am!
-I’m gonna kill him now!
+Iâ€™m gonna kill him now!
 

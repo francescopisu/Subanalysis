@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:03,560 --> 00:00:06,760
 # Stick a pony in me pocket
 
@@ -1743,7 +1743,7 @@ You used to stagger down to the quack's.
 
 383
 00:27:07,840 --> 00:27:11,960
-And you'd pay �2.50
+And you'd pay £2.50
 for a prescription, and go to the chemist,
 
 384

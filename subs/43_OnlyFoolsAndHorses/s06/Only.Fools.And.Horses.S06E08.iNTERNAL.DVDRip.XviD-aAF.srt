@@ -1,4 +1,4 @@
-1
+ï»¿1
 00:00:42,293 --> 00:00:45,078
 - I wish Rodney was still working with you.
 - So do I.
@@ -470,7 +470,7 @@ I'm not gonna ask you for 8 quid.
 
 100
 00:08:55,152 --> 00:09:01,375
-What I'm gonna ask you for is £7.50.
+What I'm gonna ask you for is Â£7.50.
 Come on, first come, first served. I haven't got many.
 
 101
@@ -3359,7 +3359,7 @@ Thanks for telling me, Del.
 
 713
 01:00:12,996 --> 01:00:15,415
-I couldn’t see you
+I couldnâ€™t see you
 walk into an ambush, could I?
 
 714

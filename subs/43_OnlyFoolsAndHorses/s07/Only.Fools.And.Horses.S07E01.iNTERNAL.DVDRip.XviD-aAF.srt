@@ -1,4 +1,4 @@
-1
+ï»¿1
 00:01:03,404 --> 00:01:05,150
 Well, go on then!
 
@@ -514,7 +514,7 @@ Why d'you tell her I've got a bellyache for?
 
 109
 00:09:05,152 --> 00:09:07,505
-- That’s' what you've got, innit?
+- Thatâ€™s' what you've got, innit?
 - No, it is not!
 
 110
@@ -2055,7 +2055,7 @@ Offer 300, I'll go to 500 at a push.
 430
 00:31:20,557 --> 00:31:25,347
 You wanna buy your own property back?
-Why don’t you go to the gendarmes?
+Why donâ€™t you go to the gendarmes?
 
 431
 00:31:25,909 --> 00:31:28,238
@@ -2437,7 +2437,7 @@ I'm afraid it was rerouted.
 510
 00:38:16,653 --> 00:38:19,657
 But I'm waiting for my wife!
-I've booked a hotel suite –
+I've booked a hotel suite â€“
 
 511
 00:38:19,692 --> 00:38:24,348

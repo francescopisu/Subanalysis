@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:44,235 --> 00:00:49,513
 When did I nick your speaker? Oh that speaker.
 Yeah, well I only borrowed it for the party didn't I?
@@ -10,7 +10,7 @@ Well, alright, the next week.
 
 3
 00:00:54,103 --> 00:00:58,198
-Anyway, you�re not honestly trying to tell me that you've
+Anyway, you’re not honestly trying to tell me that you've
 only got one speaker? What just one!!
 
 4

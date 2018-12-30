@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:45,930 --> 00:00:52,628
 No, no, no, no, everything's cushty! Yeah, no, no,
 you've got nothing to worry about.
@@ -1231,7 +1231,7 @@ I'll just have a quick look at him first.
 
 259
 00:24:08,830 --> 00:24:12,229
-Last night he underwent some rather �
+Last night he underwent some rather –
 thorough examinations...
 
 260

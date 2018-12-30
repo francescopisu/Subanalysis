@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:41,322 --> 00:00:44,664
 Listen, now listen. 'Ere, why shed a tear over the recession
 when you've got me around, eh?
@@ -425,7 +425,7 @@ warmth and the love that they had between them!
 
 90
 00:07:08,770 --> 00:07:12,116
-No, there weren't much of that Del Boy, they didn�t talk to
+No, there weren't much of that Del Boy, they didn’t talk to
 each other for 15 years.
 
 91
