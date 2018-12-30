@@ -116,7 +116,7 @@ more than qualified.</i>
 25
 00:01:17,956 --> 00:01:20,652
 It's really not that simple.
-Uh, you'd have to submit a résumé.
+Uh, you'd have to submit a rÃ©sumÃ©.
 
 26
 00:01:20,759 --> 00:01:23,728
@@ -921,7 +921,7 @@ What a cool guy.
 192
 00:10:20,433 --> 00:10:23,766
 <i>- Tobias had been sent to the office by George Sr.
-- My name is Dr. Tobias Fünke...</i>
+- My name is Dr. Tobias FÃ¼nke...</i>
 
 193
 00:10:23,870 --> 00:10:27,829

@@ -139,7 +139,7 @@ we were going to the movies...
 30
 00:01:37,247 --> 00:01:39,715
 ...and we stopped off
-and bought this café latte.
+and bought this cafÃ© latte.
 
 31
 00:01:39,887 --> 00:01:41,843
@@ -276,7 +276,7 @@ to Java World.
 
 59
 00:02:50,527 --> 00:02:52,995
-Get me a café latte with a top.
+Get me a cafÃ© latte with a top.
 
 60
 00:02:53,167 --> 00:02:55,078
@@ -1365,7 +1365,7 @@ Hey, listen, I'm getting out here.
 291
 00:14:32,007 --> 00:14:34,805
 I'm gonna get myself
-a free café latte.
+a free cafÃ© latte.
 
 292
 00:14:43,727 --> 00:14:45,319
@@ -1597,13 +1597,13 @@ about a rocking chair?
 
 340
 00:17:37,047 --> 00:17:39,356
-You can't limit my café lattes.
+You can't limit my cafÃ© lattes.
 It says so right here.
 
 341
 00:17:39,527 --> 00:17:42,724
 And no dirty looks. If I want
-a café latte, you give me a café latte.
+a cafÃ© latte, you give me a cafÃ© latte.
 
 342
 00:17:42,887 --> 00:17:45,117
@@ -1622,11 +1622,11 @@ What's the matter?
 345
 00:17:50,007 --> 00:17:52,316
 They're making faces
-because I've had some café lattes.
+because I've had some cafÃ© lattes.
 
 346
 00:17:52,487 --> 00:17:55,559
-But I can have as many café lattes
+But I can have as many cafÃ© lattes
 as I want. That was the settlement.
 
 347
@@ -1756,7 +1756,7 @@ to see you, Mr. Ciccio.
 
 375
 00:19:39,327 --> 00:19:40,726
-Sì, sì, Poppie.
+SÃ¬, sÃ¬, Poppie.
 
 376
 00:19:41,847 --> 00:19:44,486

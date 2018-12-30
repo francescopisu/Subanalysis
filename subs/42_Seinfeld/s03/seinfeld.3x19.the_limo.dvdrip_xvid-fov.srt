@@ -87,7 +87,7 @@ There's a clock over there.
 19
 00:00:59,929 --> 00:01:03,706
 -But you have a watch on.
--It’s right by the escalator.
+-Itâ€™s right by the escalator.
 
 20
 00:01:04,379 --> 00:01:05,787
@@ -190,7 +190,7 @@ He's not showing up.
 41
 00:02:03,029 --> 00:02:05,550
 Wait till you see the line for cabs.
-It’s 45 minutes long.
+Itâ€™s 45 minutes long.
 
 42
 00:02:05,878 --> 00:02:08,530
@@ -229,7 +229,7 @@ They can't kill us.
 49
 00:02:29,984 --> 00:02:32,985
 -Who's gonna be O'Brien?
--I’ll be O'Brien.
+-Iâ€™ll be O'Brien.
 
 50
 00:02:33,922 --> 00:02:36,257
@@ -275,8 +275,8 @@ Okay. Colin O'Brien.
 
 59
 00:02:58,796 --> 00:03:01,034
--I’m Dylan Murphy.
--I’m Colin O'Brien.
+-Iâ€™m Dylan Murphy.
+-Iâ€™m Colin O'Brien.
 
 60
 00:03:02,798 --> 00:03:04,741
@@ -304,7 +304,7 @@ Sorry we're late.
 
 65
 00:03:15,060 --> 00:03:17,963
--I’ll bring the car around front.
+-Iâ€™ll bring the car around front.
 -Thank you very much.
 
 66
@@ -320,20 +320,20 @@ This is incredible.
 68
 00:03:27,769 --> 00:03:30,104
 This is one of the greatest things
-I’ve ever done.
+Iâ€™ve ever done.
 
 69
 00:03:30,267 --> 00:03:32,340
--I’m gonna call my mother.
+-Iâ€™m gonna call my mother.
 -What for?
 
 70
 00:03:32,507 --> 00:03:34,548
-To tell her I’m in a limo.
+To tell her Iâ€™m in a limo.
 
 71
 00:03:36,701 --> 00:03:38,589
-Hello, Ma? It’s me.
+Hello, Ma? Itâ€™s me.
 
 72
 00:03:38,750 --> 00:03:42,047
@@ -346,7 +346,7 @@ No, nobody died.
 
 74
 00:03:44,512 --> 00:03:46,685
-It’s a long story. I can't tell you now.
+Itâ€™s a long story. I can't tell you now.
 
 75
 00:03:46,850 --> 00:03:48,192
@@ -366,12 +366,12 @@ Would you stop it? All right, look--
 
 79
 00:03:56,037 --> 00:03:57,248
-I’m getting off.
+Iâ€™m getting off.
 
 80
 00:03:57,414 --> 00:04:00,482
-No, I’m not telling you.
-How's this? I’m never telling you.
+No, Iâ€™m not telling you.
+How's this? Iâ€™m never telling you.
 
 81
 00:04:00,648 --> 00:04:02,787
@@ -430,7 +430,7 @@ can get him to drop us at my house.
 
 94
 00:04:34,134 --> 00:04:35,628
-I’ll ask him.
+Iâ€™ll ask him.
 
 95
 00:04:37,752 --> 00:04:40,174
@@ -526,7 +526,7 @@ I would ask, ''Why?'' or ''Why not?''
 
 115
 00:05:34,320 --> 00:05:36,688
-Elaine? It’s me.
+Elaine? Itâ€™s me.
 
 116
 00:05:36,849 --> 00:05:38,192
@@ -563,11 +563,11 @@ That's right, baby doll.
 123
 00:05:57,081 --> 00:06:01,077
 And listen, when we pick you up,
-I’m Murphy and George is O'Brien.
+Iâ€™m Murphy and George is O'Brien.
 
 124
 00:06:01,243 --> 00:06:03,349
-I can't tell you now. It’s a long story.
+I can't tell you now. Itâ€™s a long story.
 
 125
 00:06:03,516 --> 00:06:05,143
@@ -632,7 +632,7 @@ we were in a party.
 
 138
 00:06:46,191 --> 00:06:47,533
-I’m telling you, the jig is up.
+Iâ€™m telling you, the jig is up.
 
 139
 00:06:47,696 --> 00:06:49,868
@@ -672,7 +672,7 @@ Do I have to be?
 146
 00:07:07,352 --> 00:07:08,662
 -You're Murphy.
--I’m Seinfeld.
+-Iâ€™m Seinfeld.
 
 147
 00:07:08,825 --> 00:07:10,134
@@ -711,7 +711,7 @@ your face. Pretend you're sleeping.
 155
 00:07:34,820 --> 00:07:37,603
 -Mr. O'Brien.
--No, I’m Dylan Murphy.
+-No, Iâ€™m Dylan Murphy.
 
 156
 00:07:37,765 --> 00:07:39,653
@@ -776,7 +776,7 @@ Wake up.
 
 169
 00:08:20,247 --> 00:08:23,631
-Well, hello. I’m O'Brien.
+Well, hello. Iâ€™m O'Brien.
 
 170
 00:08:27,771 --> 00:08:30,227
@@ -797,13 +797,13 @@ How much do you make?
 
 174
 00:08:35,774 --> 00:08:37,149
--I’m not telling you.
+-Iâ€™m not telling you.
 -Come on.
 
 175
 00:08:37,310 --> 00:08:39,199
 -No.
--I’ll tell you how much I make.
+-Iâ€™ll tell you how much I make.
 
 176
 00:08:39,360 --> 00:08:40,822
@@ -811,7 +811,7 @@ I know how much you make.
 
 177
 00:08:43,489 --> 00:08:46,338
-I don't even know why I’m doing this.
+I don't even know why Iâ€™m doing this.
 I don't even like basketball.
 
 178
@@ -827,7 +827,7 @@ one of those 360 dunks.
 180
 00:08:53,093 --> 00:08:54,370
 -What's that?
--It’s like this.
+-Itâ€™s like this.
 
 181
 00:08:54,535 --> 00:08:56,291
@@ -855,11 +855,11 @@ you know it's either a rich guy...
 186
 00:09:19,249 --> 00:09:21,617
 Being in the back of a limo,
-I’m sorry, it's just--
+Iâ€™m sorry, it's just--
 
 187
 00:09:21,778 --> 00:09:24,114
-It’s not that cool.
+Itâ€™s not that cool.
 Most of the time, you feel like...
 
 188
@@ -897,8 +897,8 @@ have you?
 
 195
 00:09:48,541 --> 00:09:50,997
-Yes, I’ve read it.
-And I’ve memorized it.
+Yes, Iâ€™ve read it.
+And Iâ€™ve memorized it.
 
 196
 00:09:51,679 --> 00:09:53,108
@@ -940,7 +940,7 @@ You're a brilliant...
 
 205
 00:10:17,482 --> 00:10:19,654
-Well, it's.... It’s just a game.
+Well, it's.... Itâ€™s just a game.
 
 206
 00:10:19,820 --> 00:10:21,249
@@ -1096,7 +1096,7 @@ All right, get down.
 
 239
 00:12:14,461 --> 00:12:16,666
-I’m ready to die for you.
+Iâ€™m ready to die for you.
 
 240
 00:12:18,718 --> 00:12:21,719
@@ -1135,7 +1135,7 @@ Nice-looking Luger.
 
 248
 00:12:48,587 --> 00:12:51,043
-I’m at The Paramount,
+Iâ€™m at The Paramount,
 adjacent to Madison Square Garden...
 
 249
@@ -1195,7 +1195,7 @@ the emotional fuse that has been lit.
 
 260
 00:13:25,563 --> 00:13:29,078
-From The Paramount, I’m Jodi
+From The Paramount, Iâ€™m Jodi
 Baskerville. Back to you in the studio.
 
 261
@@ -1342,7 +1342,7 @@ You gotta sleep with your feet like that:
 
 291
 00:15:00,068 --> 00:15:04,892
-It’s for a mental patient. Wait a minute,
+Itâ€™s for a mental patient. Wait a minute,
 the phone. We'll call the police.
 
 292
@@ -1433,7 +1433,7 @@ I think you forgot something.
 
 311
 00:15:58,494 --> 00:16:00,055
--I’m sorry.
+-Iâ€™m sorry.
 -Good.
 
 312
@@ -1466,7 +1466,7 @@ No one's ever been shot in the city.
 
 318
 00:16:19,590 --> 00:16:21,730
-I’m telling you,
+Iâ€™m telling you,
 something is going on.
 
 319
@@ -1475,7 +1475,7 @@ I can feel it, sense it.
 
 320
 00:16:25,161 --> 00:16:28,391
--I’m sure he was just joking around.
+-Iâ€™m sure he was just joking around.
 -Oh, no, this is no joke.
 
 321
@@ -1670,7 +1670,7 @@ can act the way he does.
 
 364
 00:18:32,288 --> 00:18:34,623
-Elaine, I’m telling you,
+Elaine, Iâ€™m telling you,
 they're with the organization.
 
 365
@@ -1698,8 +1698,8 @@ What--?
 
 370
 00:18:48,679 --> 00:18:51,430
-I’m not gonna let them hurt you.
-I’m not gonna--
+Iâ€™m not gonna let them hurt you.
+Iâ€™m not gonna--
 
 371
 00:18:51,592 --> 00:18:53,349
@@ -1718,7 +1718,7 @@ I told you about.
 374
 00:18:58,731 --> 00:19:00,325
 -Get off of me!
--It’s all right.
+-Itâ€™s all right.
 
 375
 00:19:00,492 --> 00:19:02,565
@@ -1784,7 +1784,7 @@ Yeah?
 388
 00:19:39,292 --> 00:19:41,497
 -Eva?
--It’s for me.
+-Itâ€™s for me.
 
 389
 00:19:43,486 --> 00:19:44,664
@@ -1792,7 +1792,7 @@ Hello?
 
 390
 00:19:47,873 --> 00:19:49,629
-It’s O'Brien.
+Itâ€™s O'Brien.
 
 391
 00:19:50,690 --> 00:19:51,934
@@ -1808,8 +1808,8 @@ Who are you?
 
 394
 00:19:58,885 --> 00:20:00,675
--I’m Jerry Seinfeld.
--I’m George Costanza.
+-Iâ€™m Jerry Seinfeld.
+-Iâ€™m George Costanza.
 
 395
 00:20:00,838 --> 00:20:02,082
@@ -1836,7 +1836,7 @@ The limo has just pulled up.
 
 400
 00:20:10,858 --> 00:20:13,063
-It’s being surrounded by
+Itâ€™s being surrounded by
 a huge crowd of protesters.
 
 401

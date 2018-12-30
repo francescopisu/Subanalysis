@@ -1758,11 +1758,11 @@ You've looked better.
 
 415
 00:29:02,320 --> 00:29:03,912
-Your fiancé, lain Rannoch.
+Your fiancÃ©, lain Rannoch.
 
 416
 00:29:05,640 --> 00:29:07,596
-Or, should I say, <i>was</i> your fiancé.
+Or, should I say, <i>was</i> your fiancÃ©.
 
 417
 00:29:12,720 --> 00:29:17,032
@@ -1789,7 +1789,7 @@ But I'll tell you what you are, though.
 
 422
 00:29:25,920 --> 00:29:28,878
-<i>Together with her fiancé lain Rannoch,</i>
+<i>Together with her fiancÃ© lain Rannoch,</i>
 <i>whose death in custody</i>
 
 423
@@ -1878,7 +1878,7 @@ But I'll tell you what you are, though.
 
 441
 00:30:17,840 --> 00:30:20,513
-<i>claiming her fiancé had pressured her</i>
+<i>claiming her fiancÃ© had pressured her</i>
 <i>into helping him,</i>
 
 442

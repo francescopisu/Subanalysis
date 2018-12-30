@@ -737,7 +737,7 @@ Where are the stairs?
 157
 00:08:37,128 --> 00:08:39,358
 <i>Guillermo Ortiz
-como El Ratón...</i>
+como El RatÃ³n...</i>
 
 158
 00:08:39,464 --> 00:08:41,694
@@ -746,7 +746,7 @@ como Pepito...</i>
 
 159
 00:08:41,800 --> 00:08:44,360
-<i>Felicio Colón
+<i>Felicio ColÃ³n
 como Miguelito...</i>
 
 160
@@ -779,7 +779,7 @@ wasn't wearing his glasses.</i>
 
 166
 00:09:01,619 --> 00:09:03,587
-<i>? Cómo estoy?</i>
+<i>? CÃ³mo estoy?</i>
 
 167
 00:09:06,224 --> 00:09:08,488

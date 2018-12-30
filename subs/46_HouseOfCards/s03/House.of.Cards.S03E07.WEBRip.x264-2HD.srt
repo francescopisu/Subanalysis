@@ -1640,7 +1640,7 @@ Because... that could be interesting.
 
 365
 00:28:14,402 --> 00:28:17,280
-I made you a café au lait.
+I made you a cafÃ© au lait.
 
 366
 00:28:17,364 --> 00:28:19,240

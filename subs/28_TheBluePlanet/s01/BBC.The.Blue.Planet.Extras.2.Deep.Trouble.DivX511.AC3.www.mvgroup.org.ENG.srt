@@ -425,7 +425,7 @@ This is big business.
 92
 00:07:03,807 --> 00:07:06,241
 These blue fin
-are fetching £60 a kilo,
+are fetching Â£60 a kilo,
 
 93
 00:07:06,407 --> 00:07:08,398
@@ -434,7 +434,7 @@ so in today's auction,
 94
 00:07:08,567 --> 00:07:11,684
 a dealer would expect
-to get £12,000
+to get Â£12,000
 
 95
 00:07:11,847 --> 00:07:13,838
@@ -450,7 +450,7 @@ for this one fish alone.
 
 98
 00:07:18,927 --> 00:07:21,077
-<i>have fetched more than £100,000,</i>
+<i>have fetched more than Â£100,000,</i>
 
 99
 00:07:38,287 --> 00:07:42,439

@@ -301,7 +301,7 @@ around this dump?
 
 69
 00:03:49,562 --> 00:03:51,052
-How's your fiancée?
+How's your fiancÃ©e?
 
 70
 00:03:51,231 --> 00:03:52,721
@@ -309,7 +309,7 @@ My what?
 
 71
 00:03:54,000 --> 00:03:57,128
-Jeannie? Your fiancée?
+Jeannie? Your fiancÃ©e?
 
 72
 00:03:57,870 --> 00:04:00,100
@@ -1579,7 +1579,7 @@ Okay, question number eight:
 
 354
 00:18:15,060 --> 00:18:18,461
-What if I told you my fiancée
+What if I told you my fiancÃ©e
 left me for another man?
 
 355
