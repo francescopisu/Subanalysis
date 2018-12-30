@@ -1,4 +1,4 @@
-﻿1
+1
 00:00:56,521 --> 00:00:59,400
 'Ere, look who's here, look,
 Phil the Flooter!
@@ -1048,7 +1048,7 @@ cupboard an' see if there are any Jaffa cakes going.
 
 220
 00:14:05,711 --> 00:14:09,148
-Go on, go on, don't worry Grandad –
+Go on, go on, don't worry Grandad 
 we'll soon have this job finished!
 
 221
@@ -1452,7 +1452,7 @@ put a new canary in the cage,
 
 305
 00:19:14,343 --> 00:19:20,231
-maybe Corinne won’t suspect anything!
+maybe Corinne won't suspect anything!
 Grandad's the one that worries me!
 
 306
@@ -1792,281 +1792,286 @@ said, was she satisfied?
 - No, of course she wasn't.
 
 377
-00:00:00,100 --> 00:00:00,200
-She was too upset weren't she?
+00:24:33,930 --> 00:24:37,200
+But why she did not just bury 
+the thing this morning?
 
 378
-00:00:00,100 --> 00:00:00,200
+00:24:37,000 --> 00:24:38,300
+She was too upset weren't she?
+
+379
+00:24:38,400 --> 00:24:41,500
 That's why she was waiting for
 Denzil to come home!
 
-379
-00:00:00,100 --> 00:00:00,200
+380
+00:24:42,300 --> 00:24:45,100
 She could of at least told us
 it was laying in state in the kitchen?
 
-380
-00:00:00,100 --> 00:00:00,200
+381
+00:24:46,000 --> 00:24:48,600
 She wasn't there was she!
 That's why she left the note!
 
-381
-00:00:00,100 --> 00:00:00,200
+382
+00:24:49,100 --> 00:24:50,800
 'Please do not go in the
 kitchen.'
 
-382
-00:00:00,100 --> 00:00:00,200
+383
+00:24:52,200 --> 00:24:55,100
 Look she ain't blaming us
 for the demise of Buzzby.
 
-383
-00:00:00,100 --> 00:00:00,200
+384
+00:24:55,700 --> 00:24:58,000
 I think what really got up her nose was
 
-384
-00:00:00,100 --> 00:00:00,200
+385
+00:24:58,300 --> 00:25:01,200
 when she went to make a cup of coffee
 and flooded the kitchen!
 
-385
-00:00:00,100 --> 00:00:00,200
+386
+00:25:03,000 --> 00:25:06,400
 She turned own my offer of a
 brand-new kettle! Didn't she?
 
-386
-00:00:00,100 --> 00:00:00,200
+387
+00:25:06,700 --> 00:25:11,200
 - Didn't have a tenner on her!
 - She could have paid on the weekly!
 
-387
-00:00:00,100 --> 00:00:00,200
+388
+00:25:12,700 --> 00:25:15,000
 - Are you alright Del?
 - Yeah, hello Brendan.
 
-388
-00:00:00,100 --> 00:00:00,200
+389
+00:25:15,500 --> 00:25:17,200
 Rodney?
 
-389
-00:00:00,100 --> 00:00:00,200
+390
+00:25:18,100 --> 00:25:19,500
 D'you reckon he knows Del Boy?
 
-390
-00:00:00,100 --> 00:00:00,200
+391
+00:25:21,000 --> 00:25:24,000
 No. Corinne's not the sort to
 broadcast it.
 
-391
-00:00:00,100 --> 00:00:00,200
+392
+00:25:24,500 --> 00:25:28,000
 I taught I taw a puddytat a
 cweeping up on me!
 
-392
-00:00:00,100 --> 00:00:00,200
+393
+00:25:31,700 --> 00:25:32,800
 Mouthy cow!
 
-393
-00:00:00,100 --> 00:00:00,200
+394
+00:25:34,300 --> 00:25:41,800
 I was talking to Eye-talian Louis, he told me
 he sold you a flea-bitten canary for 45 pounds.
 
-394
-00:00:00,100 --> 00:00:00,200
+395
+00:25:46,000 --> 00:25:50,700
 - 45?
 - What did I say then Del?
 
-395
-00:00:00,100 --> 00:00:00,200
+396
+00:25:50,800 --> 00:25:52,200
 What did you say!
 
-396
-00:00:00,100 --> 00:00:00,200
+397
+00:25:52,300 --> 00:25:55,300
 Don't worry Del, I've taken
 over the job at Denzil's flat.
 
-397
-00:00:00,100 --> 00:00:00,200
+398
+00:25:55,600 --> 00:25:59,400
 But it'll cost him a bit more now you amateurs
 have been playing around with it!
 
-398
-00:00:00,100 --> 00:00:00,200
+399
+00:26:01,700 --> 00:26:05,500
 Do you know what Rodney, if that Brendan
 wasn't so big, I'd give him a right seeing to!
 
-399
-00:00:00,100 --> 00:00:00,200
+400
+00:26:05,600 --> 00:26:07,200
 Yeah, so would I.
 
-400
-00:00:00,100 --> 00:00:00,200
+401
+00:26:07,300 --> 00:26:08,300
 Well you're as tall as he is, Rodney.
 
-401
-00:00:00,100 --> 00:00:00,200
+402
+00:26:14,100 --> 00:26:16,100
 Well you can't hit a man of
 that age can you.
 
-402
-00:00:00,100 --> 00:00:00,200
+403
+00:26:18,500 --> 00:26:22,100
 - You alright gents? How are you?
 - Oh, you must be the new governor?
 
-403
-00:00:00,100 --> 00:00:00,200
+404
+00:26:23,600 --> 00:26:25,700
 That's right, Mike Fisher,
 pleased to meet you.
 
-404
-00:00:00,100 --> 00:00:00,200
+405
+00:26:26,500 --> 00:26:29,000
 Hello Mike, Del Trotter, people
 may have mentioned m.
 
-405
-00:00:00,100 --> 00:00:00,200
+406
+00:26:29,800 --> 00:26:31,300
 Yes they certainly have!
 
-406
-00:00:00,100 --> 00:00:00,200
+407
+00:26:32,100 --> 00:26:34,200
 Well I'm a popular character
 round these parts.
 
-407
-00:00:00,100 --> 00:00:00,200
+408
+00:26:35,400 --> 00:26:38,800
 'Ere Mike, could you just tell me is it true
 that the brewery are gonna have this place decorated?
 
-408
-00:00:00,100 --> 00:00:00,200
+409
+00:26:39,100 --> 00:26:40,500
 Yeah, that's right, in the
 very near future.
 
-409
-00:00:00,100 --> 00:00:00,200
+410
+00:26:42,800 --> 00:26:45,200
 Is it also true that mouth almighty
 over there has got the contract?
 
-410
-00:00:00,100 --> 00:00:00,200
+411
+00:26:46,100 --> 00:26:49,000
 Well, let's say he's favourite,
 his estimate's by far the lowest.
 
-411
-00:00:00,100 --> 00:00:00,200
+412
+00:26:50,000 --> 00:26:54,200
 - How much is he doing it for?
 - Oh come on, it's confidential isn't it.
 
-412
-00:00:00,100 --> 00:00:00,200
+413
+00:26:55,000 --> 00:26:57,200
 No, no it's not, no come on. Brendan and I,
 well I mean, we're like that!
 
-413
-00:00:00,100 --> 00:00:00,200
+414
+00:26:58,600 --> 00:27:01,400
 I don't suppose it matters who
 knows, he's bragging about it himself now.
 
-414
-00:00:00,100 --> 00:00:00,200
+415
+00:27:01,700 --> 00:27:02,900
 He reckons he'll
 do it for a grand.
 
-415
-00:00:00,100 --> 00:00:00,200
+416
+00:27:03,500 --> 00:27:07,700
 A grand? And who decides which
 estimate to accept?
 
-416
-00:00:00,100 --> 00:00:00,200
+417
+00:27:08,000 --> 00:27:08,900
 I do.
 
-417
-00:00:00,100 --> 00:00:00,200
+418
+00:27:12,800 --> 00:27:17,000
 Michael, could I have a word
 in your shell-like...
 
-418
-00:00:00,100 --> 00:00:00,200
+419
+00:27:19,500 --> 00:27:22,500
 I might be able to offer you a
 much better deal my son!
 
-419
-00:00:00,100 --> 00:00:00,200
+420
+00:27:23,300 --> 00:27:27,200
 I could get this pub decorated
 to exactly the same standard as Brendan,
 
-420
-00:00:00,100 --> 00:00:00,200
+421
+00:27:27,300 --> 00:27:32,400
 and it would cost
 your brewery a mere 2,000 pounds!
 
-421
-00:00:00,100 --> 00:00:00,200
+422
+00:27:33,200 --> 00:27:34,400
 Two thousand pounds?
 
-422
-00:00:00,100 --> 00:00:00,200
+423
+00:27:34,800 --> 00:27:37,500
 That must be a tempting offer, eh, Rodney?
 
-423
-00:00:00,100 --> 00:00:00,200
+424
+00:27:37,700 --> 00:27:40,600
 Yeah, well, he's a born
 businessman ain't he?
 
-424
-00:00:00,100 --> 00:00:00,200
+425
+00:27:41,000 --> 00:27:42,200
 No hang about, hang about -
 
-425
-00:00:00,100 --> 00:00:00,200
+426
+00:27:42,300 --> 00:27:47,400
 look why should I turn down an offer
 of a thousand and except one of two thousand?
 
-426
-00:00:00,100 --> 00:00:00,200
+427
+00:27:47,700 --> 00:27:50,000
 Because of all the advantages
 it has to offer,
 
-427
-00:00:00,100 --> 00:00:00,200
+428
+00:27:50,200 --> 00:27:56,600
 like my specialised profit-sharing
 scheme! Let me explain how it works.
 
-428
-00:00:00,100 --> 00:00:00,200
+429
+00:27:56,900 --> 00:28:01,500
 The two thousand pounds
 would be dispersed thus:
 
-429
-00:00:00,100 --> 00:00:00,200
+430
+00:28:02,200 --> 00:28:07,900
 there would be five hundred pounds
 for vous and five hundred pounds for me.
 
-430
-00:00:00,100 --> 00:00:00,200
+431
+00:28:08,700 --> 00:28:11,300
 - What you mean I get 500 quid?
 - Oh yes!
 
-431
-00:00:00,100 --> 00:00:00,200
+432
+00:28:11,900 --> 00:28:13,800
 Yeah, and what happens to the
 thousand that's left over?
 
-432
-00:00:00,100 --> 00:00:00,200
+433
+00:28:14,000 --> 00:28:16,600
 We give that to the Irishman
 and let him do then job!
 
-433
-00:00:00,100 --> 00:00:00,200
+434
+00:28:19,800 --> 00:28:21,500
 You've got a deal Mr Trotter!
 
-434
-00:00:00,100 --> 00:00:00,200
+435
+00:28:21,700 --> 00:28:22,700
 Thank you Michael.
 
-435
-00:00:00,100 --> 00:00:00,200
+436
+00:28:23,800 --> 00:28:27,300
 Can I have a word? Who's a pretty boy then?
 

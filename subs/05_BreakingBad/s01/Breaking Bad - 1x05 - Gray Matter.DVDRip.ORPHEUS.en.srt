@@ -2686,6 +2686,3 @@ Yo!
 00:47:17,481 --> 00:47:19,024
 Wanna cook?
 
-9999
-00:00:0,500 --> 00:00:2,00
-<font color="#ffff00" size=14>www.tvsubtitles.net</font>

@@ -2610,7 +2610,3 @@ Wake up.
 592
 00:44:37,644 --> 00:44:38,544
 Wake up.
-
-9999
-00:00:0,500 --> 00:00:2,00
-<font color="#ffff00" size=14>www.tvsubtitles.net</font>

@@ -1928,6 +1928,3 @@ Okay.
 00:47:01,305 --> 00:47:03,182
 Here I go.
 
-9999
-00:00:0,500 --> 00:00:2,00
-<font color="#ffff00" size=14>www.tvsubtitles.net</font>
