@@ -42,6 +42,23 @@ def compute_wh():
                                     with open(snd_current_dir + '/' + subFile, encoding="utf-8") as f:
                                         episode += 1
                                         text = []
+
+                                        text_complete = f.readlines()
+
+                                        # find the row index of the last dialogue
+                                        j = -1
+                                        while not '-->' in text_complete[j]:
+                                            j = j-1
+
+                                        #divide it and compute the runtime
+                                        first_time = text_complete[j].split('-->')[0]
+                                        hours= first_time.split(':')[0]
+                                        minutes = first_time.split(':')[1]
+                                        runtime = int(hours)*60 + int(minutes)
+                                        print(runtime)
+
+                                        f.seek(0)
+
                                         for line in f.readlines():
                                             # discarding all the lines starting with a number
                                             if not line[0].isdigit():
@@ -74,7 +91,7 @@ def compute_wh():
 
                                         # in order to compute the actual words per hour, word count must be divided
                                         # by the episode length of each series
-                                        words_hour = round((words_count * 60) / float(current_series.episode_length), 2)
+                                        words_hour = round((words_count * 60) / float(runtime), 2)
 
                                         resFile.write(series + ',' + current_series.name + ',' + str(season) + ',' + str(episode) + ',' +
                                                       str(words_hour) + ',' + str(words_count))
