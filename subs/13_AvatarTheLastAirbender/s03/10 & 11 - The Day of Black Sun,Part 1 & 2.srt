@@ -651,7 +651,7 @@ we sneaked by that fire navy blockade.
 
 141
 00:10:01,620 --> 00:10:04,520
-Keep it up, we’re almost through.
+Keep it up, weâ€™re almost through.
 
 142
 00:10:33,880 --> 00:10:35,912
@@ -894,7 +894,7 @@ I've got an idea.
 194
 00:19:37,003 --> 00:19:41,729
 You two take out that battlement.
-I got this one. Watch each other’s backs.
+I got this one. Watch each otherâ€™s backs.
 
 195
 00:20:08,940 --> 00:20:11,130
@@ -1034,7 +1034,7 @@ Dad!
 
 226
 00:24:40,192 --> 00:24:41,792
-You’re on your feet again.
+Youâ€™re on your feet again.
 
 227
 00:24:41,793 --> 00:24:43,140
@@ -1042,22 +1042,22 @@ Thanks to your sister.
 
 228
 00:24:43,611 --> 00:24:46,611
-I’m in no shape to fight
+Iâ€™m in no shape to fight
 but maybe there is someway I could help.
 
 229
 00:24:46,908 --> 00:24:49,708
-Everything’s going smoothly
-and the eclipse hasn’t even kicked in yet.
+Everythingâ€™s going smoothly
+and the eclipse hasnâ€™t even kicked in yet.
 
 230
 00:24:49,738 --> 00:24:55,938
-Let’s hope our luck holds out.
+Letâ€™s hope our luck holds out.
 Katara, you seem distracted. Is something wrong?
 
 231
 00:24:56,526 --> 00:24:59,426
-Yeah…. Is that… is that Aang?
+Yeahâ€¦. Is thatâ€¦ is that Aang?
 
 232
 00:25:00,679 --> 00:25:01,679
@@ -1065,12 +1065,12 @@ What?
 
 233
 00:25:03,680 --> 00:25:09,180
-Please tell you’re here because the Fire Lord turned out to be a
-big wimp and you didn’t even need the eclipse to take him down
+Please tell youâ€™re here because the Fire Lord turned out to be a
+big wimp and you didnâ€™t even need the eclipse to take him down
 
 234
 00:25:09,461 --> 00:25:14,861
-He wasn’t home. No one was.
+He wasnâ€™t home. No one was.
 The entire palace city is abandoned.
 
 235
@@ -1079,27 +1079,27 @@ They knew.
 
 236
 00:25:17,381 --> 00:25:18,381
-Aang: It’s over.
+Aang: Itâ€™s over.
 
 237
 00:25:18,382 --> 00:25:24,082
 The Fire Lord is probably long gone. Far away on some
-remote island where he’ll be safe during the eclipse.
+remote island where heâ€™ll be safe during the eclipse.
 
 238
 00:25:24,849 --> 00:25:29,349
-No. My instincts tell me he wouldn’t go too far.
+No. My instincts tell me he wouldnâ€™t go too far.
 He would have a secret bunker.
 
 239
 00:25:29,474 --> 00:25:33,874
-Somewhere he could go so it’ll be safe during a
+Somewhere he could go so itâ€™ll be safe during a
 siege but still be close enough to lead his nation.
 
 240
 00:25:33,875 --> 00:25:38,375
-If it’s an underground secret bunker we’re
-looking for, I’m just the girl to find it.
+If itâ€™s an underground secret bunker weâ€™re
+looking for, Iâ€™m just the girl to find it.
 
 241
 00:25:38,821 --> 00:25:40,521
@@ -1107,7 +1107,7 @@ The Mechanist gave me this timing device.
 
 242
 00:25:40,722 --> 00:25:45,022
-It looks like we’ve got about 10 minutes until the full eclipse.
+It looks like weâ€™ve got about 10 minutes until the full eclipse.
 10 minutes to find the Fire Lord.
 
 243
@@ -1127,16 +1127,16 @@ make sure all of us get out of here safely.
 
 246
 00:25:56,654 --> 00:26:00,354
-Everyone who’s here today came prepared
+Everyone whoâ€™s here today came prepared
 to risk everything for this mission.
 
 247
 00:26:00,764 --> 00:26:02,064
-They know what’s at stake.
+They know whatâ€™s at stake.
 
 248
 00:26:02,513 --> 00:26:07,513
-If there’s still a chance and there’s still hope,
+If thereâ€™s still a chance and thereâ€™s still hope,
 I think they would want Aang to go for it.
 
 249
@@ -1145,12 +1145,12 @@ What do you think?
 
 250
 00:26:08,647 --> 00:26:13,347
-You’re the one who has to face the Fire Lord.
-Whatever you decide, I’m with you.
+Youâ€™re the one who has to face the Fire Lord.
+Whatever you decide, Iâ€™m with you.
 
 251
 00:26:16,273 --> 00:26:17,273
-I’ve got to try.
+Iâ€™ve got to try.
 
 252
 00:26:24,303 --> 00:26:25,703
@@ -1168,7 +1168,7 @@ Is there a structure somewhere?
 
 255
 00:26:35,309 --> 00:26:39,809
-There’s something big, dense, and made of
+Thereâ€™s something big, dense, and made of
 metal deep in the heart of the volcano.
 
 256
@@ -1177,11 +1177,11 @@ Sokka: Sounds like a secret bunker to me.
 
 257
 00:26:46,347 --> 00:26:47,847
-Aang: Stay safe. We’ll be back soon.
+Aang: Stay safe. Weâ€™ll be back soon.
 
 258
 00:26:51,190 --> 00:26:52,390
-Toph: This way! That one’s a dead end.
+Toph: This way! That oneâ€™s a dead end.
 
 259
 00:26:52,491 --> 00:26:53,991
@@ -1202,7 +1202,7 @@ side and it leads right to the bunker.
 
 263
 00:27:04,349 --> 00:27:06,549
-Sokka: We’ll have to be fast but careful.
+Sokka: Weâ€™ll have to be fast but careful.
 
 264
 00:27:08,470 --> 00:27:09,670
@@ -1215,8 +1215,8 @@ We need to be fast, careful and lucky.
 
 266
 00:27:20,174 --> 00:27:22,874
-Sokka: There’s no floor!
-It’s just a river of lava.
+Sokka: Thereâ€™s no floor!
+Itâ€™s just a river of lava.
 
 267
 00:27:24,030 --> 00:27:26,230
@@ -1224,7 +1224,7 @@ Aang: Climb aboard and hold on tight.
 
 268
 00:27:41,059 --> 00:27:42,559
-Sokka: That’s some door!
+Sokka: Thatâ€™s some door!
 
 269
 00:27:47,088 --> 00:27:48,088
@@ -1251,7 +1251,7 @@ by the time it starts
 274
 00:28:37,553 --> 00:28:41,053
 and secure the entire palace
-by the time it’s finished!
+by the time itâ€™s finished!
 
 275
 00:28:44,730 --> 00:28:46,530
@@ -1264,8 +1264,8 @@ forward with the others.
 
 277
 00:29:00,636 --> 00:29:05,036
-War Minister Qin: The Fire Lord’s chamber is that way down
-the hall to the left and up the stairs. You can’t miss it.
+War Minister Qin: The Fire Lordâ€™s chamber is that way down
+the hall to the left and up the stairs. You canâ€™t miss it.
 
 278
 00:29:05,800 --> 00:29:06,800
@@ -1278,7 +1278,7 @@ until the total eclipse.
 
 280
 00:29:26,271 --> 00:29:29,171
-I’m ready. I’m ready to face the Fire Lord.
+Iâ€™m ready. Iâ€™m ready to face the Fire Lord.
 
 281
 00:29:33,799 --> 00:29:36,899
@@ -1290,12 +1290,12 @@ I had a hunch that you survived.
 
 283
 00:29:40,344 --> 00:29:44,044
-It doesn’t matter, I’ve known
+It doesnâ€™t matter, Iâ€™ve known
 about the invasion for months.
 
 284
 00:29:49,645 --> 00:29:51,845
-I’m ready to face you.
+Iâ€™m ready to face you.
 
 285
 00:29:55,772 --> 00:29:58,772
@@ -1313,7 +1313,7 @@ Fire Lord Ozai: Why are you here?
 
 288
 00:30:32,525 --> 00:30:33,825
-I’m here to tell the truth.
+Iâ€™m here to tell the truth.
 
 289
 00:30:34,027 --> 00:30:39,127
@@ -1347,12 +1347,12 @@ He could be on his way right now.
 295
 00:31:01,818 --> 00:31:04,918
 Get out! Get out of my sight right now
-if you know what’s good for you.
+if you know whatâ€™s good for you.
 
 296
 00:31:05,012 --> 00:31:08,412
-That’s another thing.
-I’m not taking orders from you anymore.
+Thatâ€™s another thing.
+Iâ€™m not taking orders from you anymore.
 
 297
 00:31:08,941 --> 00:31:14,541
@@ -1370,8 +1370,8 @@ Where is he? Where is the Fire Lord?
 
 300
 00:31:25,794 --> 00:31:29,494
-Hm, you mean I’m not good enough for you?
-You’re hurting my feelings.
+Hm, you mean Iâ€™m not good enough for you?
+Youâ€™re hurting my feelings.
 
 301
 00:31:31,226 --> 00:31:33,926
@@ -1380,17 +1380,17 @@ give us the information.
 
 302
 00:31:34,097 --> 00:31:36,997
-You’re powerless right now, so
-you’re in no position to refuse.
+Youâ€™re powerless right now, so
+youâ€™re in no position to refuse.
 
 303
 00:31:37,220 --> 00:31:40,520
 And stick to the truth.
-I’ll be able to tell if you’re lying.
+Iâ€™ll be able to tell if youâ€™re lying.
 
 304
 00:31:40,751 --> 00:31:43,151
-Are you sure? I’m a pretty good liar.
+Are you sure? Iâ€™m a pretty good liar.
 
 305
 00:31:44,541 --> 00:31:49,241
@@ -1399,7 +1399,7 @@ bear with pink horns and silver wings
 
 306
 00:31:51,283 --> 00:31:52,983
-Okay you’re good, I admit it.
+Okay youâ€™re good, I admit it.
 
 307
 00:31:55,509 --> 00:31:58,209
@@ -1426,17 +1426,17 @@ by the time the eclipse is over.
 
 312
 00:32:32,289 --> 00:32:35,689
-Otherwise, we’ll be in for
+Otherwise, weâ€™ll be in for
 the fight of our lives.
 
 313
 00:32:40,816 --> 00:32:44,116
 Tyro: Stop! Surrender peacefully
-and we won’t harm you.
+and we wonâ€™t harm you.
 
 314
 00:32:44,220 --> 00:32:45,820
-We’ll never surrender.
+Weâ€™ll never surrender.
 
 315
 00:32:51,184 --> 00:32:52,584
@@ -1445,11 +1445,11 @@ Er okay, we surrender.
 316
 00:32:55,107 --> 00:32:59,621
 Hakoda: There it is. The Fire Nation
-royal palace. We’ve come so far.
+royal palace. Weâ€™ve come so far.
 
 317
 00:32:59,622 --> 00:33:01,462
-It’s not over yet.
+Itâ€™s not over yet.
 
 318
 00:33:04,482 --> 00:33:08,482
@@ -1494,7 +1494,7 @@ Then you have learned nothing.
 
 327
 00:33:32,543 --> 00:33:37,043
-No, I’ve learnt everything!
+No, Iâ€™ve learnt everything!
 And I had to learn it on my own.
 
 328
@@ -1514,18 +1514,18 @@ the world are terrified by the Fire Nation!
 
 331
 00:33:53,009 --> 00:33:59,209
-They don’t see our greatness, they hate us! And we deserve it.
-We’ve created an era of fear in the world.
+They donâ€™t see our greatness, they hate us! And we deserve it.
+Weâ€™ve created an era of fear in the world.
 
 332
 00:33:59,510 --> 00:34:06,810
-And if we don’t want the world to destroy itself, we
+And if we donâ€™t want the world to destroy itself, we
 need to replace it with an era of peace and kindness.
 
 333
 00:34:07,532 --> 00:34:12,532
 (laughs mocking) Your Uncle
-has gotten to you, hasn’t he?
+has gotten to you, hasnâ€™t he?
 
 334
 00:34:13,959 --> 00:34:15,659
@@ -1533,7 +1533,7 @@ Yes. He has.
 
 335
 00:35:39,677 --> 00:35:42,177
-I can’t pin her down. She’s too quick.
+I canâ€™t pin her down. Sheâ€™s too quick.
 
 336
 00:35:57,173 --> 00:35:59,973
@@ -1541,20 +1541,20 @@ Wait! Aang, Toph, stop attacking.
 
 337
 00:36:00,597 --> 00:36:03,397
-Don’t you see what she’s doing?
-She’s just playing with us.
+Donâ€™t you see what sheâ€™s doing?
+Sheâ€™s just playing with us.
 
 338
 00:36:03,493 --> 00:36:05,093
-She’s not even trying to win this fight!
+Sheâ€™s not even trying to win this fight!
 
 339
 00:36:05,169 --> 00:36:07,369
-Not true, I’m giving it my all.
+Not true, Iâ€™m giving it my all.
 
 340
 00:36:07,791 --> 00:36:10,391
-You’re trying to keep us
+Youâ€™re trying to keep us
 here and waste all our time!
 
 341
@@ -1564,16 +1564,16 @@ friend just said that genius.
 
 342
 00:36:14,294 --> 00:36:18,094
-And since you can’t see, I should
-tell you I’m rolling my eyes.
+And since you canâ€™t see, I should
+tell you Iâ€™m rolling my eyes.
 
 343
 00:36:18,191 --> 00:36:19,791
-I’ll roll your whole head!
+Iâ€™ll roll your whole head!
 
 344
 00:36:20,335 --> 00:36:21,635
-She’s just baiting you again.
+Sheâ€™s just baiting you again.
 
 345
 00:36:22,028 --> 00:36:24,428
@@ -1581,7 +1581,7 @@ Okay, so what do we do? Just ignore her?
 
 346
 00:36:25,090 --> 00:36:26,390
-We don’t have a choice.
+We donâ€™t have a choice.
 
 347
 00:36:26,405 --> 00:36:29,905
@@ -1590,7 +1590,7 @@ find the Fire Lord on our own somehow.
 
 348
 00:36:30,636 --> 00:36:32,636
-It’s a trap. Don’t say I didn’t warn you.
+Itâ€™s a trap. Donâ€™t say I didnâ€™t warn you.
 
 349
 00:36:33,686 --> 00:36:34,686
@@ -1598,7 +1598,7 @@ Ignore!
 
 350
 00:36:35,300 --> 00:36:40,900
-So, Sokka’s your name right? My favorite
+So, Sokkaâ€™s your name right? My favorite
 prisoner used to mention you all the time.
 
 351
@@ -1613,7 +1613,7 @@ and she gave up on you.
 
 353
 00:36:51,650 --> 00:36:52,650
-Come and get it…
+Come and get itâ€¦
 
 354
 00:36:59,316 --> 00:37:01,616
@@ -1621,43 +1621,43 @@ Where is Suki?!
 
 355
 00:37:03,786 --> 00:37:07,086
-Zuko: After I leave here today, I’m going
+Zuko: After I leave here today, Iâ€™m going
 to free Uncle Iroh from his prison
 
 356
 00:37:07,702 --> 00:37:11,702
-and I’m going to beg for his forgiveness.
+and Iâ€™m going to beg for his forgiveness.
 He is the one who has been a real father to me.
 
 357
 00:37:12,183 --> 00:37:17,583
-That’s just beautiful. Maybe he can pass
+Thatâ€™s just beautiful. Maybe he can pass
 down to you the ways of tea and failure.
 
 358
 00:37:17,855 --> 00:37:20,955
-But I’ve come to an even
+But Iâ€™ve come to an even
 more important decision.
 
 359
 00:37:22,020 --> 00:37:25,520
-I’m going to join the Avatar.
-And I’m going to help him defeat you.
+Iâ€™m going to join the Avatar.
+And Iâ€™m going to help him defeat you.
 
 360
 00:37:25,868 --> 00:37:31,468
-Really? Since you’re a full blown traitor
+Really? Since youâ€™re a full blown traitor
 now and you want me gone, why wait?
 
 361
 00:37:31,947 --> 00:37:36,547
-I’m powerless, you’ve got your swords,
-why don’t you just do it now?
+Iâ€™m powerless, youâ€™ve got your swords,
+why donâ€™t you just do it now?
 
 362
 00:37:36,867 --> 00:37:41,467
 Because I know my own destiny.
-Taking you down is the Avatar’s destiny.
+Taking you down is the Avatarâ€™s destiny.
 
 363
 00:37:41,468 --> 00:37:44,468
@@ -1665,17 +1665,17 @@ Taking you down is the Avatar’s destiny.
 
 364
 00:37:45,357 --> 00:37:49,457
-Coward! You think you’re brave enough to face
-me but you’ll only do it during an eclipse.
+Coward! You think youâ€™re brave enough to face
+me but youâ€™ll only do it during an eclipse.
 
 365
 00:37:49,635 --> 00:37:53,935
-If you have any real courage, you’ll
+If you have any real courage, youâ€™ll
 stick around until the Sun comes out.
 
 366
 00:37:54,610 --> 00:37:58,010
-Don’t you want to know what
+Donâ€™t you want to know what
 happened to your Mother?
 
 367
@@ -1704,11 +1704,11 @@ Lord and your life would be spared.
 
 372
 00:38:37,696 --> 00:38:40,996
-Where’s Suki? Answer me!
+Whereâ€™s Suki? Answer me!
 
 373
 00:38:41,664 --> 00:38:43,164
-Sokka, she won’t talk.
+Sokka, she wonâ€™t talk.
 
 374
 00:38:45,068 --> 00:38:46,868
@@ -1726,7 +1726,7 @@ For her treason, she was banished.
 
 377
 00:38:58,005 --> 00:38:59,005
-So she’s alive.
+So sheâ€™s alive.
 
 378
 00:38:59,806 --> 00:39:10,306
@@ -1735,12 +1735,12 @@ a penalty for treason. Your penalty will be far steeper.
 
 379
 00:39:32,021 --> 00:39:35,021
-Oh. Sounds like the firebending’s back on.
+Oh. Sounds like the firebendingâ€™s back on.
 
 380
 00:39:43,865 --> 00:39:49,865
-Dad’s all the way at the end of the hall and down the secret stairway
-on the left. I’m sure he’ll be more than happy to see you now.
+Dadâ€™s all the way at the end of the hall and down the secret stairway
+on the left. Iâ€™m sure heâ€™ll be more than happy to see you now.
 
 381
 00:39:50,734 --> 00:39:53,734
@@ -1749,26 +1749,26 @@ I used up all our time.
 
 382
 00:39:53,831 --> 00:39:58,931
-It’s not your fault, Sokka. Azula was ready for us.
+Itâ€™s not your fault, Sokka. Azula was ready for us.
 She had every move planned out.
 
 383
 00:39:59,942 --> 00:40:01,542
-And now it’s too late.
+And now itâ€™s too late.
 
 384
 00:40:01,835 --> 00:40:07,335
-Maybe it’s not too late. The eclipse is
+Maybe itâ€™s not too late. The eclipse is
 over but I can face the Fire Lord anyway.
 
 385
 00:40:07,746 --> 00:40:09,646
-No. I don’t think that’s a good idea.
+No. I donâ€™t think thatâ€™s a good idea.
 
 386
 00:40:09,914 --> 00:40:13,514
-But I’m ready! I came here with a job
-to do and everyone’s counting on me.
+But Iâ€™m ready! I came here with a job
+to do and everyoneâ€™s counting on me.
 
 387
 00:40:14,522 --> 00:40:16,622
@@ -1778,11 +1778,11 @@ were coming this time.
 388
 00:40:16,656 --> 00:40:19,656
 We thought we had surprise
-on our side but we didn’t.
+on our side but we didnâ€™t.
 
 389
 00:40:19,736 --> 00:40:23,336
-It just wasn’t our day.
+It just wasnâ€™t our day.
 What we need to do now is go help our friends.
 
 390
@@ -1791,21 +1791,21 @@ I guess you guys are right.
 
 391
 00:40:25,542 --> 00:40:28,142
-You’ll have another chance.
+Youâ€™ll have another chance.
 I know you will.
 
 392
 00:40:33,575 --> 00:40:36,575
 Bato: What should we do, Hakoda?
-Shouldn’t something have happened by now?
+Shouldnâ€™t something have happened by now?
 
 393
 00:40:36,726 --> 00:40:38,026
-I don’t know.
+I donâ€™t know.
 
 394
 00:40:38,104 --> 00:40:43,304
-But now that the eclipse is over, I expect we’re
+But now that the eclipse is over, I expect weâ€™re
 going to see some firebenders any minute.
 
 395
@@ -1815,12 +1815,12 @@ Oh this is terrible!
 
 396
 00:41:07,485 --> 00:41:08,485
-They’re back!
+Theyâ€™re back!
 
 397
 00:41:22,970 --> 00:41:26,770
 It was all a trap. Azula knew we were
-coming and she’s plotted out every move.
+coming and sheâ€™s plotted out every move.
 
 398
 00:41:28,197 --> 00:41:29,897
@@ -1834,8 +1834,8 @@ maybe we can get away safely.
 
 400
 00:41:32,698 --> 00:41:39,698
-Aang: They’ve got air power, but so do I!
-I’m going to do what I can to slow them down.
+Aang: Theyâ€™ve got air power, but so do I!
+Iâ€™m going to do what I can to slow them down.
 
 401
 00:41:42,590 --> 00:41:44,890
@@ -1843,16 +1843,16 @@ Katara: Appa, you and I can help too.
 
 402
 00:41:47,604 --> 00:41:50,004
-Everyone, let’s get back to the subs!
+Everyone, letâ€™s get back to the subs!
 
 403
 00:42:19,681 --> 00:42:22,281
-We can’t keep them all back.
-They’re too many of them!
+We canâ€™t keep them all back.
+Theyâ€™re too many of them!
 
 404
 00:42:23,201 --> 00:42:24,201
-Let’s join the others.
+Letâ€™s join the others.
 
 405
 00:42:36,982 --> 00:42:37,982
@@ -1864,28 +1864,28 @@ Where is my Uncle?
 
 407
 00:42:44,783 --> 00:42:48,083
-Warden Poon: He’s gone.
+Warden Poon: Heâ€™s gone.
 He busted himself out.
 
 408
 00:42:48,109 --> 00:42:52,009
-I… I’ve never seen anything like it!
+Iâ€¦ Iâ€™ve never seen anything like it!
 He was like a one man army!
 
 409
 00:42:59,758 --> 00:43:02,758
 Try and find cover!
-I think we’re about to see some bombs.
+I think weâ€™re about to see some bombs.
 
 410
 00:43:22,274 --> 00:43:24,274
-Why aren’t they turning
+Why arenâ€™t they turning
 around to attack us again?
 
 411
 00:43:25,708 --> 00:43:29,608
-They’re headed for the beach.
-They’re going to destroy the submarines!
+Theyâ€™re headed for the beach.
+Theyâ€™re going to destroy the submarines!
 
 412
 00:43:30,162 --> 00:43:31,262
@@ -1893,7 +1893,7 @@ How are we all going to escape?
 
 413
 00:43:31,300 --> 00:43:32,300
-We’re not.
+Weâ€™re not.
 
 414
 00:43:33,620 --> 00:43:38,320
@@ -1912,12 +1912,12 @@ You have to escape on Appa together.
 
 417
 00:43:46,897 --> 00:43:50,897
-What? We can’t leave you behind.
-We won’t leave anyone behind.
+What? We canâ€™t leave you behind.
+We wonâ€™t leave anyone behind.
 
 418
 00:43:51,440 --> 00:43:53,840
-You’re our only chance in a long run.
+Youâ€™re our only chance in a long run.
 
 419
 00:43:53,847 --> 00:43:56,647
@@ -1926,7 +1926,7 @@ with Aang somewhere safe.
 
 420
 00:43:56,745 --> 00:43:58,745
-It’s the only way to keep hope alive.
+Itâ€™s the only way to keep hope alive.
 
 421
 00:43:58,812 --> 00:44:01,512
@@ -1939,21 +1939,21 @@ The adults will stay behind and surrender.
 
 423
 00:44:04,277 --> 00:44:07,777
-We’ll be prisoners but we’ll
+Weâ€™ll be prisoners but weâ€™ll
 all survive this battle.
 
 424
 00:44:08,492 --> 00:44:11,892
-Tyro: I’ve got some experience
+Tyro: Iâ€™ve got some experience
 with the Fire Nation prisons.
 
 425
 00:44:11,912 --> 00:44:14,412
-It’s not going to be easy but we’ll get by.
+Itâ€™s not going to be easy but weâ€™ll get by.
 
 426
 00:44:14,486 --> 00:44:15,486
-They’re at the beach already!
+Theyâ€™re at the beach already!
 
 427
 00:44:56,566 --> 00:44:57,566
@@ -1961,11 +1961,11 @@ The Mechanist: Bye, son.
 
 428
 00:44:57,892 --> 00:45:00,392
-Teo: Bye, Dad. I’m really proud of you.
+Teo: Bye, Dad. Iâ€™m really proud of you.
 
 429
 00:45:05,090 --> 00:45:06,090
-The Duke: I’ll miss you, Pipsqueak.
+The Duke: Iâ€™ll miss you, Pipsqueak.
 
 430
 00:45:06,657 --> 00:45:07,657
@@ -1973,15 +1973,15 @@ Pipsqueak: Take care, The Duke.
 
 431
 00:45:10,412 --> 00:45:11,412
-Haru: I’ll be back for you Dad.
+Haru: Iâ€™ll be back for you Dad.
 
 432
 00:45:11,689 --> 00:45:14,189
-Tyro: If we don’t escape on our own first.
+Tyro: If we donâ€™t escape on our own first.
 
 433
 00:45:17,442 --> 00:45:20,842
-We lost today but we’ve
+We lost today but weâ€™ve
 never been this close.
 
 434
@@ -1991,17 +1991,17 @@ counts for something.
 
 435
 00:45:24,519 --> 00:45:25,519
-We’ll miss you Dad.
+Weâ€™ll miss you Dad.
 
 436
 00:45:27,739 --> 00:45:31,339
-Bye Dad. We won’t be apart for
+Bye Dad. We wonâ€™t be apart for
 too long this time. I promise.
 
 437
 00:45:42,475 --> 00:45:48,075
 Thank you all for being so brave and so strong.
-I’m going to make this up to you.
+Iâ€™m going to make this up to you.
 
 438
 00:46:05,428 --> 00:46:06,628
@@ -2009,12 +2009,12 @@ Captain: Should we follow them, Princess?
 
 439
 00:46:06,729 --> 00:46:10,729
-No. They’re too fast.
-It doesn’t matter, they’ll be back.
+No. Theyâ€™re too fast.
+It doesnâ€™t matter, theyâ€™ll be back.
 
 440
 00:46:14,588 --> 00:46:19,088
-I know just the place for us to go where we’ll
+I know just the place for us to go where weâ€™ll
 be safe for a while. The Western Air Temple.
 
 441
@@ -2111,7 +2111,8 @@ be safe for a while. The Western Air Temple.
 
 464
 00:46:32,830 --> 00:46:32,883
-<font color="#ffff00">Subtitle fixed by LEO33
+<font color="#ffff00">Subtitle fixed by LEO33
+
 
 465
 00:46:32,884 --> 00:46:32,937
