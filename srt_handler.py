@@ -39,7 +39,7 @@ def compute_wh():
                             if not subFile.startswith('.'):
                                 if subFile.endswith(".srt"):
                                     print("extracting: " + subFile)
-                                    with open(snd_current_dir + '/' + subFile) as f:
+                                    with open(snd_current_dir + '/' + subFile, encoding="utf-8") as f:
                                         episode += 1
                                         text = []
                                         for line in f.readlines():
