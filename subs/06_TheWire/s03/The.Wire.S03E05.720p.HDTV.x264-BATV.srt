@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:08,600 --> 00:00:12,700
 No, Bubs. I mean, there's gotta be rules,
 or else things get fucked up.
@@ -3026,7 +3026,7 @@ The integrated math program here
 664
 00:49:11,300 --> 00:49:14,400
 Not much of a spread,
-but you can't go wrong with <i>crudit�s.</i>
+but you can't go wrong with <i>crudités.</i>
 
 665
 00:49:14,500 --> 00:49:16,000
