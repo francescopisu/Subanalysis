@@ -521,7 +521,7 @@ as a customer, will meet me
 
 115
 00:07:21,708 --> 00:07:23,177
-And hand me £5.18.3.
+And hand me Â£5.18.3.
 
 116
 00:07:24,378 --> 00:07:27,447
@@ -531,7 +531,7 @@ approach the counter
 117
 00:07:27,514 --> 00:07:30,584
 And purchase a watch
-costing £5.18.3.
+costing Â£5.18.3.
 
 118
 00:07:30,651 --> 00:07:32,319
@@ -631,7 +631,7 @@ go in there
 139
 00:08:12,059 --> 00:08:13,660
 With a mask on
-and ask for £15
+and ask for Â£15
 
 140
 00:08:13,727 --> 00:08:15,195

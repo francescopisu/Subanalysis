@@ -99,7 +99,7 @@ Give me that wave!
 22
 00:01:05,950 --> 00:01:08,569
 -<i>Hey, Jerry, are you free on Friday?</i>
--Yeah, I’m free. Why?
+-Yeah, Iâ€™m free. Why?
 
 23
 00:01:08,735 --> 00:01:11,965
@@ -137,7 +137,7 @@ A car just bashed into a parked car...
 30
 00:01:29,064 --> 00:01:32,579
 -What are you, yellow?
--I’m not yellow.
+-Iâ€™m not yellow.
 
 31
 00:01:34,123 --> 00:01:36,295
@@ -200,7 +200,7 @@ Boy, what a story.
 
 44
 00:02:17,726 --> 00:02:20,061
-I’m speechless, speechless.
+Iâ€™m speechless, speechless.
 I have no speech.
 
 45
@@ -276,7 +276,7 @@ a great story about how they met.
 
 60
 00:03:06,356 --> 00:03:08,691
-That's why I’ve never been in
+That's why Iâ€™ve never been in
 a long-term relationship.
 
 61
@@ -285,7 +285,7 @@ I never had a good meeting story.
 
 62
 00:03:10,581 --> 00:03:12,819
-I wonder if I’m nuts
+I wonder if Iâ€™m nuts
 for pursuing this woman at all.
 
 63
@@ -567,7 +567,7 @@ for Friday night, right?
 125
 00:06:11,239 --> 00:06:13,761
 Oh, Friday. No, I can't.
-I’m sorry. I have a date.
+Iâ€™m sorry. I have a date.
 
 126
 00:06:14,761 --> 00:06:18,145
@@ -589,11 +589,11 @@ Ask George to go with you.
 
 130
 00:06:25,870 --> 00:06:28,490
-George, come on. I’ll pay for you.
+George, come on. Iâ€™ll pay for you.
 
 131
 00:06:28,656 --> 00:06:29,834
-You'll pay? I’m there.
+You'll pay? Iâ€™m there.
 
 132
 00:06:32,977 --> 00:06:34,504
@@ -621,7 +621,7 @@ You know, I have a very exciting life.
 
 137
 00:06:47,928 --> 00:06:49,718
-It’s very exciting.
+Itâ€™s very exciting.
 
 138
 00:06:51,866 --> 00:06:53,809
@@ -753,8 +753,8 @@ because you say, ''God bless you''?
 
 167
 00:08:18,433 --> 00:08:22,297
-I don't think I’m special. My mother
-always said I’m not special.
+I don't think Iâ€™m special. My mother
+always said Iâ€™m not special.
 
 168
 00:08:23,460 --> 00:08:25,566
@@ -762,18 +762,18 @@ He was only joking, Michael.
 
 169
 00:08:25,733 --> 00:08:27,773
--I’m sorry.
+-Iâ€™m sorry.
 -Oh, right.
 
 170
 00:08:27,941 --> 00:08:30,114
 -Take his side!
--I’m not taking his side.
+-Iâ€™m not taking his side.
 
 171
 00:08:30,279 --> 00:08:34,536
 -Well, whose side are you taking?
--Well, I’m not taking your side!
+-Well, Iâ€™m not taking your side!
 
 172
 00:08:43,789 --> 00:08:46,278
@@ -914,7 +914,7 @@ What does it mean anyway,
 
 202
 00:10:06,995 --> 00:10:09,581
-It’s a stupid ''stuperstition.''
+Itâ€™s a stupid ''stuperstition.''
 
 203
 00:10:09,747 --> 00:10:11,308
@@ -987,7 +987,7 @@ What's it like out?
 
 218
 00:11:01,419 --> 00:11:03,143
-It’s chilly out.
+Itâ€™s chilly out.
 
 219
 00:11:05,196 --> 00:11:06,757
@@ -1097,11 +1097,11 @@ Oh, my God, an affair.
 
 242
 00:12:05,864 --> 00:12:07,042
-It’s so adult.
+Itâ€™s so adult.
 
 243
 00:12:09,129 --> 00:12:13,736
-It’s like with stockings and martinis
+Itâ€™s like with stockings and martinis
 and William Holden and....
 
 244
@@ -1120,7 +1120,7 @@ woman. That's despicable!
 
 247
 00:12:26,225 --> 00:12:29,128
-It’s like hitting a car and driving away
+Itâ€™s like hitting a car and driving away
 without leaving a note.
 
 248
@@ -1152,7 +1152,7 @@ The blond with the blue sweatpants.
 
 254
 00:12:47,323 --> 00:12:48,501
-Yeah, I think I’ve seen her.
+Yeah, I think Iâ€™ve seen her.
 
 255
 00:12:50,012 --> 00:12:51,639
@@ -1160,7 +1160,7 @@ Well, I gotta get going.
 
 256
 00:12:51,805 --> 00:12:54,588
-I’m meeting a guy
+Iâ€™m meeting a guy
 with gray sweatpants.
 
 257
@@ -1176,7 +1176,7 @@ you know it's not John Tesh?
 259
 00:13:06,532 --> 00:13:09,435
 I had a crush on her for a year!
-I’ve been afraid to approach her.
+Iâ€™ve been afraid to approach her.
 
 260
 00:13:09,605 --> 00:13:11,613
@@ -1190,7 +1190,7 @@ The blue sweatpants!
 
 262
 00:13:15,815 --> 00:13:18,467
-It’s too bad you can't say
+Itâ€™s too bad you can't say
 anything because of Angela.
 
 263
@@ -1229,7 +1229,7 @@ I can't sit by and allow this to go on!
 
 271
 00:13:46,837 --> 00:13:50,134
--It’s a moral issue, is what it is.
+-Itâ€™s a moral issue, is what it is.
 -Can't compromise your principles.
 
 272
@@ -1239,7 +1239,7 @@ I can't sit by and allow this to go on!
 
 273
 00:13:51,928 --> 00:13:54,198
-I’m not religious, but I know
+Iâ€™m not religious, but I know
 where to draw the line.
 
 274
@@ -1274,7 +1274,7 @@ You're telling me.
 280
 00:14:17,187 --> 00:14:19,644
 I just want you to know
-I’m gonna do everything I can...
+Iâ€™m gonna do everything I can...
 
 281
 00:14:19,812 --> 00:14:22,432
@@ -1305,7 +1305,7 @@ What have I done?
 
 287
 00:14:40,238 --> 00:14:42,792
-I’ll tell you what's wrong.
+Iâ€™ll tell you what's wrong.
 I just committed adultery.
 
 288
@@ -1436,17 +1436,17 @@ in your brain tissue.
 316
 00:16:16,154 --> 00:16:18,544
 -Let me rephrase--
--I’ll bash your skull in...
+-Iâ€™ll bash your skull in...
 
 317
 00:16:18,714 --> 00:16:22,099
 ...like a bad cabbage,
-and I’ll have a party on your head!
+and Iâ€™ll have a party on your head!
 
 318
 00:16:23,965 --> 00:16:26,454
 -Elaine. This is Angela.
--I’ll pluck your body hairs out...
+-Iâ€™ll pluck your body hairs out...
 
 319
 00:16:26,621 --> 00:16:28,477
@@ -1475,8 +1475,8 @@ Good.
 
 325
 00:16:39,171 --> 00:16:42,271
--I’m glad we understand each other.
--It’s not complicated.
+-Iâ€™m glad we understand each other.
+-Itâ€™s not complicated.
 
 326
 00:16:46,631 --> 00:16:49,120
@@ -1503,7 +1503,7 @@ that guy in Queens.
 331
 00:17:04,303 --> 00:17:06,671
 Now, let me just see
-if I’ve got the scenario right.
+if Iâ€™ve got the scenario right.
 
 332
 00:17:06,832 --> 00:17:08,873
@@ -1512,7 +1512,7 @@ if I’ve got the scenario right.
 
 333
 00:17:09,041 --> 00:17:11,180
-...because I’m picturing....
+...because Iâ€™m picturing....
 What? What?
 
 334
@@ -1612,7 +1612,7 @@ You lie! How hard is it to lie!
 
 355
 00:18:09,837 --> 00:18:11,365
-It’s not that hard.
+Itâ€™s not that hard.
 
 356
 00:18:13,327 --> 00:18:15,400
@@ -1704,7 +1704,7 @@ to get an estimate on the damage.
 
 375
 00:19:16,331 --> 00:19:20,107
-I already got an estimate. It’s $8 75.
+I already got an estimate. Itâ€™s $8 75.
 
 376
 00:19:20,268 --> 00:19:22,342
@@ -1716,11 +1716,11 @@ That's right.
 
 378
 00:19:25,070 --> 00:19:27,046
-Well, I’ll tell you what.
+Well, Iâ€™ll tell you what.
 
 379
 00:19:27,216 --> 00:19:31,146
-I’ll give you a check, and then
+Iâ€™ll give you a check, and then
 this person can pay me back.
 
 380
@@ -1768,12 +1768,12 @@ Jerry, let's go. You ready?
 390
 00:20:01,055 --> 00:20:03,609
 You really want to do this?
-I’m on the road for three weeks.
+Iâ€™m on the road for three weeks.
 
 391
 00:20:03,777 --> 00:20:06,778
-Excuse me, I’ve got a maniac
-stalking me. I’m not staying in the city.
+Excuse me, Iâ€™ve got a maniac
+stalking me. Iâ€™m not staying in the city.
 
 392
 00:20:07,778 --> 00:20:10,462
@@ -1825,7 +1825,7 @@ to cover for somebody else.
 
 402
 00:20:37,328 --> 00:20:39,849
-All right. I’m glad we got that
+All right. Iâ€™m glad we got that
 straightened out...
 
 403
@@ -1838,7 +1838,7 @@ You got a date with Becky Gelke?
 
 405
 00:20:46,644 --> 00:20:49,100
--I’m going out with her Saturday.
+-Iâ€™m going out with her Saturday.
 -Can we get out of here?
 
 406
@@ -1848,7 +1848,7 @@ had an excuse to talk to her.
 
 407
 00:20:52,630 --> 00:20:56,374
-Well, I’m happy to help
+Well, Iâ€™m happy to help
 in any way that I can.
 
 408

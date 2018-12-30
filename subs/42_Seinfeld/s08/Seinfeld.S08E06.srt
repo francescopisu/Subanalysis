@@ -39,7 +39,7 @@ businesswoman...
 9
 00:00:26,926 --> 00:00:30,020
 -So Cynthia's your mentor?
--And I'm her protégé.
+-And I'm her protÃ©gÃ©.
 
 10
 00:00:30,563 --> 00:00:32,053
@@ -62,7 +62,7 @@ Abby has a mentor?
 14
 00:00:45,578 --> 00:00:48,547
 Yes. And the mentor
-advises the protégé.
+advises the protÃ©gÃ©.
 
 15
 00:00:48,715 --> 00:00:50,615
@@ -79,12 +79,12 @@ Respect, admiration, prestige.
 
 18
 00:00:59,459 --> 00:01:02,155
-Would the protégé
+Would the protÃ©gÃ©
 pick up stuff for the mentor?
 
 19
 00:01:02,328 --> 00:01:06,594
-I suppose if it was on the protégé's
+I suppose if it was on the protÃ©gÃ©'s
 way to the mentor, they might.
 
 20
@@ -93,7 +93,7 @@ Laundry? Dry cleaning?
 
 21
 00:01:09,202 --> 00:01:11,329
-It's not a valet, it's a protégé.
+It's not a valet, it's a protÃ©gÃ©.
 
 22
 00:01:11,971 --> 00:01:13,199
@@ -130,7 +130,7 @@ you're a risk-management expert?
 
 29
 00:01:31,257 --> 00:01:33,657
-I guess it's on my résumé.
+I guess it's on my rÃ©sumÃ©.
 
 30
 00:01:37,530 --> 00:01:40,931
@@ -854,7 +854,7 @@ Well, no. I would hardly--
 185
 00:10:57,223 --> 00:11:01,250
 As far as I'm concerned,
-you and your deranged protégé...
+you and your deranged protÃ©gÃ©...
 
 186
 00:11:01,427 --> 00:11:04,225
@@ -1275,7 +1275,7 @@ I'm back, baby!
 278
 00:17:05,824 --> 00:17:08,952
 You're sure, with your schedule,
-you'd have time to take on a protégé?
+you'd have time to take on a protÃ©gÃ©?
 
 279
 00:17:09,361 --> 00:17:13,024
@@ -1354,7 +1354,7 @@ so many things with the milk.
 295
 00:17:55,007 --> 00:17:57,669
 You got that Bosco bit,
-then you got your Nestlé's Quik bit.
+then you got your NestlÃ©'s Quik bit.
 
 296
 00:17:57,843 --> 00:17:59,470
@@ -1434,12 +1434,12 @@ You know what your problem is?
 313
 00:19:03,709 --> 00:19:07,236
 You just have no respect
-for the protégé-mentor relationship.
+for the protÃ©gÃ©-mentor relationship.
 
 314
 00:19:07,412 --> 00:19:11,041
 As a matter of fact,
-I happen to have a protégé of my own.
+I happen to have a protÃ©gÃ© of my own.
 
 315
 00:19:12,885 --> 00:19:15,683
@@ -1458,11 +1458,11 @@ this kid to the top.
 318
 00:19:21,360 --> 00:19:25,592
 Well, I don't think I wanna date
-a mentor whose protégé is a hack.
+a mentor whose protÃ©gÃ© is a hack.
 
 319
 00:19:25,764 --> 00:19:29,097
-I don't think I wanna date a protégé
+I don't think I wanna date a protÃ©gÃ©
 whose mentor is a Costanza.
 
 320
@@ -1665,5 +1665,5 @@ You know what I'm talking about."
 
 365
 00:22:38,824 --> 00:22:41,292
-He's my protégé.
+He's my protÃ©gÃ©.
 

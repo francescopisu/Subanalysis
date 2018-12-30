@@ -3072,7 +3072,7 @@ Se puede hablar espanol?
 
 683
 00:34:54,160 --> 00:34:56,549
-Viví en Madrid tres anos.
+VivÃ­ en Madrid tres anos.
 
 684
 00:34:56,600 --> 00:34:58,272

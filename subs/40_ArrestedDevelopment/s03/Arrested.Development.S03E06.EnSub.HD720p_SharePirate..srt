@@ -359,7 +359,7 @@ It's a British expression.
 77
 00:03:36,685 --> 00:03:38,778
 Like they say "go up box"
-instead of “elevator."
+instead of â€œelevator."
 
 78
 00:03:38,887 --> 00:03:41,287
@@ -1468,7 +1468,7 @@ I have made a huge mistake.
 
 312
 00:15:59,497 --> 00:16:01,465
-<i>that his fiancée
+<i>that his fiancÃ©e
 might be mentally challenged.</i>
 
 313

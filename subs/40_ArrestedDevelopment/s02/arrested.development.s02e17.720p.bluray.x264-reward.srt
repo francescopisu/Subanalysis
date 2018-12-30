@@ -988,7 +988,7 @@ this corrupt company.
 207
 00:11:24,527 --> 00:11:29,226
 Unless your mother meets me
-today at 4:00 at Señor Tadpole's.
+today at 4:00 at SeÃ±or Tadpole's.
 
 208
 00:11:29,331 --> 00:11:32,562
@@ -1254,7 +1254,7 @@ He needs help! He needs help!
 263
 00:14:16,644 --> 00:14:20,546
 <i>And so Lucille was able
-to meet with Kitty at Señor Tadpole's.</i>
+to meet with Kitty at SeÃ±or Tadpole's.</i>
 
 264
 00:14:20,648 --> 00:14:22,912

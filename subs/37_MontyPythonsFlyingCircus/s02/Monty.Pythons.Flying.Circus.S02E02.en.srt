@@ -1146,7 +1146,7 @@ that once shocked a generation.
 
 256
 00:19:54,100 --> 00:19:59,900
-From Emily Brontë's 'Wuthering Heights'
+From Emily BrontÃ«'s 'Wuthering Heights'
 and from the 'International Guide
 to Semaphore Code',
 

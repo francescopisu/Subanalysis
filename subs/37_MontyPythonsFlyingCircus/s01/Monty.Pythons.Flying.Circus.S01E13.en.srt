@@ -927,7 +927,7 @@ wallet had been stolen
 
 199
 00:08:35,249 --> 00:08:36,350
-And £15 taken from it.
+And Â£15 taken from it.
 
 200
 00:08:36,416 --> 00:08:37,384

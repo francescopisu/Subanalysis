@@ -2877,7 +2877,7 @@ could go to a guy's head.
 630
 00:30:58,491 --> 00:31:01,576
 They're already talking
-to me about 2½-hour specs,
+to me about 2Â½-hour specs,
 
 631
 00:31:02,210 --> 00:31:04,712
@@ -4644,7 +4644,7 @@ about my next assignment.
 
 1017
 00:47:06,325 --> 00:47:09,426
-A 2½-hour spectacular
+A 2Â½-hour spectacular
 on american history.
 
 1018

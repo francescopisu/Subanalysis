@@ -670,7 +670,7 @@ and welcome to the theater.
 
 141
 00:08:01,241 --> 00:08:03,709
-I am Dr. Tobias Fünke...
+I am Dr. Tobias FÃ¼nke...
 
 142
 00:08:03,810 --> 00:08:08,270

@@ -504,7 +504,7 @@ You got all the answers wrong.
 110
 00:05:47,067 --> 00:05:50,867
 You know you, you even got your name
-wrong here. It says, "S. Fünke."
+wrong here. It says, "S. FÃ¼nke."
 
 111
 00:05:50,971 --> 00:05:53,064
@@ -1728,7 +1728,7 @@ Now let's show her the meaning of charity.
 375
 00:19:05,460 --> 00:19:08,293
 Please welcome...
-Surely Fünke!
+Surely FÃ¼nke!
 
 376
 00:19:08,396 --> 00:19:10,489

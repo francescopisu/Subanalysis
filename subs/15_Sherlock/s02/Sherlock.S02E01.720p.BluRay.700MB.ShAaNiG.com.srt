@@ -3571,7 +3571,7 @@ power complex.
 
 789
 00:52:30,560 --> 00:52:32,767
-Couldn't we just go to a café?
+Couldn't we just go to a cafÃ©?
 
 790
 00:52:33,640 --> 00:52:35,802
@@ -4262,7 +4262,7 @@ network could bring it here,
 
 944
 01:04:45,200 --> 01:04:46,201
-leave it in the café
+leave it in the cafÃ©
 
 945
 01:04:46,280 --> 01:04:48,009
@@ -5482,7 +5482,7 @@ You don't smoke.
 
 1214
 01:22:48,640 --> 01:22:50,927
-I also don't frequent cafés.
+I also don't frequent cafÃ©s.
 
 1215
 01:23:00,200 --> 01:23:02,407
