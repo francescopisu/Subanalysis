@@ -1,4 +1,4 @@
-0
+﻿0
 00:00:00,503 --> 00:00:01,853
 Freaks and Geeks S01E05 Tests and Breasts (VO)
 
@@ -1813,7 +1813,7 @@ Hey, Sam.
 407
 00:25:10,971 --> 00:25:14,584
 You hardly touched your chicken
-� la king. Aren't you hungry?
+à la king. Aren't you hungry?
 
 408
 00:25:18,838 --> 00:25:20,971

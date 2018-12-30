@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:02,400 --> 00:00:03,900
 Freaks and Geeks S01E18 Discos and Dragons (VO)
 
@@ -831,7 +831,7 @@ The grateful dead.
 
 200
 00:10:16,200 --> 00:10:19,500
-When I�was in college,
+When I¨was in college,
 back in the 1700s,
 
 201

@@ -1,4 +1,4 @@
-0
+﻿0
 00:00:00,503 --> 00:00:01,853
 Freaks and Geeks S01E07 Carded and Discarded (VO)
 
@@ -2329,7 +2329,7 @@ Would you share her with us?
 
 514
 00:30:05,957 --> 00:30:08,610
-- Touch�.
+- Touché.
 - So? What do we do?
 
 515
