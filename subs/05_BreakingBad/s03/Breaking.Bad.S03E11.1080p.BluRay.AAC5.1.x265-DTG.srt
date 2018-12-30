@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:10,594 --> 00:00:15,265
 Yo, I thought I was gonna see
 some, like, vaginas.
@@ -2368,7 +2368,7 @@ It's a fancy name for fish stew.
 
 532
 00:40:40,941 --> 00:40:45,404
-It sounds like a clich�, but indeed,
+It sounds like a cliché, but indeed,
 it's just like my mother used to make it.
 
 533

@@ -1,7 +1,7 @@
-1
+﻿1
 00:00:59,520 --> 00:01:01,056
-<i>Ándale.
-Mueve el culo, cabrón.</i>
+<i>Andale.
+Mueve el culo, cabron.</i>
 
 2
 00:01:02,112 --> 00:01:03,008
@@ -9,7 +9,7 @@ Mueve el culo, cabrón.</i>
 
 3
 00:01:04,224 --> 00:01:06,016
-<i>Ándale! Ábrelo!</i>
+<i>Andale! Abrelo!</i>
 
 4
 00:01:06,688 --> 00:01:07,968
@@ -18,7 +18,7 @@ to open the doors?
 
 5
 00:01:08,032 --> 00:01:09,600
-<i>¿Qué estás haciendo?
+<i>¿Que estAs haciendo?
 ¿Eh?</i>
 
 6
@@ -32,8 +32,8 @@ The keys.
 
 8
 00:01:13,824 --> 00:01:14,944
-<i>¿Por qué me estás
-hablando en inglés?</i>
+<i>¿Por que me estAs
+hablando en ingles?</i>
 
 9
 00:01:15,072 --> 00:01:16,768
@@ -41,7 +41,7 @@ Why you talk English, huh?
 
 10
 00:01:16,800 --> 00:01:18,112
-<i>¿Qué?</i>
+<i>¿Que?</i>
 
 11
 00:01:18,144 --> 00:01:19,360

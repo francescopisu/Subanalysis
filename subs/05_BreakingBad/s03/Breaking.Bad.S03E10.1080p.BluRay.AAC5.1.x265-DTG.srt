@@ -1,4 +1,4 @@
-1
+﻿1
 00:02:02,623 --> 00:02:05,834
 Surprised he doesn't
 make us do that.
@@ -2098,7 +2098,7 @@ Yeah. Better. Thanks.
 
 483
 00:44:21,954 --> 00:44:23,830
-Ma�ana, then.
+Mañana, then.
 
 484
 00:44:38,345 --> 00:44:41,431

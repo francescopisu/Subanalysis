@@ -1,4 +1,4 @@
-1
+﻿1
 00:02:01,205 --> 00:02:03,665
 - Good morning, officer.
 - Can you turn the music down?
@@ -311,7 +311,7 @@ Local P.D. I gotta take this.
 
 67
 00:05:50,893 --> 00:05:52,477
-Gomey, go beat your pi�ata.
+Gomey, go beat your piñata.
 
 68
 00:05:52,686 --> 00:05:55,731

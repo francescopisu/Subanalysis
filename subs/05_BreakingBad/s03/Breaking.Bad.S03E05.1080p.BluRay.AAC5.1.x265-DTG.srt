@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:06,089 --> 00:00:09,009
 I am awake.
 
@@ -73,7 +73,7 @@ None of that cheap stuff.
 17
 00:01:19,454 --> 00:01:22,249
 I want the... expensive shit.
-Don P�rignon.
+Don Pérignon.
 
 18
 00:01:22,457 --> 00:01:23,792

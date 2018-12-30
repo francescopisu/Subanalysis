@@ -1,4 +1,4 @@
-1
+ï»¿1
 00:01:58,279 --> 00:02:00,720
 It's a bold plan, Mr. White.
 
@@ -1672,7 +1672,7 @@ what planet he's living on.
 
 376
 00:27:59,761 --> 00:28:00,761
-<i>Señor</i>,
+<i>SeÃ±or</i>,
 
 377
 00:28:01,955 --> 00:28:03,597
@@ -1688,7 +1688,7 @@ Are we on the planet Earth?
 
 380
 00:28:16,149 --> 00:28:18,349
-<i>Señor</i>, is today Friday?
+<i>SeÃ±or</i>, is today Friday?
 
 381
 00:28:19,714 --> 00:28:21,163

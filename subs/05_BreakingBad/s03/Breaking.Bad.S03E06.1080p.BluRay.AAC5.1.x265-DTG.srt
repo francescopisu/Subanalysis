@@ -1,4 +1,4 @@
-1
+ï»¿1
 00:00:07,591 --> 00:00:09,092
 <i>KDK-12, come in.</i>
 
@@ -759,7 +759,7 @@ my qualifications.
 
 175
 00:16:52,804 --> 00:16:55,349
-I have my résumé here for you.
+I have my rÃ©sumÃ© here for you.
 
 176
 00:16:57,643 --> 00:17:00,395

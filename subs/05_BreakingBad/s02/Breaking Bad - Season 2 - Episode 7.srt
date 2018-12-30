@@ -1,4 +1,4 @@
-1
+ï»¿1
 00:00:00,109 --> 00:00:01,728
 <i>Previously on</i> Breaking Bad...
 
@@ -698,7 +698,7 @@ What's up with that?
 
 162
 00:15:14,151 --> 00:15:15,417
-Jesús Malverde.
+JesÃºs Malverde.
 
 163
 00:15:16,084 --> 00:15:17,874
@@ -716,7 +716,7 @@ praying to him...
 
 166
 00:15:24,003 --> 00:15:26,185
-"Please, <i>Señor</i> Saint-ay!
+"Please, <i>SeÃ±or</i> Saint-ay!
 
 167
 00:15:26,980 --> 00:15:28,667
@@ -1499,7 +1499,7 @@ Hey, white boy,
 
 344
 00:27:30,935 --> 00:27:32,733
-better learn <i>Español</i>, huh?
+better learn <i>EspaÃ±ol</i>, huh?
 
 345
 00:27:32,901 --> 00:27:36,237
@@ -2082,7 +2082,7 @@ earned his nickname.
 
 476
 00:35:57,075 --> 00:35:58,793
-Are we just on<i> mañana</i> time?
+Are we just on<i> maÃ±ana</i> time?
 
 477
 00:35:58,918 --> 00:36:00,068

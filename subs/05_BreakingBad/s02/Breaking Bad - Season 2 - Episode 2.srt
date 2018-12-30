@@ -1,4 +1,4 @@
-1
+ï»¿1
 00:01:15,284 --> 00:01:18,284
 Synch: Tyno, Michvanilly
 
@@ -193,7 +193,7 @@ big, juicy, bloody fingerprint,
 
 43
 00:03:30,257 --> 00:03:32,973
-which belongs to <i>señor</i> Tuco.
+which belongs to <i>seÃ±or</i> Tuco.
 
 44
 00:03:33,885 --> 00:03:36,885
@@ -907,7 +907,7 @@ I came up with this great idea.
 
 209
 00:20:53,955 --> 00:20:54,955
-<i>México.</i>
+<i>MÃ©xico.</i>
 
 210
 00:20:55,821 --> 00:20:56,838

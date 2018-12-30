@@ -1,4 +1,4 @@
-1
+﻿1
 00:04:14,084 --> 00:04:18,100
 <i>We interrupt scheduled programming</i>
 <i>to bring you this breaking news.</i>
@@ -1880,7 +1880,7 @@ I painted cars for some of...
 
 414
 00:43:32,196 --> 00:43:34,573
-...the biggest gangsters in Michoac�n.
+...the biggest gangsters in Michoacán.
 
 415
 00:43:37,409 --> 00:43:38,911
