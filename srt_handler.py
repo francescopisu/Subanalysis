@@ -38,7 +38,8 @@ def compute_wh():
                         for subFile in sorted(os.listdir(snd_current_dir)):
                             if not subFile.startswith('.'):
                                 if subFile.endswith(".srt"):
-                                    with open(snd_current_dir + '/' + subFile, encoding="utf8", errors='ignore') as f:
+                                    print("extracting: " + subFile)
+                                    with open(snd_current_dir + '/' + subFile, encoding="utf8") as f:
                                         episode += 1
                                         text = []
                                         for line in f.readlines():
@@ -74,7 +75,7 @@ def compute_wh():
                                         resFile.write(series + ',' + current_series.name + ',' + str(season) + ',' + str(episode) + ',' +
                                                       str(words_hour) + ',' + str(words_count))
                                         resFile.write('\n')
-
+                                        print("count: " + str(words_count) + " - hour:" + str(words_hour))
 
 def count_words(list_of_strings):
     count = 0

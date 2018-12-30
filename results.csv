@@ -1,1 +1,102 @@
 series_id,series_name,season,episode,wh,words_count
+01,Planet Earth II,1,1,3477.0,3477
+01,Planet Earth II,1,2,3482.0,3482
+01,Planet Earth II,1,3,3685.0,3685
+01,Planet Earth II,1,4,3487.0,3487
+01,Planet Earth II,1,5,3394.0,3394
+01,Planet Earth II,1,6,3874.0,3874
+02,Band of Brothers,1,1,5571.0,5571
+02,Band of Brothers,1,2,3209.0,3209
+02,Band of Brothers,1,3,4123.0,4123
+02,Band of Brothers,1,4,2977.0,2977
+02,Band of Brothers,1,5,4401.0,4401
+02,Band of Brothers,1,6,4315.0,4315
+02,Band of Brothers,1,7,7520.0,7520
+02,Band of Brothers,1,8,5533.0,5533
+02,Band of Brothers,1,9,2808.0,2808
+02,Band of Brothers,1,10,5104.0,5104
+03,Game of Thrones,1,1,3823.16,3632
+03,Game of Thrones,1,2,4345.26,4128
+03,Game of Thrones,1,3,5778.95,5490
+03,Game of Thrones,1,4,6291.58,5977
+03,Game of Thrones,1,5,6196.84,5887
+03,Game of Thrones,1,6,4194.74,3985
+03,Game of Thrones,1,7,5389.47,5120
+03,Game of Thrones,1,8,4723.16,4487
+03,Game of Thrones,1,9,5137.89,4881
+03,Game of Thrones,1,10,4361.05,4143
+03,Game of Thrones,2,1,5250.53,4988
+03,Game of Thrones,2,2,5641.05,5359
+03,Game of Thrones,2,3,4497.89,4273
+03,Game of Thrones,2,4,4585.26,4356
+03,Game of Thrones,2,5,6090.53,5786
+03,Game of Thrones,2,6,5045.26,4793
+03,Game of Thrones,2,7,5829.47,5538
+03,Game of Thrones,2,8,5956.84,5659
+03,Game of Thrones,2,9,4288.42,4074
+03,Game of Thrones,2,10,4674.74,4441
+03,Game of Thrones,3,1,4538.95,4312
+03,Game of Thrones,3,2,5647.37,5365
+03,Game of Thrones,3,3,4932.63,4686
+03,Game of Thrones,3,4,5086.32,4832
+03,Game of Thrones,3,5,5784.21,5495
+03,Game of Thrones,3,6,4685.26,4451
+03,Game of Thrones,3,7,5236.84,4975
+03,Game of Thrones,3,8,4136.84,3930
+03,Game of Thrones,3,9,3594.74,3415
+03,Game of Thrones,3,10,5340.0,5073
+03,Game of Thrones,4,1,5946.32,5649
+03,Game of Thrones,4,2,4600.0,4370
+03,Game of Thrones,4,3,5497.89,5223
+03,Game of Thrones,4,4,3884.21,3690
+03,Game of Thrones,4,5,4488.42,4264
+03,Game of Thrones,4,6,4415.79,4195
+03,Game of Thrones,4,7,5154.74,4897
+03,Game of Thrones,4,8,4593.68,4364
+03,Game of Thrones,4,9,3098.95,2944
+03,Game of Thrones,4,10,3991.58,3792
+03,Game of Thrones,5,1,4231.58,4020
+03,Game of Thrones,5,2,4968.42,4720
+03,Game of Thrones,5,3,5465.26,5192
+03,Game of Thrones,5,4,3972.63,3774
+03,Game of Thrones,5,5,4055.79,3853
+03,Game of Thrones,5,6,4089.47,3885
+03,Game of Thrones,5,7,4541.05,4314
+03,Game of Thrones,5,8,4494.74,4270
+03,Game of Thrones,5,9,3288.42,3124
+03,Game of Thrones,5,10,3272.63,3109
+03,Game of Thrones,6,1,3252.63,3090
+03,Game of Thrones,6,2,3283.16,3119
+03,Game of Thrones,6,3,4065.26,3862
+03,Game of Thrones,6,4,5471.58,5198
+03,Game of Thrones,6,5,4377.89,4159
+03,Game of Thrones,6,6,4023.16,3822
+03,Game of Thrones,6,7,4577.89,4349
+03,Game of Thrones,6,8,4522.11,4296
+03,Game of Thrones,6,9,3040.0,2888
+03,Game of Thrones,6,10,3960.0,3762
+03,Game of Thrones,7,1,4826.32,4585
+03,Game of Thrones,7,2,5016.84,4766
+03,Game of Thrones,7,3,6635.79,6304
+03,Game of Thrones,7,4,3395.79,3226
+03,Game of Thrones,7,5,5017.89,4767
+03,Game of Thrones,7,6,4842.11,4600
+03,Game of Thrones,7,7,6218.95,5908
+04,Planet Earth,1,1,3330.61,2720
+04,Planet Earth,1,2,3156.73,2578
+04,Planet Earth,1,3,2633.88,2151
+04,Planet Earth,1,4,3720.0,3038
+04,Planet Earth,1,5,3683.27,3008
+04,Planet Earth,1,6,3806.94,3109
+04,Planet Earth,1,7,3003.67,2453
+04,Planet Earth,1,8,3956.33,3231
+04,Planet Earth,1,9,3522.86,2877
+04,Planet Earth,1,10,3581.63,2925
+04,Planet Earth,1,11,3623.27,2959
+05,Breaking Bad,1,1,4825.71,3941
+05,Breaking Bad,1,2,3863.27,3155
+05,Breaking Bad,1,3,3956.33,3231
+05,Breaking Bad,1,4,4724.08,3858
+05,Breaking Bad,1,5,4699.59,3838
+05,Breaking Bad,1,6,4000.41,3267
+05,Breaking Bad,1,7,5571.43,4550
