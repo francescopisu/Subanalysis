@@ -61,6 +61,10 @@ def compute_wh():
                                                     clean = re.compile('[a-zA-Z]*\:')
                                                     line = re.sub(clean, '', line)
 
+                                                    # clean string of website links
+                                                    clean = re.compile('www.*')
+                                                    line = re.sub(clean, '', line)
+
                                                     # clean string of new line characters
                                                     text.append(line.rstrip('\r\n'))
 
