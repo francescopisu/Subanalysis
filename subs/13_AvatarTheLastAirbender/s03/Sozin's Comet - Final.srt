@@ -112,7 +112,7 @@ What happened generations ago
 
 27
 00:01:34,280 --> 00:01:36,329
-can be resolved now…
+can be resolved nowâ€¦
 
 28
 00:01:36,330 --> 00:01:37,750
@@ -137,25 +137,25 @@ After I leave here today,
 
 33
 00:01:47,670 --> 00:01:49,540
-I’m going to free Uncle
+Iâ€™m going to free Uncle
 iroh from his prison
 
 34
 00:01:49,660 --> 00:01:51,700
-and I’m going to beg for his forgiveness.
+and Iâ€™m going to beg for his forgiveness.
 
 35
 00:01:51,970 --> 00:01:54,370
-But I’ve come to an even
+But Iâ€™ve come to an even
 more important decision.
 
 36
 00:01:54,650 --> 00:01:57,519
-I’m going to join the avatar.
+Iâ€™m going to join the avatar.
 
 37
 00:01:57,520 --> 00:01:59,030
-And I’m going to help him defeat you.
+And Iâ€™m going to help him defeat you.
 
 38
 00:01:59,510 --> 00:02:00,460
@@ -5045,7 +5045,8 @@ my fixed subtitles. I hope you enjoyed the show! :-)</b></font>
 
 1215
 01:31:55,693 --> 01:31:55,746
-<font color="#ffff00">Subtitle fixed by LEO33
+<font color="#ffff00">Subtitle fixed by LEO33
+
 
 1216
 01:31:55,747 --> 01:31:55,801
