@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:03,762 --> 00:00:05,264
 In closing, I can tell you...
 
@@ -821,7 +821,7 @@ that I had to tune you up.
 
 174
 00:12:07,194 --> 00:12:10,447
-Respect, <i>�se,</i>
+Respect, <i>ése,</i>
 you gotta give it to get it.
 
 175

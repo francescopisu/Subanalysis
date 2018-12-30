@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:46,021 --> 00:00:47,523
 <i>Let's break it down. </i>
 
@@ -476,7 +476,7 @@ So I should just let you go, then.
 
 108
 00:09:46,145 --> 00:09:50,649
-Just unlock you and... adi�s, huh?
+Just unlock you and... adiós, huh?
 
 109
 00:09:51,150 --> 00:09:53,610
