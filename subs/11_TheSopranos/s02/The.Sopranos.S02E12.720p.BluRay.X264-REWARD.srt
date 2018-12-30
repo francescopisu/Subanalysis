@@ -1924,7 +1924,7 @@ I got something hard-edge.
 422
 00:29:59,422 --> 00:30:01,256
 - What?
-- Pokémon cards.
+- PokÃ©mon cards.
 
 423
 00:30:01,508 --> 00:30:04,009
@@ -2001,7 +2001,7 @@ Lipari.
 438
 00:30:47,971 --> 00:30:52,057
 I heard they're gonna jack
-a load of these Pokémon cards.
+a load of these PokÃ©mon cards.
 
 439
 00:30:52,267 --> 00:30:53,976

@@ -181,4 +181,233 @@ series_id,series_name,season,episode,wh,words_count
 06,The Wire,2,11,4490.85,4416
 06,The Wire,2,12,5311.53,5223
 06,The Wire,3,1,6717.97,6606
-06,The Wire,3,2,5894.24,5796
+06,The Wire,3,2,5895.25,5797
+06,The Wire,3,3,6038.64,5938
+06,The Wire,3,4,6441.36,6334
+06,The Wire,3,5,6766.78,6654
+06,The Wire,3,6,6970.17,6854
+06,The Wire,3,7,6304.07,6199
+06,The Wire,3,8,6732.2,6620
+06,The Wire,3,9,7223.39,7103
+06,The Wire,3,10,6823.73,6710
+06,The Wire,3,11,6549.15,6440
+06,The Wire,3,12,5890.17,5792
+06,The Wire,4,1,6852.2,6738
+06,The Wire,4,2,7740.0,7611
+06,The Wire,4,3,5927.8,5829
+06,The Wire,4,4,6903.05,6788
+06,The Wire,4,5,7020.0,6903
+06,The Wire,4,6,6283.73,6179
+06,The Wire,4,7,7088.14,6970
+06,The Wire,4,8,6633.56,6523
+06,The Wire,4,9,7686.1,7558
+06,The Wire,4,10,6219.66,6116
+06,The Wire,4,11,7317.97,7196
+06,The Wire,4,12,6097.63,5996
+06,The Wire,4,13,7514.24,7389
+06,The Wire,5,1,6656.95,6546
+06,The Wire,5,2,6843.05,6729
+06,The Wire,5,3,5733.56,5638
+06,The Wire,5,4,6150.51,6048
+06,The Wire,5,5,7198.98,7079
+06,The Wire,5,6,6612.2,6502
+06,The Wire,5,7,7590.51,7464
+06,The Wire,5,8,7332.2,7210
+06,The Wire,5,9,6732.2,6620
+06,The Wire,5,10,10411.53,10238
+07,Cosmos,1,1,6288.84,4507
+07,Cosmos,1,2,6425.58,4605
+07,Cosmos,1,3,7107.91,5094
+07,Cosmos,1,4,6724.19,4819
+07,Cosmos,1,5,6280.47,4501
+07,Cosmos,1,6,7406.51,5308
+07,Cosmos,1,7,6380.93,4573
+07,Cosmos,1,8,6389.3,4579
+07,Cosmos,1,9,6994.88,5013
+07,Cosmos,1,10,5323.26,3815
+07,Cosmos,1,11,6609.77,4737
+07,Cosmos,1,12,6354.42,4554
+07,Cosmos,1,13,7018.6,5030
+08,Rick and Morty,1,1,11353.04,4352
+08,Rick and Morty,1,2,8561.74,3282
+08,Rick and Morty,1,3,8441.74,3236
+08,Rick and Morty,1,4,7784.35,2984
+08,Rick and Morty,1,5,9026.09,3460
+08,Rick and Morty,1,6,8966.09,3437
+08,Rick and Morty,1,7,9315.65,3571
+08,Rick and Morty,1,8,9641.74,3696
+08,Rick and Morty,1,9,9005.22,3452
+08,Rick and Morty,1,10,9200.87,3527
+08,Rick and Morty,1,11,9083.48,3482
+08,Rick and Morty,2,1,11668.7,4473
+08,Rick and Morty,2,2,8436.52,3234
+08,Rick and Morty,2,3,9660.0,3703
+08,Rick and Morty,2,4,9250.43,3546
+08,Rick and Morty,2,5,9511.3,3646
+08,Rick and Morty,2,6,8856.52,3395
+08,Rick and Morty,2,7,9704.35,3720
+08,Rick and Morty,2,8,9725.22,3728
+08,Rick and Morty,2,9,10732.17,4114
+08,Rick and Morty,2,10,8741.74,3351
+08,Rick and Morty,3,1,10573.04,4053
+08,Rick and Morty,3,2,9738.26,3733
+08,Rick and Morty,3,3,8585.22,3291
+08,Rick and Morty,3,4,10205.22,3912
+08,Rick and Morty,3,5,9276.52,3556
+08,Rick and Morty,3,6,10794.78,4138
+08,Rick and Morty,3,7,9751.3,3738
+08,Rick and Morty,3,8,8940.0,3427
+08,Rick and Morty,3,9,10539.13,4040
+08,Rick and Morty,3,10,10411.3,3991
+09,Cosmos (1980),1,1,5719.0,5719
+09,Cosmos (1980),1,2,6213.0,6213
+09,Cosmos (1980),1,3,6049.0,6049
+09,Cosmos (1980),1,4,6882.0,6882
+09,Cosmos (1980),1,5,5996.0,5996
+09,Cosmos (1980),1,6,6184.0,6184
+09,Cosmos (1980),1,7,6635.0,6635
+09,Cosmos (1980),1,8,7008.0,7008
+09,Cosmos (1980),1,9,5905.0,5905
+09,Cosmos (1980),1,10,6698.0,6698
+09,Cosmos (1980),1,11,5980.0,5980
+09,Cosmos (1980),1,12,5853.0,5853
+09,Cosmos (1980),1,13,5578.0,5578
+10,Blue Planet II,1,1,2921.0,2921
+10,Blue Planet II,1,2,2987.0,2987
+10,Blue Planet II,1,3,2977.0,2977
+10,Blue Planet II,1,4,3328.0,3328
+10,Blue Planet II,1,5,2855.0,2855
+10,Blue Planet II,1,6,3136.0,3136
+10,Blue Planet II,1,7,5331.0,5331
+11,The Sopranos,1,1,6774.55,6210
+11,The Sopranos,1,2,6145.09,5633
+11,The Sopranos,1,3,5685.82,5212
+11,The Sopranos,1,4,5934.55,5440
+11,The Sopranos,1,5,5234.18,4798
+11,The Sopranos,1,6,5808.0,5324
+11,The Sopranos,1,7,6814.91,6247
+11,The Sopranos,1,8,6007.64,5507
+11,The Sopranos,1,9,7034.18,6448
+11,The Sopranos,1,10,6701.45,6143
+11,The Sopranos,1,11,6142.91,5631
+11,The Sopranos,1,12,5128.36,4701
+11,The Sopranos,1,13,6948.0,6369
+11,The Sopranos,2,1,4429.09,4060
+11,The Sopranos,2,2,5539.64,5078
+11,The Sopranos,2,3,5494.91,5037
+11,The Sopranos,2,4,5154.55,4725
+11,The Sopranos,2,5,4966.91,4553
+11,The Sopranos,2,6,5914.91,5422
+11,The Sopranos,2,7,6594.55,6045
+11,The Sopranos,2,8,4984.36,4569
+11,The Sopranos,2,9,5296.36,4855
+11,The Sopranos,2,10,6137.45,5626
+11,The Sopranos,2,11,6233.45,5714
+11,The Sopranos,2,12,6688.36,6131
+11,The Sopranos,2,13,4708.36,4316
+11,The Sopranos,3,1,3931.64,3604
+11,The Sopranos,3,2,4673.45,4284
+11,The Sopranos,3,3,6396.0,5863
+11,The Sopranos,3,4,5383.64,4935
+11,The Sopranos,3,5,5318.18,4875
+11,The Sopranos,3,6,6031.64,5529
+11,The Sopranos,3,7,4759.64,4363
+11,The Sopranos,3,8,5201.45,4768
+11,The Sopranos,3,9,5091.27,4667
+11,The Sopranos,3,10,4832.73,4430
+11,The Sopranos,3,11,5908.36,5416
+11,The Sopranos,3,12,5409.82,4959
+11,The Sopranos,4,1,6193.09,5677
+11,The Sopranos,4,2,6720.0,6160
+11,The Sopranos,4,3,6805.09,6238
+11,The Sopranos,4,4,5869.09,5380
+11,The Sopranos,4,5,6058.91,5554
+11,The Sopranos,4,6,5679.27,5206
+11,The Sopranos,4,7,5866.91,5378
+11,The Sopranos,4,8,6097.09,5589
+11,The Sopranos,4,9,4893.82,4486
+11,The Sopranos,4,10,5478.55,5022
+11,The Sopranos,4,11,5056.36,4635
+11,The Sopranos,4,12,5811.27,5327
+11,The Sopranos,4,13,7341.82,6730
+11,The Sopranos,5,1,6298.91,5774
+11,The Sopranos,5,2,6092.73,5585
+11,The Sopranos,5,3,6729.82,6169
+11,The Sopranos,5,4,6409.09,5875
+11,The Sopranos,5,5,5655.27,5184
+11,The Sopranos,5,6,6349.09,5820
+11,The Sopranos,5,7,6070.91,5565
+11,The Sopranos,5,8,6099.27,5591
+11,The Sopranos,5,9,7297.09,6689
+11,The Sopranos,5,10,6108.0,5599
+11,The Sopranos,5,11,3952.36,3623
+11,The Sopranos,5,12,5299.64,4858
+11,The Sopranos,5,13,5172.0,4741
+11,The Sopranos,6,1,6050.18,5546
+11,The Sopranos,6,2,5488.36,5031
+11,The Sopranos,6,3,5536.36,5075
+11,The Sopranos,6,4,6770.18,6206
+11,The Sopranos,6,5,4914.55,4505
+11,The Sopranos,6,6,5316.0,4873
+11,The Sopranos,6,7,6572.73,6025
+11,The Sopranos,6,8,5659.64,5188
+11,The Sopranos,6,9,4901.45,4493
+11,The Sopranos,6,10,5252.73,4815
+11,The Sopranos,6,11,5877.82,5388
+11,The Sopranos,6,12,5548.36,5086
+11,The Sopranos,6,13,5108.73,4683
+11,The Sopranos,6,14,6410.18,5876
+11,The Sopranos,6,15,5397.82,4948
+11,The Sopranos,6,16,5593.09,5127
+11,The Sopranos,6,17,6387.27,5855
+11,The Sopranos,6,18,4143.27,3798
+11,The Sopranos,6,19,5116.36,4690
+11,The Sopranos,6,20,4337.45,3976
+11,The Sopranos,6,21,5853.82,5366
+12,The World at War,1,1,5261.54,4560
+12,The World at War,1,2,6572.31,5696
+12,The World at War,1,3,4525.38,3922
+12,The World at War,1,4,6171.92,5349
+12,The World at War,1,5,5256.92,4556
+12,The World at War,1,6,5983.85,5186
+12,The World at War,1,7,7173.46,6217
+12,The World at War,1,8,6055.38,5248
+12,The World at War,1,9,5946.92,5154
+12,The World at War,1,10,6598.85,5719
+12,The World at War,1,11,5411.54,4690
+12,The World at War,1,12,5861.54,5080
+12,The World at War,1,13,6211.15,5383
+12,The World at War,1,14,5901.92,5115
+12,The World at War,1,15,4677.69,4054
+12,The World at War,1,16,4785.0,4147
+12,The World at War,1,17,7427.31,6437
+12,The World at War,1,18,6034.62,5230
+12,The World at War,1,19,5216.54,4521
+12,The World at War,1,20,5520.0,4784
+12,The World at War,1,21,7203.46,6243
+12,The World at War,1,22,5314.62,4606
+12,The World at War,1,23,5207.31,4513
+12,The World at War,1,24,6242.31,5410
+12,The World at War,1,25,6046.15,5240
+12,The World at War,1,26,3625.38,3142
+13,Avatar: The Last Airbender,1,1,5199.13,1993
+13,Avatar: The Last Airbender,1,2,3375.65,1294
+13,Avatar: The Last Airbender,1,3,5613.91,2152
+13,Avatar: The Last Airbender,1,4,5431.3,2082
+13,Avatar: The Last Airbender,1,5,4860.0,1863
+13,Avatar: The Last Airbender,1,6,6211.3,2381
+13,Avatar: The Last Airbender,1,7,5141.74,1971
+13,Avatar: The Last Airbender,1,8,5441.74,2086
+13,Avatar: The Last Airbender,1,9,6143.48,2355
+13,Avatar: The Last Airbender,1,10,6532.17,2504
+13,Avatar: The Last Airbender,1,11,7126.96,2732
+13,Avatar: The Last Airbender,1,12,6566.09,2517
+13,Avatar: The Last Airbender,1,13,3962.61,1519
+13,Avatar: The Last Airbender,1,14,6960.0,2668
+13,Avatar: The Last Airbender,1,15,5405.22,2072
+13,Avatar: The Last Airbender,1,16,6104.35,2340
+13,Avatar: The Last Airbender,1,17,5713.04,2190
+13,Avatar: The Last Airbender,1,18,5606.09,2149
+13,Avatar: The Last Airbender,1,19,4693.04,1799
+13,Avatar: The Last Airbender,1,20,4299.13,1648
+13,Avatar: The Last Airbender,2,1,5733.91,2198
