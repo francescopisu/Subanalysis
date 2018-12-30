@@ -39,7 +39,7 @@ def compute_wh():
                             if not subFile.startswith('.'):
                                 if subFile.endswith(".srt"):
                                     print("extracting: " + subFile)
-                                    with open(snd_current_dir + '/' + subFile, encoding="utf8") as f:
+                                    with open(snd_current_dir + '/' + subFile) as f:
                                         episode += 1
                                         text = []
                                         for line in f.readlines():
@@ -69,13 +69,14 @@ def compute_wh():
                                         words_count = count_words(text)
 
                                         # in order to compute the actual words per hour, word count must be divided
-                                        # by the episode length of each serie
+                                        # by the episode length of each series
                                         words_hour = round((words_count * 60) / float(current_series.episode_length), 2)
 
                                         resFile.write(series + ',' + current_series.name + ',' + str(season) + ',' + str(episode) + ',' +
                                                       str(words_hour) + ',' + str(words_count))
                                         resFile.write('\n')
                                         print("count: " + str(words_count) + " - hour:" + str(words_hour))
+
 
 def count_words(list_of_strings):
     count = 0
