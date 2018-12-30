@@ -1,4 +1,4 @@
-1
+﻿1
 00:01:00,400 --> 00:01:03,200
 Gotta be somewhere.
 You wanna keep goin'?

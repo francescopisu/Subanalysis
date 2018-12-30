@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:07,600 --> 00:00:10,700
 And as you can see
 from the locations,
