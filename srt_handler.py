@@ -2,7 +2,7 @@ import os
 import re
 import csv
 from Series import Series
-
+from utils import *
 
 def compute_wh():
     # opening the results file
@@ -16,14 +16,7 @@ def compute_wh():
 
             # save information about each series; these information are contained in a spec file situated in the
             # series' root folder
-            current_series = Series()
-            with open(current_dir + '/' + 'specs.csv') as specs:
-                csv_reader = csv.DictReader(specs)
-                for row in csv_reader:
-                    current_series.name = row['name']
-                    current_series.episode_length = int(row['length'])
-                    current_series.genre = row['genre']
-                    current_series.year = int(row['year'])
+            current_series = extract_series_data_from_current_dir(current_dir)
 
                 # run through each subdirectory of series folders (i.e: seasons)
                 for subdir_second_level in sorted(os.listdir(current_dir)):
@@ -38,26 +31,13 @@ def compute_wh():
                         for subFile in sorted(os.listdir(snd_current_dir)):
                             if not subFile.startswith('.'):
                                 if subFile.endswith(".srt"):
-                                    print("extracting: " + subFile)
+
                                     with open(snd_current_dir + '/' + subFile, encoding="utf-8") as f:
                                         episode += 1
                                         text = []
 
-                                        text_complete = f.readlines()
-
-                                        # find the row index of the last dialogue
-                                        j = -1
-                                        while not '-->' in text_complete[j]:
-                                            j = j-1
-
-                                        #divide it and compute the runtime
-                                        first_time = text_complete[j].split('-->')[0]
-                                        hours= first_time.split(':')[0]
-                                        minutes = first_time.split(':')[1]
-                                        runtime = int(hours)*60 + int(minutes)
-                                        print(runtime)
-
-                                        f.seek(0)
+                                        
+                                        
 
                                         for line in f.readlines():
                                             # discarding all the lines starting with a number
@@ -85,6 +65,10 @@ def compute_wh():
                                                     # clean string of new line characters
                                                     text.append(line.rstrip('\r\n'))
 
+                                            
+                                        f.seek(0)
+                                        runtime = get_runtime_from_file(f)
+
                                         # text may contain punctuation and other symbols
                                         # only actual words must be counted
                                         words_count = count_words(text)
@@ -96,16 +80,11 @@ def compute_wh():
                                         resFile.write(series + ',' + current_series.name + ',' + str(season) + ',' + str(episode) + ',' +
                                                       str(words_hour) + ',' + str(words_count))
                                         resFile.write('\n')
-                                        print("count: " + str(words_count) + " - hour:" + str(words_hour))
+
+                                        print_series_episode(current_series, season, episode)
+                                        print("words count: " + str(words_count) + " - words/hour: " + str(words_hour) + "\n")
 
 
-def count_words(list_of_strings):
-    count = 0
-    for line in list_of_strings:
-        # using this regex to count actual words in a sentence
-        # "hello \\\ marcus,, !how are.. you" -> 5 words
-        count += len(re.findall(r'\w+', line))
 
-    return count
 
 compute_wh()
