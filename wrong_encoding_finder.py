@@ -31,5 +31,4 @@ def find_wrong_encoding():
                                 print("error: " + subdir_first_level + " / " + subdir_second_level +  " - " + subFile)
 
 
-
 find_wrong_encoding()

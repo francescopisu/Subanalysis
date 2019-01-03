@@ -4,6 +4,7 @@ import csv
 from Series import Series
 from utils import *
 
+
 def test():
 
     for subdir_first_level in sorted(next(os.walk('subs'))[1]):
@@ -35,15 +36,15 @@ def test():
                                     # find the row index of the last dialogue
                                     i = -1
                                     while not '-->' in text[i]:
-                                        i = i-1
+                                        i -= 1
 
-                                    #divide it and compute the runtime
+                                    # divide it and compute the runtime
                                     first_time = text[i].split('-->')[0]
                                     hours= first_time.split(':')[0]
                                     minutes = first_time.split(':')[1]
                                     runtime = int(hours)*60 + int(minutes)
 
-                                    #print for errors
+                                    # print for errors
                                     if runtime < 10 or runtime > 120:
                                         print(subFile)
                                         print(runtime)
@@ -52,7 +53,6 @@ def test():
                                     delta = round(abs((runtime - current_series.episode_length) / runtime * 100), 4)
                                     if delta > 10:
                                         print(str(delta) + "% - " + str(current_series.id_) + ". " + current_series.name + " - " + "s" + season + "e" + str(episode))
-
 
                             except UnicodeDecodeError:
                                 print("error: " + subdir_first_level + " / " + subdir_second_level +  " - " + subFile)

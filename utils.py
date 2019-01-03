@@ -19,15 +19,16 @@ def get_runtime_from_file(f):
     # find the row index of the last dialogue
     j = -1
     while not '-->' in text_complete[j]:
-        j = j-1
+        j -= 1
 
-    #divide it and compute the runtime
+    # divide it and compute the runtime
     first_time = text_complete[j].split('-->')[0]
     hours= first_time.split(':')[0]
     minutes = first_time.split(':')[1]
     runtime = int(hours)*60 + int(minutes)
     
     return runtime
+
 
 def extract_series_data_from_specs(specs):
     # save information about each series; these information are contained in a spec file situated in the
@@ -44,10 +45,16 @@ def extract_series_data_from_specs(specs):
 
     return current_series
 
+
 def extract_series_data_from_current_dir(current_dir):
     with open(current_dir + '/' + 'specs.csv') as specs:
         return extract_series_data_from_specs(specs)
 
+
 def print_series_episode(series, season, episode):
     print(str(series.id_) + ". " + series.name + " - " + "s" + str(season) + "e" + str(episode))
 
+
+# function that allows converting a custom object to JSON
+def json_default(object):
+    return object.__dict__
