@@ -13,4 +13,17 @@ class Series:
         self.genre = genre
         self.year = year
         self.seasons = seasons
+    
+    def __repr__(self):
+        string = str(self.id_) + ". " + \
+            self.name + ", ep. length: " + \
+            str(self.episode_length) + ", genre: " + \
+            str(self.genre) + ", year: " + \
+            str(self.year) + ", seasons:\n"
+            
+        for season in self.seasons:
+            string += str(season)
+        string += "\n\n"
+        
+        return string
 

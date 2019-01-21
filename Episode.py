@@ -7,3 +7,8 @@ class Episode:
         self.id_ = id_
         self.length = length
         self.wh = wh
+        
+    def __str__(self):
+        return "Ep. " + str(self.id_) + \
+            ", length: " + str(self.length) + \
+            ", w/h: " + str(self.wh) 
