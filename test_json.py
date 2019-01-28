@@ -22,7 +22,7 @@ def test_json():
 
     for series in data:
         print "\n", series.id_, series.name, \
-            "- avg w/h:", get_average_wh_for_series(series), \
+            "\navg w/h:", get_average_wh_for_series(series), \
             "- min:", get_lower_value_for_wh_in_season_in_series(series), \
             "- max:", get_upper_value_for_wh_in_season_in_series(series)
 

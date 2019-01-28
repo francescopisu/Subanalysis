@@ -1,0 +1,405 @@
+1
+00:00:01,179 --> 00:00:04,307
+<i>Long ago in a distant land...</i>
+
+2
+00:00:04,483 --> 00:00:08,977
+<i>...I, Aku, the shape-shifting</i>
+<i>master of darkness...</i>
+
+3
+00:00:09,154 --> 00:00:13,250
+<i>...unleashed an unspeakable evil.</i>
+
+4
+00:00:13,425 --> 00:00:18,158
+<i>But a foolish samurai warrior</i>
+<i>wielding a magic sword...</i>
+
+5
+00:00:18,330 --> 00:00:22,096
+<i>...stepped forth to oppose me.</i>
+
+6
+00:00:24,469 --> 00:00:26,801
+<i>Before the final blow was struck...</i>
+
+7
+00:00:26,972 --> 00:00:31,341
+<i>...I tore open a portal in time,</i>
+<i>and flung him into the future...</i>
+
+8
+00:00:31,510 --> 00:00:33,740
+<i>...where my evil is law.</i>
+
+9
+00:00:34,079 --> 00:00:38,140
+<i>Now the fool seeks</i>
+<i>to return to the past...</i>
+
+10
+00:00:38,317 --> 00:00:43,152
+<i>...and undo the future that is Aku.</i>
+
+11
+00:01:20,592 --> 00:01:24,426
+<i>Long ago, he came to us</i>
+<i>in our time of need.</i>
+
+12
+00:01:24,596 --> 00:01:27,588
+<i>His name was</i> J<i>ack.</i>
+
+13
+00:01:28,700 --> 00:01:31,260
+<i>Nothing would be the same.</i>
+
+14
+00:04:55,507 --> 00:04:57,998
+-You have won.
+-No, we have not.
+
+15
+00:04:58,476 --> 00:05:02,071
+Come. We go to meet the king.
+
+16
+00:05:27,639 --> 00:05:29,766
+My lord.
+
+17
+00:06:03,541 --> 00:06:05,532
+My king.
+
+18
+00:06:07,846 --> 00:06:09,279
+Did you hold the right flank?
+
+19
+00:06:09,881 --> 00:06:13,442
+We suffered many casualties,
+but held our position.
+
+20
+00:06:14,719 --> 00:06:16,584
+Your numbers have dwindled.
+
+21
+00:06:16,755 --> 00:06:19,724
+l fear you will not survive
+another attack.
+
+22
+00:06:19,891 --> 00:06:23,292
+No, my king. We will never give up.
+We will fight.
+
+23
+00:06:25,397 --> 00:06:28,298
+Yes. l know you will not fail me.
+
+24
+00:06:42,080 --> 00:06:44,981
+Brotok, who is this you bring before me?
+
+25
+00:06:45,150 --> 00:06:48,779
+My king, this is the stranger
+who aided me in battle.
+
+26
+00:06:49,087 --> 00:06:52,488
+This battle is of no concern to you.
+Why did you fight?
+
+27
+00:06:52,657 --> 00:06:54,352
+l saw this warrior outnumbered.
+
+28
+00:06:54,526 --> 00:06:57,586
+l meant no disrespect. l apologize.
+
+29
+00:07:01,866 --> 00:07:07,133
+Wait! These years of war have made
+my words harsh and my tone insolent.
+
+30
+00:07:07,305 --> 00:07:11,503
+Any man brave enough
+to face these monsters is a friend.
+
+31
+00:07:11,676 --> 00:07:13,837
+What is this war?
+
+32
+00:07:16,614 --> 00:07:19,981
+Long ago, a mechanical beast
+went mad...
+
+33
+00:07:20,151 --> 00:07:23,382
+...and waged war against all in its path.
+
+34
+00:07:23,555 --> 00:07:25,989
+<i>It feeds off the land itself...</i>
+
+35
+00:07:26,157 --> 00:07:29,024
+<i>...growing larger, powerful.</i>
+
+36
+00:07:29,194 --> 00:07:31,856
+<i>All the neighboring kingdoms have fallen.</i>
+
+37
+00:07:32,030 --> 00:07:34,362
+<i>We are the last.</i>
+
+38
+00:07:34,532 --> 00:07:38,161
+<i>The beast desperately wants our lands...</i>
+
+39
+00:07:38,336 --> 00:07:40,930
+<i>...for our home is beautiful...</i>
+
+40
+00:07:41,106 --> 00:07:42,334
+<i>...peaceful...</i>
+
+41
+00:07:42,507 --> 00:07:45,135
+<i>...rich in resources.</i>
+
+42
+00:07:46,044 --> 00:07:49,605
+<i>The beast and its robots</i>
+<i>would have destroyed us ages ago...</i>
+
+43
+00:07:49,781 --> 00:07:55,048
+<i>...but our land is protected</i>
+<i>by the tallest of mountains...</i>
+
+44
+00:07:55,220 --> 00:07:59,850
+<i>...and a narrow ravine</i>
+<i>is the only entrance.</i>
+
+45
+00:08:00,492 --> 00:08:06,624
+<i>It was there, with only 300 men,</i>
+<i>that we stopped the beast,s armies.</i>
+
+46
+00:08:08,400 --> 00:08:10,960
+<i>The position was easy to defend...</i>
+
+47
+00:08:11,136 --> 00:08:15,334
+<i>...and their superior numbers</i>
+<i>were made worthless.</i>
+
+48
+00:08:19,978 --> 00:08:24,381
+Y<i>ear after year, the war went on.</i>
+
+49
+00:08:43,134 --> 00:08:46,626
+<i>But the battle became a stalemate...</i>
+
+50
+00:08:49,007 --> 00:08:53,171
+<i>...for this creature strips</i>
+<i>the battlefield clear of its fallen...</i>
+
+51
+00:08:53,344 --> 00:08:57,804
+<i>...to rebuild its army again and again.</i>
+
+52
+00:08:59,250 --> 00:09:01,810
+<i>And so it goes.</i>
+
+53
+00:09:23,074 --> 00:09:27,101
+<i>And I am the fifth king</i>
+<i>to defend this gateway.</i>
+
+54
+00:09:34,285 --> 00:09:37,118
+And tomorrow will bring the same.
+
+55
+00:09:44,462 --> 00:09:45,793
+There is another way.
+
+56
+00:09:46,131 --> 00:09:47,462
+What do you mean?
+
+57
+00:09:47,799 --> 00:09:49,664
+There is a path through the mountains.
+
+58
+00:09:49,868 --> 00:09:50,857
+-What?
+-How?
+
+59
+00:09:51,035 --> 00:09:52,627
+-Tell us about it.
+-How can that be?
+
+60
+00:09:52,971 --> 00:09:54,131
+How wide is this path?
+
+61
+00:09:54,305 --> 00:09:57,968
+Wide enough to move through sideways,
+weapons held in front and behind.
+
+62
+00:09:58,176 --> 00:10:00,303
+-How long to complete the journey?
+-Half a day.
+
+63
+00:10:00,745 --> 00:10:03,646
+-Will you show us this path?
+-Of course.
+
+64
+00:10:03,815 --> 00:10:05,646
+This war ends now!
+
+65
+00:10:05,817 --> 00:10:10,049
+Fifty of my best men will join me
+in a strike against the beast itself...
+
+66
+00:10:10,221 --> 00:10:12,655
+...while the rest stay here
+and defend our position.
+
+67
+00:10:12,991 --> 00:10:16,620
+While the monsters attack us,
+we will attack them!
+
+68
+00:10:21,065 --> 00:10:22,555
+You must stay.
+
+69
+00:10:22,800 --> 00:10:24,392
+But l must be at your side.
+
+70
+00:10:24,569 --> 00:10:25,729
+l need you here.
+
+71
+00:10:25,904 --> 00:10:32,070
+For if anything should happen to me,
+you will be king, my son.
+
+72
+00:10:32,243 --> 00:10:35,212
+l will not fail you, Father.
+
+73
+00:10:57,302 --> 00:10:59,964
+Forward, my brothers!
+
+74
+00:12:55,119 --> 00:12:56,746
+Look. There.
+
+75
+00:12:57,388 --> 00:13:00,551
+The last of its army has left.
+
+76
+00:13:06,798 --> 00:13:09,460
+Our time has come!
+
+77
+00:14:13,898 --> 00:14:15,126
+Spears ready!
+
+78
+00:14:37,321 --> 00:14:39,186
+Fire!
+
+79
+00:15:27,538 --> 00:15:29,870
+Porcupine!
+
+80
+00:15:40,518 --> 00:15:42,383
+Disperse!
+
+81
+00:20:54,598 --> 00:20:59,228
+<i>The war was finally over...</i>
+
+82
+00:20:59,403 --> 00:21:03,100
+<i>...but the warrior was gone.</i>
+
+83
+00:21:06,310 --> 00:21:10,747
+<i>His shield was all that was left.</i>
+
+84
+00:21:14,285 --> 00:21:17,345
+<i>This stranger who became a brother...</i>
+
+85
+00:21:17,521 --> 00:21:22,481
+...aided us in our time of need
+and made a difference.
+
+86
+00:21:23,427 --> 00:21:26,590
+His sacrifice, and that of the others...
+
+87
+00:21:26,764 --> 00:21:33,101
+...defeated our enemy, saved our lands
+and ensured our freedom.
+
+88
+00:21:33,771 --> 00:21:37,707
+They will be honored
+and remembered forever...
+
+89
+00:21:37,875 --> 00:21:41,106
+...the 300 plus one.
+
+90
+00:21:41,779 --> 00:21:46,580
+But l believe the one survived.
+
+91
+00:21:46,750 --> 00:21:49,651
+A warrior that great...
+
+92
+00:21:49,820 --> 00:21:53,551
+...could not be stopped so easily.
+
+93
+00:22:46,043 --> 00:22:48,034
+[ENGLlSH]
+
