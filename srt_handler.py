@@ -1,8 +1,6 @@
 import os
 import io
 import json
-import re
-import csv
 from Season import Season
 from Episode import Episode
 from utils import *
@@ -113,8 +111,14 @@ def compute_wh():
                                     print_series_episode(current_series, season, episode)
                                     print("words count: " + str(words_count) + " - words/hour: " + str(words_hour) + "\n")
 
+                    # compute the average w/h for the current season
+                    current_season.avg_wh = get_average_wh_for_season(current_season)
+
                     # add current season to the current series
                     current_series.seasons.append(current_season)
+
+            # compute the average w/h for the current series
+            current_series.avg_wh = get_average_wh_for_series(current_series)
 
             # add the current series to the dictionary
             series_dictionary['series'].append(current_series)

@@ -61,7 +61,15 @@ def json_default(object):
 
 
 def get_average_wh_for_series(series):
-    return sum(get_average_wh_for_season(season) for season in series.seasons) / float(len(series.seasons))
+    acc_wh = 0.0
+    ep_count = 0
+
+    # sum the w/h for each episode for each season
+    for season in series.seasons:
+        acc_wh += sum(episode.wh for episode in season.episodes)
+        ep_count += len(season.episodes)
+
+    return float(acc_wh)/ep_count
 
 
 def get_average_wh_for_season(season):

@@ -27,7 +27,7 @@ def load_json(json_file_name):
                     )
             
             # add the season to the season list
-            seasons.append( Season (raw_season.get("id_"), episodes) )
+            seasons.append( Season (raw_season.get("id_"), raw_season.get("avg_wh"), episodes) )
                     
         #create the series and add it to the data list 
         data.append( Series( \
@@ -35,7 +35,8 @@ def load_json(json_file_name):
             raw_series.get('name'), \
             raw_series.get('episode_length'), \
             raw_series.get('genre'), \
-            raw_series.get('year'), \
+            raw_series.get('year'),
+            raw_series.get('avg_wh'), \
             seasons)
         )
 
