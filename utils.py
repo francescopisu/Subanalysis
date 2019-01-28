@@ -23,10 +23,10 @@ def get_runtime_from_file(f):
 
     # divide it and compute the runtime
     first_time = text_complete[j].split('-->')[0]
-    hours= first_time.split(':')[0]
+    hours = first_time.split(':')[0]
     minutes = first_time.split(':')[1]
-    runtime = int(hours)*60 + int(minutes)
-    
+    runtime = int(hours) * 60 + int(minutes)
+
     return runtime
 
 
@@ -58,3 +58,11 @@ def print_series_episode(series, season, episode):
 # function that allows converting a custom object to JSON
 def json_default(object):
     return object.__dict__
+
+
+def get_average_wh_for_series(series):
+    return sum(get_average_wh_for_season(season) for season in series.seasons) / float(len(series.seasons))
+
+
+def get_average_wh_for_season(season):
+    return sum(episode.wh for episode in season.episodes) / float(len(season.episodes))
