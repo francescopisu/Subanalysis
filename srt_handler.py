@@ -9,10 +9,10 @@ from utils import *
 def compute_wh():
 
     # dictionary containing all the series
-    series_dictionary = {
-        'series': []
-    }
-
+    # series_dictionary = {
+    #     'series': []
+    # }
+    series_dictionary = []
     # opening the results file
     #with open('results.csv', "w+") as resFile:
     with io.open("data.json", 'w') as resFile:
@@ -121,7 +121,7 @@ def compute_wh():
             current_series.avg_wh = get_average_wh_for_series(current_series)
 
             # add the current series to the dictionary
-            series_dictionary['series'].append(current_series)
+            series_dictionary.append(current_series)
 
         # after the computation is finished, dump the dictionary into a json file
         resFile.write(str(json.dumps(series_dictionary, default=json_default, ensure_ascii=False)))
