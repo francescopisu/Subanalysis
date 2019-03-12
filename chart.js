@@ -5,7 +5,8 @@ class Chart {
         this.element = opts.element;
         //console.log(this.data)
 
-        this.zoomLevel = 2;
+        this.zoomLevel = 1;
+        this.bar_width = 20;
 
         this.extractElements();
         // console.log(this.series);
@@ -21,9 +22,11 @@ class Chart {
         // this.width = this.element.offsetWidth;
         // this.height = this.width / 2;
         this.margin = {top: 20, right: 20, bottom: 70, left: 40};
-        this.bar_width = 10;
         this.width = this.bar_width*this.getNumberOfElements() - this.margin.left - this.margin.right;
         this.height = 600 - this.margin.top - this.margin.bottom;
+
+        d3.select("#svgChart").selectAll("*").remove();
+        d3.select("#svgY").selectAll("*").remove();
 
         // create the other stuff
         this.createScales();
@@ -75,10 +78,54 @@ class Chart {
             .style("text-anchor", "end")
             .text("Words/hour");
 
+        var _this = this;
+        var bw_min = 2;
+        var bw_max = 18;
+        var bw_inc = 1;
+
         this.svgChart = d3.select("#svgChart")
            .style("overflow-x","scroll")
            .attr("width", this.width + this.margin.left + this.margin.right)
            .attr("height", this.height + this.margin.top + this.margin.bottom)
+           .on('mousewheel.zoom', function () {
+                var scroll = d3.event.wheelDelta;
+                if (scroll > 0) {
+                    console.log("scroll up");
+                    if (_this.bar_width == bw_max){
+                        // cambio zoom
+                        if (_this.zoomLevel < 3) {
+                            _this.zoomLevel ++;
+                            _this.bar_width = bw_min;
+                            _this.draw();
+                        }
+                    }
+                    else {
+                        if (_this.zoomLevel < 3) {
+                            _this.bar_width = (_this.bar_width >= bw_max )
+                            ? bw_max : _this.bar_width+bw_inc;
+                            _this.draw();
+                        }
+                    }
+                }
+                else {
+                    console.log("scroll down");
+                    if (_this.bar_width == bw_min){
+                        // cambio zoom
+                        if (_this.zoomLevel > 1) {
+                            _this.zoomLevel --;
+                            _this.bar_width = bw_max;
+                            _this.draw();
+                        }
+                    }
+                    else {
+                        if (_this.zoomLevel > 1) {
+                            _this.bar_width = (_this.bar_width <= bw_min )
+                            ? bw_min : _this.bar_width-bw_inc;
+                            _this.draw();
+                        }
+                    }
+                }
+            })
            .append("g")
            .attr("transform",
                 "translate(" + this.margin.left + "," + this.margin.top + ")");
