@@ -38,6 +38,7 @@
 
 <div id="container" class="svg-container">
   <svg preserveAspectRatio="xMidYMid meet" id = "svgY"></svg>
+  <svg preserveAspectRatio="xMidYMid meet" id = "svgYDx"></svg>
   <svg preserveAspectRatio="xMidYMid meet" id = "svgChart"></svg>
 </div>
 
@@ -100,7 +101,7 @@ d3.json(url_data, function(error, data) {
 
   // set the dimensions of the canvas
   var margin = {top: 20, right: 20, bottom: 70, left: 40},
-      bar_width = 10,
+      bar_width = 2,
       width = bar_width*array_visualized.length - margin.left - margin.right,
       height = 600 - margin.top - margin.bottom;
 
@@ -135,6 +136,18 @@ d3.json(url_data, function(error, data) {
       .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
+   // add the Y axis SVG element on the right
+  var svgYDx = d3.select("#svgYDx")
+      .attr("width", margin.left)
+      .attr("height", height + margin.top + margin.bottom)
+      .style("position","fixed")
+      .style("right","1")
+      .style("top","auto")
+      .style("overflow-y","scroll")
+      .style("background-color","white")
+    .append("g")
+      .attr("transform",
+            "translate(" + margin.left  + "," + margin.top + ")");
 
   // add the chart SVG element
   var svg = d3.select("#svgChart")
@@ -174,6 +187,16 @@ d3.json(url_data, function(error, data) {
       .attr("dy", ".71em")
       .style("text-anchor", "end")
       .text("Words/hour");
+
+   svgYDx.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 5)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Words/hour"); 
 
   // Add bar chart
   var bars = svg.selectAll("bar")

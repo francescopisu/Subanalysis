@@ -1,0 +1,78 @@
+<!-- load in D3 and Chart constructor scripts -->
+<script src="chart.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<style>
+
+  .bar{
+    fill: steelblue;
+  }
+
+  .bar:hover{
+    fill: brown;
+  }
+
+  .bar_line{
+    fill: black;
+  }
+
+  .axis {
+    font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+
+</style>
+
+<body>
+<!-- here's the div our chart will be injected into -->
+<div id="container" class="chart-container">
+  <svg preserveAspectRatio="xMidYMid meet" id = "svgY"></svg>
+  <svg preserveAspectRatio="xMidYMid meet" id = "svgChart"></svg>
+</div></body>
+
+<script>
+var url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
+var url_sample = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/sample.json"
+d3.json(url_data, function(error, json_data) {
+    // TUTTO IL CODICE VA QUA DENTRO
+    // altrimenti javascript fa cose asincrone e si sminchia tutto,
+    // cioè fa operazione senza aver letto i dati
+
+    if (error) throw error;
+
+    const chart = new Chart({
+    	element: document.querySelector('.chart-container'),
+        data: json_data
+    });
+
+})
+
+// console.log("2. stampa dati da chart:")
+// console.log(chart.data)
+/*
+// change line colour on click
+d3.selectAll('button.color').on('click', function(){
+    const color = d3.select(this).text().split(' ')[0];
+    chart.setColor( color );
+});
+// change data on click to something randomly-generated
+d3.selectAll('button.data').on('click', () => {
+    chart.setData([
+        [new Date(2016,0,1), Math.random()*100],
+        [new Date(2016,1,1), Math.random()*100],
+        [new Date(2016,2,1), Math.random()*100],
+        [new Date(2016,3,1), Math.random()*100],
+        [new Date(2016,4,1), Math.random()*100]
+    ]);
+});
+// redraw chart on each resize
+// in a real-world example, it might be worth ‘throttling’ this
+// more info: http://sampsonblog.com/749/simple-throttle-function
+d3.select(window).on('resize', () => chart.draw() );*/
+</script>
