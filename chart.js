@@ -54,6 +54,11 @@ class Chart {
         this.xAxis = d3.axisBottom(this.x)
             //.scale(this.x)
 
+        var labels = this.getCurrentData().map(item => item.number)
+         // console.log(labels)
+         this.xAxis.tickFormat(function(d, i) { return labels[i] })
+         .tickSize(0);
+
         this.yAxis = d3.axisLeft(this.y)
             .ticks(10);
 
