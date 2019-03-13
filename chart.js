@@ -5,10 +5,10 @@ class Chart {
         this.svgContainer = opts.element; //chart container div
 
         console.log(this.svgContainer)
-        this.zoomLevel = 1;
+        this.zoomLevel = 3;
         this.bar_width = 10;
 
-        this.zoom = d3.zoom().on('zoom', this.zoomed);
+        this.zoom = d3.zoom().on('zoom', this.zoomed.bind(null,this));
 
         this.extractElements();
 
@@ -17,10 +17,11 @@ class Chart {
     }
 
     draw() {
-        this.margin = {top: 20, right: 20, bottom: 70, left: 40};
-        this.width = 960 - this.margin.left - this.margin.right;
+        this.margin = {top: 20, right: 40, bottom: 70, left: 40};
+        this.width = window.innerWidth - this.margin.left - this.margin.right;
         this.height = 600 - this.margin.top - this.margin.bottom;
 
+        this.chartWidth = this.bar_width*this.getNumberOfElements();
 
         //d3.select("#svgChart").selectAll("*").remove();
         //d3.select("#svgY").selectAll("*").remove();
@@ -35,13 +36,17 @@ class Chart {
     createScales() {
         // calculate max and min for data
         //this.x = d3.scale.ordinal().rangeBands([0, this.width], .05);
-        this.x = d3.scaleBand()
-          .rangeRound([0, this.width])
-          .domain(this.getCurrentData().map(item => item.id));
+        // this.x = d3.scaleBand()
+        //     .rangeRound([0, this.width])
+        //     .domain(this.getCurrentData().map(item => item.id));
 
         this.y = d3.scaleLinear()
-          .range([this.height, 0])
-          .domain([0,13000])
+            .range([this.height, 0])
+            .domain([0,13000])
+
+        this.x = d3.scaleLinear()
+            .domain([0, this.getNumberOfElements()])
+            .range([0, this.chartWidth]);
     }
 
     addAxes() {
@@ -80,26 +85,27 @@ class Chart {
            .style("overflow-x","scroll")
            .attr("width", this.width + this.margin.left + this.margin.right)
            .attr("height", this.height + this.margin.top + this.margin.bottom)
+           .call(this.zoom)
            .append("g")
            .attr("transform",
                 "translate(" + this.margin.left + "," + this.margin.top + ")")
 
-        this.svgChart.append("defs").append("SVG:clipPath")
-          .attr("id", "clip")
-          .append("SVG:rect")
-          .attr("width", this.width )
-          .attr("height", this.height )
-          .attr("x", 0)
-          .attr("y", 0)
+        // this.svgChart.append("defs").append("SVG:clipPath")
+        //   .attr("id", "clip")
+        //   .append("SVG:rect")
+        //   .attr("width", this.chartWidth )
+        //   .attr("height", this.height )
+        //   .attr("x", 0)
+        //   .attr("y", 0)
 
 
-        this.svgChart.append("rect")
-          .attr("width", this.width)
-          .attr("height", this.height)
-          .style("fill", "none")
-          .style("pointer-events", "all")
-          .style("opacity", 0.0)
-          .call(this.zoom);
+        // this.svgChart.append("rect")
+        //   .attr("width", this.width)
+        //   .attr("height", this.height)
+        //   .style("fill", "none")
+        //   .style("pointer-events", "all")
+        //   .style("opacity", 0.0)
+        //   .call(this.zoom);
 
         this.svgChart.append("g")
             .attr("class", "x axis")
@@ -126,10 +132,9 @@ class Chart {
         this.bars.append("rect")
           .attr("class", "bar")
           .attr("x", function(item) { return x(item.id); })
-          .attr("width", x.bandwidth())
+          .attr("width", this.bar_width)
           .attr("y", function(item) { return y(item.wh); })
           .attr("height", function(item) { return height - y(item.wh); })
-          .call(this.zoom);
 
 
 
@@ -140,7 +145,7 @@ class Chart {
             this.bars.append("rect")
                 .attr("class", "bar_line")
                 .attr("x", function(item) { return x(item.id); })
-                .attr("width", x.bandwidth() + 2)
+                .attr("width", this.bar_width + 2)
                 .attr("y", function(item) {
                     return y(series[item.series].wh); })
                 .attr("height", function(item) { return 1; });
@@ -214,8 +219,17 @@ class Chart {
             return this.episodes;
     }
 
-    zoomed() {
-      console.log("cio")
+    zoomed(_this) {
+        console.log("zoomed");
+
+        var transform = d3.event.transform;
+        transform.x = Math.min(0, transform.x);
+        transform.x += _this.margin.left;
+        transform.y = 0 + _this.margin.top;
+        console.log(transform)
+
+        _this.svgChart.attr('transform', transform.toString());
+        // console.log(_this.getNumberOfElements())
     }
 
 }
