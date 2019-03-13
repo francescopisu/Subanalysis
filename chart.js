@@ -44,8 +44,8 @@ class Chart {
             .range([this.height, 0])
             .domain([0,13000])
 
-        this.x = d3.scaleLinear()
-            .domain([0, this.getNumberOfElements()])
+        this.x = d3.scaleBand()
+            .domain(this.getCurrentData().map(item => item.id))
             .range([0, this.chartWidth]);
     }
 
@@ -220,15 +220,22 @@ class Chart {
     }
 
     zoomed(_this) {
-        console.log("zoomed");
+        // console.log("zoomed");
 
         var transform = d3.event.transform;
         transform.x = Math.min(0, transform.x);
         transform.x += _this.margin.left;
         transform.y = 0 + _this.margin.top;
-        console.log(transform)
+        console.log(transform.toString())
 
         _this.svgChart.attr('transform', transform.toString());
+
+        // _this.svgChart.attr('transform',
+        // "translate(" + d3.event.translate[0] + ",0)scale(" + d3.event.scale + ", 1)");
+
+
+        // _this.svgChart.call(_this.xAxis.scale(d3.event.transform.rescaleX(_this.x)));
+
         // console.log(_this.getNumberOfElements())
     }
 
