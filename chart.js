@@ -4,7 +4,6 @@ class Chart {
         this.data = opts.data; //data
         this.svgContainer = opts.element; //chart container div
 
-        console.log(this.svgContainer)
         this.zoomLevel = 3;
         this.bar_width = 10;
 
@@ -230,8 +229,8 @@ class Chart {
         var transform = d3.event.transform;
         transform.x = Math.min(0, transform.x);
         transform.x += _this.margin.left;
-        transform.y = 0 + _this.margin.top;
-        console.log(transform.toString())
+        transform.y = 0 + _this.margin.top*transform.k;
+        // console.log(transform.toString())
 
         _this.svgChart.attr('transform', transform.toString());
 
