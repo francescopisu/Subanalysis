@@ -1,61 +1,58 @@
 class Chart {
     constructor(opts) {
         // load in arguments from config object
-        this.data = opts.data;
-        this.element = opts.element;
-        //console.log(this.data)
+        this.data = opts.data; //data
+        this.svgContainer = opts.element; //chart container div
 
+        console.log(this.svgContainer)
         this.zoomLevel = 1;
-        this.bar_width = 20;
+        this.bar_width = 10;
+
+        this.zoom = d3.zoom().on('zoom', this.zoomed);
 
         this.extractElements();
-        // console.log(this.series);
-        // console.log(this.seasons);
-        // console.log(this.episodes);
 
-        // create the chart
+        // draw the chart
         this.draw();
     }
 
     draw() {
-        // define width, height and margin
-        // this.width = this.element.offsetWidth;
-        // this.height = this.width / 2;
         this.margin = {top: 20, right: 20, bottom: 70, left: 40};
-        this.width = this.bar_width*this.getNumberOfElements() - this.margin.left - this.margin.right;
+        this.width = 960 - this.margin.left - this.margin.right;
         this.height = 600 - this.margin.top - this.margin.bottom;
 
-        d3.select("#svgChart").selectAll("*").remove();
-        d3.select("#svgY").selectAll("*").remove();
+
+        //d3.select("#svgChart").selectAll("*").remove();
+        //d3.select("#svgY").selectAll("*").remove();
 
         // create the other stuff
         this.createScales();
         this.addAxes();
         this.addBars();
-        // this.addLine();
+
     }
 
     createScales() {
         // calculate max and min for data
-        this.x = d3.scale.ordinal().rangeBands([0, this.width], .05);
-        this.y = d3.scale.linear().range([this.height, 0]);
+        //this.x = d3.scale.ordinal().rangeBands([0, this.width], .05);
+        this.x = d3.scaleBand()
+          .rangeRound([0, this.width])
+          .domain(this.getCurrentData().map(item => item.id));
 
-        this.x.domain(this.getCurrentData().map(item => item.id))
-        this.y.domain([0,13000])
+        this.y = d3.scaleLinear()
+          .range([this.height, 0])
+          .domain([0,13000])
     }
 
     addAxes() {
         // define the axis
-        this.xAxis = d3.svg.axis()
-            .scale(this.x)
-            .orient("bottom");
+        this.xAxis = d3.axisBottom(this.x)
+            //.scale(this.x)
 
-        this.yAxis = d3.svg.axis()
-            .scale(this.y)
-            .orient("left")
+        this.yAxis = d3.axisLeft(this.y)
             .ticks(10);
 
-        // add the Y axis SVG element
+        // add the Y axis to the SVG element
         this.svgY = d3.select("#svgY")
             .attr("width", this.margin.left)
             .attr("height", this.height + this.margin.top + this.margin.bottom)
@@ -66,7 +63,8 @@ class Chart {
             .style("background-color","white")
             .append("g")
             .attr("transform",
-                "translate(" + this.margin.left + "," + this.margin.top + ")");
+                "translate(" + this.margin.left + "," + this.margin.top + ")")
+
 
         this.svgY.append("g")
             .attr("class", "y axis")
@@ -78,58 +76,30 @@ class Chart {
             .style("text-anchor", "end")
             .text("Words/hour");
 
-        var _this = this;
-        var bw_min = 2;
-        var bw_max = 18;
-        var bw_inc = 1;
-
         this.svgChart = d3.select("#svgChart")
            .style("overflow-x","scroll")
            .attr("width", this.width + this.margin.left + this.margin.right)
            .attr("height", this.height + this.margin.top + this.margin.bottom)
-           .on('mousewheel.zoom', function () {
-                var scroll = d3.event.wheelDelta;
-                if (scroll > 0) {
-                    console.log("scroll up");
-                    if (_this.bar_width == bw_max){
-                        // cambio zoom
-                        if (_this.zoomLevel < 3) {
-                            _this.zoomLevel ++;
-                            _this.bar_width = bw_min;
-                            _this.draw();
-                        }
-                    }
-                    else {
-                        if (_this.zoomLevel < 3) {
-                            _this.bar_width = (_this.bar_width >= bw_max )
-                            ? bw_max : _this.bar_width+bw_inc;
-                            _this.draw();
-                        }
-                    }
-                }
-                else {
-                    console.log("scroll down");
-                    if (_this.bar_width == bw_min){
-                        // cambio zoom
-                        if (_this.zoomLevel > 1) {
-                            _this.zoomLevel --;
-                            _this.bar_width = bw_max;
-                            _this.draw();
-                        }
-                    }
-                    else {
-                        if (_this.zoomLevel > 1) {
-                            _this.bar_width = (_this.bar_width <= bw_min )
-                            ? bw_min : _this.bar_width-bw_inc;
-                            _this.draw();
-                        }
-                    }
-                }
-            })
            .append("g")
            .attr("transform",
-                "translate(" + this.margin.left + "," + this.margin.top + ")");
+                "translate(" + this.margin.left + "," + this.margin.top + ")")
 
+        this.svgChart.append("defs").append("SVG:clipPath")
+          .attr("id", "clip")
+          .append("SVG:rect")
+          .attr("width", this.width )
+          .attr("height", this.height )
+          .attr("x", 0)
+          .attr("y", 0)
+
+
+        this.svgChart.append("rect")
+          .attr("width", this.width)
+          .attr("height", this.height)
+          .style("fill", "none")
+          .style("pointer-events", "all")
+          .style("opacity", 0.0)
+          .call(this.zoom);
 
         this.svgChart.append("g")
             .attr("class", "x axis")
@@ -138,6 +108,7 @@ class Chart {
             .selectAll("text")
             .style("text-anchor", "middle")
             .attr("dy", ".9em");
+
     }
 
 
@@ -155,9 +126,13 @@ class Chart {
         this.bars.append("rect")
           .attr("class", "bar")
           .attr("x", function(item) { return x(item.id); })
-          .attr("width", x.rangeBand())
+          .attr("width", x.bandwidth())
           .attr("y", function(item) { return y(item.wh); })
-          .attr("height", function(item) { return height - y(item.wh); });
+          .attr("height", function(item) { return height - y(item.wh); })
+          .call(this.zoom);
+
+
+
 
         if (this.zoomLevel > 1) {
             // average w/h line
@@ -165,12 +140,13 @@ class Chart {
             this.bars.append("rect")
                 .attr("class", "bar_line")
                 .attr("x", function(item) { return x(item.id); })
-                .attr("width", x.rangeBand() + 2)
+                .attr("width", x.bandwidth() + 2)
                 .attr("y", function(item) {
                     return y(series[item.series].wh); })
                 .attr("height", function(item) { return 1; });
         }
     }
+
 
     extractElements(){
         var i = 0;
@@ -236,6 +212,10 @@ class Chart {
             return this.seasons;
         else
             return this.episodes;
+    }
+
+    zoomed() {
+      console.log("cio")
     }
 
 }
