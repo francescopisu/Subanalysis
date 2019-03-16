@@ -6,7 +6,7 @@ class Chart {
         this.svgContainer = opts.element; //chart container div
 
         this.zoomLevel = 3;
-        this.bar_width = 5;
+        this.bar_width = 3;
 
         // this.zoom = d3.zoom().on('zoom', this.zoomed.bind(null,this));
 
@@ -19,13 +19,11 @@ class Chart {
     draw() {
         this.margin = {top: 20, right: 40, bottom: 70, left: 40};
         // this.width = window.innerWidth - this.margin.left - this.margin.right;
-        this.width = this.bar_width*this.getNumberOfElements() - this.margin.left - this.margin.right;
+        this.width = this.bar_width*this.getNumberOfElements()
+            - this.margin.left - this.margin.right + 150;
         this.height = 500 - this.margin.top - this.margin.bottom;
 
         this.chartWidth = this.bar_width*this.getNumberOfElements();
-
-        //d3.select("#svgChart").selectAll("*").remove();
-        //d3.select("#svgY").selectAll("*").remove();
 
         // create the other stuff
         this.createScales();
@@ -58,8 +56,7 @@ class Chart {
         var labels = this.getCurrentData().map(item => item.number)
          // console.log(labels)
          // this.xAxis.tickFormat(function(d, i) { return labels[i] })
-         this.xAxis.tickFormat(function(d, i) { return "" })
-         .tickSize(0);
+         this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
 
         this.yAxis = d3.axisLeft(this.y)
             .ticks(10);
@@ -145,7 +142,7 @@ class Chart {
         this.bars.append("rect")
         .attr("class", "season_line")
         .attr("x", function(item) { return x(item.id); })
-        .attr("width", this.bar_width - 3)
+        .attr("width", this.bar_width/2)
         .attr("y", function(item) {
           return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
           .attr("height", function(item) { return 1; });
