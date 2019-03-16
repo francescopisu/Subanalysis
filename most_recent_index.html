@@ -4,16 +4,22 @@
 
 <style>
 
-  .bar{
-    fill: steelblue;
+ .bar{
+    /* fill: steelblue; */
   }
 
   .bar:hover{
     fill: brown;
   }
 
-  .bar_line{
-    fill: black;
+  .series_line{
+    opacity: 0.2;
+    pointer-events:none;
+  }
+
+  .season_line{
+    fill: grey;
+    pointer-events: none;
   }
 
   .axis {
@@ -26,6 +32,19 @@
     stroke: #000;
     shape-rendering: crispEdges;
   }
+
+  div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
 
 </style>
 

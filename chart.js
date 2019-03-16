@@ -2,12 +2,13 @@ class Chart {
     constructor(opts) {
         // load in arguments from config object
         this.data = opts.data; //data
+        console.log(this.data);
         this.svgContainer = opts.element; //chart container div
 
         this.zoomLevel = 3;
-        this.bar_width = 10;
+        this.bar_width = 5;
 
-        this.zoom = d3.zoom().on('zoom', this.zoomed.bind(null,this));
+        // this.zoom = d3.zoom().on('zoom', this.zoomed.bind(null,this));
 
         this.extractElements();
 
@@ -17,8 +18,9 @@ class Chart {
 
     draw() {
         this.margin = {top: 20, right: 40, bottom: 70, left: 40};
-        this.width = window.innerWidth - this.margin.left - this.margin.right;
-        this.height = 600 - this.margin.top - this.margin.bottom;
+        // this.width = window.innerWidth - this.margin.left - this.margin.right;
+        this.width = this.bar_width*this.getNumberOfElements() - this.margin.left - this.margin.right;
+        this.height = 500 - this.margin.top - this.margin.bottom;
 
         this.chartWidth = this.bar_width*this.getNumberOfElements();
 
@@ -55,7 +57,8 @@ class Chart {
 
         var labels = this.getCurrentData().map(item => item.number)
          // console.log(labels)
-         this.xAxis.tickFormat(function(d, i) { return labels[i] })
+         // this.xAxis.tickFormat(function(d, i) { return labels[i] })
+         this.xAxis.tickFormat(function(d, i) { return "" })
          .tickSize(0);
 
         this.yAxis = d3.axisLeft(this.y)
@@ -89,27 +92,10 @@ class Chart {
            .style("overflow-x","scroll")
            .attr("width", this.width + this.margin.left + this.margin.right)
            .attr("height", this.height + this.margin.top + this.margin.bottom)
-           .call(this.zoom)
+           // .call(this.zoom)
            .append("g")
            .attr("transform",
                 "translate(" + this.margin.left + "," + this.margin.top + ")")
-
-        // this.svgChart.append("defs").append("SVG:clipPath")
-        //   .attr("id", "clip")
-        //   .append("SVG:rect")
-        //   .attr("width", this.chartWidth )
-        //   .attr("height", this.height )
-        //   .attr("x", 0)
-        //   .attr("y", 0)
-
-
-        // this.svgChart.append("rect")
-        //   .attr("width", this.width)
-        //   .attr("height", this.height)
-        //   .style("fill", "none")
-        //   .style("pointer-events", "all")
-        //   .style("opacity", 0.0)
-        //   .call(this.zoom);
 
         this.svgChart.append("g")
             .attr("class", "x axis")
@@ -126,6 +112,14 @@ class Chart {
         var x = this.x;
         var y = this.y;
         var height = this.height;
+        var _this = this;
+        var series = this.series;
+        var seasons = this.seasons;
+
+        // tooltip
+        this.div = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
 
         // Add bar chart
         this.bars = this.svgChart.selectAll("bar")
@@ -137,23 +131,34 @@ class Chart {
           .attr("class", "bar")
           .attr("x", function(item) { return x(item.id); })
           .attr("width", this.bar_width)
+          // cristi
+          // .attr("y", function(item) { return y(Math.max(item.wh, series[item.series].wh)); })
+          // .attr("height", function(item) { return height - y(Math.abs(series[item.series].wh-item.wh)); })
+          // normale
           .attr("y", function(item) { return y(item.wh); })
           .attr("height", function(item) { return height - y(item.wh); })
+          .attr("fill", function(item) { return _this.getColor(item, _this);})
+          .on("mouseover", function(item) { _this.showTooltip(item, _this); })
+          .on("mouseout",  function(item) { _this.hideTooltip(item, _this); });
 
+        // season average w/h line
+        this.bars.append("rect")
+        .attr("class", "season_line")
+        .attr("x", function(item) { return x(item.id); })
+        .attr("width", this.bar_width - 3)
+        .attr("y", function(item) {
+          return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
+          .attr("height", function(item) { return 1; });
 
+        // series average w/h line
+        this.bars.append("rect")
+        .attr("class", "series_line")
+        .attr("x", function(item) { return x(item.id); })
+        .attr("width", this.bar_width)
+        .attr("y", function(item) {
+          return y(series[item.series].wh); })
+          .attr("height", function(item) { return height - y(series[item.series].wh); });
 
-
-        if (this.zoomLevel > 1) {
-            // average w/h line
-            var series = this.series;
-            this.bars.append("rect")
-                .attr("class", "bar_line")
-                .attr("x", function(item) { return x(item.id); })
-                .attr("width", this.bar_width + 2)
-                .attr("y", function(item) {
-                    return y(series[item.series].wh); })
-                .attr("height", function(item) { return 1; });
-        }
     }
 
 
@@ -164,9 +169,9 @@ class Chart {
         this.data.forEach(single_series => {
             series.push({
                 id: i++,
-                number: single_series.id_,
-                wh: single_series.avg_wh,
-                series: single_series.id_
+                number: +single_series.id_,
+                wh: +single_series.avg_wh,
+                series: +single_series.id_
             })
         });
         this.series = series;
@@ -177,9 +182,9 @@ class Chart {
             series.seasons.forEach(season => {
                   seasons.push({
                     id: i++,
-                    number: season.id_,
-                    wh: season.avg_wh,
-                    series: series.id_
+                    number: +season.id_,
+                    wh: +season.avg_wh,
+                    series: +series.id_
                   })
             });
         });
@@ -192,10 +197,10 @@ class Chart {
                 season.episodes.forEach(episode => {
                     episodes.push({
                         id: i++,
-                        number: episode.id_,
-                        wh: episode.wh,
-                        season: season.id_,
-                        series: series.id_
+                        number: +episode.id_,
+                        wh: +episode.wh,
+                        season: +season.id_,
+                        series: +series.id_
                     })
                 });
             });
@@ -221,6 +226,43 @@ class Chart {
             return this.seasons;
         else
             return this.episodes;
+    }
+
+
+    getColor(item, _this){
+        var colorArray = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
+    	  '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
+    	  '#80B300', '#809900', '#E6B3B3', '#6680B3', '#66991A',
+    	  '#FF99E6', '#CCFF1A', '#FF1A66', '#E6331A', '#33FFCC',
+    	  '#66994D', '#B366CC', '#4D8000', '#B33300', '#CC80CC',
+    	  '#66664D', '#991AFF', '#E666FF', '#4DB3FF', '#1AB399',
+    	  '#E666B3', '#33991A', '#CC9999', '#B3B31A', '#00E680',
+    	  '#4D8066', '#809980', '#E6FF80', '#1AFF33', '#999933',
+    	  '#FF3380', '#CCCC00', '#66E64D', '#4D80CC', '#9900B3',
+    	  '#E64D66', '#4DB380', '#FF4D4D', '#99E6E6', '#6666FF'];
+
+        return colorArray[item.series];
+    }
+
+    getTooltipText(item, _this){
+        return  _this.data[item.series].name + "<br/>"
+                + "S" + item.season + "E" + item.number + "<br/>"
+                + "w/h: " + item.wh;
+    }
+
+    showTooltip(item, _this){
+        _this.div.transition()
+          .duration(50)
+          .style("opacity", .9);
+        _this.div.html(_this.getTooltipText(item, _this))
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", (d3.event.pageY - 28) + "px");
+    }
+
+    hideTooltip(item, _this){
+        _this.div.transition()
+          .duration(50)
+          .style("opacity", 0);
     }
 
     zoomed(_this) {
