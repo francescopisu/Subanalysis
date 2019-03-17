@@ -3,12 +3,9 @@ class Chart {
         // load in arguments from config object
         this.data = opts.data; //data
         console.log(this.data);
-        this.svgContainer = opts.element; //chart container div
 
         this.zoomLevel = 3;
-        this.bar_width = 3;
-
-        // this.zoom = d3.zoom().on('zoom', this.zoomed.bind(null,this));
+        // this.bar_width = 3;
 
         this.extractElements();
 
@@ -18,12 +15,24 @@ class Chart {
 
     draw() {
         this.margin = {top: 20, right: 40, bottom: 70, left: 40};
-        // this.width = window.innerWidth - this.margin.left - this.margin.right;
-        this.width = this.bar_width*this.getNumberOfElements()
-            - this.margin.left - this.margin.right + 150;
+        this.width = window.innerWidth*0.9 - this.margin.left - this.margin.right;
+        // this.width = this.bar_width*this.getNumberOfElements()
+        //     - this.margin.left - this.margin.right + 150;
         this.height = 500 - this.margin.top - this.margin.bottom;
+        this.extent = [[0,0], [this.width, this.height]]
 
-        this.chartWidth = this.bar_width*this.getNumberOfElements();
+        // this.chartWidth = this.bar_width*this.getNumberOfElements();
+
+        var _this = this;
+
+        this.svgChart = d3.select("#svgChart")
+        this.zoom = d3.zoom()
+            .scaleExtent([1, 100])
+            // .translateExtent(this.extent)
+            // .extent(this.extent)
+            .on("zoom", function() { _this.zoomed(_this); });
+
+        this.svgChart.call(this.zoom)
 
         // create the other stuff
         this.createScales();
@@ -34,32 +43,32 @@ class Chart {
 
     createScales() {
         // calculate max and min for data
-        //this.x = d3.scale.ordinal().rangeBands([0, this.width], .05);
+
         // this.x = d3.scaleBand()
-        //     .rangeRound([0, this.width])
-        //     .domain(this.getCurrentData().map(item => item.id));
+        //     .domain(this.getCurrentData().map(item => item.id))
+        //     .range([0, this.chartWidth]);
+
+        this.x = d3.scaleBand()
+            .range([this.margin.left, this.width-this.margin.right])
+            .domain(this.getCurrentData().map(item => item.id))
+            .padding(0.1);
 
         this.y = d3.scaleLinear()
             .range([this.height, 0])
-            .domain([0,13000])
-
-        this.x = d3.scaleBand()
-            .domain(this.getCurrentData().map(item => item.id))
-            .range([0, this.chartWidth]);
+            .domain([0, d3.max(this.episodes, function(d) { return d.wh; })]).nice();
     }
 
     addAxes() {
         // define the axis
-        this.xAxis = d3.axisBottom(this.x)
+        this.xAxis = d3.axisBottom(this.x).tickSizeOuter(0)
             //.scale(this.x)
 
-        var labels = this.getCurrentData().map(item => item.number)
+        // var labels = this.getCurrentData().map(item => item.number)
          // console.log(labels)
          // this.xAxis.tickFormat(function(d, i) { return labels[i] })
          this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
 
-        this.yAxis = d3.axisLeft(this.y)
-            .ticks(10);
+        this.yAxis = d3.axisLeft(this.y).ticks(10);
 
         // add the Y axis to the SVG element
         this.svgY = d3.select("#svgY")
@@ -95,7 +104,7 @@ class Chart {
                 "translate(" + this.margin.left + "," + this.margin.top + ")")
 
         this.svgChart.append("g")
-            .attr("class", "x axis")
+            .attr("class", "x-axis")
             .attr("transform", "translate(0," + this.height + ")")
             .call(this.xAxis)
             .selectAll("text")
@@ -127,7 +136,7 @@ class Chart {
         this.bars.append("rect")
           .attr("class", "bar")
           .attr("x", function(item) { return x(item.id); })
-          .attr("width", this.bar_width)
+          .attr("width", this.x.bandwidth())
           // cristi
           // .attr("y", function(item) { return y(Math.max(item.wh, series[item.series].wh)); })
           // .attr("height", function(item) { return height - y(Math.abs(series[item.series].wh-item.wh)); })
@@ -142,16 +151,16 @@ class Chart {
         this.bars.append("rect")
         .attr("class", "season_line")
         .attr("x", function(item) { return x(item.id); })
-        .attr("width", this.bar_width/2)
+        .attr("width", this.x.bandwidth()/2)
         .attr("y", function(item) {
           return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
           .attr("height", function(item) { return 1; });
 
-        // series average w/h line
+        // series average w/h rectangle
         this.bars.append("rect")
         .attr("class", "series_line")
         .attr("x", function(item) { return x(item.id); })
-        .attr("width", this.bar_width)
+        .attr("width", this.x.bandwidth())
         .attr("y", function(item) {
           return y(series[item.series].wh); })
           .attr("height", function(item) { return height - y(series[item.series].wh); });
@@ -264,22 +273,20 @@ class Chart {
 
     zoomed(_this) {
         // console.log("zoomed");
+        if (d3.event.transform.k > 40){
+            // show labels and ticks
+            var labels = this.getCurrentData().map(item => item.number)
+            this.xAxis.tickFormat(function(d, i) { return labels[i] })
 
-        var transform = d3.event.transform;
-        transform.x = Math.min(0, transform.x);
-        transform.x += _this.margin.left;
-        transform.y = 0 + _this.margin.top;
-        // console.log(transform.toString())
-
-        _this.svgChart.attr('transform', transform.toString());
-
-        // _this.svgChart.attr('transform',
-        // "translate(" + d3.event.translate[0] + ",0)scale(" + d3.event.scale + ", 1)");
-
-
-        // _this.svgChart.call(_this.xAxis.scale(d3.event.transform.rescaleX(_this.x)));
-
-        // console.log(_this.getNumberOfElements())
+        }
+        else {
+            // hide labels and ticks
+            this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
+        }
+        _this.x.range([_this.margin.left, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
+        _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id))
+                 .attr("width", _this.x.bandwidth());
+        _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
     }
 
 }
