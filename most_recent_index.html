@@ -72,18 +72,21 @@
 <script>
 var url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
 var url_sample = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/sample.json"
-d3.json("data.json", function(error, json_data) {
+
+d3.json(url_data, function(error, json_data) {
     // TUTTO IL CODICE VA QUA DENTRO
     // altrimenti javascript fa cose asincrone e si sminchia tutto,
     // cioè fa operazione senza aver letto i dati
 
     if (error) throw error;
-    
+
     const chart = new Chart({
         element: document.querySelector('.chart-container'),
         data: json_data
     });
 
+    $('input[name="zoomLevel"]').on('change', function (e) {
+            chart.getZoomLevel(e.target.value, chart) })
 })
 
 

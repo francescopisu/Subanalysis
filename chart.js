@@ -39,7 +39,7 @@ class Chart {
         this.svgChart.call(this.zoom)
 
 
-        this.getZoomLevel(_this);
+        // this.getZoomLevel(_this);
         // create the other stuff
         this.createScales();
         this.addAxes();
@@ -174,23 +174,27 @@ class Chart {
           .on("mouseover", function(item) { _this.showTooltip(item, _this); })
           .on("mouseout",  function(item) { _this.hideTooltip(item, _this); });
 
-        // season average w/h line
-        this.bars.append("rect")
-        .attr("class", "season_line")
-        .attr("x", function(item) { return x(item.id); })
-        .attr("width", this.x.bandwidth()/2)
-        .attr("y", function(item) {
-          return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
-          .attr("height", function(item) { return 1; });
+        if (this.zoomLevel == 3) {
+            // season average w/h line
+            this.bars.append("rect")
+            .attr("class", "season_line")
+            .attr("x", function(item) { return x(item.id); })
+            .attr("width", this.x.bandwidth()/2)
+            .attr("y", function(item) {
+              return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
+              .attr("height", function(item) { return 1; });
+          }
 
-        // series average w/h rectangle
-        this.bars.append("rect")
-        .attr("class", "series_line")
-        .attr("x", function(item) { return x(item.id); })
-        .attr("width", this.x.bandwidth())
-        .attr("y", function(item) {
-          return y(series[item.series].wh); })
-          .attr("height", function(item) { return height - y(series[item.series].wh); });
+        if (this.zoomLevel > 1) {
+            // series average w/h rectangle
+            this.bars.append("rect")
+            .attr("class", "series_line")
+            .attr("x", function(item) { return x(item.id); })
+            .attr("width", this.x.bandwidth())
+            .attr("y", function(item) {
+              return y(series[item.series].wh); })
+              .attr("height", function(item) { return height - y(series[item.series].wh); });
+        }
     }
 
 
@@ -299,22 +303,11 @@ class Chart {
 
     // Nuova funzione per prendere il livello di zoom dal radio button selezionato
     // imposto zoomLevel e poi pulisco l'svg attuale prima di ridisegnarlo
-    getZoomLevel(_this) {
-        $('input[name="zoomLevel"]').on('change', function(){
-            if ($(this).val()=='1') {
-                _this.zoomLevel = 1;
-                _this.svgChart.selectAll("*").remove();
-                _this.draw();
-            } else  if($(this).val() == '2') {
-                _this.zoomLevel = 2;
-                _this.svgChart.selectAll("*").remove();
-                _this.draw();
-            } else {
-                _this.zoomLevel = 3;
-                _this.svgChart.selectAll("*").remove();
-                _this.draw();
-            }
-        });
+    getZoomLevel(value,_this) {
+            _this.zoomLevel = Number(value);
+            console.log(_this.zoomLevel)
+            _this.svgChart.selectAll("*").remove();
+            _this.draw();
     }
 
 
