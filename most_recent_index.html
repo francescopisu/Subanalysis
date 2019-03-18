@@ -1,6 +1,7 @@
 <!-- load in D3 and Chart constructor scripts -->
 <script src="chart.js"></script>
 <script src="http://d3js.org/d3.v4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <style>
 
@@ -42,7 +43,7 @@
   position: absolute;
   text-align: center;
   width: 150px;
-  height: 50px;
+  height: 55px;
   padding: 2px;
   font: 12px sans-serif;
   background: lightsteelblue;
@@ -58,23 +59,32 @@
 <div id="container" class="chart-container">
   <svg preserveAspectRatio="xMidYMid meet" id = "svgY"></svg>
   <svg preserveAspectRatio="xMidYMid meet" id = "svgChart"></svg>
-</div></body>
+</div>
+
+<input type="radio" name="zoomLevel" id="series_data" value="1" checked> Series </input>
+<br>
+<input type="radio" name="zoomLevel" id="seasons_data" value="2"> Seasons </input>
+<br>
+<input type="radio" name="zoomLevel" id="episodes_data" value="3"> Episodes </input>
+
+</body>
 
 <script>
 var url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
 var url_sample = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/sample.json"
-d3.json(url_data, function(error, json_data) {
+d3.json("data.json", function(error, json_data) {
     // TUTTO IL CODICE VA QUA DENTRO
     // altrimenti javascript fa cose asincrone e si sminchia tutto,
     // cioè fa operazione senza aver letto i dati
 
     if (error) throw error;
-
+    
     const chart = new Chart({
-    	element: document.querySelector('.chart-container'),
+        element: document.querySelector('.chart-container'),
         data: json_data
     });
 
 })
+
 
 </script>

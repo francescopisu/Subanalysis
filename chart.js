@@ -4,7 +4,10 @@ class Chart {
         this.data = opts.data; //data
         console.log(this.data);
 
-        this.zoomLevel = 3;
+        //this.zoomLevel = 3;
+        // this.getZoomLevel();
+        this.zoomLevel = 1;
+
         // this.bar_width = 3;
 
         this.extractElements();
@@ -25,6 +28,7 @@ class Chart {
 
         var _this = this;
 
+
         this.svgChart = d3.select("#svgChart")
         this.zoom = d3.zoom()
             .scaleExtent([1, 100])
@@ -34,6 +38,8 @@ class Chart {
 
         this.svgChart.call(this.zoom)
 
+
+        this.getZoomLevel(_this);
         // create the other stuff
         this.createScales();
         this.addAxes();
@@ -54,6 +60,11 @@ class Chart {
             .domain(this.getCurrentData().map(item => item.id))
             .padding(0.1);
 
+        // this.x2 = d3.scaleBand()
+        //     .range([0, this.width - this.margin.right])
+        //     .domain(this.series.map(item => this.data[item.series].name))
+        //     .padding(0.1)
+
         this.y = d3.scaleLinear()
             .range([this.height, 0])
             .domain([0, d3.max(this.episodes, function(d) { return d.wh; })]).nice();
@@ -67,7 +78,10 @@ class Chart {
         // var labels = this.getCurrentData().map(item => item.number)
          // console.log(labels)
          // this.xAxis.tickFormat(function(d, i) { return labels[i] })
-         this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
+        this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
+
+        //this.xAxis2 = d3.axisBottom(this.x2).tickSizeOuter(0)
+
 
         this.yAxis = d3.axisLeft(this.y).ticks(10);
 
@@ -113,6 +127,16 @@ class Chart {
             .style("text-anchor", "middle")
             .attr("dy", ".9em");
 
+        // this.svgChart.append("g")
+        //     .attr("class", "x-axis2")
+        //     .attr("transform", "translate(0," + (this.height+40) + ")")
+        //     .call(this.xAxis2)
+        //     .selectAll("text")
+        //     .attr("y", 0)
+        //     .attr("x", 9)
+        //     .attr("dy", ".35em")
+        //     .attr("transform", "rotate(90)")
+        //     .call(g => g.select(".domain").remove())
     }
 
 
@@ -239,15 +263,15 @@ class Chart {
 
     getColor(item, _this){
         var colorArray = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
-    	  '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
-    	  '#80B300', '#809900', '#E6B3B3', '#6680B3', '#66991A',
-    	  '#FF99E6', '#CCFF1A', '#FF1A66', '#E6331A', '#33FFCC',
-    	  '#66994D', '#B366CC', '#4D8000', '#B33300', '#CC80CC',
-    	  '#66664D', '#991AFF', '#E666FF', '#4DB3FF', '#1AB399',
-    	  '#E666B3', '#33991A', '#CC9999', '#B3B31A', '#00E680',
-    	  '#4D8066', '#809980', '#E6FF80', '#1AFF33', '#999933',
-    	  '#FF3380', '#CCCC00', '#66E64D', '#4D80CC', '#9900B3',
-    	  '#E64D66', '#4DB380', '#FF4D4D', '#99E6E6', '#6666FF'];
+          '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
+          '#80B300', '#809900', '#E6B3B3', '#6680B3', '#66991A',
+          '#FF99E6', '#CCFF1A', '#FF1A66', '#E6331A', '#33FFCC',
+          '#66994D', '#B366CC', '#4D8000', '#B33300', '#CC80CC',
+          '#66664D', '#991AFF', '#E666FF', '#4DB3FF', '#1AB399',
+          '#E666B3', '#33991A', '#CC9999', '#B3B31A', '#00E680',
+          '#4D8066', '#809980', '#E6FF80', '#1AFF33', '#999933',
+          '#FF3380', '#CCCC00', '#66E64D', '#4D80CC', '#9900B3',
+          '#E64D66', '#4DB380', '#FF4D4D', '#99E6E6', '#6666FF'];
 
         return colorArray[item.series];
     }
@@ -271,6 +295,26 @@ class Chart {
         _this.div.transition()
           .duration(50)
           .style("opacity", 0);
+    }
+
+    // Nuova funzione per prendere il livello di zoom dal radio button selezionato
+    // imposto zoomLevel e poi pulisco l'svg attuale prima di ridisegnarlo
+    getZoomLevel(_this) {
+        $('input[name="zoomLevel"]').on('change', function(){
+            if ($(this).val()=='1') {
+                _this.zoomLevel = 1;
+                _this.svgChart.selectAll("*").remove();
+                _this.draw();
+            } else  if($(this).val() == '2') {
+                _this.zoomLevel = 2;
+                _this.svgChart.selectAll("*").remove();
+                _this.draw();
+            } else {
+                _this.zoomLevel = 3;
+                _this.svgChart.selectAll("*").remove();
+                _this.draw();
+            }
+        });
     }
 
 
