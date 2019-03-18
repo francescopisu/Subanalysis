@@ -28,8 +28,8 @@ class Chart {
         this.svgChart = d3.select("#svgChart")
         this.zoom = d3.zoom()
             .scaleExtent([1, 100])
-            // .translateExtent(this.extent)
-            // .extent(this.extent)
+            .translateExtent(this.extent)
+            .extent(this.extent)
             .on("zoom", function() { _this.zoomed(_this); });
 
         this.svgChart.call(this.zoom)
@@ -49,7 +49,8 @@ class Chart {
         //     .range([0, this.chartWidth]);
 
         this.x = d3.scaleBand()
-            .range([this.margin.left, this.width-this.margin.right])
+            // .range([this.margin.left, this.width-this.margin.right])
+            .range([0, this.width - this.margin.right])
             .domain(this.getCurrentData().map(item => item.id))
             .padding(0.1);
 
@@ -96,7 +97,8 @@ class Chart {
 
         this.svgChart = d3.select("#svgChart")
            .style("overflow-x","scroll")
-           .attr("width", this.width + this.margin.left + this.margin.right)
+           // .attr("width", this.width + this.margin.left + this.margin.right)
+           .attr("width", this.width)
            .attr("height", this.height + this.margin.top + this.margin.bottom)
            // .call(this.zoom)
            .append("g")
@@ -135,6 +137,7 @@ class Chart {
         // w/h bars
         this.bars.append("rect")
           .attr("class", "bar")
+          .attr("class", function(item) { return "s"+item.series.toString(); })
           .attr("x", function(item) { return x(item.id); })
           .attr("width", this.x.bandwidth())
           // cristi
@@ -164,7 +167,6 @@ class Chart {
         .attr("y", function(item) {
           return y(series[item.series].wh); })
           .attr("height", function(item) { return height - y(series[item.series].wh); });
-
     }
 
 
@@ -271,19 +273,21 @@ class Chart {
           .style("opacity", 0);
     }
 
+
     zoomed(_this) {
         // console.log("zoomed");
-        if (d3.event.transform.k > 40){
+        if (d3.event.transform.k > 13){
             // show labels and ticks
             var labels = this.getCurrentData().map(item => item.number)
-            this.xAxis.tickFormat(function(d, i) { return labels[i] })
+            this.xAxis.tickFormat(function(d, i) { return labels[i] }).tickSize(5);
 
         }
         else {
             // hide labels and ticks
             this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
         }
-        _this.x.range([_this.margin.left, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
+        // _this.x.range([_this.margin.left, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
+        _this.x.range([0, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
         _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id))
                  .attr("width", _this.x.bandwidth());
         _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
