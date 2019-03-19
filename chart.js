@@ -134,16 +134,6 @@ class Chart {
             .style("text-anchor", "middle")
             .attr("dy", ".9em");
 
-        // this.svgChart.append("g")
-        //     .attr("class", "x-axis2")
-        //     .attr("transform", "translate(0," + (this.height+40) + ")")
-        //     .call(this.xAxis2)
-        //     .selectAll("text")
-        //     .attr("y", 0)
-        //     .attr("x", 9)
-        //     .attr("dy", ".35em")
-        //     .attr("transform", "rotate(90)")
-        //     .call(g => g.select(".domain").remove())
     }
 
 
@@ -167,19 +157,30 @@ class Chart {
 
         // w/h bars
         this.bars.append("rect")
-          .attr("class", "bar")
-          .attr("class", function(item) { return "s"+item.series.toString(); })
-          .attr("x", function(item) { return x(item.id); })
-          .attr("width", this.x.bandwidth())
-          // cristi
-          // .attr("y", function(item) { return y(Math.max(item.wh, series[item.series].wh)); })
-          // .attr("height", function(item) { return height - y(Math.abs(series[item.series].wh-item.wh)); })
-          // normale
-          .attr("y", function(item) { return y(item.wh); })
-          .attr("height", function(item) { return height - y(item.wh); })
-          .attr("fill", function(item) { return _this.getColor(item, _this);})
-          .on("mouseover", function(item) { _this.showTooltip(item, _this); })
-          .on("mouseout",  function(item) { _this.hideTooltip(item, _this); });
+            .attr("class", "bar")
+            // .attr("class", function(item) { return "s"+item.series.toString(); })
+            .attr("x", function(item) { return x(item.id); })
+            .attr("width", this.x.bandwidth())
+            // cristi
+            // .attr("y", function(item) { return y(Math.max(item.wh, series[item.series].wh)); })
+            // .attr("height", function(item) { return height - y(Math.abs(series[item.series].wh-item.wh)); })
+            // normale
+            .attr("y", function(item) { return y(item.wh); })
+            .attr("height", function(item) { return height - y(item.wh); })
+            .attr("fill", function(item) { return _this.getColor(item, _this);})
+            .on("mouseover", function(item) { _this.showTooltip(item, _this); })
+            .on("mouseout",  function(item) { _this.hideTooltip(item, _this); });
+
+        // series labels
+        this.bars.append("text")
+            .attr("class", "series_labels")
+            .text((item) => {
+                return item.is_central ? _this.data[item.series].name : "";
+                })
+            .attr('transform', (d,i)=>{
+                return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
+            .attr('x', 0)
+            .attr('y', 0)
 
         if (this.zoomLevel == 3) {
             // season average w/h line
@@ -188,9 +189,9 @@ class Chart {
             .attr("x", function(item) { return x(item.id); })
             .attr("width", this.x.bandwidth()/2)
             .attr("y", function(item) {
-              return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
-              .attr("height", function(item) { return 1; });
-          }
+                  return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
+            .attr("height", function(item) { return 1; });
+        }
 
         if (this.zoomLevel > 1) {
             // series average w/h rectangle
@@ -199,8 +200,8 @@ class Chart {
             .attr("x", function(item) { return x(item.id); })
             .attr("width", this.x.bandwidth())
             .attr("y", function(item) {
-              return y(series[item.series].wh); })
-              .attr("height", function(item) { return height - y(series[item.series].wh); });
+                  return y(series[item.series].wh); })
+            .attr("height", function(item) { return height - y(series[item.series].wh); });
         }
     }
 
@@ -215,7 +216,8 @@ class Chart {
                 name: single_series.name,
                 number: +single_series.id_,
                 wh: +single_series.avg_wh,
-                series: +single_series.id_
+                series: +single_series.id_,
+                is_central: true
             })
         });
         this.series = series;
@@ -223,13 +225,16 @@ class Chart {
         i = 0;
         var seasons = [];
         this.data.forEach(series => {
+            var season_counter = 1;
             series.seasons.forEach(season => {
                   seasons.push({
                     id: i++,
                     number: +season.id_,
                     wh: +season.avg_wh,
-                    series: +series.id_
+                    series: +series.id_,
+                    is_central: season_counter == Math.round(series.seasons.length/2)
                   })
+                  season_counter++;
             });
         });
         this.seasons = seasons;
@@ -237,15 +242,23 @@ class Chart {
         i = 0;
         var episodes = [];
         this.data.forEach(series => {
+            var episode_counter = 1;
             series.seasons.forEach(season => {
+                // episodes count
+                var n_episodes = series.seasons
+                    .map(season => season.episodes.length)
+                    .reduce((a,b)=>a+b);
+
                 season.episodes.forEach(episode => {
                     episodes.push({
                         id: i++,
                         number: +episode.id_,
                         wh: +episode.wh,
                         season: +season.id_,
-                        series: +series.id_
+                        series: +series.id_,
+                        is_central: episode_counter == Math.round(n_episodes/2)
                     })
+                    episode_counter++;
                 });
             });
         });
@@ -352,67 +365,75 @@ class Chart {
             this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
         }
 
+        // move the bars
         _this.x.range([0, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)));
         _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id))
                  .attr("width", _this.x.bandwidth());
         _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
+
+        // move the series labels
+        _this.svgChart.selectAll(".series_labels")
+        .attr('transform', (d,i)=>{
+            return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
+        .attr('x', 0)
+        .attr('y', 0)
     }
 
-    zoomed_old(_this) {
-        // console.log("zoomed");
-        if(_this.zoomHappened == false) { //zoom non ancora eseguito
-            //if(d3.event.transform) { _this.notZooming = false; _this.zoomFirstTime = true; }
-            console.log("sto cambiando dati ma non ho ancora zoomato")
-            // non fare nulla, non è statp generato ancora nessun evento
-        } else if(_this.dataChangedAfterZoomHappened) { //dati cambiati dopo aver zoomato
-            console.log("sto zoomando dopo aver cambiato dati")
-            if (_this.lastTransform.k > 13){
-                // show labels and ticks
-                var labels = this.getCurrentData().map(item => item.number)
-                this.xAxis.tickFormat(function(d, i) { return labels[i] }).tickSize(5);
-            }
-            else {
-                // hide labels and ticks
-                this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
-            }
-
-            console.log(_this.lastTransform)
-            // _this.x.range([_this.margin.left, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
-            _this.x.range([0, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)));
-            _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id)+100)
-                     .attr("width", _this.x.bandwidth());
-            _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
-
-            _this.dataChangedAfterZoomHappened = false;
-
-            //_this.lastTransform = d3.event.transform;
-        } else if(_this.zoomHappened){ //zoom eseguito
-            console.log("sto zoomando per la prima volta")
-
-            if (d3.event.transform.k > 13){
-                // show labels and ticks
-                var labels = this.getCurrentData().map(item => item.number)
-                this.xAxis.tickFormat(function(d, i) { return labels[i] }).tickSize(5);
-            }
-            else {
-                // hide labels and ticks
-                this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
-            }
-
-            // _this.x.range([_this.margin.left, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
-            _this.x.range([0, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
-            _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id))
-                     .attr("width", _this.x.bandwidth());
-            _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
-
-            // salvo l'ultima trasformazione
-            _this.lastTransform = d3.event.transform;
-
-            // reimposto il flag
-            //_this.zoomHappened = true;
-        }
-
-    }
+    // zoomed_old(_this) {
+    //     // console.log("zoomed");
+    //     if(_this.zoomHappened == false) { //zoom non ancora eseguito
+    //         //if(d3.event.transform) { _this.notZooming = false; _this.zoomFirstTime = true; }
+    //         console.log("sto cambiando dati ma non ho ancora zoomato")
+    //         // non fare nulla, non è statp generato ancora nessun evento
+    //     } else if(_this.dataChangedAfterZoomHappened) { //dati cambiati dopo aver zoomato
+    //         console.log("sto zoomando dopo aver cambiato dati")
+    //         if (_this.lastTransform.k > 13){
+    //             // show labels and ticks
+    //             var labels = this.getCurrentData().map(item => item.number)
+    //             this.xAxis.tickFormat(function(d, i) { return labels[i] }).tickSize(5);
+    //         }
+    //         else {
+    //             // hide labels and ticks
+    //             this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
+    //         }
+    //
+    //         console.log(_this.lastTransform)
+    //         // _this.x.range([_this.margin.left, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
+    //         _this.x.range([0, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)));
+    //         _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id)+100)
+    //                  .attr("width", _this.x.bandwidth());
+    //         _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
+    //
+    //         _this.dataChangedAfterZoomHappened = false;
+    //
+    //         //_this.lastTransform = d3.event.transform;
+    //     } else if(_this.zoomHappened){ //zoom eseguito
+    //         console.log("sto zoomando per la prima volta")
+    //
+    //         if (d3.event.transform.k > 13){
+    //             // show labels and ticks
+    //             var labels = this.getCurrentData().map(item => item.number)
+    //             this.xAxis.tickFormat(function(d, i) { return labels[i] }).tickSize(5);
+    //         }
+    //         else {
+    //             // hide labels and ticks
+    //             this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
+    //         }
+    //
+    //         // _this.x.range([_this.margin.left, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
+    //         _this.x.range([0, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
+    //         _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id))
+    //                  .attr("width", _this.x.bandwidth());
+    //         _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
+    //
+    //         // salvo l'ultima trasformazione
+    //         _this.lastTransform = d3.event.transform;
+    //
+    //         // reimposto il flag
+    //         //_this.zoomHappened = true;
+    //     }
+    //
+    // }
 
 
 
