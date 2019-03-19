@@ -8,6 +8,9 @@ class Chart {
         // this.getZoomLevel();
         this.zoomLevel = 1;
 
+        this.zoomHappened = false;
+        this.dataChangedAfterZoomHappened = false;
+
         // this.bar_width = 3;
 
         this.extractElements();
@@ -34,7 +37,10 @@ class Chart {
             .scaleExtent([1, 100])
             .translateExtent(this.extent)
             .extent(this.extent)
-            .on("zoom", function() { _this.zoomed(_this); });
+            .on("zoom", function() {
+                _this.zoomHappened = true; 
+                _this.zoomed(_this); 
+            });
 
         this.svgChart.call(this.zoom)
 
@@ -303,31 +309,78 @@ class Chart {
 
     // Nuova funzione per prendere il livello di zoom dal radio button selezionato
     // imposto zoomLevel e poi pulisco l'svg attuale prima di ridisegnarlo
-    getZoomLevel(value,_this) {
+    changeData(value,_this) {
             _this.zoomLevel = Number(value);
-            console.log(_this.zoomLevel)
             _this.svgChart.selectAll("*").remove();
+            _this.svgY.selectAll("*").remove();
             _this.draw();
+
+            // cambio dati dopo aver zoomato per la prima volta
+            if(_this.zoomHappened) {
+                _this.dataChangedAfterZoomHappened = true;
+                console.log("dati cambiati dopo aver zoomato per la prima volta")
+            } 
+            _this.zoomed(_this);
+
     }
 
 
     zoomed(_this) {
         // console.log("zoomed");
-        if (d3.event.transform.k > 13){
-            // show labels and ticks
-            var labels = this.getCurrentData().map(item => item.number)
-            this.xAxis.tickFormat(function(d, i) { return labels[i] }).tickSize(5);
+        if(_this.zoomHappened == false) { //zoom non ancora eseguito
+            //if(d3.event.transform) { _this.notZooming = false; _this.zoomFirstTime = true; }
+            console.log("sto cambiando dati ma non ho ancora zoomato")
+            // non fare nulla, non è statp generato ancora nessun evento
+        } else if(_this.dataChangedAfterZoomHappened) { //dati cambiati dopo aver zoomato
+            console.log("sto zoomando dopo aver cambiato dati")
+            if (_this.lastTransform.k > 13){
+                // show labels and ticks
+                var labels = this.getCurrentData().map(item => item.number)
+                this.xAxis.tickFormat(function(d, i) { return labels[i] }).tickSize(5);
+            }
+            else {
+                // hide labels and ticks
+                this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
+            }
 
-        }
-        else {
-            // hide labels and ticks
-            this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
-        }
-        // _this.x.range([_this.margin.left, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
-        _this.x.range([0, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
-        _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id))
-                 .attr("width", _this.x.bandwidth());
-        _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
+            console.log(_this.lastTransform)
+            // _this.x.range([_this.margin.left, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
+            _this.x.range([0, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)));
+            _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id)+100)
+                     .attr("width", _this.x.bandwidth());
+            _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
+
+            _this.dataChangedAfterZoomHappened = false;
+
+            //_this.lastTransform = d3.event.transform;
+        } else if(_this.zoomHappened){ //zoom eseguito
+            console.log("sto zoomando per la prima volta")
+            
+            if (d3.event.transform.k > 13){
+                // show labels and ticks
+                var labels = this.getCurrentData().map(item => item.number)
+                this.xAxis.tickFormat(function(d, i) { return labels[i] }).tickSize(5);
+            }
+            else {
+                // hide labels and ticks
+                this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
+            }
+
+            // _this.x.range([_this.margin.left, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
+            _this.x.range([0, _this.width - _this.margin.right].map(d => d3.event.transform.applyX(d)));
+            _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id))
+                     .attr("width", _this.x.bandwidth());
+            _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
+
+            // salvo l'ultima trasformazione
+            _this.lastTransform = d3.event.transform;
+
+            // reimposto il flag
+            //_this.zoomHappened = true;
+        } 
+
     }
+
+
 
 }
