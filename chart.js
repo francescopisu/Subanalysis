@@ -10,6 +10,7 @@ class Chart {
 
         this.zoomHappened = false;
         this.dataChangedAfterZoomHappened = false;
+        this.lastTransform = null;
 
         // this.bar_width = 3;
 
@@ -38,8 +39,8 @@ class Chart {
             .translateExtent(this.extent)
             .extent(this.extent)
             .on("zoom", function() {
-                _this.zoomHappened = true; 
-                _this.zoomed(_this); 
+                _this.zoomHappened = true;
+                _this.zoomed(_this);
             });
 
         this.svgChart.call(this.zoom)
@@ -316,16 +317,37 @@ class Chart {
             _this.draw();
 
             // cambio dati dopo aver zoomato per la prima volta
-            if(_this.zoomHappened) {
-                _this.dataChangedAfterZoomHappened = true;
-                console.log("dati cambiati dopo aver zoomato per la prima volta")
-            } 
-            _this.zoomed(_this);
+            // if(_this.zoomHappened) {
+            //     _this.dataChangedAfterZoomHappened = true;
+            //     console.log("dati cambiati dopo aver zoomato per la prima volta")
+            // }
+            // _this.zoomed(_this);
+
+            if (_this.lastTransform != null) _this.zoomed(_this);
 
     }
 
 
-    zoomed(_this) {
+    zoomed(_this){
+        if (d3.event) _this.lastTransform = d3.event.transform;
+
+        if (_this.lastTransform.k > 13){
+            // show labels and ticks
+            var labels = this.getCurrentData().map(item => item.number)
+            this.xAxis.tickFormat(function(d, i) { return labels[i] }).tickSize(5);
+        }
+        else {
+            // hide labels and ticks
+            this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
+        }
+
+        _this.x.range([0, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)));
+        _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id))
+                 .attr("width", _this.x.bandwidth());
+        _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
+    }
+
+    zoomed_old(_this) {
         // console.log("zoomed");
         if(_this.zoomHappened == false) { //zoom non ancora eseguito
             //if(d3.event.transform) { _this.notZooming = false; _this.zoomFirstTime = true; }
@@ -355,7 +377,7 @@ class Chart {
             //_this.lastTransform = d3.event.transform;
         } else if(_this.zoomHappened){ //zoom eseguito
             console.log("sto zoomando per la prima volta")
-            
+
             if (d3.event.transform.k > 13){
                 // show labels and ticks
                 var labels = this.getCurrentData().map(item => item.number)
@@ -377,7 +399,7 @@ class Chart {
 
             // reimposto il flag
             //_this.zoomHappened = true;
-        } 
+        }
 
     }
 
