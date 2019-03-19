@@ -212,6 +212,7 @@ class Chart {
         this.data.forEach(single_series => {
             series.push({
                 id: i++,
+                name: single_series.name,
                 number: +single_series.id_,
                 wh: +single_series.avg_wh,
                 series: +single_series.id_
@@ -288,9 +289,19 @@ class Chart {
     }
 
     getTooltipText(item, _this){
-        return  _this.data[item.series].name + "<br/>"
-                + "S" + item.season + "E" + item.number + "<br/>"
+        if (_this.zoomLevel == 1)
+            return item.name + "<br/>"
                 + "w/h: " + item.wh;
+
+        else if (_this.zoomLevel == 2)
+            return  _this.data[item.series].name + "<br/>"
+                + "S" + item.number + "<br/>"
+                + "w/h: " + item.wh;
+
+        else if (_this.zoomLevel == 3)
+            return  _this.data[item.series].name + "<br/>"
+                    + "S" + item.season + " E" + item.number + "<br/>"
+                    + "w/h: " + item.wh;
     }
 
     showTooltip(item, _this){
