@@ -95,11 +95,9 @@ class Chart {
 
         // add the Y axis to the SVG element
         this.svgY = d3.select("#svgY")
-            .attr("width", this.margin.left)
+            .attr("width", this.margin.left+1)
             .attr("height", this.height + this.margin.top + this.margin.bottom)
             .style("position","fixed")
-            // .style("top","15%")
-            // .style("left", "15%")
             .style("overflow-y","scroll")
             .style("background-color","white")
             .append("g")
@@ -123,14 +121,14 @@ class Chart {
         this.svgY.append("g")
             .attr("class", "y-axis")
             .call(this.yAxis)
-            .append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("y", 5)
-            .attr("dy", ".71em")
-            .style("text-anchor", "end")
-            .style("overflow-y","scroll")
-            .style("background-color","white")
-            .text("Words/hour");
+            
+        this.svgY.append("text")
+          .attr("transform", "rotate(-90)")
+          .attr("y", 0 - this.margin.left - 20)
+          .attr("x",0 - (this.height / 2))
+          .attr("dy", "1em")
+          .style("text-anchor", "middle")
+          .text("Words per hour");      
             
 
 
@@ -233,7 +231,7 @@ class Chart {
                 name: single_series.name,
                 number: +single_series.id_,
                 wh: +single_series.avg_wh,
-                logo_url: single_series.logo_url,
+                logo_url: "logos/original/"+single_series.id_+".png",
                 series: +single_series.id_,
                 is_central: true
             })
@@ -321,8 +319,7 @@ class Chart {
 
     getTooltipText(item, _this){
         if (_this.zoomLevel == 1)
-            return item.name + "<br/>"
-                + "w/h: " + (Math.round(item.wh * 100) / 100);
+            return "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
 
         else if (_this.zoomLevel == 2)
             return  _this.data[item.series].name + "<br/>"
