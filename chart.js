@@ -214,6 +214,7 @@ class Chart {
         }
     }
 
+    // Per qualche motivo va fatto dopo draw()
     adjustDimensions() {
         d3.select("#svgChart").attr("height", 650)
                               .attr("width", this.width + 90);
@@ -247,6 +248,7 @@ class Chart {
                     id: i++,
                     number: +season.id_,
                     wh: +season.avg_wh,
+                    logo_url: "logos/original/"+series.id_+".png",
                     series: +series.id_,
                     is_central: season_counter == Math.round(series.seasons.length/2)
                   })
@@ -270,6 +272,7 @@ class Chart {
                         id: i++,
                         number: +episode.id_,
                         wh: +episode.wh,
+                        logo_url: "logos/original/"+series.id_+".png",
                         season: +season.id_,
                         series: +series.id_,
                         is_central: episode_counter == Math.round(n_episodes/2)
@@ -322,14 +325,12 @@ class Chart {
             return "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
 
         else if (_this.zoomLevel == 2)
-            return  _this.data[item.series].name + "<br/>"
-                + "S" + item.number + "<br/>"
-                + "w/h: " + (Math.round(item.wh * 100) / 100);
+            return "Season " + item.number + "<br/>"
+                + "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
 
         else if (_this.zoomLevel == 3)
-            return  _this.data[item.series].name + "<br/>"
-                    + "S" + item.season + " E" + item.number + "<br/>"
-                    + "w/h: " + (Math.round(item.wh * 100) / 100);
+            return "Season " + item.season + ", Episode " + item.number + "<br/>"
+                    + "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
     }
 
     showTooltip(item, _this){

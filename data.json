@@ -4,7 +4,6 @@
     "id_": "0",
     "avg_wh": 2268.046612903226,
     "name": "Samurai Jack",
-    "logo_url": "logos/samurai_jack.png",
     "seasons": [
       {
         "avg_wh": 2609.059230769231,
@@ -8267,7 +8266,6 @@
     "id_": "42",
     "avg_wh": 8287.225977653632,
     "name": "Seinfeld",
-    "logo_url": "logos/seinfeld.png",
     "seasons": [
       {
         "avg_wh": 8661.818,
