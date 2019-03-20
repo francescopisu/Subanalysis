@@ -22,10 +22,10 @@ class Chart {
 
     draw() {
         this.margin = {top: 20, right: 40, bottom: 70, left: 40};
-        this.width = window.innerWidth*0.9 - this.margin.left - this.margin.right;
+        this.width = window.innerWidth*0.9 - this.margin.left - this.margin.right ; //1020
         // this.width = this.bar_width*this.getNumberOfElements()
         //     - this.margin.left - this.margin.right + 150;
-        this.height = 500 - this.margin.top - this.margin.bottom;
+        this.height = 500 - this.margin.top - this.margin.bottom; //780
         this.extent = [[0,0], [this.width, this.height]]
 
         // this.chartWidth = this.bar_width*this.getNumberOfElements();
@@ -51,6 +51,7 @@ class Chart {
         this.createScales();
         this.addAxes();
         this.addBars();
+        this.adjustDimensions();
 
     }
 
@@ -97,8 +98,8 @@ class Chart {
             .attr("width", this.margin.left)
             .attr("height", this.height + this.margin.top + this.margin.bottom)
             .style("position","fixed")
-            .style("left","0")
-            .style("top","auto")
+            // .style("top","15%")
+            // .style("left", "15%")
             .style("overflow-y","scroll")
             .style("background-color","white")
             .append("g")
@@ -106,25 +107,32 @@ class Chart {
                 "translate(" + this.margin.left + "," + this.margin.top + ")")
 
 
-        this.svgY.append("g")
-            .attr("class", "y axis")
-            .call(this.yAxis)
-            .append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("y", 5)
-            .attr("dy", ".71em")
-            .style("text-anchor", "end")
-            .text("Words/hour");
-
         this.svgChart = d3.select("#svgChart")
            .style("overflow-x","scroll")
            // .attr("width", this.width + this.margin.left + this.margin.right)
            .attr("width", this.width)
            .attr("height", this.height + this.margin.top + this.margin.bottom)
            // .call(this.zoom)
+           // .style("position","fixed")
+           // .style("top","15%")
+           // .style("left", "15%")
            .append("g")
            .attr("transform",
                 "translate(" + this.margin.left + "," + this.margin.top + ")")
+
+        this.svgY.append("g")
+            .attr("class", "y-axis")
+            .call(this.yAxis)
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 5)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .style("overflow-y","scroll")
+            .style("background-color","white")
+            .text("Words/hour");
+            
+
 
         this.svgChart.append("g")
             .attr("class", "x-axis")
@@ -146,9 +154,12 @@ class Chart {
         var seasons = this.seasons;
 
         // tooltip
-        this.div = d3.select("body").append("div")
-            .attr("class", "tooltip")
-            .style("opacity", 0);
+        // this.div = d3.select("body").append("div")
+        //     .attr("class", "tooltip")
+        //     .style("opacity", 0);
+
+        this.tooltip = d3.select("#tooltip-span")
+            .style("opacity", 0)
 
         // Add bar chart
         this.bars = this.svgChart.selectAll("bar")
@@ -205,6 +216,12 @@ class Chart {
         }
     }
 
+    adjustDimensions() {
+        d3.select("#svgChart").attr("height", 650)
+                              .attr("width", this.width + 90);
+
+        d3.select("#svgY").attr("height", 650);
+    }
 
     extractElements(){
         var i = 0;
@@ -216,6 +233,7 @@ class Chart {
                 name: single_series.name,
                 number: +single_series.id_,
                 wh: +single_series.avg_wh,
+                logo_url: single_series.logo_url,
                 series: +single_series.id_,
                 is_central: true
             })
@@ -304,30 +322,36 @@ class Chart {
     getTooltipText(item, _this){
         if (_this.zoomLevel == 1)
             return item.name + "<br/>"
-                + "w/h: " + item.wh;
+                + "w/h: " + (Math.round(item.wh * 100) / 100);
 
         else if (_this.zoomLevel == 2)
             return  _this.data[item.series].name + "<br/>"
                 + "S" + item.number + "<br/>"
-                + "w/h: " + item.wh;
+                + "w/h: " + (Math.round(item.wh * 100) / 100);
 
         else if (_this.zoomLevel == 3)
             return  _this.data[item.series].name + "<br/>"
                     + "S" + item.season + " E" + item.number + "<br/>"
-                    + "w/h: " + item.wh;
+                    + "w/h: " + (Math.round(item.wh * 100) / 100);
     }
 
     showTooltip(item, _this){
-        _this.div.transition()
+        console.log(item.logo_url)
+        _this.tooltip.transition()
           .duration(50)
-          .style("opacity", .9);
-        _this.div.html(_this.getTooltipText(item, _this))
-          .style("left", (d3.event.pageX) + "px")
-          .style("top", (d3.event.pageY - 28) + "px");
+          .style("opacity", 0.9);
+
+        console.log(item)
+        $(".series-logo").attr("src", item.logo_url)
+        $(".tooltip-text").html(_this.getTooltipText(item, _this))
+
+        _this.tooltip 
+          .style("left", (d3.event.pageX  + 80) + "px")
+          .style("top", (d3.event.pageY - 35) + "px");
     }
 
     hideTooltip(item, _this){
-        _this.div.transition()
+        _this.tooltip.transition()
           .duration(50)
           .style("opacity", 0);
     }
@@ -353,6 +377,7 @@ class Chart {
 
 
     zoomed(_this){
+        console.log("dio")
         if (d3.event) _this.lastTransform = d3.event.transform;
 
         if (_this.lastTransform.k > 13){

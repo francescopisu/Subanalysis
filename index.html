@@ -153,22 +153,6 @@
 }
 
 
-/* Arrow */
-
-.tooltip-content::after {
-  content: '';
-  top: 100%;
-  left: 50%;
-  border: solid transparent;
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: transparent;
-  border-top-color: #fff;
-  border-width: 10px;
-  margin-left: -10px;
-}
 
 /* Tooltip content*/
 
@@ -253,6 +237,7 @@
 var url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
 var url_sample = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/sample.json"
 
+// non c'è l'url perché sto modificando in locale il json per inserire i path dei loghi
 d3.json("data.json", function(error, json_data) {
     // TUTTO IL CODICE VA QUA DENTRO
     // altrimenti javascript fa cose asincrone e si sminchia tutto,
