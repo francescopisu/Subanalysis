@@ -185,10 +185,10 @@ class Chart {
             .attr("y", function(item) { return y(item.wh); })
             .attr("height", function(item) { return height - y(item.wh); });
 
-        d3.selectAll(".bar")    
+        d3.selectAll(".bar")
         .on("mouseover", function(item) { _this.showTooltip(item, _this); })
         .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
-    
+
 
         // // series labels w/ transitions
         // this.bars.append("text")
@@ -231,7 +231,7 @@ class Chart {
         }
 
         if (this.zoomLevel > 1) {
-           
+
             // series average w/h rectangle
             this.bars.append("rect")
             .attr("class", "series_line")
@@ -246,8 +246,8 @@ class Chart {
                   return y(series[item.series].wh); })
             .attr("height", function(item) {
                     return height - y(series[item.series].wh);
-                    });  
-                   
+                    });
+
             // vecchio codice
             // this.bars.append("rect")
             // .attr("class", "series_line")
@@ -263,7 +263,7 @@ class Chart {
                   // return y(series[item.series].wh); })
             // .attr("height", function(item) {
                     // return height - y(series[item.series].wh);
-                    // });  
+                    // });
         }
     }
 
@@ -277,7 +277,7 @@ class Chart {
 
     getDelayValue() {
         switch(this.zoomLevel) {
-            case 1: 
+            case 1:
                 return  9;
                 break;
             case 2:
@@ -385,17 +385,23 @@ class Chart {
           '#FF3380', '#CCCC00', '#66E64D', '#4D80CC', '#9900B3',
           '#E64D66', '#4DB380', '#FF4D4D', '#99E6E6', '#6666FF'];
 
-        var genre = _this.series[item.series].genre.split(" ")[1]; // c'è uno spazio all'inizio
+        var genre = _this.series[item.series].genre.split(" ")[0]; // c'è uno spazio all'inizio
         // console.log(genre)
 
         if (genre == "Action") return '#7570b3'; // viola
         if (genre == "Adventure") return '#1b7837'; // verde
         if (genre == "Animation") return '#a6cee3'; // celestino
+        if (genre == "Biography") return '#FFE4B5'; // giallino
         if (genre == "Comedy") return '#1f78b4'; // blu
         if (genre == "Crime") return '#000000'; // nero
         if (genre == "Documentary") return '#7fbf7b'; // verdino
         if (genre == "Drama") return '#d95f02'; // arancione
-        if (genre == "Fantasy") return '#f0027f'; // rosa
+        if (genre == "Fantasy") return '#d95f02'; // arancione
+        if (genre == "History") return '#8B0000'; // rosso scuro
+        if (genre == "Mistery") return '#A9A9A9'; // grigio
+        if (genre == "Romance") return '#f0027f'; // rosa
+        if (genre == "Sci-Fi") return '#191970'; // blu scuro
+        if (genre == "War") return '#8B4513'; // marron
 
 
         return "#ffffff"
