@@ -2,7 +2,6 @@
 <script src="chart.js"></script>
 <script src="http://d3js.org/d3.v4.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 <style>
 
   @import url(http://fonts.googleapis.com/css?family=Raleway:200,300,400,700);
@@ -262,7 +261,9 @@ d3.json(url_data, function(error, json_data) {
     });
 
     $('input[name="zoomLevel"]').on('change', function (e) {
-            chart.changeData(e.target.value, chart) })
+            // set the chosen zoomLevel via radio buttons
+            chart.zoomLevel = Number(e.target.value);
+            chart.changeData(chart) })
 })
 
 

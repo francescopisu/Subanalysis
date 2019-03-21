@@ -167,24 +167,44 @@ class Chart {
         this.tooltip = d3.select("#tooltip-span")
             .style("opacity", 0)
 
-        // Add bar chart
-        this.bars = this.svgChart.selectAll("bar")
+        // Selection
+        this.bars = this.svgChart.selectAll(".bar")
                       .data(this.getCurrentData())
                       .enter();
 
-        // w/h bars
         this.bars.append("rect")
             .attr("class", "bar")
-            // .attr("class", function(item) { return "s"+item.series.toString(); })
             .attr("x", function(item) { return x(item.id); })
             .attr("width", this.x.bandwidth())
-            .attr("y", function(item) { return y(item.wh); })
-            .attr("height", function(item) { return height - y(item.wh); })
+            .attr("y", y(0))
+            .attr("height", 0)
             .attr("fill", function(item) { return _this.getColor(item, _this);})
-            .on("mouseover", function(item) { _this.showTooltip(item, _this); })
-            .on("mouseout",  function(item) { _this.hideTooltip(item, _this); });
+            .transition()
+            .duration(500)
+            //.delay(function(d,i){ return i*_this.getDelayValue()})
+            .attr("y", function(item) { return y(item.wh); })
+            .attr("height", function(item) { return height - y(item.wh); });
 
-        // series labels
+        d3.selectAll(".bar")    
+        .on("mouseover", function(item) { _this.showTooltip(item, _this); })
+        .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
+    
+
+        // // series labels w/ transitions
+        // this.bars.append("text")
+        //     .attr("class", "series_labels")
+        //     .attr('transform', (d,i)=>{
+        //         return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
+        //     .transition()
+        //     .duration(500)
+        //     .text((item) => {
+        //         return item.is_central ? _this.data[item.series].name : "";
+        //         })
+        //     .attr('transform', (d,i)=>{
+        //         return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
+        //     .attr('x', 0)
+        //     .attr('y', 0)
+
         this.bars.append("text")
             .attr("class", "series_labels")
             .text((item) => {
@@ -192,8 +212,12 @@ class Chart {
                 })
             .attr('transform', (d,i)=>{
                 return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
+            .transition()
+            .duration(300)
             .attr('x', 0)
             .attr('y', 0)
+
+
 
         if (this.zoomLevel == 3) {
             // season average w/h line
@@ -207,14 +231,39 @@ class Chart {
         }
 
         if (this.zoomLevel > 1) {
+           
             // series average w/h rectangle
             this.bars.append("rect")
             .attr("class", "series_line")
             .attr("x", function(item) { return x(item.id); })
             .attr("width", this.x.bandwidth())
+            .attr("y", y(0))
+            .attr("height", 0)
+            .transition()
+            .duration(500)
+            //.delay(function(d,i){ return i*_this.getDelayValue()})
             .attr("y", function(item) {
                   return y(series[item.series].wh); })
-            .attr("height", function(item) { return height - y(series[item.series].wh); });
+            .attr("height", function(item) {
+                    return height - y(series[item.series].wh);
+                    });  
+                   
+            // vecchio codice
+            // this.bars.append("rect")
+            // .attr("class", "series_line")
+            // .attr("x", function(item) { return x(item.id); })
+            // .attr("y", function(item) {
+                  // return y(series[item.series].wh); })
+            // .attr("height", 0)
+            // .transition()
+            // .duration(550)
+            // .attr("x", function(item) { return x(item.id); })
+            // .attr("width", this.x.bandwidth())
+            // .attr("y", function(item) {
+                  // return y(series[item.series].wh); })
+            // .attr("height", function(item) {
+                    // return height - y(series[item.series].wh);
+                    // });  
         }
     }
 
@@ -224,6 +273,20 @@ class Chart {
                               .attr("width", this.width + 90);
 
         d3.select("#svgY").attr("height", 650);
+    }
+
+    getDelayValue() {
+        switch(this.zoomLevel) {
+            case 1: 
+                return  9;
+                break;
+            case 2:
+                return 5;
+                break;
+            case 3:
+                return 0.4;
+                break;
+        };
     }
 
     extractElements(){
@@ -375,10 +438,7 @@ class Chart {
 
     // Nuova funzione per prendere il livello di zoom dal radio button selezionato
     // imposto zoomLevel e poi pulisco l'svg attuale prima di ridisegnarlo
-    changeData(value,_this) {
-            // get the selection from the radio buttons
-            _this.zoomLevel = Number(value);
-
+    changeData(_this) {
             // remove the old bars
             _this.svgChart.selectAll("*").remove();
             _this.svgY.selectAll("*").remove();
@@ -393,7 +453,6 @@ class Chart {
 
 
     zoomed(_this){
-        console.log("dio")
         if (d3.event) _this.lastTransform = d3.event.transform;
 
         if (_this.zoomLevel == 3 && _this.lastTransform.k > 13 ||
@@ -410,7 +469,8 @@ class Chart {
         // move the bars
         _this.x.range([0, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)));
         _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id))
-                 .attr("width", _this.x.bandwidth());
+                 .attr("width", _this.x.bandwidth())
+
         _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
 
         // move the series labels
