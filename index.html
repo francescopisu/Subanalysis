@@ -176,7 +176,7 @@
 }
 
 .season {
-  width: 530px;
+  width: 350px;
 }
 
 .episode {
@@ -207,6 +207,40 @@
   top: 185px;
   left: 155px;
   font-size: 13px;
+}
+
+.season-avg-wh {
+  padding-top: 10px;
+  position: absolute;
+  top: 185px;
+  left: 155px;
+  font-size: 13px;
+}
+
+.episode-wh {
+  padding-top: 10px;
+  position: absolute;
+  top: 185px;
+  left: 155px;
+  font-size: 13px;
+}
+
+.episode-number {
+  font-size: 14px;
+}
+
+.episode-title {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.episode-info {
+  padding-top: 5px;
+}
+
+.episode-summary {
+  padding-top: 5px;
 }
 
 .tooltip-effect-5 .tooltip-text {
@@ -286,9 +320,10 @@
   <span class="episode tooltip-content clearfix">
     <img class="series-poster" src="" />
     <span class="tooltip-text">
-      <span class="series-name"></span>
-      <span class="series-info"></span>
-      <span class="series-summary"></span>
+      <span class="episode-number"> </span>
+      <span class="episode-title"></span>
+      <div class="episode-info"></div>
+      <div class="episode-summary"></div>
       <span class="episode-wh"></span>
     </span>
   </span>
@@ -309,7 +344,7 @@
 <div class="interaction-menu">
   Series <input type="radio" name="zoomLevel" id="series_data" value="1" checked> </input>
   <br>
-  Seasons <input type="radio" name="zoomLevel" id="seasons_data" value="2"/> </input>
+  Seasons <input type="radio" name="zoomLevel" id="seasons_data" value="2"> </input>
   <br>
   Episodes <input type="radio" name="zoomLevel" id="episodes_data" value="3"> </input>
 </div>
@@ -319,7 +354,7 @@
 var url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
 var url_sample = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/sample.json"
 
-d3.json("data.json", function(error, json_data) {
+d3.json(url_data, function(error, json_data) {
     // TUTTO IL CODICE VA QUA DENTRO
     // altrimenti javascript fa cose asincrone e si sminchia tutto,
     // cioè fa operazione senza aver letto i dati

@@ -340,6 +340,7 @@ class Chart {
                     wh: +season.avg_wh,
                     logo_url: "posters/"+series.id_+".jpg",
                     series: +series.id_,
+                    no_of_episodes: season.episodes.length,
                     is_central: season_counter == Math.round(series.seasons.length/2)
                   })
                   season_counter++;
@@ -365,6 +366,7 @@ class Chart {
                         logo_url: "posters/"+series.id_+".jpg",
                         season: +season.id_,
                         series: +series.id_,
+                        length: episode.length,
                         is_central: episode_counter == Math.round(n_episodes/2)
                     })
                     episode_counter++;
@@ -453,14 +455,21 @@ class Chart {
                 $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.year + ")"  +"</br>")
                 $(".series-info").html(item.episode_length + "min | " + item.genre + " | " + + item.no_of_seasons + " " + str + "</br>")
                 $(".series-summary").html(item.summary + "</br>")
-                $(".series-avg-wh").html("Words per Hour: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
+                $(".series-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
                 break;
 
             case 2: // Season
-
+                $(".season-info").html("Season " + (item.number) + ", Episodes: " + item.no_of_episodes + "</br>")
+                $(".season-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
                 break;
 
             case 3: // Episode
+                var temp_summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+                $(".episode-number").html((item.number) + ". ")
+                $(".episode-title").html("Titolo da prendere" + "</br>")
+                $(".episode-info").html("Season " + item.season + " | " + item.length + "min" + "</br>")
+                $(".episode-summary").html(temp_summary + "</br>")
+                $(".episode-wh").html("Words per Hour: " + "<b>" + item.wh + "</b>" + "</br>")
                 break;
         }
     }
@@ -495,7 +504,6 @@ class Chart {
     }
 
     hideTooltip(item, _this){
-        console.log(_this.tooltip)
         _this.tooltip.transition()
           .duration(50)
           .style("opacity", 0);
