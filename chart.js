@@ -238,6 +238,7 @@ class Chart {
                 wh: +single_series.avg_wh,
                 logo_url: "logos/original/"+single_series.id_+".png",
                 series: +single_series.id_,
+                genre: single_series.genre,
                 is_central: true
             })
         });
@@ -321,7 +322,21 @@ class Chart {
           '#FF3380', '#CCCC00', '#66E64D', '#4D80CC', '#9900B3',
           '#E64D66', '#4DB380', '#FF4D4D', '#99E6E6', '#6666FF'];
 
-        return colorArray[item.series];
+        var genre = _this.series[item.series].genre.split(" ")[1]; // c'è uno spazio all'inizio
+        // console.log(genre)
+
+        if (genre == "Action") return '#7570b3'; // viola
+        if (genre == "Adventure") return '#1b7837'; // verde
+        if (genre == "Animation") return '#a6cee3'; // celestino
+        if (genre == "Comedy") return '#1f78b4'; // blu
+        if (genre == "Crime") return '#000000'; // nero
+        if (genre == "Documentary") return '#7fbf7b'; // verdino
+        if (genre == "Drama") return '#d95f02'; // arancione
+        if (genre == "Fantasy") return '#f0027f'; // rosa
+
+
+        return "#ffffff"
+
     }
 
     getTooltipText(item, _this){
