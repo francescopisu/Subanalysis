@@ -37,7 +37,7 @@ def compute_wh():
                 if not subdir_second_level.startswith('.') and not subdir_second_level.endswith('.csv'):
                     snd_current_dir = current_dir + '/' + subdir_second_level
                     # gather season number
-                    season = subdir_second_level[2]
+                    season = int(subdir_second_level[1:])
 
                     # create a new Season object
                     current_season = Season(int(season), [])
