@@ -164,8 +164,26 @@ class Chart {
         //     .attr("class", "tooltip")
         //     .style("opacity", 0);
 
-        this.tooltip = d3.select("#tooltip-span")
-            .style("opacity", 0)
+
+        // Seleziono il tooltip in base al livello di zoom
+        switch(this.zoomLevel) {
+            case 1: // Series
+                this.series_tooltip = d3.select("#series-tooltip")
+                    .style("opacity", 0);
+                break;
+            case 2: // Season
+                this.season_tooltip = d3.select("#season-tooltip")
+                    .style("opacity", 0);
+                break;
+            case 3: // Episode
+                this.episode_tooltip = d3.select("#episode-tooltip")
+                        .style("opacity", 0);
+                break;
+        }
+
+        // Old tooltip
+        // this.tooltip = d3.select("#tooltip-span")
+        //     .style("opacity", 0)
 
         // Selection
         this.bars = this.svgChart.selectAll(".bar")
@@ -299,9 +317,13 @@ class Chart {
                 name: single_series.name,
                 number: +single_series.id_,
                 wh: +single_series.avg_wh,
-                logo_url: "logos/original/"+single_series.id_+".png",
+                episode_length: +single_series.episode_length,
+                year: single_series.year,
+                logo_url: "posters/"+single_series.id_+".jpg",
                 series: +single_series.id_,
                 genre: single_series.genre,
+                summary: single_series.summary,
+                no_of_seasons: single_series.seasons.length,
                 is_central: true
             })
         });
@@ -316,7 +338,7 @@ class Chart {
                     id: i++,
                     number: +season.id_,
                     wh: +season.avg_wh,
-                    logo_url: "logos/original/"+series.id_+".png",
+                    logo_url: "posters/"+series.id_+".jpg",
                     series: +series.id_,
                     is_central: season_counter == Math.round(series.seasons.length/2)
                   })
@@ -340,7 +362,7 @@ class Chart {
                         id: i++,
                         number: +episode.id_,
                         wh: +episode.wh,
-                        logo_url: "logos/original/"+series.id_+".png",
+                        logo_url: "posters/"+series.id_+".jpg",
                         season: +season.id_,
                         series: +series.id_,
                         is_central: episode_counter == Math.round(n_episodes/2)
@@ -408,35 +430,72 @@ class Chart {
 
     }
 
-    getTooltipText(item, _this){
-        if (_this.zoomLevel == 1)
-            return "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
+    setTooltipText(item, _this){
+        // OLD
+        // if (_this.zoomLevel == 1) //inietto negli span del tooltip le informazioni
+        //     return "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
 
-        else if (_this.zoomLevel == 2)
-            return "Season " + item.number + "<br/>"
-                + "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
+        // else if (_this.zoomLevel == 2)
+        //     return "Season " + item.number + "<br/>"
+        //         + "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
 
-        else if (_this.zoomLevel == 3)
-            return "Season " + item.season + ", Episode " + item.number + "<br/>"
-                    + "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
+        // else if (_this.zoomLevel == 3)
+        //     return "Season " + item.season + ", Episode " + item.number + "<br/>"
+        //             + "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
+
+        // NEW
+        
+        switch(_this.zoomLevel) {
+            case 1: // Series
+                var str = (item.no_of_seasons == 1) ? "season" : "seasons";
+
+                $(".series-number").html((item.id+1) + ". ")
+                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.year + ")"  +"</br>")
+                $(".series-info").html(item.episode_length + "min | " + item.genre + " | " + + item.no_of_seasons + " " + str + "</br>")
+                $(".series-summary").html(item.summary + "</br>")
+                $(".series-avg-wh").html("Words per Hour: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
+                break;
+
+            case 2: // Season
+
+                break;
+
+            case 3: // Episode
+                break;
+        }
     }
 
     showTooltip(item, _this){
-        // console.log(item.logo_url)
-        _this.tooltip.transition()
-          .duration(50)
-          .style("opacity", 0.9);
+        // Nuova funzione 
+        switch(_this.zoomLevel) {
+            case 1: // Series
+                this.tooltip = _this.series_tooltip;
+                break;
 
-        // console.log(item)
-        $(".series-logo").attr("src", item.logo_url)
-        $(".tooltip-text").html(_this.getTooltipText(item, _this))
+            case 2: // Season
+                this.tooltip = _this.season_tooltip;
+                break;
+
+            case 3: // Episode
+                this.tooltip = _this.episode_tooltip;
+                break;
+        }
+
+        _this.tooltip.transition()
+            .duration(50)
+            .style("opacity", 0.9);
+
+        // series tooltip content
+        $(".series-poster").attr("src", item.logo_url)
+        _this.setTooltipText(item, _this);
 
         _this.tooltip
-          .style("left", (d3.event.pageX  + 80) + "px")
-          .style("top", (d3.event.pageY - 35) + "px");
+            .style("left", (d3.event.pageX  - 90) + "px") //x
+            .style("top", (d3.event.pageY - 35) + "px"); //y
     }
 
     hideTooltip(item, _this){
+        console.log(_this.tooltip)
         _this.tooltip.transition()
           .duration(50)
           .style("opacity", 0);

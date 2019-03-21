@@ -3,6 +3,7 @@
     "avg_wh": 2268.046612903226,
     "id_": "0",
     "genre": "Animation Action Adventure Fantasy Sci-Fi Thriller",
+    "summary": "A samurai sent through time fights to return home and save the world.",
     "episode_length": 60,
     "seasons": [
       {
@@ -347,12 +348,13 @@
       }
     ],
     "name": "Samurai Jack",
-    "year": 2001
+    "year": "2001-2017"
   },
   {
     "avg_wh": 3748.9466666666667,
     "id_": "1",
     "genre": "Documentary",
+    "summary": "David Attenborough returns in this breathtaking documentary showcasing life on Planet Earth.",
     "episode_length": 60,
     "seasons": [
       {
@@ -393,12 +395,13 @@
       }
     ],
     "name": "Planet Earth II",
-    "year": 2016
+    "year": "2016"
   },
   {
     "avg_wh": 4595.207,
     "id_": "2",
     "genre": "History Action Drama",
+    "summary": "The story of Easy Company of the U.S. Army 101st Airborne Division, and their mission in World War II Europe, from Operation Overlord, through V-J Day.",
     "episode_length": 60,
     "seasons": [
       {
@@ -459,12 +462,13 @@
       }
     ],
     "name": "Band of Brothers",
-    "year": 2001
+    "year": "2001"
   },
   {
     "avg_wh": 4953.749253731344,
     "id_": "3",
     "genre": "Action Adventure Drama",
+    "summary": "Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years.",
     "episode_length": 57,
     "seasons": [
       {
@@ -846,12 +850,13 @@
       }
     ],
     "name": "Game of Thrones",
-    "year": 2011
+    "year": "2011-"
   },
   {
     "avg_wh": 3595.102727272727,
     "id_": "4",
     "genre": "Documentary",
+    "summary": "Emmy Award-winning, 11 episodes, five years in the making, the most expensive nature documentary series ever commissioned by the BBC, and the first to be filmed in high definition.",
     "episode_length": 49,
     "seasons": [
       {
@@ -917,12 +922,13 @@
       }
     ],
     "name": "Planet Earth",
-    "year": 2006
+    "year": "2006"
   },
   {
     "avg_wh": 4717.136290322581,
     "id_": "5",
     "genre": "Drama Crime Thriller",
+    "summary": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
     "episode_length": 49,
     "seasons": [
       {
@@ -1267,12 +1273,13 @@
       }
     ],
     "name": "Breaking Bad",
-    "year": 2008
+    "year": "2008-2013"
   },
   {
     "avg_wh": 6635.284666666667,
     "id_": "6",
     "genre": "Drama Crime Thriller",
+    "summary": "Baltimore drug scene, seen through the eyes of drug dealers and law enforcement.",
     "episode_length": 59,
     "seasons": [
       {
@@ -1607,12 +1614,13 @@
       }
     ],
     "name": "The Wire",
-    "year": 2002
+    "year": "2002-2008"
   },
   {
     "avg_wh": 6851.775384615384,
     "id_": "7",
     "genre": "Documentary",
+    "summary": "An exploration of our discovery of the laws of nature and coordinates in space and time.",
     "episode_length": 43,
     "seasons": [
       {
@@ -1688,12 +1696,13 @@
       }
     ],
     "name": "Cosmos",
-    "year": 2014
+    "year": "2014-"
   },
   {
     "avg_wh": 10084.438709677419,
     "id_": "8",
     "genre": "Animation Adventure Comedy",
+    "summary": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
     "episode_length": 23,
     "seasons": [
       {
@@ -1871,12 +1880,13 @@
       }
     ],
     "name": "Rick and Morty",
-    "year": 2013
+    "year": "2013-"
   },
   {
     "avg_wh": 6429.289999999999,
     "id_": "9",
     "genre": "Documentary",
+    "summary": "Astronomer Carl Sagan leads us on an engaging guided tour of the various elements and cosmological theories of the universe.",
     "episode_length": 60,
     "seasons": [
       {
@@ -1952,12 +1962,13 @@
       }
     ],
     "name": "Cosmos (1980)",
-    "year": 1980
+    "year": "1980"
   },
   {
     "avg_wh": 3539.097142857143,
     "id_": "10",
     "genre": "Documentary",
+    "summary": "David Attenborough returns to the world's oceans in this sequel to the acclaimed documentary filming rare and unusual creatures of the deep, as well as documenting the problems our oceans face.",
     "episode_length": 60,
     "seasons": [
       {
@@ -2003,12 +2014,13 @@
       }
     ],
     "name": "Blue Planet II",
-    "year": 2017
+    "year": "2017-2018"
   },
   {
     "avg_wh": 6074.760705882352,
     "id_": "11",
     "genre": "Crime Drama",
+    "summary": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling.",
     "episode_length": 55,
     "seasons": [
       {
@@ -2474,12 +2486,13 @@
       }
     ],
     "name": "The Sopranos",
-    "year": 1999
+    "year": "1999-2007"
   },
   {
     "avg_wh": 5990.041153846152,
     "id_": "12",
     "genre": "History Documentary War",
+    "summary": "A groundbreaking 26-part documentary series narrated by the actor Laurence Olivier about the deadliest conflict in history, World War II.",
     "episode_length": 52,
     "seasons": [
       {
@@ -2620,12 +2633,13 @@
       }
     ],
     "name": "The World at War",
-    "year": 1973
+    "year": "1973-1976"
   },
   {
     "avg_wh": 5701.938596491228,
     "id_": "13",
     "genre": "Animation Action Adventure",
+    "summary": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
     "episode_length": 23,
     "seasons": [
       {
@@ -2933,12 +2947,13 @@
       }
     ],
     "name": "Avatar: The Last Airbender",
-    "year": 2003
+    "year": "2003-2008"
   },
   {
     "avg_wh": 4021.7750000000005,
     "id_": "14",
     "genre": "Documentary",
+    "summary": "David Attenborough's legendary BBC crew explains and shows wildlife all over planet earth in 10 episodes, showing the challenges of facing life and hunting.",
     "episode_length": 49,
     "seasons": [
       {
@@ -2999,12 +3014,13 @@
       }
     ],
     "name": "Life",
-    "year": 2009
+    "year": "2009"
   },
   {
     "avg_wh": 6420.921666666666,
     "id_": "15",
     "genre": "Crime Mystery Drama",
+    "summary": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
     "episode_length": 88,
     "seasons": [
       {
@@ -3093,12 +3109,13 @@
       }
     ],
     "name": "Sherlock",
-    "year": 2010
+    "year": "2010-"
   },
   {
     "avg_wh": 4419.22,
     "id_": "16",
     "genre": "Documentary",
+    "summary": "Each episode examines how life differs for men and nature in some type of environment, from Arctic to desert and jungle, from coasts to mountains.",
     "episode_length": 50,
     "seasons": [
       {
@@ -3149,12 +3166,13 @@
       }
     ],
     "name": "Human Planet",
-    "year": 2011
+    "year": "2011"
   },
   {
     "avg_wh": 5932.2308974358975,
     "id_": "17",
     "genre": "Fantasy Horror Mystery",
+    "summary": "Ordinary people find themselves in extraordinarily astounding situations, which they each try to solve in a remarkable manner.",
     "episode_length": 51,
     "seasons": [
       {
@@ -3969,12 +3987,13 @@
       }
     ],
     "name": "The Twilight Zone",
-    "year": 1959
+    "year": "1959-1964"
   },
   {
     "avg_wh": 6593.1954545454555,
     "id_": "18",
     "genre": "War History Documentary",
+    "summary": "A comprehensive history of the United States' involvement in the bitterly divisive armed conflict in Southeast Asia.",
     "episode_length": 99,
     "seasons": [
       {
@@ -4040,12 +4059,13 @@
       }
     ],
     "name": "The Vietnam War",
-    "year": 2017
+    "year": "2017"
   },
   {
     "avg_wh": 2794.1749999999997,
     "id_": "19",
     "genre": "Drama",
+    "summary": "Ten television drama films, each one based on one of the Ten Commandments.",
     "episode_length": 57,
     "seasons": [
       {
@@ -4106,12 +4126,13 @@
       }
     ],
     "name": "Dekalog",
-    "year": 1989
+    "year": "1989-1990"
   },
   {
     "avg_wh": 6976.663333333333,
     "id_": "20",
     "genre": "War Documentary History",
+    "summary": "A comprehensive survey of the American Civil War.",
     "episode_length": 75,
     "seasons": [
       {
@@ -4167,12 +4188,13 @@
       }
     ],
     "name": "The Civil War",
-    "year": 1990
+    "year": "1990"
   },
   {
     "avg_wh": 6188.1053846153845,
     "id_": "21",
     "genre": "Sci-Fi Adventure Drama",
+    "summary": "Five hundred years in the future, a renegade crew aboard a small spacecraft tries to survive as they travel the unknown parts of the galaxy and evade warring factions as well as authority agents out to get them.",
     "episode_length": 44,
     "seasons": [
       {
@@ -4248,12 +4270,13 @@
       }
     ],
     "name": "Firefly",
-    "year": 2002
+    "year": "2002-2003"
   },
   {
     "avg_wh": 5174.195625,
     "id_": "22",
     "genre": "Crime Drama Mystery",
+    "summary": "Seasonal anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law.",
     "episode_length": 55,
     "seasons": [
       {
@@ -4350,12 +4373,13 @@
       }
     ],
     "name": "True Detective",
-    "year": 2014
+    "year": "2014-"
   },
   {
     "avg_wh": 5303.75,
     "id_": "23",
     "genre": "Animation Action Adventure",
+    "summary": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
     "episode_length": 24,
     "seasons": [
       {
@@ -4526,12 +4550,13 @@
       }
     ],
     "name": "Fullmetal Alchemist : Brotherhood",
-    "year": 2009
+    "year": "2009-2012"
   },
   {
     "avg_wh": 4657.701333333333,
     "id_": "24",
     "genre": "Crime Drama Thriller",
+    "summary": "Various chronicles of deception, intrigue and murder in and around frozen Minnesota. Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota.",
     "episode_length": 53,
     "seasons": [
       {
@@ -4704,12 +4729,13 @@
       }
     ],
     "name": "Fargo",
-    "year": 2014
+    "year": "2014-"
   },
   {
     "avg_wh": 6909.858888888888,
     "id_": "25",
     "genre": "Comedy Drama",
+    "summary": "A high school mathlete starts hanging out with a group of burnouts while her younger brother navigates his freshman year.",
     "episode_length": 44,
     "seasons": [
       {
@@ -4810,12 +4836,13 @@
       }
     ],
     "name": "Freaks and Geeks",
-    "year": 1999
+    "year": "1999-2000"
   },
   {
     "avg_wh": 3833.679222222222,
     "id_": "26",
     "genre": "Animation Action Adventure",
+    "summary": "The Dark Knight battles crime in Gotham City with occasional help from Robin and Batgirl.",
     "episode_length": 23,
     "seasons": [
       {
@@ -5294,12 +5321,13 @@
       }
     ],
     "name": "Batman: The Animated Series",
-    "year": 1992
+    "year": "1992-1995"
   },
   {
     "avg_wh": 6850.047567567569,
     "id_": "27",
     "genre": "Animation Crime Drama",
+    "summary": "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.",
     "episode_length": 24,
     "seasons": [
       {
@@ -5495,12 +5523,13 @@
       }
     ],
     "name": "Death Note",
-    "year": 2006
+    "year": "2006-2007"
   },
   {
     "avg_wh": 4870.886,
     "id_": "28",
     "genre": "Documentary",
+    "summary": "Mammoth series, five years in the making, taking a look at the rich tapestry of life in the world's oceans.",
     "episode_length": 50,
     "seasons": [
       {
@@ -5561,12 +5590,13 @@
       }
     ],
     "name": "The Blue Planet",
-    "year": 2001
+    "year": "2001-2002"
   },
   {
     "avg_wh": 4216.151923076924,
     "id_": "29",
     "genre": "Animation Action Adventure",
+    "summary": "The futuristic misadventures and tragedies of an easygoing bounty hunter and his partners.",
     "episode_length": 24,
     "seasons": [
       {
@@ -5707,12 +5737,13 @@
       }
     ],
     "name": "Cowboy Bebop",
-    "year": 1998
+    "year": "1998-1999"
   },
   {
     "avg_wh": 4935.679166666667,
     "id_": "30",
     "genre": "Crime Drama Mystery",
+    "summary": "A man with diagnosis of Alzheimer's, decides to punish the criminals.",
     "episode_length": 60,
     "seasons": [
       {
@@ -5783,12 +5814,13 @@
       }
     ],
     "name": "Sahsiyet",
-    "year": 2018
+    "year": "2018"
   },
   {
     "avg_wh": 4576.356666666667,
     "id_": "31",
     "genre": "Sci-Fi Drama Thriller",
+    "summary": "An anthology series exploring a twisted, high-tech world where humanity's greatest innovations and darkest instincts collide.",
     "episode_length": 60,
     "seasons": [
       {
@@ -5907,12 +5939,13 @@
       }
     ],
     "name": "Black Mirror",
-    "year": 2011
+    "year": "2011-"
   },
   {
     "avg_wh": 5271.6033333333335,
     "id_": "32",
     "genre": "Animation Action Comedy",
+    "summary": "The story of Saitama, a hero that does it just for fun & can defeat his enemies with a single punch.",
     "episode_length": 24,
     "seasons": [
       {
@@ -5983,12 +6016,13 @@
       }
     ],
     "name": "One Punch Man: Wanpanman",
-    "year": 2015
+    "year": "2015-"
   },
   {
     "avg_wh": 6217.96,
     "id_": "33",
     "genre": "Romance Drama",
+    "summary": "While the arrival of wealthy gentlemen sends her marriage-minded mother into a frenzy, willful and opinionated Elizabeth Bennet matches wits with haughty Mr. Darcy.",
     "episode_length": 55,
     "seasons": [
       {
@@ -6029,12 +6063,13 @@
       }
     ],
     "name": "Pride and Prejudice",
-    "year": 1995
+    "year": "1995"
   },
   {
     "avg_wh": 5108.95375,
     "id_": "34",
     "genre": "Documentary",
+    "summary": "Focuses on life and the environment in both the Arctic and Antarctic.",
     "episode_length": 60,
     "seasons": [
       {
@@ -6085,12 +6120,13 @@
       }
     ],
     "name": "Frozen Planet",
-    "year": 2011
+    "year": "2011"
   },
   {
     "avg_wh": 4064.5099999999998,
     "id_": "35",
     "genre": "Documentary",
+    "summary": "Africa, the world's wildest continent. David Attenborough takes us on an awe-inspiring journey through one of the most diverse places in the world. We visit deserts, savannas, and jungles and meet up with some of Africa's amazing wildlife.",
     "episode_length": 60,
     "seasons": [
       {
@@ -6131,12 +6167,13 @@
       }
     ],
     "name": "Africa",
-    "year": 2013
+    "year": "2013"
   },
   {
     "avg_wh": 2702.941666666667,
     "id_": "36",
     "genre": "War Drama Thriller",
+    "summary": "A World War II German U-Boat crew have a terrifying patrol mission in the early days of the war.",
     "episode_length": 49,
     "seasons": [
       {
@@ -6177,12 +6214,13 @@
       }
     ],
     "name": "Das Boot",
-    "year": 1985
+    "year": "1985-1987"
   },
   {
     "avg_wh": 7252.701111111112,
     "id_": "37",
     "genre": "Comedy",
+    "summary": "The original surreal sketch comedy showcase for the Monty Python troupe.",
     "episode_length": 30,
     "seasons": [
       {
@@ -6436,12 +6474,13 @@
       }
     ],
     "name": "Monty Python's Flying Circus",
-    "year": 1969
+    "year": "1969-1974"
   },
   {
     "avg_wh": 7267.91033898305,
     "id_": "38",
     "genre": "Comedy Romance",
+    "summary": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.",
     "episode_length": 22,
     "seasons": [
       {
@@ -7686,12 +7725,13 @@
       }
     ],
     "name": "Friends",
-    "year": 1994
+    "year": "1994-2004"
   },
   {
     "avg_wh": 4632.044117647059,
     "id_": "39",
     "genre": "Fantasy Drama Horror",
+    "summary": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
     "episode_length": 51,
     "seasons": [
       {
@@ -7793,12 +7833,13 @@
       }
     ],
     "name": "Stranger Things",
-    "year": 2016
+    "year": "2016-"
   },
   {
     "avg_wh": 10742.286578947367,
     "id_": "40",
     "genre": "Comedy",
+    "summary": "Level-headed son Michael Bluth takes over family affairs after his father is imprisoned. But the rest of his spoiled, dysfunctional family are making his job unbearable.",
     "episode_length": 22,
     "seasons": [
       {
@@ -8213,12 +8254,13 @@
       }
     ],
     "name": "Arrested Development",
-    "year": 2003
+    "year": "2003-"
   },
   {
     "avg_wh": 5779.565,
     "id_": "41",
     "genre": "War Documentary History",
+    "summary": "Apocalypse: The Second World War(2009) is a six-part French documentary about the Second World War.",
     "episode_length": 52,
     "seasons": [
       {
@@ -8259,12 +8301,13 @@
       }
     ],
     "name": "Apocalypse: La 2ème guerre mondiale",
-    "year": 2009
+    "year": "2009"
   },
   {
     "avg_wh": 8287.225977653632,
     "id_": "42",
     "genre": "Comedy",
+    "summary": "The continuing misadventures of neurotic New York City stand-up comedian Jerry Seinfeld and his equally neurotic New York City friends.",
     "episode_length": 22,
     "seasons": [
       {
@@ -9218,12 +9261,13 @@
       }
     ],
     "name": "Seinfeld",
-    "year": 1989
+    "year": "1989-1998"
   },
   {
     "avg_wh": 8415.154426229508,
     "id_": "43",
     "genre": "Comedy",
+    "summary": "Comedy that follows two brothers from London's rough Peckham estate as they wheel and deal through a number of dodgy deals as they search for the big score that'll make them millionaires.",
     "episode_length": 95,
     "seasons": [
       {
@@ -9587,12 +9631,13 @@
       }
     ],
     "name": "Only Fools and Horses....",
-    "year": 1981
+    "year": "1981-2003"
   },
   {
     "avg_wh": 7789.418999999999,
     "id_": "44",
     "genre": "Animation Adventure Drama",
+    "summary": "Two brothers find themselves lost in a mysterious land and try to find their way home.",
     "episode_length": 11,
     "seasons": [
       {
@@ -9653,12 +9698,13 @@
       }
     ],
     "name": "Over the Garden Wall",
-    "year": 2014
+    "year": "2014"
   },
   {
     "avg_wh": 4879.720666666667,
     "id_": "45",
     "genre": "Crime Drama Mystery",
+    "summary": "An idiosyncratic FBI agent investigates the murder of a young woman in the even more idiosyncratic town of Twin Peaks.",
     "episode_length": 47,
     "seasons": [
       {
@@ -9825,12 +9871,13 @@
       }
     ],
     "name": "Twin Peaks",
-    "year": 1990
+    "year": "1990-1991"
   },
   {
     "avg_wh": 6988.146849315068,
     "id_": "46",
     "genre": "Drama",
+    "summary": "A Congressman works with his equally conniving wife to exact revenge on the people who betrayed him.",
     "episode_length": 51,
     "seasons": [
       {
@@ -10236,12 +10283,13 @@
       }
     ],
     "name": "House of Cards",
-    "year": 2013
+    "year": "2013-2018"
   },
   {
     "avg_wh": 7581.664871794872,
     "id_": "47",
     "genre": "Animation Adventure Comedy",
+    "summary": "Twin siblings Dipper and Mabel Pines spend the summer at their uncle's tourist trap in the enigmatic town of Gravity Falls.",
     "episode_length": 23,
     "seasons": [
       {
@@ -10453,12 +10501,13 @@
       }
     ],
     "name": "Gravity Falls",
-    "year": 2012
+    "year": "2012-2016"
   },
   {
     "avg_wh": 3708.3744999999994,
     "id_": "48",
     "genre": "Sci-Fi Drama Mystery",
+    "summary": "Set at the intersection of the near future and the reimagined past, explore a world in which every human appetite can be indulged without consequence.",
     "episode_length": 62,
     "seasons": [
       {
@@ -10575,12 +10624,13 @@
       }
     ],
     "name": "Westworld",
-    "year": 2016
+    "year": "2016-"
   },
   {
     "avg_wh": 4717.808,
     "id_": "49",
     "genre": "Biography Crime Drama",
+    "summary": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years.",
     "episode_length": 49,
     "seasons": [
       {
@@ -10753,6 +10803,6 @@
       }
     ],
     "name": "Narcos",
-    "year": 2015
+    "year": "2015-2017"
   }
 ]

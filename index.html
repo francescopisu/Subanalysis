@@ -117,7 +117,7 @@
 .tooltip-content {
   position: absolute;
   z-index: 9999;
-  width: 200px;
+  /*width: 530px;*/
   left: 50%;
   margin: 0 0 20px -180px;
   bottom: 100%;
@@ -129,10 +129,6 @@
   opacity: 0;
   cursor: default;
   pointer-events: none;
-  float: left;
-  clear: left;
-  display: block;
-  text-align: center;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
@@ -157,22 +153,60 @@
 
 .tooltip-content img {
   position: relative;
-  max-height: 150px;
-  width: 100%;
+  height: 200px;
   display: block;
   float: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   object-fit: contain;
 }
 
 .tooltip-text {
+  font-family: "Verdana", "Arial", sans-serif;
   line-height: 1.35;
   display: block;
-  color: #000;
-  float: left;
-  clear: left;
+  color: #333;
+  font-size: 13px;
   padding-bottom: 10px;
+  padding-top: 6px;
+}
+
+/* Sto dando la dimensione allo span che contiene il tooltip per le serie */
+.series {
+  width: 530px;
+}
+
+.season {
+  width: 530px;
+}
+
+.episode {
+  width: 530px;
+}
+
+.series-number {
+  font-size: 14px;
+}
+
+.series-name {
+  /*font-weight: bold;*/
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.series-info {
+  padding-top: 5px;
+}
+
+.series-summary {
+  padding-top: 5px;
+}
+
+.series-avg-wh {
+  padding-top: 10px;
+  position: absolute;
+  top: 185px;
+  left: 155px;
+  font-size: 13px;
 }
 
 .tooltip-effect-5 .tooltip-text {
@@ -215,15 +249,52 @@
 <body>
 
 
-
+<!-- Inizio series tooltip -->
 <div class="dummy dummy-text">
-  <span id="tooltip-span" class="tooltip tooltip-effect-1">
-  <span class="tooltip-content clearfix">
-    <img class="series-logo" src="" />
-    <span class="tooltip-text"></span>
+  <span id="series-tooltip" class="tooltip tooltip-effect-1">
+  <span class="series tooltip-content clearfix">
+    <img class="series-poster" src="" />
+    <span class="tooltip-text">
+      <span class="series-number"></span>
+      <span class="series-name"></span>
+      <div class="series-info"></div>
+      <div class="series-summary"></div>
+      <div class="series-avg-wh"></div>
+    </span>
   </span>
 </span>
 </div>
+<!-- Fine series tooltip -->
+
+<!-- Inizio season tooltip -->
+<div class="dummy dummy-text">
+  <span id="season-tooltip" class="tooltip tooltip-effect-1">
+  <span class="season tooltip-content clearfix">
+    <img class="series-poster" src="" />
+    <span class="tooltip-text">
+      <span class="season-info"></span>
+      <div class="season-avg-wh"></div>
+    </span>
+  </span>
+</span>
+</div>
+<!-- Fine season tooltip -->
+
+<!-- Inizio episode tooltip -->
+<div class="dummy dummy-text">
+  <span id="episode-tooltip" class="tooltip tooltip-effect-1">
+  <span class="episode tooltip-content clearfix">
+    <img class="series-poster" src="" />
+    <span class="tooltip-text">
+      <span class="series-name"></span>
+      <span class="series-info"></span>
+      <span class="series-summary"></span>
+      <span class="episode-wh"></span>
+    </span>
+  </span>
+</span>
+</div>
+<!-- Fine episode tooltip -->
 
 <div class="title-text">
   <h1> Welcome to Subanalysis! </h1>
@@ -248,7 +319,7 @@
 var url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
 var url_sample = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/sample.json"
 
-d3.json(url_data, function(error, json_data) {
+d3.json("data.json", function(error, json_data) {
     // TUTTO IL CODICE VA QUA DENTRO
     // altrimenti javascript fa cose asincrone e si sminchia tutto,
     // cioè fa operazione senza aver letto i dati
