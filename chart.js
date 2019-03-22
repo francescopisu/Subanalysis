@@ -499,7 +499,14 @@ class Chart {
         _this.setTooltipText(item, _this);
 
         _this.tooltip
-            .style("left", (d3.event.pageX  - 90) + "px") //x
+            .style("left", function(){
+                var x = d3.event.pageX;
+                var w = 530;
+                var i = window.innerWidth;
+                return (( x+w < i ) ? x + 90 : i - w + 90) + "px"
+
+            })
+            // (d3.event.pageX  - 90) + "px") //x
             .style("top", (d3.event.pageY - 35) + "px"); //y
     }
 
