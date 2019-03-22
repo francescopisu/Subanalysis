@@ -322,7 +322,7 @@ class Chart {
                 logo_url: "posters/"+single_series.id_+".jpg",
                 series: +single_series.id_,
                 genre: single_series.genre,
-                summary: single_series.summary,
+                description: single_series.description,
                 no_of_seasons: single_series.seasons.length,
                 is_central: true
             })
@@ -363,6 +363,7 @@ class Chart {
                         id: i++,
                         number: +episode.id_,
                         wh: +episode.wh,
+                        title: episode.title,
                         logo_url: "posters/"+series.id_+".jpg",
                         season: +season.id_,
                         series: +series.id_,
@@ -464,11 +465,9 @@ class Chart {
                 break;
 
             case 3: // Episode
-                var temp_summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
                 $(".episode-number").html((item.number) + ". ")
-                $(".episode-title").html("Titolo da prendere" + "</br>")
+                $(".episode-title").html(item.title + "</br>")
                 $(".episode-info").html("Season " + item.season + " | " + item.length + "min" + "</br>")
-                $(".episode-summary").html(temp_summary + "</br>")
                 $(".episode-wh").html("Words per Hour: " + "<b>" + item.wh + "</b>" + "</br>")
                 break;
         }
