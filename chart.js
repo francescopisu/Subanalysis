@@ -455,7 +455,7 @@ class Chart {
                 $(".series-number").html((item.id+1) + ". ")
                 $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.year + ")"  +"</br>")
                 $(".series-info").html(item.episode_length + "min | " + item.genre + " | " + + item.no_of_seasons + " " + str + "</br>")
-                $(".series-summary").html(item.summary + "</br>")
+                $(".series-summary").html(item.description + "</br>")
                 $(".series-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
                 break;
 
