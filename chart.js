@@ -446,7 +446,7 @@ class Chart {
         //             + "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
 
         // NEW
-        
+
         switch(_this.zoomLevel) {
             case 1: // Series
                 var str = (item.no_of_seasons == 1) ? "season" : "seasons";
@@ -475,7 +475,7 @@ class Chart {
     }
 
     showTooltip(item, _this){
-        // Nuova funzione 
+        // Nuova funzione
         switch(_this.zoomLevel) {
             case 1: // Series
                 this.tooltip = _this.series_tooltip;
@@ -507,6 +507,9 @@ class Chart {
         _this.tooltip.transition()
           .duration(50)
           .style("opacity", 0);
+        _this.tooltip
+          .style("left", (-999) + "px") //x
+          .style("top", (-999) + "px"); //y
     }
 
     // Nuova funzione per prendere il livello di zoom dal radio button selezionato
