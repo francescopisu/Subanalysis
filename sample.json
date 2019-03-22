@@ -1,0 +1,545 @@
+[
+  {
+    "description": "A samurai sent through time fights to return home and save the world.",
+    "avg_wh": 2268.046612903226,
+    "genre": "Animation Action Adventure Fantasy Sci-Fi Thriller",
+    "episode_length": 60,
+    "name": "Samurai Jack",
+    "seasons": [
+      {
+        "avg_wh": 2609.059230769231,
+        "id_": 1,
+        "episodes": [
+          {
+            "title": "Episode I: The Beginning",
+            "length": 22,
+            "wh": 2539.09,
+            "id_": 1
+          },
+          {
+            "title": "Episode II: The Samurai Called Jack",
+            "length": 22,
+            "wh": 2121.82,
+            "id_": 2
+          },
+          {
+            "title": "Episode III: The First Fight",
+            "length": 22,
+            "wh": 2820,
+            "id_": 3
+          },
+          {
+            "title": "Episode IV: Jack, the Woolies, and the Chritchellites",
+            "length": 22,
+            "wh": 4377.27,
+            "id_": 4
+          },
+          {
+            "title": "Episode V: Jack in Space",
+            "length": 22,
+            "wh": 4325.45,
+            "id_": 5
+          },
+          {
+            "title": "Episode VI: Jack and the Warrior Woman",
+            "length": 23,
+            "wh": 1484.35,
+            "id_": 6
+          },
+          {
+            "title": "Episode VII: Jack and the Three Blind Archers",
+            "length": 23,
+            "wh": 4601.74,
+            "id_": 7
+          },
+          {
+            "title": "Episode VIII: Jack vs. Mad Jack",
+            "length": 23,
+            "wh": 1231.3,
+            "id_": 8
+          },
+          {
+            "title": "Episode IX: Jack Under the Sea",
+            "length": 22,
+            "wh": 2198.18,
+            "id_": 9
+          },
+          {
+            "title": "Episode X: Jack and the Lava Monster",
+            "length": 22,
+            "wh": 2727.27,
+            "id_": 10
+          },
+          {
+            "title": "Episode XI: Jack and the Scotsman, Part 1",
+            "length": 22,
+            "wh": 3120,
+            "id_": 11
+          },
+          {
+            "title": "Episode XII: Jack and the Gangsters",
+            "length": 23,
+            "wh": 1231.3,
+            "id_": 12
+          },
+          {
+            "title": "Episode XIII: Aku's Fairy Tales",
+            "length": 21,
+            "wh": 1140,
+            "id_": 13
+          }
+        ]
+      },
+      {
+        "avg_wh": 1951.466923076923,
+        "id_": 2,
+        "episodes": [
+          {
+            "title": "Episode XIV: Jack Learns to Jump Good",
+            "length": 22,
+            "wh": 1159.09,
+            "id_": 1
+          },
+          {
+            "title": "Episode XV: Jack Tales",
+            "length": 22,
+            "wh": 1805.45,
+            "id_": 2
+          },
+          {
+            "title": "Episode XVI: Jack and the Smackback",
+            "length": 22,
+            "wh": 2288.18,
+            "id_": 3
+          },
+          {
+            "title": "Episode XVII: Jack and the Scotsman, Part 2",
+            "length": 22,
+            "wh": 1660.91,
+            "id_": 4
+          },
+          {
+            "title": "Episode XVIII: Jack and the Ultra-robots",
+            "length": 22,
+            "wh": 2143.64,
+            "id_": 5
+          },
+          {
+            "title": "Episode XIX: Jack Remembers the Past",
+            "length": 22,
+            "wh": 1115.45,
+            "id_": 6
+          },
+          {
+            "title": "Episode XX: Jack and The Three Monks",
+            "length": 22,
+            "wh": 2702.73,
+            "id_": 7
+          },
+          {
+            "title": "Episode XXI: Jack and the Dragon",
+            "length": 22,
+            "wh": 2228.18,
+            "id_": 8
+          },
+          {
+            "title": "Episode XXII: Jack vs. the Five Hunters",
+            "length": 22,
+            "wh": 4835.45,
+            "id_": 9
+          },
+          {
+            "title": "Episode XXIII: Jack vs. Demongo, The Soul Collector",
+            "length": 22,
+            "wh": 1816.36,
+            "id_": 10
+          },
+          {
+            "title": "Episode XXIV: Jack Is Naked",
+            "length": 22,
+            "wh": 458.18,
+            "id_": 11
+          },
+          {
+            "title": "Episode XXV: Jack and the Spartans",
+            "length": 22,
+            "wh": 660,
+            "id_": 12
+          },
+          {
+            "title": "Episode XXVI: Jack's Shoes",
+            "length": 22,
+            "wh": 2495.45,
+            "id_": 13
+          }
+        ]
+      },
+      {
+        "avg_wh": 1885.163846153846,
+        "id_": 3,
+        "episodes": [
+          {
+            "title": "Episode XXVII: Chicken Jack",
+            "length": 22,
+            "wh": 1729.09,
+            "id_": 1
+          },
+          {
+            "title": "Episode XXVIII: Jack and the Rave",
+            "length": 22,
+            "wh": 1895.45,
+            "id_": 2
+          },
+          {
+            "title": "Episode XXIX: Couple on a Train",
+            "length": 22,
+            "wh": 1909.09,
+            "id_": 3
+          },
+          {
+            "title": "Episode XXX: Jack and the Zombies",
+            "length": 22,
+            "wh": 2735.45,
+            "id_": 4
+          },
+          {
+            "title": "Episode XXXI: Jack in Egypt",
+            "length": 21,
+            "wh": 1688.57,
+            "id_": 5
+          },
+          {
+            "title": "Episode XXXII: Jack and the Travelling Creatures",
+            "length": 22,
+            "wh": 2285.45,
+            "id_": 6
+          },
+          {
+            "title": "Episode XXXIII: Jack and the Creature",
+            "length": 22,
+            "wh": 1050,
+            "id_": 7
+          },
+          {
+            "title": "Episode XXXIV: Jack and the Swamp Monster",
+            "length": 22,
+            "wh": 1041.82,
+            "id_": 8
+          },
+          {
+            "title": "Episode XXXV: Jack and the Haunted House",
+            "length": 21,
+            "wh": 1714.29,
+            "id_": 9
+          },
+          {
+            "title": "Episode XXXVI: Jack, the Monks, and the Ancient Master's Son",
+            "length": 22,
+            "wh": 1819.09,
+            "id_": 10
+          },
+          {
+            "title": "Episode XXXVII: The Birth of Evil, Part 1",
+            "length": 22,
+            "wh": 1584.55,
+            "id_": 11
+          },
+          {
+            "title": "Episode XXXVIII: The Birth of Evil, Part 2",
+            "length": 21,
+            "wh": 3748.57,
+            "id_": 12
+          },
+          {
+            "title": "Episode XXXIX: Jack and the Labyrinth",
+            "length": 21,
+            "wh": 1305.71,
+            "id_": 13
+          }
+        ]
+      },
+      {
+        "avg_wh": 2583.805384615385,
+        "id_": 4,
+        "episodes": [
+          {
+            "title": "Episode XL: Jack vs. the Ninja",
+            "length": 22,
+            "wh": 782.73,
+            "id_": 1
+          },
+          {
+            "title": "Episode XLI: Robo-Samurai vs. Mondo-Bot",
+            "length": 22,
+            "wh": 1120.91,
+            "id_": 2
+          },
+          {
+            "title": "Episode XLII: Samurai vs. Samurai",
+            "length": 21,
+            "wh": 2911.43,
+            "id_": 3
+          },
+          {
+            "title": "Episode XLIII: The Aku Infection",
+            "length": 22,
+            "wh": 3330,
+            "id_": 4
+          },
+          {
+            "title": "Episode XLIV: The Princess and the Bounty Hunters",
+            "length": 22,
+            "wh": 3940.91,
+            "id_": 5
+          },
+          {
+            "title": "Episode XLV: Scotsman Saves Jack, Part 1",
+            "length": 22,
+            "wh": 4988.18,
+            "id_": 6
+          },
+          {
+            "title": "Episode XLVI: Scotsman Saves Jack, Part 2",
+            "length": 21,
+            "wh": 2477.14,
+            "id_": 7
+          },
+          {
+            "title": "Episode XLVII: Jack and the Flying Prince and Princess",
+            "length": 22,
+            "wh": 3728.18,
+            "id_": 8
+          },
+          {
+            "title": "Episode XLVIII: Jack vs. Aku",
+            "length": 22,
+            "wh": 2610,
+            "id_": 9
+          },
+          {
+            "title": "Episode XLIX: The Four Seasons of Death",
+            "length": 22,
+            "wh": 1189.09,
+            "id_": 10
+          },
+          {
+            "title": "Episode L: Tale of X-49",
+            "length": 21,
+            "wh": 1640,
+            "id_": 11
+          },
+          {
+            "title": "Episode LI: Young Jack in Africa",
+            "length": 22,
+            "wh": 1355.45,
+            "id_": 12
+          },
+          {
+            "title": "Episode LII: Jack and the Baby",
+            "length": 22,
+            "wh": 3515.45,
+            "id_": 13
+          }
+        ]
+      },
+      {
+        "avg_wh": 2323.545,
+        "id_": 5,
+        "episodes": [
+          {
+            "title": "Episode XCII",
+            "length": 22,
+            "wh": 1950,
+            "id_": 1
+          },
+          {
+            "title": "Episode XCIII",
+            "length": 22,
+            "wh": 1715.45,
+            "id_": 2
+          },
+          {
+            "title": "Episode XCIV",
+            "length": 21,
+            "wh": 1265.71,
+            "id_": 3
+          },
+          {
+            "title": "Episode XCV",
+            "length": 21,
+            "wh": 2197.14,
+            "id_": 4
+          },
+          {
+            "title": "Episode XCVI",
+            "length": 22,
+            "wh": 2910,
+            "id_": 5
+          },
+          {
+            "title": "Episode XCVII",
+            "length": 22,
+            "wh": 3998.18,
+            "id_": 6
+          },
+          {
+            "title": "Episode XCVIII",
+            "length": 22,
+            "wh": 2004.55,
+            "id_": 7
+          },
+          {
+            "title": "Episode XCIX",
+            "length": 21,
+            "wh": 2242.86,
+            "id_": 8
+          },
+          {
+            "title": "Episode C",
+            "length": 21,
+            "wh": 3094.29,
+            "id_": 9
+          },
+          {
+            "title": "Episode CI",
+            "length": 22,
+            "wh": 1857.27,
+            "id_": 10
+          }
+        ]
+      }
+    ],
+    "id_": "0",
+    "year": "2001-2004 2017"
+  },
+  {
+    "description": "David Attenborough returns in this breathtaking documentary showcasing life on Planet Earth.",
+    "avg_wh": 3748.9466666666667,
+    "genre": "Documentary",
+    "episode_length": 60,
+    "name": "Planet Earth II",
+    "seasons": [
+      {
+        "avg_wh": 3748.9466666666667,
+        "id_": 1,
+        "episodes": [
+          {
+            "title": "Islands",
+            "length": 57,
+            "wh": 3653.68,
+            "id_": 1
+          },
+          {
+            "title": "Mountains",
+            "length": 57,
+            "wh": 3658.95,
+            "id_": 2
+          },
+          {
+            "title": "Jungles",
+            "length": 57,
+            "wh": 3872.63,
+            "id_": 3
+          },
+          {
+            "title": "Deserts",
+            "length": 57,
+            "wh": 3664.21,
+            "id_": 4
+          },
+          {
+            "title": "Grasslands",
+            "length": 57,
+            "wh": 3569.47,
+            "id_": 5
+          },
+          {
+            "title": "Cities",
+            "length": 57,
+            "wh": 4074.74,
+            "id_": 6
+          }
+        ]
+      }
+    ],
+    "id_": "1",
+    "year": "2016"
+  },
+  {
+    "description": "The story of Easy Company of the U.S. Army 101st Airborne Division, and their mission in World War II Europe, from Operation Overlord, through V-J Day.",
+    "avg_wh": 4595.207,
+    "genre": "History Action Drama",
+    "episode_length": 60,
+    "name": "Band of Brothers",
+    "seasons": [
+      {
+        "avg_wh": 4595.207,
+        "id_": 1,
+        "episodes": [
+          {
+            "title": "Currahee",
+            "length": 70,
+            "wh": 4775.14,
+            "id_": 1
+          },
+          {
+            "title": "Day of Days",
+            "length": 49,
+            "wh": 3929.39,
+            "id_": 2
+          },
+          {
+            "title": "Carentan",
+            "length": 62,
+            "wh": 3990,
+            "id_": 3
+          },
+          {
+            "title": "Replacements",
+            "length": 56,
+            "wh": 3189.64,
+            "id_": 4
+          },
+          {
+            "title": "Crossroads",
+            "length": 52,
+            "wh": 5078.08,
+            "id_": 5
+          },
+          {
+            "title": "Bastogne",
+            "length": 64,
+            "wh": 4045.31,
+            "id_": 6
+          },
+          {
+            "title": "The Breaking Point",
+            "length": 69,
+            "wh": 6539.13,
+            "id_": 7
+          },
+          {
+            "title": "The Last Patrol",
+            "length": 55,
+            "wh": 6036,
+            "id_": 8
+          },
+          {
+            "title": "Why We Fight",
+            "length": 53,
+            "wh": 3178.87,
+            "id_": 9
+          },
+          {
+            "title": "Points",
+            "length": 59,
+            "wh": 5190.51,
+            "id_": 10
+          }
+        ]
+      }
+    ],
+    "id_": "2",
+    "year": "2001"
+  }
+]
