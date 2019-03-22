@@ -8,16 +8,14 @@ from utils import *
 
 def compute_wh():
 
-    # dictionary containing all the series
-    # series_dictionary = {
-    #     'series': []
-    # }
+
+    with open('descriptions.txt') as descriptions_file:
+        descriptions = [x.strip() for x in descriptions_file.readlines()]
+    description_index = 0
+
     series_dictionary = []
-    # opening the results file
-    #with open('results.csv', "w+") as resFile:
     with io.open("data.json", 'w') as resFile:
 
-        #resFile.write('series_id,series_name,season,episode,wh,words_count\n')
         # run through each subdirectory of subs folder (i.e: tv series)
         for subdir_first_level in sorted(next(os.walk('subs'))[1]):
             current_dir = 'subs/' + subdir_first_level
@@ -44,6 +42,10 @@ def compute_wh():
 
                     # let's make sure that we start from scratch for each season of the current series
                     current_season.episodes = []
+
+                    # read the titles file
+                    with open('subs/'+subdir_first_level+'/'+subdir_second_level+'/titles.txt') as titles_file:
+                        titles = [x.strip() for x in titles_file.readlines()]
 
                     # operate on each season's episode
                     episode = 0
@@ -87,6 +89,9 @@ def compute_wh():
                                     f.seek(0)
                                     runtime = get_runtime_from_file(f)
 
+                                    # set the episode title
+                                    current_episode.title = titles[episode-1]
+
                                     # set length of current episode
                                     current_episode.length = runtime
 
@@ -104,10 +109,6 @@ def compute_wh():
                                     # add current episode to the current season
                                     current_season.episodes.append(current_episode)
 
-                                    #resFile.write(series + ',' + current_series.name + ',' + str(season) + ',' + str(episode) + ',' +
-                                    #              str(words_hour) + ',' + str(words_count))
-                                    #resFile.write('\n')
-
                                     print_series_episode(current_series, season, episode)
                                     print("words count: " + str(words_count) + " - words/hour: " + str(words_hour) + "\n")
 
@@ -120,11 +121,15 @@ def compute_wh():
             # compute the average w/h for the current series
             current_series.avg_wh = get_average_wh_for_series(current_series)
 
+            # set the series description
+            current_series.description = descriptions[description_index]
+            description_index += 1
+
             # add the current series to the dictionary
             series_dictionary.append(current_series)
 
         # after the computation is finished, dump the dictionary into a json file
-        resFile.write(str(json.dumps(series_dictionary, default=json_default, ensure_ascii=False)))
+        resFile.write(str(json.dumps(series_dictionary, default=json_default, indent=4, ensure_ascii=False)))
 
 
 compute_wh()

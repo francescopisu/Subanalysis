@@ -5,17 +5,19 @@ class Series:
     genre = []
     year = ""
     avg_wh = 0
+    description = ""
     seasons = []
 
-    def __init__(self, id_=0, name="", episode_length=0, genre=[], year="", avg_wh=0, seasons=[]):
+    def __init__(self, id_=0, name="", episode_length=0, genre=[], year="", avg_wh=0, description = "", seasons=[]):
         self.id_ = id_
         self.name = name
         self.episode_length = episode_length
         self.genre = genre
         self.year = year
         self.avg_wh = avg_wh
+        self.description = description
         self.seasons = seasons
-    
+
     def __repr__(self):
         string = str(self.id_) + ". " + \
             self.name + \
@@ -23,11 +25,11 @@ class Series:
             ", genre: " + str(self.genre) + \
             ", year: " + str(self.year) + \
             ", avg w/h: " + '%.2f' % self.avg_wh + \
+            ", description: " + str(self.description) + \
             ", seasons:\n"
-            
+
         for season in self.seasons:
             string += str(season)
         string += "\n\n"
-        
-        return string
 
+        return string
