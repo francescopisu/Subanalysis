@@ -4,74 +4,56 @@ class Chart {
         this.data = opts.data; //data
         console.log(this.data);
 
-        //this.zoomLevel = 3;
-        // this.getZoomLevel();
+        // 1 = series, 2 = seasons, 3 = episodes. Start from the series
         this.zoomLevel = 1;
 
-        this.zoomHappened = false;
-        this.dataChangedAfterZoomHappened = false;
         this.lastTransform = null;
 
-        // this.bar_width = 3;
-
+        // extract the data and draw the chart
         this.extractElements();
-
-        // draw the chart
         this.draw();
     }
 
     draw() {
         this.margin = {top: 20, right: 40, bottom: 70, left: 60};
         this.width = window.innerWidth*0.9 - this.margin.left - this.margin.right ; //1020
-        // this.width = this.bar_width*this.getNumberOfElements()
-        //     - this.margin.left - this.margin.right + 150;
         this.height = 500 - this.margin.top - this.margin.bottom; //780
         this.extent = [[0,0], [this.width, this.height]]
 
-        // this.chartWidth = this.bar_width*this.getNumberOfElements();
-
         var _this = this;
-
 
         this.svgChart = d3.select("#svgChart")
         this.zoom = d3.zoom()
             .scaleExtent([1, 100])
             .translateExtent(this.extent)
             .extent(this.extent)
-            .on("zoom", function() {
-                _this.zoomHappened = true;
-                _this.zoomed(_this);
-            });
+            .on("zoom", function() { _this.zoomed(_this); });
 
         this.svgChart.call(this.zoom)
 
-
-        // this.getZoomLevel(_this);
         // create the other stuff
         this.createScales();
         this.addAxes();
+        this.addDataToBars();
         this.addBars();
         this.adjustDimensions();
+    }
 
+    addDataToBars(){
+        // Selection
+        this.bars = this.svgChart.selectAll(".bar")
+                      .data(this.getCurrentData())
+                      .enter();
     }
 
     createScales() {
-        // calculate max and min for data
-
-        // this.x = d3.scaleBand()
-        //     .domain(this.getCurrentData().map(item => item.id))
-        //     .range([0, this.chartWidth]);
+        // calculate the scales for the axis
 
         this.x = d3.scaleBand()
             // .range([this.margin.left, this.width-this.margin.right])
             .range([0, this.width - this.margin.right])
             .domain(this.getCurrentData().map(item => item.id))
             .padding(0.1);
-
-        // this.x2 = d3.scaleBand()
-        //     .range([0, this.width - this.margin.right])
-        //     .domain(this.series.map(item => this.data[item.series].name))
-        //     .padding(0.1)
 
         this.y = d3.scaleLinear()
             .range([this.height, 0])
@@ -80,16 +62,9 @@ class Chart {
 
     addAxes() {
         // define the axis
-        this.xAxis = d3.axisBottom(this.x).tickSizeOuter(0)
-            //.scale(this.x)
-
-        // var labels = this.getCurrentData().map(item => item.number)
-         // console.log(labels)
-         // this.xAxis.tickFormat(function(d, i) { return labels[i] })
-        this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
-
-        //this.xAxis2 = d3.axisBottom(this.x2).tickSizeOuter(0)
-
+        this.xAxis = d3.axisBottom(this.x)
+            .tickSizeOuter(0) // no ticks at the border
+            .tickFormat("").tickSize(0); // initially no labels nor ticks
 
         this.yAxis = d3.axisLeft(this.y).ticks(10);
 
@@ -107,13 +82,8 @@ class Chart {
 
         this.svgChart = d3.select("#svgChart")
            .style("overflow-x","scroll")
-           // .attr("width", this.width + this.margin.left + this.margin.right)
            .attr("width", this.width)
            .attr("height", this.height + this.margin.top + this.margin.bottom)
-           // .call(this.zoom)
-           // .style("position","fixed")
-           // .style("top","15%")
-           // .style("left", "15%")
            .append("g")
            .attr("transform",
                 "translate(" + this.margin.left + "," + this.margin.top + ")")
@@ -130,8 +100,6 @@ class Chart {
           .style("text-anchor", "middle")
           .text("Words per hour");
 
-
-
         this.svgChart.append("g")
             .attr("class", "x-axis")
             .attr("transform", "translate(0," + this.height + ")")
@@ -140,23 +108,22 @@ class Chart {
             .style("text-anchor", "middle")
             .attr("dy", ".5em");
 
-            // text label for the y axis
-          this.svgY.append("text")
-              .attr("transform", "rotate(-90)")
-              .attr("y", -40)
-              .attr("x",-this.height/2)
-              // .attr("dy", "1em")
-              .style("text-anchor", "middle")
-              .text("Words per Hour");
+        // text label for the y axis
+        this.svgY.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", -40)
+            .attr("x",-this.height/2)
+            .style("text-anchor", "middle")
+            .text("Words per Hour");
     }
 
 
     addBars() {
         var x = this.x;
         var y = this.y;
-        var height = this.height;
-        var _this = this;
-        var series = this.series;
+        var height  = this.height;
+        var _this   = this;
+        var series  = this.series;
         var seasons = this.seasons;
 
         // tooltip
@@ -167,28 +134,17 @@ class Chart {
 
         // Seleziono il tooltip in base al livello di zoom
         switch(this.zoomLevel) {
-            case 1: // Series
-                this.series_tooltip = d3.select("#series-tooltip")
-                    .style("opacity", 0);
-                break;
-            case 2: // Season
-                this.season_tooltip = d3.select("#season-tooltip")
-                    .style("opacity", 0);
-                break;
-            case 3: // Episode
-                this.episode_tooltip = d3.select("#episode-tooltip")
-                        .style("opacity", 0);
-                break;
+            case 1: this.series_tooltip  = d3.select("#series-tooltip")
+                                             .style("opacity", 0); break;
+            case 2: this.season_tooltip  = d3.select("#season-tooltip")
+                                             .style("opacity", 0); break;
+            case 3: this.episode_tooltip = d3.select("#episode-tooltip")
+                                             .style("opacity", 0); break;
         }
 
         // Old tooltip
         // this.tooltip = d3.select("#tooltip-span")
         //     .style("opacity", 0)
-
-        // Selection
-        this.bars = this.svgChart.selectAll(".bar")
-                      .data(this.getCurrentData())
-                      .enter();
 
         this.bars.append("rect")
             .attr("class", "bar")
@@ -207,49 +163,31 @@ class Chart {
         .on("mouseover", function(item) { _this.showTooltip(item, _this); })
         .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
 
-
-        // // series labels w/ transitions
-        // this.bars.append("text")
-        //     .attr("class", "series_labels")
-        //     .attr('transform', (d,i)=>{
-        //         return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
-        //     .transition()
-        //     .duration(500)
-        //     .text((item) => {
-        //         return item.is_central ? _this.data[item.series].name : "";
-        //         })
-        //     .attr('transform', (d,i)=>{
-        //         return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
-        //     .attr('x', 0)
-        //     .attr('y', 0)
-
         this.bars.append("text")
             .attr("class", "series_labels")
             .text((item) => {
-                return item.is_central ? _this.data[item.series].name : "";
+                return (item.is_central) ? _this.data[item.series].name : "";
                 })
             .attr('transform', (d,i)=>{
-                return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
+                return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+
+                                     (_this.height+20)+'),'+ 'rotate(45)';})
             .transition()
             .duration(300)
             .attr('x', 0)
             .attr('y', 0)
 
 
-
         if (this.zoomLevel == 3) {
             // season average w/h line
             this.bars.append("rect")
             .attr("class", "season_line")
-            .attr("x", function(item) { return x(item.id); })
+            .attr("x", (item) => { return x(item.id); })
             .attr("width", this.x.bandwidth()/2)
-            .attr("y", function(item) {
-                  return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
-            .attr("height", function(item) { return 1; });
+            .attr("y", (item) => { return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
+            .attr("height", 1);
         }
 
         if (this.zoomLevel > 1) {
-
             // series average w/h rectangle
             this.bars.append("rect")
             .attr("class", "series_line")
@@ -260,28 +198,8 @@ class Chart {
             .transition()
             .duration(500)
             //.delay(function(d,i){ return i*_this.getDelayValue()})
-            .attr("y", function(item) {
-                  return y(series[item.series].wh); })
-            .attr("height", function(item) {
-                    return height - y(series[item.series].wh);
-                    });
-
-            // vecchio codice
-            // this.bars.append("rect")
-            // .attr("class", "series_line")
-            // .attr("x", function(item) { return x(item.id); })
-            // .attr("y", function(item) {
-                  // return y(series[item.series].wh); })
-            // .attr("height", 0)
-            // .transition()
-            // .duration(550)
-            // .attr("x", function(item) { return x(item.id); })
-            // .attr("width", this.x.bandwidth())
-            // .attr("y", function(item) {
-                  // return y(series[item.series].wh); })
-            // .attr("height", function(item) {
-                    // return height - y(series[item.series].wh);
-                    // });
+            .attr("y", (item) => { return y(series[item.series].wh); })
+            .attr("height", (item) => { return height - y(series[item.series].wh); });
         }
     }
 
@@ -294,26 +212,26 @@ class Chart {
     }
 
     getDelayValue() {
-        switch(this.zoomLevel) {
-            case 1:
-                return  9;
-                break;
-            case 2:
-                return 5;
-                break;
-            case 3:
-                return 0.4;
-                break;
-        };
+        return (this.zoomLevel == 1) ? 9  :
+               (this.zoomLevel == 2) ? 5  :
+                                       0.4;
     }
 
     extractElements(){
-        var i = 0;
+        var id_series = 0;
+        var id_season = 0;
+        var id_episode = 0;
 
         var series = [];
+        var seasons = [];
+        var episodes = [];
+
         this.data.forEach(single_series => {
+            var episode_counter = 1;
+
+            // extract the series data
             series.push({
-                id: i++,
+                id: id_series++,
                 name: single_series.name,
                 number: +single_series.id_,
                 wh: +single_series.avg_wh,
@@ -325,112 +243,83 @@ class Chart {
                 description: single_series.description,
                 no_of_seasons: single_series.seasons.length,
                 is_central: true
-            })
-        });
-        this.series = series;
+            });
 
-        i = 0;
-        var seasons = [];
-        this.data.forEach(series => {
-            var season_counter = 1;
-            series.seasons.forEach(season => {
-                  seasons.push({
-                    id: i++,
+            // extract the seasons data
+            single_series.seasons.forEach(season => {
+                seasons.push({
+                    id: id_season++,
                     number: +season.id_,
                     wh: +season.avg_wh,
-                    logo_url: "posters/"+series.id_+".jpg",
-                    series: +series.id_,
+                    logo_url: "posters/"+single_series.id_+".jpg",
+                    series: +single_series.id_,
                     no_of_episodes: season.episodes.length,
-                    is_central: season_counter == Math.round(series.seasons.length/2)
-                  })
-                  season_counter++;
-            });
-        });
-        this.seasons = seasons;
+                    is_central: +season.id_ == Math.round(single_series.seasons.length/2)
+                });
 
-        i = 0;
-        var episodes = [];
-        this.data.forEach(series => {
-            var episode_counter = 1;
-            series.seasons.forEach(season => {
+                // extract the episodes data
+
                 // episodes count
-                var n_episodes = series.seasons
-                    .map(season => season.episodes.length)
-                    .reduce((a,b)=>a+b);
+                var n_episodes = single_series.seasons
+                                    .map(season => season.episodes.length)
+                                    .reduce((a,b)=>a+b);
 
                 season.episodes.forEach(episode => {
+                    episode_counter++;
                     episodes.push({
-                        id: i++,
+                        id: id_episode++,
                         number: +episode.id_,
                         wh: +episode.wh,
                         title: episode.title,
-                        logo_url: "posters/"+series.id_+".jpg",
+                        logo_url: "posters/"+single_series.id_+".jpg",
                         season: +season.id_,
-                        series: +series.id_,
+                        series: +single_series.id_,
                         length: episode.length,
                         is_central: episode_counter == Math.round(n_episodes/2)
-                    })
-                    episode_counter++;
+                    });
                 });
             });
         });
+
+        this.series   = series;
+        this.seasons  = seasons;
         this.episodes = episodes;
     }
 
 
     getNumberOfElements(){
-        if (this.zoomLevel == 1)
-            return this.series.length;
-        else if (this.zoomLevel == 2)
-            return this.seasons.length;
-        else
-            return this.episodes.length;
-
+        return (this.zoomLevel == 1) ? this.series.length  :
+               (this.zoomLevel == 2) ? this.seasons.length :
+                                       this.episodes.length;
     }
 
     getCurrentData(){
-        if (this.zoomLevel == 1)
-            return this.series;
-        else if (this.zoomLevel == 2)
-            return this.seasons;
-        else
-            return this.episodes;
+        return (this.zoomLevel == 1) ? this.series  :
+               (this.zoomLevel == 2) ? this.seasons :
+                                       this.episodes;
     }
 
 
     getColor(item, _this){
-        var colorArray = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
-          '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
-          '#80B300', '#809900', '#E6B3B3', '#6680B3', '#66991A',
-          '#FF99E6', '#CCFF1A', '#FF1A66', '#E6331A', '#33FFCC',
-          '#66994D', '#B366CC', '#4D8000', '#B33300', '#CC80CC',
-          '#66664D', '#991AFF', '#E666FF', '#4DB3FF', '#1AB399',
-          '#E666B3', '#33991A', '#CC9999', '#B3B31A', '#00E680',
-          '#4D8066', '#809980', '#E6FF80', '#1AFF33', '#999933',
-          '#FF3380', '#CCCC00', '#66E64D', '#4D80CC', '#9900B3',
-          '#E64D66', '#4DB380', '#FF4D4D', '#99E6E6', '#6666FF'];
+        var genre = _this.series[item.series].genre.split(" ")[0];
 
-        var genre = _this.series[item.series].genre.split(" ")[0]; // c'è uno spazio all'inizio
-        // console.log(genre)
-
-        if (genre == "Action") return '#7570b3'; // viola
-        if (genre == "Adventure") return '#1b7837'; // verde
-        if (genre == "Animation") return '#a6cee3'; // celestino
-        if (genre == "Biography") return '#FFE4B5'; // giallino
-        if (genre == "Comedy") return '#1f78b4'; // blu
-        if (genre == "Crime") return '#000000'; // nero
+        if (genre == "Action")      return '#7570b3'; // viola
+        if (genre == "Adventure")   return '#1b7837'; // verde
+        if (genre == "Animation")   return '#a6cee3'; // celestino
+        if (genre == "Biography")   return '#FFE4B5'; // giallino
+        if (genre == "Comedy")      return '#1f78b4'; // blu
+        if (genre == "Crime")       return '#000000'; // nero
         if (genre == "Documentary") return '#7fbf7b'; // verdino
-        if (genre == "Drama") return '#d95f02'; // arancione
-        if (genre == "Fantasy") return '#d95f02'; // arancione
-        if (genre == "History") return '#8B0000'; // rosso scuro
-        if (genre == "Mistery") return '#A9A9A9'; // grigio
-        if (genre == "Romance") return '#f0027f'; // rosa
-        if (genre == "Sci-Fi") return '#191970'; // blu scuro
-        if (genre == "War") return '#8B4513'; // marron
-
+        if (genre == "Drama")       return '#d95f02'; // arancione
+        if (genre == "Fantasy")     return '#d95f02'; // arancione
+        if (genre == "History")     return '#8B0000'; // rosso scuro
+        if (genre == "Mistery")     return '#A9A9A9'; // grigio
+        if (genre == "Romance")     return '#f0027f'; // rosa
+        if (genre == "Sci-Fi")      return '#191970'; // blu scuro
+        if (genre == "War")         return '#8B4513'; // marron
 
         return "#ffffff"
-
+        // return "#000000"
     }
 
     setTooltipText(item, _this){
@@ -474,20 +363,9 @@ class Chart {
     }
 
     showTooltip(item, _this){
-        // Nuova funzione
-        switch(_this.zoomLevel) {
-            case 1: // Series
-                this.tooltip = _this.series_tooltip;
-                break;
-
-            case 2: // Season
-                this.tooltip = _this.season_tooltip;
-                break;
-
-            case 3: // Episode
-                this.tooltip = _this.episode_tooltip;
-                break;
-        }
+        this.tooltip = (_this.zoomLevel == 1) ? _this.series_tooltip :
+                       (_this.zoomLevel == 2) ? _this.season_tooltip :
+                                                _this.episode_tooltip;
 
         _this.tooltip.transition()
             .duration(50)
@@ -498,6 +376,7 @@ class Chart {
         _this.setTooltipText(item, _this);
 
         _this.tooltip
+            // .style("left",  (d3.event.pageX  - 90) + "px") //x
             .style("left", function(){
                 var x = d3.event.pageX;
                 var w = 530;
@@ -505,8 +384,13 @@ class Chart {
                 return (( x+w < i ) ? x + 90 : i - w + 90) + "px"
 
             })
-            // (d3.event.pageX  - 90) + "px") //x
-            .style("top", (d3.event.pageY - 35) + "px"); //y
+            // .style("top", (d3.event.pageY - 35) + "px"); //y
+            .style("top", function(){
+                var y = d3.event.pageY;
+                var h = 200;
+                var i = window.innerHeight;
+                return (( y+h < i ) ? y-15 : i-h-15) + "px"
+            })
     }
 
     hideTooltip(item, _this){
@@ -514,15 +398,19 @@ class Chart {
           .duration(50)
           .style("opacity", 0);
         _this.tooltip
-          .style("left", (-999) + "px") //x
-          .style("top", (-999) + "px"); //y
+          .style("left", (-999999) + "px") //x
+          .style("top", (-999999) + "px"); //y
     }
 
     // Nuova funzione per prendere il livello di zoom dal radio button selezionato
     // imposto zoomLevel e poi pulisco l'svg attuale prima di ridisegnarlo
     changeData(_this) {
             // remove the old bars
-            _this.svgChart.selectAll("*").remove();
+            _this.svgChart.selectAll("*")
+                  .transition(d3.transition().duration(750))
+                  .attr("y", 60)
+                  .style("fill-opacity", 1e-6)
+                  .remove();
             _this.svgY.selectAll("*").remove();
 
             // redraw the chart
@@ -534,14 +422,43 @@ class Chart {
     }
 
 
+    dropDown(_this, e){
+        console.log(e.target.value)
+
+        // seleziona le prime 10 serie, giusto per testarlo a cazzo
+        var i=0;
+        var series = []
+        this.data.forEach(single_series => {
+            if (single_series.id_ < 10){
+                series.push({
+                    id: i++,
+                    name: single_series.name,
+                    number: +single_series.id_,
+                    wh: +single_series.avg_wh,
+                    episode_length: +single_series.episode_length,
+                    year: single_series.year,
+                    logo_url: "posters/"+single_series.id_+".jpg",
+                    series: +single_series.id_,
+                    genre: single_series.genre,
+                    description: single_series.description,
+                    no_of_seasons: single_series.seasons.length,
+                    is_central: true
+                })
+            }
+        });
+        _this.series = series;
+
+        _this.changeData(_this);
+    }
+
     zoomed(_this){
         if (d3.event) _this.lastTransform = d3.event.transform;
 
         if (_this.zoomLevel == 3 && _this.lastTransform.k > 13 ||
-            _this.zoomLevel == 2 && _this.lastTransform.k > 2 ){
+            _this.zoomLevel == 2 && _this.lastTransform.k > 2     ){
             // show labels and ticks
             var labels = this.getCurrentData().map(item => item.number)
-            this.xAxis.tickFormat(function(d, i) { return labels[i] }).tickSize(3);
+            this.xAxis.tickFormat((d, i) => { return labels[i] }).tickSize(3);
         }
         else {
             // hide labels and ticks

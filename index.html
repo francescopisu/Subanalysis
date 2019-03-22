@@ -348,6 +348,20 @@
   <br>
   Episodes <input type="radio" name="zoomLevel" id="episodes_data" value="3"> </input>
 </div>
+
+<select name="values">
+    <option value="0">Zero</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+    <option value="4">Four</option>
+    <option value="5">Five</option>
+    <option value="6">Six</option>
+    <option value="7">Seven</option>
+    <option value="8">Eight</option>
+    <option value="9">Nine</option>
+</select>
+
 </body>
 
 <script>
@@ -370,6 +384,10 @@ d3.json(url_data, function(error, json_data) {
             // set the chosen zoomLevel via radio buttons
             chart.zoomLevel = Number(e.target.value);
             chart.changeData(chart) })
+
+    $('select[name="values"]').on('change', function (e) {
+            // set the chosen zoomLevel via radio buttons
+            chart.dropDown(chart, e) })
 })
 
 
