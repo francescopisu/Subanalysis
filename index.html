@@ -23,6 +23,8 @@
   font-weight: 500;
   font-size: 1em;
   font-family: 'Raleway', Arial, sans-serif;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
  .bar{
@@ -46,6 +48,7 @@
 
   .axis {
     font: 10px sans-serif;
+    background: ;
   }
 
   .x-axis {
@@ -59,10 +62,7 @@
     shape-rendering: crispEdges;
   }
 
-  .chart-container {
-    margin: 0 auto;
-    text-align: center;
-  }
+  
 
   /*.tooltip {
   position: absolute;
@@ -270,14 +270,47 @@
   font-size: 2.50em;
 }
 
-.interaction-menu {
-  position: absolute;
-  top: 12%;
-  right: 12%;
-  text-align: right;
+.wrapper {
 
 }
 
+.chart-container {
+    /*text-align: center;
+    margin-top: 5%;*/
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+    text-align: center;
+  }
+
+.interaction-menu {
+  background-color: lightblue;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 15px;
+  height: 30px;
+}
+
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+#svgChart {
+  display: block;
+  margin: auto;
+}
+
+.svg-y-responsive {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
 </style>
 
 <body>
@@ -331,37 +364,20 @@
 </div>
 <!-- Fine episode tooltip -->
 
-<div class="title-text">
-  <h1> Welcome to Subanalysis! </h1>
-</div>
 <!-- here's the div our chart will be injected into -->
 
-<div id="container" class="chart-container">
-  <svg id = "svgY"></svg>
-  <svg id = "svgChart"></svg>
-</div>
-
-<div class="interaction-menu">
+<div class="wrapper">
+  <div class="interaction-menu">
+  <span class="lol"> QUI CI VANNO I CONTROLLI </span>
   Series <input type="radio" name="zoomLevel" id="series_data" value="1" checked> </input>
-  <br>
   Seasons <input type="radio" name="zoomLevel" id="seasons_data" value="2"> </input>
-  <br>
   Episodes <input type="radio" name="zoomLevel" id="episodes_data" value="3"> </input>
+  </div>
+  <div class="chart-container">
+    <!-- <svg id = "svgY"></svg> -->
+    <svg id = "svgChart"></svg>
+  </div>
 </div>
-
-<select name="values">
-    <option value="0">Zero</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-    <option value="4">Four</option>
-    <option value="5">Five</option>
-    <option value="6">Six</option>
-    <option value="7">Seven</option>
-    <option value="8">Eight</option>
-    <option value="9">Nine</option>
-</select>
-
 </body>
 
 <script>
@@ -385,9 +401,16 @@ d3.json(url_data, function(error, json_data) {
             chart.zoomLevel = Number(e.target.value);
             chart.changeData(chart) })
 
-    $('select[name="values"]').on('change', function (e) {
-            // set the chosen zoomLevel via radio buttons
-            chart.dropDown(chart, e) })
+    // $('select[name="values"]').on('change', function (e) {
+    //         // set the chosen zoomLevel via radio buttons
+    //         chart.dropDown(chart, e) })
+    $(window).resize(function() {
+      chart.animation = false;
+      chart.width = window.innerWidth
+      chart.height = window.innerHeight
+      chart.clear()
+      chart.draw()
+    });
 })
 
 

@@ -6,6 +6,7 @@ class Chart {
 
         // 1 = series, 2 = seasons, 3 = episodes. Start from the series
         this.zoomLevel = 1;
+        this.animation = true;
 
         this.lastTransform = null;
 
@@ -15,14 +16,44 @@ class Chart {
     }
 
     draw() {
-        this.margin = {top: 20, right: 40, bottom: 70, left: 60};
-        this.width = window.innerWidth*0.9 - this.margin.left - this.margin.right ; //1020
-        this.height = 500 - this.margin.top - this.margin.bottom; //780
+        this.margin = {top: 20, right: 40, bottom: 70, left: 80};
+        this.width = window.innerWidth*0.9 + this.margin.right + this.margin.left; //1020
+        this.height = window.innerHeight*0.75 - this.margin.top - this.margin.bottom; //780
         this.extent = [[0,0], [this.width, this.height]]
+        this.widthOffset = this.margin.right + this.margin.left;
+        this.heightOffset = this.margin.top + this.margin.bottom + 200;
 
         var _this = this;
 
-        this.svgChart = d3.select("#svgChart")
+        // Interaction menu dimensions depend on svg
+        $(".interaction-menu").width(this.width - 95)
+
+
+        // Define svg Chart
+        this.svgChart = d3.select("#svgChart");
+
+         
+        // Draw responsive svg chart
+        this.svgChart.attr("preserveAspectRatio", "xMinYMin meet")
+           .attr("viewBox", "0 0 " + (this.width + this.widthOffset) + " " + (this.height+this.heightOffset))
+           .classed("svg-content-responsive", true)
+           //.attr("transform","translate(" + this.margin.left + "," + this.margin.top + ")");
+
+        // Append clip-path to defs which is appended to the chart
+        this.svgChart.append("defs").append("clipPath")
+        .attr("id", "clip")
+        .append("rect")
+        .attr("width", this.width + this.widthOffset)
+        .attr("height", this.height + this.heightOffset);
+
+
+        // Define and append to the chart a focus window
+        this.focus = this.svgChart.append("g")
+               .attr("class", "focus")
+               .attr("transform","translate(" + this.margin.left + "," + this.margin.top + ")")
+
+
+
         this.zoom = d3.zoom()
             .scaleExtent([1, 100])
             .translateExtent(this.extent)
@@ -32,21 +63,34 @@ class Chart {
         this.svgChart.call(this.zoom)
 
         // create the other stuff
-        this.createScales();
-        this.addAxes();
+        this.createScalesAndAxes();
+        
         this.addDataToBars();
         this.addBars();
-        this.adjustDimensions();
+        this.addAxes();
+        
+        //this.adjustDimensions();
+    }
+
+    clear() {
+         this.svgChart.selectAll("*").remove();
     }
 
     addDataToBars(){
-        // Selection
-        this.bars = this.svgChart.selectAll(".bar")
+        this.clipp = this.focus.append("g")
+            .attr("clip-path", "url(#clip)");
+
+        this.bars = this.clipp.selectAll(".bar")
                       .data(this.getCurrentData())
                       .enter();
+
+        // Selection
+        // this.bars = this.focus.selectAll(".bar")
+        //               .data(this.getCurrentData())
+        //               .enter();
     }
 
-    createScales() {
+    createScalesAndAxes() {
         // calculate the scales for the axis
 
         this.x = d3.scaleBand()
@@ -58,9 +102,8 @@ class Chart {
         this.y = d3.scaleLinear()
             .range([this.height, 0])
             .domain([0, d3.max(this.episodes, function(d) { return d.wh; })]).nice();
-    }
 
-    addAxes() {
+
         // define the axis
         this.xAxis = d3.axisBottom(this.x)
             .tickSizeOuter(0) // no ticks at the border
@@ -68,53 +111,36 @@ class Chart {
 
         this.yAxis = d3.axisLeft(this.y).ticks(10);
 
-        // add the Y axis to the SVG element
-        this.svgY = d3.select("#svgY")
-            .attr("width", this.margin.left+1)
-            .attr("height", this.height + this.margin.top + this.margin.bottom)
-            .style("position","fixed")
-            .style("overflow-y","scroll")
-            .style("background-color","white")
-            .append("g")
-            .attr("transform",
-                "translate(" + this.margin.left + "," + this.margin.top + ")")
+    }
 
+    addAxes() {
 
-        this.svgChart = d3.select("#svgChart")
-           .style("overflow-x","scroll")
-           .attr("width", this.width)
-           .attr("height", this.height + this.margin.top + this.margin.bottom)
-           .append("g")
-           .attr("transform",
-                "translate(" + this.margin.left + "," + this.margin.top + ")")
-
-        this.svgY.append("g")
-            .attr("class", "y-axis")
-            .call(this.yAxis)
-
-        this.svgY.append("text")
-          .attr("transform", "rotate(-90)")
-          .attr("y", 0 - this.margin.left - 20)
-          .attr("x",0 - (this.height / 2))
-          .attr("dy", "1em")
-          .style("text-anchor", "middle")
-          .text("Words per hour");
-
-        this.svgChart.append("g")
+        this.clipp.append("g")
             .attr("class", "x-axis")
             .attr("transform", "translate(0," + this.height + ")")
+            //.attr('transform', 'translate('+ this.margin.left + ',' + (this.margin.top + this.height) + ')')
             .call(this.xAxis)
             .selectAll("text")
             .style("text-anchor", "middle")
             .attr("dy", ".5em");
+            
 
-        // text label for the y axis
-        this.svgY.append("text")
+        this.focus.append("g")
+            .attr("class", "y-axis")
+            //.attr('transform', 'translate('+ this.margin.left + ',' + (this.margin.top + this.height) + ')')
+            //.attr('transform', 'translate(' + (this.margin.left + this.width) + ',' + this.margin.top +')'
+            .attr("transform","translate(0,0)")
+            .call(this.yAxis)
+
+        this.focus
+            .append("text")
             .attr("transform", "rotate(-90)")
             .attr("y", -40)
             .attr("x",-this.height/2)
             .style("text-anchor", "middle")
-            .text("Words per Hour");
+            .text("Words per Hour")
+
+
     }
 
 
@@ -146,7 +172,9 @@ class Chart {
         // this.tooltip = d3.select("#tooltip-span")
         //     .style("opacity", 0)
 
-        this.bars.append("rect")
+        // Bar animation enabled only the first time after: a) loading b) changing data. Not enabled when resizing and redrawing the chart
+        if(this.animation) {
+            this.bars.append("rect")
             .attr("class", "bar")
             .attr("x", function(item) { return x(item.id); })
             .attr("width", this.x.bandwidth())
@@ -158,6 +186,16 @@ class Chart {
             //.delay(function(d,i){ return i*_this.getDelayValue()})
             .attr("y", function(item) { return y(item.wh); })
             .attr("height", function(item) { return height - y(item.wh); });
+        } else {
+            this.bars.append("rect")
+            .attr("class", "bar")
+            .attr("x", function(item) { return x(item.id); })
+            .attr("width", this.x.bandwidth())
+            .attr("fill", function(item) { return _this.getColor(item, _this);})
+            .attr("y", function(item) { return y(item.wh); })
+            .attr("height", function(item) { return height - y(item.wh); });
+        }
+        
 
         d3.selectAll(".bar")
         .on("mouseover", function(item) { _this.showTooltip(item, _this); })
@@ -201,15 +239,11 @@ class Chart {
             .attr("y", (item) => { return y(series[item.series].wh); })
             .attr("height", (item) => { return height - y(series[item.series].wh); });
         }
+
+        
     }
 
-    // Per qualche motivo va fatto dopo draw()
-    adjustDimensions() {
-        d3.select("#svgChart").attr("height", 650)
-                              .attr("width", this.width + 90);
-
-        d3.select("#svgY").attr("height", 650);
-    }
+    
 
     getDelayValue() {
         return (this.zoomLevel == 1) ? 9  :
@@ -411,7 +445,7 @@ class Chart {
                   .attr("y", 60)
                   .style("fill-opacity", 1e-6)
                   .remove();
-            _this.svgY.selectAll("*").remove();
+            //_this.svgY.selectAll("*").remove();
 
             // redraw the chart
             _this.draw();
@@ -467,13 +501,13 @@ class Chart {
 
         // move the bars
         _this.x.range([0, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)));
-        _this.svgChart.selectAll("rect").attr("x", d => _this.x(d.id))
+        _this.focus.selectAll(".bar").attr("x", d => _this.x(d.id))
                  .attr("width", _this.x.bandwidth())
 
-        _this.svgChart.selectAll(".x-axis").call(_this.xAxis);
+        _this.focus.selectAll(".x-axis").call(_this.xAxis);
 
         // move the series labels
-        _this.svgChart.selectAll(".series_labels")
+        _this.focus.selectAll(".series_labels")
         .attr('transform', (d,i)=>{
             return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
         .attr('x', 0)
