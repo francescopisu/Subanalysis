@@ -15,6 +15,7 @@ class Chart {
         this.draw();
     }
 
+
     draw() {
         this.margin = {top: 20, right: 40, bottom: 70, left: 80};
         this.width = window.innerWidth*0.9 + this.margin.right + this.margin.left; //1020
@@ -32,7 +33,7 @@ class Chart {
         // Define svg Chart
         this.svgChart = d3.select("#svgChart");
 
-
+         
         // Draw responsive svg chart
         this.svgChart.attr("preserveAspectRatio", "xMinYMin meet")
            .attr("viewBox", "0 0 " + (this.width + this.widthOffset) + " " + (this.height+this.heightOffset))
@@ -50,12 +51,11 @@ class Chart {
         // Define and append to the chart a focus window
         this.focus = this.svgChart.append("g")
                .attr("class", "focus")
-               .attr("transform","translate(" + this.margin.left + "," + this.margin.top + ")")
-
+               .attr("transform","translate(" + this.margin.left + "," + this.margin.top + ")");
 
 
         this.zoom = d3.zoom()
-            .scaleExtent([1, 8])
+            .scaleExtent(this.getScaleExtent())
             .translateExtent([[this.margin.left,this.margin.top], [this.width - this.margin.right, this.height - this.margin.top]])
             .extent([[this.margin.left,this.margin.top], [this.width - this.margin.right, this.height - this.margin.top]])
             .on("zoom", function() { _this.zoomed(_this); });
@@ -69,6 +69,7 @@ class Chart {
         this.addAxes();
 
     }
+
 
     clear() {
          this.svgChart.selectAll("*").remove();
@@ -117,7 +118,7 @@ class Chart {
             .selectAll("text")
             .style("text-anchor", "middle")
             .attr("dy", ".5em");
-
+            
 
         this.focus.append("g")
             .attr("class", "y-axis")
@@ -128,6 +129,7 @@ class Chart {
 
         this.focus
             .append("text")
+            .attr("class", "title")
             .attr("transform", "rotate(-90)")
             .attr("y", -40)
             .attr("x",-this.height/2)
@@ -170,22 +172,8 @@ class Chart {
             //.delay(function(d,i){ return i*_this.getDelayValue()})
             .attr("y", function(item) { return y(item.wh); })
             .attr("height", function(item) { return height - y(item.wh); });
-        } else {
-            this.bars.append("rect")
-            .attr("class", "bar")
-            .attr("x", function(item) { return x(item.id); })
-            .attr("width", this.x.bandwidth())
-            .attr("fill", function(item) { return _this.getColor(item, _this);})
-            .attr("y", function(item) { return y(item.wh); })
-            .attr("height", function(item) { return height - y(item.wh); });
-        }
 
-
-        d3.selectAll(".bar")
-        .on("mouseover", function(item) { _this.showTooltip(item, _this); })
-        .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
-
-        this.bars.append("text")
+            this.bars.append("text")
             .attr("class", "series_labels")
             .text((item) => {
                 return (item.is_central) ? _this.data[item.series].name : "";
@@ -198,6 +186,59 @@ class Chart {
             .attr('x', 0)
             .attr('y', 0)
 
+            if (this.zoomLevel > 1) {
+                // series average w/h rectangle
+                this.bars.append("rect")
+                .attr("class", "series_line")
+                .attr("x", function(item) { return x(item.id); })
+                .attr("width", this.x.bandwidth())
+                .attr("y", y(0))
+                .attr("height", 0)
+                .transition()
+                .duration(500)
+                //.delay(function(d,i){ return i*_this.getDelayValue()})
+                .attr("y", (item) => { return y(series[item.series].wh); })
+                .attr("height", (item) => { return height - y(series[item.series].wh); });
+            }   
+
+        } else { //animation allowed, i.e when changing data
+            this.bars.append("rect")
+            .attr("class", "bar")
+            .attr("x", function(item) { return x(item.id); })
+            .attr("width", this.x.bandwidth())
+            .attr("fill", function(item) { return _this.getColor(item, _this);})
+            .attr("y", function(item) { return y(item.wh); })
+            .attr("height", function(item) { return height - y(item.wh); });
+
+            this.bars.append("text")
+            .attr("class", "series_labels")
+            .text((item) => {
+                return (item.is_central) ? _this.data[item.series].name : "";
+                })
+            .attr('transform', (d,i)=>{
+                return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+
+                                     (_this.height+20)+'),'+ 'rotate(45)';})
+            .attr('x', 0)
+            .attr('y', 0)
+
+            if (this.zoomLevel > 1) {
+                // series average w/h rectangle
+                this.bars.append("rect")
+                .attr("class", "series_line")
+                .attr("x", function(item) { return x(item.id); })
+                .attr("width", this.x.bandwidth())
+                //.delay(function(d,i){ return i*_this.getDelayValue()})
+                .attr("y", (item) => { return y(series[item.series].wh); })
+                .attr("height", (item) => { return height - y(series[item.series].wh); });
+            } 
+        }
+        
+
+        // These operation are always allowed because they don't involve transitions
+        d3.selectAll(".bar")
+        .on("mouseover", function(item) { _this.showTooltip(item, _this); })
+        .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
+
 
         if (this.zoomLevel == 3) {
             // season average w/h line
@@ -208,24 +249,9 @@ class Chart {
             .attr("y", (item) => { return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
             .attr("height", 1);
         }
-
-        if (this.zoomLevel > 1) {
-            // series average w/h rectangle
-            this.bars.append("rect")
-            .attr("class", "series_line")
-            .attr("x", function(item) { return x(item.id); })
-            .attr("width", this.x.bandwidth())
-            .attr("y", y(0))
-            .attr("height", 0)
-            .transition()
-            .duration(500)
-            //.delay(function(d,i){ return i*_this.getDelayValue()})
-            .attr("y", (item) => { return y(series[item.series].wh); })
-            .attr("height", (item) => { return height - y(series[item.series].wh); });
-        }
     }
 
-
+    
 
     getDelayValue() {
         return (this.zoomLevel == 1) ? 9  :
@@ -315,6 +341,12 @@ class Chart {
                                        this.episodes;
     }
 
+    
+    getScaleExtent() {
+        return (this.zoomLevel == 1) ? [1, 8]  :
+               (this.zoomLevel == 2) ? [1, 25] :
+                                       [1, 100];
+    }
 
     getColor(item, _this){
         var genre = _this.series[item.series].genre.split(" ")[0];
@@ -407,11 +439,13 @@ class Chart {
     // Nuova funzione per prendere il livello di zoom dal radio button selezionato
     // imposto zoomLevel e poi pulisco l'svg attuale prima di ridisegnarlo
     changeData(_this) {
+            this.animation = true
             // remove the old bars
-            _this.svgChart.selectAll("*")
-                  .transition(d3.transition().duration(750))
-                  .attr("y", 60)
-                  .style("fill-opacity", 1e-6)
+            _this.focus.selectAll("*")
+                 //  .transition()
+                 //  .duration(300)
+                 //  .attr("y", 0)
+                 // .style("fill-opacity", 1e-6)
                   .remove();
 
             // redraw the chart
