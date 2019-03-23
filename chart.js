@@ -32,7 +32,7 @@ class Chart {
         // Define svg Chart
         this.svgChart = d3.select("#svgChart");
 
-         
+
         // Draw responsive svg chart
         this.svgChart.attr("preserveAspectRatio", "xMinYMin meet")
            .attr("viewBox", "0 0 " + (this.width + this.widthOffset) + " " + (this.height+this.heightOffset))
@@ -117,7 +117,7 @@ class Chart {
             .selectAll("text")
             .style("text-anchor", "middle")
             .attr("dy", ".5em");
-            
+
 
         this.focus.append("g")
             .attr("class", "y-axis")
@@ -179,7 +179,7 @@ class Chart {
             .attr("y", function(item) { return y(item.wh); })
             .attr("height", function(item) { return height - y(item.wh); });
         }
-        
+
 
         d3.selectAll(".bar")
         .on("mouseover", function(item) { _this.showTooltip(item, _this); })
@@ -225,7 +225,7 @@ class Chart {
         }
     }
 
-    
+
 
     getDelayValue() {
         return (this.zoomLevel == 1) ? 9  :
@@ -467,7 +467,7 @@ class Chart {
         }
 
         // move the bars
-        _this.x.range([0, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)));
+        _this.x.range([80, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)-80));
         _this.focus.selectAll("rect").attr("x", d => _this.x(d.id))
                  .attr("width", _this.x.bandwidth())
 
