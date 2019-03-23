@@ -26,7 +26,7 @@ class Chart {
         var _this = this;
 
         // Interaction menu dimensions depend on svg
-        $(".interaction-menu").width(this.width - 95)
+        $(".interaction-menu").width(this.width - 130)
 
 
         // Define svg Chart
@@ -55,21 +55,19 @@ class Chart {
 
 
         this.zoom = d3.zoom()
-            .scaleExtent([1, 100])
-            .translateExtent(this.extent)
-            .extent(this.extent)
+            .scaleExtent([1, 8])
+            .translateExtent([[this.margin.left,this.margin.top], [this.width - this.margin.right, this.height - this.margin.top]])
+            .extent([[this.margin.left,this.margin.top], [this.width - this.margin.right, this.height - this.margin.top]])
             .on("zoom", function() { _this.zoomed(_this); });
 
         this.svgChart.call(this.zoom)
 
         // create the other stuff
         this.createScalesAndAxes();
-        
         this.addDataToBars();
         this.addBars();
         this.addAxes();
-        
-        //this.adjustDimensions();
+
     }
 
     clear() {
@@ -84,10 +82,6 @@ class Chart {
                       .data(this.getCurrentData())
                       .enter();
 
-        // Selection
-        // this.bars = this.focus.selectAll(".bar")
-        //               .data(this.getCurrentData())
-        //               .enter();
     }
 
     createScalesAndAxes() {
@@ -97,7 +91,7 @@ class Chart {
             // .range([this.margin.left, this.width-this.margin.right])
             .range([0, this.width - this.margin.right])
             .domain(this.getCurrentData().map(item => item.id))
-            .padding(0.1);
+            //.padding(0.1);
 
         this.y = d3.scaleLinear()
             .range([this.height, 0])
@@ -152,12 +146,6 @@ class Chart {
         var series  = this.series;
         var seasons = this.seasons;
 
-        // tooltip
-        // this.div = d3.select("body").append("div")
-        //     .attr("class", "tooltip")
-        //     .style("opacity", 0);
-
-
         // Seleziono il tooltip in base al livello di zoom
         switch(this.zoomLevel) {
             case 1: this.series_tooltip  = d3.select("#series-tooltip")
@@ -167,10 +155,6 @@ class Chart {
             case 3: this.episode_tooltip = d3.select("#episode-tooltip")
                                              .style("opacity", 0); break;
         }
-
-        // Old tooltip
-        // this.tooltip = d3.select("#tooltip-span")
-        //     .style("opacity", 0)
 
         // Bar animation enabled only the first time after: a) loading b) changing data. Not enabled when resizing and redrawing the chart
         if(this.animation) {
@@ -239,8 +223,6 @@ class Chart {
             .attr("y", (item) => { return y(series[item.series].wh); })
             .attr("height", (item) => { return height - y(series[item.series].wh); });
         }
-
-        
     }
 
     
@@ -357,20 +339,6 @@ class Chart {
     }
 
     setTooltipText(item, _this){
-        // OLD
-        // if (_this.zoomLevel == 1) //inietto negli span del tooltip le informazioni
-        //     return "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
-
-        // else if (_this.zoomLevel == 2)
-        //     return "Season " + item.number + "<br/>"
-        //         + "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
-
-        // else if (_this.zoomLevel == 3)
-        //     return "Season " + item.season + ", Episode " + item.number + "<br/>"
-        //             + "Words per Hour: " + "<b>"+ (Math.round(item.wh * 100) / 100) + "</b>";
-
-        // NEW
-
         switch(_this.zoomLevel) {
             case 1: // Series
                 var str = (item.no_of_seasons == 1) ? "season" : "seasons";
@@ -445,7 +413,6 @@ class Chart {
                   .attr("y", 60)
                   .style("fill-opacity", 1e-6)
                   .remove();
-            //_this.svgY.selectAll("*").remove();
 
             // redraw the chart
             _this.draw();
@@ -501,8 +468,9 @@ class Chart {
 
         // move the bars
         _this.x.range([0, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)));
-        _this.focus.selectAll(".bar").attr("x", d => _this.x(d.id))
+        _this.focus.selectAll("rect").attr("x", d => _this.x(d.id))
                  .attr("width", _this.x.bandwidth())
+
 
         _this.focus.selectAll(".x-axis").call(_this.xAxis);
 

@@ -393,7 +393,7 @@ d3.json(url_data, function(error, json_data) {
 
     const chart = new Chart({
         element: document.querySelector('.chart-container'),
-        data: json_data
+        data: json_data,
     });
 
     $('input[name="zoomLevel"]').on('change', function (e) {
