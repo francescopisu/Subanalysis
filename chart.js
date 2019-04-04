@@ -291,6 +291,8 @@ class Chart {
             single_series.seasons.forEach(season => {
                 seasons.push({
                     id: id_season++,
+                    name: single_series.name,
+                    year: single_series.year,
                     number: +season.id_,
                     wh: +season.avg_wh,
                     logo_url: "posters/"+single_series.id_+".jpg",
@@ -310,6 +312,8 @@ class Chart {
                     episode_counter++;
                     episodes.push({
                         id: id_episode++,
+                        name: single_series.name,
+                        year: single_series.year,
                         number: +episode.id_,
                         wh: +episode.wh,
                         title: episode.title,
@@ -383,11 +387,13 @@ class Chart {
                 break;
 
             case 2: // Season
+                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.year + ")"  +"</br>")
                 $(".season-info").html("Season " + (item.number) + ", Episodes: " + item.no_of_episodes + "</br>")
                 $(".season-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
                 break;
 
             case 3: // Episode
+                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.year + ")"  +"</br>")
                 $(".episode-number").html((item.number) + ". ")
                 $(".episode-title").html(item.title + "</br>")
                 $(".episode-info").html("Season " + item.season + " | " + item.length + "min" + "</br>")

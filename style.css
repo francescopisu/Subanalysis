@@ -1,0 +1,366 @@
+
+  @import url(http://fonts.googleapis.com/css?family=Raleway:200,300,400,700);
+
+  @font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'codropsicons';
+    src:url('../fonts/codropsicons/codropsicons.eot');
+    src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+      url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+      url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+  }
+
+  body {
+  background: #fff;
+  color: #74777b;
+  font-weight: 500;
+  font-size: 1em;
+  font-family: 'Raleway', Arial, sans-serif;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+ .bar{
+    /* fill: steelblue; */
+  }
+
+  .bar:hover{
+    fill: brown;
+  }
+
+  .series_line{
+    opacity: 0.2;
+    pointer-events:none;
+  }
+
+  .season_line{
+    fill: black;
+    opacity: 0.15;
+    pointer-events: none;
+  }
+
+  .axis {
+    font: 10px sans-serif;
+    background: ;
+  }
+
+  .x-axis {
+    font: 9px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+
+
+
+  /*.tooltip {
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+  height: 55px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: rgba(0,0,0,0.3);
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  }*/
+
+  .tooltip {
+  display: inline;
+  position: relative;
+  z-index: 999;
+}
+
+/* Trigger text */
+
+.tooltip-item {
+  background: rgba(255,255,255,0.3);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+/* Gap filler */
+
+.tooltip-item::after {
+  content: '';
+  position: absolute;
+  width: 360px;
+  height: 20px;
+  bottom: 100%;
+  left: 50%;
+  pointer-events: none;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.tooltip:hover .tooltip-item::after {
+  pointer-events: auto;
+}
+
+/* Tooltip */
+
+.tooltip-content {
+  position: absolute;
+  z-index: 9999;
+  /*width: 530px;*/
+  left: 50%;
+  margin: 0 0 20px -180px;
+  bottom: 100%;
+  text-align: left;
+  font-size: 0.765em;
+  line-height: 1.4;
+  box-shadow: -5px -5px 15px rgba(48,54,61,0.2);
+  background: #fff;
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.tooltip-effect-1 .tooltip-content {
+  -webkit-transform: translate3d(0,-10px,0);
+  transform: translate3d(0,-10px,0);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.tooltip .tooltip-content {
+  pointer-events: auto;
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0) rotate3d(0,0,0,0);
+  transform: translate3d(0,0,0) rotate3d(0,0,0,0);
+}
+
+
+
+/* Tooltip content*/
+
+.tooltip-content img {
+  position: relative;
+  height: 200px;
+  display: block;
+  float: left;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.tooltip-text {
+  font-family: "Verdana", "Arial", sans-serif;
+  line-height: 1.35;
+  display: block;
+  color: #333;
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-top: 6px;
+}
+
+/* Sto dando la dimensione allo span che contiene il tooltip per le serie */
+.series {
+  width: 530px;
+}
+
+.season {
+  width: 350px;
+  height: 100px;
+}
+
+.episode {
+  width: 330px;
+}
+
+.series-number {
+  font-size: 14px;
+}
+
+.series-name {
+  /*font-weight: bold;*/
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.padding-left {
+  padding-left: 10px;
+}
+
+
+.series-info {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.series-summary {
+  padding-top: 5px;
+}
+
+.series-avg-wh {
+  padding-top: 10px;
+  position: absolute;
+  top: 185px;
+  left: 155px;
+  font-size: 13px;
+}
+
+.season-avg-wh {
+  padding-top: 10px;
+  /*position: absolute;
+  top: 75px;
+  left: 90px;*/
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.season-info {
+  padding-left: 10px;
+}
+
+.episode-wh {
+  padding-top: 10px;
+  position: absolute;
+  top: 185px;
+  left: 155px;
+  font-size: 13px;
+}
+
+.episode-number {
+  font-size: 14px;
+}
+
+.episode-title {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.episode-info {
+  padding-top: 5px;
+}
+
+.episode-summary {
+  padding-top: 5px;
+}
+
+.tooltip-effect-5 .tooltip-text {
+  padding: 1.4em;
+}
+
+.tooltip-text a {
+  font-weight: bold;
+}
+
+.dummy {
+  text-align: left;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.dummy-text {
+  font-size: 1.65em;
+}
+
+.title-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.title-text h1 {
+  font-size: 2.50em;
+}
+
+.wrapper {
+
+}
+
+.chart-container {
+    /*text-align: center;
+    margin-top: 5%;*/
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+    text-align: center;
+  }
+
+.interaction-menu {
+  font-size: 0.7em;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 15px;
+  height: 30px;
+}
+
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 5px;
+     height: 18px;
+     width: 18px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 5px;
+     top: 1px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 300 14px/1.7 'Open Sans', sans-serif;
+     color: #666;
+     cursor: pointer;
+} 
+
+
+
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+#svgChart {
+  display: block;
+  margin: auto;
+}
+
+.svg-y-responsive {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+
