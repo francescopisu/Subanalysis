@@ -2,6 +2,7 @@ class Chart {
     constructor(opts) {
         // load in arguments from config object
         this.data = opts.data; //data
+        this.data.sort(this.dynamicSort("avg_wh"));
         console.log(this.data);
 
         // 1 = series, 2 = seasons, 3 = episodes. Start from the series
@@ -12,6 +13,9 @@ class Chart {
 
         // extract the data and draw the chart
         this.extractElements();
+        console.log(this.series);
+        // console.log(this.seasons);
+        // console.log(this.episodes);
         this.draw();
     }
 
@@ -33,7 +37,7 @@ class Chart {
         // Define svg Chart
         this.svgChart = d3.select("#svgChart");
 
-         
+
         // Draw responsive svg chart
         this.svgChart.attr("preserveAspectRatio", "xMinYMin meet")
            .attr("viewBox", "0 0 " + (this.width + this.widthOffset) + " " + (this.height+this.heightOffset))
@@ -118,7 +122,7 @@ class Chart {
             .selectAll("text")
             .style("text-anchor", "middle")
             .attr("dy", ".5em");
-            
+
 
         this.focus.append("g")
             .attr("class", "y-axis")
@@ -176,7 +180,7 @@ class Chart {
             this.bars.append("text")
             .attr("class", "series_labels")
             .text((item) => {
-                return (item.is_central) ? _this.data[item.series].name : "";
+                return (item.is_central) ? series[item.series].name : "";
                 })
             .attr('transform', (d,i)=>{
                 return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+
@@ -199,7 +203,7 @@ class Chart {
                 //.delay(function(d,i){ return i*_this.getDelayValue()})
                 .attr("y", (item) => { return y(series[item.series].wh); })
                 .attr("height", (item) => { return height - y(series[item.series].wh); });
-            }   
+            }
 
         } else { //animation allowed, i.e when changing data
             this.bars.append("rect")
@@ -230,9 +234,9 @@ class Chart {
                 //.delay(function(d,i){ return i*_this.getDelayValue()})
                 .attr("y", (item) => { return y(series[item.series].wh); })
                 .attr("height", (item) => { return height - y(series[item.series].wh); });
-            } 
+            }
         }
-        
+
 
         // These operation are always allowed because they don't involve transitions
         d3.selectAll(".bar")
@@ -251,7 +255,7 @@ class Chart {
         }
     }
 
-    
+
 
     getDelayValue() {
         return (this.zoomLevel == 1) ? 9  :
@@ -273,14 +277,15 @@ class Chart {
 
             // extract the series data
             series.push({
-                id: id_series++,
+                id: id_series,
                 name: single_series.name,
                 number: +single_series.id_,
+                // number: id_series,
                 wh: +single_series.avg_wh,
                 episode_length: +single_series.episode_length,
                 year: single_series.year,
                 logo_url: "posters/"+single_series.id_+".jpg",
-                series: +single_series.id_,
+                series: id_series, // position in this.series
                 genre: single_series.genre,
                 description: single_series.description,
                 no_of_seasons: single_series.seasons.length,
@@ -296,7 +301,7 @@ class Chart {
                     number: +season.id_,
                     wh: +season.avg_wh,
                     logo_url: "posters/"+single_series.id_+".jpg",
-                    series: +single_series.id_,
+                    series: id_series, // position in this.series
                     no_of_episodes: season.episodes.length,
                     is_central: +season.id_ == Math.round(single_series.seasons.length/2)
                 });
@@ -319,12 +324,13 @@ class Chart {
                         title: episode.title,
                         logo_url: "posters/"+single_series.id_+".jpg",
                         season: +season.id_,
-                        series: +single_series.id_,
+                        series: id_series, // position in this.series
                         length: episode.length,
                         is_central: episode_counter == Math.round(n_episodes/2)
                     });
                 });
             });
+            id_series++;
         });
 
         this.series   = series;
@@ -345,7 +351,7 @@ class Chart {
                                        this.episodes;
     }
 
-    
+
     getScaleExtent() {
         return (this.zoomLevel == 1) ? [1, 8]  :
                (this.zoomLevel == 2) ? [1, 25] :
@@ -520,6 +526,23 @@ class Chart {
             return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
         .attr('x', 0)
         .attr('y', 0)
+    }
+
+    orderByWh(){
+        this.data.sort((a,b) => (a.avg_wh > b.avg_wh) ? 1 : ((b.avg_wh > a.avg_wh) ? -1 : 0));
+    }
+
+    dynamicSort(property) {
+        // many thanks to Ege Özcan https://stackoverflow.com/a/4760279
+        var sortOrder = 1;
+        if(property[0] === "-") {
+            sortOrder = -1;
+            property = property.substr(1);
+        }
+        return function (a,b) {
+            var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+            return result * sortOrder;
+        }
     }
 
 }
