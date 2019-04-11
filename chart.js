@@ -27,7 +27,8 @@ class Chart {
         var _this = this;
 
         // Interaction menu dimensions depend on svg
-        $(".interaction-menu").width(this.width - 130)
+        // $(".interaction-menu").width(this.width - 150)
+        // $(".content").width(this.width - 150)
 
 
         // Define svg Chart
