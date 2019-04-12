@@ -578,7 +578,6 @@ class Chart {
 
     setSortingType(sortingType){
         this.sortingType = sortingType;
-        console.log(sortingType)
 
         if (sortingType == DESCENDING)
             this.data.sort(this.dynamicSort("-" + this.sortingParameter));
