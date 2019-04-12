@@ -4,13 +4,6 @@ const SEASONS  = 2;
 const EPISODES = 3;
 
 // sorting types
-// const STANDARD = 1;
-// const NAME     = 2;
-// const WH       = 3;
-// const GENRE    = 4;
-// const YEAR     = 5;
-// const DURATION = 6;
-
 const DESCENDING = false;
 const ASCENDING  = true;
 
@@ -32,7 +25,7 @@ class Chart {
 
         // set the zoom, the sorting and the filters
         this.zoomLevel = SERIES;
-        this.sortingParameter  = "wh";
+        this.sortingParameter  = "id_";
         this.sortingType = ASCENDING;
         this.filters = [];
         this.filters[ACTION]      = true;
@@ -578,8 +571,16 @@ class Chart {
 
     setSortingType(sortingType){
         this.sortingType = sortingType;
+        this.sortData();
+    }
 
-        if (sortingType == DESCENDING)
+    setSortingParameter(sortingParameter){
+        this.sortingParameter = sortingParameter;
+        this.sortData();
+    }
+
+    sortData(){
+        if (this.sortingType == DESCENDING)
             this.data.sort(this.dynamicSort("-" + this.sortingParameter));
         else
             this.data.sort(this.dynamicSort(this.sortingParameter));

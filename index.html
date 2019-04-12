@@ -117,19 +117,19 @@
         <p class="order-panel-title"> Ordering: </p>
         <p class="order-opt"> Sorting Parameter </p>
         <div class="left-order-panel">
-          <input type="radio" name="ordering-type" value="standard" id="standard" class="form-radio" checked><label for="standard">Standard</label>
+          <input type="radio" name="sorting-parameter" value="id_" id="id_" class="form-radio" checked><label for="standard">Standard</label>
           <br>
-          <input type="radio" name="ordering-type" value="wh" id="wh" class="form-radio"><label for="wh">W/h</label>
+          <input type="radio" name="sorting-parameter" value="wh" id="wh" class="form-radio"><label for="wh">W/h</label>
           <br>
-          <input type="radio" name="ordering-type" value="year" id="year" class="form-radio"><label for="year">Year</label>
+          <input type="radio" name="sorting-parameter" value="year" id="year" class="form-radio"><label for="year">Year</label>
         </div>
 
         <div class="right-order-panel">
-          <input type="radio" name="ordering-type" value="name" id="name" class="form-radio"><label for="name">Name</label>
+          <input type="radio" name="sorting-parameter" value="name" id="name" class="form-radio"><label for="name">Name</label>
           <br>
-          <input type="radio" name="ordering-type" value="genre" id="genre" class="form-radio"><label for="genre">Genre</label>
+          <input type="radio" name="sorting-parameter" value="genre" id="genre" class="form-radio"><label for="genre">Genre</label>
           <br>
-          <input type="radio" name="ordering-type" value="duration" id="duration" class="form-radio"><label for="duration">Duration</label>
+          <input type="radio" name="sorting-parameter" value="episode_length" id="episode_length" class="form-radio"><label for="duration">Duration</label>
         </div>
 
         <hr class="style14" id="ordering-separator">
@@ -200,6 +200,8 @@ d3.json(url_data, function(error, json_data) {
         chart.zoomLevel = Number(e.target.value);
         chart.changeData(chart) })
 
+
+
     // resize the size of the chart and redraw it if the window changes
     $(window).resize(function() {
         //$(".content").width($(".interaction-menu").width())
@@ -228,6 +230,13 @@ d3.json(url_data, function(error, json_data) {
         });
     });
 
+    // ------------ SORT
+    // sorting parameter handler
+    $('input[name="sorting-parameter"]').on('change', function (e) {
+        // set the sorting parameter via radio buttons
+        // console.log(e.target.value);
+        chart.setSortingParameter(e.target.value) })
+
     var toggle = document.getElementById('container-switch');
     var toggleContainer = document.getElementById('toggle-container');
     var toggleNumber = ASCENDING;
@@ -244,6 +253,7 @@ d3.json(url_data, function(error, json_data) {
       chart.setSortingType(toggleNumber);
     });
 
+    // ------------ FILTERS
     $(".year-multi-range").ionRangeSlider({
             type: "double",
             skin: "flat",
