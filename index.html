@@ -241,8 +241,7 @@ d3.json(url_data, function(error, json_data) {
         toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
         toggleContainer.style.backgroundColor = '#D74046';
       }
-      console.log(toggleNumber);
-      chart.setSortingOrder(toggleNumber);
+      chart.setSortingType(toggleNumber);
     });
 
     $(".year-multi-range").ionRangeSlider({

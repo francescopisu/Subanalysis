@@ -32,8 +32,8 @@ class Chart {
 
         // set the zoom, the sorting and the filters
         this.zoomLevel = SERIES;
-        this.sortingType  = "wh";
-        this.sortingOrder = ASCENDING;
+        this.sortingParameter  = "wh";
+        this.sortingType = ASCENDING;
         this.filters = [];
         this.filters[ACTION]      = true;
         this.filters[COMEDY]      = true;
@@ -42,7 +42,7 @@ class Chart {
         this.filters[HISTORICAL]  = true;
         this.filters[SCIENCE]     = true;
 
-        this.data.sort(this.dynamicSort(this.sortingType));
+        this.data.sort(this.dynamicSort(this.sortingParameter));
         console.log(this.data);
 
         // extract the data and draw the chart
@@ -576,14 +576,14 @@ class Chart {
         }
     }
 
-    setSortingOrder(sortingOrder){
-        this.sortingOrder = sortingOrder;
-        console.log(sortingOrder)
+    setSortingType(sortingType){
+        this.sortingType = sortingType;
+        console.log(sortingType)
 
-        if (sortingOrder == DESCENDING)
-            this.data.sort(this.dynamicSort("-" + this.sortingType));
+        if (sortingType == DESCENDING)
+            this.data.sort(this.dynamicSort("-" + this.sortingParameter));
         else
-            this.data.sort(this.dynamicSort(this.sortingType));
+            this.data.sort(this.dynamicSort(this.sortingParameter));
 
         this.clear()
         this.extractElements();
