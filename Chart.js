@@ -18,7 +18,11 @@ const SCIENCE     = 5;
 class Chart {
     constructor(opts) {
         // load in arguments from config object
-        this.data = opts.data; //data
+        this.original_data = JSON.parse(JSON.stringify(opts.data)); //data
+        this.data = JSON.parse(JSON.stringify(opts.data)); //data
+        // this.data = opts.data;
+        // ^ VORREI CHE FOSSERO DUE OGGETTI DIVERSI MA MI SA CHE PUNTANO \
+        //   ALLO STESSO OGGETTO E NON VA AFFATTO BENE
 
         this.animation = true;
         this.lastTransform = null;
@@ -40,7 +44,7 @@ class Chart {
 
         // extract the data and draw the chart
         this.extractElements();
-        console.log(this.series);
+        // console.log(this.series);
         // console.log(this.seasons);
         // console.log(this.episodes);
 
@@ -116,7 +120,6 @@ class Chart {
         this.bars = this.clipp.selectAll(".bar")
                       .data(this.getCurrentData())
                       .enter();
-
     }
 
     createScalesAndAxes() {
@@ -159,7 +162,7 @@ class Chart {
             //.attr('transform', 'translate('+ this.margin.left + ',' + (this.margin.top + this.height) + ')')
             //.attr('transform', 'translate(' + (this.margin.left + this.width) + ',' + this.margin.top +')'
             .attr("transform","translate(0,0)")
-            .call(this.yAxis)
+            .call(this.yAxis);
 
         this.focus
             .append("text")
@@ -168,9 +171,7 @@ class Chart {
             .attr("y", -40)
             .attr("x",-this.height/2)
             .style("text-anchor", "middle")
-            .text("Words per Hour")
-
-
+            .text("Words per Hour");
     }
 
 
@@ -185,11 +186,11 @@ class Chart {
         // Seleziono il tooltip in base al livello di zoom
         switch(this.zoomLevel) {
             case SERIES:   this.series_tooltip  = d3.select("#series-tooltip")
-                                             .style("opacity", 0); break;
+                                                    .style("opacity", 0); break;
             case SEASONS:  this.season_tooltip  = d3.select("#season-tooltip")
-                                             .style("opacity", 0); break;
+                                                    .style("opacity", 0); break;
             case EPISODES: this.episode_tooltip = d3.select("#episode-tooltip")
-                                             .style("opacity", 0); break;
+                                                    .style("opacity", 0); break;
         }
 
         // Bar animation enabled only the first time after: a) loading b) changing data. Not enabled when resizing and redrawing the chart
@@ -270,8 +271,8 @@ class Chart {
 
         // These operation are always allowed because they don't involve transitions
         d3.selectAll(".bar")
-        .on("mouseover", function(item) { _this.showTooltip(item, _this); })
-        .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
+            .on("mouseover", function(item) { _this.showTooltip(item, _this); })
+            .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
 
 
         if (this.zoomLevel == 3) {
@@ -401,7 +402,6 @@ class Chart {
         if (genre == "War")         return '#8B4513'; // marron
 
         return "#ffffff"
-        // return "#000000"
     }
 
     setTooltipText(item, _this){
@@ -474,88 +474,58 @@ class Chart {
 
     // Nuova funzione per prendere il livello di zoom dal radio button selezionato
     // imposto zoomLevel e poi pulisco l'svg attuale prima di ridisegnarlo
-    changeData(_this) {
-            this.animation = true
-            // remove the old bars
-            _this.focus.selectAll("*")
-                 //  .transition()
-                 //  .duration(300)
-                 //  .attr("y", 0)
-                 // .style("fill-opacity", 1e-6)
-                  .remove();
+    setZoomLevelAndData(zoomLevel) {
+        this.zoomLevel = zoomLevel;
+        this.animation = true
+        // remove the old bars
+        this.focus.selectAll("*")
+             //  .transition()
+             //  .duration(300)
+             //  .attr("y", 0)
+             // .style("fill-opacity", 1e-6)
+              .remove();
 
-            // redraw the chart
-            _this.draw();
+        // redraw the chart
+        this.draw();
 
-            // move the chart to the previous zoomed state
-            if (_this.lastTransform != null) _this.zoomed(_this);
-
-    }
-
-
-    dropDown(_this, e){
-        console.log(e.target.value)
-
-        // seleziona le prime 10 serie, giusto per testarlo a cazzo
-        var i=0;
-        var series = []
-        this.data.forEach(single_series => {
-            if (single_series.id_ < 10){
-                series.push({
-                    id: i++,
-                    name: single_series.name,
-                    number: +single_series.id_,
-                    wh: +single_series.wh,
-                    episode_length: +single_series.episode_length,
-                    year: single_series.year,
-                    logo_url: "posters/"+single_series.id_+".jpg",
-                    series: +single_series.id_,
-                    genre: single_series.genre,
-                    description: single_series.description,
-                    no_of_seasons: single_series.seasons.length,
-                    is_central: true
-                })
-            }
-        });
-        _this.series = series;
-
-        _this.changeData(_this);
+        // move the chart to the previous zoomed state
+        this.zoomed(this);
     }
 
     zoomed(_this){
         if (d3.event) _this.lastTransform = d3.event.transform;
 
-        if (_this.zoomLevel == EPISODES && _this.lastTransform.k > 13 ||
-            _this.zoomLevel == SEASONS  && _this.lastTransform.k > 2     ){
-            // show labels and ticks
-            var labels = this.getCurrentData().map(item => item.number)
-            this.xAxis.tickFormat((d, i) => { return labels[i] }).tickSize(3);
+        if (_this.lastTransform){
+            if (_this.zoomLevel == EPISODES && _this.lastTransform.k > 13 ||
+                _this.zoomLevel == SEASONS  && _this.lastTransform.k > 2     ){
+                // show labels and ticks
+                var labels = this.getCurrentData().map(item => item.number)
+                this.xAxis.tickFormat((d, i) => { return labels[i] }).tickSize(3);
+            }
+            else {
+                // hide labels and ticks
+                _this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
+            }
+
+            // move the bars
+            _this.x.range([80, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)-80));
+            _this.focus.selectAll("rect").attr("x", d => _this.x(d.id))
+                     .attr("width", _this.x.bandwidth())
+
+
+            _this.focus.selectAll(".x-axis").call(_this.xAxis);
+
+            // move the series labels
+            _this.focus.selectAll(".series_labels")
+            .attr('transform', (d,i)=>{
+                return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
+            .attr('x', 0)
+            .attr('y', 0)
         }
-        else {
-            // hide labels and ticks
-            this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
-        }
-
-        // move the bars
-        _this.x.range([80, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)-80));
-        _this.focus.selectAll("rect").attr("x", d => _this.x(d.id))
-                 .attr("width", _this.x.bandwidth())
-
-
-        _this.focus.selectAll(".x-axis").call(_this.xAxis);
-
-        // move the series labels
-        _this.focus.selectAll(".series_labels")
-        .attr('transform', (d,i)=>{
-            return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
-        .attr('x', 0)
-        .attr('y', 0)
     }
 
-    orderByWh(){
-        this.data.sort((a,b) => (a.wh > b.wh) ? 1 : ((b.wh > a.wh) ? -1 : 0));
-    }
 
+    // ----------- SORTING
     dynamicSort(property) {
         // many thanks to Ege Özcan https://stackoverflow.com/a/4760279
         var sortOrder = 1;
