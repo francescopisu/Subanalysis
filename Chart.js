@@ -28,7 +28,7 @@ class Chart {
         // extract the data and draw the chart
         this.extractElements();
 
-        // console.log(this.series);
+        console.log(this.series);
         // console.log(this.seasons);
         // console.log(this.episodes);
 
@@ -273,7 +273,8 @@ class Chart {
             .attr("class", "season_line")
             .attr("x", (item) => { return x(item.id); })
             .attr("width", this.x.bandwidth()/2)
-            .attr("y", (item) => { return y(_this.data[item.series].seasons[item.season-1].wh); })
+            .attr("y", (item) => { return y(series[item.series]
+                                            .seasons_wh[item.season-1]); })
             .attr("height", 1);
         }
     }
@@ -307,7 +308,8 @@ class Chart {
                     genre: single_series.genre,
                     description: single_series.description,
                     no_of_seasons: single_series.seasons.length,
-                    is_central: true
+                    is_central: true,
+                    seasons_wh: []
                 });
 
                 // extract the seasons data
@@ -323,6 +325,8 @@ class Chart {
                         no_of_episodes: season.episodes.length,
                         is_central: +season.id_ == Math.round(single_series.seasons.length/2)
                     });
+
+                    series[id_series].seasons_wh.push(+season.wh);
 
                     // extract the episodes data
 
