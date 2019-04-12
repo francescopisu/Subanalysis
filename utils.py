@@ -37,7 +37,7 @@ def extract_series_data_from_specs(specs):
 
     csv_reader = csv.DictReader(specs)
     for row in csv_reader:
-        current_series.id_ = row['id']
+        current_series.id_ = int(row['id'])
         current_series.name = row['name']
         current_series.episode_length = int(row['length'])
         current_series.genre = row['genre']
