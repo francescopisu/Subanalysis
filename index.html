@@ -1,17 +1,18 @@
 <!-- load in D3 and Chart constructor scripts -->
-<script src="chart.js"></script>
+<script src="Chart.js"></script>
+<script src="SortAndFilter.js"></script>
 <script src="http://d3js.org/d3.v4.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css" />
  <!--Plugin CSS file with desired skin-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css"/>
-    
+
     <!--jQuery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
+
     <!--Plugin JavaScript file-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
-    
+
 
 
 <body>
@@ -74,29 +75,29 @@
     <input type="radio" name="zoomLevel" value="2" id="seasons_data" class="form-radio"><label for="radio-one">Seasons</label>
     <input type="radio" name="zoomLevel" value="3" id="episodes_data" class="form-radio"><label for="radio-one">Episodes</label>
 
-    <button class="collapsible"></button> 
+    <button class="collapsible"></button>
 
     <div class="content">
-      <div class="filter-panel"> 
+      <div class="filter-panel">
         <p class="filter-panel-title"> Filtering: </p>
         <p class="filter-opt"> Genres </p>
 
-        <div class="left-filter-panel"> 
+        <div class="left-filter-panel">
           <input type="checkbox" name="genre-filter" class="form-checkbox" id="action" checked><label for="action">Action</label>
           <br>
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="drama"><label for="action">Drama</label>
+          <input type="checkbox" name="genre-filter" class="form-checkbox" id="drama" checked><label for="action">Drama</label>
           <br>
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="science-fiction"><label for="action">Science</label>
+          <input type="checkbox" name="genre-filter" class="form-checkbox" id="science-fiction" checked><label for="action">Science</label>
         </div>
 
-        <div class="right-filter-panel"> 
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="documentary"><label for="action">Documentary</label>
+        <div class="right-filter-panel">
+          <input type="checkbox" name="genre-filter" class="form-checkbox" id="documentary" checked><label for="action">Documentary</label>
           <br>
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="historical"><label for="action">Historical</label>
+          <input type="checkbox" name="genre-filter" class="form-checkbox" id="historical" checked><label for="action">Historical</label>
           <br>
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="comedy"><label for="action">Comedy</label>
+          <input type="checkbox" name="genre-filter" class="form-checkbox" id="comedy" checked><label for="action">Comedy</label>
         </div>
-        
+
         <hr class="style14">
 
         <p class="filter-opt"> Year range </p>
@@ -113,47 +114,47 @@
 
 
       </div>
-      <div class="order-panel"> 
-        <p class="order-panel-title"> Ordering: </p> 
+      <div class="order-panel">
+        <p class="order-panel-title"> Ordering: </p>
         <p class="order-opt"> Sorting Parameter </p>
-        <div class="left-order-panel"> 
+        <div class="left-order-panel">
           <input type="radio" name="ordering-type" value="standard" id="standard" class="form-radio" checked><label for="standard">Standard</label>
           <br>
-          <input type="radio" name="ordering-type" value="wh" id="wh" class="form-radio"><label for="wh">W/h</label> 
+          <input type="radio" name="ordering-type" value="wh" id="wh" class="form-radio"><label for="wh">W/h</label>
           <br>
           <input type="radio" name="ordering-type" value="year" id="year" class="form-radio"><label for="year">Year</label>
         </div>
-        
+
         <div class="right-order-panel">
           <input type="radio" name="ordering-type" value="name" id="name" class="form-radio"><label for="name">Name</label>
-          <br>  
-          <input type="radio" name="ordering-type" value="genre" id="genre" class="form-radio" checked><label for="genre">Genre</label>
+          <br>
+          <input type="radio" name="ordering-type" value="genre" id="genre" class="form-radio"><label for="genre">Genre</label>
           <br>
           <input type="radio" name="ordering-type" value="duration" id="duration" class="form-radio"><label for="duration">Duration</label>
         </div>
 
         <hr class="style14" id="ordering-separator">
-        
+
         <div class="bottom-order-panel">
           <p class="order-opt"> Sorting type </p>
           <!-- <input type="radio" name="sort-type" value="ascending" id="ascending" class="form-radio"><label for="name">Ascending</label>
-          <br>  
+          <br>
           <input type="radio" name="sort-type" value="descending" id="descending" class="form-radio" checked><label for="genre">Descending</label> -->
           <div id="container-switch">
             <div class="inner-container">
               <div class="toggle">
-                <p>Ascending</p>
+                <p>Descending</p>
               </div>
               <div class="toggle">
-                <p>Descending</p>
+                <p>Ascending</p>
               </div>
             </div>
             <div class="inner-container" id='toggle-container'>
               <div class="toggle">
-                <p>Ascending</p>
+                <p>Descending</p>
               </div>
               <div class="toggle">
-                <p>Descending</p>
+                <p>Ascending</p>
               </div>
             </div>
           </div>
@@ -164,7 +165,7 @@
       </div>
     </div>
   </div>
-  
+
 </div>
 
 
@@ -189,78 +190,81 @@ d3.json(url_data, function(error, json_data) {
 
     if (error) throw error;
 
+    // create the chart
     const chart = new Chart({
         element: document.querySelector('.chart-container'),
-        data: json_data,
-    });
+        data: json_data });
 
+    // zoom level handler
     $('input[name="zoomLevel"]').on('change', function (e) {
-            // set the chosen zoomLevel via radio buttons
-            chart.zoomLevel = Number(e.target.value);
-            chart.changeData(chart) })
+        // set the chosen zoomLevel via radio buttons
+        chart.zoomLevel = Number(e.target.value);
+        chart.changeData(chart) })
 
+    // resize the size of the chart and redraw it if the window changes
     $(window).resize(function() {
-      //$(".content").width($(".interaction-menu").width())
-      chart.animation = false;
-      chart.width = window.innerWidth
-      chart.height = window.innerHeight
-      chart.clear()
-      chart.draw()
+        //$(".content").width($(".interaction-menu").width())
+        chart.animation = false;
+        chart.width = window.innerWidth
+        chart.height = window.innerHeight
+        chart.clear()
+        chart.draw()
     });
-})
 
-$(".collapsible").click(function () {
-    $header = $(this);
-    //getting the next element
-    $content = $(".content")
-    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
-    $content.slideToggle(350, function () {
-        //execute this after slideToggle is done
-        //change text of header based on visibility of content div
-        // $(".interaction-menu").toggleClass("noBottomBorder")
-        $header.text(function () {
 
-            //change text based on condition
-            return $content.is(":visible") ? "Collapse" : "Expand";
+    $(".collapsible").click(function () {
+        $header = $(this);
+        //getting the next element
+        $content = $(".content")
+        //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+        $content.slideToggle(350, function () {
+            //execute this after slideToggle is done
+            //change text of header based on visibility of content div
+            // $(".interaction-menu").toggleClass("noBottomBorder")
+            $header.text(function () {
+
+                //change text based on condition
+                return $content.is(":visible") ? "Collapse" : "Expand";
+            });
         });
     });
-});
 
 
-var toggle = document.getElementById('container-switch');
-var toggleContainer = document.getElementById('toggle-container');
-var toggleNumber;
+    var toggle = document.getElementById('container-switch');
+    var toggleContainer = document.getElementById('toggle-container');
+    var toggleNumber = false;
 
-toggle.addEventListener('click', function() {
-  toggleNumber = !toggleNumber;
-  if (toggleNumber) {
-    toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
-    toggleContainer.style.backgroundColor = '#D74046';
-  } else {
-    toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
-    toggleContainer.style.backgroundColor = 'dodgerblue';
-  }
-  console.log(toggleNumber)
-});
+    toggle.addEventListener('click', function() {
+      toggleNumber = !toggleNumber;
+      if (toggleNumber) {
+        toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
+        toggleContainer.style.backgroundColor = '#D74046';
+      } else {
+        toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
+        toggleContainer.style.backgroundColor = 'dodgerblue';
+      }
+      console.log(toggleNumber)
+    });
 
-$(".year-multi-range").ionRangeSlider({
-        type: "double",
-        skin: "flat",
-        min: 1950,
-        max: 2018,
-        from: 1966,
-        to: 1985,
-        grid: false
-});
+    $(".year-multi-range").ionRangeSlider({
+            type: "double",
+            skin: "flat",
+            min: 1950,
+            max: 2018,
+            from: 1950,
+            to: 2018,
+            grid: false
+    });
 
-$(".wh-multi-range").ionRangeSlider({
-        type: "double",
-        skin: "flat",
-        min: 0,
-        max: 15000,
-        from: 3000,
-        to: 8000,
-        grid: true
-});
+    $(".wh-multi-range").ionRangeSlider({
+            type: "double",
+            skin: "flat",
+            min: 0,
+            max: 15000,
+            from: 0,
+            to: 15000,
+            grid: true
+    });
 
+})
 </script>

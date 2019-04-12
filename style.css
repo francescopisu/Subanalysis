@@ -321,7 +321,7 @@
 
 .interaction-menu > input {
   margin-left: 10px;
-  margin-bottom: 1px 
+  margin-bottom: 1px
 }
 
 .interaction-menu > span {
@@ -379,7 +379,7 @@
 
 .container .content {
   position: relative;
-  /*display: none;*/
+  /* display: none; */
   box-shadow: 0 3px 2px -1px rgba(117,115,117,0.59);
   z-index: 999;
   background-color: rgba(255, 255, 255, 0.8);
@@ -398,7 +398,7 @@
 /*@media only screen and (max-width: 1012px) {
   .container .content {
     height: 260px;
-    -webkit-transition: height 0.2s; 
+    -webkit-transition: height 0.2s;
     transition: height 0.2s;
   }
 }*/
@@ -436,14 +436,14 @@
   margin-left: -35px !important;
 }
 
-hr.style14 { 
-  border: 0; 
-  height: 1px; 
+hr.style14 {
+  border: 0;
+  height: 1px;
   width: 90%;
   background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 }
 
 #ordering-separator {
@@ -505,7 +505,7 @@ hr.style14 {
   width: 18px;
   border: 0;
   border-radius: 50px;
-  cursor: pointer;     
+  cursor: pointer;
   margin-right: 7px;
   outline: none;
 }
@@ -532,7 +532,7 @@ label
      font: 300 14px/1.7 'Open Sans', sans-serif;
      color: #666;
      cursor: pointer;
-} 
+}
 
 /* MULTI RANGE SLIDER */
 .irs--flat .irs-bar {
@@ -579,7 +579,7 @@ label
   width: 18px;
   border: 0;
   border-radius: 3px;
-  cursor: pointer;     
+  cursor: pointer;
   margin-right: 7px;
   outline: none;
 }
@@ -684,10 +684,3 @@ a:hover {
 .toggle:nth-child(1) {
   right: 0;
 }
-
-
-
-
-
-
-
