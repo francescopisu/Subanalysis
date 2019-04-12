@@ -32,7 +32,7 @@ class Chart {
 
         // set the zoom, the sorting and the filters
         this.zoomLevel = SERIES;
-        this.sortingType  = "avg_wh";
+        this.sortingType  = "wh";
         this.sortingOrder = ASCENDING;
         this.filters = [];
         this.filters[ACTION]      = true;
@@ -287,7 +287,7 @@ class Chart {
             .attr("class", "season_line")
             .attr("x", (item) => { return x(item.id); })
             .attr("width", this.x.bandwidth()/2)
-            .attr("y", (item) => { return y(_this.data[item.series].seasons[item.season-1].avg_wh); })
+            .attr("y", (item) => { return y(_this.data[item.series].seasons[item.season-1].wh); })
             .attr("height", 1);
         }
     }
@@ -312,7 +312,7 @@ class Chart {
                 name: single_series.name,
                 number: +single_series.id_,
                 // number: id_series,
-                wh: +single_series.avg_wh,
+                wh: +single_series.wh,
                 episode_length: +single_series.episode_length,
                 year: single_series.year,
                 logo_url: "posters/"+single_series.id_+".jpg",
@@ -330,7 +330,7 @@ class Chart {
                     name: single_series.name,
                     year: single_series.year,
                     number: +season.id_,
-                    wh: +season.avg_wh,
+                    wh: +season.wh,
                     logo_url: "posters/"+single_series.id_+".jpg",
                     series: id_series, // position in this.series
                     no_of_episodes: season.episodes.length,
@@ -512,7 +512,7 @@ class Chart {
                     id: i++,
                     name: single_series.name,
                     number: +single_series.id_,
-                    wh: +single_series.avg_wh,
+                    wh: +single_series.wh,
                     episode_length: +single_series.episode_length,
                     year: single_series.year,
                     logo_url: "posters/"+single_series.id_+".jpg",
@@ -560,7 +560,7 @@ class Chart {
     }
 
     orderByWh(){
-        this.data.sort((a,b) => (a.avg_wh > b.avg_wh) ? 1 : ((b.avg_wh > a.avg_wh) ? -1 : 0));
+        this.data.sort((a,b) => (a.wh > b.wh) ? 1 : ((b.wh > a.wh) ? -1 : 0));
     }
 
     dynamicSort(property) {

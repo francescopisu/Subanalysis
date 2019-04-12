@@ -113,13 +113,13 @@ def compute_wh():
                                     print("words count: " + str(words_count) + " - words/hour: " + str(words_hour) + "\n")
 
                     # compute the average w/h for the current season
-                    current_season.avg_wh = get_average_wh_for_season(current_season)
+                    current_season.wh = get_average_wh_for_season(current_season)
 
                     # add current season to the current series
                     current_series.seasons.append(current_season)
 
             # compute the average w/h for the current series
-            current_series.avg_wh = get_average_wh_for_series(current_series)
+            current_series.wh = get_average_wh_for_series(current_series)
 
             # set the series description
             current_series.description = descriptions[description_index]
