@@ -585,8 +585,9 @@ class Chart {
         else
             this.data.sort(this.dynamicSort(this.sortingParameter));
 
-        this.clear()
+        this.clear();
         this.extractElements();
-        this.draw()
+        this.draw();
+        this.zoomed(this);
     }
 }
