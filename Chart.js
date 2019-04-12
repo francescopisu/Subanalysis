@@ -584,6 +584,25 @@ class Chart {
         this.extractElements();
         this.draw();
         this.zoomed(this);
-
     }
+
+    // reset filters
+    resetFilters() {
+        this.genres.clear();
+
+        this.clear();
+        this.extractElements();
+        this.draw();
+        this.zoomed(this);
+    }
+
+    // set all filters
+    setAllFilters() {
+        this.extractGenres();
+
+        this.clear();
+        this.extractElements();
+        this.draw();
+        this.zoomed(this);
+    }   
 }

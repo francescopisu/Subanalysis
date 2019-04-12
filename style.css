@@ -329,7 +329,7 @@
 }
 
 #data-label {
-  padding-left: 7px;
+  padding-left: 22px;
   padding-bottom: 10px;
 }
 
@@ -379,7 +379,7 @@
 
 .container .content {
   position: relative;
-  /* display: none; */
+  display: none; 
   box-shadow: 0 3px 2px -1px rgba(117,115,117,0.59);
   z-index: 999;
   background-color: rgba(255, 255, 255, 0.8);
@@ -389,10 +389,9 @@
   border-top: 1px solid white;
   padding-top: 10px;
   padding-bottom: 7px;
-  /*height: 250px;*/
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  height: 530px;
+  height: 450px;
 }
 
 /*@media only screen and (max-width: 1012px) {
@@ -408,7 +407,8 @@
   height: 100%;
   display: inline-block;
   /*padding-left: 7px;*/
-  padding-left: 4%;
+  padding-left: 3%;
+  padding-right: 3%;
   /*background-color: lightgreen;*/
   border-right: 1px solid #DDD8D7;
 }
@@ -420,20 +420,26 @@
   display: inline-block;
   /*padding-left: 7px;*/
   padding-left: 5%;
+  padding-right: 3%;
   /*background-color: orange;*/
   padding-bottom: 20px;
 }
 
 .filter-panel-title {
   text-transform: uppercase;
-  font-size: 13px;
   margin-left: -25px !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.0em;
+  letter-spacing: .1em;
 }
 
 .order-panel-title {
+  text-align: center;
   text-transform: uppercase;
-  font-size: 13px;
   margin-left: -35px !important;
+  font-size: 1.0em;
+  letter-spacing: .1em;
 }
 
 hr.style14 {
@@ -447,11 +453,15 @@ hr.style14 {
 }
 
 #ordering-separator {
-  margin-left: -5px;
+  margin-left: -10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .filter-opt {
-  font-size: 12px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: .2em;
 }
 
 .filter-opt > label {
@@ -459,7 +469,9 @@ hr.style14 {
 }
 
 .order-opt {
-  font-size: 12px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: .2em;
 }
 
 .left-order-panel {
@@ -476,18 +488,77 @@ hr.style14 {
 }
 
 .left-filter-panel {
-  width: 45% !important;
+  width: 32% !important;
   display: inline-block;
 
   /*background-color: grey;*/
 }
 
+.center-filter-panel {
+  width: 30% !important;
+  display: inline-block;
+  /*background-color: green;*/
+}
+
 .right-filter-panel {
-  width: 45% !important;
+  width: 30% !important;
   display: inline-block;
   /*background-color: lightblue;*/
 }
 
+
+.filler {
+  opacity: 0 !important;
+}
+
+.form-filter-controls {
+  display:table !important;
+  margin-bottom: 5px;
+}
+
+.form-filter-controls-cell {
+  display:table-cell !important;
+}
+
+p.text-style {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: .2em;
+  padding-left: 4px;
+}
+
+.w-100 {
+  width: 98% !important;
+}
+
+.tar {
+  text-align: right !important;
+}
+
+
+.form-button {
+  border: 2px solid #DDDDDD;
+  text-transform: uppercase;
+  padding: 2px 5px 2px 5px;
+  color: #74777b;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: .6em;
+  letter-spacing: .2em;
+}
+
+.form-button:hover {
+  border: 2px solid #b9b7b7;
+  transition: border 0.5s
+}
+
+.form-button:active {
+  border: 2px solid #5b5c5d;
+}
+
+.form-button:focus {
+  outline: none;
+}
 
 /* FINE INTERACTION MENU */
 
@@ -536,19 +607,19 @@ label
 
 /* MULTI RANGE SLIDER */
 .irs--flat .irs-bar {
-  background-color: dodgerblue !important;
+  background-color: #a6cee3 !important;
 }
 
 .irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
-  background-color: dodgerblue !important;
+  background-color: #a6cee3 !important;
 }
 
 .irs--flat .irs-handle>i:first-child {
-  background-color: #2078b4 !important;
+  background-color: #1e78b4 !important;
 }
 
 .irs--flat .irs-from:before, .irs--flat .irs-to:before, .irs--flat .irs-single:before{
-  border-top-color: #2078b4 !important;
+  border-top-color: #1e78b4 !important;
 }
 
 .irs--flat {
@@ -638,12 +709,14 @@ a:hover {
 #container-switch {
   width: 160px;
   height: 36px;
-  margin: auto;
+  /*margin: 0 auto;*/
   position: relative;
   border-radius: 6px;
   overflow: hidden;
   user-select: none;
   cursor: pointer;
+  margin-top: 5px;
+  margin-left: 22%
 }
 
 .inner-container {
@@ -663,7 +736,7 @@ a:hover {
 }
 
 .inner-container:nth-child(2) {
-  background: dodgerblue;
+  background: #a6cee3;
   color: white;
   clip-path: inset(0 50% 0 0);
   transition: .3s cubic-bezier(0,0,0,1);

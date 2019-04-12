@@ -78,46 +78,59 @@
 
     <div class="content">
       <div class="filter-panel">
-        <p class="filter-panel-title"> Filtering: </p>
-        <p class="filter-opt"> Genres </p>
+        <p class="filter-panel-title"> Filtering </p>
+          <form class="filter-form">
+            <div class="form-filter-controls w-100">
+              <p class="form-filter-controls-cell text-style">Filter</p>
+              <div class="form-filter-controls-cell tar">
+                <!-- <input type="reset" value="Reset"> -->
+                <button class="form-button" id="reset"> Reset </button>
+                <button class="form-button" id="check-all"> Check All </button>
+              </div>
+            </div>
 
-        <div class="left-filter-panel">
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Action" checked><label for="Action">Action</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Animation" checked><label for="Animation">Animation</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Comedy" checked><label for="Comedy">Comedy</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Documentary" checked><label for="Documentary">Documentary</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Fantasy" checked><label for="Fantasy">Fantasy</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Horror" checked><label for="Horror">Horror</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Romance" checked><label for="Romance">Romance</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Thriller" checked><label for="Thriller">Thriller</label>
-        </div>
+            <div class="left-filter-panel">
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Action" checked><label for="Action">Action</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Animation" checked><label for="Animation">Animation</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Comedy" checked><label for="Comedy">Comedy</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Documentary" checked><label for="Documentary">Documentary</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Fantasy" checked><label for="Fantasy">Fantasy</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Horror" checked><label for="Horror">Horror</label>
+            </div>
 
-        <div class="right-filter-panel">
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Adventure" checked><label for="Adventure">Adventure</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Biography" checked><label for="Biography">Biography</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Crime" checked><label for="Crime">Crime</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Drama" checked><label for="Drama">Drama</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="History" checked><label for="History">History</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Mystery" checked><label for="Mystery">Mystery</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Sci-Fi" checked><label for="Sci-Fi">Sci-Fi</label>
-            <br>
-            <input type="checkbox" name="genre-filter" class="form-checkbox" id="War" checked><label for="War">War</label>
-            <br>
-        </div>
+            <div class="center-filter-panel">
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Adventure" checked><label for="Adventure">Adventure</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Biography" checked><label for="Biography">Biography</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Crime" checked><label for="Crime">Crime</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Drama" checked><label for="Drama">Drama</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="History" checked><label for="History">History</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Mystery" checked><label for="Mystery">Mystery</label>
+            </div>
 
+            <div class="right-filter-panel">
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Romance" checked><label for="Romance">Romance</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Thriller" checked><label for="Thriller">Thriller</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Sci-Fi" checked><label for="Sci-Fi">Sci-Fi</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="War" checked><label for="War">War</label>
+              <br>
+              <input type="checkbox" class="form-checkbox filler" >
+              <br>
+              <input type="checkbox" class="form-checkbox filler">
+            </div>
+        </form>
         <hr class="style14">
 
         <p class="filter-opt"> Year range </p>
@@ -132,11 +145,11 @@
           <input type="text" class="wh-multi-range" name="wh-multi-range" value="" />
         </div>
 
-
       </div>
+
       <div class="order-panel">
-        <p class="order-panel-title"> Ordering: </p>
-        <p class="order-opt"> Sorting Parameter </p>
+        <p class="order-panel-title"> Ordering </p>
+        <p class="order-opt"> Sort Parameter </p>
         <div class="left-order-panel">
           <input type="radio" name="sorting-parameter" value="id_" id="id_" class="form-radio" checked><label for="standard">Standard</label>
           <br>
@@ -157,9 +170,6 @@
 
         <div class="bottom-order-panel">
           <p class="order-opt"> Sorting type </p>
-          <!-- <input type="radio" name="sort-type" value="ascending" id="ascending" class="form-radio"><label for="name">Ascending</label>
-          <br>
-          <input type="radio" name="sort-type" value="descending" id="descending" class="form-radio" checked><label for="genre">Descending</label> -->
           <div id="container-switch">
             <div class="inner-container">
               <div class="toggle">
@@ -169,6 +179,7 @@
                   <p>Ascending</p>
               </div>
             </div>
+
             <div class="inner-container" id='toggle-container'>
               <div class="toggle">
                   <p>Descending</p>
@@ -177,12 +188,11 @@
                   <p>Ascending</p>
               </div>
             </div>
+
           </div>
-
-
         </div>
-
       </div>
+
     </div>
   </div>
 
@@ -202,6 +212,8 @@
 <script>
 var url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
 var url_sample = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/sample.json"
+
+
 
 d3.json(url_data, function(error, json_data) {
     // TUTTO IL CODICE VA QUA DENTRO
@@ -249,6 +261,7 @@ d3.json(url_data, function(error, json_data) {
             });
         });
     });
+    
 
     // ------------ SORT
     // sorting parameter handler
@@ -264,10 +277,10 @@ d3.json(url_data, function(error, json_data) {
       toggleNumber = !toggleNumber;
       if (toggleNumber == ASCENDING) {
           toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
-          toggleContainer.style.backgroundColor = 'dodgerblue';
+          toggleContainer.style.backgroundColor = '#a6cee3';
       } else {
         toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
-        toggleContainer.style.backgroundColor = '#D74046';
+        toggleContainer.style.backgroundColor = '#d95f02';
       }
       chart.setSortingType(toggleNumber);
     });
@@ -278,8 +291,8 @@ d3.json(url_data, function(error, json_data) {
             skin: "flat",
             min: 1950,
             max: 2018,
-            from: 1950,
-            to: 2018,
+            from: 1962,
+            to: 2005,
             grid: false
     });
 
@@ -288,8 +301,8 @@ d3.json(url_data, function(error, json_data) {
             skin: "flat",
             min: 0,
             max: 15000,
-            from: 0,
-            to: 15000,
+            from: 2390,
+            to: 12153,
             grid: true
     });
 
@@ -297,5 +310,21 @@ d3.json(url_data, function(error, json_data) {
     $('input[name="genre-filter"]').on('change', function (e) {
         chart.setFilterInFiltersSet(e.target.id, e.target.checked); })
 
+
+    $("#reset").on("click", function(e) {
+        $('input[type="checkbox"]').prop('checked', false);
+        e.preventDefault();
+
+        chart.resetFilters();
+    })
+
+    $("#check-all").on("click", function(e) {
+        $('input[type="checkbox"]').prop('checked', true );
+        e.preventDefault();
+
+        chart.setAllFilters();
+    })
+
 })
+
 </script>
