@@ -1,6 +1,5 @@
 <!-- load in D3 and Chart constructor scripts -->
 <script src="Chart.js"></script>
-<script src="SortAndFilter.js"></script>
 <script src="http://d3js.org/d3.v4.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css" />
@@ -143,18 +142,18 @@
           <div id="container-switch">
             <div class="inner-container">
               <div class="toggle">
-                <p>Descending</p>
+                  <p>Ascending</p>
               </div>
               <div class="toggle">
-                <p>Ascending</p>
+                  <p>Descending</p>
               </div>
             </div>
             <div class="inner-container" id='toggle-container'>
               <div class="toggle">
-                <p>Descending</p>
+                <p>Ascending</p>
               </div>
               <div class="toggle">
-                <p>Ascending</p>
+                <p>Descending</p>
               </div>
             </div>
           </div>
@@ -229,7 +228,6 @@ d3.json(url_data, function(error, json_data) {
         });
     });
 
-
     var toggle = document.getElementById('container-switch');
     var toggleContainer = document.getElementById('toggle-container');
     var toggleNumber = false;
@@ -243,7 +241,8 @@ d3.json(url_data, function(error, json_data) {
         toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
         toggleContainer.style.backgroundColor = 'dodgerblue';
       }
-      console.log(toggleNumber)
+      console.log(toggleNumber);
+      chart.setSortingOrder(toggleNumber);
     });
 
     $(".year-multi-range").ionRangeSlider({
