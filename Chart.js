@@ -7,22 +7,10 @@ const EPISODES = 3;
 const DESCENDING = false;
 const ASCENDING  = true;
 
-// filter types
-const ACTION      = 0;
-const COMEDY      = 1;
-const DOCUMENTARY = 2;
-const DRAMA       = 3;
-const HISTORICAL  = 4;
-const SCIENCE     = 5;
-
 class Chart {
     constructor(opts) {
         // load in arguments from config object
-        this.original_data = JSON.parse(JSON.stringify(opts.data)); //data
-        this.data = JSON.parse(JSON.stringify(opts.data)); //data
-        // this.data = opts.data;
-        // ^ VORREI CHE FOSSERO DUE OGGETTI DIVERSI MA MI SA CHE PUNTANO \
-        //   ALLO STESSO OGGETTO E NON VA AFFATTO BENE
+        this.data = opts.data;
 
         this.animation = true;
         this.lastTransform = null;
@@ -31,27 +19,32 @@ class Chart {
         this.zoomLevel = SERIES;
         this.sortingParameter  = "id_";
         this.sortingType = ASCENDING;
-        this.filters = [];
-        this.filters[ACTION]      = true;
-        this.filters[COMEDY]      = true;
-        this.filters[DOCUMENTARY] = true;
-        this.filters[DRAMA]       = true;
-        this.filters[HISTORICAL]  = true;
-        this.filters[SCIENCE]     = true;
 
         this.data.sort(this.dynamicSort(this.sortingParameter));
         console.log(this.data);
 
+        this.extractGenres();
+
         // extract the data and draw the chart
         this.extractElements();
+
         // console.log(this.series);
         // console.log(this.seasons);
         // console.log(this.episodes);
+
 
         // draw everything
         this.draw();
     }
 
+    // create a Set containing the different genres; it will be used when filtering.
+    extractGenres(){
+        this.genres = new Set();
+        this.data.forEach(series => {
+                series.genre.split(" ").forEach(item => this.genres.add(item))
+        })
+        // console.log([...this.genres].sort());
+    }
 
     draw() {
         this.margin = {top: 20, right: 40, bottom: 70, left: 80};
@@ -66,7 +59,6 @@ class Chart {
         // Interaction menu dimensions depend on svg
         // $(".interaction-menu").width(this.width - 150)
         // $(".content").width(this.width - 150)
-
 
         // Define svg Chart
         this.svgChart = d3.select("#svgChart");
@@ -300,62 +292,64 @@ class Chart {
         this.data.forEach(single_series => {
             var episode_counter = 1;
 
-            // extract the series data
-            series.push({
-                id: id_series,
-                name: single_series.name,
-                number: +single_series.id_,
-                // number: id_series,
-                wh: +single_series.wh,
-                episode_length: +single_series.episode_length,
-                year: single_series.year,
-                logo_url: "posters/"+single_series.id_+".jpg",
-                series: id_series, // position in this.series
-                genre: single_series.genre,
-                description: single_series.description,
-                no_of_seasons: single_series.seasons.length,
-                is_central: true
-            });
-
-            // extract the seasons data
-            single_series.seasons.forEach(season => {
-                seasons.push({
-                    id: id_season++,
+            if (this.isSeriesAllowed(single_series)){
+                // extract the series data
+                series.push({
+                    id: id_series,
                     name: single_series.name,
+                    number: +single_series.id_,
+                    // number: id_series,
+                    wh: +single_series.wh,
+                    episode_length: +single_series.episode_length,
                     year: single_series.year,
-                    number: +season.id_,
-                    wh: +season.wh,
                     logo_url: "posters/"+single_series.id_+".jpg",
                     series: id_series, // position in this.series
-                    no_of_episodes: season.episodes.length,
-                    is_central: +season.id_ == Math.round(single_series.seasons.length/2)
+                    genre: single_series.genre,
+                    description: single_series.description,
+                    no_of_seasons: single_series.seasons.length,
+                    is_central: true
                 });
 
-                // extract the episodes data
-
-                // episodes count
-                var n_episodes = single_series.seasons
-                                    .map(season => season.episodes.length)
-                                    .reduce((a,b)=>a+b);
-
-                season.episodes.forEach(episode => {
-                    episode_counter++;
-                    episodes.push({
-                        id: id_episode++,
+                // extract the seasons data
+                single_series.seasons.forEach(season => {
+                    seasons.push({
+                        id: id_season++,
                         name: single_series.name,
                         year: single_series.year,
-                        number: +episode.id_,
-                        wh: +episode.wh,
-                        title: episode.title,
+                        number: +season.id_,
+                        wh: +season.wh,
                         logo_url: "posters/"+single_series.id_+".jpg",
-                        season: +season.id_,
                         series: id_series, // position in this.series
-                        length: episode.length,
-                        is_central: episode_counter == Math.round(n_episodes/2)
+                        no_of_episodes: season.episodes.length,
+                        is_central: +season.id_ == Math.round(single_series.seasons.length/2)
+                    });
+
+                    // extract the episodes data
+
+                    // episodes count
+                    var n_episodes = single_series.seasons
+                                        .map(season => season.episodes.length)
+                                        .reduce((a,b)=>a+b);
+
+                    season.episodes.forEach(episode => {
+                        episode_counter++;
+                        episodes.push({
+                            id: id_episode++,
+                            name: single_series.name,
+                            year: single_series.year,
+                            number: +episode.id_,
+                            wh: +episode.wh,
+                            title: episode.title,
+                            logo_url: "posters/"+single_series.id_+".jpg",
+                            season: +season.id_,
+                            series: id_series, // position in this.series
+                            length: episode.length,
+                            is_central: episode_counter == Math.round(n_episodes/2)
+                        });
                     });
                 });
-            });
-            id_series++;
+                id_series++;
+            }
         });
 
         this.series   = series;
@@ -396,7 +390,7 @@ class Chart {
         if (genre == "Drama")       return '#d95f02'; // arancione
         if (genre == "Fantasy")     return '#d95f02'; // arancione
         if (genre == "History")     return '#8B0000'; // rosso scuro
-        if (genre == "Mistery")     return '#A9A9A9'; // grigio
+        if (genre == "Mystery")     return '#A9A9A9'; // grigio
         if (genre == "Romance")     return '#f0027f'; // rosa
         if (genre == "Sci-Fi")      return '#191970'; // blu scuro
         if (genre == "War")         return '#8B4513'; // marron
@@ -526,6 +520,7 @@ class Chart {
 
 
     // ----------- SORTING
+    // this function returns a function used for sorting that property
     dynamicSort(property) {
         // many thanks to Ege Özcan https://stackoverflow.com/a/4760279
         var sortOrder = 1;
@@ -559,5 +554,32 @@ class Chart {
         this.extractElements();
         this.draw();
         this.zoomed(this);
+    }
+
+    // ------------ FILTERING
+    // returns true if the series respects all the filters
+    isSeriesAllowed(series){
+        // console.log(series.genre.split(" "))
+        var genres = this.genres;
+
+        // check if at least one genre of the series is present in the filters set
+        return  series.genre.split(" ")
+                            .reduce(
+                                function(result, item) {
+                                    return result || genres.has(item);
+                                }, false)
+    }
+
+    // add or remove a filter from the filters set
+    setFilterInFiltersSet(filterType, checked){
+        if (checked) this.genres.add(filterType);
+        else this.genres.delete(filterType);
+        // console.log(this.genres);
+
+        this.clear();
+        this.extractElements();
+        this.draw();
+        this.zoomed(this);
+
     }
 }

@@ -82,19 +82,40 @@
         <p class="filter-opt"> Genres </p>
 
         <div class="left-filter-panel">
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="action" checked><label for="action">Action</label>
-          <br>
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="drama" checked><label for="action">Drama</label>
-          <br>
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="science-fiction" checked><label for="action">Science</label>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Action" checked><label for="Action">Action</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Animation" checked><label for="Animation">Animation</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Comedy" checked><label for="Comedy">Comedy</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Documentary" checked><label for="Documentary">Documentary</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Fantasy" checked><label for="Fantasy">Fantasy</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Horror" checked><label for="Horror">Horror</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Romance" checked><label for="Romance">Romance</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Thriller" checked><label for="Thriller">Thriller</label>
         </div>
 
         <div class="right-filter-panel">
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="documentary" checked><label for="action">Documentary</label>
-          <br>
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="historical" checked><label for="action">Historical</label>
-          <br>
-          <input type="checkbox" name="genre-filter" class="form-checkbox" id="comedy" checked><label for="action">Comedy</label>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Adventure" checked><label for="Adventure">Adventure</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Biography" checked><label for="Biography">Biography</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Crime" checked><label for="Crime">Crime</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Drama" checked><label for="Drama">Drama</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="History" checked><label for="History">History</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Mystery" checked><label for="Mystery">Mystery</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="Sci-Fi" checked><label for="Sci-Fi">Sci-Fi</label>
+            <br>
+            <input type="checkbox" name="genre-filter" class="form-checkbox" id="War" checked><label for="War">War</label>
+            <br>
         </div>
 
         <hr class="style14">
@@ -232,7 +253,6 @@ d3.json(url_data, function(error, json_data) {
     // ------------ SORT
     // sorting parameter handler
     $('input[name="sorting-parameter"]').on('change', function (e) {
-        // set the sorting parameter via radio buttons
         // console.log(e.target.value);
         chart.setSortingParameter(e.target.value) })
 
@@ -272,6 +292,10 @@ d3.json(url_data, function(error, json_data) {
             to: 15000,
             grid: true
     });
+
+    // set the sorting parameter via radio buttons
+    $('input[name="genre-filter"]').on('change', function (e) {
+        chart.setFilterInFiltersSet(e.target.id, e.target.checked); })
 
 })
 </script>
