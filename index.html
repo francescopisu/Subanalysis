@@ -142,18 +142,18 @@
           <div id="container-switch">
             <div class="inner-container">
               <div class="toggle">
-                  <p>Ascending</p>
+                  <p>Descending</p>
               </div>
               <div class="toggle">
-                  <p>Descending</p>
+                  <p>Ascending</p>
               </div>
             </div>
             <div class="inner-container" id='toggle-container'>
               <div class="toggle">
-                <p>Ascending</p>
+                  <p>Descending</p>
               </div>
               <div class="toggle">
-                <p>Descending</p>
+                  <p>Ascending</p>
               </div>
             </div>
           </div>
@@ -230,16 +230,16 @@ d3.json(url_data, function(error, json_data) {
 
     var toggle = document.getElementById('container-switch');
     var toggleContainer = document.getElementById('toggle-container');
-    var toggleNumber = false;
+    var toggleNumber = ASCENDING;
 
     toggle.addEventListener('click', function() {
       toggleNumber = !toggleNumber;
-      if (toggleNumber) {
+      if (toggleNumber == ASCENDING) {
+          toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
+          toggleContainer.style.backgroundColor = 'dodgerblue';
+      } else {
         toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
         toggleContainer.style.backgroundColor = '#D74046';
-      } else {
-        toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
-        toggleContainer.style.backgroundColor = 'dodgerblue';
       }
       console.log(toggleNumber);
       chart.setSortingOrder(toggleNumber);
