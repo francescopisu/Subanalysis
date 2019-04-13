@@ -1,2 +1,2 @@
-id,name,length,genre,year
-38,Friends, 22,Comedy Romance,1994-2004
+id,name,length,genre,start_year,end_year
+38,Friends,22,Comedy Romance,1994,2004
