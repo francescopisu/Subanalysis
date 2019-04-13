@@ -26,6 +26,8 @@ class Chart {
         this.extractGenres();
         this.wh_min = 0;
         this.wh_max = 13000;
+        this.year_min = 1950;
+        this.year_max = 2019;
 
 
         // extract the data and draw the chart
@@ -578,12 +580,14 @@ class Chart {
         // - the series w/h in inside the w/h limits
         // - the series year in inside the years limits TODO
         // - at least one genre of the series is present in the filters set
-        return series.wh >= this.wh_min && series.wh <= this.wh_max &&
-                series.genre.split(" ")
+        return (series.wh >= this.wh_min && series.wh <= this.wh_max) &&
+               (series.start_year <= this.year_max &&
+                series.end_year   >= this.year_min) &&
+                (series.genre.split(" ")
                             .reduce(
                                 function(result, item) {
                                     return result || genres.has(item);
-                                }, false)
+                                }, false))
     }
 
     // add or remove a filter from the filters set
@@ -601,6 +605,16 @@ class Chart {
     setWhLimits(limits){
         this.wh_min = parseInt(limits.split(";")[0])
         this.wh_max = parseInt(limits.split(";")[1])
+
+        this.clear();
+        this.extractElements();
+        this.draw();
+        this.zoomed(this);
+    }
+
+    setYearLimits(limits){
+        this.year_min = parseInt(limits.split(";")[0])
+        this.year_max = parseInt(limits.split(";")[1])
 
         this.clear();
         this.extractElements();

@@ -301,9 +301,9 @@ d3.json(url_data, function(error, json_data) {
             type: "double",
             skin: "flat",
             min: 1950,
-            max: 2018,
-            from: 1962,
-            to: 2005,
+            max: 2019,
+            from: 1950,
+            to: 2019,
             grid: false
     });
 
@@ -321,9 +321,13 @@ d3.json(url_data, function(error, json_data) {
     $('input[name="genre-filter"]').on('change', function (e) {
         chart.setFilterInFiltersSet(e.target.id, e.target.checked); })
 
-    // set the sorting parameter via radio buttons
+    // set the w/h limits
     $('input[name="wh-multi-range"]').on('change', function (e) {
         chart.setWhLimits(e.target.value); })
+
+    // set the years limits
+    $('input[name="year-multi-range"]').on('change', function (e) {
+        chart.setYearLimits(e.target.value); })
 
 
     $("#reset").on("click", function(e) {
