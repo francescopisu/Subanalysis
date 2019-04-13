@@ -188,7 +188,10 @@ class Chart {
                                                     .style("opacity", 0); break;
         }
 
-        // Bar animation enabled only the first time after: a) loading b) changing data. Not enabled when resizing and redrawing the chart
+        // Bar animation enabled only the first time after:
+        // a) loading
+        // b) changing data.
+        // Not enabled when resizing and redrawing the chart
         if(this.animation) {
             this.bars.append("rect")
             .attr("class", "bar")
