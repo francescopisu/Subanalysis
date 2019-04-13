@@ -415,25 +415,31 @@ class Chart {
     }
 
     setTooltipText(item, _this){
+        // the series name it's the same for every tooltip
+        // set it according to the start-end values
+        if (item.start_year == item.end_year)
+            $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + ")"  +"</br>")
+        else if (item.end_year == 9999)
+            $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-)"  +"</br>")
+        else
+            $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-" + item.end_year + ")"  +"</br>")
+
         switch(_this.zoomLevel) {
             case SERIES:
                 var str = (item.no_of_seasons == 1) ? "season" : "seasons";
 
                 $(".series-number").html((item.id+1) + ". ")
-                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-" + item.end_year + ")"  +"</br>")
                 $(".series-info").html(item.episode_length + "min | " + item.genre + " | " + + item.no_of_seasons + " " + str + "</br>")
                 $(".series-summary").html(item.description + "</br>")
                 $(".series-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
                 break;
 
             case SEASONS:
-                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-" + item.end_year + ")"  +"</br>")
                 $(".season-info").html("Season " + (item.number) + ", Episodes: " + item.no_of_episodes + "</br>")
                 $(".season-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
                 break;
 
             case EPISODES:
-                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-" + item.end_year + ")"  +"</br>")
                 $(".episode-number").html((item.number) + ". ")
                 $(".episode-title").html(item.title + "</br>")
                 $(".episode-info").html("Season " + item.season + " | " + item.length + "min" + "</br>")
