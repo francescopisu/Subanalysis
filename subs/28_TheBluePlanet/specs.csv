@@ -1,2 +1,2 @@
-id,name,length,genre,year
-28,The Blue Planet, 50,Documentary,2001
+id,name,length,genre,start_year,end_year
+28,The Blue Planet,50,Documentary,2001,2001

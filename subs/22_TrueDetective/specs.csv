@@ -1,2 +1,2 @@
-id,name,length,genre,year
-22,True Detective, 55,Crime Drama Mystery,2014-
+id,name,length,genre,start_year,end_year
+22,True Detective,55,Crime Drama Mystery,2014,9999

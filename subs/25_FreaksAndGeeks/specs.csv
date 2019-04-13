@@ -1,2 +1,2 @@
-id,name,length,genre,year
-25,Freaks and Geeks, 44,Comedy Drama,1999
+id,name,length,genre,start_year,end_year
+25,Freaks and Geeks,44,Comedy Drama,1999,9999

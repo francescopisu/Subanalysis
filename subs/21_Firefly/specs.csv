@@ -1,2 +1,2 @@
-id,name,length,genre,year
-21,Firefly, 44,Sci-Fi Adventure Drama,2002
+id,name,length,genre,start_year,end_year
+21,Firefly,44,Sci-Fi Adventure Drama,2002,2002
