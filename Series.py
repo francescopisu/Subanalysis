@@ -3,17 +3,19 @@ class Series:
     name = ""
     episode_length = 0
     genre = []
-    year = ""
+    year = 0
     wh = 0
     description = ""
     seasons = []
 
-    def __init__(self, id_=0, name="", episode_length=0, genre=[], year="", wh=0, description = "", seasons=[]):
+    def __init__(self, id_=0, name="", episode_length=0, genre=[], \
+                start_year=0, end_year=0, wh=0, description = "", seasons=[]):
         self.id_ = id_
         self.name = name
         self.episode_length = episode_length
         self.genre = genre
-        self.year = year
+        self.start_year = start_year
+        self.end_year = end_year
         self.wh = wh
         self.description = description
         self.seasons = seasons
@@ -23,7 +25,8 @@ class Series:
             self.name + \
             ", ep. length: " + str(self.episode_length) + \
             ", genre: " + str(self.genre) + \
-            ", year: " + str(self.year) + \
+            ", start year: " + str(self.start_year) + \
+            ", end year: " + str(self.end_year) + \
             ", avg w/h: " + '%.2f' % self.wh + \
             ", description: " + str(self.description) + \
             ", seasons:\n"

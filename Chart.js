@@ -219,20 +219,20 @@ class Chart {
             .attr('x', 0)
             .attr('y', 0)
 
-            if (this.zoomLevel > 1) {
-                // series average w/h rectangle
-                this.bars.append("rect")
-                .attr("class", "series_line")
-                .attr("x", function(item) { return x(item.id); })
-                .attr("width", this.x.bandwidth())
-                .attr("y", y(0))
-                .attr("height", 0)
-                .transition()
-                .duration(500)
-                //.delay(function(d,i){ return i*_this.getDelayValue()})
-                .attr("y", (item) => { return y(series[item.series].wh); })
-                .attr("height", (item) => { return height - y(series[item.series].wh); });
-            }
+            // if (this.zoomLevel > 1) {
+            //     // series average w/h rectangle
+            //     this.bars.append("rect")
+            //     .attr("class", "series_line")
+            //     .attr("x", function(item) { return x(item.id); })
+            //     .attr("width", this.x.bandwidth())
+            //     .attr("y", y(0))
+            //     .attr("height", 0)
+            //     .transition()
+            //     .duration(500)
+            //     //.delay(function(d,i){ return i*_this.getDelayValue()})
+            //     .attr("y", (item) => { return y(series[item.series].wh); })
+            //     .attr("height", (item) => { return height - y(series[item.series].wh); });
+            // }
 
         } else { //animation allowed, i.e when changing data
             this.bars.append("rect")
@@ -309,7 +309,8 @@ class Chart {
                     // number: id_series,
                     wh: +single_series.wh,
                     episode_length: +single_series.episode_length,
-                    year: single_series.year,
+                    start_year: single_series.start_year,
+                    end_year: single_series.end_year,
                     logo_url: "posters/"+single_series.id_+".jpg",
                     series: id_series, // position in this.series
                     genre: single_series.genre,
@@ -324,7 +325,8 @@ class Chart {
                     seasons.push({
                         id: id_season++,
                         name: single_series.name,
-                        year: single_series.year,
+                        start_year: single_series.start_year,
+                        end_year: single_series.end_year,
                         number: +season.id_,
                         wh: +season.wh,
                         logo_url: "posters/"+single_series.id_+".jpg",
@@ -347,7 +349,8 @@ class Chart {
                         episodes.push({
                             id: id_episode++,
                             name: single_series.name,
-                            year: single_series.year,
+                            start_year: single_series.start_year,
+                            end_year: single_series.end_year,
                             number: +episode.id_,
                             wh: +episode.wh,
                             title: episode.title,
@@ -415,20 +418,20 @@ class Chart {
                 var str = (item.no_of_seasons == 1) ? "season" : "seasons";
 
                 $(".series-number").html((item.id+1) + ". ")
-                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.year + ")"  +"</br>")
+                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-" + item.end_year + ")"  +"</br>")
                 $(".series-info").html(item.episode_length + "min | " + item.genre + " | " + + item.no_of_seasons + " " + str + "</br>")
                 $(".series-summary").html(item.description + "</br>")
                 $(".series-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
                 break;
 
             case SEASONS:
-                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.year + ")"  +"</br>")
+                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-" + item.end_year + ")"  +"</br>")
                 $(".season-info").html("Season " + (item.number) + ", Episodes: " + item.no_of_episodes + "</br>")
                 $(".season-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
                 break;
 
             case EPISODES:
-                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.year + ")"  +"</br>")
+                $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-" + item.end_year + ")"  +"</br>")
                 $(".episode-number").html((item.number) + ". ")
                 $(".episode-title").html(item.title + "</br>")
                 $(".episode-info").html("Season " + item.season + " | " + item.length + "min" + "</br>")

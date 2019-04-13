@@ -41,7 +41,8 @@ def extract_series_data_from_specs(specs):
         current_series.name = row['name']
         current_series.episode_length = int(row['length'])
         current_series.genre = row['genre']
-        current_series.year = row['year']
+        current_series.start_year = row['start_year']
+        current_series.end_year = row['end_year']
 
     return current_series
 
