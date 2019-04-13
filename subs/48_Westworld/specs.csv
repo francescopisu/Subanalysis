@@ -1,2 +1,2 @@
-id,name,length,genre,year
-48,Westworld, 62,Sci-Fi Drama Mystery,2016-
+id,name,length,genre,start_year,end_year
+48,Westworld,62,Sci-Fi Drama Mystery,2016,9999

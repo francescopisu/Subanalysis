@@ -1,2 +1,2 @@
-id,name,length,genre,year
-47,Gravity Falls, 23,Animation Adventure Comedy,2012-2016
+id,name,length,genre,start_year,end_year
+47,Gravity Falls,23,Animation Adventure Comedy,2012,2016
