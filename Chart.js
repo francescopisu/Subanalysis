@@ -12,7 +12,7 @@ class Chart {
         // load in arguments from config object
         this.data = opts.data;
 
-        this.animation = true;
+        this.animation = false;
         this.lastTransform = null;
 
         // set the zoom, the sorting and the filters
@@ -24,6 +24,9 @@ class Chart {
         console.log(this.data);
 
         this.extractGenres();
+        this.wh_min = 0;
+        this.wh_max = 13000;
+
 
         // extract the data and draw the chart
         this.extractElements();
@@ -240,7 +243,7 @@ class Chart {
             this.bars.append("text")
             .attr("class", "series_labels")
             .text((item) => {
-                return (item.is_central) ? _this.data[item.series].name : "";
+                return (item.is_central) ? series[item.series].name : "";
                 })
             .attr('transform', (d,i)=>{
                 return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+
@@ -474,7 +477,7 @@ class Chart {
     // imposto zoomLevel e poi pulisco l'svg attuale prima di ridisegnarlo
     setZoomLevelAndData(zoomLevel) {
         this.zoomLevel = zoomLevel;
-        this.animation = true
+        // this.animation = true
         // remove the old bars
         this.focus.selectAll("*")
              //  .transition()
@@ -566,8 +569,12 @@ class Chart {
         // console.log(series.genre.split(" "))
         var genres = this.genres;
 
-        // check if at least one genre of the series is present in the filters set
-        return  series.genre.split(" ")
+        // check if:
+        // - the series w/h in inside the w/h limits
+        // - the series year in inside the years limits TODO
+        // - at least one genre of the series is present in the filters set
+        return series.wh >= this.wh_min && series.wh <= this.wh_max &&
+                series.genre.split(" ")
                             .reduce(
                                 function(result, item) {
                                     return result || genres.has(item);
@@ -579,6 +586,16 @@ class Chart {
         if (checked) this.genres.add(filterType);
         else this.genres.delete(filterType);
         // console.log(this.genres);
+
+        this.clear();
+        this.extractElements();
+        this.draw();
+        this.zoomed(this);
+    }
+
+    setWhLimits(limits){
+        this.wh_min = parseInt(limits.split(";")[0])
+        this.wh_max = parseInt(limits.split(";")[1])
 
         this.clear();
         this.extractElements();
@@ -604,5 +621,5 @@ class Chart {
         this.extractElements();
         this.draw();
         this.zoomed(this);
-    }   
+    }
 }

@@ -261,7 +261,7 @@ d3.json(url_data, function(error, json_data) {
             });
         });
     });
-    
+
 
     // ------------ SORT
     // sorting parameter handler
@@ -300,15 +300,19 @@ d3.json(url_data, function(error, json_data) {
             type: "double",
             skin: "flat",
             min: 0,
-            max: 15000,
-            from: 2390,
-            to: 12153,
+            max: 13000,
+            from: 0,
+            to: 13000,
             grid: true
     });
 
     // set the sorting parameter via radio buttons
     $('input[name="genre-filter"]').on('change', function (e) {
         chart.setFilterInFiltersSet(e.target.id, e.target.checked); })
+
+    // set the sorting parameter via radio buttons
+    $('input[name="wh-multi-range"]').on('change', function (e) {
+        chart.setWhLimits(e.target.value); })
 
 
     $("#reset").on("click", function(e) {
