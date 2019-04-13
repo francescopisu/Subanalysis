@@ -155,7 +155,7 @@
           <br>
           <input type="radio" name="sorting-parameter" value="wh" id="wh" class="form-radio"><label for="wh">W/h</label>
           <br>
-          <input type="radio" name="sorting-parameter" value="year" id="year" class="form-radio"><label for="year">Year</label>
+          <input type="radio" name="sorting-parameter" value="start_year" id="start_year" class="form-radio"><label for="start_year">Year</label>
         </div>
 
         <div class="right-order-panel">
@@ -265,11 +265,11 @@ d3.json(url_data, function(error, json_data) {
       }
     });
 
-    $(document).click( function(event) { 
-      if( $(event.target).closest('.interaction-menu').length == 0 ) { 
-        $('.content').slideUp(150); 
+    $(document).click( function(event) {
+      if( $(event.target).closest('.interaction-menu').length == 0 ) {
+        $('.content').slideUp(150);
         $(".collapsible")[0].setAttribute("data-value", "+");
-      } 
+      }
     });
 
 
@@ -340,8 +340,8 @@ d3.json(url_data, function(error, json_data) {
         chart.setAllFilters();
     })
 
-    
-    
+
+
 
 })
 

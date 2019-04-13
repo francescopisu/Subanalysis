@@ -1,9 +1,10 @@
 [
     {
+        "start_year": "2001",
+        "id_": 0,
+        "description": "A samurai sent through time fights to return home and save the world.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 2609.059230769231,
                 "episodes": [
                     {
                         "id_": 1,
@@ -83,11 +84,11 @@
                         "length": 21,
                         "title": "Episode XIII: Aku's Fairy Tales"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 2609.059230769231
             },
             {
-                "id_": 2,
-                "wh": 1951.466923076923,
                 "episodes": [
                     {
                         "id_": 1,
@@ -167,11 +168,11 @@
                         "length": 22,
                         "title": "Episode XXVI: Jack's Shoes"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 1951.466923076923
             },
             {
-                "id_": 3,
-                "wh": 1885.163846153846,
                 "episodes": [
                     {
                         "id_": 1,
@@ -251,11 +252,11 @@
                         "length": 21,
                         "title": "Episode XXXIX: Jack and the Labyrinth"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 1885.163846153846
             },
             {
-                "id_": 4,
-                "wh": 2583.805384615385,
                 "episodes": [
                     {
                         "id_": 1,
@@ -335,11 +336,11 @@
                         "length": 22,
                         "title": "Episode LII: Jack and the Baby"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 2583.805384615385
             },
             {
-                "id_": 5,
-                "wh": 2323.545,
                 "episodes": [
                     {
                         "id_": 1,
@@ -401,22 +402,23 @@
                         "length": 22,
                         "title": "Episode CI"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 2323.545
             }
         ],
-        "genre": "Animation Action Adventure Fantasy Sci-Fi Thriller",
-        "id_": 0,
         "episode_length": 22,
-        "year": "2001-2004 2017",
-        "wh": 2268.046612903226,
+        "genre": "Animation Action Adventure Fantasy Sci-Fi Thriller",
         "name": "Samurai Jack",
-        "description": "A samurai sent through time fights to return home and save the world."
+        "end_year": "2017",
+        "wh": 2268.046612903226
     },
     {
+        "start_year": "2016",
+        "id_": 1,
+        "description": "David Attenborough returns in this breathtaking documentary showcasing life on Planet Earth.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 3748.9466666666667,
                 "episodes": [
                     {
                         "id_": 1,
@@ -454,22 +456,23 @@
                         "length": 57,
                         "title": "Cities"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 3748.9466666666667
             }
         ],
-        "genre": "Documentary",
-        "id_": 1,
         "episode_length": 60,
-        "year": "2016",
-        "wh": 3748.9466666666667,
+        "genre": "Documentary",
         "name": "Planet Earth II",
-        "description": "David Attenborough returns in this breathtaking documentary showcasing life on Planet Earth."
+        "end_year": "2016",
+        "wh": 3748.9466666666667
     },
     {
+        "start_year": "2001",
+        "id_": 2,
+        "description": "The story of Easy Company of the U.S. Army 101st Airborne Division, and their mission in World War II Europe, from Operation Overlord, through V-J Day.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4595.207,
                 "episodes": [
                     {
                         "id_": 1,
@@ -531,22 +534,23 @@
                         "length": 59,
                         "title": "Points"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4595.207
             }
         ],
-        "genre": "History Action Drama",
-        "id_": 2,
         "episode_length": 60,
-        "year": "2001",
-        "wh": 4595.207,
+        "genre": "History Action Drama",
         "name": "Band of Brothers",
-        "description": "The story of Easy Company of the U.S. Army 101st Airborne Division, and their mission in World War II Europe, from Operation Overlord, through V-J Day."
+        "end_year": "2001",
+        "wh": 4595.207
     },
     {
+        "start_year": "2011-2019",
+        "id_": 3,
+        "description": "Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5162.556999999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -608,11 +612,11 @@
                         "length": 51,
                         "title": "Fire and Blood"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5162.556999999999
             },
             {
-                "id_": 2,
-                "wh": 5719.625,
                 "episodes": [
                     {
                         "id_": 1,
@@ -674,11 +678,11 @@
                         "length": 59,
                         "title": "Valar Morghulis"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 5719.625
             },
             {
-                "id_": 3,
-                "wh": 5283.384999999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -740,11 +744,11 @@
                         "length": 60,
                         "title": "Mhysa"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 5283.384999999999
             },
             {
-                "id_": 4,
-                "wh": 5021.502,
                 "episodes": [
                     {
                         "id_": 1,
@@ -806,11 +810,11 @@
                         "length": 62,
                         "title": "The Children"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 5021.502
             },
             {
-                "id_": 5,
-                "wh": 4482.697999999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -872,11 +876,11 @@
                         "length": 57,
                         "title": "Mother's Mercy"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 4482.697999999999
             },
             {
-                "id_": 6,
-                "wh": 4293.765,
                 "episodes": [
                     {
                         "id_": 1,
@@ -938,11 +942,11 @@
                         "length": 66,
                         "title": "The Winds of Winter"
                     }
-                ]
+                ],
+                "id_": 6,
+                "wh": 4293.765
             },
             {
-                "id_": 7,
-                "wh": 4609.411428571429,
                 "episodes": [
                     {
                         "id_": 1,
@@ -986,22 +990,23 @@
                         "length": 77,
                         "title": "The Dragon and the Wolf"
                     }
-                ]
+                ],
+                "id_": 7,
+                "wh": 4609.411428571429
             }
         ],
-        "genre": "Action Adventure Drama",
-        "id_": 3,
         "episode_length": 57,
-        "year": "2011-2019",
-        "wh": 4953.749253731344,
+        "genre": "Action Adventure Drama",
         "name": "Game of Thrones",
-        "description": "Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years."
+        "end_year": null,
+        "wh": 4953.749253731344
     },
     {
+        "start_year": "2006",
+        "id_": 4,
+        "description": "Emmy Award-winning, 11 episodes, five years in the making, the most expensive nature documentary series ever commissioned by the BBC, and the first to be filmed in high definition.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 3595.102727272727,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1069,22 +1074,23 @@
                         "length": 47,
                         "title": "Ocean Deep"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 3595.102727272727
             }
         ],
-        "genre": "Documentary",
-        "id_": 4,
         "episode_length": 49,
-        "year": "2006",
-        "wh": 3595.102727272727,
+        "genre": "Documentary",
         "name": "Planet Earth",
-        "description": "Emmy Award-winning, 11 episodes, five years in the making, the most expensive nature documentary series ever commissioned by the BBC, and the first to be filmed in high definition."
+        "end_year": "2006",
+        "wh": 3595.102727272727
     },
     {
+        "start_year": "2008",
+        "id_": 5,
+        "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4645.947142857142,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1128,11 +1134,11 @@
                         "length": 45,
                         "title": "A No-Rough-Stuff-Type Deal"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4645.947142857142
             },
             {
-                "id_": 2,
-                "wh": 4511.026923076924,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1212,11 +1218,11 @@
                         "length": 45,
                         "title": "ABQ"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 4511.026923076924
             },
             {
-                "id_": 3,
-                "wh": 4668.773846153846,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1296,11 +1302,11 @@
                         "length": 46,
                         "title": "Full Measure"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 4668.773846153846
             },
             {
-                "id_": 4,
-                "wh": 4673.514615384615,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1380,11 +1386,11 @@
                         "length": 49,
                         "title": "Face Off"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 4673.514615384615
             },
             {
-                "id_": 5,
-                "wh": 4990.4825,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1482,22 +1488,23 @@
                         "length": 50,
                         "title": "Felina"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 4990.4825
             }
         ],
-        "genre": "Drama Crime Thriller",
-        "id_": 5,
         "episode_length": 49,
-        "year": "2008-2013",
-        "wh": 4717.136290322581,
+        "genre": "Drama Crime Thriller",
         "name": "Breaking Bad",
-        "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future."
+        "end_year": "2013",
+        "wh": 4717.136290322581
     },
     {
+        "start_year": "2002",
+        "id_": 6,
+        "description": "Baltimore drug scene, seen through the eyes of drug dealers and law enforcement.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6378.166923076923,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1577,11 +1584,11 @@
                         "length": 64,
                         "title": "Sentencing"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6378.166923076923
             },
             {
-                "id_": 2,
-                "wh": 5960.7575,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1655,11 +1662,11 @@
                         "length": 58,
                         "title": "Port in a Storm"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 5960.7575
             },
             {
-                "id_": 3,
-                "wh": 6870.044166666666,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1733,11 +1740,11 @@
                         "length": 61,
                         "title": "Mission Accomplished"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 6870.044166666666
             },
             {
-                "id_": 4,
-                "wh": 7000.422307692309,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1817,11 +1824,11 @@
                         "length": 77,
                         "title": "Final Grades"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 7000.422307692309
             },
             {
-                "id_": 5,
-                "wh": 7022.58,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1883,22 +1890,23 @@
                         "length": 91,
                         "title": "-30-"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 7022.58
             }
         ],
-        "genre": "Drama Crime Thriller",
-        "id_": 6,
         "episode_length": 59,
-        "year": "2002-2008",
-        "wh": 6635.284666666667,
+        "genre": "Drama Crime Thriller",
         "name": "The Wire",
-        "description": "Baltimore drug scene, seen through the eyes of drug dealers and law enforcement."
+        "end_year": "2008",
+        "wh": 6635.284666666667
     },
     {
+        "start_year": "2014",
+        "id_": 7,
+        "description": "An exploration of our discovery of the laws of nature and coordinates in space and time.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6851.775384615384,
                 "episodes": [
                     {
                         "id_": 1,
@@ -1978,22 +1986,23 @@
                         "length": 42,
                         "title": "Unafraid of the Dark"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6851.775384615384
             }
         ],
-        "genre": "Documentary",
-        "id_": 7,
         "episode_length": 43,
-        "year": "2014",
-        "wh": 6851.775384615384,
+        "genre": "Documentary",
         "name": "Cosmos",
-        "description": "An exploration of our discovery of the laws of nature and coordinates in space and time."
+        "end_year": "2014",
+        "wh": 6851.775384615384
     },
     {
+        "start_year": "2013",
+        "id_": 8,
+        "description": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 9825.323636363637,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2061,11 +2070,11 @@
                         "length": 22,
                         "title": "Ricksy Business"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 9825.323636363637
             },
             {
-                "id_": 2,
-                "wh": 10165.844000000001,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2127,11 +2136,11 @@
                         "length": 22,
                         "title": "The Wedding Squanchers"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 10165.844000000001
             },
             {
-                "id_": 3,
-                "wh": 10288.06,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2193,22 +2202,23 @@
                         "length": 22,
                         "title": "The Rickchurian Mortydate"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 10288.06
             }
         ],
-        "genre": "Animation Adventure Comedy",
-        "id_": 8,
         "episode_length": 23,
-        "year": "2013-2015",
-        "wh": 10084.438709677419,
+        "genre": "Animation Adventure Comedy",
         "name": "Rick and Morty",
-        "description": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson."
+        "end_year": "2015",
+        "wh": 10084.438709677419
     },
     {
+        "start_year": "1980",
+        "id_": 9,
+        "description": "Astronomer Carl Sagan leads us on an engaging guided tour of the various elements and cosmological theories of the universe.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6429.289999999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2288,22 +2298,23 @@
                         "length": 59,
                         "title": "Who Speaks for Earth?"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6429.289999999999
             }
         ],
-        "genre": "Documentary",
-        "id_": 9,
         "episode_length": 60,
-        "year": "1980",
-        "wh": 6429.289999999999,
+        "genre": "Documentary",
         "name": "Cosmos (1980)",
-        "description": "Astronomer Carl Sagan leads us on an engaging guided tour of the various elements and cosmological theories of the universe."
+        "end_year": "1980",
+        "wh": 6429.289999999999
     },
     {
+        "start_year": "2017",
+        "id_": 10,
+        "description": "David Attenborough returns to the world's oceans in this sequel to the acclaimed documentary filming rare and unusual creatures of the deep, as well as documenting the problems our oceans face.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 3539.097142857143,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2347,22 +2358,23 @@
                         "length": 57,
                         "title": "Our Blue Planet"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 3539.097142857143
             }
         ],
-        "genre": "Documentary",
-        "id_": 10,
         "episode_length": 60,
-        "year": "2017",
-        "wh": 3539.097142857143,
+        "genre": "Documentary",
         "name": "Blue Planet II",
-        "description": "David Attenborough returns to the world's oceans in this sequel to the acclaimed documentary filming rare and unusual creatures of the deep, as well as documenting the problems our oceans face."
+        "end_year": "2017",
+        "wh": 3539.097142857143
     },
     {
+        "start_year": "1999",
+        "id_": 11,
+        "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6786.392307692307,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2442,11 +2454,11 @@
                         "length": 59,
                         "title": "I Dream of Jeannie Cusamano"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6786.392307692307
             },
             {
-                "id_": 2,
-                "wh": 5984.941538461538,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2526,11 +2538,11 @@
                         "length": 55,
                         "title": "Funhouse"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 5984.941538461538
             },
             {
-                "id_": 3,
-                "wh": 5418.923333333333,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2604,11 +2616,11 @@
                         "length": 57,
                         "title": "Amour Fou"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 5418.923333333333
             },
             {
-                "id_": 4,
-                "wh": 6112.629999999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2688,11 +2700,11 @@
                         "length": 72,
                         "title": "Whitecaps"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 6112.629999999999
             },
             {
-                "id_": 5,
-                "wh": 6347.374615384616,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2772,11 +2784,11 @@
                         "length": 52,
                         "title": "All Due Respect"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 6347.374615384616
             },
             {
-                "id_": 6,
-                "wh": 5872.389523809524,
                 "episodes": [
                     {
                         "id_": 1,
@@ -2904,22 +2916,23 @@
                         "length": 58,
                         "title": "Made in America"
                     }
-                ]
+                ],
+                "id_": 6,
+                "wh": 5872.389523809524
             }
         ],
-        "genre": "Crime Drama",
-        "id_": 11,
         "episode_length": 55,
-        "year": "1999-2007",
-        "wh": 6074.760705882352,
+        "genre": "Crime Drama",
         "name": "The Sopranos",
-        "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling."
+        "end_year": "2007",
+        "wh": 6074.760705882352
     },
     {
+        "start_year": "1973",
+        "id_": 12,
+        "description": "A groundbreaking 26-part documentary series narrated by the actor Laurence Olivier about the deadliest conflict in history, World War II.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5990.041153846152,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3077,22 +3090,23 @@
                         "length": 50,
                         "title": "Remember"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5990.041153846152
             }
         ],
-        "genre": "History Documentary War",
-        "id_": 12,
         "episode_length": 52,
-        "year": "1973",
-        "wh": 5990.041153846152,
+        "genre": "History Documentary War",
         "name": "The World at War",
-        "description": "A groundbreaking 26-part documentary series narrated by the actor Laurence Olivier about the deadliest conflict in history, World War II."
+        "end_year": "1973",
+        "wh": 5990.041153846152
     },
     {
+        "start_year": "2003",
+        "id_": 13,
+        "description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5709.308,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3214,11 +3228,11 @@
                         "length": 23,
                         "title": "The Siege of the North: Part 2"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5709.308
             },
             {
-                "id_": 2,
-                "wh": 5384.429999999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3340,11 +3354,11 @@
                         "length": 23,
                         "title": "The Crossroads of Destiny"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 5384.429999999999
             },
             {
-                "id_": 3,
-                "wh": 5786.285238095237,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3472,22 +3486,23 @@
                         "length": 22,
                         "title": "Sozin's Comet: Part 4 - Avatar Aang"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 5786.285238095237
             }
         ],
-        "genre": "Animation Action Adventure",
-        "id_": 13,
         "episode_length": 23,
-        "year": "2003-2008",
-        "wh": 5629.290983606557,
+        "genre": "Animation Action Adventure",
         "name": "Avatar: The Last Airbender",
-        "description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world."
+        "end_year": "2008",
+        "wh": 5629.290983606557
     },
     {
+        "start_year": "2009",
+        "id_": 14,
+        "description": "David Attenborough's legendary BBC crew explains and shows wildlife all over planet earth in 10 episodes, showing the challenges of facing life and hunting.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4021.7750000000005,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3549,22 +3564,23 @@
                         "length": 58,
                         "title": "Primates"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4021.7750000000005
             }
         ],
-        "genre": "Documentary",
-        "id_": 14,
         "episode_length": 49,
-        "year": "2009",
-        "wh": 4021.7750000000005,
+        "genre": "Documentary",
         "name": "Life",
-        "description": "David Attenborough's legendary BBC crew explains and shows wildlife all over planet earth in 10 episodes, showing the challenges of facing life and hunting."
+        "end_year": "2009",
+        "wh": 4021.7750000000005
     },
     {
+        "start_year": "2010",
+        "id_": 15,
+        "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6292.076666666667,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3584,11 +3600,11 @@
                         "length": 88,
                         "title": "The Great Game"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6292.076666666667
             },
             {
-                "id_": 2,
-                "wh": 6118.706666666666,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3608,11 +3624,11 @@
                         "length": 86,
                         "title": "The Reichenbach Fall"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 6118.706666666666
             },
             {
-                "id_": 3,
-                "wh": 6507.303333333333,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3632,11 +3648,11 @@
                         "length": 89,
                         "title": "His Last Vow"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 6507.303333333333
             },
             {
-                "id_": 4,
-                "wh": 6765.600000000001,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3656,22 +3672,23 @@
                         "length": 91,
                         "title": "The Final Problem"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 6765.600000000001
             }
         ],
-        "genre": "Crime Mystery Drama",
-        "id_": 15,
         "episode_length": 88,
-        "year": "2010-",
-        "wh": 6420.921666666666,
+        "genre": "Crime Mystery Drama",
         "name": "Sherlock",
-        "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London."
+        "end_year": "9999",
+        "wh": 6420.921666666666
     },
     {
+        "start_year": "2011",
+        "id_": 16,
+        "description": "Each episode examines how life differs for men and nature in some type of environment, from Arctic to desert and jungle, from coasts to mountains.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4419.22,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3721,22 +3738,23 @@
                         "length": 57,
                         "title": "Cities: Surviving the Urban Jungle"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4419.22
             }
         ],
-        "genre": "Documentary",
-        "id_": 16,
         "episode_length": 50,
-        "year": "2011",
-        "wh": 4419.22,
+        "genre": "Documentary",
         "name": "Human Planet",
-        "description": "Each episode examines how life differs for men and nature in some type of environment, from Arctic to desert and jungle, from coasts to mountains."
+        "end_year": "2011",
+        "wh": 4419.22
     },
     {
+        "start_year": "1959",
+        "id_": 17,
+        "description": "Ordinary people find themselves in extraordinarily astounding situations, which they each try to solve in a remarkable manner.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5822.108055555556,
                 "episodes": [
                     {
                         "id_": 1,
@@ -3954,11 +3972,11 @@
                         "length": 25,
                         "title": "A World of His Own"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5822.108055555556
             },
             {
-                "id_": 2,
-                "wh": 6031.282758620688,
                 "episodes": [
                     {
                         "id_": 1,
@@ -4134,11 +4152,11 @@
                         "length": 25,
                         "title": "The Obsolete Man"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 6031.282758620688
             },
             {
-                "id_": 3,
-                "wh": 5709.762162162161,
                 "episodes": [
                     {
                         "id_": 1,
@@ -4362,11 +4380,11 @@
                         "length": 24,
                         "title": "The Changing of the Guard"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 5709.762162162161
             },
             {
-                "id_": 4,
-                "wh": 5990.112777777778,
                 "episodes": [
                     {
                         "id_": 1,
@@ -4476,11 +4494,11 @@
                         "length": 50,
                         "title": "The Bard"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 5990.112777777778
             },
             {
-                "id_": 5,
-                "wh": 6162.269444444445,
                 "episodes": [
                     {
                         "id_": 1,
@@ -4698,22 +4716,23 @@
                         "length": 24,
                         "title": "The Bewitchin' Pool"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 6162.269444444445
             }
         ],
-        "genre": "Fantasy Horror Mystery",
-        "id_": 17,
         "episode_length": 51,
-        "year": "1959-1964",
-        "wh": 5932.2308974358975,
+        "genre": "Fantasy Horror Mystery",
         "name": "The Twilight Zone",
-        "description": "Ordinary people find themselves in extraordinarily astounding situations, which they each try to solve in a remarkable manner."
+        "end_year": "1964",
+        "wh": 5932.2308974358975
     },
     {
+        "start_year": "2017",
+        "id_": 18,
+        "description": "A comprehensive history of the United States' involvement in the bitterly divisive armed conflict in Southeast Asia.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6593.1954545454555,
                 "episodes": [
                     {
                         "id_": 1,
@@ -4781,22 +4800,23 @@
                         "length": 111,
                         "title": ""
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6593.1954545454555
             }
         ],
-        "genre": "War History Documentary",
-        "id_": 18,
         "episode_length": 99,
-        "year": "2017",
-        "wh": 6593.1954545454555,
+        "genre": "War History Documentary",
         "name": "The Vietnam War",
-        "description": "A comprehensive history of the United States' involvement in the bitterly divisive armed conflict in Southeast Asia."
+        "end_year": "2017",
+        "wh": 6593.1954545454555
     },
     {
+        "start_year": "1989",
+        "id_": 19,
+        "description": "Ten television drama films, each one based on one of the Ten Commandments.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 2794.1749999999997,
                 "episodes": [
                     {
                         "id_": 1,
@@ -4858,22 +4878,23 @@
                         "length": 56,
                         "title": "Dekalog, dziesiec"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 2794.1749999999997
             }
         ],
-        "genre": "Drama",
-        "id_": 19,
         "episode_length": 57,
-        "year": "1989",
-        "wh": 2794.1749999999997,
+        "genre": "Drama",
         "name": "Dekalog",
-        "description": "Ten television drama films, each one based on one of the Ten Commandments."
+        "end_year": "1989",
+        "wh": 2794.1749999999997
     },
     {
+        "start_year": "1990",
+        "id_": 20,
+        "description": "A comprehensive survey of the American Civil War.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6976.663333333333,
                 "episodes": [
                     {
                         "id_": 1,
@@ -4929,22 +4950,23 @@
                         "length": 64,
                         "title": "The Better Angels of Our Nature (1865)"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6976.663333333333
             }
         ],
-        "genre": "War Documentary History",
-        "id_": 20,
         "episode_length": 75,
-        "year": "1990",
-        "wh": 6976.663333333333,
+        "genre": "War Documentary History",
         "name": "The Civil War",
-        "description": "A comprehensive survey of the American Civil War."
+        "end_year": "1990",
+        "wh": 6976.663333333333
     },
     {
+        "start_year": "2002",
+        "id_": 21,
+        "description": "Five hundred years in the future, a renegade crew aboard a small spacecraft tries to survive as they travel the unknown parts of the galaxy and evade warring factions as well as authority agents out to get them.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6172.177857142857,
                 "episodes": [
                     {
                         "id_": 1,
@@ -5030,22 +5052,23 @@
                         "length": 43,
                         "title": "The Message"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6172.177857142857
             }
         ],
-        "genre": "Sci-Fi Adventure Drama",
-        "id_": 21,
         "episode_length": 44,
-        "year": "2002",
-        "wh": 6172.177857142857,
+        "genre": "Sci-Fi Adventure Drama",
         "name": "Firefly",
-        "description": "Five hundred years in the future, a renegade crew aboard a small spacecraft tries to survive as they travel the unknown parts of the galaxy and evade warring factions as well as authority agents out to get them."
+        "end_year": "2002",
+        "wh": 6172.177857142857
     },
     {
+        "start_year": "2014",
+        "id_": 22,
+        "description": "Seasonal anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5441.49125,
                 "episodes": [
                     {
                         "id_": 1,
@@ -5095,11 +5118,11 @@
                         "length": 54,
                         "title": "Form and Void"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5441.49125
             },
             {
-                "id_": 2,
-                "wh": 4906.9,
                 "episodes": [
                     {
                         "id_": 1,
@@ -5149,11 +5172,11 @@
                         "length": 86,
                         "title": "Omega Station"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 4906.9
             },
             {
-                "id_": 3,
-                "wh": 5138.4725,
                 "episodes": [
                     {
                         "id_": 1,
@@ -5203,22 +5226,23 @@
                         "length": 76,
                         "title": "Now Am Found"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 5138.4725
             }
         ],
-        "genre": "Crime Drama Mystery",
-        "id_": 22,
         "episode_length": 55,
-        "year": "2014-",
-        "wh": 5162.287916666667,
+        "genre": "Crime Drama Mystery",
         "name": "True Detective",
-        "description": "Seasonal anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law."
+        "end_year": "9999",
+        "wh": 5162.287916666667
     },
     {
+        "start_year": "2009",
+        "id_": 23,
+        "description": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5303.75,
                 "episodes": [
                     {
                         "id_": 1,
@@ -5412,22 +5436,23 @@
                         "length": 24,
                         "title": "Daisoutou no musuko"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5303.75
             }
         ],
-        "genre": "Animation Action Adventure",
-        "id_": 23,
         "episode_length": 24,
-        "year": "2009",
-        "wh": 5303.75,
+        "genre": "Animation Action Adventure",
         "name": "Fullmetal Alchemist : Brotherhood",
-        "description": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms."
+        "end_year": "2009",
+        "wh": 5303.75
     },
     {
+        "start_year": "2014",
+        "id_": 24,
+        "description": "Various chronicles of deception, intrigue and murder in and around frozen Minnesota. Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4895.237,
                 "episodes": [
                     {
                         "id_": 1,
@@ -5489,11 +5514,11 @@
                         "length": 61,
                         "title": "Morton's Fork"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4895.237
             },
             {
-                "id_": 2,
-                "wh": 4679.772,
                 "episodes": [
                     {
                         "id_": 1,
@@ -5555,11 +5580,11 @@
                         "length": 49,
                         "title": "Palindrome"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 4679.772
             },
             {
-                "id_": 3,
-                "wh": 4398.095,
                 "episodes": [
                     {
                         "id_": 1,
@@ -5621,22 +5646,23 @@
                         "length": 48,
                         "title": "Somebody to Love"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 4398.095
             }
         ],
-        "genre": "Crime Drama Thriller",
-        "id_": 24,
         "episode_length": 53,
-        "year": "2014-",
-        "wh": 4657.701333333333,
+        "genre": "Crime Drama Thriller",
         "name": "Fargo",
-        "description": "Various chronicles of deception, intrigue and murder in and around frozen Minnesota. Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota."
+        "end_year": "9999",
+        "wh": 4657.701333333333
     },
     {
+        "start_year": "1999",
+        "id_": 25,
+        "description": "A high school mathlete starts hanging out with a group of burnouts while her younger brother navigates his freshman year.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6909.858888888888,
                 "episodes": [
                     {
                         "id_": 1,
@@ -5746,22 +5772,23 @@
                         "length": 43,
                         "title": "Discos and Dragons"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6909.858888888888
             }
         ],
-        "genre": "Comedy Drama",
-        "id_": 25,
         "episode_length": 44,
-        "year": "1999",
-        "wh": 6909.858888888888,
+        "genre": "Comedy Drama",
         "name": "Freaks and Geeks",
-        "description": "A high school mathlete starts hanging out with a group of burnouts while her younger brother navigates his freshman year."
+        "end_year": "9999",
+        "wh": 6909.858888888888
     },
     {
+        "start_year": "1992",
+        "id_": 26,
+        "description": "The Dark Knight battles crime in Gotham City with occasional help from Robin and Batgirl.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 3759.002333333333,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6123,11 +6150,11 @@
                         "length": 21,
                         "title": "Fire from Olympus"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 3759.002333333333
             },
             {
-                "id_": 2,
-                "wh": 3873.529,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6189,11 +6216,11 @@
                         "length": 21,
                         "title": "Harlequinade"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 3873.529
             },
             {
-                "id_": 3,
-                "wh": 3937.8,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6255,11 +6282,11 @@
                         "length": 20,
                         "title": "Deep Freeze"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 3937.8
             },
             {
-                "id_": 4,
-                "wh": 4098.972,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6291,22 +6318,23 @@
                         "length": 21,
                         "title": "The Lion and the Unicorn"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 4098.972
             }
         ],
-        "genre": "Animation Action Adventure",
-        "id_": 26,
         "episode_length": 23,
-        "year": "1992-1995",
-        "wh": 3813.5092941176467,
+        "genre": "Animation Action Adventure",
         "name": "Batman: The Animated Series",
-        "description": "The Dark Knight battles crime in Gotham City with occasional help from Robin and Batgirl."
+        "end_year": "1995",
+        "wh": 3813.5092941176467
     },
     {
+        "start_year": "2006",
+        "id_": 27,
+        "description": "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6850.047567567569,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6530,22 +6558,23 @@
                         "length": 19,
                         "title": "Shin sekai"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6850.047567567569
             }
         ],
-        "genre": "Animation Crime Drama",
-        "id_": 27,
         "episode_length": 24,
-        "year": "2006",
-        "wh": 6850.047567567569,
+        "genre": "Animation Crime Drama",
         "name": "Death Note",
-        "description": "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it."
+        "end_year": "2006",
+        "wh": 6850.047567567569
     },
     {
+        "start_year": "2001",
+        "id_": 28,
+        "description": "Mammoth series, five years in the making, taking a look at the rich tapestry of life in the world's oceans.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4870.886,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6607,22 +6636,23 @@
                         "length": 48,
                         "title": "Making Waves"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4870.886
             }
         ],
-        "genre": "Documentary",
-        "id_": 28,
         "episode_length": 50,
-        "year": "2001",
-        "wh": 4870.886,
+        "genre": "Documentary",
         "name": "The Blue Planet",
-        "description": "Mammoth series, five years in the making, taking a look at the rich tapestry of life in the world's oceans."
+        "end_year": "2001",
+        "wh": 4870.886
     },
     {
+        "start_year": "1998",
+        "id_": 29,
+        "description": "The futuristic misadventures and tragedies of an easygoing bounty hunter and his partners.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4216.151923076924,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6780,22 +6810,23 @@
                         "length": 19,
                         "title": "The Real Folk Blues: Part 2"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4216.151923076924
             }
         ],
-        "genre": "Animation Action Adventure",
-        "id_": 29,
         "episode_length": 24,
-        "year": "1998-1999",
-        "wh": 4216.151923076924,
+        "genre": "Animation Action Adventure",
         "name": "Cowboy Bebop",
-        "description": "The futuristic misadventures and tragedies of an easygoing bounty hunter and his partners."
+        "end_year": "1999",
+        "wh": 4216.151923076924
     },
     {
+        "start_year": "2018",
+        "id_": 30,
+        "description": "A man with diagnosis of Alzheimer's, decides to punish the criminals.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4935.679166666667,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6869,22 +6900,23 @@
                         "length": 67,
                         "title": "12.Bölüm - Final"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4935.679166666667
             }
         ],
-        "genre": "Crime Drama Mystery",
-        "id_": 30,
         "episode_length": 60,
-        "year": "2018",
-        "wh": 4935.679166666667,
+        "genre": "Crime Drama Mystery",
         "name": "Sahsiyet",
-        "description": "A man with diagnosis of Alzheimer's, decides to punish the criminals."
+        "end_year": "2018",
+        "wh": 4935.679166666667
     },
     {
+        "start_year": "2011",
+        "id_": 31,
+        "description": "An anthology series exploring a twisted, high-tech world where humanity's greatest innovations and darkest instincts collide.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5131.06,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6904,11 +6936,11 @@
                         "length": 46,
                         "title": "The Entire History of You"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5131.06
             },
             {
-                "id_": 2,
-                "wh": 5497.8150000000005,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6934,11 +6966,11 @@
                         "length": 42,
                         "title": "White Christmas"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 5497.8150000000005
             },
             {
-                "id_": 3,
-                "wh": 4328.066666666667,
                 "episodes": [
                     {
                         "id_": 1,
@@ -6976,11 +7008,11 @@
                         "length": 88,
                         "title": "Hated in the Nation"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 4328.066666666667
             },
             {
-                "id_": 4,
-                "wh": 4140.675,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7018,22 +7050,23 @@
                         "length": 68,
                         "title": "Black Museum"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 4140.675
             }
         ],
-        "genre": "Sci-Fi Drama Thriller",
-        "id_": 31,
         "episode_length": 60,
-        "year": "2011-",
-        "wh": 4641.941578947369,
+        "genre": "Sci-Fi Drama Thriller",
         "name": "Black Mirror",
-        "description": "An anthology series exploring a twisted, high-tech world where humanity's greatest innovations and darkest instincts collide."
+        "end_year": "9999",
+        "wh": 4641.941578947369
     },
     {
+        "start_year": "2015",
+        "id_": 32,
+        "description": "The story of Saitama, a hero that does it just for fun & can defeat his enemies with a single punch.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5271.6033333333335,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7107,22 +7140,23 @@
                         "length": 23,
                         "title": "The Strongest Hero"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5271.6033333333335
             }
         ],
-        "genre": "Animation Action Comedy",
-        "id_": 32,
         "episode_length": 24,
-        "year": "2015-",
-        "wh": 5271.6033333333335,
+        "genre": "Animation Action Comedy",
         "name": "One Punch Man: Wanpanman",
-        "description": "The story of Saitama, a hero that does it just for fun & can defeat his enemies with a single punch."
+        "end_year": "9999",
+        "wh": 5271.6033333333335
     },
     {
+        "start_year": "1995",
+        "id_": 33,
+        "description": "While the arrival of wealthy gentlemen sends her marriage-minded mother into a frenzy, willful and opinionated Elizabeth Bennet matches wits with haughty Mr. Darcy.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6217.96,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7160,22 +7194,23 @@
                         "length": 50,
                         "title": "Episode #1.6"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6217.96
             }
         ],
-        "genre": "Romance Drama",
-        "id_": 33,
         "episode_length": 55,
-        "year": "1995",
-        "wh": 6217.96,
+        "genre": "Romance Drama",
         "name": "Pride and Prejudice",
-        "description": "While the arrival of wealthy gentlemen sends her marriage-minded mother into a frenzy, willful and opinionated Elizabeth Bennet matches wits with haughty Mr. Darcy."
+        "end_year": "1995",
+        "wh": 6217.96
     },
     {
+        "start_year": "2011",
+        "id_": 34,
+        "description": "Focuses on life and the environment in both the Arctic and Antarctic.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5108.95375,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7225,22 +7260,23 @@
                         "length": 20,
                         "title": "The Epic Journey"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5108.95375
             }
         ],
-        "genre": "Documentary",
-        "id_": 34,
         "episode_length": 60,
-        "year": "2011",
-        "wh": 5108.95375,
+        "genre": "Documentary",
         "name": "Frozen Planet",
-        "description": "Focuses on life and the environment in both the Arctic and Antarctic."
+        "end_year": "2011",
+        "wh": 5108.95375
     },
     {
+        "start_year": "2013",
+        "id_": 35,
+        "description": "Africa, the world's wildest continent. David Attenborough takes us on an awe-inspiring journey through one of the most diverse places in the world. We visit deserts, savannas, and jungles and meet up with some of Africa's amazing wildlife.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4064.5099999999998,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7278,22 +7314,23 @@
                         "length": 57,
                         "title": "The Future"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4064.5099999999998
             }
         ],
-        "genre": "Documentary",
-        "id_": 35,
         "episode_length": 60,
-        "year": "2013",
-        "wh": 4064.5099999999998,
+        "genre": "Documentary",
         "name": "Africa",
-        "description": "Africa, the world's wildest continent. David Attenborough takes us on an awe-inspiring journey through one of the most diverse places in the world. We visit deserts, savannas, and jungles and meet up with some of Africa's amazing wildlife."
+        "end_year": "2013",
+        "wh": 4064.5099999999998
     },
     {
+        "start_year": "1985",
+        "id_": 36,
+        "description": "A World War II German U-Boat crew have a terrifying patrol mission in the early days of the war.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 2702.941666666667,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7331,22 +7368,23 @@
                         "length": 46,
                         "title": "Part 6"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 2702.941666666667
             }
         ],
-        "genre": "War Drama Thriller",
-        "id_": 36,
         "episode_length": 49,
-        "year": "1985",
-        "wh": 2702.941666666667,
+        "genre": "War Drama Thriller",
         "name": "Das Boot",
-        "description": "A World War II German U-Boat crew have a terrifying patrol mission in the early days of the war."
+        "end_year": "1985",
+        "wh": 2702.941666666667
     },
     {
+        "start_year": "1969",
+        "id_": 37,
+        "description": "The original surreal sketch comedy showcase for the Monty Python troupe.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 7041.993846153846,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7426,11 +7464,11 @@
                         "length": 29,
                         "title": "Intermission"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 7041.993846153846
             },
             {
-                "id_": 2,
-                "wh": 7048.536923076924,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7510,11 +7548,11 @@
                         "length": 28,
                         "title": "Royal Episode 13"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 7048.536923076924
             },
             {
-                "id_": 3,
-                "wh": 7320.044615384615,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7594,11 +7632,11 @@
                         "length": 26,
                         "title": "The British Showbiz Awards"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 7320.044615384615
             },
             {
-                "id_": 4,
-                "wh": 8005.678333333334,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7636,22 +7674,23 @@
                         "length": 27,
                         "title": "Party Political Broadcast"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 8005.678333333334
             }
         ],
-        "genre": "Comedy",
-        "id_": 37,
         "episode_length": 30,
-        "year": "1969-1974",
-        "wh": 7252.701111111112,
+        "genre": "Comedy",
         "name": "Monty Python's Flying Circus",
-        "description": "The original surreal sketch comedy showcase for the Monty Python troupe."
+        "end_year": "1974",
+        "wh": 7252.701111111112
     },
     {
+        "start_year": "1994",
+        "id_": 38,
+        "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 6926.957083333334,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7797,11 +7836,11 @@
                         "length": 22,
                         "title": "The One Where Rachel Finds Out"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 6926.957083333334
             },
             {
-                "id_": 2,
-                "wh": 6956.828333333334,
                 "episodes": [
                     {
                         "id_": 1,
@@ -7947,11 +7986,11 @@
                         "length": 22,
                         "title": "The One with Barry and Mindy's Wedding"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 6956.828333333334
             },
             {
-                "id_": 3,
-                "wh": 7319.7811999999985,
                 "episodes": [
                     {
                         "id_": 1,
@@ -8103,11 +8142,11 @@
                         "length": 22,
                         "title": "The One at the Beach"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 7319.7811999999985
             },
             {
-                "id_": 4,
-                "wh": 7061.780833333333,
                 "episodes": [
                     {
                         "id_": 1,
@@ -8253,11 +8292,11 @@
                         "length": 21,
                         "title": "The One with Ross's Wedding: Part Two"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 7061.780833333333
             },
             {
-                "id_": 5,
-                "wh": 7095.009999999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -8403,11 +8442,11 @@
                         "length": 21,
                         "title": "The One in Vegas: Part 2"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 7095.009999999999
             },
             {
-                "id_": 6,
-                "wh": 7675.18,
                 "episodes": [
                     {
                         "id_": 1,
@@ -8559,11 +8598,11 @@
                         "length": 21,
                         "title": "The One with the Proposal: Part 2"
                     }
-                ]
+                ],
+                "id_": 6,
+                "wh": 7675.18
             },
             {
-                "id_": 7,
-                "wh": 7105.855416666663,
                 "episodes": [
                     {
                         "id_": 1,
@@ -8709,11 +8748,11 @@
                         "length": 21,
                         "title": "The One with Monica and Chandler's Wedding: Part 2"
                     }
-                ]
+                ],
+                "id_": 7,
+                "wh": 7105.855416666663
             },
             {
-                "id_": 8,
-                "wh": 7562.045000000002,
                 "episodes": [
                     {
                         "id_": 1,
@@ -8859,11 +8898,11 @@
                         "length": 21,
                         "title": "The One Where Rachel Has a Baby: Part 2"
                     }
-                ]
+                ],
+                "id_": 8,
+                "wh": 7562.045000000002
             },
             {
-                "id_": 9,
-                "wh": 7611.792083333331,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9009,11 +9048,11 @@
                         "length": 49,
                         "title": "The One in Barbados"
                     }
-                ]
+                ],
+                "id_": 9,
+                "wh": 7611.792083333331
             },
             {
-                "id_": 10,
-                "wh": 7370.353333333333,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9123,22 +9162,23 @@
                         "length": 45,
                         "title": "The Last One: Part 2"
                     }
-                ]
+                ],
+                "id_": 10,
+                "wh": 7370.353333333333
             }
         ],
-        "genre": "Comedy Romance",
-        "id_": 38,
         "episode_length": 22,
-        "year": "1994-2004",
-        "wh": 7267.91033898305,
+        "genre": "Comedy Romance",
         "name": "Friends",
-        "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan."
+        "end_year": "2004",
+        "wh": 7267.91033898305
     },
     {
+        "start_year": "2016",
+        "id_": 39,
+        "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4744.15,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9188,11 +9228,11 @@
                         "length": 52,
                         "title": "Chapter Eight: The Upside Down"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4744.15
             },
             {
-                "id_": 2,
-                "wh": 4532.394444444445,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9248,22 +9288,23 @@
                         "length": 57,
                         "title": "Chapter Nine: The Gate"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 4532.394444444445
             }
         ],
-        "genre": "Fantasy Drama Horror",
-        "id_": 39,
         "episode_length": 51,
-        "year": "2016-",
-        "wh": 4632.044117647059,
+        "genre": "Fantasy Drama Horror",
         "name": "Stranger Things",
-        "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back."
+        "end_year": "9999",
+        "wh": 4632.044117647059
     },
     {
+        "start_year": "2003",
+        "id_": 40,
+        "description": "Level-headed son Michael Bluth takes over family affairs after his father is imprisoned. But the rest of his spoiled, dysfunctional family are making his job unbearable.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 10167.940454545453,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9397,11 +9438,11 @@
                         "length": 21,
                         "title": "Let 'Em Eat Cake"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 10167.940454545453
             },
             {
-                "id_": 2,
-                "wh": 10762.539444444446,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9511,11 +9552,11 @@
                         "length": 21,
                         "title": "Righteous Brothers"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 10762.539444444446
             },
             {
-                "id_": 3,
-                "wh": 11239.932307692306,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9595,11 +9636,11 @@
                         "length": 21,
                         "title": "Development Arrested"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 11239.932307692306
             },
             {
-                "id_": 4,
-                "wh": 11093.429333333333,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9691,11 +9732,11 @@
                         "length": 33,
                         "title": "Blockheads"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 11093.429333333333
             },
             {
-                "id_": 5,
-                "wh": 10809.102499999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9745,22 +9786,23 @@
                         "length": 35,
                         "title": "Premature Independence"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 10809.102499999999
             }
         ],
-        "genre": "Comedy",
-        "id_": 40,
         "episode_length": 22,
-        "year": "2003-",
-        "wh": 10742.286578947367,
+        "genre": "Comedy",
         "name": "Arrested Development",
-        "description": "Level-headed son Michael Bluth takes over family affairs after his father is imprisoned. But the rest of his spoiled, dysfunctional family are making his job unbearable."
+        "end_year": "9999",
+        "wh": 10742.286578947367
     },
     {
+        "start_year": "2009",
+        "id_": 41,
+        "description": "Apocalypse: The Second World War(2009) is a six-part French documentary about the Second World War.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5779.565,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9798,22 +9840,23 @@
                         "length": 43,
                         "title": "L'enfer"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5779.565
             }
         ],
-        "genre": "War Documentary History",
-        "id_": 41,
         "episode_length": 52,
-        "year": "2009",
-        "wh": 5779.565,
+        "genre": "War Documentary History",
         "name": "Apocalypse: La 2ème guerre mondiale",
-        "description": "Apocalypse: The Second World War(2009) is a six-part French documentary about the Second World War."
+        "end_year": "2009",
+        "wh": 5779.565
     },
     {
+        "start_year": "1989",
+        "id_": 42,
+        "description": "The continuing misadventures of neurotic New York City stand-up comedian Jerry Seinfeld and his equally neurotic New York City friends.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 8661.818,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9845,11 +9888,11 @@
                         "length": 22,
                         "title": "The Stock Tip"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 8661.818
             },
             {
-                "id_": 2,
-                "wh": 9262.499166666668,
                 "episodes": [
                     {
                         "id_": 1,
@@ -9923,11 +9966,11 @@
                         "length": 22,
                         "title": "The Busboy"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 9262.499166666668
             },
             {
-                "id_": 3,
-                "wh": 8798.40727272727,
                 "episodes": [
                     {
                         "id_": 1,
@@ -10061,11 +10104,11 @@
                         "length": 21,
                         "title": "The Parking Space"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 8798.40727272727
             },
             {
-                "id_": 4,
-                "wh": 8590.135652173914,
                 "episodes": [
                     {
                         "id_": 1,
@@ -10205,11 +10248,11 @@
                         "length": 22,
                         "title": "The Pilot"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 8590.135652173914
             },
             {
-                "id_": 5,
-                "wh": 8182.770952380951,
                 "episodes": [
                     {
                         "id_": 1,
@@ -10337,11 +10380,11 @@
                         "length": 22,
                         "title": "The Opposite"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 8182.770952380951
             },
             {
-                "id_": 6,
-                "wh": 8209.609130434783,
                 "episodes": [
                     {
                         "id_": 1,
@@ -10481,11 +10524,11 @@
                         "length": 22,
                         "title": "The Understudy"
                     }
-                ]
+                ],
+                "id_": 6,
+                "wh": 8209.609130434783
             },
             {
-                "id_": 7,
-                "wh": 8901.554090909092,
                 "episodes": [
                     {
                         "id_": 1,
@@ -10619,11 +10662,11 @@
                         "length": 22,
                         "title": "The Invitations"
                     }
-                ]
+                ],
+                "id_": 7,
+                "wh": 8901.554090909092
             },
             {
-                "id_": 8,
-                "wh": 7820.964285714287,
                 "episodes": [
                     {
                         "id_": 1,
@@ -10751,11 +10794,11 @@
                         "length": 22,
                         "title": "The Summer of George"
                     }
-                ]
+                ],
+                "id_": 8,
+                "wh": 7820.964285714287
             },
             {
-                "id_": 9,
-                "wh": 7712.905909090908,
                 "episodes": [
                     {
                         "id_": 1,
@@ -10889,22 +10932,23 @@
                         "length": 43,
                         "title": "The Finale"
                     }
-                ]
+                ],
+                "id_": 9,
+                "wh": 7712.905909090908
             }
         ],
-        "genre": "Comedy",
-        "id_": 42,
         "episode_length": 22,
-        "year": "1989-1998",
-        "wh": 8397.746959064327,
+        "genre": "Comedy",
         "name": "Seinfeld",
-        "description": "The continuing misadventures of neurotic New York City stand-up comedian Jerry Seinfeld and his equally neurotic New York City friends."
+        "end_year": "1998",
+        "wh": 8397.746959064327
     },
     {
+        "start_year": "1981",
+        "id_": 43,
+        "description": "Comedy that follows two brothers from London's rough Peckham estate as they wheel and deal through a number of dodgy deals as they search for the big score that'll make them millionaires.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 8964.357142857141,
                 "episodes": [
                     {
                         "id_": 1,
@@ -10948,11 +10992,11 @@
                         "length": 32,
                         "title": "Christmas Crackers"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 8964.357142857141
             },
             {
-                "id_": 2,
-                "wh": 8279.75375,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11002,11 +11046,11 @@
                         "length": 27,
                         "title": "Diamonds Are for Heather"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 8279.75375
             },
             {
-                "id_": 3,
-                "wh": 8813.96625,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11056,11 +11100,11 @@
                         "length": 27,
                         "title": "Thicker Than Water"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 8813.96625
             },
             {
-                "id_": 4,
-                "wh": 8761.435714285713,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11104,11 +11148,11 @@
                         "length": 28,
                         "title": "As One Door Closes"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 8761.435714285713
             },
             {
-                "id_": 5,
-                "wh": 9095.094285714285,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11152,11 +11196,11 @@
                         "length": 59,
                         "title": "A Royal Flush"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 9095.094285714285
             },
             {
-                "id_": 6,
-                "wh": 8731.105714285715,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11200,11 +11244,11 @@
                         "length": 78,
                         "title": "The Jolly Boys' Outing"
                     }
-                ]
+                ],
+                "id_": 6,
+                "wh": 8731.105714285715
             },
             {
-                "id_": 7,
-                "wh": 7810.188,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11266,11 +11310,11 @@
                         "length": 82,
                         "title": "Fatal Extraction"
                     }
-                ]
+                ],
+                "id_": 7,
+                "wh": 7810.188
             },
             {
-                "id_": 8,
-                "wh": 7456.843333333333,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11290,11 +11334,11 @@
                         "length": 57,
                         "title": "Time on Our Hands"
                     }
-                ]
+                ],
+                "id_": 8,
+                "wh": 7456.843333333333
             },
             {
-                "id_": 9,
-                "wh": 6451.099999999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11314,22 +11358,23 @@
                         "length": 71,
                         "title": "Sleepless in Peckham...!"
                     }
-                ]
+                ],
+                "id_": 9,
+                "wh": 6451.099999999999
             }
         ],
-        "genre": "Comedy",
-        "id_": 43,
         "episode_length": 95,
-        "year": "1981-2003",
-        "wh": 8423.990333333333,
+        "genre": "Comedy",
         "name": "Only Fools and Horses....",
-        "description": "Comedy that follows two brothers from London's rough Peckham estate as they wheel and deal through a number of dodgy deals as they search for the big score that'll make them millionaires."
+        "end_year": "2003",
+        "wh": 8423.990333333333
     },
     {
+        "start_year": "2014",
+        "id_": 44,
+        "description": "Two brothers find themselves lost in a mysterious land and try to find their way home.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 7789.418999999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11391,22 +11436,23 @@
                         "length": 11,
                         "title": "Chapter 10: The Unknown"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 7789.418999999999
             }
         ],
-        "genre": "Animation Adventure Drama",
-        "id_": 44,
         "episode_length": 11,
-        "year": "2014",
-        "wh": 7789.418999999999,
+        "genre": "Animation Adventure Drama",
         "name": "Over the Garden Wall",
-        "description": "Two brothers find themselves lost in a mysterious land and try to find their way home."
+        "end_year": "2014",
+        "wh": 7789.418999999999
     },
     {
+        "start_year": "1990",
+        "id_": 45,
+        "description": "An idiosyncratic FBI agent investigates the murder of a young woman in the even more idiosyncratic town of Twin Peaks.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5189.40125,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11456,11 +11502,11 @@
                         "length": 45,
                         "title": "The Last Evening"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5189.40125
             },
             {
-                "id_": 2,
-                "wh": 4767.109545454547,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11594,22 +11640,23 @@
                         "length": 49,
                         "title": "Beyond Life and Death"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 4767.109545454547
             }
         ],
-        "genre": "Crime Drama Mystery",
-        "id_": 45,
         "episode_length": 47,
-        "year": "1990-1991",
-        "wh": 4879.720666666667,
+        "genre": "Crime Drama Mystery",
         "name": "Twin Peaks",
-        "description": "An idiosyncratic FBI agent investigates the murder of a young woman in the even more idiosyncratic town of Twin Peaks."
+        "end_year": "1991",
+        "wh": 4879.720666666667
     },
     {
+        "start_year": "2013",
+        "id_": 46,
+        "description": "A Congressman works with his equally conniving wife to exact revenge on the people who betrayed him.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 7259.433846153847,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11689,11 +11736,11 @@
                         "length": 45,
                         "title": "Chapter 13"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 7259.433846153847
             },
             {
-                "id_": 2,
-                "wh": 7878.253076923076,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11773,11 +11820,11 @@
                         "length": 55,
                         "title": "Chapter 26"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 7878.253076923076
             },
             {
-                "id_": 3,
-                "wh": 6864.289230769232,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11857,11 +11904,11 @@
                         "length": 55,
                         "title": "Chapter 39"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 6864.289230769232
             },
             {
-                "id_": 4,
-                "wh": 6944.50846153846,
                 "episodes": [
                     {
                         "id_": 1,
@@ -11941,11 +11988,11 @@
                         "length": 52,
                         "title": "Chapter 52"
                     }
-                ]
+                ],
+                "id_": 4,
+                "wh": 6944.50846153846
             },
             {
-                "id_": 5,
-                "wh": 6557.656923076924,
                 "episodes": [
                     {
                         "id_": 1,
@@ -12025,11 +12072,11 @@
                         "length": 53,
                         "title": "Chapter 65"
                     }
-                ]
+                ],
+                "id_": 5,
+                "wh": 6557.656923076924
             },
             {
-                "id_": 6,
-                "wh": 6072.61,
                 "episodes": [
                     {
                         "id_": 1,
@@ -12079,22 +12126,23 @@
                         "length": 51,
                         "title": "Chapter 73"
                     }
-                ]
+                ],
+                "id_": 6,
+                "wh": 6072.61
             }
         ],
-        "genre": "Drama",
-        "id_": 46,
         "episode_length": 51,
-        "year": "2013-2018",
-        "wh": 6988.146849315068,
+        "genre": "Drama",
         "name": "House of Cards",
-        "description": "A Congressman works with his equally conniving wife to exact revenge on the people who betrayed him."
+        "end_year": "2018",
+        "wh": 6988.146849315068
     },
     {
+        "start_year": "2012",
+        "id_": 47,
+        "description": "Twin siblings Dipper and Mabel Pines spend the summer at their uncle's tourist trap in the enigmatic town of Gravity Falls.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 7401.342999999999,
                 "episodes": [
                     {
                         "id_": 1,
@@ -12216,11 +12264,11 @@
                         "length": 23,
                         "title": "Gideon Rises"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 7401.342999999999
             },
             {
-                "id_": 2,
-                "wh": 7720.332,
                 "episodes": [
                     {
                         "id_": 1,
@@ -12342,22 +12390,23 @@
                         "length": 42,
                         "title": "Weirdmageddon 3: Take Back the Falls"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 7720.332
             }
         ],
-        "genre": "Animation Adventure Comedy",
-        "id_": 47,
         "episode_length": 23,
-        "year": "2012-2016",
-        "wh": 7560.8375,
+        "genre": "Animation Adventure Comedy",
         "name": "Gravity Falls",
-        "description": "Twin siblings Dipper and Mabel Pines spend the summer at their uncle's tourist trap in the enigmatic town of Gravity Falls."
+        "end_year": "2016",
+        "wh": 7560.8375
     },
     {
+        "start_year": "2016",
+        "id_": 48,
+        "description": "Set at the intersection of the near future and the reimagined past, explore a world in which every human appetite can be indulged without consequence.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 4421.6,
                 "episodes": [
                     {
                         "id_": 1,
@@ -12419,11 +12468,11 @@
                         "length": 55,
                         "title": "The Bicameral Mind"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 4421.6
             },
             {
-                "id_": 2,
-                "wh": 2995.149,
                 "episodes": [
                     {
                         "id_": 1,
@@ -12485,22 +12534,23 @@
                         "length": 89,
                         "title": "The Passenger"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 2995.149
             }
         ],
-        "genre": "Sci-Fi Drama Mystery",
-        "id_": 48,
         "episode_length": 62,
-        "year": "2016-",
-        "wh": 3708.3744999999994,
+        "genre": "Sci-Fi Drama Mystery",
         "name": "Westworld",
-        "description": "Set at the intersection of the near future and the reimagined past, explore a world in which every human appetite can be indulged without consequence."
+        "end_year": "9999",
+        "wh": 3708.3744999999994
     },
     {
+        "start_year": "2015",
+        "id_": 49,
+        "description": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years.",
         "seasons": [
             {
-                "id_": 1,
-                "wh": 5744.1230000000005,
                 "episodes": [
                     {
                         "id_": 1,
@@ -12562,11 +12612,11 @@
                         "length": 43,
                         "title": "Despegue"
                     }
-                ]
+                ],
+                "id_": 1,
+                "wh": 5744.1230000000005
             },
             {
-                "id_": 2,
-                "wh": 3546.8409999999994,
                 "episodes": [
                     {
                         "id_": 1,
@@ -12628,11 +12678,11 @@
                         "length": 51,
                         "title": "Al Fin Cayó!"
                     }
-                ]
+                ],
+                "id_": 2,
+                "wh": 3546.8409999999994
             },
             {
-                "id_": 3,
-                "wh": 4862.460000000001,
                 "episodes": [
                     {
                         "id_": 1,
@@ -12694,15 +12744,15 @@
                         "length": 50,
                         "title": "Going Back to Cali"
                     }
-                ]
+                ],
+                "id_": 3,
+                "wh": 4862.460000000001
             }
         ],
-        "genre": "Biography Crime Drama",
-        "id_": 49,
         "episode_length": 49,
-        "year": "2015-2017",
-        "wh": 4717.808,
+        "genre": "Biography Crime Drama",
         "name": "Narcos",
-        "description": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years."
+        "end_year": "2017",
+        "wh": 4717.808
     }
 ]
