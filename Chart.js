@@ -154,6 +154,7 @@ class Chart {
 
         this.focus.append("g")
             .attr("class", "y-axis")
+            .style("font", "14px times")
             //.attr('transform', 'translate('+ this.margin.left + ',' + (this.margin.top + this.height) + ')')
             //.attr('transform', 'translate(' + (this.margin.left + this.width) + ',' + this.margin.top +')'
             .attr("transform","translate(0,0)")
@@ -163,7 +164,7 @@ class Chart {
             .append("text")
             .attr("class", "title")
             .attr("transform", "rotate(-90)")
-            .attr("y", -40)
+            .attr("y", -50)
             .attr("x",-this.height/2)
             .style("text-anchor", "middle")
             .text("Words per Hour");

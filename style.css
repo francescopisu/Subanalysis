@@ -58,22 +58,7 @@
   }
 
 
-
-  /*.tooltip {
-  position: absolute;
-  text-align: center;
-  cursor: pointer;
-  width: 150px;
-  height: 55px;
-  padding: 2px;
-  font: 12px sans-serif;
-  background: rgba(0,0,0,0.3);
-  border: 0px;
-  border-radius: 8px;
-  pointer-events: none;
-  }*/
-
-  .tooltip {
+.tooltip {
   display: inline;
   position: relative;
   z-index: 999;
@@ -180,10 +165,6 @@
   margin-bottom: 10px;
 }
 
-.padding-left {
-  margin-left: 10px;
-}
-
 
 .series-info {
   padding-top: 5px;
@@ -206,24 +187,21 @@
 
 /* INIZIO SEASON TOOLTIP*/
 .season {
-  width: 300px;
+  width: 350px;
   height: 100px;
+  padding: 0 5px 5px 5px;
 }
 
 .season-info {
-  padding-left: 10px;
-  position: absolute;
-  top: 50px;
-  left: 0;
+  margin-top: 1 0px;
 }
 
 .season-avg-wh {
   padding-top: 10px;
   position: absolute;
   top: 70px;
-  left: 0px;
+  left: 5px;
   font-size: 13px;
-  padding-left: 10px;
 }
 
 
@@ -232,14 +210,16 @@
 
 /* INIZIO EPISODE TOOLTIP */
 .episode {
-  width: 350px;
+  width: 420px;
+  height: 120px;
+  padding: 0 5px 5px 5px;
 }
 
 .episode-wh {
   padding-top: 10px;
   position: absolute;
-  top: 185px;
-  left: 155px;
+  top: 90;
+  left: 5;
   font-size: 13px;
 }
 
@@ -351,7 +331,8 @@
 }
 
 .collapsible:after {
-  content: '\002B';
+  /*content: '\002B';*/
+  content: attr(data-value);
   color: grey;
   font-weight: bold;
   float: right;

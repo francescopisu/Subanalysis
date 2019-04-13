@@ -39,8 +39,8 @@
   <span id="season-tooltip" class="tooltip tooltip-effect-1">
   <div class="season tooltip-content clearfix">
     <span class="tooltip-text">
-      <span class="series-name padding-left"> </span>
-      <span class="season-info"></span>
+      <span class="series-name"> </span>
+      <p class="season-info"></p>
       <div class="season-avg-wh"></div>
     </span>
   </div>
@@ -245,22 +245,33 @@ d3.json(url_data, function(error, json_data) {
     });
 
 
+    $(".collapsible")[0].setAttribute("data-value", "+")
     $(".collapsible").click(function () {
         $header = $(this);
-        //getting the next element
+
         $content = $(".content")
         //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
         $content.slideToggle(350, function () {
-            //execute this after slideToggle is done
-            //change text of header based on visibility of content div
-            // $(".interaction-menu").toggleClass("noBottomBorder")
-            $header.text(function () {
-
-                //change text based on condition
-                return $content.is(":visible") ? "Collapse" : "Expand";
-            });
+          symbol = $content.is(":visible") ? "-" : "+";
+          $(".collapsible")[0].setAttribute("data-value", symbol);
         });
     });
+
+    // Close control panel when pressing ESC key or clicking away
+    $( document ).on( 'keydown', function ( e ) {
+      if ( e.keyCode === 27 ) {
+          $(".content").slideUp(250);
+          $(".collapsible")[0].setAttribute("data-value", "+");
+      }
+    });
+
+    $(document).click( function(event) { 
+      if( $(event.target).closest('.interaction-menu').length == 0 ) { 
+        $('.content').slideUp(150); 
+        $(".collapsible")[0].setAttribute("data-value", "+");
+      } 
+    });
+
 
 
     // ------------ SORT
@@ -328,6 +339,9 @@ d3.json(url_data, function(error, json_data) {
 
         chart.setAllFilters();
     })
+
+    
+    
 
 })
 
