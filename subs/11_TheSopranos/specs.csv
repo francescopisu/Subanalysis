@@ -1,2 +1,2 @@
-id,name,length,genre,year
-11,The Sopranos, 55,Crime Drama,1999-2007
+id,name,length,genre,start_year,end_year
+11,The Sopranos,55,Crime Drama,1999,2007
