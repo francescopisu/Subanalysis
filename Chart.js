@@ -156,6 +156,7 @@ class Chart {
 
         this.focus.append("g")
             .attr("class", "y-axis")
+            .style("font", "15px times")
             //.attr('transform', 'translate('+ this.margin.left + ',' + (this.margin.top + this.height) + ')')
             //.attr('transform', 'translate(' + (this.margin.left + this.width) + ',' + this.margin.top +')'
             .attr("transform","translate(0,0)")
@@ -165,7 +166,7 @@ class Chart {
             .append("text")
             .attr("class", "title")
             .attr("transform", "rotate(-90)")
-            .attr("y", -40)
+            .attr("y", -50)
             .attr("x",-this.height/2)
             .style("text-anchor", "middle")
             .text("Words per Hour");
@@ -396,20 +397,20 @@ class Chart {
     getColor(item, _this){
         var genre = _this.series[item.series].genre.split(" ")[0];
 
-        if (genre == "Action")      return '#7570b3'; // viola
-        if (genre == "Adventure")   return '#1b7837'; // verde
-        if (genre == "Animation")   return '#a6cee3'; // celestino
-        if (genre == "Biography")   return '#FFE4B5'; // giallino
-        if (genre == "Comedy")      return '#1f78b4'; // blu
-        if (genre == "Crime")       return '#000000'; // nero
+        if (genre == "Action")      return '#B36FAF'; // viola
+        if (genre == "Adventure")   return '#5B9279'; // verde
+        if (genre == "Animation")   return '#ACEBFF'; // celestino
+        if (genre == "Biography")   return '#F1D38D'; // giallino
+        if (genre == "Comedy")      return '#A45BA5'; // violetto
+        if (genre == "Crime")       return '#F6B540'; // giallo
         if (genre == "Documentary") return '#7fbf7b'; // verdino
-        if (genre == "Drama")       return '#d95f02'; // arancione
-        if (genre == "Fantasy")     return '#d95f02'; // arancione
-        if (genre == "History")     return '#8B0000'; // rosso scuro
-        if (genre == "Mystery")     return '#A9A9A9'; // grigio
-        if (genre == "Romance")     return '#f0027f'; // rosa
-        if (genre == "Sci-Fi")      return '#191970'; // blu scuro
-        if (genre == "War")         return '#8B4513'; // marron
+        if (genre == "Drama")       return '#EF7161'; // arancione
+        if (genre == "Fantasy")     return '#BCB6FF'; // lilla
+        if (genre == "History")     return '#DD0426'; // rosso scuro
+        if (genre == "Mystery")     return '#9197AE'; // grigio
+        if (genre == "Romance")     return '#D8ACB9'; // rosa
+        if (genre == "Sci-Fi")      return '#5762D5'; // iris
+        if (genre == "War")         return '#576757'; // verde militare
 
         return "#ffffff"
     }

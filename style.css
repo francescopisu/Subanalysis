@@ -360,7 +360,7 @@
 
 .container .content {
   position: relative;
-  display: none;
+  /*display: none;*/
   box-shadow: 0 3px 2px -1px rgba(117,115,117,0.59);
   z-index: 999;
   background-color: rgba(255, 255, 255, 0.8);
@@ -578,6 +578,81 @@ p.text-style {
 {
   background-color: #f1f1f1;
 }
+
+
+
+/* Legend */
+.legend-container {
+  position: relative;
+  height: 220px;
+  width: 350px !important;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.left-legend-panel {
+  width: 45% !important;
+  display: inline-block;
+  text-align: left !important;
+}
+
+.right-legend-panel {
+  width: 45% !important;
+  display: inline-block;
+  text-align: left !important;
+}
+
+.genres-legend .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    /*font-size: 90%;*/
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: .2em;
+}
+
+.legend-title {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: .2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.genres-legend .legend-scale ul {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  float: left;
+  list-style: none;
+}
+.genres-legend .legend-scale ul li {
+  font-size: 80%;
+  list-style: none;
+  margin-left: 0;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+.genres-legend ul.legend-labels li span {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 0;
+}
+.genres-legend .legend-source {
+  font-size: 70%;
+  color: #999;
+  clear: both;
+}
+.genres-legend a {
+  color: #777;
+}
+
+
+
 
 label
 {
