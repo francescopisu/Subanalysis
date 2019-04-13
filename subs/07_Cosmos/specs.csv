@@ -1,2 +1,2 @@
-id,name,length,genre,year
-7,Cosmos, 43,Documentary,2014
+id,name,length,genre,start_year,end_year
+7,Cosmos,43,Documentary,2014,2014

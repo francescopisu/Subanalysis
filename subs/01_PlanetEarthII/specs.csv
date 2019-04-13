@@ -1,2 +1,2 @@
-id,name,length,genre,year
-1,Planet Earth II, 60,Documentary,2016
+id,name,length,genre,start_year,end_year
+1,Planet Earth II,60,Documentary,2016,2016

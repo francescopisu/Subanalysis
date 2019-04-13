@@ -1,2 +1,2 @@
-id,name,length,genre,year
-9,Cosmos (1980), 60,Documentary,1980
+id,name,length,genre,start_year,end_year
+9,Cosmos (1980),60,Documentary,1980,1980

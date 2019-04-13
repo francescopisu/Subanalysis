@@ -154,7 +154,6 @@ class Chart {
 
         this.focus.append("g")
             .attr("class", "y-axis")
-            .style("font", "14px times")
             //.attr('transform', 'translate('+ this.margin.left + ',' + (this.margin.top + this.height) + ')')
             //.attr('transform', 'translate(' + (this.margin.left + this.width) + ',' + this.margin.top +')'
             .attr("transform","translate(0,0)")
@@ -164,7 +163,7 @@ class Chart {
             .append("text")
             .attr("class", "title")
             .attr("transform", "rotate(-90)")
-            .attr("y", -50)
+            .attr("y", -40)
             .attr("x",-this.height/2)
             .style("text-anchor", "middle")
             .text("Words per Hour");
@@ -263,7 +262,8 @@ class Chart {
                 .attr("width", this.x.bandwidth())
                 //.delay(function(d,i){ return i*_this.getDelayValue()})
                 .attr("y", (item) => { return y(series[item.series].wh); })
-                .attr("height", (item) => { return height - y(series[item.series].wh); });
+                .attr("height", 1);
+                // .attr("height", (item) => { return height - y(series[item.series].wh); });
             }
         }
 
@@ -274,16 +274,16 @@ class Chart {
             .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
 
 
-        if (this.zoomLevel == 3) {
-            // season average w/h line
-            this.bars.append("rect")
-            .attr("class", "season_line")
-            .attr("x", (item) => { return x(item.id); })
-            .attr("width", this.x.bandwidth()/2)
-            .attr("y", (item) => { return y(series[item.series]
-                                            .seasons_wh[item.season-1]); })
-            .attr("height", 1);
-        }
+        // if (this.zoomLevel == 3) {
+        //     // season average w/h line
+        //     this.bars.append("rect")
+        //     .attr("class", "season_line")
+        //     .attr("x", (item) => { return x(item.id); })
+        //     .attr("width", this.x.bandwidth()/2)
+        //     .attr("y", (item) => { return y(series[item.series]
+        //                                     .seasons_wh[item.season-1]); })
+        //     .attr("height", 1);
+        // }
     }
 
 
@@ -451,7 +451,6 @@ class Chart {
         _this.setTooltipText(item, _this);
 
         _this.tooltip
-            // .style("left",  (d3.event.pageX  - 90) + "px") //x
             .style("left", function(){
                 var x = d3.event.pageX;
                 var w = 530;
@@ -459,7 +458,6 @@ class Chart {
                 return (( x+w < i ) ? x + 90 : i - w + 90) + "px"
 
             })
-            // .style("top", (d3.event.pageY - 35) + "px"); //y
             .style("top", function(){
                 var y = d3.event.pageY;
                 var h = 200;
@@ -503,7 +501,7 @@ class Chart {
         if (_this.lastTransform){
             if (_this.zoomLevel == EPISODES && _this.lastTransform.k > 13 ||
                 _this.zoomLevel == SEASONS  && _this.lastTransform.k > 2     ){
-                // show labels and ticks
+                // show labels and ticks only if the bars are big enough
                 var labels = this.getCurrentData().map(item => item.number)
                 this.xAxis.tickFormat((d, i) => { return labels[i] }).tickSize(3);
             }
