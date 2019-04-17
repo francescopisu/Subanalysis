@@ -401,7 +401,7 @@ class Chart {
         if (genre == "Adventure")   return '#5B9279'; // verde
         if (genre == "Animation")   return '#ACEBFF'; // celestino
         if (genre == "Biography")   return '#F1D38D'; // giallino
-        if (genre == "Comedy")      return '#A45BA5'; // violetto
+        if (genre == "Comedy")      return '#0075F2'; // blu acceso
         if (genre == "Crime")       return '#F6B540'; // giallo
         if (genre == "Documentary") return '#7fbf7b'; // verdino
         if (genre == "Drama")       return '#EF7161'; // arancione

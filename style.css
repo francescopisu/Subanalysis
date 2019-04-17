@@ -651,6 +651,13 @@ p.text-style {
   color: #777;
 }
 
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
 
 
 
@@ -699,7 +706,7 @@ label
   appearance: none;
   display: inline-block;
   position: relative;
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
   color: #666;
   top: 5px;
   height: 18px;
@@ -717,6 +724,7 @@ label
    left: 5px;
    top: 1px;
    content: '\02143';
+   color: white;
    transform: rotate(40deg);
 }
 .form-checkbox:hover
@@ -727,6 +735,7 @@ label
 {
   background-color: #f1f1f1;
 }
+
 
 
 .svg-content-responsive {
