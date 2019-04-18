@@ -333,7 +333,7 @@ class Chart {
                         end_year: single_series.end_year,
                         number: +season.id_,
                         wh: +season.wh,
-                        logo_url: "posters/"+single_series.id_+".jpg",
+                        logo_url: "logos/original/"+single_series.id_+".png",
                         series: id_series, // position in this.series
                         no_of_episodes: season.episodes.length,
                         is_central: +season.id_ == Math.round(single_series.seasons.length/2)
@@ -358,7 +358,7 @@ class Chart {
                             number: +episode.id_,
                             wh: +episode.wh,
                             title: episode.title,
-                            logo_url: "posters/"+single_series.id_+".jpg",
+                            logo_url: "logos/original/"+single_series.id_+".png",
                             season: +season.id_,
                             series: id_series, // position in this.series
                             length: episode.length,
@@ -430,7 +430,8 @@ class Chart {
         switch(_this.zoomLevel) {
             case SERIES:
                 var str = (item.no_of_seasons == 1) ? "season" : "seasons";
-
+                
+                $(".series-poster").attr("src", item.logo_url)
                 $(".series-number").html((item.id+1) + ". ")
                 $(".series-info").html(item.episode_length + "min | " + item.genre + " | " + + item.no_of_seasons + " " + str + "</br>")
                 $(".series-summary").html(item.description + "</br>")
@@ -438,11 +439,15 @@ class Chart {
                 break;
 
             case SEASONS:
+                
+                $(".series-logo").attr("src", item.logo_url)
                 $(".season-info").html("Season " + (item.number) + ", Episodes: " + item.no_of_episodes + "</br>")
                 $(".season-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
                 break;
 
             case EPISODES:
+
+                $(".series-logo").attr("src", item.logo_url)
                 $(".episode-number").html((item.number) + ". ")
                 $(".episode-title").html(item.title + "</br>")
                 $(".episode-info").html("Season " + item.season + " | " + item.length + "min" + "</br>")
@@ -461,7 +466,8 @@ class Chart {
             .style("opacity", 0.9);
 
         // series tooltip content
-        $(".series-poster").attr("src", item.logo_url)
+        
+        
         _this.setTooltipText(item, _this);
 
         _this.tooltip

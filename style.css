@@ -131,13 +131,27 @@
 
 /* Tooltip content*/
 
-.tooltip-content img {
+.series-poster {
   position: relative;
   height: 200px;
   display: block;
   float: left;
   padding: 10px;
   object-fit: contain;
+}
+
+.series-logo {
+  height: 80px;
+  max-width: 350px;
+  /*padding: 10px;*/
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  object-fit: contain;
+}
+
+.logo-container {
+  text-align: center;
 }
 
 .tooltip-text {
@@ -149,6 +163,10 @@
   padding-bottom: 10px;
   padding-top: 6px;
 }
+
+
+
+
 
 /* INIZIO SERIES TOOLTIP */
 .series {
@@ -187,21 +205,27 @@
 
 /* INIZIO SEASON TOOLTIP*/
 .season {
-  width: 350px;
-  height: 100px;
+  width: 370px;
+  height: 180px;
   padding: 0 5px 5px 5px;
 }
 
 .season-info {
+  padding-left: 10px;
   margin-top: 1 0px;
 }
 
 .season-avg-wh {
   padding-top: 10px;
   position: absolute;
-  top: 70px;
-  left: 5px;
+  top: 150px;
+  left: 15px;
   font-size: 13px;
+}
+
+.season .series-name {
+  padding-left: 10px;
+  margin-bottom: 0px;
 }
 
 
@@ -210,36 +234,42 @@
 
 /* INIZIO EPISODE TOOLTIP */
 .episode {
-  width: 420px;
-  height: 120px;
+  width: 450px;
+  height: 180px;
   padding: 0 5px 5px 5px;
 }
 
 .episode-wh {
   padding-top: 10px;
   position: absolute;
-  top: 90;
+  top: 152;
   left: 5;
   font-size: 13px;
+  padding-left: 10px;
 }
 
 .episode-number {
   font-size: 14px;
+  padding-left: 10px;
 }
 
 .episode-title {
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 13px !important;
 }
 
 .episode-info {
   padding-top: 5px;
+  padding-left: 10px;
 }
 
-.episode-summary {
-  padding-top: 5px;
+.episode .series-name {
+  padding-left: 10px;
 }
+
 /* FINE EPISODE TOOLTIP */
 
 
@@ -360,7 +390,7 @@
 
 .container .content {
   position: relative;
-  /*display: none;*/
+  display: none;
   box-shadow: 0 3px 2px -1px rgba(117,115,117,0.59);
   z-index: 999;
   background-color: rgba(255, 255, 255, 0.8);
