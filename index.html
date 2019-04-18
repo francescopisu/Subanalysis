@@ -187,7 +187,7 @@
         </div>
 
         <!-- <hr class="style14" id="ordering-separator">
-        
+
         <div class="legend-container">
 
           <div class='legend-title'>Genres and color mapping</div>
@@ -203,7 +203,7 @@
                   <li><span style='background:#A45BA5;'></span>Comedy</li>
                   <li><span style='background:#F6B540;'></span>Crime</li>
                   <li><span style='background:#FFE4B5;'></span>Documentary</li>
-                  
+
                 </ul>
               </div>
             </div>
@@ -226,8 +226,8 @@
           </div>
 
         </div> -->
-        
-        
+
+
       </div>
 
     </div>
@@ -272,13 +272,13 @@ d3.json(url_data, function(error, json_data) {
     // resize the size of the chart and redraw it if the window changes
     $(window).resize(function() {
         //$(".content").width($(".interaction-menu").width())
-        chart.animation = false;
+        // chart.animation = false;
         chart.width = window.innerWidth;
         chart.height = window.innerHeight;
         chart.clear();
         chart.draw();
         chart.zoomed(chart);
-        chart.animation = true;
+        // chart.animation = true;
     });
 
 

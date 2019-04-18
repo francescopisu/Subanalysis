@@ -47,6 +47,7 @@ class Chart {
         this.genres = new Set();
         this.data.forEach(series => {
                 series.genre.split(" ").forEach(item => this.genres.add(item))
+                // this.genres.add(series.genre);
         })
         // console.log([...this.genres].sort());
     }
@@ -316,7 +317,7 @@ class Chart {
                     end_year: single_series.end_year,
                     logo_url: "posters/"+single_series.id_+".jpg",
                     series: id_series, // position in this.series
-                    genre: single_series.genre,
+                    genre: single_series.genre.split(" ")[0],
                     description: single_series.description,
                     no_of_seasons: single_series.seasons.length,
                     is_central: true,
@@ -395,7 +396,8 @@ class Chart {
     }
 
     getColor(item, _this){
-        var genre = _this.series[item.series].genre.split(" ")[0];
+        // var genre = _this.series[item.series].genre.split(" ")[0];
+        var genre = _this.series[item.series].genre;
 
         if (genre == "Action")      return '#B36FAF'; // viola
         if (genre == "Adventure")   return '#5B9279'; // verde
@@ -541,7 +543,7 @@ class Chart {
 
 
     // ----------- SORTING
-    // this function returns a function used for sorting that property
+    // returns a function used for sorting on that property
     dynamicSort(property) {
         // many thanks to Ege Özcan https://stackoverflow.com/a/4760279
         var sortOrder = 1;
@@ -579,29 +581,30 @@ class Chart {
 
     // ------------ FILTERING
     // returns true if the series respects all the filters
-    isSeriesAllowed(series){
-        // console.log(series.genre.split(" "))
-        var genres = this.genres;
+    isSeriesAllowed(seriesFromJson){
+        // console.log(seriesFromJson.genre.split(" "))
+        // var genres = this.genres;
 
         // check if:
-        // - the series w/h in inside the w/h limits
-        // - the series year in inside the years limits TODO
-        // - at least one genre of the series is present in the filters set
-        return (series.wh >= this.wh_min && series.wh <= this.wh_max) &&
-               (series.start_year <= this.year_max &&
-                series.end_year   >= this.year_min) &&
-                (series.genre.split(" ")
+        // - w/h is inside the w/h limits
+        // - year is inside the years limits TODO
+        // - genre is present in the filters set
+        return (seriesFromJson.wh >= this.wh_min && seriesFromJson.wh <= this.wh_max) &&
+               (seriesFromJson.start_year <= this.year_max &&
+                seriesFromJson.end_year   >= this.year_min) &&
+                this.genres.has(seriesFromJson.genre.split(" ")[0]);
+                /*(seriesFromJson.genre.split(" ")
                             .reduce(
                                 function(result, item) {
                                     return result || genres.has(item);
-                                }, false))
+                                }, false))*/
     }
 
     // add or remove a filter from the filters set
     setFilterInFiltersSet(filterType, checked){
         if (checked) this.genres.add(filterType);
         else this.genres.delete(filterType);
-        // console.log(this.genres);
+        console.log(this.genres);
 
         this.clear();
         this.extractElements();
