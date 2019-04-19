@@ -223,7 +223,7 @@ class Chart {
 
         // EXIT old elements not present in new data
         this.bars.exit()
-        .transition(_this.t)
+        .transition().duration(500)
         .attr("y", function(d) {
           return height;
         }) // old elements which are leaving the chart, their y position transitions to the xaxis
@@ -237,7 +237,7 @@ class Chart {
 
 
         // UPDATE old elements present in new data
-        this.bars.transition(_this.t)
+        this.bars.transition().duration(500)
         .attr("x", function(d) {
           return x(d.id);
           }) // old elememnts in new data transition to their new position
@@ -249,14 +249,14 @@ class Chart {
           return height - y(d.wh)
         }); // old elememnts in new data transition to their correct height
 
-        this.seriesLabels.transition(_this.t)
+        this.seriesLabels.transition().duration(500)
         .attr('transform', (d)=>{
             return 'translate( '+(_this.x(d.id) +_this.x.bandwidth()/2)+' , '+
                                  (_this.height+20)+'),'+ 'rotate(45)';})
         .attr('x', 0)
         .attr('y', 0)
 
-        this.seriesLines.transition(_this.t)
+        this.seriesLines.transition().duration(500)
         .attr("x", function(d) {
           return x(d.id);
           }) // old elememnts in new data transition to their new position
@@ -275,7 +275,7 @@ class Chart {
         .attr("y", y(0))
         .attr("height", 0)
         .attr("fill", function(item) { return _this.getColor(item, _this);})
-        .transition(_this.t)
+        .transition().duration(500)
         //.delay(function(d,i){ return i*_this.getDelayValue()})
         .attr("y", function(item) { return y(item.wh); })
         .attr("height", function(item) { return height - y(item.wh); })
