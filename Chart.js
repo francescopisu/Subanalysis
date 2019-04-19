@@ -140,19 +140,22 @@ class Chart {
             .tickFormat("").tickSize(0); // initially no labels nor ticks
 
         this.yAxis = d3.axisLeft(this.y).ticks(10);
-
+        this.clipp = this.focus.append("g")
+            .attr("clip-path", "url(#clip)");
     }
 
     setAxes() {
 
+        // set the axes domain
         this.x.domain(this.getCurrentData().map(item => item.id))
         this.y.domain([0, d3.max(this.episodes, function(d) { return d.wh; })]).nice();
 
-        this.clipp = this.focus.append("g")
-            .attr("clip-path", "url(#clip)");
 
-        this.focus.select(".x-axis").call(this.xAxis);
-        this.focus.select(".x-axis").remove();
+        this.clipp.select(".x-axis").call(this.xAxis);
+
+        // remove the old x-axis
+        this.clipp.select(".x-axis").remove();
+        // append the new x-axis
         this.clipp.append("g")
             .attr("class", "x-axis")
             .attr("transform", "translate(0," + this.height + ")")
@@ -162,8 +165,11 @@ class Chart {
             .style("text-anchor", "middle")
             .attr("dy", ".5em");
 
+        // remove the old y-axis and the title
         this.focus.select(".y-axis").remove();
         this.focus.select(".title").remove();
+
+        // append the new x-axis
         this.focus.append("g")
             .attr("class", "y-axis")
             .style("font", "15px times")
@@ -172,6 +178,7 @@ class Chart {
             .attr("transform","translate(0,0)")
             .call(this.yAxis);
 
+        // append the new text
         this.focus
             .append("text")
             .attr("class", "title")
@@ -204,13 +211,13 @@ class Chart {
         this.setAxes();
 
         // JOIN new data with old elements
-        this.bars = this.focus.selectAll(".bar")
+        this.bars = this.clipp.selectAll(".bar")
         .data(this.getCurrentData(), function(d){ return d.id; });
 
-        this.seriesLabels = this.focus.selectAll(".series_label")
+        this.seriesLabels = this.clipp.selectAll(".series_label")
         .data(this.getCurrentData(), function(d){ return d.id; });
 
-        this.seriesLines = this.focus.selectAll(".series_line")
+        this.seriesLines = this.clipp.selectAll(".series_line")
         .data(this.getCurrentData(), function(d){ return d.id; });
 
 
@@ -550,14 +557,14 @@ class Chart {
 
             // move the bars
             _this.x.range([80, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)-80));
-            _this.focus.selectAll("rect").attr("x", d => _this.x(d.id))
+            _this.clipp.selectAll("rect").attr("x", d => _this.x(d.id))
                      .attr("width", _this.x.bandwidth())
 
 
-            _this.focus.selectAll(".x-axis").call(_this.xAxis);
+            _this.clipp.selectAll(".x-axis").call(_this.xAxis);
 
             // move the series labels
-            _this.focus.selectAll(".series_label")
+            _this.clipp.selectAll(".series_label")
             .attr('transform', (d)=>{
                 // console.log(d.id,_this.x(d.id),_this.x.bandwidth())
                 return 'translate( '+(_this.x(d.id) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})

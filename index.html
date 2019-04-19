@@ -276,16 +276,16 @@ d3.json(url_data, function(error, json_data) {
         chart.setZoomLevelAndData(Number(e.target.value)); })
 
     // resize the size of the chart and redraw it if the window changes
-    $(window).resize(function() {
-        //$(".content").width($(".interaction-menu").width())
-        // chart.animation = false;
-        chart.width = window.innerWidth;
-        chart.height = window.innerHeight;
-        chart.clear();
-        chart.draw();
-        chart.zoomed(chart);
-        // chart.animation = true;
-    });
+    // $(window).resize(function() {
+    //     //$(".content").width($(".interaction-menu").width())
+    //     // chart.animation = false;
+    //     chart.width = window.innerWidth;
+    //     chart.height = window.innerHeight;
+    //     chart.clear();
+    //     chart.draw();
+    //     chart.zoomed(chart);
+    //     // chart.animation = true;
+    // });
 
 
     $(".collapsible")[0].setAttribute("data-value", "+")
