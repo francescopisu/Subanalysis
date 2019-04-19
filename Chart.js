@@ -12,8 +12,8 @@ class Chart {
         // load in arguments from config object
         this.data = opts.data;
 
-        this.animation = false;
         this.lastTransform = null;
+        this.t = d3.transition().duration(500);
 
         // set the zoom, the sorting and the filters
         this.zoomLevel = SERIES;
@@ -100,9 +100,9 @@ class Chart {
 
         // create the other stuff
         this.createScalesAndAxes();
-        this.addDataToBars();
+        // this.addDataToBars();
         this.addBars();
-        this.addAxes();
+        // this.setAxes();
 
     }
 
@@ -111,14 +111,14 @@ class Chart {
          this.svgChart.selectAll("*").remove();
     }
 
-    addDataToBars(){
-        this.clipp = this.focus.append("g")
-            .attr("clip-path", "url(#clip)");
-
-        this.bars = this.clipp.selectAll(".bar")
-                      .data(this.getCurrentData())
-                      .enter();
-    }
+    // addDataToBars(){
+    //     this.clipp = this.focus.append("g")
+    //         .attr("clip-path", "url(#clip)");
+    //
+    //     this.bars = this.clipp.selectAll(".bar")
+    //                   .data(this.getCurrentData())
+    //                   .enter();
+    // }
 
     createScalesAndAxes() {
         // calculate the scales for the axis
@@ -126,12 +126,12 @@ class Chart {
         this.x = d3.scaleBand()
             // .range([this.margin.left, this.width-this.margin.right])
             .range([0, this.width - this.margin.right])
-            .domain(this.getCurrentData().map(item => item.id))
+            // .domain(this.getCurrentData().map(item => item.id))
             //.padding(0.1);
 
         this.y = d3.scaleLinear()
             .range([this.height, 0])
-            .domain([0, d3.max(this.episodes, function(d) { return d.wh; })]).nice();
+            // .domain([0, d3.max(this.episodes, function(d) { return d.wh; })]).nice();
 
 
         // define the axis
@@ -143,8 +143,16 @@ class Chart {
 
     }
 
-    addAxes() {
+    setAxes() {
 
+        this.x.domain(this.getCurrentData().map(item => item.id))
+        this.y.domain([0, d3.max(this.episodes, function(d) { return d.wh; })]).nice();
+
+        this.clipp = this.focus.append("g")
+            .attr("clip-path", "url(#clip)");
+
+        this.focus.select(".x-axis").call(this.xAxis);
+        this.focus.select(".x-axis").remove();
         this.clipp.append("g")
             .attr("class", "x-axis")
             .attr("transform", "translate(0," + this.height + ")")
@@ -154,7 +162,8 @@ class Chart {
             .style("text-anchor", "middle")
             .attr("dy", ".5em");
 
-
+        this.focus.select(".y-axis").remove();
+        this.focus.select(".title").remove();
         this.focus.append("g")
             .attr("class", "y-axis")
             .style("font", "15px times")
@@ -192,83 +201,98 @@ class Chart {
                                                     .style("opacity", 0); break;
         }
 
-        // Bar animation enabled only the first time after:
-        // a) loading
-        // b) changing data.
-        // Not enabled when resizing and redrawing the chart
-        if(this.animation) {
-            this.bars.append("rect")
-            .attr("class", "bar")
+        this.setAxes();
+
+        // JOIN new data with old elements
+        this.bars = this.focus.selectAll(".bar")
+        .data(this.getCurrentData(), function(d){ return d.id; });
+
+        this.seriesLabels = this.focus.selectAll(".series_label")
+        .data(this.getCurrentData(), function(d){ return d.id; });
+
+        this.seriesLines = this.focus.selectAll(".series_line")
+        .data(this.getCurrentData(), function(d){ return d.id; });
+
+
+        // EXIT old elements not present in new data
+        this.bars.exit()
+        .transition(_this.t)
+        .attr("y", function(d) {
+          return height;
+        }) // old elements which are leaving the chart, their y position transitions to the xaxis
+        .attr("height", function(d) {
+          return 0;
+        }) // old elements which are leaving the chart, therir height trasnitions to 0
+        .remove();
+
+        this.seriesLabels.exit().remove()
+        this.seriesLines.exit().remove()
+
+
+        // UPDATE old elements present in new data
+        this.bars.transition(_this.t)
+        .attr("x", function(d) {
+          return x(d.id);
+          }) // old elememnts in new data transition to their new position
+        .attr("width", x.bandwidth())
+        .attr("y", function(d) {
+          return y(d.wh)
+        }) // old elememnts in new data transition to their y position
+        .attr("height", function(d, i) {
+          return height - y(d.wh)
+        }); // old elememnts in new data transition to their correct height
+
+        this.seriesLabels.transition(_this.t)
+        .attr('transform', (d)=>{
+            return 'translate( '+(_this.x(d.id) +_this.x.bandwidth()/2)+' , '+
+                                 (_this.height+20)+'),'+ 'rotate(45)';})
+        .attr('x', 0)
+        .attr('y', 0)
+
+        this.seriesLines.transition(_this.t)
+        .attr("x", function(d) {
+          return x(d.id);
+          }) // old elememnts in new data transition to their new position
+        .attr("width", x.bandwidth())
+        .attr("y", function(d) {
+          return y(d.wh_series)
+        }) // old elememnts in new data transition to their y position
+
+
+        // ENTER new elements present in new data
+        this.bars.enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", function(item) { return x(item.id); })
+        .attr("width", x.bandwidth())
+        .attr("y", y(0))
+        .attr("height", 0)
+        .attr("fill", function(item) { return _this.getColor(item, _this);})
+        .transition(_this.t)
+        //.delay(function(d,i){ return i*_this.getDelayValue()})
+        .attr("y", function(item) { return y(item.wh); })
+        .attr("height", function(item) { return height - y(item.wh); })
+
+        // labels with the series name
+        this.seriesLabels.enter().append("text")
+        .attr("class", "series_label")
+        .text((item) => { return (item.is_central) ? item.name : ""; })
+        .attr('transform', (d)=>{
+                            // console.log(d.id,_this.x(d.id),_this.x.bandwidth())
+                            return 'translate( '+(_this.x(d.id) +_this.x.bandwidth()/2)+' , '+
+                                 (_this.height+20)+'),'+ 'rotate(45)';})
+        .attr("x", 0)
+        .attr('y', 0)
+
+        // series average w/h line
+        if (this.zoomLevel > 1) {
+            this.seriesLines.enter().append("rect")
+            .attr("class", "series_line")
+            .attr("fill", "black")
             .attr("x", function(item) { return x(item.id); })
             .attr("width", this.x.bandwidth())
-            .attr("y", y(0))
-            .attr("height", 0)
-            .attr("fill", function(item) { return _this.getColor(item, _this);})
-            .transition()
-            .duration(500)
-            //.delay(function(d,i){ return i*_this.getDelayValue()})
-            .attr("y", function(item) { return y(item.wh); })
-            .attr("height", function(item) { return height - y(item.wh); });
-
-            this.bars.append("text")
-            .attr("class", "series_labels")
-            .text((item) => {
-                return (item.is_central) ? series[item.series].name : "";
-                })
-            .attr('transform', (d,i)=>{
-                return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+
-                                     (_this.height+20)+'),'+ 'rotate(45)';})
-            .transition()
-            .duration(300)
-            .attr('x', 0)
-            .attr('y', 0)
-
-            // if (this.zoomLevel > 1) {
-            //     // series average w/h rectangle
-            //     this.bars.append("rect")
-            //     .attr("class", "series_line")
-            //     .attr("x", function(item) { return x(item.id); })
-            //     .attr("width", this.x.bandwidth())
-            //     .attr("y", y(0))
-            //     .attr("height", 0)
-            //     .transition()
-            //     .duration(500)
-            //     //.delay(function(d,i){ return i*_this.getDelayValue()})
-            //     .attr("y", (item) => { return y(series[item.series].wh); })
-            //     .attr("height", (item) => { return height - y(series[item.series].wh); });
-            // }
-
-        } else { //animation allowed, i.e when changing data
-            this.bars.append("rect")
-            .attr("class", "bar")
-            .attr("x", function(item) { return x(item.id); })
-            .attr("width", this.x.bandwidth())
-            .attr("fill", function(item) { return _this.getColor(item, _this);})
-            .attr("y", function(item) { return y(item.wh); })
-            .attr("height", function(item) { return height - y(item.wh); });
-
-            this.bars.append("text")
-            .attr("class", "series_labels")
-            .text((item) => {
-                return (item.is_central) ? series[item.series].name : "";
-                })
-            .attr('transform', (d,i)=>{
-                return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+
-                                     (_this.height+20)+'),'+ 'rotate(45)';})
-            .attr('x', 0)
-            .attr('y', 0)
-
-            if (this.zoomLevel > 1) {
-                // series average w/h rectangle
-                this.bars.append("rect")
-                .attr("class", "series_line")
-                .attr("x", function(item) { return x(item.id); })
-                .attr("width", this.x.bandwidth())
-                //.delay(function(d,i){ return i*_this.getDelayValue()})
-                .attr("y", (item) => { return y(series[item.series].wh); })
-                .attr("height", 1);
-                // .attr("height", (item) => { return height - y(series[item.series].wh); });
-            }
+            .attr("y", (item) => { return y(item.wh_series); })
+            .attr("height", 1);
         }
 
 
@@ -277,17 +301,6 @@ class Chart {
             .on("mouseover", function(item) { _this.showTooltip(item, _this); })
             .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
 
-
-        // if (this.zoomLevel == 3) {
-        //     // season average w/h line
-        //     this.bars.append("rect")
-        //     .attr("class", "season_line")
-        //     .attr("x", (item) => { return x(item.id); })
-        //     .attr("width", this.x.bandwidth()/2)
-        //     .attr("y", (item) => { return y(series[item.series]
-        //                                     .seasons_wh[item.season-1]); })
-        //     .attr("height", 1);
-        // }
     }
 
 
@@ -307,7 +320,8 @@ class Chart {
             if (this.isSeriesAllowed(single_series)){
                 // extract the series data
                 series.push({
-                    id: id_series,
+                    // id: id_series,
+                    id: +single_series.id_,
                     name: single_series.name,
                     number: +single_series.id_,
                     // number: id_series,
@@ -320,26 +334,28 @@ class Chart {
                     genre: single_series.genre.split(" ")[0],
                     description: single_series.description,
                     no_of_seasons: single_series.seasons.length,
-                    is_central: true,
-                    seasons_wh: []
+                    // seasons_wh: [],
+                    is_central: true
                 });
 
                 // extract the seasons data
                 single_series.seasons.forEach(season => {
                     seasons.push({
-                        id: id_season++,
+                        id: ((+single_series.id_)*1000000) +
+                            ((+season.id_)*1000),
                         name: single_series.name,
                         start_year: single_series.start_year,
                         end_year: single_series.end_year,
                         number: +season.id_,
                         wh: +season.wh,
                         logo_url: "logos/original/"+single_series.id_+".png",
-                        series: id_series, // position in this.series
                         no_of_episodes: season.episodes.length,
+                        wh_series: +single_series.wh,
+                        genre: single_series.genre.split(" ")[0],
                         is_central: +season.id_ == Math.round(single_series.seasons.length/2)
                     });
 
-                    series[id_series].seasons_wh.push(+season.wh);
+                    // series[id_series].seasons_wh.push(+season.wh);
 
                     // extract the episodes data
 
@@ -351,7 +367,9 @@ class Chart {
                     season.episodes.forEach(episode => {
                         episode_counter++;
                         episodes.push({
-                            id: id_episode++,
+                            id: ((+single_series.id_)*1000000) +
+                                ((+season.id_)*1000) +
+                                (+episode.id_),
                             name: single_series.name,
                             start_year: single_series.start_year,
                             end_year: single_series.end_year,
@@ -360,7 +378,8 @@ class Chart {
                             title: episode.title,
                             logo_url: "logos/original/"+single_series.id_+".png",
                             season: +season.id_,
-                            series: id_series, // position in this.series
+                            wh_series: +single_series.wh,
+                            genre: single_series.genre.split(" ")[0],
                             length: episode.length,
                             is_central: episode_counter == Math.round(n_episodes/2)
                         });
@@ -397,7 +416,7 @@ class Chart {
 
     getColor(item, _this){
         // var genre = _this.series[item.series].genre.split(" ")[0];
-        var genre = _this.series[item.series].genre;
+        var genre = item.genre;
 
         if (genre == "Action")      return '#B36FAF'; // viola
         if (genre == "Adventure")   return '#5B9279'; // verde
@@ -430,7 +449,7 @@ class Chart {
         switch(_this.zoomLevel) {
             case SERIES:
                 var str = (item.no_of_seasons == 1) ? "season" : "seasons";
-                
+
                 $(".series-poster").attr("src", item.logo_url)
                 $(".series-number").html((item.id+1) + ". ")
                 $(".series-info").html(item.episode_length + "min | " + item.genre + " | " + + item.no_of_seasons + " " + str + "</br>")
@@ -439,7 +458,7 @@ class Chart {
                 break;
 
             case SEASONS:
-                
+
                 $(".series-logo").attr("src", item.logo_url)
                 $(".season-info").html("Season " + (item.number) + ", Episodes: " + item.no_of_episodes + "</br>")
                 $(".season-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
@@ -466,8 +485,8 @@ class Chart {
             .style("opacity", 0.9);
 
         // series tooltip content
-        
-        
+
+
         _this.setTooltipText(item, _this);
 
         _this.tooltip
@@ -499,8 +518,8 @@ class Chart {
     // imposto zoomLevel e poi pulisco l'svg attuale prima di ridisegnarlo
     setZoomLevelAndData(zoomLevel) {
         this.zoomLevel = zoomLevel;
-        // this.animation = true
         // remove the old bars
+        /*
         this.focus.selectAll("*")
              //  .transition()
              //  .duration(300)
@@ -513,22 +532,21 @@ class Chart {
 
         // move the chart to the previous zoomed state
         this.zoomed(this);
+        */
+
+        // this.clear();
+        this.extractElements();
+        // this.draw();
+        this.addBars();
+        // this.setTicksAndLabels();
+        // this.zoomed(this);
     }
 
     zoomed(_this){
         if (d3.event) _this.lastTransform = d3.event.transform;
 
         if (_this.lastTransform){
-            if (_this.zoomLevel == EPISODES && _this.lastTransform.k > 13 ||
-                _this.zoomLevel == SEASONS  && _this.lastTransform.k > 2     ){
-                // show labels and ticks only if the bars are big enough
-                var labels = this.getCurrentData().map(item => item.number)
-                this.xAxis.tickFormat((d, i) => { return labels[i] }).tickSize(3);
-            }
-            else {
-                // hide labels and ticks
-                _this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
-            }
+            _this.setTicksAndLabels();
 
             // move the bars
             _this.x.range([80, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)-80));
@@ -539,14 +557,27 @@ class Chart {
             _this.focus.selectAll(".x-axis").call(_this.xAxis);
 
             // move the series labels
-            _this.focus.selectAll(".series_labels")
-            .attr('transform', (d,i)=>{
-                return 'translate( '+(_this.x(i) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
+            _this.focus.selectAll(".series_label")
+            .attr('transform', (d)=>{
+                // console.log(d.id,_this.x(d.id),_this.x.bandwidth())
+                return 'translate( '+(_this.x(d.id) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
             .attr('x', 0)
             .attr('y', 0)
         }
     }
 
+    setTicksAndLabels(){
+        if (this.zoomLevel == EPISODES && this.lastTransform.k > 13 ||
+            this.zoomLevel == SEASONS  && this.lastTransform.k > 2     ){
+            // show labels and ticks only if the bars are big enough
+            var labels = this.getCurrentData().map(item => item.number)
+            this.xAxis.tickFormat((d, i) => { return labels[i] }).tickSize(3);
+        }
+        else {
+            // hide labels and ticks
+            this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
+        }
+    }
 
     // ----------- SORTING
     // returns a function used for sorting on that property
@@ -579,10 +610,11 @@ class Chart {
         else
             this.data.sort(this.dynamicSort(this.sortingParameter));
 
-        this.clear();
+        // this.clear();
         this.extractElements();
-        this.draw();
-        this.zoomed(this);
+        // this.draw();
+        this.addBars();
+        // this.zoomed(this);
     }
 
     // ------------ FILTERING
@@ -610,51 +642,56 @@ class Chart {
     setFilterInFiltersSet(filterType, checked){
         if (checked) this.genres.add(filterType);
         else this.genres.delete(filterType);
-        console.log(this.genres);
+        // console.log(this.genres);
 
-        this.clear();
+        // this.clear();
         this.extractElements();
-        this.draw();
-        this.zoomed(this);
+        // this.draw();
+        this.addBars();
+        // this.zoomed(this);
     }
 
     setWhLimits(limits){
         this.wh_min = parseInt(limits.split(";")[0])
         this.wh_max = parseInt(limits.split(";")[1])
 
-        this.clear();
+        // this.clear();
         this.extractElements();
-        this.draw();
-        this.zoomed(this);
+        // this.draw();
+        this.addBars();
+        // this.zoomed(this);
     }
 
     setYearLimits(limits){
         this.year_min = parseInt(limits.split(";")[0])
         this.year_max = parseInt(limits.split(";")[1])
 
-        this.clear();
+        // this.clear();
         this.extractElements();
-        this.draw();
-        this.zoomed(this);
+        // this.draw();
+        this.addBars();
+        // this.zoomed(this);
     }
 
     // reset filters
     resetFilters() {
         this.genres.clear();
 
-        this.clear();
+        // this.clear();
         this.extractElements();
-        this.draw();
-        this.zoomed(this);
+        // this.draw();
+        this.addBars();
+        // this.zoomed(this);
     }
 
     // set all filters
     setAllFilters() {
         this.extractGenres();
 
-        this.clear();
+        // this.clear();
         this.extractElements();
-        this.draw();
-        this.zoomed(this);
+        // this.draw();
+        this.addBars();
+        // this.zoomed(this);
     }
 }
