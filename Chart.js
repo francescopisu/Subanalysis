@@ -298,6 +298,9 @@ class Chart {
             .attr("fill", "black")
             .attr("x", function(item) { return x(item.id); })
             .attr("width", this.x.bandwidth())
+            .attr("y", y(0))
+            .attr("height", 0)
+            .transition().duration(500)
             .attr("y", (item) => { return y(item.wh_series); })
             .attr("height", 1);
         }
