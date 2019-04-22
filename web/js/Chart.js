@@ -196,6 +196,7 @@ class Chart {
         // bar transitions are displayed only on loading and zoom level changes
         // 0ms duration means the transitions won't be visible
         var duration = (this.transitions) ? 500 : 0;
+        var delay    = 10; // for smooth transitions
 
         // EXIT old elements not present in new data
         this.bars.exit()
@@ -211,10 +212,10 @@ class Chart {
         this.seriesLabels.exit().remove()
         this.seriesLines.exit().remove()
 
-        
+
 
         // UPDATE old elements present in new data
-        this.bars.transition().duration(duration)
+        this.bars.transition().duration(duration).delay((d, i) => i * delay)
         .attr("x", function(d) {
           return x(d.id);
           }) // old elememnts in new data transition to their new position
@@ -226,14 +227,14 @@ class Chart {
           return height - y(d.wh)
         }); // old elememnts in new data transition to their correct height
 
-        this.seriesLabels.transition().duration(duration)
+        this.seriesLabels.transition().duration(duration).delay((d, i) => i * delay)
         .attr('transform', (d)=>{
             return 'translate( '+(_this.x(d.id) +_this.x.bandwidth()/2)+' , '+
                                  (_this.height+20)+'),'+ 'rotate(45)';})
         .attr('x', 0)
         .attr('y', 0)
 
-        this.seriesLines.transition().duration(duration)
+        this.seriesLines.transition().duration(duration).delay((d, i) => i * delay)
         .attr("x", function(d) {
           return x(d.id);
           }) // old elememnts in new data transition to their new position
@@ -253,11 +254,10 @@ class Chart {
         .attr("height", 0)
         .attr("fill", function(item) { return _this.getColor(item, _this);})
         .transition().duration(duration)
-        //.delay(function(d,i){ return i*_this.getDelayValue()})
         .attr("y", function(item) { return y(item.wh); })
         .attr("height", function(item) { return height - y(item.wh); })
 
-        
+
         // labels with the series name
         this.seriesLabels.enter().append("text")
         .attr("class", "series_label")
