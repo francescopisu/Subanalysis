@@ -1,0 +1,356 @@
+<!-- load in D3 and Chart constructor scripts -->
+<script src="js/Chart.js"></script>
+<script src="http://d3js.org/d3.v4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--ion Slider: css + js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
+
+<!-- introjs -->
+<link rel="stylesheet" href="introjs/introjs.css"/>
+
+
+<body>
+
+
+<!-- Inizio series tooltip -->
+<div class="dummy dummy-text">
+  <span id="series-tooltip" class="tooltip tooltip-effect-1">
+  <span class="series tooltip-content clearfix">
+    <img class="series-poster" src="" />
+    <span class="tooltip-text">
+      <span class="series-number"></span>
+      <span class="series-name"></span>
+      <div class="series-info"></div>
+      <div class="series-summary"></div>
+      <div class="series-avg-wh"></div>
+    </span>
+  </span>
+</span>
+</div>
+<!-- Fine series tooltip -->
+
+<!-- Inizio season tooltip -->
+<div class="dummy dummy-text">
+  <div id="season-tooltip" class="tooltip tooltip-effect-1">
+    <div class="season tooltip-content clearfix">
+      <div class="logo-container">
+        <img class="series-logo" src="" >
+      </div>
+      <div class="tooltip-text">
+        <span class="series-name"> </span>
+        <p class="season-info"></p>
+        <div class="season-avg-wh"></div>
+      </div>
+    </div>
+</div>
+</div>
+<!-- Fine season tooltip -->
+
+<!-- Inizio episode tooltip -->
+<div class="dummy dummy-text">
+  <div id="episode-tooltip" class="tooltip tooltip-effect-1">
+  <div class="episode tooltip-content clearfix">
+    <div class="logo-container">
+        <img class="series-logo" src="" >
+    </div>
+    <!-- <img class="series-logo" src="" />  -->
+    <div class="tooltip-text">
+      <span class="series-name"> </span>
+      <span class="episode-number"> </span>
+      <span class="episode-title"></span>
+      <div class="episode-info"></div>
+      <span class="episode-wh"></span>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Fine episode tooltip -->
+
+<!-- here's the div our chart will be injected into -->
+<h1 class="title-text"> Welcome to Subanalysis! </h1>
+<div class="container">
+  <div class="interaction-menu">
+    <span id="data-label"> Which data do you want to see ? </span>
+    <input type="radio" name="zoomLevel" value="1" id="series_data" class="form-radio" checked><label for="radio-one">Series</label>
+    <input type="radio" name="zoomLevel" value="2" id="seasons_data" class="form-radio"><label for="radio-one">Seasons</label>
+    <input type="radio" name="zoomLevel" value="3" id="episodes_data" class="form-radio"><label for="radio-one">Episodes</label>
+
+    <button class="collapsible" data-hint="Click me or press key '<b>e</b>' to expand<br>Click me, outside or key '<b>esc</b>' to collapse" 
+                                data-hintPosition="bottom-left"
+                                hint-animation="true"
+                                ></button>
+
+    <div class="content">
+      <div class="filter-panel">
+        <p class="filter-panel-title"> Filtering </p>
+          <form class="filter-form">
+            <div class="form-filter-controls w-100">
+              <p class="form-filter-controls-cell text-style">Filter</p>
+              <div class="form-filter-controls-cell tar">
+                <!-- <input type="reset" value="Reset"> -->
+                <button class="form-button" id="reset"> Reset </button>
+                <button class="form-button" id="check-all"> Check All </button>
+              </div>
+            </div>
+
+            <div class="left-filter-panel">
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Action" checked style='background:#B36FAF;'><label for="Action">Action</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Animation" checked style='background:#ACEBFF;'><label for="Animation">Animation</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Comedy" checked style='background:#0075F2;'><label for="Comedy">Comedy</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Documentary" checked style='background:#7fbf7b;'><label for="Documentary">Documentary</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Fantasy" checked style='background:#BCB6FF;'><label for="Fantasy">Fantasy</label>
+            </div>
+
+            <div class="center-filter-panel">
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Adventure" checked style='background:#5B9279;'><label for="Adventure">Adventure</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Biography" checked style='background:#F1D38D;'><label for="Biography">Biography</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Crime" checked style='background:#F6B540;'><label for="Crime">Crime</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Drama" checked style='background:#EF7161;'><label for="Drama">Drama</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="History" checked style='background:#DD0426;'><label for="History">History</label>
+            </div>
+
+            <div class="right-filter-panel">
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Romance" checked style='background:#D8ACB9;'><label for="Romance">Romance</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Sci-Fi" checked style='background:#5762D5;'><label for="Sci-Fi">Sci-Fi</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="War" checked style='background:#576757;'><label for="War">War</label>
+              <br>
+              <input type="checkbox" name="genre-filter" class="form-checkbox" id="Mystery" checked style='background:#9197AE;'><label for="Mystery">Mystery</label>
+              <br>
+              <input type="checkbox" class="form-checkbox filler">
+            </div>
+        </form>
+        <hr class="style14">
+
+        <p class="filter-opt"> Year range </p>
+        <div class="year-range-container">
+          <input type="text" class="year-multi-range" name="year-multi-range" value="" />
+        </div>
+
+        <hr class="style14">
+
+        <p class="filter-opt"> W/h range</p>
+        <div class="wh-range-container">
+          <input type="text" class="wh-multi-range" name="wh-multi-range" value="" />
+        </div>
+
+      </div>
+
+      <div class="order-panel">
+        <p class="order-panel-title"> Ordering </p>
+        <p class="order-opt"> Sort Parameter </p>
+        <div class="left-order-panel">
+          <input type="radio" name="sorting-parameter" value="id_" id="id_" class="form-radio" checked><label for="standard">Standard</label>
+          <br>
+          <input type="radio" name="sorting-parameter" value="wh" id="wh" class="form-radio"><label for="wh">W/h</label>
+          <br>
+          <input type="radio" name="sorting-parameter" value="start_year" id="start_year" class="form-radio"><label for="start_year">Year</label>
+        </div>
+
+        <div class="right-order-panel">
+          <input type="radio" name="sorting-parameter" value="name" id="name" class="form-radio"><label for="name">Name</label>
+          <br>
+          <input type="radio" name="sorting-parameter" value="genre" id="genre" class="form-radio"><label for="genre">Genre</label>
+          <br>
+          <input type="radio" name="sorting-parameter" value="episode_length" id="episode_length" class="form-radio"><label for="duration">Duration</label>
+        </div>
+
+        <hr class="style14" id="ordering-separator">
+
+        <div class="bottom-order-panel">
+          <p class="order-opt"> Sorting type </p>
+          <div id="container-switch">
+            <div class="inner-container">
+              <div class="toggle">
+                  <p>Descending</p>
+              </div>
+              <div class="toggle">
+                  <p>Ascending</p>
+              </div>
+            </div>
+
+            <div class="inner-container" id='toggle-container'>
+              <div class="toggle">
+                  <p>Descending</p>
+              </div>
+              <div class="toggle">
+                  <p>Ascending</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+<div class="wrapper">
+  <div class="chart-container">
+  <svg id = "svgChart"></svg>
+</div>
+</div>
+
+<script type="text/javascript" src="introjs/intro.js"></script>
+
+</body>
+
+<script>
+introJs().addHints();
+
+
+var url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
+var url_sample = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/sample.json"
+
+
+
+d3.json(url_data, function(error, json_data) {
+    if (error) throw error;
+
+    // create the chart
+    const chart = new Chart({
+        element: document.querySelector('.chart-container'),
+        data: json_data });
+
+    // zoom level handler
+    $('input[name="zoomLevel"]').on('change', function (e) {
+        // set the chosen zoomLevel via radio buttons
+        chart.setZoomLevelAndData(Number(e.target.value)); 
+    });
+
+    // resizes the chart and redraws it if the window dimensions change
+    $(window).resize(function() {
+        chart.transitions = false;
+        chart.width = window.innerWidth;
+        chart.height = window.innerHeight;
+
+        chart.clear();
+        chart.draw();
+
+        // re enable transitions after the changes
+        chart.transitions = true;
+    });
+
+
+    $(".collapsible")[0].setAttribute("data-value", "+")
+    $(".collapsible").click(function () {
+        $header = $(this);
+
+        $content = $(".content")
+        //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+        $content.slideToggle(250, function () {
+          symbol = $content.is(":visible") ? "-" : "+";
+          $(".collapsible")[0].setAttribute("data-value", symbol);
+        });
+    });
+
+    // Close control panel when pressing ESC key or clicking away
+    $( document ).on( 'keydown', function ( e ) {
+      if ( e.key === 'Escape' ) {
+          $(".content").slideUp(250);
+          $(".collapsible")[0].setAttribute("data-value", "+");
+      } else if( e.key == 'e' ) { // expand control panel
+          $(".content").slideDown(250);
+          $(".collapsible")[0].setAttribute("data-value", "-");
+      }
+    });
+
+
+    $(document).click( function(event) {
+      if( $(event.target).closest('.interaction-menu').length == 0 ) {
+        $('.content').slideUp(150);
+        $(".collapsible")[0].setAttribute("data-value", "+");
+      }
+    });
+
+    // ------------ SORT
+    // sorting parameter handler
+    $('input[name="sorting-parameter"]').on('change', function (e) {
+        // console.log(e.target.value);
+        chart.setSortingParameter(e.target.value) })
+
+    var toggle = document.getElementById('container-switch');
+    var toggleContainer = document.getElementById('toggle-container');
+    var toggleNumber = ASCENDING;
+
+    toggle.addEventListener('click', function() {
+      toggleNumber = !toggleNumber;
+      if (toggleNumber == ASCENDING) {
+          toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
+          toggleContainer.style.backgroundColor = '#a6cee3';
+      } else {
+        toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
+        toggleContainer.style.backgroundColor = '#d95f02';
+      }
+      chart.setSortingType(toggleNumber);
+    });
+
+    // ------------ FILTERS
+    $(".year-multi-range").ionRangeSlider({
+            type: "double",
+            skin: "flat",
+            min: 1950,
+            max: 2019,
+            from: 1950,
+            to: 2019,
+            grid: false
+    });
+
+    $(".wh-multi-range").ionRangeSlider({
+            type: "double",
+            skin: "flat",
+            min: 0,
+            max: 13000,
+            from: 0,
+            to: 13000,
+            grid: true
+    });
+
+    // set the sorting parameter via radio buttons
+    $('input[name="genre-filter"]').on('change', function (e) {
+        chart.setFilterInFiltersSet(e.target.id, e.target.checked); })
+
+    // set the w/h limits
+    $('input[name="wh-multi-range"]').on('change', function (e) {
+        chart.setWhLimits(e.target.value); })
+
+    // set the years limits
+    $('input[name="year-multi-range"]').on('change', function (e) {
+        chart.setYearLimits(e.target.value); })
+
+    // reset checkboxes
+    $("#reset").on("click", function(e) {
+        $('input[type="checkbox"]').prop('checked', false);
+        e.preventDefault();
+
+        chart.resetFilters();
+    })
+    
+    // check all checkboxes
+    $("#check-all").on("click", function(e) {
+        $('input[type="checkbox"]').prop('checked', true );
+        e.preventDefault();
+
+        chart.setAllFilters();
+    })
+
+
+
+
+})
+
+</script>
