@@ -12,8 +12,6 @@ class Chart {
         // load in arguments from config object
         this.data = opts.data;
 
-        this.lastTransform = null;
-
         // set the zoom, the sorting and the filters
         this.zoomLevel = SERIES;
         this.sortingParameter  = "id_";
@@ -503,39 +501,34 @@ class Chart {
     }
 
     zoomed(_this){
-        if (d3.event) _this.lastTransform = d3.event.transform;
+        var transform = d3.event.transform;
 
-        if (_this.lastTransform){
-            _this.setTicksAndLabels();
-
-            // move the bars
-            _this.x.range([80, _this.width - _this.margin.right].map(d => _this.lastTransform.applyX(d)-80));
-            _this.clipp.selectAll("rect").attr("x", d => _this.x(d.id))
-                     .attr("width", _this.x.bandwidth())
-
-
-            _this.clipp.selectAll(".x-axis").call(_this.xAxis);
-
-            // move the series labels
-            _this.clipp.selectAll(".series_label")
-            .attr('transform', (d)=>{
-                return 'translate( '+(_this.x(d.id) +_this.x.bandwidth()/2)+' , '+(_this.height+20)+'),'+ 'rotate(45)';})
-            .attr('x', 0)
-            .attr('y', 0)
-        }
-    }
-
-    setTicksAndLabels(){
-        if (this.zoomLevel == EPISODES && this.lastTransform.k > 13 ||
-            this.zoomLevel == SEASONS  && this.lastTransform.k > 2     ){
+        if (this.zoomLevel == EPISODES && transform.k > 13 ||
+            this.zoomLevel == SEASONS  && transform.k > 2     ){
             // show labels and ticks only if the bars are big enough
             var labels = this.getCurrentData().map(item => item.number)
-            this.xAxis.tickFormat((d, i) => { return labels[i] }).tickSize(3);
+            this.xAxis.tickFormat((d, i) => labels[i]).tickSize(3);
         }
         else {
             // hide labels and ticks
             this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
         }
+
+        // move the bars
+        _this.x.range([0, _this.width - _this.margin.right].map(d => transform.applyX(d)));
+        _this.clipp.selectAll("rect").attr("x", d => _this.x(d.id))
+                 .attr("width", _this.x.bandwidth())
+
+
+        _this.clipp.select(".x-axis").call(_this.xAxis);
+
+        // move the series labels
+        _this.clipp.selectAll(".series_label")
+        .attr('transform', (d)=>{
+            return 'translate( '+(_this.x(d.id)+_this.x.bandwidth()/2) +
+                           ' , '+(_this.height+20) + '),' + 'rotate(45)';})
+        .attr('x', 0)
+        .attr('y', 0)
     }
 
     // ----------- SORTING
