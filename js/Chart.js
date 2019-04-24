@@ -246,23 +246,22 @@ class Chart {
         this.bars.enter()
         .append("rect")
         .attr("class", "bar")
-        .attr("x", function(item) { return x(item.id); })
+        .attr("x", item => x(item.id))
         .attr("width", x.bandwidth())
         .attr("y", y(0))
         .attr("height", 0)
-        .attr("fill", function(item) { return _this.getColor(item);})
+        .attr("fill", item => _this.getColor(item))
         .transition().duration(duration)
-        .attr("y", function(item) { return y(item.wh); })
-        .attr("height", function(item) { return height - y(item.wh); })
+        .attr("y", item => y(item.wh))
+        .attr("height", item => height - y(item.wh))
 
 
         // labels with the series name
         this.seriesLabels.enter().append("text")
         .attr("class", "series_label")
-        .text((item) => { return (item.is_central) ? item.name : ""; })
-        .attr('transform', (d)=>{
-                            return 'translate(' + (x(d.id)+x.bandwidth()/2) +
-                                    ' , ' + (height+20) + '),' + 'rotate(45)';})
+        .text(item => (item.is_central) ? item.name : "")
+        .attr('transform', d => 'translate(' + (x(d.id)+x.bandwidth()/2) +
+                                    ' , ' + (height+20) + '),' + 'rotate(45)' )
         .attr("x", 0)
         .attr('y', 0)
 
@@ -271,12 +270,12 @@ class Chart {
             this.seriesLines.enter().append("rect")
             .attr("class", "series_line")
             .attr("fill", "black")
-            .attr("x", function(item) { return x(item.id); })
+            .attr("x", item => x(item.id))
             .attr("width", this.x.bandwidth())
             .attr("y", y(0))
             .attr("height", 0)
             .transition().duration(duration)
-            .attr("y", (item) => { return y(item.wh_series); })
+            .attr("y", item => y(item.wh_series))
             .attr("height", 1);
         }
 
