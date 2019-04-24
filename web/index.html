@@ -72,15 +72,15 @@
 <!-- <h1 class="title-text"> Welcome to Subanalysis! </h1> -->
 
 <div class="general-wrapper">
-  <div class="control-panel-container">  
-      <div class="data-selection"> 
+  <div class="control-panel-container">
+      <div class="data-selection">
         <p> Which data do yo want to see? </p>
         <input type="radio" name="zoomLevel" value="1" id="series_data" class="form-radio" checked><label for="radio-one">Series</label>
         <input type="radio" name="zoomLevel" value="2" id="seasons_data" class="form-radio"><label for="radio-one">Seasons</label>
         <input type="radio" name="zoomLevel" value="3" id="episodes_data" class="form-radio"><label for="radio-one">Episodes</label>
     </div>
     <hr class="style14">
-    <div class="filtering"> 
+    <div class="filtering">
       <form class="filter-form">
         <div class="form-filter-controls w-100">
           <p class="form-filter-controls-cell text-style">Filter</p>
@@ -135,7 +135,7 @@
 
     <hr class="style14" id="filter-sort-separator">
 
-    <div class="sorting"> 
+    <div class="sorting">
       <p class="order-opt"> Sort Parameter </p>
       <div class="left-order-panel">
         <input type="radio" name="sorting-parameter" value="id_" id="id_" class="form-radio" checked><label for="standard">Standard</label>
@@ -216,11 +216,9 @@ d3.json(url_data, function(error, json_data) {
     // zoom level handler
     $('input[name="zoomLevel"]').on('change', function (e) {
         // set the chosen zoomLevel via radio buttons
-        chart.setZoomLevelAndData(Number(e.target.value)); 
+        chart.setZoomLevelAndData(Number(e.target.value));
     });
 
-
-    
 
     var width;
     var toggleWidth
@@ -281,7 +279,7 @@ d3.json(url_data, function(error, json_data) {
       }
     });
 
-    // DA SISTEMARE 
+    // DA SISTEMARE
     // $(document).click( function(event) {
     //   if( $(event.target).closest('.').length == 0 ) {
     //     $('.control-panel-container').animate({width: 'hide'});
@@ -353,7 +351,7 @@ d3.json(url_data, function(error, json_data) {
 
         chart.resetFilters();
     })
-    
+
     // check all checkboxes
     $("#check-all").on("click", function(e) {
         $('input[type="checkbox"]').prop('checked', true );

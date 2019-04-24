@@ -13,7 +13,6 @@ class Chart {
         this.data = opts.data;
 
         this.lastTransform = null;
-        this.t = d3.transition().duration(500);
 
         // set the zoom, the sorting and the filters
         this.zoomLevel = SERIES;
@@ -36,7 +35,7 @@ class Chart {
         // extract the data and draw the chart
         this.extractElements();
 
-        console.log(this.series);
+        console.log(this.getCurrentData());
 
         // draw everything
         this.draw();
@@ -124,7 +123,7 @@ class Chart {
 
         // set the axes domain
         this.x.domain(this.getCurrentData().map(item => item.id))
-        this.y.domain([0, d3.max(this.episodes, function(d) { return d.wh; })]).nice();
+        this.y.domain([0, d3.max(this.getCurrentData(), d => d.wh )]).nice();
 
 
         this.clipp.select(".x-axis").call(this.xAxis);
@@ -168,8 +167,14 @@ class Chart {
         var y = this.y;
         var height  = this.height;
         var _this   = this;
-        var series  = this.series;
-        var seasons = this.seasons;
+
+        // bar transitions are displayed only on loading and zoom level changes
+        // 0ms duration means the transitions won't be visible
+        var duration = (this.transitions) ? 500 : 0;
+        // little delay for smooth transitions
+        var delay    = (this.zoomLevel == SERIES)  ? 10 :
+                       (this.zoomLevel == SEASONS) ? 5  :
+                                                     0.5;
 
         // tooltip selection based on zoom level
         switch(this.zoomLevel) {
@@ -183,22 +188,17 @@ class Chart {
 
         this.setAxes();
 
-        // JOIN new data with old elements
+        // ******* JOIN new data with old elements
         this.bars = this.clipp.selectAll(".bar")
-        .data(this.getCurrentData(), function(d){ return d.id; });
+                                .data(this.getCurrentData(), d => d.id);
 
         this.seriesLabels = this.clipp.selectAll(".series_label")
-        .data(this.getCurrentData(), function(d){ return d.id; });
+                                .data(this.getCurrentData(), d => d.id);
 
         this.seriesLines = this.clipp.selectAll(".series_line")
-        .data(this.getCurrentData(), function(d){ return d.id; });
+                                .data(this.getCurrentData(), d => d.id);
 
-        // bar transitions are displayed only on loading and zoom level changes
-        // 0ms duration means the transitions won't be visible
-        var duration = (this.transitions) ? 500 : 0;
-        var delay    = 10; // for smooth transitions
-
-        // EXIT old elements not present in new data
+        // ******* EXIT old elements not present in new data
         this.bars.exit()
         .transition().duration(duration)
         .attr("y", function(d) {
@@ -214,7 +214,7 @@ class Chart {
 
 
 
-        // UPDATE old elements present in new data
+        // ******* UPDATE old elements present in new data
         this.bars.transition().duration(duration).delay((d, i) => i * delay)
         .attr("x", function(d) {
           return x(d.id);
@@ -229,8 +229,8 @@ class Chart {
 
         this.seriesLabels.transition().duration(duration).delay((d, i) => i * delay)
         .attr('transform', (d)=>{
-            return 'translate( '+(_this.x(d.id) +_this.x.bandwidth()/2)+' , '+
-                                 (_this.height+20)+'),'+ 'rotate(45)';})
+            return 'translate( '+(x(d.id) + x.bandwidth()/2)+' , '+
+                                 (height+20)+'),'+ 'rotate(45)';})
         .attr('x', 0)
         .attr('y', 0)
 
@@ -244,7 +244,7 @@ class Chart {
         }) // old elememnts in new data transition to their y position
 
 
-        // ENTER new elements present in new data
+        // ******* ENTER new elements present in new data
         this.bars.enter()
         .append("rect")
         .attr("class", "bar")
@@ -252,7 +252,7 @@ class Chart {
         .attr("width", x.bandwidth())
         .attr("y", y(0))
         .attr("height", 0)
-        .attr("fill", function(item) { return _this.getColor(item, _this);})
+        .attr("fill", function(item) { return _this.getColor(item);})
         .transition().duration(duration)
         .attr("y", function(item) { return y(item.wh); })
         .attr("height", function(item) { return height - y(item.wh); })
@@ -263,13 +263,13 @@ class Chart {
         .attr("class", "series_label")
         .text((item) => { return (item.is_central) ? item.name : ""; })
         .attr('transform', (d)=>{
-                            return 'translate( '+(_this.x(d.id) +_this.x.bandwidth()/2)+' , '+
-                                 (_this.height+20)+'),'+ 'rotate(45)';})
+                            return 'translate(' + (x(d.id)+x.bandwidth()/2) +
+                                    ' , ' + (height+20) + '),' + 'rotate(45)';})
         .attr("x", 0)
         .attr('y', 0)
 
-        // series average w/h line
-        if (this.zoomLevel > 1) {
+        // draw a line representing the series w/h
+        if (this.zoomLevel != SERIES) {
             this.seriesLines.enter().append("rect")
             .attr("class", "series_line")
             .attr("fill", "black")
@@ -293,100 +293,97 @@ class Chart {
 
 
     extractElements(){
-        var id_series  = 0;
-        var id_season  = 0;
-        var id_episode = 0;
+        this.dataForBars = [];
 
-        var series   = [];
-        var seasons  = [];
-        var episodes = [];
-
-        this.data.forEach(single_series => {
-            var episode_counter = 1;
-
-            if (this.isSeriesAllowed(single_series)){
-                // extract the series data
-                series.push({
-                    id: +single_series.id_,
-                    name: single_series.name,
-                    number: +single_series.id_,
-                    wh: +single_series.wh,
-                    episode_length: +single_series.episode_length,
-                    start_year: single_series.start_year,
-                    end_year: single_series.end_year,
-                    logo_url: "assets/posters/"+single_series.id_+".jpg",
-                    series: id_series, // position in this.series
-                    genre: single_series.genre.split(" ")[0],
-                    description: single_series.description,
-                    no_of_seasons: single_series.seasons.length,
-                    is_central: true
-                });
-
-                // extract the seasons data
-                single_series.seasons.forEach(season => {
-                    seasons.push({
-                        id: ((+single_series.id_)*1000000) +
-                            ((+season.id_)*1000),
-                        name: single_series.name,
-                        start_year: single_series.start_year,
-                        end_year: single_series.end_year,
-                        number: +season.id_,
-                        wh: +season.wh,
-                        logo_url: "assets/logos/original/"+single_series.id_+".png",
-                        no_of_episodes: season.episodes.length,
-                        wh_series: +single_series.wh,
-                        genre: single_series.genre.split(" ")[0],
-                        is_central: +season.id_ == Math.round(single_series.seasons.length/2)
-                    });
-
-                    // extract the episodes data
-
-                    // episodes count
-                    var n_episodes = single_series.seasons
-                                        .map(season => season.episodes.length)
-                                        .reduce((a,b)=>a+b);
-
-                    season.episodes.forEach(episode => {
-                        episode_counter++;
-                        episodes.push({
-                            id: ((+single_series.id_)*1000000) +
-                                ((+season.id_)*1000) +
-                                (+episode.id_),
+        switch (this.zoomLevel) {
+            case SERIES: // extract the series data
+                this.data.forEach(single_series => {
+                    if (this.isSeriesAllowed(single_series)){
+                        this.dataForBars.push({
+                            id: +single_series.id_,
                             name: single_series.name,
+                            number: +single_series.id_,
+                            wh: +single_series.wh,
+                            episode_length: +single_series.episode_length,
                             start_year: single_series.start_year,
                             end_year: single_series.end_year,
-                            number: +episode.id_,
-                            wh: +episode.wh,
-                            title: episode.title,
-                            logo_url: "assets/logos/original/"+single_series.id_+".png",
-                            season: +season.id_,
-                            wh_series: +single_series.wh,
+                            logo_url: "assets/posters/"+single_series.id_+".jpg",
                             genre: single_series.genre.split(" ")[0],
-                            length: episode.length,
-                            is_central: episode_counter == Math.round(n_episodes/2)
+                            description: single_series.description,
+                            no_of_seasons: single_series.seasons.length,
+                            is_central: true
                         });
-                    });
-                });
-                id_series++;
-            }
-        });
+                    }
+                })
+                break;
 
-        this.series   = series;
-        this.seasons  = seasons;
-        this.episodes = episodes;
+            case SEASONS: // extract the seasons data
+                this.data.forEach(single_series => {
+                    if (this.isSeriesAllowed(single_series)){
+                        single_series.seasons.forEach(season => {
+                            this.dataForBars.push({
+                                id: ((+single_series.id_)*1000000) +
+                                    ((+season.id_)*1000),
+                                name: single_series.name,
+                                start_year: single_series.start_year,
+                                end_year: single_series.end_year,
+                                number: +season.id_,
+                                wh: +season.wh,
+                                logo_url: "assets/logos/original/"+single_series.id_+".png",
+                                no_of_episodes: season.episodes.length,
+                                wh_series: +single_series.wh,
+                                genre: single_series.genre.split(" ")[0],
+                                is_central: +season.id_ == Math.round(single_series.seasons.length/2)
+                            });
+                        })
+                    }
+                })
+                break;
+
+            case EPISODES: // extract the episodes data
+                this.data.forEach(single_series => {
+                    if (this.isSeriesAllowed(single_series)){
+                        // count the episodes, it will be used for the label
+                        var n_episodes = single_series.seasons
+                                        .map(season => season.episodes.length)
+                                        .reduce((a,b)=>a+b);
+                        var episode_counter = 0;
+
+                        single_series.seasons.forEach(season => {
+                            season.episodes.forEach(episode => {
+                                episode_counter++;
+                                this.dataForBars.push({
+                                    id: ((+single_series.id_)*1000000) +
+                                        ((+season.id_)*1000) +
+                                        (+episode.id_),
+                                    name: single_series.name,
+                                    start_year: single_series.start_year,
+                                    end_year: single_series.end_year,
+                                    number: +episode.id_,
+                                    wh: +episode.wh,
+                                    title: episode.title,
+                                    logo_url: "assets/logos/original/"+single_series.id_+".png",
+                                    season: +season.id_,
+                                    wh_series: +single_series.wh,
+                                    genre: single_series.genre.split(" ")[0],
+                                    length: episode.length,
+                                    is_central: episode_counter == Math.round(n_episodes/2)
+                                });
+                            });
+                        })
+                    }
+                })
+                break;
+
+            default:
+                console.log("ERROR: wrong zoom level")
+                this.dataForBars = [];
+        }
     }
 
-
-    getNumberOfElements(){
-        return (this.zoomLevel == SERIES)  ? this.series.length  :
-               (this.zoomLevel == SEASONS) ? this.seasons.length :
-                                             this.episodes.length;
-    }
 
     getCurrentData(){
-        return (this.zoomLevel == SERIES)  ? this.series  :
-               (this.zoomLevel == SEASONS) ? this.seasons :
-                                             this.episodes;
+        return this.dataForBars;
     }
 
 
@@ -396,7 +393,7 @@ class Chart {
                                              [1, 100];
     }
 
-    getColor(item, _this){
+    getColor(item){
         var genre = item.genre;
 
         if (genre == "Action")      return '#B36FAF'; // viola
