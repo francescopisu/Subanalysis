@@ -275,11 +275,13 @@
 
 .title-text {
   text-align: center;
-  margin-top: 20px;
 }
 
-.title-text h1 {
+h1 {
   font-size: 2.50em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-top: 20px;
 }
 
 .chart-container {
@@ -298,8 +300,10 @@
   /*width: 75%;*/
   width: calc(100% - 324px);
   float: left;
-  padding-top: 8%;
+  padding-top: 3%;
   /*padding-left: 35px;*/
+  position: absolute;
+  right: 20;
 }
 
 /* CONTROL PANEL */
