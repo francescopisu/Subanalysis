@@ -1,3 +1,4 @@
+<head>
 <!-- load in D3 and Chart constructor scripts -->
 <script src="js/Chart.js"></script>
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -9,8 +10,8 @@
 
 <!-- introjs -->
 <link rel="stylesheet" href="introjs/introjs.css"/>
-
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <body>
 
 
@@ -220,42 +221,66 @@ d3.json(url_data, function(error, json_data) {
     });
 
 
-    var width;
-    var toggleWidth
-    var content;
-
-    // Manages expansion/collapse of control panel
-
-    $(".toggle-control-panel")[0].setAttribute("data-value", "<")
-    $('.toggle-control-panel').click( function() {
-        content = $(".control-panel-container")
-
-        symbol = content.is(":visible") ? ">" : "<";
-        $(".toggle-control-panel")[0].setAttribute("data-value", symbol);
-
-        // width = $(".general-wrapper").width() - 300;
-        toggleWidth = content.is(":visible") ? "90%" : "75%";
-        // toggleWidth = content.is(":visible") ? "90%" : "75%";
-
-        $('.control-panel-container').animate({ width: 'toggle' });
-        $('.chart-wrapper').animate({ width: toggleWidth });
-        // $('.chart-wrapper').toggleClass("collapsed-panel")
-
-    });
+    /* 
+      Da fare domani:
+      - sistemare elementi del menù quando width > 1650
+      - centrarli, controllare margini e padding
+    */
 
 
-    // resizes the chart and redraws it if the window dimensions change
+    // NUOVE: 
+    var toggleWidth;
+    var width_;
+    var ctrPnlContainer = $(".control-panel-container");
+    var genWrap = $(".general-wrapper");
+    var chartWrp = $(".chart-wrapper")
+    var toggleCtrPnl = $(".toggle-control-panel");
+
+
+    toggleCtrPnl[0].setAttribute("data-value", "<")
+
+
+    // NUOVA: Manages expansion/collapse of control panel
+    function collapseControlPanel() {
+      
+      symbol = ctrPnlContainer.is(":visible") ? ">" : "<";
+      toggleCtrPnl[0].setAttribute("data-value", symbol);
+
+      // determino la dimensione da dare a chart wrapper in base alla dimensione
+      // dello schermo (e quindi in base alla larghezza del menù)
+      width_ = document.documentElement.clientWidth > 1650 ? genWrap.width() - 463 :
+                                                             genWrap.width() - 324 ;
+
+      // se il menù è collassato chart wrapper assume il 90% del parent (general-wrapper)
+      // altrimenti lo spazio rimanente dato dalla differenza tra la larghezza del parent
+      // general-wrapper e il menù
+      toggleWidth = ctrPnlContainer.is(":visible") ? "90%" : String(width_);
+
+      ctrPnlContainer.animate({width: 'toggle' });
+      chartWrp.animate({ width: toggleWidth });
+    }
+    
+    // NUOVA: Attach a click handler to the toggle button
+    toggleCtrPnl.click( collapseControlPanel );
+
+
+    // NUOVA: resizes the chart and redraws it if the window dimensions change
     $(window).resize(function() {
         chart.transitions = false;
 
         chart.width = window.innerWidth;
         chart.height = window.innerHeight;
 
-        content = $(".control-panel-container")
-        width = $(".general-wrapper").width() - 324;
-        toggleWidth = content.is(":visible") ? String(width) : "90%";
+        // idem come sopra
+        width_ = document.documentElement.clientWidth > 1650 ? genWrap.width() - 463 : 
+                                                               genWrap.width() - 324 ;
 
-        $('.chart-wrapper').css({ 'width': toggleWidth });
+        // se il menù è visibile chart-wrapper assume lo spazio rimamente dalla differenza
+        // tra la larghezza del parent general-wrapper e la dimensione del menù
+        // Altrimenti assume il 90% della larghezza del parent general-wrapper
+        toggleWidth = ctrPnlContainer.is(":visible") ? String(width_) : "90%";
+
+        chartWrp.css({'width': toggleWidth });
 
         chart.clear();
         chart.draw();
@@ -264,29 +289,31 @@ d3.json(url_data, function(error, json_data) {
         chart.transitions = true;
     });
 
-    // Close control panel when pressing ESC key or clicking away
+    // NUOVA. Close control panel when pressing ESC key or clicking away
     $( document ).on( 'keydown', function ( e ) {
       if ( e.key === 'Escape' ) {
-          $(".control-panel-container").animate({width: 'hide'});
-          $(".toggle-control-panel")[0].setAttribute("data-value", ">");
+        //  DOMANI: rinominare content con varabile ctrPnlContainer
+          if(ctrPnlContainer.is(':visible')) {
+            ctrPnlContainer.animate({width: 'hide'});
+            toggleCtrPnl[0].setAttribute("data-value", ">");
 
-          $('.chart-wrapper').animate({ width: '90%' });
+            chartWrp.animate({ width: '90%' });
+          }
       } else if( e.key == 'e' ) { // expand control panel
-          $(".control-panel-container").animate({width: 'show'});
-          $(".toggle-control-panel")[0].setAttribute("data-value", "<");
+          if(!ctrPnlContainer.is(':visible')) {
 
-          $('.chart-wrapper').animate({width: '75%' });
+            ctrPnlContainer.animate({width: 'show'});
+            toggleCtrPnl[0].setAttribute("data-value", "<");
+
+            width_ = document.documentElement.clientWidth > 1650 ? genWrap.width() - 463 : 
+                                                                   genWrap.width() - 324 ;
+
+            chartWrp.animate({width: String(width_) });
+          }
+          
       }
     });
 
-    // DA SISTEMARE
-    // $(document).click( function(event) {
-    //   if( $(event.target).closest('.').length == 0 ) {
-    //     $('.control-panel-container').animate({width: 'hide'});
-    //     $('.chart-wrapper').animate({ width: '90%' });
-    //     $(".toggle-control-panel")[0].setAttribute("data-value", ">");
-    //   }
-    // });
 
 
     // ------------ SORT

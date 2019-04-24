@@ -282,6 +282,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding-top: 20px;
+  margin-bottom: 0;
 }
 
 .chart-container {
@@ -300,10 +301,10 @@ h1 {
   /*width: 75%;*/
   width: calc(100% - 324px);
   float: left;
-  padding-top: 3%;
+  padding-top: 4%;
   /*padding-left: 35px;*/
   position: absolute;
-  right: 20;
+  right: 2%;
 }
 
 /* CONTROL PANEL */
@@ -317,6 +318,23 @@ h1 {
   height: 100%;
   float: left;
   border-right: 1px solid grey;
+}
+
+@media screen and (min-width: 1650px) {
+  /* Aumentare larghezza menù */
+  .control-panel-container {
+    width: 400px;
+  }
+
+
+  /* Diminuire chart-wrapper*/
+  .chart-wrapper {
+    width: calc(100% - 460px);
+  }
+}
+
+.collapsed-width {
+  width: attr(coll-width) !important;
 }
 
 .toggle-control-panel {
@@ -342,9 +360,10 @@ h1 {
 }
 
 .data-selection {
-  width: 280px;
-  height: 60px;
-  /*height: 10%;*/
+  /*width: 280px;*/
+  width: 100%;
+  /*height: 60px;*/
+  height: 8%;
 }
 
 .data-selection input {
@@ -358,15 +377,17 @@ h1 {
 }
 
 .filtering {
-  width: 280px;
-  height: 380px;
-  /*height: 60%;*/
+  /*width: 280px;*/
+  width: 100%;
+  /*height: 380px;*/
+  height: 55%;
 }
 
 .sorting {
-  width: 280px;
-  height: 300px;
-  /*height: 30%;*/
+  /*width: 280px;*/
+  width: 100%;
+  /*height: 300px;*/
+  height: 30%;
 }
 /* CONTROL PANEL*/
 
@@ -504,7 +525,6 @@ hr.style14 {
 }
 
 #ordering-separator {
-  margin-left: -10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
