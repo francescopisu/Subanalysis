@@ -141,15 +141,21 @@ class Controller {
         this.chart.tooltip.setZoomLevel(zoomLevel);
         this.chart.transitions = true;
         this.chart.setDrawSeriesLine((zoomLevel != SERIES));
+        this.chart.setShowLabelsAndTicks((zoomLevel != SERIES));
+
+        var kZoomFactorMin = (zoomLevel == SERIES)  ? 9999 :
+                             (zoomLevel == SEASONS) ? 2    :
+                                                      13   ;
+        this.chart.setKZoomFactorMin(kZoomFactorMin);
 
         var scaleExtent = (zoomLevel == SERIES)  ? [1, 8]  :
                           (zoomLevel == SEASONS) ? [1, 25] :
                                                    [1, 100];
         this.chart.setScaleExtent(scaleExtent);
 
-        var delay = (zoomLevel == SERIES)  ? [1, 8]  :
-                    (zoomLevel == SEASONS) ? [1, 25] :
-                                             [1, 100];
+        var delay = (zoomLevel == SERIES)  ? 10 :
+                    (zoomLevel == SEASONS) ? 5  :
+                                             0.5;
         this.chart.setDelay(delay);
 
         this.chart.addBars(this.extractElements());
@@ -157,8 +163,6 @@ class Controller {
 
 
     // ----------- SORTING
-
-
     setSortingType(sortingType){
         this.sortingType = sortingType;
         this.sortData();
@@ -189,11 +193,6 @@ class Controller {
                (seriesFromJson.start_year <= this.year_max &&
                 seriesFromJson.end_year   >= this.year_min) &&
                 this.genres.has(seriesFromJson.genre.split(" ")[0]);
-                /*(seriesFromJson.genre.split(" ")
-                            .reduce(
-                                function(result, item) {
-                                    return result || genres.has(item);
-                                }, false))*/
     }
 
     // add or remove a filter from the filters set
@@ -209,7 +208,6 @@ class Controller {
         this.wh_max = parseInt(limits.split(";")[1])
 
         this.chart.addBars(this.extractElements());
-
     }
 
     setYearLimits(limits){

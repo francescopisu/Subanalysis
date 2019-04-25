@@ -1,5 +1,5 @@
 class Tooltip {
-    constructor(opts){
+    constructor(){
         this.setZoomLevel(SERIES);
     }
 
@@ -66,8 +66,6 @@ class Tooltip {
             .style("opacity", 0.9);
 
         // series tooltip content
-
-
         this.setTooltipText(item);
 
         this.tooltip
