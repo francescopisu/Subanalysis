@@ -1,53 +1,35 @@
-// zoom types
-const SERIES   = 1;
-const SEASONS  = 2;
-const EPISODES = 3;
-
-// sorting types
-const DESCENDING = false;
-const ASCENDING  = true;
 
 class Chart {
-    constructor(opts) {
-        // load in arguments from config object
-        this.data = opts.data;
-
-        // set the zoom, the sorting and the filters
-        this.zoomLevel = SERIES;
-        this.sortingParameter  = "id_";
-        this.sortingType = ASCENDING;
-
+    constructor(dataForBars) {
         // bar transitions flag
         this.transitions = true;
 
-        this.data.sort(this.dynamicSort(this.sortingParameter));
-        console.log(this.data);
+        // default scaleExtent
+        this.scaleExtent = [1, 8];
 
-        this.extractGenres();
-        this.wh_min = 0;
-        this.wh_max = 13000;
-        this.year_min = 1950;
-        this.year_max = 2019;
+        // default transition delay
+        this.delay = 10;
 
-
-        // extract the data and draw the chart
-        this.extractElements();
-
-        console.log(this.getCurrentData());
+        // flag
+        this.drawSeriesLine = false;
 
         // draw everything
-        this.draw();
+        this.draw(dataForBars);
     }
 
-    // create a Set containing the different genres; it will be used when filtering.
-    extractGenres(){
-        this.genres = new Set();
-        this.data.forEach(series => {
-                series.genre.split(" ").forEach(item => this.genres.add(item))
-        })
+    setDelay(delay){
+        this.delay = delay;
     }
 
-    draw() {
+    setScaleExtent(scaleExtent){
+        this.scaleExtent = scaleExtent;
+    }
+
+    setDrawSeriesLine(flag){
+        this.drawSeriesLine = flag;
+    }
+
+    draw(dataForBars) {
         this.margin = {top: 20, right: 40, bottom: 70, left: 80};
         this.width = window.innerWidth*0.9 + this.margin.right + this.margin.left; //1020
         this.height = window.innerHeight*0.75 - this.margin.top - this.margin.bottom; //780
@@ -81,7 +63,7 @@ class Chart {
 
 
         this.zoom = d3.zoom()
-            .scaleExtent(this.getScaleExtent())
+            .scaleExtent(this.scaleExtent)
             .translateExtent([[this.margin.left,this.margin.top], [this.width - this.margin.right, this.height - this.margin.top]])
             .extent([[this.margin.left,this.margin.top], [this.width - this.margin.right, this.height - this.margin.top]])
             .on("zoom", function() { _this.zoomed(_this); });
@@ -90,7 +72,7 @@ class Chart {
 
         // create the other stuff
         this.createScalesAndAxes();
-        this.addBars();
+        this.addBars(dataForBars);
     }
 
 
@@ -117,11 +99,11 @@ class Chart {
             .attr("clip-path", "url(#clip)");
     }
 
-    setAxes() {
+    setAxes(dataForBars) {
 
         // set the axes domain
-        this.x.domain(this.getCurrentData().map(item => item.id))
-        this.y.domain([0, d3.max(this.getCurrentData(), d => d.wh )]).nice();
+        this.x.domain(dataForBars.map(item => item.id))
+        this.y.domain([0, d3.max(dataForBars, d => d.wh )]).nice();
 
 
         this.clipp.select(".x-axis").call(this.xAxis);
@@ -160,7 +142,7 @@ class Chart {
     }
 
 
-    addBars() {
+    addBars(dataForBars) {
         var x = this.x;
         var y = this.y;
         var height  = this.height;
@@ -170,31 +152,32 @@ class Chart {
         // 0ms duration means the transitions won't be visible
         var duration = (this.transitions) ? 500 : 0;
         // little delay for smooth transitions
-        var delay    = (this.zoomLevel == SERIES)  ? 10 :
-                       (this.zoomLevel == SEASONS) ? 5  :
-                                                     0.5;
+        // var delay    = (this.zoomLevel == SERIES)  ? 10 :
+        //                (this.zoomLevel == SEASONS) ? 5  :
+        //                                              0.5;
+        var delay = 10;
 
-        // tooltip selection based on zoom level
-        switch(this.zoomLevel) {
-            case SERIES:   this.series_tooltip  = d3.select("#series-tooltip")
-                                                    .style("opacity", 0); break;
-            case SEASONS:  this.season_tooltip  = d3.select("#season-tooltip")
-                                                    .style("opacity", 0); break;
-            case EPISODES: this.episode_tooltip = d3.select("#episode-tooltip")
-                                                    .style("opacity", 0); break;
-        }
+        // // tooltip selection based on zoom level
+        // switch(this.zoomLevel) {
+        //     case SERIES:   this.series_tooltip  = d3.select("#series-tooltip")
+        //                                             .style("opacity", 0); break;
+        //     case SEASONS:  this.season_tooltip  = d3.select("#season-tooltip")
+        //                                             .style("opacity", 0); break;
+        //     case EPISODES: this.episode_tooltip = d3.select("#episode-tooltip")
+        //                                             .style("opacity", 0); break;
+        // }
 
-        this.setAxes();
+        this.setAxes(dataForBars);
 
         // ******* JOIN new data with old elements
         this.bars = this.clipp.selectAll(".bar")
-                                .data(this.getCurrentData(), d => d.id);
+                                .data(dataForBars, d => d.id);
 
         this.seriesLabels = this.clipp.selectAll(".series_label")
-                                .data(this.getCurrentData(), d => d.id);
+                                .data(dataForBars, d => d.id);
 
         this.seriesLines = this.clipp.selectAll(".series_line")
-                                .data(this.getCurrentData(), d => d.id);
+                                .data(dataForBars, d => d.id);
 
         // ******* EXIT old elements not present in new data
         this.bars.exit()
@@ -266,7 +249,7 @@ class Chart {
         .attr('y', 0)
 
         // draw a line representing the series w/h
-        if (this.zoomLevel != SERIES) {
+        if (this.drawSeriesLine) {
             this.seriesLines.enter().append("rect")
             .attr("class", "series_line")
             .attr("fill", "black")
@@ -281,114 +264,13 @@ class Chart {
 
 
         // These operation are always allowed because they don't involve transitions
-        d3.selectAll(".bar")
-            .on("mouseover", function(item) { _this.showTooltip(item, _this); })
-            .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
+        // d3.selectAll(".bar")
+        //     .on("mouseover", function(item) { _this.showTooltip(item, _this); })
+        //     .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
 
     }
 
 
-
-    extractElements(){
-        this.dataForBars = [];
-
-        switch (this.zoomLevel) {
-            case SERIES: // extract the series data
-                this.data.forEach(single_series => {
-                    if (this.isSeriesAllowed(single_series)){
-                        this.dataForBars.push({
-                            id: +single_series.id_,
-                            name: single_series.name,
-                            number: +single_series.id_,
-                            wh: +single_series.wh,
-                            episode_length: +single_series.episode_length,
-                            start_year: single_series.start_year,
-                            end_year: single_series.end_year,
-                            logo_url: "assets/posters/"+single_series.id_+".jpg",
-                            genre: single_series.genre.split(" ")[0],
-                            description: single_series.description,
-                            no_of_seasons: single_series.seasons.length,
-                            is_central: true
-                        });
-                    }
-                })
-                break;
-
-            case SEASONS: // extract the seasons data
-                this.data.forEach(single_series => {
-                    if (this.isSeriesAllowed(single_series)){
-                        single_series.seasons.forEach(season => {
-                            this.dataForBars.push({
-                                id: ((+single_series.id_)*1000000) +
-                                    ((+season.id_)*1000),
-                                name: single_series.name,
-                                start_year: single_series.start_year,
-                                end_year: single_series.end_year,
-                                number: +season.id_,
-                                wh: +season.wh,
-                                logo_url: "assets/logos/original/"+single_series.id_+".png",
-                                no_of_episodes: season.episodes.length,
-                                wh_series: +single_series.wh,
-                                genre: single_series.genre.split(" ")[0],
-                                is_central: +season.id_ == Math.round(single_series.seasons.length/2)
-                            });
-                        })
-                    }
-                })
-                break;
-
-            case EPISODES: // extract the episodes data
-                this.data.forEach(single_series => {
-                    if (this.isSeriesAllowed(single_series)){
-                        // count the episodes, it will be used for the label
-                        var n_episodes = single_series.seasons
-                                        .map(season => season.episodes.length)
-                                        .reduce((a,b)=>a+b);
-                        var episode_counter = 0;
-
-                        single_series.seasons.forEach(season => {
-                            season.episodes.forEach(episode => {
-                                episode_counter++;
-                                this.dataForBars.push({
-                                    id: ((+single_series.id_)*1000000) +
-                                        ((+season.id_)*1000) +
-                                        (+episode.id_),
-                                    name: single_series.name,
-                                    start_year: single_series.start_year,
-                                    end_year: single_series.end_year,
-                                    number: +episode.id_,
-                                    wh: +episode.wh,
-                                    title: episode.title,
-                                    logo_url: "assets/logos/original/"+single_series.id_+".png",
-                                    season: +season.id_,
-                                    wh_series: +single_series.wh,
-                                    genre: single_series.genre.split(" ")[0],
-                                    length: episode.length,
-                                    is_central: episode_counter == Math.round(n_episodes/2)
-                                });
-                            });
-                        })
-                    }
-                })
-                break;
-
-            default:
-                console.log("ERROR: wrong zoom level")
-                this.dataForBars = [];
-        }
-    }
-
-
-    getCurrentData(){
-        return this.dataForBars;
-    }
-
-
-    getScaleExtent() {
-        return (this.zoomLevel == SERIES)  ? [1, 8]  :
-               (this.zoomLevel == SEASONS) ? [1, 25] :
-                                             [1, 100];
-    }
 
     getColor(item){
         var genre = item.genre;
@@ -411,93 +293,83 @@ class Chart {
         return "#ffffff"
     }
 
-    setTooltipText(item, _this){
-        // the series name it's the same for every tooltip
-        // set it according to the start-end values
-        if (item.start_year == item.end_year)
-            $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + ")"  +"</br>")
-        else if (item.end_year == 9999)
-            $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-)"  +"</br>")
-        else
-            $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-" + item.end_year + ")"  +"</br>")
-
-        switch(_this.zoomLevel) {
-            case SERIES:
-                var str = (item.no_of_seasons == 1) ? "season" : "seasons";
-
-                $(".series-poster").attr("src", item.logo_url)
-                $(".series-number").html((item.id+1) + ". ")
-                $(".series-info").html(item.episode_length + "min | " + item.genre + " | " + + item.no_of_seasons + " " + str + "</br>")
-                $(".series-summary").html(item.description + "</br>")
-                $(".series-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
-                break;
-
-            case SEASONS:
-
-                $(".series-logo").attr("src", item.logo_url)
-                $(".season-info").html("Season " + (item.number) + ", Episodes: " + item.no_of_episodes + "</br>")
-                $(".season-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
-                break;
-
-            case EPISODES:
-
-                $(".series-logo").attr("src", item.logo_url)
-                $(".episode-number").html((item.number) + ". ")
-                $(".episode-title").html(item.title + "</br>")
-                $(".episode-info").html("Season " + item.season + " | " + item.length + "min" + "</br>")
-                $(".episode-wh").html("Words per Hour: " + "<b>" + item.wh + "</b>" + "</br>")
-                break;
-        }
-    }
-
-    showTooltip(item, _this){
-        this.tooltip = (_this.zoomLevel == SERIES)  ? _this.series_tooltip :
-                       (_this.zoomLevel == SEASONS) ? _this.season_tooltip :
-                                                      _this.episode_tooltip;
-
-        _this.tooltip.transition()
-            .duration(50)
-            .style("opacity", 0.9);
-
-        // series tooltip content
-
-
-        _this.setTooltipText(item, _this);
-
-        _this.tooltip
-            .style("left", function(){
-                var x = d3.event.pageX;
-                var w = 530;
-                var i = window.innerWidth;
-                return (( x+w < i ) ? x + 90 : i - w + 90) + "px"
-
-            })
-            .style("top", function(){
-                var y = d3.event.pageY;
-                var h = 200;
-                var i = window.innerHeight;
-                return (( y+h < i ) ? y-15 : i-h-15) + "px"
-            })
-    }
-
-    hideTooltip(item, _this){
-        _this.tooltip.transition()
-          .duration(50)
-          .style("opacity", 0);
-        _this.tooltip
-          .style("left", (-999999) + "px") //x
-          .style("top", (-999999) + "px"); //y
-    }
-
-    /* This function gets zoom level from the selected radion button. Then, it sets
-    zoomLevel and redraws the bars*/
-    setZoomLevelAndData(zoomLevel) {
-        this.transitions = true;
-        this.zoomLevel = zoomLevel;
-
-        this.extractElements();
-        this.addBars();
-    }
+    // setTooltipText(item, _this){
+    //     // the series name it's the same for every tooltip
+    //     // set it according to the start-end values
+    //     if (item.start_year == item.end_year)
+    //         $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + ")"  +"</br>")
+    //     else if (item.end_year == 9999)
+    //         $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-)"  +"</br>")
+    //     else
+    //         $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-" + item.end_year + ")"  +"</br>")
+    //
+    //     switch(_this.zoomLevel) {
+    //         case SERIES:
+    //             var str = (item.no_of_seasons == 1) ? "season" : "seasons";
+    //
+    //             $(".series-poster").attr("src", item.logo_url)
+    //             $(".series-number").html((item.id+1) + ". ")
+    //             $(".series-info").html(item.episode_length + "min | " + item.genre + " | " + + item.no_of_seasons + " " + str + "</br>")
+    //             $(".series-summary").html(item.description + "</br>")
+    //             $(".series-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
+    //             break;
+    //
+    //         case SEASONS:
+    //
+    //             $(".series-logo").attr("src", item.logo_url)
+    //             $(".season-info").html("Season " + (item.number) + ", Episodes: " + item.no_of_episodes + "</br>")
+    //             $(".season-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
+    //             break;
+    //
+    //         case EPISODES:
+    //
+    //             $(".series-logo").attr("src", item.logo_url)
+    //             $(".episode-number").html((item.number) + ". ")
+    //             $(".episode-title").html(item.title + "</br>")
+    //             $(".episode-info").html("Season " + item.season + " | " + item.length + "min" + "</br>")
+    //             $(".episode-wh").html("Words per Hour: " + "<b>" + item.wh + "</b>" + "</br>")
+    //             break;
+    //     }
+    // }
+    //
+    // showTooltip(item, _this){
+    //     this.tooltip = (_this.zoomLevel == SERIES)  ? _this.series_tooltip :
+    //                    (_this.zoomLevel == SEASONS) ? _this.season_tooltip :
+    //                                                   _this.episode_tooltip;
+    //
+    //     _this.tooltip.transition()
+    //         .duration(50)
+    //         .style("opacity", 0.9);
+    //
+    //     // series tooltip content
+    //
+    //
+    //     _this.setTooltipText(item, _this);
+    //
+    //     _this.tooltip
+    //         .style("left", function(){
+    //             var x = d3.event.pageX;
+    //             var w = 530;
+    //             var i = window.innerWidth;
+    //             return (( x+w < i ) ? x + 90 : i - w + 90) + "px"
+    //
+    //         })
+    //         .style("top", function(){
+    //             var y = d3.event.pageY;
+    //             var h = 200;
+    //             var i = window.innerHeight;
+    //             return (( y+h < i ) ? y-15 : i-h-15) + "px"
+    //         })
+    // }
+    //
+    // hideTooltip(item, _this){
+    //     _this.tooltip.transition()
+    //       .duration(50)
+    //       .style("opacity", 0);
+    //     _this.tooltip
+    //       .style("left", (-999999) + "px") //x
+    //       .style("top", (-999999) + "px"); //y
+    // }
 
     zoomed(_this){
         var transform = d3.event.transform;
@@ -530,99 +402,5 @@ class Chart {
         .attr('y', 0)
     }
 
-    // ----------- SORTING
-    // returns a function used for sorting on that property
-    dynamicSort(property) {
-        // many thanks to Ege Özcan https://stackoverflow.com/a/4760279
-        var sortOrder = 1;
-        if(property[0] === "-") {
-            sortOrder = -1;
-            property = property.substr(1);
-        }
-        return function (a,b) {
-            var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
-            return result * sortOrder;
-        }
-    }
 
-    setSortingType(sortingType){
-        this.sortingType = sortingType;
-        this.sortData();
-    }
-
-    setSortingParameter(sortingParameter){
-        this.sortingParameter = sortingParameter;
-        this.sortData();
-    }
-
-    sortData(){
-        if (this.sortingType == DESCENDING)
-            this.data.sort(this.dynamicSort("-" + this.sortingParameter));
-        else
-            this.data.sort(this.dynamicSort(this.sortingParameter));
-
-        this.extractElements();
-        this.addBars();
-    }
-
-    // ------------ FILTERING
-    // returns true if the series respects all the filters
-    isSeriesAllowed(seriesFromJson){
-        // check whether:
-        // - w/h is inside the w/h limits
-        // - year is inside the years limits TODO
-        // - genre is present in the filters set
-        return (seriesFromJson.wh >= this.wh_min && seriesFromJson.wh <= this.wh_max) &&
-               (seriesFromJson.start_year <= this.year_max &&
-                seriesFromJson.end_year   >= this.year_min) &&
-                this.genres.has(seriesFromJson.genre.split(" ")[0]);
-                /*(seriesFromJson.genre.split(" ")
-                            .reduce(
-                                function(result, item) {
-                                    return result || genres.has(item);
-                                }, false))*/
-    }
-
-    // add or remove a filter from the filters set
-    setFilterInFiltersSet(filterType, checked){
-        if (checked) this.genres.add(filterType);
-        else this.genres.delete(filterType);
-
-        this.extractElements();
-        this.addBars();
-    }
-
-    setWhLimits(limits){
-        this.wh_min = parseInt(limits.split(";")[0])
-        this.wh_max = parseInt(limits.split(";")[1])
-
-        this.extractElements();
-        this.addBars();
-
-    }
-
-    setYearLimits(limits){
-        this.year_min = parseInt(limits.split(";")[0])
-        this.year_max = parseInt(limits.split(";")[1])
-
-
-        this.extractElements();
-        this.addBars();
-    }
-
-    // reset filters
-    resetFilters() {
-        this.genres.clear();
-
-        this.extractElements();
-        this.addBars();
-    }
-
-    // set all filters
-    setAllFilters() {
-        this.extractGenres();
-
-        this.extractElements();
-        this.addBars();
-    }
 }

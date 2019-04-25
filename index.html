@@ -1,6 +1,7 @@
 <head>
 <!-- load in D3 and Chart constructor scripts -->
 <script src="js/Chart.js"></script>
+<script src="js/Controller.js"></script>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -210,25 +211,25 @@ d3.json(url_data, function(error, json_data) {
     if (error) throw error;
 
     // create the chart
-    const chart = new Chart({
+    const controller = new Controller({
         element: document.querySelector('.chart-container'),
         data: json_data });
 
     // zoom level handler
     $('input[name="zoomLevel"]').on('change', function (e) {
         // set the chosen zoomLevel via radio buttons
-        chart.setZoomLevelAndData(Number(e.target.value));
+        controller.setZoomLevelAndData(Number(e.target.value));
     });
 
 
-    /* 
+    /*
       Da fare domani:
       - sistemare elementi del menù quando width > 1650
       - centrarli, controllare margini e padding
     */
 
 
-    // NUOVE: 
+    // NUOVE:
     var toggleWidth;
     var width_;
     var ctrPnlContainer = $(".control-panel-container");
@@ -242,7 +243,7 @@ d3.json(url_data, function(error, json_data) {
 
     // NUOVA: Manages expansion/collapse of control panel
     function collapseControlPanel() {
-      
+
       symbol = ctrPnlContainer.is(":visible") ? ">" : "<";
       toggleCtrPnl[0].setAttribute("data-value", symbol);
 
@@ -259,20 +260,20 @@ d3.json(url_data, function(error, json_data) {
       ctrPnlContainer.animate({width: 'toggle' });
       chartWrp.animate({ width: toggleWidth });
     }
-    
+
     // NUOVA: Attach a click handler to the toggle button
     toggleCtrPnl.click( collapseControlPanel );
 
 
     // NUOVA: resizes the chart and redraws it if the window dimensions change
     $(window).resize(function() {
-        chart.transitions = false;
+        controller.chart.transitions = false;
 
-        chart.width = window.innerWidth;
-        chart.height = window.innerHeight;
+        controller.chart.width = window.innerWidth;
+        controller.chart.height = window.innerHeight;
 
         // idem come sopra
-        width_ = document.documentElement.clientWidth > 1650 ? genWrap.width() - 463 : 
+        width_ = document.documentElement.clientWidth > 1650 ? genWrap.width() - 463 :
                                                                genWrap.width() - 324 ;
 
         // se il menù è visibile chart-wrapper assume lo spazio rimamente dalla differenza
@@ -282,11 +283,11 @@ d3.json(url_data, function(error, json_data) {
 
         chartWrp.css({'width': toggleWidth });
 
-        chart.clear();
-        chart.draw();
+        controller.chart.clear();
+        controller.chart.draw(controller.extractElements());
 
         // re enable transitions after the changes
-        chart.transitions = true;
+        controller.chart.transitions = true;
     });
 
     // NUOVA. Close control panel when pressing ESC key or clicking away
@@ -305,12 +306,12 @@ d3.json(url_data, function(error, json_data) {
             ctrPnlContainer.animate({width: 'show'});
             toggleCtrPnl[0].setAttribute("data-value", "<");
 
-            width_ = document.documentElement.clientWidth > 1650 ? genWrap.width() - 463 : 
+            width_ = document.documentElement.clientWidth > 1650 ? genWrap.width() - 463 :
                                                                    genWrap.width() - 324 ;
 
             chartWrp.animate({width: String(width_) });
           }
-          
+
       }
     });
 
@@ -320,7 +321,7 @@ d3.json(url_data, function(error, json_data) {
     // sorting parameter handler
     $('input[name="sorting-parameter"]').on('change', function (e) {
         // console.log(e.target.value);
-        chart.setSortingParameter(e.target.value) })
+        controller.setSortingParameter(e.target.value) })
 
     var toggle = document.getElementById('container-switch');
     var toggleContainer = document.getElementById('toggle-container');
@@ -335,7 +336,7 @@ d3.json(url_data, function(error, json_data) {
         toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
         toggleContainer.style.backgroundColor = '#d95f02';
       }
-      chart.setSortingType(toggleNumber);
+      controller.setSortingType(toggleNumber);
     });
 
     // ------------ FILTERS
@@ -361,22 +362,22 @@ d3.json(url_data, function(error, json_data) {
 
     // set the sorting parameter via radio buttons
     $('input[name="genre-filter"]').on('change', function (e) {
-        chart.setFilterInFiltersSet(e.target.id, e.target.checked); })
+        controller.setFilterInFiltersSet(e.target.id, e.target.checked); })
 
     // set the w/h limits
     $('input[name="wh-multi-range"]').on('change', function (e) {
-        chart.setWhLimits(e.target.value); })
+        controller.setWhLimits(e.target.value); })
 
     // set the years limits
     $('input[name="year-multi-range"]').on('change', function (e) {
-        chart.setYearLimits(e.target.value); })
+        controller.setYearLimits(e.target.value); })
 
     // reset checkboxes
     $("#reset").on("click", function(e) {
         $('input[type="checkbox"]').prop('checked', false);
         e.preventDefault();
 
-        chart.resetFilters();
+        controller.resetFilters();
     })
 
     // check all checkboxes
@@ -384,7 +385,7 @@ d3.json(url_data, function(error, json_data) {
         $('input[type="checkbox"]').prop('checked', true );
         e.preventDefault();
 
-        chart.setAllFilters();
+        controller.setAllFilters();
     })
 
 
