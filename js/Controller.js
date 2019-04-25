@@ -138,6 +138,7 @@ class Controller {
     setZoomLevelAndData(zoomLevel) {
         this.zoomLevel = zoomLevel;
 
+        this.chart.tooltip.setZoomLevel(zoomLevel);
         this.chart.transitions = true;
         this.chart.setDrawSeriesLine((zoomLevel != SERIES));
 

@@ -13,6 +13,8 @@ class Chart {
         // flag
         this.drawSeriesLine = false;
 
+        this.tooltip = new Tooltip();
+
         // draw everything
         this.draw(dataForBars);
     }
@@ -151,21 +153,6 @@ class Chart {
         // bar transitions are displayed only on loading and zoom level changes
         // 0ms duration means the transitions won't be visible
         var duration = (this.transitions) ? 500 : 0;
-        // little delay for smooth transitions
-        // var delay    = (this.zoomLevel == SERIES)  ? 10 :
-        //                (this.zoomLevel == SEASONS) ? 5  :
-        //                                              0.5;
-        var delay = 10;
-
-        // // tooltip selection based on zoom level
-        // switch(this.zoomLevel) {
-        //     case SERIES:   this.series_tooltip  = d3.select("#series-tooltip")
-        //                                             .style("opacity", 0); break;
-        //     case SEASONS:  this.season_tooltip  = d3.select("#season-tooltip")
-        //                                             .style("opacity", 0); break;
-        //     case EPISODES: this.episode_tooltip = d3.select("#episode-tooltip")
-        //                                             .style("opacity", 0); break;
-        // }
 
         this.setAxes(dataForBars);
 
@@ -196,7 +183,7 @@ class Chart {
 
 
         // ******* UPDATE old elements present in new data
-        this.bars.transition().duration(duration).delay((d, i) => i * delay)
+        this.bars.transition().duration(duration).delay((d, i) => i * this.delay)
         .attr("x", function(d) {
           return x(d.id);
           }) // old elememnts in new data transition to their new position
@@ -208,14 +195,14 @@ class Chart {
           return height - y(d.wh)
         }); // old elememnts in new data transition to their correct height
 
-        this.seriesLabels.transition().duration(duration).delay((d, i) => i * delay)
+        this.seriesLabels.transition().duration(duration).delay((d, i) => i * this.delay)
         .attr('transform', (d)=>{
             return 'translate( '+(x(d.id) + x.bandwidth()/2)+' , '+
                                  (height+20)+'),'+ 'rotate(45)';})
         .attr('x', 0)
         .attr('y', 0)
 
-        this.seriesLines.transition().duration(duration).delay((d, i) => i * delay)
+        this.seriesLines.transition().duration(duration).delay((d, i) => i * this.delay)
         .attr("x", function(d) {
           return x(d.id);
           }) // old elememnts in new data transition to their new position
@@ -233,7 +220,7 @@ class Chart {
         .attr("width", x.bandwidth())
         .attr("y", y(0))
         .attr("height", 0)
-        .attr("fill", item => _this.getColor(item))
+        .attr("fill", item => getColor(item))
         .transition().duration(duration)
         .attr("y", item => y(item.wh))
         .attr("height", item => height - y(item.wh))
@@ -264,112 +251,14 @@ class Chart {
 
 
         // These operation are always allowed because they don't involve transitions
-        // d3.selectAll(".bar")
-        //     .on("mouseover", function(item) { _this.showTooltip(item, _this); })
-        //     .on("mouseout",  function(item) { _this.hideTooltip(item, _this); })
+        d3.selectAll(".bar")
+            .on("mouseover", function(item) { _this.tooltip.showTooltip(item); })
+            .on("mouseout",  function(item) { _this.tooltip.hideTooltip(item); })
 
     }
 
 
 
-    getColor(item){
-        var genre = item.genre;
-
-        if (genre == "Action")      return '#B36FAF'; // viola
-        if (genre == "Adventure")   return '#5B9279'; // verde
-        if (genre == "Animation")   return '#ACEBFF'; // celestino
-        if (genre == "Biography")   return '#F1D38D'; // giallino
-        if (genre == "Comedy")      return '#0075F2'; // blu acceso
-        if (genre == "Crime")       return '#F6B540'; // giallo
-        if (genre == "Documentary") return '#7fbf7b'; // verdino
-        if (genre == "Drama")       return '#EF7161'; // arancione
-        if (genre == "Fantasy")     return '#BCB6FF'; // lilla
-        if (genre == "History")     return '#DD0426'; // rosso scuro
-        if (genre == "Mystery")     return '#9197AE'; // grigio
-        if (genre == "Romance")     return '#D8ACB9'; // rosa
-        if (genre == "Sci-Fi")      return '#5762D5'; // iris
-        if (genre == "War")         return '#576757'; // verde militare
-
-        return "#ffffff"
-    }
-
-    // setTooltipText(item, _this){
-    //     // the series name it's the same for every tooltip
-    //     // set it according to the start-end values
-    //     if (item.start_year == item.end_year)
-    //         $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + ")"  +"</br>")
-    //     else if (item.end_year == 9999)
-    //         $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-)"  +"</br>")
-    //     else
-    //         $(".series-name").html("<b>" + item.name + "</b>" + " (" + item.start_year + "-" + item.end_year + ")"  +"</br>")
-    //
-    //     switch(_this.zoomLevel) {
-    //         case SERIES:
-    //             var str = (item.no_of_seasons == 1) ? "season" : "seasons";
-    //
-    //             $(".series-poster").attr("src", item.logo_url)
-    //             $(".series-number").html((item.id+1) + ". ")
-    //             $(".series-info").html(item.episode_length + "min | " + item.genre + " | " + + item.no_of_seasons + " " + str + "</br>")
-    //             $(".series-summary").html(item.description + "</br>")
-    //             $(".series-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
-    //             break;
-    //
-    //         case SEASONS:
-    //
-    //             $(".series-logo").attr("src", item.logo_url)
-    //             $(".season-info").html("Season " + (item.number) + ", Episodes: " + item.no_of_episodes + "</br>")
-    //             $(".season-avg-wh").html("Average W/h: " + "<b>" + (Math.round(item.wh * 100) / 100) + "</b>")
-    //             break;
-    //
-    //         case EPISODES:
-    //
-    //             $(".series-logo").attr("src", item.logo_url)
-    //             $(".episode-number").html((item.number) + ". ")
-    //             $(".episode-title").html(item.title + "</br>")
-    //             $(".episode-info").html("Season " + item.season + " | " + item.length + "min" + "</br>")
-    //             $(".episode-wh").html("Words per Hour: " + "<b>" + item.wh + "</b>" + "</br>")
-    //             break;
-    //     }
-    // }
-    //
-    // showTooltip(item, _this){
-    //     this.tooltip = (_this.zoomLevel == SERIES)  ? _this.series_tooltip :
-    //                    (_this.zoomLevel == SEASONS) ? _this.season_tooltip :
-    //                                                   _this.episode_tooltip;
-    //
-    //     _this.tooltip.transition()
-    //         .duration(50)
-    //         .style("opacity", 0.9);
-    //
-    //     // series tooltip content
-    //
-    //
-    //     _this.setTooltipText(item, _this);
-    //
-    //     _this.tooltip
-    //         .style("left", function(){
-    //             var x = d3.event.pageX;
-    //             var w = 530;
-    //             var i = window.innerWidth;
-    //             return (( x+w < i ) ? x + 90 : i - w + 90) + "px"
-    //
-    //         })
-    //         .style("top", function(){
-    //             var y = d3.event.pageY;
-    //             var h = 200;
-    //             var i = window.innerHeight;
-    //             return (( y+h < i ) ? y-15 : i-h-15) + "px"
-    //         })
-    // }
-    //
-    // hideTooltip(item, _this){
-    //     _this.tooltip.transition()
-    //       .duration(50)
-    //       .style("opacity", 0);
-    //     _this.tooltip
-    //       .style("left", (-999999) + "px") //x
-    //       .style("top", (-999999) + "px"); //y
-    // }
 
     zoomed(_this){
         var transform = d3.event.transform;
@@ -403,4 +292,27 @@ class Chart {
     }
 
 
+}
+
+
+
+function getColor(item){
+    var genre = item.genre;
+
+    if (genre == "Action")      return '#B36FAF'; // viola
+    if (genre == "Adventure")   return '#5B9279'; // verde
+    if (genre == "Animation")   return '#ACEBFF'; // celestino
+    if (genre == "Biography")   return '#F1D38D'; // giallino
+    if (genre == "Comedy")      return '#0075F2'; // blu acceso
+    if (genre == "Crime")       return '#F6B540'; // giallo
+    if (genre == "Documentary") return '#7fbf7b'; // verdino
+    if (genre == "Drama")       return '#EF7161'; // arancione
+    if (genre == "Fantasy")     return '#BCB6FF'; // lilla
+    if (genre == "History")     return '#DD0426'; // rosso scuro
+    if (genre == "Mystery")     return '#9197AE'; // grigio
+    if (genre == "Romance")     return '#D8ACB9'; // rosa
+    if (genre == "Sci-Fi")      return '#5762D5'; // iris
+    if (genre == "War")         return '#576757'; // verde militare
+
+    return "#ffffff"
 }
