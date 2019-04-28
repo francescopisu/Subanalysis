@@ -79,8 +79,7 @@ class Tooltip {
             .style("top", function(){
                 var y = d3.event.pageY;
                 var h = 200;
-                var i = window.innerHeight;
-                return (( y+h < i ) ? y-15 : i-h-15) + "px"
+                return (( y-h-50 < 0 ) ? y+h+50 : y-15) + "px"
             })
     }
 

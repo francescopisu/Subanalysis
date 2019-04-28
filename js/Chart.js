@@ -146,18 +146,6 @@ class Chart {
         // 0ms duration means the transitions won't be visible
         var duration = (this.transitions) ? 500 : 0;
 
-        // update the zoom function
-        this.svgChart.call(
-            d3.zoom()
-            .scaleExtent(this.scaleExtent)
-            .translateExtent([ [this.margin.left, this.margin.top],
-                               [this.width - this.margin.right,
-                                this.height - this.margin.top]      ])
-            .extent([ [this.margin.left,this.margin.top],
-                      [this.width - this.margin.right,
-                       this.height - this.margin.top]     ])
-            .on("zoom", _ => this.zoomed(dataForBars))
-        );
 
 
         // set the axes
@@ -255,6 +243,20 @@ class Chart {
                 .attr("height", 1);
         }
 
+
+        // update the zoom function
+        this.svgChart.call(
+            d3.zoom()
+            .scaleExtent(this.scaleExtent)
+            .translateExtent([ [this.margin.left, this.margin.top],
+                               [this.width - this.margin.right,
+                                this.height - this.margin.top]      ])
+            .extent([ [this.margin.left,this.margin.top],
+                      [this.width - this.margin.right,
+                       this.height - this.margin.top]     ])
+            .on("zoom", _ => this.zoomed(dataForBars))
+        );
+
         // These operation are always allowed because they don't involve transitions
         d3.selectAll(".bar")
             .on("mouseover", (item) => this.tooltip.showTooltip(item) )
@@ -279,7 +281,8 @@ class Chart {
         }
 
         // move the bars
-        this.x.range([0, this.width - this.margin.right].map(d => transform.applyX(d)));
+        this.x.range([this.margin.left, this.width - this.margin.right]
+                      .map(d => transform.applyX(d) - this.margin.left));
         this.clipp.selectAll("rect").attr("x", d => this.x(d.id))
                  .attr("width", this.x.bandwidth())
 
