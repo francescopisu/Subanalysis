@@ -320,18 +320,11 @@ h1 {
   border-right: 1px solid grey;
 }
 
-@media screen and (min-width: 1650px) {
-  /* Aumentare larghezza menù */
-  .control-panel-container {
-    width: 400px;
-  }
-
-
-  /* Diminuire chart-wrapper*/
-  .chart-wrapper {
-    width: calc(100% - 460px);
-  }
+.data-selection-input-container {
+  display: inline-block;
+  /*background-color: red;*/
 }
+
 
 .collapsed-width {
   width: attr(coll-width) !important;
@@ -362,8 +355,8 @@ h1 {
 .data-selection {
   /*width: 280px;*/
   width: 100%;
-  /*height: 60px;*/
-  height: 8%;
+  height: 60px;
+  /*height: 8%;*/
 }
 
 .data-selection input {
@@ -379,15 +372,15 @@ h1 {
 .filtering {
   /*width: 280px;*/
   width: 100%;
-  /*height: 380px;*/
-  height: 55%;
+  height: 380px;
+  /*height: 55%;*/
 }
 
 .sorting {
   /*width: 280px;*/
   width: 100%;
-  /*height: 300px;*/
-  height: 30%;
+  height: 200px;
+  /*height: 30%;*/
 }
 /* CONTROL PANEL*/
 
@@ -873,7 +866,7 @@ a:hover {
   user-select: none;
   cursor: pointer;
   margin-top: 5px;
-  margin-left: 22%
+  margin-left: 60px;
 }
 
 .inner-container {
@@ -962,6 +955,109 @@ a:hover {
   height: 15px;
   vertical-align: middle !important;
   line-height: 16px !important;*/
+}
+
+/* MEDIA QUERIES*/
+
+@media screen and (min-width: 1650px) {
+  /* Aumentare larghezza menù */
+  .control-panel-container {
+    width: 400px;
+  }
+
+
+  /* Diminuire chart-wrapper*/
+  .chart-wrapper {
+    width: calc(100% - 460px);
+  }
+
+  .data-selection-input-container {
+    margin-left: 10%;
+  }
+
+  .left-filter-panel {
+    width: 120px !important;
+    padding-left: 60px;
+  }
+
+  .right-filter-panel {
+    width: 100px !important;
+    padding-left: 40px;
+  }
+
+  .left-order-panel {
+    width: 100px !important;
+    padding-left: 80px;
+  }
+
+  .right-order-panel{
+    width: 100px !important;
+    padding-left: 20px;
+  }
+
+  #container-switch {
+    margin-left: 120px;
+  }
+
+}
+
+@media screen and (min-height: 850px) {
+  /*data-selection*/
+  .data-selection {
+    padding-top: 20px;
+
+  }
+
+  .filtering {
+    height: 525px;
+    padding-top: 20px;
+
+  }
+
+  .sorting {
+    height: 250px;
+    padding-top: 15px;
+
+  }
+
+  hr {
+    margin-top: 20px;
+  }
+
+  .filter-form {
+    padding-bottom: 10px;
+  }
+
+
+  .filter-form input {
+    margin-top: 10px;
+  }
+
+  .year-range-container {
+    padding-bottom: 15px;
+  }
+
+  .filter-opt {
+    padding-top: 10px;
+  }
+
+  .order-opt {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  #filter-sort-separator {
+    margin-top: 5px;
+  }
+
+  #ordering-separator {
+    margin-top: 30px;
+  }
+
+  .bottom-order-panel {
+    padding-top: 10px;
+  }
+
 }
 
 

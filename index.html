@@ -1,4 +1,8 @@
 <head>
+
+<link rel="shortcut icon" href="assets/icon.ico"/>
+<title> Subanalysis </title>
+
 <!-- load in D3 and Chart constructor scripts -->
 <script src="js/Chart.js"></script>
 <script src="js/Controller.js"></script>
@@ -13,6 +17,7 @@
 <!-- introjs -->
 <link rel="stylesheet" href="introjs/introjs.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 
@@ -78,9 +83,11 @@
   <div class="control-panel-container">
       <div class="data-selection">
         <p> Which data do yo want to see? </p>
-        <input type="radio" name="zoomLevel" value="1" id="series_data" class="form-radio" checked><label for="radio-one">Series</label>
-        <input type="radio" name="zoomLevel" value="2" id="seasons_data" class="form-radio"><label for="radio-one">Seasons</label>
-        <input type="radio" name="zoomLevel" value="3" id="episodes_data" class="form-radio"><label for="radio-one">Episodes</label>
+        <div class="data-selection-input-container">
+          <input type="radio" name="zoomLevel" value="1" id="series_data" class="form-radio" checked><label for="radio-one">Series</label>
+          <input type="radio" name="zoomLevel" value="2" id="seasons_data" class="form-radio"><label for="radio-one">Seasons</label>
+          <input type="radio" name="zoomLevel" value="3" id="episodes_data" class="form-radio"><label for="radio-one">Episodes</label>
+        </div>
     </div>
     <hr class="style14">
     <div class="filtering">
