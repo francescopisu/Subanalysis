@@ -231,6 +231,14 @@ class Controller {
         this.chart.addBars(this.extractElements());
     }
 
+    // delete half of the series... randomly
+    snap(){
+        this.chart.addBars(
+            this.extractElements()
+            .filter(item => Math.random() > 0.5)
+        )
+    }
+
 }
 
 // returns a function used for sorting on that property
