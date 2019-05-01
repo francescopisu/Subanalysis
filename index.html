@@ -189,6 +189,8 @@
         </div>
       </div>
     </div>
+    <button title="Delete half of the series... Randomly" class="snap_button" id="snap_button"></button>
+
 
   </div>
   <div class="toggle-control-panel"> </div>
@@ -394,6 +396,11 @@ d3.json(url_data, function(error, json_data) {
         e.preventDefault();
 
         controller.setAllFilters();
+    })
+
+    // delete half of the series... randomly
+    $("#snap_button").on("click", function(e) {
+        controller.snap();
     })
 
 
