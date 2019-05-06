@@ -7,9 +7,11 @@
 <script src="js/Chart.js"></script>
 <script src="js/Controller.js"></script>
 <script src="js/Tooltip.js"></script>
+<script src="js/intro.js"></script>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/introjs.css" />
 <!--ion Slider: css + js -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css"/>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
@@ -81,7 +83,9 @@
 
 <div class="general-wrapper">
   <div class="control-panel-container">
-      <div class="data-selection">
+      <div class="data-selection"
+            data-intro="You can select if you want to see the data visualized by series or by each seaoson/episode of the series."
+            data-step=3>
         <p> Which data do yo want to see? </p>
         <div class="data-selection-input-container">
           <input type="radio" name="zoomLevel" value="1" id="series_data" class="form-radio" checked><label for="radio-one">Series</label>
@@ -91,7 +95,9 @@
     </div>
     <hr class="style14">
     <div class="filtering">
-      <form class="filter-form">
+      <form class="filter-form"
+            data-intro="You can filter the series by their genre...."
+            data-step=4>
         <div class="form-filter-controls w-100">
           <p class="form-filter-controls-cell text-style">Filter</p>
           <div class="form-filter-controls-cell tar">
@@ -130,22 +136,27 @@
         </div>
       </form>
 
+      <div  data-intro="...by the year they where aired..." data-step=5>
       <p class="filter-opt"> Year range </p>
       <div class="year-range-container">
         <input type="text" class="year-multi-range" name="year-multi-range" value="" />
       </div>
+      </div>
 
       <hr class="style14">
 
+      <div data-intro="...or by how much they speak." data-step=6>
       <p class="filter-opt"> W/h range</p>
       <div class="wh-range-container">
         <input type="text" class="wh-multi-range" name="wh-multi-range" value="" />
+      </div>
       </div>
     </div>
 
     <hr class="style14" id="filter-sort-separator">
 
     <div class="sorting">
+      <div data-intro="You can order the data by different attributes" data-step=7>
       <p class="order-opt"> Sort Parameter </p>
       <div class="left-order-panel">
         <input type="radio" name="sorting-parameter" value="id_" id="id_" class="form-radio" checked><label for="standard">Standard</label>
@@ -162,10 +173,10 @@
         <br>
         <input type="radio" name="sorting-parameter" value="episode_length" id="episode_length" class="form-radio"><label for="duration">Duration</label>
       </div>
-
+      </div>
       <hr class="style14" id="ordering-separator">
 
-      <div class="bottom-order-panel">
+      <div class="bottom-order-panel" data-intro="In a way or the other" data-step=8>
         <p class="order-opt"> Sorting type </p>
         <div id="container-switch">
           <div class="inner-container">
@@ -194,11 +205,16 @@
 
   </div>
   <div class="toggle-control-panel"> </div>
-  <h1 class="title-text"> Welcome to Subanalysis! </h1>
+  <h1 class="title-text"
+      data-intro="Follow me in a fantastic journey..."
+      data-step=1>
+      Welcome to Subanalysis! </h1>
 
   <div class="chart-wrapper">
     <div class="chart-container">
-      <svg id = "svgChart"></svg>
+      <svg id = "svgChart"
+        data-intro='This is the main chart. The quantity "Words per Hour" tells you how many words the characters say in 60 minutes.'
+        data-step=2></svg>
     </div>
   </div>
 
@@ -224,6 +240,9 @@ d3.json(url_data, function(error, json_data) {
     const controller = new Controller({
         element: document.querySelector('.chart-container'),
         data: json_data });
+
+
+    introJs().start();
 
     // zoom level handler
     $('input[name="zoomLevel"]').on('change', function (e) {

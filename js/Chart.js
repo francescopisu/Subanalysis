@@ -92,6 +92,7 @@ class Chart {
 
         this.yAxis = d3.axisLeft(this.y).ticks(10);
         this.clipp = this.focus.append("g").attr("clip-path", "url(#clip)");
+
     }
 
     setAxes(dataForBars) {
@@ -121,9 +122,11 @@ class Chart {
         // append the new x-axis
         this.focus.append("g")
             .attr("class", "y-axis")
+            .attr("id", "y-axis")
             .style("font", "15px times")
             .attr("transform","translate(0,0)")
             .call(this.yAxis);
+
 
         // append the new text
         this.focus
@@ -134,6 +137,12 @@ class Chart {
             .attr("x",-this.height/2)
             .style("text-anchor", "middle")
             .text("Words per Hour");
+
+        // var y_element = document.getElementById("y-axis");
+        // y_element.setAttribute("data-intro",
+        //     "This is the main chart. The quantity \"Words per Hour\" \
+        //     tells you how many words the characters say in 60 minutes.")
+        // y_element.setAttribute("data-step", 2);
     }
 
 
