@@ -650,12 +650,16 @@ p.text-style {
 }
 .form-radio:checked::before
 {
+   content: '';
+   width: 8px;
+   height: 8px;
+   background: #666;
    position: absolute;
-   font: 13px/1 'Open Sans', sans-serif;
+   top: 5px;
    left: 5px;
-   top: 1px;
-   content: '\02143';
-   transform: rotate(40deg);
+   border-radius: 100%;
+   -webkit-transition: all 0.2s ease;
+   transition: all 0.2s ease;
 }
 .form-radio:hover
 {
