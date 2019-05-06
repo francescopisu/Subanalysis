@@ -18,15 +18,19 @@ class Controller {
         this.sortingParameter  = "id_";
         this.sortingType = ASCENDING;
 
+        // sort the data in the default mode
         this.data.sort(dynamicSort(this.sortingParameter));
         console.log(this.data);
 
+        // set the filters
         this.extractGenres();
         this.wh_min = 0;
         this.wh_max = 13000;
         this.year_min = 1950;
         this.year_max = 2019;
 
+        // set the snap noBottomBorder
+        this.snapped = false;
 
         // extract the data and draw the chart
         this.chart = new Chart(this.extractElements());
@@ -233,10 +237,18 @@ class Controller {
 
     // delete half of the series... randomly
     snap(){
-        this.chart.addBars(
-            this.extractElements()
-            .filter(item => Math.random() > 0.5)
-        )
+        if (!this.snapped)
+            // if the snap is not already happened,
+            // delete half of the series!
+            this.chart.addBars(
+                this.extractElements()
+                .filter(item => Math.random() > 0.5)
+            )
+        else
+            // restore the series
+            this.chart.addBars(this.extractElements());
+
+        this.snapped = !this.snapped;
     }
 
 }
