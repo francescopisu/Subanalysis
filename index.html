@@ -194,6 +194,7 @@
 
   </div>
   <div class="toggle-control-panel"> </div>
+  <p class="toggle-tour"> Show tour site </p>
   
   <div class="title-container">
       <h1 class="title-text"> Welcome to Subanalysis! </h1>
@@ -213,17 +214,14 @@
 
 <script>
 
-  $(document).on("click", ".click_me", function() {
-        $('html, body').animate({ scrollTop: 0 }, 'fast');
-});
-
 // Instance the tour
 var tour = new Tour({
   backdrop: true,
   steps: [
   {
     element: ".title-text",
-    content: "Follow me in a fantastic journey..."
+    content: "Follow me in a fantastic journey...",
+    placement: 'left'
   },
   {
     element: ".chart-container",
@@ -257,34 +255,10 @@ var tour = new Tour({
     placement: "right"
   }
   ],
-  template: function () {
-        return (
-            tour.getCurrentStep() === 7 
-                ? "<div class='popover tour'>" + 
-                    "<div class='arrow'></div>" +
-                    "<h3 class='popover-title'></h3>" +
-                    "<div class='popover-content'></div>" +
-                    "<div class='popover-navigation'>" +
-                        "<button class='btn btn-default' data-role='prev'>« Prev</button>" +
-                        "<span data-role='separator'> </span>" +
-                        "<button class='btn btn-default click_me' data-role='end'>End tour</button>" +
-                    "</div>" +
-                "</div>"
-                : "<div class='popover tour'>" + 
-                    "<div class='arrow'></div>" +
-                    "<h3 class='popover-title'></h3>" +
-                    "<h3 class='test'>"+tour.getCurrentStep()+"</h3>" +
-                    "<div class='popover-content'></div>" +
-                    "<div class='popover-navigation'>" +
-                        "<button class='btn btn-default' data-role='prev'>« Prev</button>" +
-                        "<span data-role='separator'> </span>" +
-                        "<button class='btn btn-default' data-role='next'>Next »</button>" +
-                        "<button class='btn btn-default click_me' data-role='end'>End tour</button>" +
-                    "</div>" +
-                "</div>"
-        );
-    }
-});
+  onEnd: function() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+  }
+  });
 
 // Initialize the tour
 tour.init();
@@ -293,8 +267,11 @@ tour.init();
 tour.start();
 
 window.localStorage.clear();
-$('html, body').animate({ scrollTop: 0 }, 'fast');
 
+$('.toggle-tour').click(function() {
+  if($(".control-panel-container").is(":visible"))
+    tour.restart();
+});
 
 var url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
 var url_sample = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/sample.json"

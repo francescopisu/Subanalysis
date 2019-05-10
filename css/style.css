@@ -276,10 +276,11 @@
 
 .title-container {
   display: inline-block;
-  position: relative;
+  position: absolute;
+  left: 25%;
   text-align: center;
   margin: 0 auto;
-  margin-left: 18%;
+  margin-left: 13%;
   padding-top: 1px;
 }
 
@@ -297,6 +298,7 @@ h1 {
     vertical-align: top;
     overflow: hidden;
     text-align: center;
+    margin-top: 6%;
   }
 
 .chart-wrapper {
@@ -353,6 +355,21 @@ h1 {
   font-weight: bold;
   margin-left: 5px;
   float: left;
+}
+
+.toggle-tour {
+  height: 25px;
+  width: 110px;
+  margin: 0;
+  margin-top: 3px;
+  margin-left: 15px;
+  display: inline;
+  float: left;
+}
+
+.toggle-tour:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .data-selection {
