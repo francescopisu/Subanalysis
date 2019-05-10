@@ -15,7 +15,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
 
 <!-- introjs -->
-<link rel="stylesheet" href="introjs/introjs.css"/>
+<link href="bootstrap-tour/bootstrap-tour-standalone.min.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -81,9 +81,7 @@
 
 <div class="general-wrapper">
   <div class="control-panel-container">
-      <div class="data-selection"
-            data-intro="You can select if you want to see the data visualized by series or by each seaoson/episode of the series."
-            data-step=3>
+      <div class="data-selection">
         <p> Which data do yo want to see? </p>
         <div class="data-selection-input-container">
           <input type="radio" name="zoomLevel" value="1" id="series_data" class="form-radio" checked><label for="radio-one">Series</label>
@@ -93,9 +91,7 @@
     </div>
     <hr class="style14">
     <div class="filtering">
-      <form class="filter-form"
-            data-intro="You can filter the series by their genre...."
-            data-step=4>
+      <form class="filter-form">
         <div class="form-filter-controls w-100">
           <p class="form-filter-controls-cell text-style">Filter</p>
           <div class="form-filter-controls-cell tar">
@@ -134,27 +130,22 @@
         </div>
       </form>
 
-      <div  data-intro="...by the year they where aired..." data-step=5>
       <p class="filter-opt"> Year range </p>
       <div class="year-range-container">
         <input type="text" class="year-multi-range" name="year-multi-range" value="" />
       </div>
-      </div>
 
       <hr class="style14">
 
-      <div data-intro="...or by how much they speak." data-step=6>
       <p class="filter-opt"> W/h range</p>
       <div class="wh-range-container">
         <input type="text" class="wh-multi-range" name="wh-multi-range" value="" />
-      </div>
       </div>
     </div>
 
     <hr class="style14" id="filter-sort-separator">
 
     <div class="sorting">
-      <div data-intro="You can order the data by different attributes" data-step=7>
       <p class="order-opt"> Sort Parameter </p>
       <div class="left-order-panel">
         <input type="radio" name="sorting-parameter" value="id_" id="id_" class="form-radio" checked><label for="standard">Standard</label>
@@ -171,10 +162,10 @@
         <br>
         <input type="radio" name="sorting-parameter" value="episode_length" id="episode_length" class="form-radio"><label for="duration">Duration</label>
       </div>
-      </div>
+
       <hr class="style14" id="ordering-separator">
 
-      <div class="bottom-order-panel" data-intro="In a way or the other" data-step=8>
+      <div class="bottom-order-panel">
         <p class="order-opt"> Sorting type </p>
         <div id="container-switch">
           <div class="inner-container">
@@ -198,33 +189,111 @@
         </div>
       </div>
     </div>
-    <button title="Delete half of the series... Randomly" class="snap_button" id="snap_button"></button>
+    <button title="Delete half of the series... Randomly" class="snap-button" id="snap_button"></button>
 
 
   </div>
   <div class="toggle-control-panel"> </div>
-  <h1 class="title-text"
-      data-intro="Follow me in a fantastic journey..."
-      data-step=1>
-      Welcome to Subanalysis! </h1>
+  
+  <div class="title-container">
+      <h1 class="title-text"> Welcome to Subanalysis! </h1>
+  </div>
 
   <div class="chart-wrapper">
     <div class="chart-container">
-      <svg id = "svgChart"
-        <!-- data-intro='This is the main chart. The quantity "Words per Hour" tells you how many words the characters say in 60 minutes.'
-        data-step=2 -->
-        ></svg>
+      <svg id = "svgChart"></svg>
     </div>
   </div>
 
 </div>
 
-<script type="text/javascript" src="introjs/intro.js"></script>
+<script src="bootstrap-tour/bootstrap-tour-standalone.min.js"></script>
 
 </body>
 
 <script>
-introJs().addHints();
+
+  $(document).on("click", ".click_me", function() {
+        $('html, body').animate({ scrollTop: 0 }, 'fast');
+});
+
+// Instance the tour
+var tour = new Tour({
+  backdrop: true,
+  steps: [
+  {
+    element: ".title-text",
+    content: "Follow me in a fantastic journey..."
+  },
+  {
+    element: ".chart-container",
+    content: "This is the main chart. The quantity \"Words per Hour\" tells you how many words the " +
+"characters say in 60 minutes.",
+    placement: "left"
+  },
+  {
+    element: ".data-selection",
+    content: "You can select if you want to see the data visualized by series or by each seaoson/episode of the series.",
+    placement: "right"
+  },
+  {
+    element: ".filter-form",
+    content: "You can filter the series by their genre...",
+    placement: "right"
+  },
+  {
+    element: ".year-range-container",
+    content: "...by the year they were aired...",
+    placement: "right"
+  },
+  {
+    element: ".wh-range-container",
+    content: "...or by how much they speak.",
+    placement: "right"
+  },
+  {
+    element: ".sorting",
+    content: "You can order the data by different attributes, in a descending or ascending fashion.",
+    placement: "right"
+  }
+  ],
+  template: function () {
+        return (
+            tour.getCurrentStep() === 7 
+                ? "<div class='popover tour'>" + 
+                    "<div class='arrow'></div>" +
+                    "<h3 class='popover-title'></h3>" +
+                    "<div class='popover-content'></div>" +
+                    "<div class='popover-navigation'>" +
+                        "<button class='btn btn-default' data-role='prev'>« Prev</button>" +
+                        "<span data-role='separator'> </span>" +
+                        "<button class='btn btn-default click_me' data-role='end'>End tour</button>" +
+                    "</div>" +
+                "</div>"
+                : "<div class='popover tour'>" + 
+                    "<div class='arrow'></div>" +
+                    "<h3 class='popover-title'></h3>" +
+                    "<h3 class='test'>"+tour.getCurrentStep()+"</h3>" +
+                    "<div class='popover-content'></div>" +
+                    "<div class='popover-navigation'>" +
+                        "<button class='btn btn-default' data-role='prev'>« Prev</button>" +
+                        "<span data-role='separator'> </span>" +
+                        "<button class='btn btn-default' data-role='next'>Next »</button>" +
+                        "<button class='btn btn-default click_me' data-role='end'>End tour</button>" +
+                    "</div>" +
+                "</div>"
+        );
+    }
+});
+
+// Initialize the tour
+tour.init();
+
+// Start the tour
+tour.start();
+
+window.localStorage.clear();
+$('html, body').animate({ scrollTop: 0 }, 'fast');
 
 
 var url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
@@ -240,22 +309,11 @@ d3.json(url_data, function(error, json_data) {
         element: document.querySelector('.chart-container'),
         data: json_data });
 
-
-    introJs().start();
-
     // zoom level handler
     $('input[name="zoomLevel"]').on('change', function (e) {
         // set the chosen zoomLevel via radio buttons
         controller.setZoomLevelAndData(Number(e.target.value));
     });
-
-
-    /*
-      Da fare domani:
-      - sistemare elementi del menù quando width > 1650
-      - centrarli, controllare margini e padding
-    */
-
 
     // NUOVE:
     var toggleWidth;
@@ -284,6 +342,9 @@ d3.json(url_data, function(error, json_data) {
       // altrimenti lo spazio rimanente dato dalla differenza tra la larghezza del parent
       // general-wrapper e il menù
       toggleWidth = ctrPnlContainer.is(":visible") ? "90%" : String(width_);
+
+      height = ctrPnlContainer.is(":visible") ? "81%" : "72%";
+      $('.chart-container').css("height", height)
 
       ctrPnlContainer.animate({width: 'toggle' });
       chartWrp.animate({ width: toggleWidth });
@@ -317,32 +378,6 @@ d3.json(url_data, function(error, json_data) {
         // re enable transitions after the changes
         controller.chart.transitions = true;
     });
-
-    // NUOVA. Close control panel when pressing ESC key or clicking away
-    $( document ).on( 'keydown', function ( e ) {
-      if ( e.key === 'Escape' ) {
-        //  DOMANI: rinominare content con varabile ctrPnlContainer
-          if(ctrPnlContainer.is(':visible')) {
-            ctrPnlContainer.animate({width: 'hide'});
-            toggleCtrPnl[0].setAttribute("data-value", ">");
-
-            chartWrp.animate({ width: '90%' });
-          }
-      } else if( e.key == 'e' ) { // expand control panel
-          if(!ctrPnlContainer.is(':visible')) {
-
-            ctrPnlContainer.animate({width: 'show'});
-            toggleCtrPnl[0].setAttribute("data-value", "<");
-
-            width_ = document.documentElement.clientWidth > 1650 ? genWrap.width() - 463 :
-                                                                   genWrap.width() - 324 ;
-
-            chartWrp.animate({width: String(width_) });
-          }
-
-      }
-    });
-
 
 
     // ------------ SORT
