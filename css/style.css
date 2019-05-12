@@ -358,13 +358,8 @@ h1 {
 }
 
 .toggle-tour {
-  height: 25px;
-  width: 110px;
-  margin: 0;
-  margin-top: 3px;
-  margin-left: 15px;
-  display: inline;
-  float: left;
+  display: inline-block;
+  margin: 4px 0 0 20px;
 }
 
 .toggle-tour:hover {
