@@ -273,15 +273,20 @@
   font-size: 1.65em;
 }
 
-.title-text {
+
+.title-container {
+  display: inline-block;
+  position: absolute;
+  left: 25%;
   text-align: center;
+  margin: 0 auto;
+  margin-left: 13%;
+  padding-top: 1px;
 }
 
 h1 {
-  font-size: 2.50em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  padding-top: 20px;
   margin-bottom: 0;
 }
 
@@ -289,12 +294,11 @@ h1 {
     display: inline-block;
     position: relative;
     width: 100%;
-    height: 500px;
-    padding-bottom: 100%; /* aspect ratio */
-    /*padding-left: 0px;*/
+    height: 72%;
     vertical-align: top;
     overflow: hidden;
     text-align: center;
+    margin-top: 6%;
   }
 
 .chart-wrapper {
@@ -305,6 +309,7 @@ h1 {
   /*padding-left: 35px;*/
   position: absolute;
   right: 2%;
+  height: 100%;
 }
 
 /* CONTROL PANEL */
@@ -350,6 +355,16 @@ h1 {
   font-weight: bold;
   margin-left: 5px;
   float: left;
+}
+
+.toggle-tour {
+  display: inline-block;
+  margin: 4px 0 0 20px;
+}
+
+.toggle-tour:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .data-selection {
@@ -1008,28 +1023,28 @@ a:hover {
 @media screen and (min-height: 850px) {
   /*data-selection*/
   .data-selection {
-    padding-top: 20px;
+    padding-top: 10px;
 
   }
 
   .filtering {
-    height: 525px;
-    padding-top: 20px;
+    height: 425px;
+    padding-top: 10px;
 
   }
 
   .sorting {
-    height: 250px;
+    height: 220px;
     padding-top: 15px;
 
   }
 
   hr {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .filter-form {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
 
@@ -1042,33 +1057,47 @@ a:hover {
   }
 
   .filter-opt {
-    padding-top: 10px;
+    padding-top: 5px;
   }
 
   .order-opt {
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
   #filter-sort-separator {
-    margin-top: 5px;
+    margin-top: 60px;
   }
 
   #ordering-separator {
-    margin-top: 30px;
+    margin-top: 5px;
   }
 
   .bottom-order-panel {
-    padding-top: 10px;
+    padding-top: 5px;
   }
 
 }
 
-.snap_button {
+.snap-button {
     background: url("../assets/snap.png");
     position: absolute;
     bottom: 10px;
     height: 40px;
     width: 40px;
-    /* display: block; */
+    margin-left: 10px;
 }
+
+.snap-button:focus {
+  outline: none;
+}
+
+.snap-button:active {
+  border: 1px solid #5b5c5d;
+}
+
+.snap-button:hover {
+  border: 1px solid #B69ABB;
+  transition: border 0.5s; 
+}
+

@@ -62,8 +62,8 @@ class Chart {
         // Define and append to the chart a focus window
         this.focus = this.svgChart.append("g")
                .attr("class", "focus")
-               .attr("data-intro","This is the main chart. The quantity \"Words per Hour\" tells you how many words the characters say in 60 minutes.")
-               .attr("data-step", 2)
+               // .attr("data-intro","This is the main chart. The quantity \"Words per Hour\" tells you how many words the characters say in 60 minutes.")
+               // .attr("data-step", 2)
                .attr("transform","translate(" + this.margin.left + "," + this.margin.top + ")");
 
 
