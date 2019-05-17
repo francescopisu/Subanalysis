@@ -1,5 +1,5 @@
 class Chart {
-    constructor(dataForBars) {
+    constructor(dataForBars = []) {
         // bar transitions flag
         this.transitions = true;
 
@@ -9,13 +9,15 @@ class Chart {
         // default transition delay
         this.delay = 10;
 
-        // flag
+        // flag for drawing the average w/h of the series in the
+        // seasons/episodes visualization
         this.drawSeriesLine = false;
 
         // flags used for showing the labels and the ticks in the x-axis
         this.showLabelsAndTicks = false;
         this.kZoomFactorMin = 9999;
 
+        // tooltip that show the series/season/episode data
         this.tooltip = new Tooltip();
 
         // draw everything
@@ -24,13 +26,9 @@ class Chart {
 
     // setters
     setDelay(delay)             { this.delay              = delay;       }
-
     setScaleExtent(scaleExtent) { this.scaleExtent        = scaleExtent; }
-
     setDrawSeriesLine(flag)     { this.drawSeriesLine     = flag;        }
-
     setShowLabelsAndTicks(flag) { this.showLabelsAndTicks = flag;        }
-
     setKZoomFactorMin(value)    { this.kZoomFactorMin     = value;       }
 
 
@@ -62,8 +60,6 @@ class Chart {
         // Define and append to the chart a focus window
         this.focus = this.svgChart.append("g")
                .attr("class", "focus")
-               // .attr("data-intro","This is the main chart. The quantity \"Words per Hour\" tells you how many words the characters say in 60 minutes.")
-               // .attr("data-step", 2)
                .attr("transform","translate(" + this.margin.left + "," + this.margin.top + ")");
 
 
@@ -158,7 +154,6 @@ class Chart {
         var duration = (this.transitions) ? 500 : 0;
 
 
-
         // set the axes
         this.setAxes(dataForBars);
 
@@ -173,6 +168,7 @@ class Chart {
         this.seriesLines = this.clipp.selectAll(".series_line")
                                 .data(dataForBars, d => d.id);
 
+
         // ******* EXIT old elements not present in new data
         // old elements which are leaving the chart:
         //  - their y position transitions to the xaxis
@@ -183,6 +179,8 @@ class Chart {
             .attr("height", 0)
             .remove();
 
+        // remove all the names of the series and all the average w/h lines
+        // that are no longer needed; there's no need of transitions here.
         this.seriesLabels.exit().remove()
         this.seriesLines .exit().remove()
 
@@ -228,7 +226,6 @@ class Chart {
             .transition().duration(duration)
             .attr("y", item => y(item.wh))
             .attr("height", item => height - y(item.wh))
-
 
         // labels with the series name
         this.seriesLabels.enter().append("text")
