@@ -17,7 +17,7 @@ class Chart {
         this.showLabelsAndTicks = false;
         this.kZoomFactorMin = 9999;
 
-        // tooltip that show the series/season/episode data
+        // tooltip that shows the series/season/episode data
         this.tooltip = new Tooltip();
 
         // draw everything
