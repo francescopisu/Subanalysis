@@ -131,17 +131,21 @@
         </div>
       </form>
 
+      <div id="year-range-container-div">
       <p class="filter-opt"> Year range </p>
       <div class="year-range-container">
         <input type="text" class="year-multi-range" name="year-multi-range" value="" />
       </div>
+      </div>
 
       <hr class="style14">
 
+      <div id="wh-range-container-div">
       <p class="filter-opt"> W/h range</p>
       <div class="wh-range-container">
         <input type="text" class="wh-multi-range" name="wh-multi-range" value="" />
       </div>
+    </div>
     </div>
 
     <hr class="style14" id="filter-sort-separator">
@@ -190,7 +194,8 @@
         </div>
       </div>
     </div>
-    <button title="Delete half of the series... Randomly" class="snap-button" id="snap_button"></button>
+    <button title="Delete half of the series... Randomly" class="snap-button"
+            id="snap_button"></button>
 
 
   </div>
@@ -206,8 +211,8 @@
   <p class="toggle-tour"> Show tour site </p>
   </div>
 
-  
-  
+
+
   <div class="title-container">
       <h1 class="title-text"> Welcome to Subanalysis! </h1>
   </div>
@@ -231,20 +236,21 @@
 var tour = new Tour({
   backdrop: true,
   steps: [
-  {
-    element: ".title-text",
-    content: "Follow me in a fantastic journey...",
-    placement: 'left'
-  },
+  // {
+  //   element: ".title-text",
+  //   content: "Follow me in a fantastic journey...",
+  //   placement: 'left'
+  // },
   {
     element: ".chart-container",
-    content: "This is the main chart. The quantity \"Words per Hour\" tells you how many words the " +
-"characters say in 60 minutes.",
+    content: "This is the main chart. The quantity \"Words per Hour\" tells \
+              you how many words the characters say in 60 minutes.",
     placement: "left"
   },
   {
     element: ".data-selection",
-    content: "You can select if you want to see the data visualized by series or by each seaoson/episode of the series.",
+    content: "You can select if you want to see the data visualized by \
+              series or by each seaoson/episode of the series.",
     placement: "right"
   },
   {
@@ -253,18 +259,19 @@ var tour = new Tour({
     placement: "right"
   },
   {
-    element: ".year-range-container",
+    element: "#year-range-container-div",
     content: "...by the year they were aired...",
     placement: "right"
   },
   {
-    element: ".wh-range-container",
+    element: "#wh-range-container-div",
     content: "...or by how much they speak.",
     placement: "right"
   },
   {
     element: ".sorting",
-    content: "You can order the data by different attributes, in a descending or ascending fashion.",
+    content: "You can order the data by different attributes, in a descending \
+              or ascending fashion.",
     placement: "right"
   }
   ],
