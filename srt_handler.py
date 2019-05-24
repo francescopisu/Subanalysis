@@ -8,32 +8,30 @@ from utils import *
 
 def compute_wh():
 
-
-    with open('descriptions.txt') as descriptions_file:
-        descriptions = [x.strip() for x in descriptions_file.readlines()]
-    description_index = 0
-
     series_dictionary = []
     with io.open("data.json", 'w') as resFile:
 
-        # run through each subdirectory of subs folder (i.e: tv series)
-        for subdir_first_level in sorted(next(os.walk('subs'))[1]):
-            current_dir = 'subs/' + subdir_first_level
+        # run through each subdirectory of series folder
+        for subdir_first_level in sorted(next(os.walk('series'))[1]):
+            print('subdir_first_level: ' + subdir_first_level)
+            # current_dir = 'subs/' + subdir_first_level
             # gather series number
             series = subdir_first_level[:2]
 
             # save information about each series; these information are contained in a spec file situated in the
             # series' root folder
-            current_series = extract_series_data_from_current_dir(current_dir)
+            current_series = extract_series_data_from_current_dir(subdir_first_level)
 
             # let's make sure that we start from scratch for each series
             current_series.seasons = []
 
+            current_dir = 'series/' + subdir_first_level
             # run through each subdirectory of series folders (i.e: seasons)
-            for subdir_second_level in sorted(os.listdir(current_dir)):
+            for subdir_second_level in sorted(os.listdir(current_dir + '/subs/')):
+                print('subdir_second_level: ' + subdir_second_level)
                 # this control is necessary to avoid hidden files starting with .
                 if not subdir_second_level.startswith('.') and not subdir_second_level.endswith('.csv'):
-                    snd_current_dir = current_dir + '/' + subdir_second_level
+                    snd_current_dir = current_dir + '/subs/' + subdir_second_level
                     # gather season number
                     season = int(subdir_second_level[1:])
 
@@ -121,9 +119,6 @@ def compute_wh():
             # compute the average w/h for the current series
             current_series.wh = get_average_wh_for_series(current_series)
 
-            # set the series description
-            current_series.description = descriptions[description_index]
-            description_index += 1
 
             # add the current series to the dictionary
             series_dictionary.append(current_series)

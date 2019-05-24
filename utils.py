@@ -37,7 +37,6 @@ def extract_series_data_from_specs(specs):
 
     csv_reader = csv.DictReader(specs)
     for row in csv_reader:
-        current_series.id_ = int(row['id'])
         current_series.name = row['name']
         current_series.episode_length = int(row['length'])
         current_series.genre = row['genre']
@@ -48,9 +47,17 @@ def extract_series_data_from_specs(specs):
 
 
 def extract_series_data_from_current_dir(current_dir):
-    with open(current_dir + '/' + 'specs.csv') as specs:
-        return extract_series_data_from_specs(specs)
+    with open('series/' + current_dir +'/specs.csv') as specs:
+        current_series = extract_series_data_from_specs(specs)
 
+    with open('series/' + current_dir + '/' + 'description.txt') as description:
+        current_series.description = description.readline()
+
+    id = int(current_dir.split('_')[0])
+    current_series.id_ = id
+    current_series.folder = current_dir
+
+    return current_series
 
 def print_series_episode(series, season, episode):
     print(str(series.id_) + ". " + series.name + " - " + "s" + str(season) + "e" + str(episode))
