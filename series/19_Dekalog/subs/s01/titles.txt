@@ -1,0 +1,11 @@
+Dekalog, jeden
+Dekalog, dwa
+Dekalog, trzy
+Dekalog, cztery
+Dekalog, piec
+Dekalog, szesc
+Dekalog, siedem
+Dekalog, osiem
+Dekalog, dziewiec
+Dekalog, dziesiec
+

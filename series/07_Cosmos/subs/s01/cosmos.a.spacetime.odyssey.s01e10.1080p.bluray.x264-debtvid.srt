@@ -1,0 +1,2283 @@
+﻿1
+00:00:06,507 --> 00:00:08,555
+Can you see me?
+
+2
+00:00:08,759 --> 00:00:10,761
+Can you hear me?
+
+3
+00:00:10,928 --> 00:00:12,430
+How?
+
+4
+00:00:12,596 --> 00:00:14,769
+I could be thousands of miles away...
+
+5
+00:00:14,932 --> 00:00:19,733
+...and yet when you turn on whatever device
+is bringing my image and voice to you...
+
+6
+00:00:19,895 --> 00:00:21,112
+...I'm there.
+
+7
+00:00:21,271 --> 00:00:23,194
+Instantaneously.
+
+8
+00:00:23,357 --> 00:00:24,950
+How is that possible?
+
+9
+00:00:25,901 --> 00:00:29,121
+To our ancestors,
+it would've seemed like sorcery.
+
+10
+00:00:29,279 --> 00:00:31,281
+For them, speed of communication...
+
+11
+00:00:31,448 --> 00:00:35,453
+...was only as fast
+as the swiftest horse or sailing ships.
+
+12
+00:00:35,619 --> 00:00:39,624
+Our messages travel invisibly
+at the speed of light.
+
+13
+00:00:39,790 --> 00:00:42,543
+How did we attain such mythic powers?
+
+14
+00:00:42,709 --> 00:00:45,462
+It all began in the mind of one person.
+
+15
+00:00:45,629 --> 00:00:50,430
+A child of poverty
+of whom nothing was expected.
+
+16
+00:00:53,136 --> 00:00:56,811
+<i>In fact, if this man had not lived...</i>
+
+17
+00:01:00,644 --> 00:01:04,820
+<i>...the world we know might not exist today.</i>
+
+18
+00:02:48,418 --> 00:02:53,595
+<i>TYSON: Sooner or later, someone would've
+likely figured out some of his discoveries.</i>
+
+19
+00:02:53,757 --> 00:02:56,260
+<i>But if Michael Faraday had never lived...</i>
+
+20
+00:02:56,426 --> 00:03:01,182
+...we might still be living
+as our ancestors did in the 17th century.
+
+21
+00:03:01,348 --> 00:03:05,569
+Unaware of the armies of invisible servants
+awaiting our commands.
+
+22
+00:03:06,186 --> 00:03:11,784
+This is the story of how we learned
+to make electrons do our bidding.
+
+23
+00:03:11,942 --> 00:03:16,573
+In a way, it begins with the
+greatest genius who ever lived...
+
+24
+00:03:16,738 --> 00:03:18,240
+...Isaac Newton.
+
+25
+00:03:23,954 --> 00:03:27,504
+This is Woolsthorpe,
+Newton's ancestral home.
+
+26
+00:03:27,666 --> 00:03:30,590
+He walked these fields,
+tormented by mystery.
+
+27
+00:03:30,752 --> 00:03:32,953
+Newton, the man who figured
+out the formula for
+
+28
+00:03:32,965 --> 00:03:35,178
+the motions of the planets
+around the sun...
+
+29
+00:03:35,340 --> 00:03:39,470
+...wanted to know, how does the sun
+make the planets act that way...
+
+30
+00:03:39,636 --> 00:03:40,979
+...without touching them?
+
+31
+00:03:41,138 --> 00:03:43,937
+How do all the apples know how to fall?
+
+32
+00:03:44,099 --> 00:03:49,071
+Another genius was puzzled
+by another aspect of the same mystery.
+
+33
+00:03:55,277 --> 00:03:57,154
+[SPEAKS IN FOREIGN LANGUAGE]
+
+34
+00:03:57,320 --> 00:03:58,663
+[IN ENGLISH]
+You see, son?
+
+35
+00:03:58,822 --> 00:04:05,000
+No matter how I turn the compass,
+the needle always points the same way.
+
+36
+00:04:05,162 --> 00:04:07,585
+Except...
+
+37
+00:04:13,128 --> 00:04:15,927
+But how? They do not touch.
+
+38
+00:04:17,215 --> 00:04:20,310
+I didn't hear
+a "thank you," Albert.
+
+39
+00:04:25,348 --> 00:04:28,022
+EINSTEIN:
+<i>I can still remember this.</i>
+
+40
+00:04:28,185 --> 00:04:32,361
+<i>The experience made a deep
+and lasting impression on me.</i>
+
+41
+00:04:32,522 --> 00:04:37,949
+<i>Something deeply hidden
+had to be behind things.</i>
+
+42
+00:04:38,111 --> 00:04:41,365
+Between the lifetimes
+of Einstein and Newton...
+
+43
+00:04:41,531 --> 00:04:45,752
+...there lived another genius,
+one of equal stature.
+
+44
+00:04:45,911 --> 00:04:49,211
+The man who solved the mystery
+that stumped Newton...
+
+45
+00:04:49,372 --> 00:04:53,548
+...also laid the foundation
+for Einstein's revolutionary insights.
+
+46
+00:04:53,710 --> 00:04:57,135
+And for the way we live now.
+
+47
+00:05:10,310 --> 00:05:11,357
+[WOMAN GASPS]
+
+48
+00:05:11,645 --> 00:05:13,443
+[COUGHING]
+
+49
+00:05:13,605 --> 00:05:15,903
+[GRUNTING]
+
+50
+00:05:16,066 --> 00:05:20,913
+<i>TYSON". In 1791, in a squalid slum
+in the suburbs of London...</i>
+
+51
+00:05:21,071 --> 00:05:23,995
+...Michael Faraday was born.
+
+52
+00:05:24,157 --> 00:05:26,080
+[BABY CRYING]
+
+53
+00:05:29,246 --> 00:05:32,045
+<i>He showed little promise at school.</i>
+
+54
+00:05:36,044 --> 00:05:40,345
+Pray tell us a word
+that begins with the letter R.
+
+55
+00:05:41,132 --> 00:05:42,349
+Well?
+
+56
+00:05:45,428 --> 00:05:46,520
+Wabbit?
+
+57
+00:05:47,097 --> 00:05:52,524
+The word is "rabbit."
+Once again, and correctly this time.
+
+58
+00:05:53,520 --> 00:05:54,567
+Wabbit?
+
+59
+00:05:55,021 --> 00:05:56,739
+Do you mock me?
+
+60
+00:05:56,898 --> 00:06:00,448
+Have I not told you
+how to pronounce the letter R?
+
+61
+00:06:00,610 --> 00:06:03,580
+Surely you can at least tell us your name?
+
+62
+00:06:04,447 --> 00:06:07,246
+Michael Fawaday, ma'am.
+
+63
+00:06:08,410 --> 00:06:11,459
+Take this ha'penny
+and buy me a cane...
+
+64
+00:06:11,621 --> 00:06:14,795
+...so that I may give your insolent brother
+a proper flogging.
+
+65
+00:06:17,043 --> 00:06:18,545
+[DOOR OPENS]
+
+66
+00:06:19,963 --> 00:06:21,089
+[DOOR OPENS]
+
+67
+00:06:31,057 --> 00:06:36,154
+<i>TYSON: History does not record that
+Michael Faraday ever attended school again.</i>
+
+68
+00:06:37,397 --> 00:06:38,990
+[HORSE NEIGHS]
+
+69
+00:06:39,482 --> 00:06:43,703
+<i>Faraday took his family's fundamentalist
+Christian faith to heart.</i>
+
+70
+00:06:43,862 --> 00:06:48,584
+<i>It would always remain a source of
+strength, comfort and humility for him.</i>
+
+71
+00:06:48,742 --> 00:06:52,918
+<i>He was sent to work at a bookbindery
+at the age of 13.</i>
+
+72
+00:06:53,079 --> 00:06:58,677
+<i>By day, he bound the books,
+and by night, he read them.</i>
+
+73
+00:06:58,835 --> 00:07:03,841
+<i>It was the beginning of</i> a <i>lifelong
+fascination with electricity.</i>
+
+74
+00:07:08,178 --> 00:07:10,180
+[ELECTRICITY CRACKLING]
+
+75
+00:07:17,979 --> 00:07:22,325
+After years of working in
+the bookbindery, Faraday, now 21
+
+76
+00:07:22,484 --> 00:07:25,112
+...yearned to escape to a larger world.
+
+77
+00:07:25,278 --> 00:07:27,952
+His big break came
+when a customer gave him a ticket...
+
+78
+00:07:28,114 --> 00:07:34,212
+...to a sensational new kind
+of entertainment, science for the public.
+
+79
+00:07:38,833 --> 00:07:43,464
+<i>And it started right here
+at London's Royal Institution.</i>
+
+80
+00:07:43,630 --> 00:07:47,635
+<i>Humphry Davy was not only one
+of the leading scientists of his</i> day...
+
+81
+00:07:47,801 --> 00:07:52,227
+<i>...he discovered several chemical elements,
+including calcium and sodium.</i>
+
+82
+00:07:52,389 --> 00:07:55,017
+<i>He was also a consummate showman...</i>
+
+83
+00:07:55,183 --> 00:07:57,361
+<i>...and primitive
+demonstrations of</i>
+
+84
+00:07:57,373 --> 00:07:59,563
+<i>electricity never failed
+as a crowd pleaser.</i>
+
+85
+00:08:00,605 --> 00:08:04,200
+May we have the lights lowered, please?
+
+86
+00:08:05,694 --> 00:08:10,700
+I am about to unleash the might
+of the 2000 massive chemical batteries...
+
+87
+00:08:10,865 --> 00:08:14,540
+...stored in the cellar beneath our feet.
+
+88
+00:08:15,286 --> 00:08:17,288
+[CROWD MURMURING]
+
+89
+00:08:17,831 --> 00:08:21,677
+And now, behold the power
+of the mysterious force...
+
+90
+00:08:21,835 --> 00:08:26,591
+...of electrical fluid to
+illuminate our future.
+
+91
+00:08:28,466 --> 00:08:30,468
+[CRACKLING]
+
+92
+00:08:30,635 --> 00:08:32,637
+[CROWD GASPING]
+
+93
+00:08:37,434 --> 00:08:39,436
+[CROWD APPLAUDING]
+
+94
+00:08:44,607 --> 00:08:48,783
+<i>TYSON: Faraday was too busy taking notes
+to applaud.</i>
+
+95
+00:08:52,782 --> 00:08:55,581
+Faraday created a transcript
+of Davy's lecture.
+
+96
+00:08:55,744 --> 00:08:58,793
+Using the skills he had learned
+as an apprentice...
+
+97
+00:08:58,955 --> 00:09:01,299
+...he bound them into this book.
+
+98
+00:09:02,792 --> 00:09:07,013
+Perhaps such a gift would bring him
+to the attention of the great man.
+
+99
+00:09:15,263 --> 00:09:20,269
+<i>Maybe this gesture could be a means
+of escape to a much larger universe.</i>
+
+100
+00:09:28,276 --> 00:09:29,323
+Good day, sir.
+
+101
+00:09:29,486 --> 00:09:32,740
+I wish you to deliver this parcel
+to Sir Humphry.
+
+102
+00:09:40,163 --> 00:09:41,881
+TYSON:
+<i>It was</i> a <i>long shot, anyway.</i>
+
+103
+00:09:42,040 --> 00:09:44,793
+<i>But Faraday hoped something
+would come of it.</i>
+
+104
+00:09:44,959 --> 00:09:46,927
+<i>And it did.</i>
+
+105
+00:09:50,048 --> 00:09:53,177
+The experiment is ready for you now, sir.
+
+106
+00:09:59,349 --> 00:10:05,322
+Ampere tells me that poor Dulong lost
+an eye and three fingers working with this.
+
+107
+00:10:07,107 --> 00:10:08,359
+[EXPLOSION]
+
+108
+00:10:08,525 --> 00:10:10,527
+[SCREAMING]
+
+109
+00:10:10,693 --> 00:10:13,446
+MY eyes!
+
+110
+00:10:23,540 --> 00:10:25,838
+When a chemical experiment
+blew up in the face...
+
+111
+00:10:26,000 --> 00:10:28,674
+...of the world-renowned scientist
+Humphry Davy...
+
+112
+00:10:28,837 --> 00:10:30,931
+...he remembered Michael Faraday...
+
+113
+00:10:31,089 --> 00:10:33,217
+...the lad who had gone
+through such lengths...
+
+114
+00:10:33,383 --> 00:10:37,138
+...to copy down and bind the transcript
+of his lecture.
+
+115
+00:10:37,303 --> 00:10:40,056
+You have a first-rate memory,
+young man.
+
+116
+00:10:40,223 --> 00:10:42,726
+And I shall have temporary need
+of a secretary.
+
+117
+00:10:42,892 --> 00:10:46,647
+Sir, I dream of a life in service
+to science.
+
+118
+00:10:46,813 --> 00:10:49,362
+I would advise you
+to stick to the bookbinding.
+
+119
+00:10:49,524 --> 00:10:51,902
+Science is a harsh mistress.
+
+120
+00:10:52,068 --> 00:10:56,244
+Surely, a person of your station
+and modest means must have a trade.
+
+121
+00:10:56,406 --> 00:10:58,408
+Trade is vicious
+and selfish.
+
+122
+00:10:58,992 --> 00:11:02,087
+Men of science are amiable
+and morally superior.
+
+123
+00:11:02,370 --> 00:11:06,420
+Heh. I take it I'm the first man
+of science you've ever met.
+
+124
+00:11:09,586 --> 00:11:12,760
+<i>TYSON: Faraday made himself indispensable
+to Davy.</i>
+
+125
+00:11:12,922 --> 00:11:15,425
+<i>The temporary job
+became a permanent one...</i>
+
+126
+00:11:15,592 --> 00:11:18,892
+<i>...and the Royal Institution
+became his lifelong home.</i>
+
+127
+00:11:19,053 --> 00:11:21,602
+<i>By day, he assisted Davy in the lab.</i>
+
+128
+00:11:22,140 --> 00:11:26,236
+<i>At day's end, he climbed the stairs
+to the little apartment...</i>
+
+129
+00:11:26,394 --> 00:11:29,568
+<i>...where his beloved bride Sarah
+was waiting.</i>
+
+130
+00:11:36,905 --> 00:11:39,749
+<i>Humphry Davy
+and the chemist William Wollaston...</i>
+
+131
+00:11:39,908 --> 00:11:42,707
+<i>...were experimenting
+with a mysterious phenomenon...</i>
+
+132
+00:11:42,869 --> 00:11:46,965
+<i>...one with potentially
+far-reaching implications.</i>
+
+133
+00:11:47,540 --> 00:11:49,713
+This is the identical setup
+to Oersted's.
+
+134
+00:11:50,877 --> 00:11:53,801
+Now close the circuit, Davy,
+and watch closely.
+
+135
+00:11:56,966 --> 00:12:00,311
+What could be driving the needle away
+from the wire?
+
+136
+00:12:00,470 --> 00:12:01,938
+Damned if I know.
+
+137
+00:12:02,096 --> 00:12:03,973
+But it's as if the electric current...
+
+138
+00:12:04,140 --> 00:12:06,984
+...makes the wire behave
+like some kind of magnet.
+
+139
+00:12:07,143 --> 00:12:10,317
+Electricity must have something
+to do with magnetism.
+
+140
+00:12:11,022 --> 00:12:15,448
+Now, if we could only get it
+to turn continuously...
+
+141
+00:12:15,610 --> 00:12:21,458
+...imagine what might be accomplished
+if we could put these forces to work.
+
+142
+00:12:23,618 --> 00:12:25,586
+After you tidy up, Faraday...
+
+143
+00:12:25,745 --> 00:12:28,794
+...you might see what you can
+make of it. Huh? Heh-heh-heh.
+
+144
+00:12:28,957 --> 00:12:30,783
+<i>TYSON: Davy may have
+been having a bit of fun</i>
+
+145
+00:12:30,795 --> 00:12:32,632
+<i>at the expense of his
+young assistant...</i>
+
+146
+00:12:32,794 --> 00:12:35,513
+...but Faraday was on fire.
+
+147
+00:12:35,672 --> 00:12:40,599
+Up to now, electricity had been nothing
+more than an entertaining novelty toy.
+
+148
+00:12:40,760 --> 00:12:45,391
+It could make a light flash for an instant
+or turn a compass needle briefly...
+
+149
+00:12:45,556 --> 00:12:48,526
+...but it had no practical application.
+
+150
+00:12:48,685 --> 00:12:52,531
+Faraday immediately set about
+designing the experiment...
+
+151
+00:12:52,689 --> 00:12:56,694
+...devoting every moment of his
+spare time to the problem.
+
+152
+00:12:56,859 --> 00:13:01,706
+If Faraday succeeded, he would be
+putting an infinitely large, invisible...
+
+153
+00:13:01,864 --> 00:13:08,668
+...and as-yet-undiscovered army of
+electrons at the command of human whim.
+
+154
+00:13:09,372 --> 00:13:12,000
+How does a revolution begin?
+
+155
+00:13:12,875 --> 00:13:15,674
+Sometimes it doesn't take much.
+
+156
+00:13:15,837 --> 00:13:21,219
+A piece of metal, a bowl of mercury,
+a bit of cork.
+
+157
+00:13:23,928 --> 00:13:26,272
+Sarah, dear,
+send your little brother down.
+
+158
+00:13:26,431 --> 00:13:30,152
+I'm about to try something new,
+and I want him to see it.
+
+159
+00:13:30,893 --> 00:13:33,521
+Why don't you
+do the honors, Georgie?
+
+160
+00:13:36,607 --> 00:13:38,234
+[WHIRRING]
+
+161
+00:13:38,401 --> 00:13:42,656
+There she goes. There she goes!
+Whoo-hoo!
+
+162
+00:13:42,822 --> 00:13:44,415
+[FARADAY LAUGHING]
+
+163
+00:13:49,078 --> 00:13:51,922
+<i>TYSON".
+This was the first motor...</i>
+
+164
+00:13:52,081 --> 00:13:56,712
+...converting electric current
+into continuous mechanical motion.
+
+165
+00:13:56,878 --> 00:13:58,676
+Looks pretty feeble, right?
+
+166
+00:13:59,255 --> 00:14:04,136
+<i>But that turning spindle
+is the beginning of a revolution...</i>
+
+167
+00:14:04,302 --> 00:14:08,603
+<i>...one that dwarfs all the shots fired
+and bombs ever detonated...</i>
+
+168
+00:14:08,765 --> 00:14:13,612
+<i>...in the sheer magnitude
+of its effect on our civilization.</i>
+
+169
+00:14:14,771 --> 00:14:19,197
+<i>Try to imagine ail the businesses,
+industries, technologies...</i>
+
+170
+00:14:19,359 --> 00:14:22,954
+<i>...transformations of the way we live
+that have their beginnings...</i>
+
+171
+00:14:23,112 --> 00:14:26,332
+<i>...in that ecstatic moment
+in Michael Faraday's laboratory.</i>
+
+172
+00:14:27,617 --> 00:14:30,211
+News of Faraday's invention
+spread quickly...
+
+173
+00:14:30,370 --> 00:14:35,297
+...and suddenly, Davy's assistant
+was the toast of London.
+
+174
+00:14:35,458 --> 00:14:37,210
+Davy didn't take it well.
+
+175
+00:14:37,377 --> 00:14:41,473
+<i>He had, after all,
+discovered all those elements.</i>
+
+176
+00:14:43,341 --> 00:14:46,561
+Now people were saying
+that his greatest discovery...
+
+177
+00:14:46,719 --> 00:14:48,721
+...was Michael Faraday.
+
+178
+00:14:49,430 --> 00:14:55,654
+Davy made sure that Faraday wouldn't
+be making any more headlines anytime soon.
+
+179
+00:14:57,897 --> 00:14:59,649
+You sent for me, sir?
+
+180
+00:14:59,816 --> 00:15:01,944
+I have a new challenge for you.
+
+181
+00:15:03,486 --> 00:15:05,454
+I want you to take over
+our efforts...
+
+182
+00:15:05,613 --> 00:15:08,332
+...to improve the quality
+of British optical glass.
+
+183
+00:15:09,742 --> 00:15:12,666
+Those damned Bavarians
+are running circles around us.
+
+184
+00:15:12,829 --> 00:15:13,921
+Glass?
+
+185
+00:15:14,080 --> 00:15:17,960
+With all due respect, sir,
+I know nothing at all of glassmaking.
+
+186
+00:15:18,126 --> 00:15:20,470
+Then you will learn, Faraday.
+
+187
+00:15:20,628 --> 00:15:22,972
+We all know what a quick study you are.
+
+188
+00:15:23,131 --> 00:15:26,476
+Just analyze the chemical
+composition of their glass...
+
+189
+00:15:26,634 --> 00:15:29,308
+...and work backwards
+to see how they made it.
+
+190
+00:15:29,470 --> 00:15:31,268
+It shouldn't take you long.
+
+191
+00:15:37,895 --> 00:15:43,368
+<i>TYSON: But Faraday struggled for four years
+without any success.</i>
+
+192
+00:15:58,708 --> 00:16:01,712
+This is even worse than the last batch.
+
+193
+00:16:02,545 --> 00:16:06,470
+No matter how hard he tried,
+Faraday could not figure out...
+
+194
+00:16:06,632 --> 00:16:10,057
+...what Joseph Fraunhofer
+had discovered years before.
+
+195
+00:16:11,053 --> 00:16:12,726
+<i>What Faraday failed to grasp...</i>
+
+196
+00:16:12,889 --> 00:16:15,688
+<i>...was that casting perfect optical glass
+for telescopes...</i>
+
+197
+00:16:15,850 --> 00:16:17,898
+<i>...was a craft as well as a science...</i>
+
+198
+00:16:18,060 --> 00:16:21,860
+<i>...and the masters in Bavaria
+kept their secrets under lock and key.</i>
+
+199
+00:16:29,071 --> 00:16:32,450
+<i>Faraday never did learn their secret.</i>
+
+200
+00:16:32,617 --> 00:16:37,919
+<i>He kept a single glass brick
+as a souvenir of this failure.</i>
+
+201
+00:16:38,664 --> 00:16:43,420
+Years later,
+it would change the course of his life...
+
+202
+00:16:43,586 --> 00:16:45,634
+...and ours.
+
+203
+00:17:05,942 --> 00:17:09,287
+Davy's death finally brought an end
+to this fruitless project...
+
+204
+00:17:09,445 --> 00:17:12,119
+...and Faraday, the boy from the slums...
+
+205
+00:17:12,281 --> 00:17:14,750
+...succeeded him
+as director of the laboratory.
+
+206
+00:17:14,909 --> 00:17:18,459
+Faraday used his new authority
+to do something unprecedented:
+
+207
+00:17:18,621 --> 00:17:22,626
+a series of annual Christmas lectures
+on science for the young...
+
+208
+00:17:22,792 --> 00:17:27,138
+...beginning in 1825
+and continuing to this day.
+
+209
+00:17:45,815 --> 00:17:47,817
+[INAUDIBLE DIALOGUE]
+
+210
+00:17:59,120 --> 00:18:01,088
+<i>At one of the first Christmas lectures...</i>
+
+211
+00:18:01,247 --> 00:18:03,170
+<i>...Faraday enchanted his audience...</i>
+
+212
+00:18:03,332 --> 00:18:07,178
+<i>...with displays of the new powers
+that were at his disposal.</i>
+
+213
+00:18:07,336 --> 00:18:10,840
+Suppose I want to fire a portion
+of gunpowder.
+
+214
+00:18:11,007 --> 00:18:14,261
+I can readily do it
+with the power of electricity.
+
+215
+00:18:15,845 --> 00:18:18,143
+[CROWD GASPING AND CHATTERING]
+
+216
+00:18:18,431 --> 00:18:21,981
+If I receive electricity
+through this conducting wire...
+
+217
+00:18:22,143 --> 00:18:24,316
+...I can then give it to anything I touch.
+
+218
+00:18:24,854 --> 00:18:28,484
+But I must stand
+on these insulating glass legs...
+
+219
+00:18:28,649 --> 00:18:31,823
+...to prevent the electricity
+from going away into the floor.
+
+220
+00:18:34,864 --> 00:18:37,367
+Now I am electrified.
+
+221
+00:18:37,533 --> 00:18:39,126
+[CROWD MURMURING]
+
+222
+00:18:43,873 --> 00:18:48,253
+Do you think I could light this gas jet
+just by touching it with my finger?
+
+223
+00:18:48,419 --> 00:18:50,387
+GIRL: No.
+No, don't do it. No.
+
+224
+00:18:50,546 --> 00:18:52,469
+No. Don't.
+
+225
+00:18:54,550 --> 00:18:57,554
+Now, mind you, don't try this at home.
+
+226
+00:19:00,389 --> 00:19:02,141
+[CROWD CHATTERING]
+
+227
+00:19:02,308 --> 00:19:05,152
+And now, my children,
+you have seen for yourselves...
+
+228
+00:19:05,311 --> 00:19:10,192
+...how this invisible force of electricity
+can be made to serve new purposes...
+
+229
+00:19:10,358 --> 00:19:13,737
+...utterly unattainable
+by the powers we have now.
+
+230
+00:19:13,903 --> 00:19:15,905
+[CROWD APPLAUDING]
+
+231
+00:19:23,871 --> 00:19:26,499
+The invention of a motor
+that could work continuously...
+
+232
+00:19:26,666 --> 00:19:29,419
+...eliminating countless human hours
+of drudgery...
+
+233
+00:19:29,585 --> 00:19:32,008
+...would be more than enough
+to make you a fortune...
+
+234
+00:19:32,171 --> 00:19:34,173
+...and land you in the history books.
+
+235
+00:19:34,340 --> 00:19:36,513
+That's not how Michael Faraday saw it.
+
+236
+00:19:36,676 --> 00:19:39,725
+He had absolutely no interest
+in patenting his ideas...
+
+237
+00:19:39,887 --> 00:19:41,889
+...or personally profiting from them.
+
+238
+00:19:42,056 --> 00:19:43,603
+And as for the history books...
+
+239
+00:19:43,766 --> 00:19:48,693
+...he had only written the first sentence
+of an entry that would be many pages long.
+
+240
+00:19:49,939 --> 00:19:53,534
+Mr. Anderson, may I ask you
+to dim the lights, please?
+
+241
+00:19:54,026 --> 00:19:59,123
+Gentlemen, I am about to induce a current
+of electricity merely by moving a magnet.
+
+242
+00:19:59,740 --> 00:20:03,210
+Please observe what happens in the gap
+between the wires when I do so.
+
+243
+00:20:05,996 --> 00:20:07,998
+[ELECTRICITY CRACKLING]
+
+244
+00:20:10,501 --> 00:20:14,551
+Do you see how the current only flows
+when the magnet is moving?
+
+245
+00:20:15,256 --> 00:20:19,557
+This is the conversion of motion
+into electricity.
+
+246
+00:20:29,311 --> 00:20:31,313
+This was the first generator.
+
+247
+00:20:31,480 --> 00:20:35,155
+From here, electricity would become
+available on demand.
+
+248
+00:20:35,317 --> 00:20:39,322
+Faraday was continuing to change
+the world and the way people lived...
+
+249
+00:20:39,488 --> 00:20:41,661
+...and then, suddenly...
+
+250
+00:20:41,824 --> 00:20:45,499
+...an illness attacked
+his incomparable mind.
+
+251
+00:20:50,458 --> 00:20:52,176
+<i>FARADAY:
+My dear Schoenbein...</i>
+
+252
+00:20:52,334 --> 00:20:55,008
+<i>...I would be very grateful to have
+your opinion...</i>
+
+253
+00:20:55,171 --> 00:20:57,014
+...regarding...
+
+254
+00:21:00,926 --> 00:21:02,769
+<i>Regarding...</i>
+
+255
+00:21:04,513 --> 00:21:07,187
+<i>Dear Schoenbein...
+Regarding...</i>
+
+256
+00:21:17,234 --> 00:21:20,864
+My dear husband,
+whatever is the matter?
+
+257
+00:21:22,198 --> 00:21:26,544
+I began a letter to Schoenbein and
+could not remember what I meant to say.
+
+258
+00:21:26,702 --> 00:21:29,205
+This is no cause for alarm.
+
+259
+00:21:29,371 --> 00:21:32,215
+You work too hard.
+You're exhausted.
+
+260
+00:21:32,374 --> 00:21:35,924
+No. Sarah, this is different.
+Horribly different.
+
+261
+00:21:36,086 --> 00:21:39,681
+It's the third time my memory
+has failed me in as many days.
+
+262
+00:21:39,840 --> 00:21:41,683
+I fear I'm losing my mind.
+
+263
+00:21:41,842 --> 00:21:44,140
+And what would I be without that?
+
+264
+00:21:46,222 --> 00:21:49,772
+Why, my darling husband, of course.
+
+265
+00:21:51,894 --> 00:21:53,737
+When Faraday was 49...
+
+266
+00:21:53,896 --> 00:21:57,070
+...he began to battle severe
+memory loss and depression.
+
+267
+00:21:57,233 --> 00:21:59,235
+His work came to a standstill.
+
+268
+00:21:59,401 --> 00:22:05,374
+And although he never fully recovered,
+his greatest achievements still lay ahead.
+
+269
+00:22:19,922 --> 00:22:24,644
+Faraday had immersed himself so deeply
+in electrical and magnetic experiments...
+
+270
+00:22:24,802 --> 00:22:27,772
+...that he came to visualize
+the space around a magnet...
+
+271
+00:22:27,930 --> 00:22:31,025
+...as filled with invisible lines of force.
+
+272
+00:22:31,767 --> 00:22:35,863
+<i>A magnet was not simply the magnetized
+bar of iron that you could see.</i>
+
+273
+00:22:36,188 --> 00:22:40,238
+<i>It was also the unseen "something"
+in the space around the bar.</i>
+
+274
+00:22:41,694 --> 00:22:43,742
+<i>And that something he called a "field."</i>
+
+275
+00:22:44,530 --> 00:22:47,033
+<i>A magnetic field.</i>
+
+276
+00:22:47,616 --> 00:22:50,415
+<i>Faraday believed in the unity of nature.</i>
+
+277
+00:22:50,578 --> 00:22:54,378
+<i>Having demonstrated the connections
+between electricity and magnetism...</i>
+
+278
+00:22:54,540 --> 00:22:57,339
+<i>...he wondered, were these two forces...</i>
+
+279
+00:22:57,501 --> 00:23:00,801
+<i>...also connected to a third: light?</i>
+
+280
+00:23:01,463 --> 00:23:05,843
+If he could only show a connection
+among these three invisible phenomena...
+
+281
+00:23:06,010 --> 00:23:10,311
+...one of nature's most intimate secrets
+would at last be revealed.
+
+282
+00:23:10,848 --> 00:23:12,145
+<i>So, what did he do?</i>
+
+283
+00:23:12,308 --> 00:23:14,356
+<i>He designed an experiment.</i>
+
+284
+00:23:14,518 --> 00:23:17,362
+<i>Faraday knew that light
+can travel as a wave.</i>
+
+285
+00:23:17,521 --> 00:23:20,775
+<i>Waves of light vibrate randomly
+in all directions.</i>
+
+286
+00:23:20,941 --> 00:23:24,286
+<i>But there's a way to isolate
+a single wave of light.</i>
+
+287
+00:23:24,445 --> 00:23:26,948
+<i>It's called polarization.</i>
+
+288
+00:23:27,114 --> 00:23:30,066
+When light bounces off
+a reflective surface,
+
+289
+00:23:30,078 --> 00:23:33,042
+like a mirror, it
+becomes polarized.
+
+290
+00:23:33,203 --> 00:23:37,674
+Faraday wanted to see if that
+single ray of light could be manipulated...
+
+291
+00:23:37,833 --> 00:23:39,676
+...by the invisible magnetic field.
+
+292
+00:23:40,336 --> 00:23:45,467
+<i>The eyepiece contained a crystal that acted
+as a kind of picket fence for light.</i>
+
+293
+00:23:45,633 --> 00:23:49,683
+<i>Light could only pass through it
+if it was somehow moved by the magnet.</i>
+
+294
+00:23:50,346 --> 00:23:53,020
+<i>He placed a lantern before a mirror.</i>
+
+295
+00:23:53,182 --> 00:23:56,527
+One that he would only see
+through the eyepiece if its reflection...
+
+296
+00:23:56,685 --> 00:23:59,029
+...could pass through the picket fence.
+
+297
+00:23:59,188 --> 00:24:01,691
+If this is hard to
+understand, don't feel bad.
+
+298
+00:24:01,857 --> 00:24:05,657
+Scientists could not explain this
+phenomenon for another hundred years.
+
+299
+00:24:06,695 --> 00:24:11,667
+<i>Faraday knew that magnetism had no effect
+on light that was moving through air.</i>
+
+300
+00:24:11,825 --> 00:24:14,999
+<i>But what about when it was moving
+through other materials?</i>
+
+301
+00:24:15,162 --> 00:24:18,837
+<i>So, what kind of material could he use
+to help the magnet move the light?</i>
+
+302
+00:24:19,667 --> 00:24:24,514
+<i>He tried hundreds of different
+transparent chemicals and objects...</i>
+
+303
+00:24:25,005 --> 00:24:27,724
+<i>...but saw nothing through the eyepiece.</i>
+
+304
+00:24:27,883 --> 00:24:30,853
+<i>The light was not twisted by the magnet.</i>
+
+305
+00:24:31,011 --> 00:24:35,141
+<i>He tried crystals of calcite,
+sodium carbonate...</i>
+
+306
+00:24:35,307 --> 00:24:37,150
+<i>...calcium sulfate...</i>
+
+307
+00:24:37,309 --> 00:24:39,778
+<i>...and still, he saw nothing.</i>
+
+308
+00:24:39,937 --> 00:24:44,568
+<i>He tried acids:
+sulfuric acid, muriatic acid...</i>
+
+309
+00:24:44,733 --> 00:24:46,326
+<i>...carbonic acid.</i>
+
+310
+00:24:46,485 --> 00:24:50,911
+<i>He tried gasses:
+oxygen, nitrogen, hydrogen...</i>
+
+311
+00:24:51,240 --> 00:24:53,083
+<i>...with no success.</i>
+
+312
+00:24:53,242 --> 00:24:55,961
+<i>The magnetic field
+induced in these substances...</i>
+
+313
+00:24:56,120 --> 00:24:59,044
+<i>...could not twist the light from his lamp
+back into view.</i>
+
+314
+00:25:01,542 --> 00:25:02,714
+Damn!
+
+315
+00:25:02,876 --> 00:25:04,048
+[GASPS]
+
+316
+00:25:08,966 --> 00:25:10,468
+<i>In desperation...</i>
+
+317
+00:25:10,634 --> 00:25:14,229
+<i>...he decided to try the glass brick.</i>
+
+318
+00:25:15,639 --> 00:25:20,987
+<i>The souvenir
+of his years of bondage to Davy.</i>
+
+319
+00:25:34,116 --> 00:25:35,459
+<i>It did the trick.</i>
+
+320
+00:25:35,617 --> 00:25:41,124
+<i>The force of the magnet twisted the light
+so that it could pass through the crystal.</i>
+
+321
+00:25:41,290 --> 00:25:43,543
+<i>So, what's the big deal?</i>
+
+322
+00:25:43,709 --> 00:25:48,385
+<i>Faraday had demonstrated the existence of
+the physical reality that surrounds us...</i>
+
+323
+00:25:48,714 --> 00:25:51,433
+<i>...but which no one
+had ever been able to detect.</i>
+
+324
+00:25:51,592 --> 00:25:53,435
+<i>It was as dramatic a breakthrough...</i>
+
+325
+00:25:53,594 --> 00:25:57,565
+<i>...as seeing the cosmos for the very
+first time through a telescope.</i>
+
+326
+00:25:57,806 --> 00:26:02,858
+By showing that an electromagnetic force
+could manipulate light...
+
+327
+00:26:03,020 --> 00:26:06,945
+...Faraday had discovered
+a deeper unity of nature.
+
+328
+00:26:07,107 --> 00:26:08,950
+He had opened a door for Einstein...
+
+329
+00:26:09,109 --> 00:26:11,453
+...and all the physicists
+who came after him...
+
+330
+00:26:11,612 --> 00:26:16,869
+...to glimpse the interplay of hidden,
+primal forces in the universe.
+
+331
+00:26:17,034 --> 00:26:19,753
+Even as he approached
+the summit of his genius...
+
+332
+00:26:19,912 --> 00:26:21,630
+...he was plagued by depression...
+
+333
+00:26:21,789 --> 00:26:25,839
+...and doubts about his ability to retain
+even the simplest thoughts.
+
+334
+00:26:26,418 --> 00:26:27,886
+<i>FARADAY:
+My dear friend...</i>
+
+335
+00:26:28,045 --> 00:26:30,434
+<i>...I find a difficulty
+in answering or even</i>
+
+336
+00:26:30,446 --> 00:26:32,846
+<i>acknowledging properly
+a scientific letter...</i>
+
+337
+00:26:33,008 --> 00:26:35,852
+<i>...for I cannot now hold it at once
+in my mind.</i>
+
+338
+00:26:36,011 --> 00:26:39,106
+<i>The memory of the parts fail me.</i>
+
+339
+00:26:42,309 --> 00:26:46,485
+<i>SARAH". P.S. You will be sorry to see
+the tone of this short note...</i>
+
+340
+00:26:46,647 --> 00:26:50,322
+<i>...but my dearest husband
+is not quite so well as usual...</i>
+
+341
+00:26:50,776 --> 00:26:52,619
+<i>...but I hope he will improve.</i>
+
+342
+00:26:52,778 --> 00:26:56,783
+<i>Yours very truly, S. Faraday.</i>
+
+343
+00:26:57,908 --> 00:27:01,538
+As a young man,
+Faraday had risen from poverty...
+
+344
+00:27:01,703 --> 00:27:04,047
+...in one of the most
+class-conscious societies...
+
+345
+00:27:04,206 --> 00:27:06,049
+...the world has ever known...
+
+346
+00:27:06,208 --> 00:27:10,384
+...to become the most celebrated
+scientist of his time.
+
+347
+00:27:10,546 --> 00:27:11,798
+By age 40...
+
+348
+00:27:11,964 --> 00:27:16,219
+...he had invented the electric motor,
+the transformer, the generator.
+
+349
+00:27:16,385 --> 00:27:21,892
+Machines that would change everything
+about the home, the farm, the factory.
+
+350
+00:27:22,057 --> 00:27:24,230
+Now at 60...
+
+351
+00:27:24,393 --> 00:27:28,068
+...decades after the fertile periods
+of the greatest physicists...
+
+352
+00:27:28,230 --> 00:27:31,404
+...plagued by memory loss
+and melancholy...
+
+353
+00:27:31,567 --> 00:27:37,700
+...he fearlessly probed deeper
+into the mysterious invisible forces.
+
+354
+00:27:54,756 --> 00:27:58,761
+The world thought
+that Michael Faraday was a has-been.
+
+355
+00:27:58,927 --> 00:28:00,429
+Despite his depression...
+
+356
+00:28:00,596 --> 00:28:03,941
+...he remained
+as passionately curious as ever.
+
+357
+00:28:04,099 --> 00:28:08,229
+Having discovered the unity of electricity,
+magnetism and light...
+
+358
+00:28:08,395 --> 00:28:09,942
+...Faraday needed to know...
+
+359
+00:28:10,105 --> 00:28:14,110
+...how this trinity of natural forces
+work together.
+
+360
+00:28:19,198 --> 00:28:21,041
+<i>[SINGS]
+This is the way the ladies walk</i>
+
+361
+00:28:21,200 --> 00:28:22,622
+<i>TYSON".
+This was nothing new.</i>
+
+362
+00:28:22,784 --> 00:28:26,539
+<i>Children had been playing with magnets
+and iron filings for centuries.</i>
+
+363
+00:28:26,705 --> 00:28:30,505
+<i>Everyone had always assumed
+that this lovely pattern...</i>
+
+364
+00:28:30,667 --> 00:28:33,011
+<i>...was just something that iron did.</i>
+
+365
+00:28:33,170 --> 00:28:37,346
+<i>Faraday knew that electric current
+turns a wire into a magnet...</i>
+
+366
+00:28:37,507 --> 00:28:40,886
+<i>...so he expected to find
+related patterns in iron filings...</i>
+
+367
+00:28:41,053 --> 00:28:43,522
+<i>...around a wire carrying electricity.</i>
+
+368
+00:28:43,680 --> 00:28:46,934
+<i>But where others saw
+merely lovely shapes...</i>
+
+369
+00:28:47,100 --> 00:28:50,195
+<i>...Faraday saw something profound.</i>
+
+370
+00:28:51,438 --> 00:28:54,487
+<i>The patterns were not
+simply a quirk of iron filings.</i>
+
+371
+00:28:54,650 --> 00:28:57,745
+<i>They existed in the space
+around a magnet...</i>
+
+372
+00:28:57,903 --> 00:29:01,658
+<i>...or an electric current,
+even in the absence of iron filings.</i>
+
+373
+00:29:01,823 --> 00:29:06,704
+<i>The patterns were the traces, the
+footprints of invisible fields of force...</i>
+
+374
+00:29:06,870 --> 00:29:11,171
+<i>...that reached out into the space
+around anything magnetic.</i>
+
+375
+00:29:15,254 --> 00:29:19,134
+<i>The compass needle that people wondered
+at for a thousand years...</i>
+
+376
+00:29:19,299 --> 00:29:22,849
+<i>...was not reacting to some
+faraway magnetic North Pole.</i>
+
+377
+00:29:23,011 --> 00:29:28,689
+<i>It was detecting a continuous force field
+that stretched all the way there.</i>
+
+378
+00:29:31,061 --> 00:29:34,486
+Earth itself is a giant magnet.
+
+379
+00:29:34,648 --> 00:29:37,322
+And like any other magnet,
+its lines of force...
+
+380
+00:29:37,484 --> 00:29:41,284
+...extend far out into the space
+surrounding it.
+
+381
+00:29:41,446 --> 00:29:44,541
+They're everywhere, all around us.
+
+382
+00:29:44,700 --> 00:29:46,373
+They've always been.
+
+383
+00:29:46,535 --> 00:29:49,539
+But nobody had ever
+noticed them before.
+
+384
+00:29:49,705 --> 00:29:52,254
+Nobody human, that is.
+
+385
+00:29:52,416 --> 00:29:54,043
+[SQUAWKING]
+
+386
+00:29:54,209 --> 00:29:59,261
+<i>Birds are the last living descendants
+of the dinosaurs.</i>
+
+387
+00:30:00,299 --> 00:30:04,054
+<i>Pigeons and other birds are remarkably good
+at finding their way around.</i>
+
+388
+00:30:04,219 --> 00:30:07,769
+<i>They can migrate thousands of miles
+without getting lost.</i>
+
+389
+00:30:07,931 --> 00:30:14,064
+<i>How? Partly by recognizing familiar
+landmarks: rivers, mountains, stars.</i>
+
+390
+00:30:14,730 --> 00:30:18,906
+<i>Even certain smells can serve
+as signposts for migrating birds.</i>
+
+391
+00:30:19,276 --> 00:30:21,870
+<i>But birds also have an inner compass.</i>
+
+392
+00:30:22,029 --> 00:30:25,033
+<i>They can actually sense
+the Earth's magnetic field.</i>
+
+393
+00:30:25,198 --> 00:30:27,371
+<i>Their brains process magnetic data...</i>
+
+394
+00:30:27,534 --> 00:30:31,084
+<i>...in much the same way
+ours process visual data.</i>
+
+395
+00:30:31,246 --> 00:30:35,547
+<i>By sensing the direction of the field,
+birds can tell north from south.</i>
+
+396
+00:30:35,709 --> 00:30:37,552
+<i>That's one way North American birds...</i>
+
+397
+00:30:37,711 --> 00:30:40,464
+<i>...know which way to go
+when they head south for the winter.</i>
+
+398
+00:30:41,048 --> 00:30:44,598
+<i>The field is stronger near the poles
+than it is at the equator...</i>
+
+399
+00:30:44,760 --> 00:30:48,435
+<i>...a fact that birds use
+to figure out their latitude.</i>
+
+400
+00:30:48,597 --> 00:30:51,601
+<i>There are also small irregularities
+in the field.</i>
+
+401
+00:30:51,767 --> 00:30:55,271
+<i>Locations where the field
+is a little weaker or stronger.</i>
+
+402
+00:30:55,437 --> 00:30:57,986
+<i>Just like a distinctive
+mountain or river...</i>
+
+403
+00:30:58,148 --> 00:31:02,324
+<i>...these magnetic anomalies
+can serve as landmarks.</i>
+
+404
+00:31:10,952 --> 00:31:12,295
+<i>For thousands of years...</i>
+
+405
+00:31:12,454 --> 00:31:16,925
+<i>...humans have used carrier pigeons
+to send messages to distant locations.</i>
+
+406
+00:31:17,084 --> 00:31:19,052
+<i>It was a crucial method
+of communication...</i>
+
+407
+00:31:19,211 --> 00:31:21,054
+<i>...as recently as World War ll.</i>
+
+408
+00:31:21,213 --> 00:31:23,966
+<i>When you think about it,
+we've been using magnetic fields...</i>
+
+409
+00:31:24,132 --> 00:31:25,805
+<i>...to communicate for a long time.</i>
+
+410
+00:31:26,635 --> 00:31:28,637
+<i>We just didn't know it.</i>
+
+411
+00:31:36,937 --> 00:31:39,907
+So why does our planet
+have a magnetic field at all?
+
+412
+00:31:40,065 --> 00:31:41,157
+What causes it?
+
+413
+00:31:41,483 --> 00:31:44,987
+The answer lies deep inside the Earth.
+
+414
+00:31:45,153 --> 00:31:48,282
+Liquid iron, circulating around
+the solid part of the core...
+
+415
+00:31:48,448 --> 00:31:53,170
+...as Earth rotates, acts like a wire
+carrying an electric current.
+
+416
+00:31:53,328 --> 00:31:57,549
+And as Faraday showed us,
+electric currents produce magnetic fields.
+
+417
+00:31:57,707 --> 00:31:58,959
+And that's a good thing.
+
+418
+00:31:59,126 --> 00:32:02,676
+Our magnetic field protects us
+from the onslaught of cosmic rays...
+
+419
+00:32:02,838 --> 00:32:05,682
+...which would be very damaging
+to our biosphere.
+
+420
+00:32:05,841 --> 00:32:08,685
+Cosmic rays can rip through DNA.
+
+421
+00:32:08,844 --> 00:32:10,187
+Without our magnetic field...
+
+422
+00:32:10,345 --> 00:32:14,191
+...the rate of mutation in living organisms
+would be much higher.
+
+423
+00:32:14,349 --> 00:32:19,480
+Fortunately, most of this cosmic shrapnel
+gets trapped in the Van Allen belts...
+
+424
+00:32:19,646 --> 00:32:25,494
+...donut-shaped zones of charged particles
+corralled by our magnetic shield.
+
+425
+00:32:32,534 --> 00:32:36,380
+<i>Knowing that the Earth itself
+is like a giant bar magnet...</i>
+
+426
+00:32:36,538 --> 00:32:41,920
+<i>...explains one of the most beautiful
+sights in the sky, the aurora.</i>
+
+427
+00:32:43,670 --> 00:32:46,514
+<i>Charged particles from the sun,
+the solar wind...</i>
+
+428
+00:32:46,673 --> 00:32:49,051
+<i>...are constantly bombarding the Earth.</i>
+
+429
+00:32:49,217 --> 00:32:52,812
+<i>You can think of the solar wind
+as a kind of electric current.</i>
+
+430
+00:32:52,971 --> 00:32:55,690
+<i>Our planet's magnetic field
+channels that current...</i>
+
+431
+00:32:55,849 --> 00:32:57,817
+<i>...towards the north and south poles.</i>
+
+432
+00:32:57,976 --> 00:32:59,478
+<i>When it hits our atmosphere...</i>
+
+433
+00:32:59,644 --> 00:33:02,147
+<i>...the oxygen and nitrogen
+molecules in the air...</i>
+
+434
+00:33:02,314 --> 00:33:05,568
+<i>...glow like giant fluorescent
+light bulbs.</i>
+
+435
+00:33:27,297 --> 00:33:31,143
+When Faraday pursued his last
+and most profound discovery...
+
+436
+00:33:31,301 --> 00:33:35,147
+...the poverty of his childhood
+stymied him as it never had before.
+
+437
+00:33:35,305 --> 00:33:37,558
+He needed help and found it in one...
+
+438
+00:33:37,724 --> 00:33:40,568
+...who had come from another world.
+
+439
+00:33:54,741 --> 00:33:58,962
+Michael Faraday had solved the mystery
+that baffled Isaac Newton.
+
+440
+00:34:17,472 --> 00:34:22,774
+<i>This was how the sun told the planets
+how to move without touching them.</i>
+
+441
+00:34:22,936 --> 00:34:27,612
+<i>The sun does touch the planets
+with its gravitational field.</i>
+
+442
+00:34:28,191 --> 00:34:33,539
+<i>And Earth's gravitational field
+tells the apples how to fall.</i>
+
+443
+00:34:33,697 --> 00:34:35,165
+[KIDS LAUGHING]
+
+444
+00:34:40,954 --> 00:34:44,584
+All this is a dream.
+
+445
+00:34:46,668 --> 00:34:50,923
+Unfortunately, that was the prevailing view
+among his fellow scientists:
+
+446
+00:34:51,089 --> 00:34:52,932
+Faraday was dreaming.
+
+447
+00:34:53,091 --> 00:34:56,641
+<i>They admired his inventiveness
+and his genius for experimentation...</i>
+
+448
+00:34:56,803 --> 00:34:59,522
+<i>...but they regarded his
+invisible lines of force...</i>
+
+449
+00:34:59,681 --> 00:35:03,481
+<i>...and his ideas about light and gravity
+as hand-waving...</i>
+
+450
+00:35:03,643 --> 00:35:06,192
+<i>...meaning there was nothing solid
+to back it up.</i>
+
+451
+00:35:07,147 --> 00:35:09,491
+<i>Some openly ridiculed his theories.</i>
+
+452
+00:35:09,983 --> 00:35:11,860
+<i>They needed to see
+his ideas expressed...</i>
+
+453
+00:35:12,027 --> 00:35:15,907
+<i>...in the language of modern physics:
+precise equations.</i>
+
+454
+00:35:16,072 --> 00:35:19,246
+<i>This was the one area
+where Faraday's childhood poverty...</i>
+
+455
+00:35:19,409 --> 00:35:23,710
+<i>...and lack of formal education
+actually held him back.</i>
+
+456
+00:35:24,205 --> 00:35:26,424
+<i>He couldn't do the math.</i>
+
+457
+00:35:26,583 --> 00:35:31,339
+<i>Faraday had finally hit a wall
+that he could not overcome.</i>
+
+458
+00:35:31,630 --> 00:35:37,308
+<i>And then, the greatest theoretical
+physicist of the 19th century came along.</i>
+
+459
+00:35:37,469 --> 00:35:42,566
+<i>James Clerk Maxwell was born
+into a world of wealth and privilege...</i>
+
+460
+00:35:42,724 --> 00:35:47,230
+...an <i>only child of doting
+middle-aged parents.</i>
+
+461
+00:35:52,150 --> 00:35:56,781
+<i>By his early 20s, he had made a name
+for himself as a mathematician.</i>
+
+462
+00:35:56,946 --> 00:36:00,371
+<i>While other scientists had come to think
+of Faraday as old-fashioned-</i>
+
+463
+00:36:00,742 --> 00:36:04,417
+<i>A great figure of the past
+but no part of the future of physics.</i>
+
+464
+00:36:04,579 --> 00:36:07,753
+<i>--James Clerk Maxwell knew better.</i>
+
+465
+00:36:08,291 --> 00:36:12,467
+<i>He began by reading everything
+Faraday had written on electricity.</i>
+
+466
+00:36:12,629 --> 00:36:16,884
+<i>He became convinced
+that Faraday's fields of force were real...</i>
+
+467
+00:36:17,050 --> 00:36:21,897
+<i>...and he set out to give them
+a precise mathematical formulation.</i>
+
+468
+00:37:07,225 --> 00:37:09,944
+An equation in physics
+is just a shorthand description...
+
+469
+00:37:10,103 --> 00:37:13,528
+...of something that can be
+represented in space and time.
+
+470
+00:37:13,690 --> 00:37:16,614
+For instance, the equation
+describing the arc of a pendulum...
+
+471
+00:37:17,068 --> 00:37:21,448
+...shows that it can never swing higher
+than its initial height.
+
+472
+00:37:37,881 --> 00:37:41,010
+When Maxwell translated
+Faraday's experimental observations...
+
+473
+00:37:41,176 --> 00:37:44,396
+...on electromagnetic
+fields into equations...
+
+474
+00:37:44,554 --> 00:37:47,148
+...he discovered an asymmetry.
+
+475
+00:37:48,725 --> 00:37:50,318
+See that bottom one?
+
+476
+00:37:50,477 --> 00:37:52,980
+It cries out for something else.
+
+477
+00:37:53,146 --> 00:37:58,152
+Great mathematician that he was,
+Maxwell added a single term to balance it.
+
+478
+00:37:58,318 --> 00:38:02,994
+This tweaking of the equation changed
+Faraday's static field into waves...
+
+479
+00:38:03,156 --> 00:38:05,830
+...that spread outward
+at the speed of light.
+
+480
+00:38:05,992 --> 00:38:09,166
+It wasn't long before we found a way
+to turn those waves...
+
+481
+00:38:11,206 --> 00:38:13,254
+...into couriers...
+
+482
+00:38:14,125 --> 00:38:16,219
+...for our messages.
+
+483
+00:38:17,712 --> 00:38:19,760
+Can you see me?
+
+484
+00:38:20,131 --> 00:38:22,384
+Can you hear me?
+
+485
+00:38:22,717 --> 00:38:24,811
+This is how.
+
+486
+00:38:29,808 --> 00:38:33,563
+This technology has transformed
+human civilization...
+
+487
+00:38:33,728 --> 00:38:38,234
+...from a patchwork of cities,
+towns and villages...
+
+488
+00:38:38,399 --> 00:38:42,279
+<i>...into an intercommunicating organism.</i>
+
+489
+00:38:50,745 --> 00:38:53,419
+<i>Linking us at light speed...</i>
+
+490
+00:39:00,004 --> 00:39:01,347
+<i>...to each other...</i>
+
+491
+00:39:10,473 --> 00:39:12,726
+...and to the cosmos.
+
+492
+00:39:46,009 --> 00:39:49,309
+<i>FARADAY:
+Nothing is too wonderful to be true...</i>
+
+493
+00:39:49,470 --> 00:39:53,316
+<i>...if it be consistent
+with the laws of nature.</i>
+
