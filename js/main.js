@@ -1,5 +1,4 @@
 const url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
-const url_sample = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/sample.json"
 var controller;
 
 
@@ -22,7 +21,7 @@ const toggleCtrlPanel = $(".toggle-control-panel");
 $('.toggle-tour').click(function() {
   if($(".control-panel-container").is(":visible"))
     tour.restart();
-});    
+});
 
 // zoom level handler
 $('input[name="zoomLevel"]').on('change', function (e) {
@@ -89,8 +88,8 @@ $(window).resize( () => {
 // ------------ SORT
 // sorting parameter handler
 $('input[name="sorting-parameter"]').on('change', (e) => {
-  controller.setSortingParameter(e.target.value) 
-}); 
+  controller.setSortingParameter(e.target.value)
+});
 
 const toggle = document.getElementById('container-switch');
 const toggleContainer = document.getElementById('toggle-container');
@@ -161,7 +160,3 @@ $("#check-all").on("click", (e) => {
 $("#snap_button").on("click", (e) => {
     controller.snap();
 })
-
-
-
-
