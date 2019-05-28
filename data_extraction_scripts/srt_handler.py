@@ -78,9 +78,9 @@ def compute_wh():
                                                 clean = re.compile('<.*?>')
                                                 line = re.sub(clean, '', line)
 
+                                                # clean string of closed captions
                                                 clean = re.compile('\[.*?\]')
                                                 line = re.sub(clean, '', line)
-
                                                 clean = re.compile('\(.*?\)')
                                                 line = re.sub(clean, '', line)
 
@@ -89,8 +89,27 @@ def compute_wh():
                                                 line = re.sub(clean, '', line)
 
                                                 # clean string of website links
-                                                clean = re.compile('www.*')
-                                                line = re.sub(clean, '', line)
+                                                pattern = r'(?:https?:\/\/(www\.)?)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)'
+                                                # thanks to https://stackoverflow.com/a/27755918
+                                                if re.findall(pattern, line):
+                                                    line = ""
+
+                                                # an string of  things like "sync & correction"
+                                                sync_strings = [ \
+                                                'sync & correction by', \
+                                                'sync, corrected by', \
+                                                'synced and corrected by', \
+                                                'sync and corrections by', \
+                                                'synced & corrected by', \
+                                                'Cleaned, corrected & sync adjusted by', \
+                                                'BluRay resync by', \
+                                                ', resync:', \
+                                                'Resync for QRUS by', \
+                                                'Resync for ABjEX by', \
+                                                'Extracted & Re-synced & Corrected for']
+
+                                                if any(x in line for x in sync_strings):
+                                                    line = ""
 
                                                 # clean string of new line characters
                                                 text.append(line.rstrip('\r\n'))
