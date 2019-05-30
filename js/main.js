@@ -1,7 +1,12 @@
+/** The main script that handles the initialization and the user interaction */
+
+// the url of the data.json file
 const url_data = "https://raw.githubusercontent.com/francescopisu/subanalysis/master/data.json"
+
+// the controller used for handling the user interaction
 var controller;
 
-
+// opens the data.json file and creates the Chart
 d3.json(url_data, (error, json_data) => {
     if (error) throw error;
 
@@ -11,6 +16,7 @@ d3.json(url_data, (error, json_data) => {
         data: json_data });
 });
 
+// useful variables
 var toggleWidth;
 var width_;
 const ctrlPanelContainer = $(".control-panel-container");
@@ -55,11 +61,11 @@ function collapseControlPanel() {
   chartWrapper.animate({ width: toggleWidth });
 }
 
-// NUOVA: Attach a click handler to the toggle button
+// Attach a click handler to the toggle button
 toggleCtrlPanel.click( collapseControlPanel );
 
 
-// NUOVA: resizes the chart and redraws it if the window dimensions change
+// resizes the chart and redraws it if the window dimensions change
 $(window).resize( () => {
     controller.chart.transitions = false;
 
@@ -108,6 +114,7 @@ toggle.addEventListener('click', function() {
 });
 
 // ------------ FILTERS
+// set the defualt values of the year slider
 $(".year-multi-range").ionRangeSlider({
         type: "double",
         skin: "flat",
@@ -118,6 +125,7 @@ $(".year-multi-range").ionRangeSlider({
         grid: false
 });
 
+// set the defualt values of the w/h slider
 $(".wh-multi-range").ionRangeSlider({
         type: "double",
         skin: "flat",
@@ -128,15 +136,15 @@ $(".wh-multi-range").ionRangeSlider({
         grid: true
 });
 
-// set the sorting parameter via radio buttons
+// handles the sorting parameter via radio buttons
 $('input[name="genre-filter"]').on('change', (e) => {
     controller.setFilterInFiltersSet(e.target.id, e.target.checked); })
 
-// set the w/h limits
+// handles the w/h limits
 $('input[name="wh-multi-range"]').on('change', (e) => {
     controller.setWhLimits(e.target.value); })
 
-// set the years limits
+// handles the years limits
 $('input[name="year-multi-range"]').on('change', (e) => {
     controller.setYearLimits(e.target.value); })
 

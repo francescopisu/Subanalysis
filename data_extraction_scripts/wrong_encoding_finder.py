@@ -4,13 +4,17 @@ import csv
 
 
 def find_wrong_encoding():
+    ''' runs all over the subtitles and prints the ones that are not encoded
+        in utf-8. The method used for running all over the files is the same as
+        the one used in srt_handler.py
+    '''
+
 
     for series_folder in sorted(next(os.walk('../series'))[1]):
         series_full_path = '../series/' + series_folder
 
-        # run through each subdirectory of series folders (i.e: seasons)
         for subs_folder in sorted(os.listdir(series_full_path + '/subs/')):
-        # this control is necessary to avoid hidden files starting with .
+
             if not subs_folder.startswith('.') and not subs_folder.endswith('.csv'):
                 subs_full_path = series_full_path + '/subs/' + subs_folder
 
@@ -18,11 +22,13 @@ def find_wrong_encoding():
                 if not subFile.startswith('.'):
                     if subFile.endswith(".srt"):
 
+                        # try to open the file in utf-8
                         try:
                             with open(subs_full_path + '/' + subFile, encoding="utf-8") as f:
                                 text = f.read()
-                            # print(subs_full_path + '/' + subFile)
+
                         except UnicodeDecodeError:
+                            # if there is an error, print the file name
                             print("error: " + subdir_first_level + " / " + subdir_second_level +  " - " + subFile)
 
 

@@ -7,23 +7,27 @@ from utils import *
 
 
 def compute_wh():
+    ''' The principal script. It creates the data.json file, containing all
+        the data needed for the web application. It runs all over the folders,
+        creating the series objects while extracting the words/hour values from
+        the subtitles.
+    '''
 
     series_dictionary = []
+
+    # open the data.json in file in writing mode
     with io.open("../data.json", 'w') as resFile:
 
         # we have to navigate through the series data that are stored like:
         # ../series/ID_SERIES-NAME/subs/SEASON-NUMBER/SUBTITLE.srt
 
-        # run through each subdirectory of series folder
+        # run through each subdirectory of the series folder
         for series_folder in sorted(next(os.walk('../series'))[1]):
             # series_folder is ID_SERIES-NAME, e.g. 00_SamuraiJack
 
-            # gather series number
-            # series = series_folder[:2]
-
             # save information about each series; these information are contained
-            # in a spec file situated in the series' root folder
-            current_series = extract_series_data_from_series_full_path(series_folder)
+            # in the specs.csv file situated in the series' root folder
+            current_series = extract_series_data_from_series_folder(series_folder)
 
             # let's make sure that we start from scratch for each series
             current_series.seasons = []
@@ -33,7 +37,7 @@ def compute_wh():
             # "../series/ID_SERIES-NAME", e.g. ../series/00_SamuraiJack
             # from this point we can open all the files we need
 
-            # -------- extract w/h, episode title from the files
+            # -------- extract w/h and the episode titles
 
             # run through each subdirectory of series folders (i.e: seasons)
             for subs_folder in sorted(os.listdir(series_full_path + '/subs/')):
@@ -43,13 +47,16 @@ def compute_wh():
                 # this control is necessary to avoid hidden files starting with .
                 if not subs_folder.startswith('.') and not subs_folder.endswith('.csv'):
                     subs_full_path = series_full_path + '/subs/' + subs_folder
-                    # gather season number
+
+                    # gather season number, from the name of the folder, which
+                    # is for example "s02"
                     season = int(subs_folder[1:])
 
                     # create a new Season object
                     current_season = Season(int(season), [])
 
-                    # let's make sure that we start from scratch for each season of the current series
+                    # let's make sure that we start from scratch for each season
+                    # of the current series
                     current_season.episodes = []
 
                     # read the titles file
@@ -61,15 +68,18 @@ def compute_wh():
                     for subFile in sorted(os.listdir(subs_full_path)):
                         if not subFile.startswith('.'):
                             if subFile.endswith(".srt"):
-
+                                # if the file is a subtitle, i.e. its extension
+                                # is .srt, open it
                                 with open(subs_full_path + '/' + subFile, encoding="utf-8") as f:
-                                    episode += 1
-                                    text = []
+                                    episode += 1 # episode counter
+                                    text = [] # stores all the clean text
 
                                     # create a new Episode object
                                     current_episode = Episode(episode)
 
                                     for line in f.readlines():
+                                        # we have to discard all the lines that are not good
+
                                         # discarding all the lines starting with a number
                                         if not line[0].isdigit():
                                             # filter blank lines
@@ -78,7 +88,7 @@ def compute_wh():
                                                 clean = re.compile('<.*?>')
                                                 line = re.sub(clean, '', line)
 
-                                                # clean string of closed captions
+                                                # remove lines that contain a closed caption
                                                 clean = re.compile('\[.*?\]')
                                                 line = re.sub(clean, '', line)
                                                 clean = re.compile('\(.*?\)')
@@ -88,13 +98,13 @@ def compute_wh():
                                                 clean = re.compile('[a-zA-Z]*\:')
                                                 line = re.sub(clean, '', line)
 
-                                                # clean string of website links
+                                                # remove lines that contain a website link
                                                 pattern = r'(?:https?:\/\/(www\.)?)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)'
                                                 # thanks to https://stackoverflow.com/a/27755918
                                                 if re.findall(pattern, line):
                                                     line = ""
 
-                                                # an string of  things like "sync & correction"
+                                                # remove lines that contain things like "sync & correction"
                                                 sync_strings = [ \
                                                 'sync & correction by', \
                                                 'sync, corrected by', \
@@ -114,6 +124,7 @@ def compute_wh():
                                                 # clean string of new line characters
                                                 text.append(line.rstrip('\r\n'))
 
+                                    # rewind the file and compute the episode duration
                                     f.seek(0)
                                     runtime = get_runtime_from_file(f)
 
@@ -137,6 +148,7 @@ def compute_wh():
                                     # add current episode to the current season
                                     current_season.episodes.append(current_episode)
 
+                                    # give some status to the user
                                     print_series_episode(current_series, season, episode)
                                     print("words count: " + str(words_count) + " - words/hour: " + str(words_hour) + "\n")
 

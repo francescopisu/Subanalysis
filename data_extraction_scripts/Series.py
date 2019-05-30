@@ -1,9 +1,34 @@
 class Series:
+    ''' A class that represents a TV series
+
+    Attributes
+    id : int
+        unique identificator
+    name : str
+        name of the series
+    episode_length : int
+        standard episode duration
+    genre : array
+        list of the series genres, we use only the first
+    start_year : int
+        the first year the series was aired
+    end_year : int
+        the last year the series was aired; 9999 => the series isn't over yet
+    wh : double
+        the average words/hour of the episodes
+    descript : str
+        a brief description of the series
+    seasons : array
+        the list of the seasons of this series
+    '''
+
+
     id_ = 0
     name = ""
     episode_length = 0
     genre = []
-    year = 0
+    start_year = 0
+    end_year = 0
     wh = 0
     description = ""
     seasons = []

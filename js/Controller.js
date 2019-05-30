@@ -9,6 +9,9 @@ const ASCENDING  = true;
 
 
 class Controller {
+    /** this class handles the user interactions and provides the data to the
+        chart. It also handles the zoom level so that Chart doesn't do that. */
+
     constructor(opts) {
         // load in arguments from config object
         this.data = opts.data;
@@ -36,8 +39,9 @@ class Controller {
         this.chart = new Chart(this.extractElements());
     }
 
-    // create a Set containing the different genres; it will be used when filtering.
     extractGenres(){
+        // create a Set containing the different genres;
+        // it will be used when filtering.
         this.genres = new Set();
         this.data.forEach(series => {
                 series.genre.split(" ").forEach(item => this.genres.add(item))
@@ -46,6 +50,8 @@ class Controller {
 
 
     extractElements(){
+        // extracts the data array for the Chart
+
         var dataForBars = [];
 
         switch (this.zoomLevel) {
@@ -61,7 +67,6 @@ class Controller {
                             start_year: single_series.start_year,
                             end_year: single_series.end_year,
                             logo_url: "series/"+single_series.folder+"/poster.jpg",
-                            // logo_url: "assets/posters/"+single_series.id_+".jpg",
                             genre: single_series.genre.split(" ")[0],
                             description: single_series.description,
                             no_of_seasons: single_series.seasons.length,
@@ -148,37 +153,49 @@ class Controller {
         this.chart.setDrawSeriesLine((zoomLevel != SERIES));
         this.chart.setShowLabelsAndTicks((zoomLevel != SERIES));
 
+        // the k-zoom-factor is used for showing the ticks and the labels
+        // in the bars; each visualiztion has its limits.
         var kZoomFactorMin = (zoomLevel == SERIES)  ? 9999 :
                              (zoomLevel == SEASONS) ? 2    :
                                                       13   ;
         this.chart.setKZoomFactorMin(kZoomFactorMin);
 
+        // the scale extent is the maximum level of zoom
         var scaleExtent = (zoomLevel == SERIES)  ? [1, 8]  :
                           (zoomLevel == SEASONS) ? [1, 25] :
                                                    [1, 100];
         this.chart.setScaleExtent(scaleExtent);
 
+        // delay in the transitions: since the episodes are much more than the
+        // series, we need a shorter delay
         var delay = (zoomLevel == SERIES)  ? 10 :
                     (zoomLevel == SEASONS) ? 5  :
                                              0.5;
         this.chart.setDelay(delay);
 
+        // add the data to the chart
         this.chart.addBars(this.extractElements());
     }
 
 
     // ----------- SORTING
     setSortingType(sortingType){
+        // sorts in the ascending or descending way
+
         this.sortingType = sortingType;
         this.sortData();
     }
 
     setSortingParameter(sortingParameter){
+        // orders the data according to the sortingParameter, e.g. by Name
+
         this.sortingParameter = sortingParameter;
         this.sortData();
     }
 
     sortData(){
+        // sorts the data and shows it
+
         if (this.sortingType == DESCENDING)
             this.data.sort(dynamicSort("-" + this.sortingParameter));
         else
@@ -188,8 +205,9 @@ class Controller {
     }
 
     // ------------ FILTERING
-    // returns true if the series respects all the filters
     isSeriesAllowed(seriesFromJson){
+        // returns true if the series respects all the filters
+
         // check whether:
         // - w/h is inside the w/h limits
         // - year is inside the years limits TODO
@@ -200,8 +218,9 @@ class Controller {
                 this.genres.has(seriesFromJson.genre.split(" ")[0]);
     }
 
-    // add or remove a filter from the filters set
     setFilterInFiltersSet(filterType, checked){
+        // add or remove a filter from the filters set
+
         if (checked) this.genres.add(filterType);
         else this.genres.delete(filterType);
 
@@ -209,6 +228,8 @@ class Controller {
     }
 
     setWhLimits(limits){
+        // sets the limits of the words/hour
+
         this.wh_min = parseInt(limits.split(";")[0])
         this.wh_max = parseInt(limits.split(";")[1])
 
@@ -216,28 +237,31 @@ class Controller {
     }
 
     setYearLimits(limits){
+        // sets the limits of the year
+
         this.year_min = parseInt(limits.split(";")[0])
         this.year_max = parseInt(limits.split(";")[1])
 
         this.chart.addBars(this.extractElements());
     }
 
-    // reset filters
     resetFilters() {
+        // resets the genre filters
+
         this.genres.clear();
-
         this.chart.addBars(this.extractElements());
     }
 
-    // set all filters
     setAllFilters() {
-        this.extractGenres();
+        // set all the genre filters
 
+        this.extractGenres();
         this.chart.addBars(this.extractElements());
     }
 
-    // delete half of the series... randomly
     snap(){
+        // delete half of the series... randomly
+
         if (!this.snapped)
             // if the snap is not already happened,
             // delete half of the series!
@@ -254,8 +278,8 @@ class Controller {
 
 }
 
-// returns a function used for sorting on that property
 function dynamicSort(property) {
+    // returns a function used for sorting on that property
     // many thanks to Ege Özcan https://stackoverflow.com/a/4760279
     var sortOrder = 1;
     if(property[0] === "-") {

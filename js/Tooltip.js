@@ -1,9 +1,12 @@
 class Tooltip {
+    // represents the tooltip
+
     constructor(){
         this.setZoomLevel(SERIES);
     }
 
     setZoomLevel(zoomLevel){
+        // the tooltip is different when visualizing series, seasons or episodes
         this.zoomLevel = zoomLevel;
 
         switch(this.zoomLevel) {

@@ -1,4 +1,8 @@
 class Chart {
+    /** it represents the chart. It has no informations about the zoom level,
+        it just draws the data that is passed to it.
+    */
+
     constructor(dataForBars = []) {
         // bar transitions flag
         this.transitions = true;
@@ -33,6 +37,9 @@ class Chart {
 
 
     draw(dataForBars) {
+        // draws the data containied in dataForBars
+
+        // set the dimensions
         this.margin = {top: 20, right: 40, bottom: 70, left: 80};
         this.width = window.innerWidth*0.9 + this.margin.right + this.margin.left; //1020
         this.height = window.innerHeight*0.75 - this.margin.top - this.margin.bottom; //780
@@ -56,13 +63,10 @@ class Chart {
         .attr("width", this.width + this.widthOffset)
         .attr("height", this.height + this.heightOffset);
 
-
         // Define and append to the chart a focus window
         this.focus = this.svgChart.append("g")
                .attr("class", "focus")
                .attr("transform","translate(" + this.margin.left + "," + this.margin.top + ")");
-
-
 
         // create the other stuff
         this.createScalesAndAxes();
@@ -70,16 +74,16 @@ class Chart {
     }
 
     // remove everything from the chart
-    clear() {
-         this.svgChart.selectAll("*").remove();
-    }
+    clear() { this.svgChart.selectAll("*").remove(); }
 
-    // calculate the scales for the axis
     createScalesAndAxes() {
+        // calculates and creates the scales for the axis
 
+        // the x-axis contains discrete values
         this.x = d3.scaleBand()
             .range([0, this.width - this.margin.right])
 
+        // the y-axis contains continuous values
         this.y = d3.scaleLinear()
             .range([this.height, 0])
 
@@ -99,7 +103,7 @@ class Chart {
         this.x.domain(dataForBars.map(item => item.id))
         this.y.domain([0, d3.max(dataForBars, d => d.wh )]).nice();
 
-
+        // connect the object to the function
         this.clipp.select(".x-axis").call(this.xAxis);
 
         // remove the old x-axis
@@ -136,15 +140,12 @@ class Chart {
             .style("text-anchor", "middle")
             .text("Words per Hour");
 
-        // var y_element = document.getElementById("y-axis");
-        // y_element.setAttribute("data-intro",
-        //     "This is the main chart. The quantity \"Words per Hour\" \
-        //     tells you how many words the characters say in 60 minutes.")
-        // y_element.setAttribute("data-step", 2);
     }
 
 
     addBars(dataForBars) {
+        // this functions actually draws the bars
+
         var x = this.x;
         var y = this.y;
         var height  = this.height;
@@ -157,6 +158,13 @@ class Chart {
         // set the axes
         this.setAxes(dataForBars);
 
+        /** to use animations for the entrance/update/exit of the elements, we
+            have to:
+            1. join new data with old elements
+            2. exit and remove old elements not present in new data
+            3. update old elements present in new data
+            4. enter new elements present in new data
+        */
 
         // ******* JOIN new data with old elements
         this.bars = this.clipp.selectAll(".bar")
@@ -276,6 +284,8 @@ class Chart {
 
 
     zoomed(dataForBars){
+        // handles the zoom
+
         var transform = d3.event.transform;
 
         if (this.showLabelsAndTicks && transform.k > this.kZoomFactorMin){
@@ -288,7 +298,7 @@ class Chart {
             this.xAxis.tickFormat("").tickSize(0); // no labels nor ticks
         }
 
-        // move the bars
+        // updates the bars
         this.x.range([this.margin.left, this.width - this.margin.right]
                       .map(d => transform.applyX(d) - this.margin.left));
         this.clipp.selectAll("rect").attr("x", d => this.x(d.id))
@@ -310,6 +320,8 @@ class Chart {
 
 
 function getColor(item){
+    // returns the bar color from the series genre
+
     if (item.genre == "Action")      return '#B36FAF'; // viola
     if (item.genre == "Adventure")   return '#5B9279'; // verde
     if (item.genre == "Animation")   return '#ACEBFF'; // celestino
