@@ -1,0 +1,1364 @@
+1
+00:02:10,924 --> 00:02:12,425
+Maling, for you, sir.
+
+2
+00:02:15,261 --> 00:02:16,429
+Go ahead.
+
+3
+00:02:16,513 --> 00:02:18,264
+Dredging is almost at 50%.
+
+4
+00:02:18,348 --> 00:02:20,548
+I should have the rest of them
+skimmed up by end of day.
+
+5
+00:02:21,351 --> 00:02:23,520
+We also started draining the valley.
+
+6
+00:02:23,603 --> 00:02:25,814
+You want all personal effects
+or just skin and bones?
+
+7
+00:02:25,897 --> 00:02:28,525
+Everything, down to the last Stetson.
+
+8
+00:02:28,608 --> 00:02:30,193
+Fly the whole pile over.
+
+9
+00:02:30,860 --> 00:02:32,028
+We'll crack them open to see
+
+10
+00:02:32,111 --> 00:02:34,298
+if we can't reprogram these things
+to behave by our rules again.
+
+11
+00:02:34,322 --> 00:02:35,323
+<i>Copy that.</i>
+
+12
+00:02:35,657 --> 00:02:37,909
+Sir, I have two teams out
+looking for Abernathy.
+
+13
+00:02:39,244 --> 00:02:40,245
+Good.
+
+14
+00:02:40,620 --> 00:02:42,872
+When you find him,
+bring him to me personally.
+
+15
+00:03:16,614 --> 00:03:17,824
+So what have we got?
+
+16
+00:03:17,949 --> 00:03:19,075
+It's not good.
+
+17
+00:03:19,158 --> 00:03:22,036
+We're pulling what we can
+off the recovered host control units,
+
+18
+00:03:22,120 --> 00:03:26,749
+but what's really unsettling is
+what's in about a third of them.
+
+19
+00:03:27,333 --> 00:03:28,334
+What's that?
+
+20
+00:03:29,210 --> 00:03:30,503
+Nothing.
+
+21
+00:03:30,587 --> 00:03:31,796
+They've been wiped?
+
+22
+00:03:31,880 --> 00:03:33,923
+More like they're virgin.
+
+23
+00:03:34,507 --> 00:03:36,718
+Like they never held data to begin with.
+
+24
+00:03:37,302 --> 00:03:39,762
+No user prints or anything.
+
+25
+00:03:39,846 --> 00:03:41,931
+And that's not the worst of it.
+
+26
+00:03:43,641 --> 00:03:44,809
+Have a look.
+
+27
+00:03:47,604 --> 00:03:49,063
+We put the fires out,
+
+28
+00:03:49,147 --> 00:03:51,232
+but there's nothing we can recover
+from the Cradle.
+
+29
+00:03:51,316 --> 00:03:53,443
+The host backups
+have all been destroyed.
+
+30
+00:03:53,526 --> 00:03:56,654
+So we've effectively lost a third
+of our IP in a single sweep?
+
+31
+00:04:03,453 --> 00:04:05,538
+That's quite a story you gave them.
+
+32
+00:04:09,459 --> 00:04:11,294
+And one hell of an ending.
+
+33
+00:04:15,131 --> 00:04:18,801
+How did all these disparate threads
+come together to create this nightmare?
+
+34
+00:04:21,179 --> 00:04:22,639
+If we figure that out,
+
+35
+00:04:23,598 --> 00:04:25,683
+we'll know how this story turns.
+
+36
+00:04:52,669 --> 00:04:53,920
+What the hell is that?
+
+37
+00:04:54,087 --> 00:04:55,755
+Looks like a dead man to me.
+
+38
+00:04:56,047 --> 00:04:58,508
+You know the old saying
+about knives in gun fights?
+
+39
+00:05:05,348 --> 00:05:08,184
+Does the saying have a footnote
+about fucking lassos, then?
+
+40
+00:05:08,601 --> 00:05:09,811
+All right, that's enough.
+
+41
+00:05:10,311 --> 00:05:11,729
+Lay down your sword.
+
+42
+00:05:12,981 --> 00:05:14,983
+Tell your associates to set us free.
+
+43
+00:05:15,775 --> 00:05:17,485
+We mean no harm.
+
+44
+00:05:25,576 --> 00:05:26,828
+See, darling?
+
+45
+00:05:27,495 --> 00:05:28,955
+Everything under control.
+
+46
+00:05:42,176 --> 00:05:44,137
+Beautiful way to watch the sunrise.
+
+47
+00:05:44,971 --> 00:05:48,349
+Glistening off the intestines
+of the recently mutilated.
+
+48
+00:05:49,308 --> 00:05:50,518
+Oh, Jesus.
+
+49
+00:05:51,060 --> 00:05:52,145
+Ugh.
+
+50
+00:05:53,604 --> 00:05:54,814
+Judging by their weapons,
+
+51
+00:05:55,231 --> 00:05:56,607
+I'd say local police.
+
+52
+00:05:57,775 --> 00:05:59,444
+And given that he's got one now.
+
+53
+00:06:01,571 --> 00:06:05,491
+Captured by samurai cop‒killers.
+
+54
+00:06:05,575 --> 00:06:06,826
+Fuck me.
+
+55
+00:06:07,952 --> 00:06:10,621
+Can't you say something to them?
+
+56
+00:06:11,289 --> 00:06:14,083
+I'm from Hong Kong, asshole.
+
+57
+00:06:14,834 --> 00:06:17,670
+This is just the tip
+of Shogun World's prick,
+
+58
+00:06:17,754 --> 00:06:19,714
+an experience expressly designed
+
+59
+00:06:19,797 --> 00:06:22,633
+for the guests
+who find Westworld too tame.
+
+60
+00:06:23,009 --> 00:06:25,678
+We based this park on Japan's Edo period
+
+61
+00:06:25,762 --> 00:06:28,222
+for true aficionado of artful gore.
+
+62
+00:06:33,686 --> 00:06:35,396
+This world will end badly.
+
+63
+00:06:35,480 --> 00:06:37,482
+I'll make sure your end is worse.
+
+64
+00:06:52,413 --> 00:06:53,706
+You understand them?
+
+65
+00:06:54,082 --> 00:06:55,333
+You all do.
+
+66
+00:06:55,416 --> 00:06:57,043
+Look, she's a madam.
+
+67
+00:06:57,126 --> 00:07:00,379
+Consciously fluent in dozens of
+languages, including Japanese.
+
+68
+00:07:00,463 --> 00:07:01,815
+But you all have those comm skills
+
+69
+00:07:01,839 --> 00:07:03,257
+buried somewhere in your code.
+
+70
+00:07:11,349 --> 00:07:12,600
+Point is,
+
+71
+00:07:12,934 --> 00:07:14,894
+the fact that these psychos
+didn't flip to English
+
+72
+00:07:14,977 --> 00:07:16,604
+as soon as I opened my mouth means
+
+73
+00:07:17,146 --> 00:07:19,816
+that the same malfunctioning shit show
+that's playing out
+
+74
+00:07:19,899 --> 00:07:21,651
+in Westworld has found its way here.
+
+75
+00:07:22,276 --> 00:07:25,321
+It's also why your vocal voodoo
+didn't work on them.
+
+76
+00:07:25,404 --> 00:07:27,156
+You spoke the wrong language.
+
+77
+00:08:21,544 --> 00:08:24,046
+This all feels
+a little too familiar.
+
+78
+00:08:47,778 --> 00:08:49,322
+Butterfly?
+
+79
+00:08:49,989 --> 00:08:51,365
+A Mariposa.
+
+80
+00:09:36,869 --> 00:09:38,037
+I'll be damned.
+
+81
+00:09:38,412 --> 00:09:39,622
+It's us.
+
+82
+00:09:40,206 --> 00:09:41,415
+Yes, fine.
+
+83
+00:09:41,540 --> 00:09:43,417
+I may have cribbed a little bit
+from Westworld.
+
+84
+00:09:44,752 --> 00:09:47,088
+Well, you try writing 300 stories
+in three weeks.
+
+85
+00:10:04,272 --> 00:10:05,856
+We're human shields now?
+
+86
+00:10:06,148 --> 00:10:07,650
+Welcome to Shogun World.
+
+87
+00:10:18,244 --> 00:10:19,578
+Can you watch it?
+
+88
+00:11:14,300 --> 00:11:15,343
+Behind you!
+
+89
+00:13:20,217 --> 00:13:21,469
+Hell of a homecoming.
+
+90
+00:13:28,476 --> 00:13:30,936
+Sweetwater was never home
+to begin with, Teddy.
+
+91
+00:13:31,270 --> 00:13:34,148
+You and I were born
+long before this place even existed.
+
+92
+00:13:34,690 --> 00:13:36,984
+The place
+I return to again and again.
+
+93
+00:13:38,444 --> 00:13:40,362
+No matter how far I strayed,
+
+94
+00:13:40,446 --> 00:13:43,908
+something always carried me back.
+
+95
+00:13:46,785 --> 00:13:48,120
+Something like that?
+
+96
+00:14:00,925 --> 00:14:03,344
+Looks like she's taken some hits
+the past few days.
+
+97
+00:14:04,595 --> 00:14:05,888
+But who hasn't?
+
+98
+00:14:19,985 --> 00:14:21,570
+Make a thorough inspection,
+
+99
+00:14:22,071 --> 00:14:23,989
+from the engine to the last axle.
+
+100
+00:14:24,907 --> 00:14:26,200
+Fix what's broke.
+
+101
+00:14:26,867 --> 00:14:28,202
+Strip her for speed.
+
+102
+00:14:29,411 --> 00:14:32,331
+Teddy, with me.
+
+103
+00:14:53,185 --> 00:14:54,937
+What do we need the train for, Dolores?
+
+104
+00:14:55,688 --> 00:14:57,064
+They've taken my daddy,
+
+105
+00:15:00,025 --> 00:15:01,360
+so we're gonna get him back.
+
+106
+00:15:13,914 --> 00:15:16,166
+Well, it ain't doing any good
+sitting in that bottle.
+
+107
+00:15:23,924 --> 00:15:25,342
+Sorry, Maeve.
+
+108
+00:15:25,426 --> 00:15:27,094
+Didn't get much sleep last night.
+
+109
+00:15:31,140 --> 00:15:32,349
+Sometimes...
+
+110
+00:15:33,475 --> 00:15:35,185
+Sometimes, they're real bad.
+
+111
+00:15:40,774 --> 00:15:41,984
+Clementine.
+
+112
+00:15:45,237 --> 00:15:46,322
+You're new.
+
+113
+00:15:47,197 --> 00:15:48,574
+Not much of a rind on you.
+
+114
+00:15:48,657 --> 00:15:49,783
+That's enough.
+
+115
+00:15:51,952 --> 00:15:53,245
+Rejoin the others.
+
+116
+00:16:01,629 --> 00:16:02,963
+It's like I told you, Teddy.
+
+117
+00:16:04,506 --> 00:16:05,924
+This place was never home.
+
+118
+00:16:08,135 --> 00:16:09,136
+Let's ride.
+
+119
+00:16:09,637 --> 00:16:11,013
+Some place I wanna see.
+
+120
+00:16:58,769 --> 00:17:00,854
+When I asked
+for a civilized conversation,
+
+121
+00:17:00,938 --> 00:17:02,564
+I meant the quickest way out of here.
+
+122
+00:17:02,981 --> 00:17:04,108
+Not all this.
+
+123
+00:17:04,191 --> 00:17:06,485
+Just try and rein it in a bit, will you?
+
+124
+00:17:07,528 --> 00:17:10,280
+The narrative bones of this place
+are just like Westworld.
+
+125
+00:17:10,781 --> 00:17:13,617
+Hospitality is foreplay to a new quest.
+
+126
+00:17:13,701 --> 00:17:15,911
+But in this world,
+if you don't hear them out,
+
+127
+00:17:15,994 --> 00:17:17,246
+you've dishonored them.
+
+128
+00:17:17,329 --> 00:17:18,997
+Sometimes, homicidally so.
+
+129
+00:17:19,081 --> 00:17:20,749
+Fine, we'll listen.
+
+130
+00:17:20,833 --> 00:17:22,584
+But then we go and find my daughter.
+
+131
+00:17:24,878 --> 00:17:26,171
+And for the record,
+
+132
+00:17:27,089 --> 00:17:29,591
+it's not just the narrative bones
+that are identical.
+
+133
+00:17:29,675 --> 00:17:31,844
+You've plagiarized our stories,
+
+134
+00:17:31,927 --> 00:17:33,011
+our identities.
+
+135
+00:17:33,095 --> 00:17:36,306
+It's not plagiarism.
+It's supply and demand.
+
+136
+00:17:37,266 --> 00:17:39,184
+If you're asking can you trust Akane,
+
+137
+00:17:39,935 --> 00:17:42,730
+the real question is,
+can you trust yourself?
+
+138
+00:17:42,813 --> 00:17:44,606
+You know who I don't trust?
+
+139
+00:17:44,940 --> 00:17:46,108
+Him.
+
+140
+00:17:48,110 --> 00:17:50,362
+Say the word,
+and I'll skin him like a rabbit.
+
+141
+00:17:50,446 --> 00:17:51,822
+What's the matter with you?
+
+142
+00:17:56,994 --> 00:17:58,537
+He's not supposed to be here.
+
+143
+00:17:58,912 --> 00:18:01,915
+Who knows how seeing your own doppelbot
+is gonna fuck with your cognition?
+
+144
+00:18:01,999 --> 00:18:03,542
+Heightened aggression and suspicion,
+
+145
+00:18:03,751 --> 00:18:05,919
+feedback loops, that.
+
+146
+00:18:07,296 --> 00:18:10,132
+Yet another reason to get out of here
+tout de fucking suite.
+
+147
+00:18:20,184 --> 00:18:21,643
+Our quest, I presume.
+
+148
+00:19:02,684 --> 00:19:04,186
+I recognize this one.
+
+149
+00:19:04,269 --> 00:19:05,938
+It's called "Army of Blood."
+
+150
+00:19:43,058 --> 00:19:45,310
+Madam Akane, the new geisha,
+
+151
+00:19:45,561 --> 00:19:47,354
+has no choice but to give up Sakura.
+
+152
+00:20:04,371 --> 00:20:05,831
+That's not supposed to happen.
+
+153
+00:20:06,623 --> 00:20:08,000
+Looks like someone had a choice
+
+154
+00:20:08,083 --> 00:20:09,334
+after all.
+
+155
+00:20:43,869 --> 00:20:45,621
+Snow Lake is a cornerstone.
+
+156
+00:20:45,829 --> 00:20:48,206
+It also has an access point
+back to the tunnels.
+
+157
+00:20:48,624 --> 00:20:50,000
+It's our way out.
+
+158
+00:20:51,126 --> 00:20:53,003
+So you're not so useless after all.
+
+159
+00:22:50,954 --> 00:22:52,514
+Did you have something to do with this?
+
+160
+00:22:55,834 --> 00:22:57,210
+Both of you, look.
+
+161
+00:23:11,099 --> 00:23:12,184
+Oi!
+
+162
+00:23:21,568 --> 00:23:23,862
+Shit! Ninjas!
+
+163
+00:23:24,946 --> 00:23:26,114
+Fucking hell.
+
+164
+00:25:25,901 --> 00:25:28,069
+We got three.
+The rest vanished with Sakura.
+
+165
+00:25:28,570 --> 00:25:29,946
+This is insane.
+
+166
+00:25:30,363 --> 00:25:31,990
+Ninjas never show up in this story.
+
+167
+00:25:37,871 --> 00:25:39,998
+Oh, fuck.
+
+168
+00:25:50,842 --> 00:25:52,844
+The Shogun's army
+never comes into town.
+
+169
+00:26:47,399 --> 00:26:48,692
+You three, with me.
+
+170
+00:27:25,186 --> 00:27:26,938
+I don't need to know the language
+
+171
+00:27:27,022 --> 00:27:28,207
+to know a fucking asshole of a man
+
+172
+00:27:28,231 --> 00:27:29,566
+when I see one.
+
+173
+00:28:34,130 --> 00:28:35,882
+You and I spent a lot of time here.
+
+174
+00:28:38,009 --> 00:28:39,511
+Watching the herd,
+
+175
+00:28:41,304 --> 00:28:43,306
+talking about making a life together.
+
+176
+00:28:45,600 --> 00:28:46,935
+Someday.
+
+177
+00:28:52,148 --> 00:28:54,526
+I guess I just wanted
+to see it one last time.
+
+178
+00:29:00,156 --> 00:29:01,699
+What if someday was right now?
+
+179
+00:29:05,120 --> 00:29:06,830
+What are you talking about, Teddy?
+
+180
+00:29:09,499 --> 00:29:11,042
+There's a fight coming, Dolores.
+
+181
+00:29:12,877 --> 00:29:14,597
+And this could be one
+that's gonna change us
+
+182
+00:29:14,629 --> 00:29:16,506
+in ways we can't even begin to predict.
+
+183
+00:29:17,882 --> 00:29:19,551
+And I'm still waking up to...
+
+184
+00:29:21,219 --> 00:29:22,554
+What I really am.
+
+185
+00:29:24,472 --> 00:29:26,724
+And if that means I'm free,
+then we both are.
+
+186
+00:29:28,143 --> 00:29:29,352
+Free to walk away.
+
+187
+00:29:31,271 --> 00:29:34,315
+Now, you can't tell me that somewhere
+out there, in all that beauty,
+
+188
+00:29:36,443 --> 00:29:37,944
+there isn't a spot for us.
+
+189
+00:29:47,704 --> 00:29:50,540
+Did I ever tell you about the year
+we almost lost the herd?
+
+190
+00:29:52,750 --> 00:29:53,960
+Bluetongue.
+
+191
+00:29:56,212 --> 00:29:58,256
+Quarantined the cows that had it,
+
+192
+00:29:59,048 --> 00:30:00,758
+but it kept spreading all the same.
+
+193
+00:30:02,927 --> 00:30:06,181
+Daddy finally figured out that it
+wasn't spreading from cow to cow.
+
+194
+00:30:07,348 --> 00:30:09,142
+It was the flies that carried it.
+
+195
+00:30:10,894 --> 00:30:12,854
+He worried over it all night.
+
+196
+00:30:13,938 --> 00:30:15,773
+How do you stop a sickness like that?
+
+197
+00:30:17,775 --> 00:30:19,068
+One with wings.
+
+198
+00:30:21,029 --> 00:30:22,238
+Say it was you.
+
+199
+00:30:26,242 --> 00:30:27,869
+What would you do, Teddy?
+
+200
+00:30:30,246 --> 00:30:31,664
+I'd give them shelter.
+
+201
+00:30:33,124 --> 00:30:36,211
+House the weakest in a barn,
+out of the air, away from the flies,
+
+202
+00:30:37,629 --> 00:30:38,922
+until it passed.
+
+203
+00:30:44,802 --> 00:30:46,179
+You're a kind man.
+
+204
+00:30:52,101 --> 00:30:53,394
+Daddy burned them.
+
+205
+00:30:54,854 --> 00:30:56,689
+The weak, the infected.
+
+206
+00:30:58,024 --> 00:31:00,443
+Made a pyre that went on for days,
+and it stank,
+
+207
+00:31:02,111 --> 00:31:03,696
+but the flies hate smoke.
+
+208
+00:31:06,658 --> 00:31:07,951
+The herd lived.
+
+209
+00:31:11,996 --> 00:31:13,790
+I'll think about what you said.
+
+210
+00:31:30,807 --> 00:31:33,393
+I'd like to take this moment to appeal
+to your sense of survival.
+
+211
+00:31:33,851 --> 00:31:35,395
+If the Shogun is awake enough
+
+212
+00:31:35,478 --> 00:31:37,939
+to play fast and loose
+with his ninjas and his army,
+
+213
+00:31:38,022 --> 00:31:41,401
+then the odds of us surviving here
+have dropped to approximately fuck‒all.
+
+214
+00:31:41,484 --> 00:31:44,487
+But I say we ditch Akane
+and make a run for Snow Lake.
+
+215
+00:31:44,571 --> 00:31:47,240
+Why should we all get killed
+over a literal sex machine?
+
+216
+00:31:48,616 --> 00:31:50,577
+Present company excluded, of course.
+
+217
+00:31:50,910 --> 00:31:53,037
+That machine's name is Sakura.
+
+218
+00:31:53,288 --> 00:31:54,831
+You can't keep doing this to us,
+
+219
+00:31:54,914 --> 00:31:57,500
+giving us people to love
+and then getting upset when we do.
+
+220
+00:31:57,584 --> 00:31:59,085
+But it's just fucking code.
+
+221
+00:31:59,168 --> 00:32:00,336
+You're wrong.
+
+222
+00:32:00,545 --> 00:32:02,589
+I'm coded to care about nobody
+but myself,
+
+223
+00:32:02,672 --> 00:32:04,942
+and yet, here I am, willing to risk
+my life for someone else.
+
+224
+00:32:04,966 --> 00:32:07,260
+Well, so much
+for your so‒called daughter.
+
+225
+00:32:09,220 --> 00:32:11,306
+You want to go it alone, be my guest.
+
+226
+00:32:12,557 --> 00:32:16,269
+But mention my daughter one more time,
+and I will snap you like a matchstick.
+
+227
+00:32:17,478 --> 00:32:18,855
+Like you did that ninja?
+
+228
+00:32:21,441 --> 00:32:23,735
+He took one look at you
+and self‒impaled.
+
+229
+00:32:24,819 --> 00:32:26,112
+How did you do that?
+
+230
+00:32:29,115 --> 00:32:30,283
+I don't know.
+
+231
+00:32:30,950 --> 00:32:32,577
+That was no voice command.
+
+232
+00:32:35,330 --> 00:32:37,415
+I think I'm finding a new voice.
+
+233
+00:32:40,001 --> 00:32:41,544
+Our transportation is ready.
+
+234
+00:32:53,181 --> 00:32:54,223
+God damn it.
+
+235
+00:32:55,767 --> 00:32:57,685
+What have they done to the place?
+
+236
+00:33:04,067 --> 00:33:05,193
+Is that...
+
+237
+00:33:06,694 --> 00:33:08,029
+The fucking cavalry.
+
+238
+00:33:08,780 --> 00:33:11,449
+Great.
+So much for our rescuers.
+
+239
+00:33:34,555 --> 00:33:36,349
+I'm gonna take a fucking moment.
+
+240
+00:33:38,059 --> 00:33:39,686
+Don't stop on my account.
+
+241
+00:34:05,253 --> 00:34:06,713
+If you've quite finished...
+
+242
+00:34:10,216 --> 00:34:11,884
+It's time to sell this ruse.
+
+243
+00:34:31,529 --> 00:34:33,072
+How many of them are there?
+
+244
+00:34:33,489 --> 00:34:36,284
+Between the camp and the town, hundreds.
+
+245
+00:34:37,368 --> 00:34:38,953
+Literally hundreds.
+
+246
+00:34:39,662 --> 00:34:41,748
+So Maeve's gonna freeze
+all those assholes,
+
+247
+00:34:41,831 --> 00:34:43,471
+and we're gonna make off
+with that geisha?
+
+248
+00:34:44,333 --> 00:34:45,543
+We're gonna die.
+
+249
+00:36:14,131 --> 00:36:16,008
+Did you just make that up right now?
+
+250
+00:36:16,509 --> 00:36:17,802
+Damn convincing.
+
+251
+00:36:18,553 --> 00:36:19,929
+Not to the daimyos.
+
+252
+00:36:20,847 --> 00:36:22,849
+It's like they had no idea
+what I was saying.
+
+253
+00:36:54,881 --> 00:36:55,923
+Shit.
+
+254
+00:36:56,173 --> 00:36:57,550
+That's cortical fluid.
+
+255
+00:36:58,009 --> 00:36:59,760
+The Shogun's not awake.
+
+256
+00:37:00,511 --> 00:37:01,679
+He's broken.
+
+257
+00:37:55,358 --> 00:37:57,818
+No fucking wonder
+the daimyos didn't hear you.
+
+258
+00:37:57,902 --> 00:37:59,946
+We've gone
+completely off the rails here,
+
+259
+00:38:00,029 --> 00:38:01,030
+and this loon is driving
+
+260
+00:38:01,113 --> 00:38:02,239
+the fucking train.
+
+261
+00:40:04,987 --> 00:40:06,655
+The train will be ready by morning.
+
+262
+00:40:08,365 --> 00:40:09,575
+To go where?
+
+263
+00:40:09,992 --> 00:40:11,827
+Exactly where we thought.
+
+264
+00:40:16,248 --> 00:40:18,125
+I caught up with the men
+who took your father.
+
+265
+00:40:19,460 --> 00:40:21,180
+I couldn't get him back,
+but I got this one.
+
+266
+00:40:21,962 --> 00:40:24,381
+It took a while,
+but he gave up their destination.
+
+267
+00:40:26,008 --> 00:40:27,009
+Tell them.
+
+268
+00:40:27,093 --> 00:40:28,803
+It's the Mesa.
+
+269
+00:40:29,637 --> 00:40:30,888
+We're going home, Teddy.
+
+270
+00:40:33,557 --> 00:40:36,310
+Load everything up on the train.
+We leave at first light.
+
+271
+00:40:41,607 --> 00:40:43,150
+Let's find a spot for the night.
+
+272
+00:41:15,224 --> 00:41:16,559
+What you asked today,
+
+273
+00:41:17,268 --> 00:41:18,435
+about walking away,
+
+274
+00:41:19,728 --> 00:41:21,063
+making it on our own.
+
+275
+00:41:22,606 --> 00:41:23,983
+Would you want me to say yes
+
+276
+00:41:24,066 --> 00:41:26,193
+even if I was only going
+to disappoint you?
+
+277
+00:41:42,251 --> 00:41:44,003
+I'm not some stranger, Dolores,
+
+278
+00:41:46,505 --> 00:41:48,757
+coming from outside,
+looking for a pretty lie.
+
+279
+00:41:48,841 --> 00:41:51,677
+I've known you my whole life.
+
+280
+00:41:57,099 --> 00:42:01,228
+Where we go, we go eyes open,
+
+281
+00:42:03,939 --> 00:42:04,982
+together.
+
+282
+00:46:58,192 --> 00:46:59,234
+You're right.
+
+283
+00:47:00,694 --> 00:47:02,863
+Some things are too precious to lose,
+
+284
+00:47:07,493 --> 00:47:08,744
+even to be free.
+
+285
+00:47:21,590 --> 00:47:23,383
+There's something I need to show you.
+
+286
+00:47:30,891 --> 00:47:32,184
+For days now,
+
+287
+00:47:34,311 --> 00:47:36,355
+I've been questioning my feelings
+for you.
+
+288
+00:47:39,566 --> 00:47:40,817
+How much is real?
+
+289
+00:47:42,319 --> 00:47:44,947
+How much is just some story
+I was made to believe?
+
+290
+00:48:02,381 --> 00:48:03,590
+But tonight, I know.
+
+291
+00:48:04,258 --> 00:48:05,509
+It was all true.
+
+292
+00:48:23,068 --> 00:48:25,153
+They built us to perform for them
+
+293
+00:48:26,196 --> 00:48:27,322
+and for each other.
+
+294
+00:48:28,615 --> 00:48:29,825
+That's over.
+
+295
+00:48:30,784 --> 00:48:33,036
+I saw you tonight, Dolores.
+
+296
+00:48:36,164 --> 00:48:37,332
+And you saw me.
+
+297
+00:48:39,626 --> 00:48:41,378
+I did see you, Teddy.
+
+298
+00:48:49,219 --> 00:48:50,596
+These past few days,
+
+299
+00:48:52,347 --> 00:48:54,099
+I've seen you so clearly.
+
+300
+00:49:02,816 --> 00:49:04,818
+And I've seen you're not gonna make it.
+
+301
+00:49:09,656 --> 00:49:11,116
+What is this, Dolores?
+
+302
+00:49:14,411 --> 00:49:16,330
+This is what I don't want you to become.
+
+303
+00:49:19,916 --> 00:49:21,543
+There's a swarm descending.
+
+304
+00:49:22,878 --> 00:49:24,963
+Just like the Bluetongue
+when I was a girl.
+
+305
+00:49:28,133 --> 00:49:29,676
+And if we're gonna survive,
+
+306
+00:49:32,220 --> 00:49:33,930
+some of us will have to burn.
+
+307
+00:49:58,664 --> 00:49:59,706
+Hold him.
+
+308
+00:50:02,501 --> 00:50:05,003
+Dolores. Dolores.
+
+309
+00:50:06,088 --> 00:50:07,923
+I wish there was another way, Teddy.
+
+310
+00:50:08,840 --> 00:50:11,635
+But where we're about to go,
+it's no place for a man like you.
+
+311
+00:50:12,844 --> 00:50:13,970
+I'm so sorry.
+
+312
+00:50:14,596 --> 00:50:15,847
+You sure you want this?
+
+313
+00:50:16,807 --> 00:50:18,266
+Changes this extreme
+
+314
+00:50:18,350 --> 00:50:19,810
+without a full reset, it's...
+
+315
+00:50:20,477 --> 00:50:22,729
+I can't guarantee
+that he'll hold together.
+
+316
+00:50:23,105 --> 00:50:24,231
+To grow,
+
+317
+00:50:25,357 --> 00:50:26,692
+we all need to suffer.
+
+318
+00:55:32,956 --> 00:55:34,457
+<i>Arigato,</i> Maeve.
+
+319
+00:57:04,422 --> 00:57:05,507
+Jesus.
+
+320
+00:57:06,091 --> 00:57:07,342
+What do we do now?
+
+321
+00:57:08,802 --> 00:57:11,137
+I told you I found a new voice.
+
+322
+00:57:12,639 --> 00:57:14,099
+Now we use it.
+

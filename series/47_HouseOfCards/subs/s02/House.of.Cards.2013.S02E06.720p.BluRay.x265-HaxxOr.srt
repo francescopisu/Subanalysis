@@ -1,0 +1,4329 @@
+﻿1
+00:00:10,500 --> 00:00:10,600
+SUB CREATED BY <font color="#ffff00">S<font color="#ff88000">A<font color="#de2504">L<font color="#ff8040">I<font color="#ff0080">L<font color="#004100">A</font>
+
+2
+00:00:10,600 --> 00:00:10,700
+SUB CREATED BY <font color="#004100">S<font color="#ffff00">A<font color="#ff88000">L<font color="#de2504">I<font color="#ff8040">L<font color="#ff0080">A</font>
+
+3
+00:00:10,700 --> 00:00:10,800
+SUB CREATED BY <font color="#ff0080">S<font color="#004100">A<font color="#ffff00">L<font color="#ff88000">I<font color="#de2504">L<font color="#ff8040">A</font>
+
+4
+00:00:10,800 --> 00:00:10,900
+SUB CREATED BY <font color="#ff8040">S<font color="#ff0080">A<font color="#004100">L<font color="#ffff00">I<font color="#ff88000">L<font color="#de2504">A</font>
+
+5
+00:00:10,900 --> 00:00:11,000
+SUB CREATED BY <font color="#de2504">S<font color="#ff8040">A<font color="#ff0080">L<font color="#004100">I<font color="#ffff00">L<font color="#ff88000">A</font>
+
+6
+00:00:11,000 --> 00:00:11,100
+SUB CREATED BY <font color="#ff88000">S<font color="#de2504">A<font color="#ff8040">L<font color="#ff0080">I<font color="#004100">L<font color="#ffff00">A</font>
+
+7
+00:00:11,100 --> 00:00:11,200
+SUB CREATED BY <font color="#ffff00">S<font color="#ff88000">A<font color="#de2504">L<font color="#ff8040">I<font color="#ff0080">L<font color="#004100">A</font>
+
+8
+00:00:11,200 --> 00:00:11,300
+SUB CREATED BY <font color="#004100">S<font color="#ffff00">A<font color="#ff88000">L<font color="#de2504">I<font color="#ff8040">L<font color="#ff0080">A</font>
+
+9
+00:00:11,300 --> 00:00:11,400
+SUB CREATED BY <font color="#ff0080">S<font color="#004100">A<font color="#ffff00">L<font color="#ff88000">I<font color="#de2504">L<font color="#ff8040">A</font>
+
+10
+00:00:11,400 --> 00:00:11,500
+SUB CREATED BY <font color="#ff8040">S<font color="#ff0080">A<font color="#004100">L<font color="#ffff00">I<font color="#ff88000">L<font color="#de2504">A</font>
+
+11
+00:00:11,500 --> 00:00:11,600
+SUB CREATED BY <font color="#de2504">S<font color="#ff8040">A<font color="#ff0080">L<font color="#004100">I<font color="#ffff00">L<font color="#ff88000">A</font>
+
+12
+00:00:11,600 --> 00:00:11,700
+SUB CREATED BY <font color="#ff88000">S<font color="#de2504">A<font color="#ff8040">L<font color="#ff0080">I<font color="#004100">L<font color="#ffff00">A</font>
+
+13
+00:00:11,700 --> 00:00:11,800
+SUB CREATED BY <font color="#ffff00">S<font color="#ff88000">A<font color="#de2504">L<font color="#ff8040">I<font color="#ff0080">L<font color="#004100">A</font>
+
+14
+00:00:11,800 --> 00:00:11,900
+SUB CREATED BY <font color="#004100">S<font color="#ffff00">A<font color="#ff88000">L<font color="#de2504">I<font color="#ff8040">L<font color="#ff0080">A</font>
+
+15
+00:00:11,900 --> 00:00:12,000
+SUB CREATED BY <font color="#ff0080">S<font color="#004100">A<font color="#ffff00">L<font color="#ff88000">I<font color="#de2504">L<font color="#ff8040">A</font>
+
+16
+00:00:12,000 --> 00:00:12,100
+SUB CREATED BY <font color="#ff8040">S<font color="#ff0080">A<font color="#004100">L<font color="#ffff00">I<font color="#ff88000">L<font color="#de2504">A</font>
+
+17
+00:00:12,100 --> 00:00:12,200
+SUB CREATED BY <font color="#de2504">S<font color="#ff8040">A<font color="#ff0080">L<font color="#004100">I<font color="#ffff00">L<font color="#ff88000">A</font>
+
+18
+00:00:12,200 --> 00:00:12,300
+SUB CREATED BY <font color="#ff88000">S<font color="#de2504">A<font color="#ff8040">L<font color="#ff0080">I<font color="#004100">L<font color="#ffff00">A</font>
+
+19
+00:00:12,300 --> 00:00:12,400
+SUB CREATED BY <font color="#ffff00">S<font color="#ff88000">A<font color="#de2504">L<font color="#ff8040">I<font color="#ff0080">L<font color="#004100">A</font>
+
+20
+00:00:12,400 --> 00:00:12,500
+SUB CREATED BY <font color="#004100">S<font color="#ffff00">A<font color="#ff88000">L<font color="#de2504">I<font color="#ff8040">L<font color="#ff0080">A</font>
+
+21
+00:00:12,500 --> 00:00:12,600
+SUB CREATED BY <font color="#ff0080">S<font color="#004100">A<font color="#ffff00">L<font color="#ff88000">I<font color="#de2504">L<font color="#ff8040">A</font>
+
+22
+00:00:12,600 --> 00:00:12,700
+SUB CREATED BY <font color="#ff8040">S<font color="#ff0080">A<font color="#004100">L<font color="#ffff00">I<font color="#ff88000">L<font color="#de2504">A</font>
+
+23
+00:00:12,700 --> 00:00:12,800
+SUB CREATED BY <font color="#de2504">S<font color="#ff8040">A<font color="#ff0080">L<font color="#004100">I<font color="#ffff00">L<font color="#ff88000">A</font>
+
+24
+00:00:12,800 --> 00:00:12,900
+SUB CREATED BY <font color="#ff88000">S<font color="#de2504">A<font color="#ff8040">L<font color="#ff0080">I<font color="#004100">L<font color="#ffff00">A</font>
+
+25
+00:00:12,900 --> 00:00:13,000
+SUB CREATED BY <font color="#ffff00">S<font color="#ff88000">A<font color="#de2504">L<font color="#ff8040">I<font color="#ff0080">L<font color="#004100">A</font>
+
+26
+00:00:13,000 --> 00:00:13,100
+SUB CREATED BY <font color="#004100">S<font color="#ffff00">A<font color="#ff88000">L<font color="#de2504">I<font color="#ff8040">L<font color="#ff0080">A</font>
+
+27
+00:00:13,100 --> 00:00:13,200
+SUB CREATED BY <font color="#ff0080">S<font color="#004100">A<font color="#ffff00">L<font color="#ff88000">I<font color="#de2504">L<font color="#ff8040">A</font>
+
+28
+00:00:13,200 --> 00:00:13,300
+SUB CREATED BY <font color="#ff8040">S<font color="#ff0080">A<font color="#004100">L<font color="#ffff00">I<font color="#ff88000">L<font color="#de2504">A</font>
+
+29
+00:00:13,300 --> 00:00:13,400
+SUB CREATED BY <font color="#de2504">S<font color="#ff8040">A<font color="#ff0080">L<font color="#004100">I<font color="#ffff00">L<font color="#ff88000">A</font>
+
+30
+00:00:13,400 --> 00:00:13,500
+SUB CREATED BY <font color="#ff88000">S<font color="#de2504">A<font color="#ff8040">L<font color="#ff0080">I<font color="#004100">L<font color="#ffff00">A</font>
+
+31
+00:00:13,500 --> 00:00:13,600
+SUB CREATED BY <font color="#ffff00">S<font color="#ff88000">A<font color="#de2504">L<font color="#ff8040">I<font color="#ff0080">L<font color="#004100">A</font>
+
+32
+00:00:13,600 --> 00:00:13,700
+SUB CREATED BY <font color="#004100">S<font color="#ffff00">A<font color="#ff88000">L<font color="#de2504">I<font color="#ff8040">L<font color="#ff0080">A</font>
+
+33
+00:00:13,700 --> 00:00:13,800
+SUB CREATED BY <font color="#ff0080">S<font color="#004100">A<font color="#ffff00">L<font color="#ff88000">I<font color="#de2504">L<font color="#ff8040">A</font>
+
+34
+00:00:13,800 --> 00:00:13,900
+SUB CREATED BY <font color="#ff8040">S<font color="#ff0080">A<font color="#004100">L<font color="#ffff00">I<font color="#ff88000">L<font color="#de2504">A</font>
+
+35
+00:00:13,900 --> 00:00:14,000
+SUB CREATED BY <font color="#de2504">S<font color="#ff8040">A<font color="#ff0080">L<font color="#004100">I<font color="#ffff00">L<font color="#ff88000">A</font>
+
+36
+00:00:14,000 --> 00:00:14,100
+SUB CREATED BY <font color="#ff88000">S<font color="#de2504">A<font color="#ff8040">L<font color="#ff0080">I<font color="#004100">L<font color="#ffff00">A</font>
+
+37
+00:00:14,100 --> 00:00:14,200
+SUB CREATED BY <font color="#ffff00">S<font color="#ff88000">A<font color="#de2504">L<font color="#ff8040">I<font color="#ff0080">L<font color="#004100">A</font>
+
+38
+00:00:14,200 --> 00:00:14,300
+SUB CREATED BY <font color="#004100">S<font color="#ffff00">A<font color="#ff88000">L<font color="#de2504">I<font color="#ff8040">L<font color="#ff0080">A</font>
+
+39
+00:00:14,300 --> 00:00:14,400
+SUB CREATED BY <font color="#ff0080">S<font color="#004100">A<font color="#ffff00">L<font color="#ff88000">I<font color="#de2504">L<font color="#ff8040">A</font>
+
+40
+00:00:14,400 --> 00:00:14,500
+SUB CREATED BY <font color="#ff8040">S<font color="#ff0080">A<font color="#004100">L<font color="#ffff00">I<font color="#ff88000">L<font color="#de2504">A</font>
+
+41
+00:00:14,500 --> 00:00:14,600
+SUB CREATED BY <font color="#de2504">S<font color="#ff8040">A<font color="#ff0080">L<font color="#004100">I<font color="#ffff00">L<font color="#ff88000">A</font>
+
+42
+00:00:14,600 --> 00:00:14,700
+SUB CREATED BY <font color="#ff88000">S<font color="#de2504">A<font color="#ff8040">L<font color="#ff0080">I<font color="#004100">L<font color="#ffff00">A</font>
+
+43
+00:00:14,700 --> 00:00:14,800
+SUB CREATED BY <font color="#ffff00">S<font color="#ff88000">A<font color="#de2504">L<font color="#ff8040">I<font color="#ff0080">L<font color="#004100">A</font>
+
+44
+00:00:14,800 --> 00:00:14,900
+SUB CREATED BY <font color="#004100">S<font color="#ffff00">A<font color="#ff88000">L<font color="#de2504">I<font color="#ff8040">L<font color="#ff0080">A</font>
+
+45
+00:00:14,900 --> 00:00:15,000
+SUB CREATED BY <font color="#ff0080">S<font color="#004100">A<font color="#ffff00">L<font color="#ff88000">I<font color="#de2504">L<font color="#ff8040">A</font>
+
+46
+00:00:15,000 --> 00:00:15,100
+SUB CREATED BY <font color="#ff8040">S<font color="#ff0080">A<font color="#004100">L<font color="#ffff00">I<font color="#ff88000">L<font color="#de2504">A</font>
+
+47
+00:00:15,100 --> 00:00:15,200
+SUB CREATED BY <font color="#de2504">S<font color="#ff8040">A<font color="#ff0080">L<font color="#004100">I<font color="#ffff00">L<font color="#ff88000">A</font>
+
+48
+00:00:15,200 --> 00:00:15,300
+SUB CREATED BY <font color="#ff88000">S<font color="#de2504">A<font color="#ff8040">L<font color="#ff0080">I<font color="#004100">L<font color="#ffff00">A</font>
+
+2
+00:01:22,683 --> 00:01:24,390
+<i>We've got an energy
+crisis, Frank.</i>
+
+3
+00:01:24,451 --> 00:01:25,555
+<i>Now, what the
+White House needs to...</i>
+
+4
+00:01:25,619 --> 00:01:27,963
+The President chose to
+remain tough on China.
+
+5
+00:01:28,055 --> 00:01:30,899
+<i>No. You forced him to.
+You chose Feng.</i>
+
+6
+00:01:30,958 --> 00:01:33,438
+<i>You're the one who put me
+in</i> a <i>room with him.</i>
+
+7
+00:01:33,527 --> 00:01:34,801
+<i>The cook cam blame
+his ingredients</i>
+
+8
+00:01:34,895 --> 00:01:36,568
+<i>if he doesn't like
+how they taste together.</i>
+
+9
+00:01:36,630 --> 00:01:38,769
+If samarium prices
+don't reduce,
+
+10
+00:01:38,865 --> 00:01:41,744
+the market will have
+no choice but to compensate.
+
+11
+00:01:42,402 --> 00:01:46,407
+That's bad for everyone
+who owns an air conditioner.
+
+12
+00:01:46,473 --> 00:01:48,214
+You should speak to
+the President himself.
+
+13
+00:01:50,043 --> 00:01:51,579
+Well, the President
+hasn't placed
+
+14
+00:01:51,645 --> 00:01:54,057
+much value on
+my advice lately.
+
+15
+00:01:54,114 --> 00:01:55,559
+I'm in the same boat
+as you, Raymond.
+
+16
+00:01:55,616 --> 00:01:57,960
+<i>Yeah, difference being
+you've got an office</i>
+
+17
+00:01:58,051 --> 00:02:00,122
+three doors down
+from the Oval.
+
+18
+00:02:01,088 --> 00:02:03,591
+Let's work together
+for Christ's sakes.
+
+19
+00:02:04,224 --> 00:02:06,898
+I'm willing to put Spotsylvania
+behind us if you are.
+
+20
+00:02:06,960 --> 00:02:09,839
+I want nothing more.
+Then you'll talk to him?
+
+21
+00:02:09,930 --> 00:02:11,409
+Look, I'm late for
+a meeting, Raymond.
+
+22
+00:02:11,431 --> 00:02:13,934
+Yes or no, Frank? I can't
+guarantee he'll listen.
+
+23
+00:02:14,601 --> 00:02:17,013
+That's not a yes.
+But it's better <i>than</i> a no.
+
+24
+00:02:17,904 --> 00:02:20,612
+Any pugilist worth his salt knows
+when someone's on the ropes,
+
+25
+00:02:20,674 --> 00:02:23,120
+that's when you throw
+a combination to the gut
+
+26
+00:02:23,176 --> 00:02:24,917
+and a left hook to the jaw.
+
+27
+00:04:02,008 --> 00:04:04,579
+Samarium is the last thing
+they'll let go of.
+
+28
+00:04:04,678 --> 00:04:08,592
+As long as our energy prices
+rise, they have the leverage.
+
+29
+00:04:08,682 --> 00:04:11,561
+Why don't we offer nothing?
+Move toward attrition.
+
+30
+00:04:11,618 --> 00:04:13,598
+If China doesn't show
+at the refunding auction,
+
+31
+00:04:13,687 --> 00:04:15,098
+long-term interest
+rates will spike.
+
+32
+00:04:15,188 --> 00:04:17,600
+In a week, yields on
+our 10-year notes
+
+33
+00:04:17,691 --> 00:04:21,104
+will pierce the 7% threshold.
+Thai could happen.
+
+34
+00:04:21,194 --> 00:04:23,936
+But if we go soft now,
+that will happen.
+
+35
+00:04:24,030 --> 00:04:25,100
+ You mean
+go on the offensive.
+
+36
+00:04:25,198 --> 00:04:26,370
+ We should
+at least consider it.
+
+37
+00:04:26,433 --> 00:04:27,468
+The Chinese
+don't like carrots.
+
+38
+00:04:27,567 --> 00:04:29,274
+Let's see how
+they like the stick.
+
+39
+00:04:29,369 --> 00:04:30,404
+Well, what might
+that look like?
+
+40
+00:04:30,704 --> 00:04:32,877
+We could raise inspection
+rates on foodstuffs.
+
+41
+00:04:32,939 --> 00:04:34,043
+Hold them in our
+ports till they rot.
+
+42
+00:04:34,441 --> 00:04:37,217
+ How much of a raise?
+ 20% if we want to draw blood.
+
+43
+00:04:37,277 --> 00:04:39,780
+Bury the move with increased
+spot checks all the way around.
+
+44
+00:04:39,880 --> 00:04:42,292
+These sort of tactics don't
+solve the immediate problem.
+
+45
+00:04:42,382 --> 00:04:44,988
+People are paying triple the
+standard rate for electric.
+
+46
+00:04:45,085 --> 00:04:46,928
+We'll hit a five-fold
+increase by August.
+
+47
+00:04:46,987 --> 00:04:49,297
+What if you, Mr. President,
+by executive order,
+
+48
+00:04:49,389 --> 00:04:51,801
+purchase samarium
+through a third party?
+
+49
+00:04:51,892 --> 00:04:53,166
+Cut the Chinese out.
+
+50
+00:04:53,260 --> 00:04:55,433
+Force them to either raise
+their prices worldwide
+
+51
+00:04:55,495 --> 00:04:57,236
+or lower them to keep
+direct flow with us.
+
+52
+00:04:57,731 --> 00:05:01,406
+We stockpile samarium for
+defense purposes, of course,
+
+53
+00:05:01,468 --> 00:05:02,845
+and quietly sell
+what we don't need
+
+54
+00:05:02,936 --> 00:05:04,244
+to our friends
+in nuclear energy.
+
+55
+00:05:04,504 --> 00:05:05,608
+At a discount.
+
+56
+00:05:05,672 --> 00:05:07,515
+COMMERCE SECRETARY:
+A subsidy for nuclear power?
+
+57
+00:05:07,607 --> 00:05:09,814
+The richest of the rich?
+How's that gonna play?
+
+58
+00:05:09,910 --> 00:05:11,150
+ We're dealing
+with a national crisis.
+
+59
+00:05:11,244 --> 00:05:13,918
+We can't get sidetracked
+with public opinion.
+
+60
+00:05:13,980 --> 00:05:16,586
+ It would show China
+we're willing to wait this out.
+
+61
+00:05:16,650 --> 00:05:17,856
+Do we have the resources?
+
+62
+00:05:17,951 --> 00:05:20,693
+I'd have to run the numbers,
+anticipate fluctuations,
+
+63
+00:05:20,787 --> 00:05:23,165
+consider different models...
+Your best guess.
+
+64
+00:05:23,857 --> 00:05:26,269
+We do.
+For a moderate stockpile.
+
+65
+00:05:30,630 --> 00:05:32,473
+All right, draw up a request
+from the Defense Department.
+
+66
+00:05:32,532 --> 00:05:33,533
+Yes, sir.
+
+67
+00:05:33,633 --> 00:05:35,112
+Linda, draft the
+executive order.
+
+68
+00:05:35,168 --> 00:05:36,977
+And Cathy, make sure
+we have a third-party conduit
+
+69
+00:05:37,103 --> 00:05:39,549
+to purchase the samarium.
+ We'll go through India.
+
+70
+00:05:39,840 --> 00:05:41,342
+That won't fly well
+with Pakistan.
+
+71
+00:05:41,775 --> 00:05:43,550
+ I'll alert
+them in advance.
+
+72
+00:05:43,643 --> 00:05:45,520
+As long as they're in the
+loop, we'll be all right.
+
+73
+00:05:45,612 --> 00:05:47,023
+Not that we owe
+them any favors.
+
+74
+00:05:47,614 --> 00:05:49,787
+All right.
+Let's get to work.
+
+75
+00:05:51,051 --> 00:05:53,998
+<i>Come on, Betsy. Three
+additional counts under Section E?</i>
+
+76
+00:05:54,054 --> 00:05:56,125
+Three is low. It reflects
+a narrow interpretation
+
+77
+00:05:56,189 --> 00:05:57,532
+of criminal intent.
+
+78
+00:05:57,624 --> 00:05:58,864
+Your client broke
+into a data center.
+
+79
+00:05:58,959 --> 00:06:00,870
+What's the offer?
+I'm not doing a plea.
+
+80
+00:06:00,961 --> 00:06:02,804
+Let me handle this.
+They don't want a trial.
+
+81
+00:06:03,496 --> 00:06:05,407
+The questions I'll be raising
+loud and clear in open court...
+
+82
+00:06:05,498 --> 00:06:06,499
+Lucas, please.
+
+83
+00:06:06,566 --> 00:06:07,544
+We have our own
+questions, Mr. Goodwin.
+
+84
+00:06:07,634 --> 00:06:09,671
+For example, what were
+you doing with these?
+
+85
+00:06:11,371 --> 00:06:13,476
+I didn't take these.
+They were in your apartment.
+
+86
+00:06:13,540 --> 00:06:14,541
+ Underwood took them.
+
+87
+00:06:14,641 --> 00:06:16,314
+Do you really expect
+a jury to believe that?
+
+88
+00:06:16,376 --> 00:06:17,411
+He did. They were
+having an affair...
+
+89
+00:06:17,510 --> 00:06:19,148
+Or are they gonna see
+them for what they are?
+
+90
+00:06:19,512 --> 00:06:21,082
+Proof of your obsession
+with Ms. Barnes
+
+91
+00:06:21,181 --> 00:06:22,524
+and a ludicrous conspiracy
+
+92
+00:06:22,582 --> 00:06:24,425
+you have concocted
+to explain her death.
+
+93
+00:06:24,517 --> 00:06:26,155
+Tell us what
+you're offering.
+
+94
+00:06:26,219 --> 00:06:27,994
+Your client pleads to
+one count under Section E
+
+95
+00:06:28,054 --> 00:06:30,227
+for breaking into a data
+center, one count for fraud,
+
+96
+00:06:30,323 --> 00:06:31,597
+for stealing the password
+from The Herald.
+
+97
+00:06:31,691 --> 00:06:33,693
+Ten years under Section E.
+Ten years for fraud.
+
+98
+00:06:33,760 --> 00:06:36,832
+Served concurrently. Eligible
+for parole in seven.
+
+99
+00:06:39,432 --> 00:06:41,708
+I'd like to speak
+to my client alone.
+
+100
+00:06:42,335 --> 00:06:44,508
+Cameras and recording
+equipment off, please.
+
+101
+00:06:46,339 --> 00:06:47,340
+
+102
+00:06:47,440 --> 00:06:50,046
+I'll introduce the President.
+Then he'll introduce you.
+
+103
+00:06:50,110 --> 00:06:52,249
+If he's there, we can't
+mention the military.
+
+104
+00:06:52,345 --> 00:06:54,222
+Just the endemic
+problem nationwide.
+
+105
+00:06:54,281 --> 00:06:56,261
+Of course. I understand.
+Good.
+
+106
+00:06:56,750 --> 00:06:58,024
+So we should go
+through these speeches
+
+107
+00:06:58,084 --> 00:07:00,086
+and make sure that there's nothing...
+
+108
+00:07:00,453 --> 00:07:01,898
+Oh. Hi, Mrs. Underwood.
+
+109
+00:07:02,789 --> 00:07:03,859
+Hello, Christina.
+
+110
+00:07:04,291 --> 00:07:05,429
+Mrs. Walker,
+you asked for me?
+
+111
+00:07:05,525 --> 00:07:07,027
+We need to confirm
+whether the President's
+
+112
+00:07:07,093 --> 00:07:08,299
+going to make it
+to New Orleans.
+
+113
+00:07:08,395 --> 00:07:10,033
+This Friday, correct?
+Yes.
+
+114
+00:07:10,096 --> 00:07:12,269
+But I know he had a cabinet meeting
+this morning, so I imagine...
+
+115
+00:07:12,365 --> 00:07:14,038
+I'll talk to Linda
+right away.
+
+116
+00:07:14,234 --> 00:07:15,542
+Thanks.
+
+117
+00:07:16,703 --> 00:07:19,547
+I know you want Garrett there,
+but with this energy crisis...
+
+118
+00:07:19,606 --> 00:07:22,416
+No. It's not that.
+What?
+
+119
+00:07:24,311 --> 00:07:26,814
+I shouldn't say anything. Well,
+now you have to tell me.
+
+120
+00:07:29,416 --> 00:07:33,125
+I've just never been very
+fond of her, Christina.
+
+121
+00:07:33,954 --> 00:07:36,230
+Why not?
+Peter Russo.
+
+122
+00:07:36,723 --> 00:07:39,966
+I just have a thing about women
+who sleep with their bosses.
+
+123
+00:07:40,760 --> 00:07:44,071
+Anyway, I'm sure whatever
+they had was genuine.
+
+124
+00:07:44,130 --> 00:07:46,132
+It's none of my business, 'cause
+if she's doing a good job,
+
+125
+00:07:46,232 --> 00:07:47,734
+that's all that
+matters, right?
+
+126
+00:07:47,801 --> 00:07:49,303
+Garrett seems
+to think she is.
+
+127
+00:07:49,669 --> 00:07:51,910
+Then I should just keep
+my feelings to myself.
+
+128
+00:07:53,907 --> 00:07:55,818
+So if the President
+is not able to be there,
+
+129
+00:07:55,909 --> 00:07:57,513
+that could be a
+silver lining for us.
+
+130
+00:07:57,610 --> 00:07:59,783
+We won't have to hold
+back with the military.
+
+131
+00:08:00,747 --> 00:08:03,626
+ Phone taps,
+video surveillance,
+
+132
+00:08:03,683 --> 00:08:07,495
+premeditation, sustained intent.
+They've got you cold.
+
+133
+00:08:07,587 --> 00:08:09,498
+If I plead out, that's it.
+No one hears the truth.
+
+134
+00:08:09,589 --> 00:08:12,001
+If you don't plead, no one
+will hear you, period.
+
+135
+00:08:12,092 --> 00:08:13,503
+Not until you're
+in your 70s.
+
+136
+00:08:13,593 --> 00:08:15,038
+Have you talked
+to Hammerschmidt yet?
+
+137
+00:08:15,128 --> 00:08:16,505
+You're in no position
+to make demands.
+
+138
+00:08:16,596 --> 00:08:17,973
+It's not up to you.
+
+139
+00:08:18,031 --> 00:08:20,170
+All you'll do is
+piss them off.
+
+140
+00:08:24,204 --> 00:08:25,547
+Look, we've got
+a good deal here.
+
+141
+00:08:25,638 --> 00:08:28,050
+A great deal, considering
+what you did.
+
+142
+00:08:28,541 --> 00:08:30,680
+You should take it before
+they change their mind.
+
+143
+00:08:30,777 --> 00:08:34,816
+Tom Hammerschmidt. I talk to
+him, or we're going to trial.
+
+144
+00:08:35,682 --> 00:08:37,127
+<i>Raise</i>
+your arms, please.
+
+145
+00:08:37,650 --> 00:08:39,357
+
+146
+00:08:44,124 --> 00:08:45,660
+You have
+something here?
+
+147
+00:08:45,959 --> 00:08:47,199
+My neck chain.
+
+148
+00:08:47,293 --> 00:08:49,034
+May I see it?
+Really?
+
+149
+00:08:49,129 --> 00:08:50,836
+I gotta take
+off my tie.
+
+150
+00:08:50,897 --> 00:08:52,501
+I need to see it, sir.
+
+151
+00:08:58,638 --> 00:09:01,517
+You're a good
+Christian, Remy.
+
+152
+00:09:01,574 --> 00:09:03,679
+My mother's. She was
+the good Christian.
+
+153
+00:09:03,743 --> 00:09:05,745
+Well, then you're
+just the good son.
+
+154
+00:09:05,845 --> 00:09:06,880
+Thank you, sir.
+
+155
+00:09:06,980 --> 00:09:08,186
+ Hot out there, huh?
+
+156
+00:09:08,481 --> 00:09:10,188
+Ninety six,
+according to my car.
+
+157
+00:09:10,250 --> 00:09:11,888
+We had heat like that
+back in Gaffney,
+
+158
+00:09:11,985 --> 00:09:13,987
+but we didn't know
+what air conditioning was,
+
+159
+00:09:14,054 --> 00:09:15,692
+so we just
+accepted <i>as</i> fact
+
+160
+00:09:15,755 --> 00:09:17,757
+that summer was meant
+to be miserable.
+
+161
+00:09:17,857 --> 00:09:19,200
+Neat or with water?
+
+162
+00:09:19,259 --> 00:09:21,432
+Just the water.
+You can hold the bourbon.
+
+163
+00:09:22,195 --> 00:09:23,230
+We need to
+find a solution
+
+164
+00:09:23,329 --> 00:09:26,071
+so that this one isn't miserable
+for 300 million people.
+
+165
+00:09:26,166 --> 00:09:27,543
+I already have
+found a solution.
+
+166
+00:09:27,600 --> 00:09:29,671
+Please, Frank.
+A samarium subsidy?
+
+167
+00:09:29,736 --> 00:09:31,409
+Is that your skepticism
+or Raymond's?
+
+168
+00:09:31,504 --> 00:09:33,347
+Mine, anticipating his.
+
+169
+00:09:33,406 --> 00:09:35,750
+So you haven't
+spoken to him yet.
+
+170
+00:09:36,943 --> 00:09:39,719
+I want to offer him
+something he can agree to.
+
+171
+00:09:39,846 --> 00:09:42,918
+Well, he doesn't have much of a choice.
+Why are you cornering him?
+
+172
+00:09:43,016 --> 00:09:45,428
+I'm cutting the rate by half.
+I'd call that liberating him.
+
+173
+00:09:45,518 --> 00:09:46,622
+You know that's not
+how he'll see it.
+
+174
+00:09:46,719 --> 00:09:48,596
+This trade war is
+preventing the refinery
+
+175
+00:09:48,688 --> 00:09:49,792
+from being approved
+in Beijing.
+
+176
+00:09:49,889 --> 00:09:53,234
+His co-venture with Feng is not
+our highest priority right now.
+
+177
+00:09:53,293 --> 00:09:55,569
+A rare earth refinery solves
+this crisis permanently.
+
+178
+00:09:55,628 --> 00:09:57,403
+Three years from now.
+Not this summer.
+
+179
+00:09:57,464 --> 00:09:59,774
+It's not just that. With the
+subsidy, he'll break even at best.
+
+180
+00:09:59,866 --> 00:10:00,936
+There's no point
+in doing business
+
+181
+00:10:01,034 --> 00:10:02,206
+to hover between
+red and black.
+
+182
+00:10:02,268 --> 00:10:05,477
+Raymond's profits are an even lower
+priority to me than his co-venture.
+
+183
+00:10:09,375 --> 00:10:11,218
+Tell me what
+you're up to, Frank.
+
+184
+00:10:12,078 --> 00:10:14,149
+There's nothing to gain
+by locking horns with Tusk.
+
+185
+00:10:14,247 --> 00:10:17,091
+Ask your client. Ifs Tusk
+who's locking the horns.
+
+186
+00:10:17,150 --> 00:10:18,629
+He's not a man
+who likes conflict.
+
+187
+00:10:19,552 --> 00:10:21,327
+Neither am I.
+
+188
+00:10:24,157 --> 00:10:26,967
+Then make the ask. 'Cause I know
+you don't care about the subsidy.
+
+189
+00:10:27,060 --> 00:10:28,801
+This is about
+something bigger.
+
+190
+00:10:28,895 --> 00:10:31,239
+I'm a good Christian,
+Remy, like your mother.
+
+191
+00:10:31,297 --> 00:10:33,573
+I would tell you the
+truth if I wanted more.
+
+192
+00:10:33,633 --> 00:10:34,771
+You trying to
+send a message?
+
+193
+00:10:35,335 --> 00:10:37,144
+Perhaps.
+Which is?
+
+194
+00:10:37,237 --> 00:10:39,945
+That stubbornness is far
+more costly than obedience.
+
+195
+00:10:41,574 --> 00:10:43,178
+Thanks for the water.
+
+196
+00:10:45,912 --> 00:10:47,482
+You're on the
+wrong side, Remy.
+
+197
+00:10:47,580 --> 00:10:49,924
+Yeah, well,
+one of us sure is.
+
+198
+00:10:50,283 --> 00:10:52,160
+"And when the
+bumblebee flew home,
+
+199
+00:10:52,252 --> 00:10:55,529
+"all his friends were waiting
+with buckets of honey." Right?
+
+200
+00:10:55,622 --> 00:10:58,933
+And he's got his worm friend,
+and his mouse friend,
+
+201
+00:10:58,992 --> 00:11:02,337
+and his spider friend,
+and his snail friend.
+
+202
+00:11:02,428 --> 00:11:03,964
+And they all had
+tons of honey.
+
+203
+00:11:04,364 --> 00:11:06,173
+And he looks
+happier now, right?
+
+204
+00:11:06,266 --> 00:11:07,301
+Yeah!
+Yeah?
+
+205
+00:11:07,367 --> 00:11:12,146
+"And so, they all
+buzzed with happiness.
+
+206
+00:11:12,205 --> 00:11:16,381
+"Because life is sweet when you
+spend it with your friends.“
+
+207
+00:11:17,343 --> 00:11:20,347
+Right? Can you all buzz your wings?
+Buzz your little wings.
+
+208
+00:11:20,446 --> 00:11:21,789
+
+209
+00:11:22,615 --> 00:11:24,856
+I think it would make
+a fluttering noise, like...
+
+210
+00:11:24,951 --> 00:11:27,022
+Like...
+I don't know.
+
+211
+00:11:27,120 --> 00:11:28,565
+Your flutters?
+
+212
+00:11:31,558 --> 00:11:32,866
+
+213
+00:11:39,666 --> 00:11:41,839
+It's too hot out here for you
+to be doing this, Francis.
+
+214
+00:11:41,901 --> 00:11:43,244
+I'm keeping hydrated.
+
+215
+00:11:46,306 --> 00:11:49,150
+Is that even regulation?
+It's only half.
+
+216
+00:11:50,176 --> 00:11:53,487
+But I don't want the press to see
+me practicing on the street.
+
+217
+00:11:55,648 --> 00:11:59,027
+You remember when you threw out
+that first pitch in Greenville?
+
+218
+00:11:59,085 --> 00:12:01,691
+I was wondering how long it was
+gonna take you to bring that up.
+
+219
+00:12:01,754 --> 00:12:04,098
+That wasn't even on
+national television.
+
+220
+00:12:05,225 --> 00:12:07,398
+Good luck.
+Thank you.
+
+221
+00:12:10,230 --> 00:12:11,436
+What happened
+in Greenville?
+
+222
+00:12:11,531 --> 00:12:16,742
+The Greenville Drive, Single-A
+team for the Red Sax.
+
+223
+00:12:16,836 --> 00:12:18,907
+It was a home game.
+
+224
+00:12:19,005 --> 00:12:21,417
+I get on the mound...
+You threw from the mound?
+
+225
+00:12:21,507 --> 00:12:22,781
+Well, I wanted to
+throw a real pitch.
+
+226
+00:12:24,210 --> 00:12:26,781
+Didn't make it?
+Not even close.
+
+227
+00:12:27,680 --> 00:12:29,284
+Halfway?
+
+228
+00:12:31,851 --> 00:12:34,195
+Ball slipped out of my hand
+just before I released it.
+
+229
+00:12:34,254 --> 00:12:36,200
+Went straight up in the air.
+Hit me on top of the head.
+
+230
+00:12:36,256 --> 00:12:38,736
+The whole stadium
+burst a gut laughing.
+
+231
+00:12:40,426 --> 00:12:41,530
+Comic relief pitcher.
+
+232
+00:12:42,028 --> 00:12:44,030
+That's very clever,
+Meechum.
+
+233
+00:12:47,867 --> 00:12:49,471
+Don't tell Claire.
+
+234
+00:12:49,569 --> 00:12:51,412
+I heard that.
+
+235
+00:12:52,472 --> 00:12:55,476
+You're really good with them.
+
+236
+00:12:55,575 --> 00:12:57,953
+Did you see Robbie when
+they were finger-painting?
+
+237
+00:12:58,044 --> 00:13:00,456
+He pulled down his pants and
+started painting himself blue.
+
+238
+00:13:00,546 --> 00:13:02,617
+No.
+Yeah. Hope I got it all off.
+
+239
+00:13:02,715 --> 00:13:04,285
+I'm sure Alex
+and Daria don't care.
+
+240
+00:13:04,384 --> 00:13:06,330
+They let him run around
+naked all the time.
+
+241
+00:13:06,419 --> 00:13:09,229
+Yeah, but probably
+not with a Smurf ass.
+
+242
+00:13:09,289 --> 00:13:10,791
+
+243
+00:13:11,124 --> 00:13:12,728
+What do we want to do
+for dinner tonight?
+
+244
+00:13:12,792 --> 00:13:15,500
+I've got some leftover chicken,
+or we could order pizza.
+
+245
+00:13:15,595 --> 00:13:17,734
+Pizza. No dishes.
+Yeah.
+
+246
+00:13:17,797 --> 00:13:19,276
+
+247
+00:13:23,670 --> 00:13:24,910
+I'm really sorry.
+
+248
+00:13:24,971 --> 00:13:27,747
+I totally forgot I've got a
+friend picking me up tonight.
+
+249
+00:13:27,807 --> 00:13:29,582
+I completely blanked.
+That's fine.
+
+250
+00:13:29,642 --> 00:13:30,950
+I'm really sorry.
+
+251
+00:13:31,010 --> 00:13:35,152
+Don't sweat it.
+Is it your boyfriend?
+
+252
+00:13:35,248 --> 00:13:38,252
+No, no.
+Just an old friend.
+
+253
+00:13:39,152 --> 00:13:40,460
+Can I meet him?
+
+254
+00:13:40,520 --> 00:13:44,434
+Um, he's kind of shy. I don't
+know if he'd be up for...
+
+255
+00:13:44,490 --> 00:13:46,094
+Totally cool.
+Don't worry about it.
+
+256
+00:13:46,159 --> 00:13:48,105
+We'll just do dinner
+another night.
+
+257
+00:13:50,997 --> 00:13:53,773
+I'll see you tomorrow. Yeah.
+You know where I'll be.
+
+258
+00:14:01,941 --> 00:14:04,285
+ How long?
+Couple of months.
+
+259
+00:14:05,545 --> 00:14:08,355
+Why didn't you tell me?
+I can't go to church?
+
+260
+00:14:08,448 --> 00:14:11,292
+Anywhere you interact with other
+people opens us up to risk.
+
+261
+00:14:11,351 --> 00:14:13,353
+I'm just supposed to slave away
+at the fucking call center
+
+262
+00:14:13,453 --> 00:14:14,796
+and then lock myself
+in the apartment.
+
+263
+00:14:14,854 --> 00:14:16,800
+Don't get dramatic.
+I like the fellowship.
+
+264
+00:14:18,024 --> 00:14:20,368
+Okay? There there's nothing
+to worry about there.
+
+265
+00:14:20,460 --> 00:14:24,033
+All it takes is one person's
+cousin to visit from Lynchburg.
+
+266
+00:14:24,130 --> 00:14:25,370
+Someone you went
+to school with
+
+267
+00:14:25,465 --> 00:14:27,240
+or some client that you
+spent the night with.
+
+268
+00:14:27,367 --> 00:14:29,347
+Those guys would never end up here.
+You don't know that.
+
+269
+00:14:29,402 --> 00:14:30,676
+Yeah. I do.
+
+270
+00:14:30,737 --> 00:14:32,717
+You ended up here,
+didn't you?
+
+271
+00:14:36,709 --> 00:14:39,155
+I can't live like this.
+What?
+
+272
+00:14:39,212 --> 00:14:41,852
+I can't live like this.
+Yes, you can.
+
+273
+00:14:42,482 --> 00:14:44,325
+You're a strong girl.
+
+274
+00:14:51,758 --> 00:14:54,034
+<i>That's it?
+That's everything?</i>
+
+275
+00:14:54,360 --> 00:14:56,067
+I know. You've
+heard it before.
+
+276
+00:14:56,162 --> 00:14:59,234
+<i>As a friend, Lucas.
+Not as a reporter.</i>
+
+277
+00:15:04,337 --> 00:15:08,877
+<i>Now I dig. I make the phone calls.
+I do the legwork.</i>
+
+278
+00:15:11,611 --> 00:15:15,115
+<i>They treating you okay?
+It's fine.</i>
+
+279
+00:15:15,214 --> 00:15:16,784
+<i>That's not what I asked.</i>
+
+280
+00:15:17,683 --> 00:15:19,788
+They're pushing the
+plea deal pretty hard.
+
+281
+00:15:19,886 --> 00:15:21,229
+<i>How seriously are
+you considering it?</i>
+
+282
+00:15:21,387 --> 00:15:24,266
+I want to see how this
+article impacts things.
+
+283
+00:15:24,357 --> 00:15:26,030
+What does your
+lawyer say?
+
+284
+00:15:26,092 --> 00:15:29,073
+He thinks that's a bad idea.
+That I should take the plea.
+
+285
+00:15:30,029 --> 00:15:33,238
+<i>Maybe you should listen to him.
+No. I want the article.</i>
+
+286
+00:15:33,533 --> 00:15:35,376
+That I'm certain of.
+
+287
+00:15:35,435 --> 00:15:38,712
+All right. I better
+get to it then.
+
+288
+00:15:39,806 --> 00:15:41,308
+<i>Thank you.</i>
+
+289
+00:15:42,375 --> 00:15:43,752
+You need to know,
+
+290
+00:15:43,810 --> 00:15:45,756
+I'm gonna treat this the way
+I would any other story.
+
+291
+00:15:46,379 --> 00:15:49,622
+Whatever the facts bear. You
+might not like what I write.
+
+292
+00:15:49,715 --> 00:15:51,058
+<i>I get that.</i>
+
+293
+00:15:51,117 --> 00:15:53,620
+I'll let you read it first.
+Then you can decide.
+
+294
+00:15:53,719 --> 00:15:54,789
+<i>That's ail I'm asking.</i>
+
+295
+00:15:55,788 --> 00:15:57,290
+<i>Hang in there.</i>
+
+296
+00:16:00,626 --> 00:16:02,765
+
+297
+00:16:10,303 --> 00:16:13,409
+Can you wipe
+this off'? Please?
+
+298
+00:16:15,074 --> 00:16:16,610
+And the other nuclear
+providers are on board?
+
+299
+00:16:16,676 --> 00:16:18,656
+Most. Except
+Raymond Tusk's company.
+
+300
+00:16:18,744 --> 00:16:21,156
+Couple of others. Lakeport
+Nuclear, Wolf Springs.
+
+301
+00:16:21,247 --> 00:16:23,318
+Now, I can't prove it,
+
+302
+00:16:23,416 --> 00:16:26,158
+but I am absolutely
+sure they're colluding.
+
+303
+00:16:27,153 --> 00:16:29,258
+Raymond wants
+to embarrass me.
+
+304
+00:16:29,322 --> 00:16:32,428
+I offer a solution. Nuclear
+lobby turns its back.
+
+305
+00:16:32,492 --> 00:16:34,529
+He has the right
+to refuse, Mr. President.
+
+306
+00:16:34,627 --> 00:16:38,302
+What he cannot do is
+manipulate the energy market.
+
+307
+00:16:39,265 --> 00:16:41,142
+You want to put pressure
+on the distribution side.
+
+308
+00:16:41,200 --> 00:16:44,113
+More than pressure. Ban
+vertical integration entirely.
+
+309
+00:16:44,170 --> 00:16:45,945
+We don't have that
+regulatory power.
+
+310
+00:16:46,005 --> 00:16:48,679
+We add an antitrust agreement
+to the Emergency Energy Bill.
+
+311
+00:16:48,774 --> 00:16:52,517
+We break up the regional supply
+and distribution monopolies,
+
+312
+00:16:52,612 --> 00:16:54,057
+like the Bell System.
+
+313
+00:16:54,146 --> 00:16:56,023
+It'll be challenged
+immediately in the courts.
+
+314
+00:16:56,115 --> 00:16:57,992
+We don't need it to pass.
+
+315
+00:16:58,050 --> 00:17:01,793
+We just need to threaten him.
+See if he falls into line.
+
+316
+00:17:05,892 --> 00:17:08,702
+Is there a way to do that without
+it making its way into the news?
+
+317
+00:17:08,794 --> 00:17:12,901
+I don't want the world's wealthiest
+one percent on my phone sheet.
+
+318
+00:17:12,999 --> 00:17:16,037
+There is absolutely
+a way to do that, sir.
+
+319
+00:17:17,470 --> 00:17:19,313
+
+320
+00:17:23,643 --> 00:17:25,213
+Here you go.
+
+321
+00:17:25,912 --> 00:17:27,550
+Crowded for
+a Tuesday night.
+
+322
+00:17:27,647 --> 00:17:31,151
+We keep it at 65 degrees,
+and it's free.
+
+323
+00:17:31,217 --> 00:17:33,720
+If you call 18 bucks
+for a vodka soda free.
+
+324
+00:17:33,819 --> 00:17:35,730
+Still cheaper
+than a Pepco bill.
+
+325
+00:17:35,821 --> 00:17:38,665
+Depends on how many you have?
+You trying to get us drunk?
+
+326
+00:17:38,724 --> 00:17:40,567
+Drunker you are,
+bigger your tip.
+
+327
+00:17:41,360 --> 00:17:44,102
+I don't have to be drunk
+to appreciate good service.
+
+328
+00:17:44,664 --> 00:17:46,007
+I'll get your change.
+
+329
+00:17:46,065 --> 00:17:49,239
+No, you won't.
+Thank you.
+
+330
+00:17:50,269 --> 00:17:54,217
+You're shameless.
+Makes me a good lobbyist.
+
+331
+00:17:55,274 --> 00:17:56,514
+Cheers.
+
+332
+00:18:00,546 --> 00:18:04,722
+So, Jackie, bold move,
+but it won't work.
+
+333
+00:18:04,784 --> 00:18:07,025
+You know we can pass this
+amendment in a heartbeat.
+
+334
+00:18:07,086 --> 00:18:08,394
+Maybe, but no one'll comply.
+
+335
+00:18:08,454 --> 00:18:10,434
+It'll get overturned.
+Big fuss for nothing.
+
+336
+00:18:10,523 --> 00:18:13,470
+It might get overturned,
+but it gets ink along the way.
+
+337
+00:18:13,559 --> 00:18:14,970
+One thing I learned
+about Raymond Tusk
+
+338
+00:18:15,061 --> 00:18:17,063
+is he doesn't give two bird
+shits about public opinion.
+
+339
+00:18:17,129 --> 00:18:18,472
+His stockholders do.
+
+340
+00:18:18,965 --> 00:18:20,103
+They'd jump in
+a pit of snakes
+
+341
+00:18:20,199 --> 00:18:22,042
+and light themselves on
+fire if he gave the word.
+
+342
+00:18:22,101 --> 00:18:25,048
+All I'm asking is that you
+convey our intentions.
+
+343
+00:18:25,738 --> 00:18:28,218
+Why me? Frank could
+easily pick up the phone.
+
+344
+00:18:28,274 --> 00:18:30,117
+You still call
+him Frank?
+
+345
+00:18:30,209 --> 00:18:33,952
+Not to his face, which I
+try to keep to a minimum.
+
+346
+00:18:34,046 --> 00:18:35,753
+Don't you appreciate having
+an ear in the White House?
+
+347
+00:18:35,815 --> 00:18:38,659
+I would if I had an ear. But
+lately, all I've got is a mouth.
+
+348
+00:18:40,553 --> 00:18:43,159
+Yeah. He's not the
+best listener, is he?
+
+349
+00:18:43,255 --> 00:18:46,668
+Try working for him.
+You were on his staff?
+
+350
+00:18:46,759 --> 00:18:49,831
+Eight years, press secretary.
+Before you joined Congress.
+
+351
+00:18:51,497 --> 00:18:52,669
+That explains a lot.
+
+352
+00:18:52,932 --> 00:18:54,138
+Like what?
+
+353
+00:18:56,636 --> 00:18:57,944
+Like a lot.
+
+354
+00:18:58,070 --> 00:19:00,482
+I'll take that as an insult.
+You should.
+
+355
+00:19:03,309 --> 00:19:04,344
+That's it?
+You're abandoning me?
+
+356
+00:19:04,443 --> 00:19:05,786
+No, I'm buying
+the next round.
+
+357
+00:19:06,412 --> 00:19:10,189
+I can't accept gifts from
+lobbyists without reciprocating.
+
+358
+00:19:10,282 --> 00:19:12,023
+Plus, I'm a good wingman.
+
+359
+00:19:12,118 --> 00:19:14,655
+This gets you more face
+time with the barmaid.
+
+360
+00:19:32,204 --> 00:19:34,184
+You already got 'em ready?
+
+361
+00:19:34,273 --> 00:19:37,516
+Your guys gave me the
+heads-up you were coming.
+
+362
+00:19:37,610 --> 00:19:40,181
+Well, I hope that they didn't
+wake you earlier than usual.
+
+363
+00:19:40,279 --> 00:19:43,726
+Fuck, man. With this heat,
+I ain't sleeping much anyway.
+
+364
+00:19:44,784 --> 00:19:47,321
+What? No AC at home?
+Oh, I got a unit.
+
+365
+00:19:48,621 --> 00:19:50,066
+I just don't wanna
+pay the damn bill.
+
+366
+00:19:51,057 --> 00:19:53,196
+It's not too bad in here,
+all things considered.
+
+367
+00:19:53,292 --> 00:19:55,363
+That's 'cause
+we in the shade.
+
+368
+00:19:55,461 --> 00:19:58,567
+When you get outside a couple
+hours from now on that pavement,
+
+369
+00:19:58,664 --> 00:20:00,974
+fry your damn dick off
+from three feet below.
+
+370
+00:20:01,033 --> 00:20:03,309
+Must be bad
+over that grill.
+
+371
+00:20:03,369 --> 00:20:05,645
+I can't tell the
+difference no more.
+
+372
+00:20:06,372 --> 00:20:08,409
+I tell you what, though,
+
+373
+00:20:08,507 --> 00:20:12,512
+stuff goes down around here
+when the mercury pop 100.
+
+374
+00:20:13,312 --> 00:20:14,916
+Man who beat
+his wife at home
+
+375
+00:20:15,014 --> 00:20:17,494
+will beat her right
+out on the street.
+
+376
+00:20:17,583 --> 00:20:19,995
+Brings out the animal in us.
+It ain't no joke.
+
+377
+00:20:21,320 --> 00:20:22,697
+What used to wake me up?
+
+378
+00:20:23,322 --> 00:20:24,528
+Gunshots.
+
+379
+00:20:24,590 --> 00:20:25,830
+Now you know what does?
+
+380
+00:20:26,759 --> 00:20:28,102
+People fucking.
+
+381
+00:20:29,495 --> 00:20:32,339
+Meaning and screaming like
+goddamn cats in the alley.
+
+382
+00:20:33,365 --> 00:20:34,742
+You know what they say,
+
+383
+00:20:34,834 --> 00:20:38,407
+"When you get hot and sweaty,
+it make you ripe and ready.“
+
+384
+00:20:43,676 --> 00:20:46,350
+Hey- H”
+
+385
+00:20:48,047 --> 00:20:49,458
+I drank too much.
+
+386
+00:20:51,350 --> 00:20:52,795
+We both did.
+
+387
+00:20:55,855 --> 00:20:58,961
+Last night didn't happen.
+I know.
+
+388
+00:20:59,959 --> 00:21:02,269
+When I walk out that door,
+it's business as usual.
+
+389
+00:21:02,361 --> 00:21:03,567
+No special treatment.
+
+390
+00:21:03,629 --> 00:21:06,633
+Don't worry. You won't
+need a restraining order.
+
+391
+00:21:11,036 --> 00:21:13,414
+I'm surprised you didn't
+go for the waitress.
+
+392
+00:21:13,472 --> 00:21:15,884
+You're much sexier.
+Yeah, okay.
+
+393
+00:21:16,609 --> 00:21:18,782
+She works for tips.
+You run Congress.
+
+394
+00:21:18,911 --> 00:21:22,256
+Only half of it. That's
+half more than she does.
+
+395
+00:21:22,314 --> 00:21:24,225
+So it's not my body.
+
+396
+00:21:24,950 --> 00:21:28,124
+Those legs don't hurt.
+You're so full of shit.
+
+397
+00:21:31,056 --> 00:21:34,230
+Okay. It's your voice.
+
+398
+00:21:35,427 --> 00:21:36,428
+My voice?
+
+399
+00:21:36,729 --> 00:21:37,833
+Hmm.
+
+400
+00:21:38,931 --> 00:21:40,274
+It does something to me.
+
+401
+00:21:43,803 --> 00:21:45,146
+Let me know what
+Tusk has to say.
+
+402
+00:21:48,941 --> 00:21:51,148
+Business hasn't started. You
+haven't walked out that door yet.
+
+403
+00:21:52,444 --> 00:21:53,582
+Watch me.
+
+404
+00:21:55,948 --> 00:21:57,325
+
+405
+00:21:58,751 --> 00:22:00,094
+
+406
+00:22:08,027 --> 00:22:09,665
+
+407
+00:22:22,775 --> 00:22:24,345
+Thank you, Jackie.
+
+408
+00:22:28,380 --> 00:22:29,723
+We're going to
+the White House.
+
+409
+00:22:30,482 --> 00:22:32,393
+Littlejohn on the move.
+
+410
+00:22:34,553 --> 00:22:36,863
+We raise the bet.
+We get FERC involved.
+
+411
+00:22:36,956 --> 00:22:37,900
+An investigation?
+
+412
+00:22:37,990 --> 00:22:40,197
+We don't need Congress to activate
+the Regulatory Commission.
+
+413
+00:22:40,292 --> 00:22:42,363
+But a price-fixing review?
+That would take months.
+
+414
+00:22:42,461 --> 00:22:44,532
+Again, it's the threat,
+not the actuality.
+
+415
+00:22:44,630 --> 00:22:46,200
+He'll employ the same logic.
+Draw it out.
+
+416
+00:22:46,298 --> 00:22:47,402
+Fight back with appeals.
+
+417
+00:22:47,499 --> 00:22:50,480
+But he'll have to divulge his
+accounting if FERC takes action.
+
+418
+00:22:50,536 --> 00:22:53,210
+Now, no businessman
+wants to open up his books,
+
+419
+00:22:53,305 --> 00:22:55,410
+especially one
+with $43 billion.
+
+420
+00:22:55,507 --> 00:22:57,487
+This is getting
+out of hand, Frank.
+
+421
+00:22:57,543 --> 00:22:59,580
+We shouldn't be duking
+it out with Raymond.
+
+422
+00:22:59,712 --> 00:23:02,056
+Maybe we should talk to him.
+That's exactly what he wants,
+
+423
+00:23:02,147 --> 00:23:04,889
+to force himself
+back into the mix.
+
+424
+00:23:04,984 --> 00:23:06,759
+What's to be gained
+by shutting him out?
+
+425
+00:23:06,852 --> 00:23:08,024
+The simple lesson
+
+426
+00:23:08,087 --> 00:23:11,933
+that you cannot strong-arm the
+President of the United States.
+
+427
+00:23:13,826 --> 00:23:15,737
+We can't devolve
+to a pissing contest
+
+428
+00:23:16,195 --> 00:23:18,334
+I'm gonna call Raymond.
+Invite him to Washington.
+
+429
+00:23:18,397 --> 00:23:20,240
+He won't accept anything
+but total surrender.
+
+430
+00:23:20,366 --> 00:23:23,939
+I'm making the call. Don't put
+yourself in that position.
+
+431
+00:23:24,870 --> 00:23:27,282
+I know how to maintain
+the integrity of my office.
+
+432
+00:23:28,007 --> 00:23:29,577
+Thank you. Thank
+you, Mr. President.
+
+433
+00:23:31,944 --> 00:23:33,184
+Two minutes with
+the President,
+
+434
+00:23:33,245 --> 00:23:35,247
+and Tusk may be back
+in his good graces.
+
+435
+00:23:35,347 --> 00:23:38,191
+I need to disrupt the nuptials
+and prevent a second marriage.
+
+436
+00:23:52,865 --> 00:23:54,037
+
+437
+00:23:56,201 --> 00:23:57,202
+Christina?
+
+438
+00:23:57,636 --> 00:24:00,242
+Good to see you.
+Oh, please.
+
+439
+00:24:00,940 --> 00:24:02,283
+You look great.
+
+440
+00:24:02,908 --> 00:24:03,978
+Thank you.
+
+441
+00:24:04,076 --> 00:24:05,555
+How are things?
+
+442
+00:24:05,611 --> 00:24:06,954
+Great.
+
+443
+00:24:07,046 --> 00:24:08,457
+Linda works me to the bone,
+
+444
+00:24:08,547 --> 00:24:10,322
+but that's what
+I signed up for.
+
+445
+00:24:10,416 --> 00:24:12,726
+Well, from what I've heard,
+you're doing a great job.
+
+446
+00:24:12,785 --> 00:24:14,890
+That's really
+nice to hear.
+
+447
+00:24:14,954 --> 00:24:17,730
+Look, I wanted to talk
+to you about Tricia.
+
+448
+00:24:17,790 --> 00:24:18,996
+I'm sure you've noticed
+
+449
+00:24:19,091 --> 00:24:22,595
+that she's still sort of
+adjusting to her role.
+
+450
+00:24:22,661 --> 00:24:25,107
+You mean her confidence?
+
+451
+00:24:26,332 --> 00:24:28,334
+I think it would be great
+if you reached out to her.
+
+452
+00:24:29,401 --> 00:24:32,746
+Just let her know that you're there
+if there's anything she needs.
+
+453
+00:24:32,805 --> 00:24:33,977
+I don't really
+know her that well.
+
+454
+00:24:34,073 --> 00:24:35,416
+I mean, we've met,
+but I...
+
+455
+00:24:35,474 --> 00:24:37,954
+That's okay.
+Maybe just tell her
+
+456
+00:24:38,010 --> 00:24:39,512
+that you enjoy working
+for the President,
+
+457
+00:24:39,611 --> 00:24:43,525
+and you're there to be of help
+to her in any way you can.
+
+458
+00:24:44,817 --> 00:24:46,660
+You don't think that's a
+little, I don't know, brash?
+
+459
+00:24:46,752 --> 00:24:47,958
+How?
+
+460
+00:24:48,020 --> 00:24:50,159
+For me to just approach
+her like that?
+
+461
+00:24:50,255 --> 00:24:51,962
+No. Not at all.
+
+462
+00:25:40,873 --> 00:25:42,375
+<i>You've reached
+the Skorsky residence.</i>
+
+463
+00:25:42,474 --> 00:25:43,919
+<i>Leave a message
+after the beep.</i>
+
+464
+00:25:44,309 --> 00:25:45,879
+Tom Hammerschmidt again.
+
+465
+00:25:46,745 --> 00:25:50,750
+Still trying to reach Janine.
+Still important. Thank you.
+
+466
+00:25:56,188 --> 00:25:58,327
+ <i>Hammerschmidt's been calling
+our press office all day.</i>
+
+467
+00:25:58,524 --> 00:26:00,765
+I don't want a story to come
+out any more than you do.
+
+468
+00:26:00,859 --> 00:26:02,770
+We lose a major
+asset if it does.
+
+469
+00:26:02,861 --> 00:26:04,340
+Can you squash it
+for security reasons?
+
+470
+00:26:04,396 --> 00:26:06,501
+Not once it's been
+shared with the press.
+
+471
+00:26:06,565 --> 00:26:10,172
+First Amendment crap. Ward isn't
+making things any easier.
+
+472
+00:26:11,070 --> 00:26:12,708
+She wants a notch
+in her belt.
+
+473
+00:26:12,771 --> 00:26:14,512
+We're giving her one.
+
+474
+00:26:15,240 --> 00:26:18,016
+Not Goodwin.
+She wants Orsay.
+
+475
+00:26:18,077 --> 00:26:20,057
+Most Wanted list
+for six years.
+
+476
+00:26:22,514 --> 00:26:24,516
+I'll handle Hammerschmidt.
+
+477
+00:26:24,583 --> 00:26:26,961
+You need to make sure
+Goodwin takes the plea.
+
+478
+00:26:27,052 --> 00:26:29,555
+If 35 with no parole doesn't
+scare the piss out of him,
+
+479
+00:26:29,621 --> 00:26:30,895
+I don't know what will.
+
+480
+00:26:30,956 --> 00:26:32,697
+Then don't try
+to scare him.
+
+481
+00:26:33,926 --> 00:26:35,963
+Remove hope from
+the equation.
+
+482
+00:26:39,398 --> 00:26:41,036
+<i>I tried to
+keep this contained.</i>
+
+483
+00:26:42,701 --> 00:26:44,874
+I didn't anticipate
+Hammerschmidt.
+
+484
+00:26:47,306 --> 00:26:49,912
+ Is Ms. Skorsky
+cooperating with him?
+
+485
+00:26:49,975 --> 00:26:51,579
+He's called her.
+
+486
+00:26:52,377 --> 00:26:54,789
+My guy at the Bureau said
+they haven't actually spoken.
+
+487
+00:26:54,880 --> 00:26:56,416
+At least not
+on the phone.
+
+488
+00:26:57,950 --> 00:27:00,089
+If this goes to court...
+That won't happen, sir.
+
+489
+00:27:00,152 --> 00:27:01,631
+It will if he publishes.
+
+490
+00:27:02,221 --> 00:27:05,259
+I'm bringing this to you because
+I can't control Hammerschmidt.
+
+491
+00:27:05,891 --> 00:27:07,461
+I don't know
+what to do.
+
+492
+00:27:12,331 --> 00:27:14,072
+We need to invite
+a full-frontal attack.
+
+493
+00:27:14,800 --> 00:27:18,145
+Then hold the line.
+You want to speak to him?
+
+494
+00:27:19,004 --> 00:27:20,915
+Face to face.
+Just the two of us.
+
+495
+00:27:22,274 --> 00:27:23,776
+I don't think that's
+a good idea, sir.
+
+496
+00:27:23,842 --> 00:27:25,082
+You have a better idea?
+
+497
+00:27:27,246 --> 00:27:28,350
+No, sir.
+
+498
+00:27:28,447 --> 00:27:31,360
+We can't avoid the battle, but
+we can choose the battlefield.
+
+499
+00:27:31,450 --> 00:27:32,986
+Set up a meeting
+at the White House.
+
+500
+00:27:33,085 --> 00:27:34,962
+We'll intimidate him
+with formality.
+
+501
+00:27:35,020 --> 00:27:36,328
+Yes, sir.
+
+502
+00:27:39,258 --> 00:27:40,794
+Mr. Vice President?
+
+503
+00:27:41,627 --> 00:27:44,471
+I know you don't have
+patience for apologies,
+
+504
+00:27:44,530 --> 00:27:46,009
+but I'm sorry if I've let
+you down in any way.
+
+505
+00:27:46,098 --> 00:27:48,009
+Let's concentrate on
+what's in front of us.
+
+506
+00:27:48,700 --> 00:27:50,179
+I'll let you know when
+I have a time set up.
+
+507
+00:27:50,269 --> 00:27:52,146
+Soon <i>as</i> possible.
+Yes, sir.
+
+508
+00:28:09,955 --> 00:28:12,799
+So this is a sort of outline
+to the larger piece?
+
+509
+00:28:12,858 --> 00:28:14,963
+With questions
+on the next page.
+
+510
+00:28:28,073 --> 00:28:31,077
+We're off the record.
+Yes. Off the record.
+
+511
+00:28:31,510 --> 00:28:33,751
+Now, Tom, I know that you
+care about this young man,
+
+512
+00:28:33,845 --> 00:28:36,849
+and I respect you as a journalist.
+But these questions?
+
+513
+00:28:36,915 --> 00:28:38,155
+Why don't you
+just ask me
+
+514
+00:28:38,217 --> 00:28:40,823
+when I stopped
+strangling people's pets?
+
+515
+00:28:40,886 --> 00:28:42,263
+Sir, the death
+of Congressman Russo...
+
+516
+00:28:42,354 --> 00:28:45,164
+You mean, my friend,
+Peter Russo,
+
+517
+00:28:45,691 --> 00:28:48,501
+whose suicide left two small
+children with no father.
+
+518
+00:28:48,894 --> 00:28:51,500
+No, I will not answer questions about that.
+
+519
+00:28:52,931 --> 00:28:55,411
+Yes? I'm aware of that.
+
+520
+00:28:55,500 --> 00:28:57,275
+No, tell her I'll
+call her right back.
+
+521
+00:28:58,036 --> 00:28:59,174
+Two minutes.
+
+522
+00:28:59,538 --> 00:29:00,915
+Secretary Durant.
+
+523
+00:29:01,006 --> 00:29:03,282
+I can wait outside...
+No, let's finish.
+
+524
+00:29:04,009 --> 00:29:07,889
+Now, if you decide
+to print any of this,
+
+525
+00:29:07,946 --> 00:29:10,119
+assuming you find an
+outlet that's willing to,
+
+526
+00:29:10,215 --> 00:29:13,424
+then, yes, it might cause
+me a headache for a day.
+
+527
+00:29:13,518 --> 00:29:14,758
+But I will not engage.
+
+528
+00:29:15,120 --> 00:29:16,428
+And I think it
+will only prove
+
+529
+00:29:16,521 --> 00:29:18,899
+to highlight how ridiculous
+Mr. Goodwin's claims are.
+
+530
+00:29:18,957 --> 00:29:22,200
+I pity him. I truly do.
+I think he needs help.
+
+531
+00:29:22,261 --> 00:29:24,639
+I've interviewed many mentally ill people.
+He's not one of them.
+
+532
+00:29:25,464 --> 00:29:27,944
+Well, I would suggest that you
+read your own article again.
+
+533
+00:29:28,033 --> 00:29:30,138
+He's distressed.
+There's a difference.
+
+534
+00:29:30,235 --> 00:29:31,270
+Look, I understand.
+
+535
+00:29:31,370 --> 00:29:33,611
+It must be a terrible blow
+to see him in prison.
+
+536
+00:29:33,705 --> 00:29:35,946
+But, Tom...
+Rachel Posner exists.
+
+537
+00:29:36,742 --> 00:29:37,948
+I haven't been
+able to find her,
+
+538
+00:29:38,043 --> 00:29:39,989
+but I've proven
+she's not a fantasy.
+
+539
+00:29:40,078 --> 00:29:42,422
+The same goes for Roy Kapeniak.
+These people were born.
+
+540
+00:29:42,481 --> 00:29:44,791
+They have Social Security
+numbers, past addresses...
+
+541
+00:29:44,883 --> 00:29:46,885
+And so does everyone
+from California to Maine.
+
+542
+00:29:46,952 --> 00:29:48,454
+Have I conspired
+with all of them?
+
+543
+00:29:48,553 --> 00:29:52,000
+You have to admit there are some
+troubling details regarding the DUI.
+
+544
+00:29:52,758 --> 00:29:55,136
+You know, people say the
+same thing about Area 51.
+
+545
+00:29:55,227 --> 00:29:58,071
+You can conjure up little gray
+men if you really want to.
+
+546
+00:29:58,130 --> 00:30:00,007
+Did you kill
+Peter Russo?
+
+547
+00:30:01,233 --> 00:30:03,179
+Tom, you 're
+embarrassing yourself.
+
+548
+00:30:04,002 --> 00:30:05,811
+Did you kill
+Zoe Barnes?
+
+549
+00:30:05,904 --> 00:30:07,975
+I've given you more time
+than this nonsense deserves.
+
+550
+00:30:08,073 --> 00:30:09,416
+I have to ask
+these questions.
+
+551
+00:30:09,474 --> 00:30:10,612
+Well, the only
+question I would ask
+
+552
+00:30:10,676 --> 00:30:13,247
+is does this sort of article
+hurt or help Mr. Goodwin?
+
+553
+00:30:13,312 --> 00:30:15,815
+You have to do what
+you think is right.
+
+554
+00:30:15,914 --> 00:30:16,949
+But I hope you
+can understand
+
+555
+00:30:17,015 --> 00:30:19,689
+if I don't demean myself by
+taking any of it seriously.
+
+556
+00:30:19,785 --> 00:30:22,129
+I appreciate your time,
+Mr. Vice President.
+
+557
+00:30:38,170 --> 00:30:39,171
+How did it go?
+
+558
+00:30:39,971 --> 00:30:42,178
+I did my part. Now
+put it to bed, Doug.
+
+559
+00:30:42,274 --> 00:30:44,515
+I won't submit myself to
+this sort of exposure again.
+
+560
+00:30:44,609 --> 00:30:45,644
+Yes, sir.
+
+561
+00:30:45,711 --> 00:30:47,281
+Has Tusk met with
+the President yet?
+
+562
+00:30:47,346 --> 00:30:48,825
+Linda said they're
+meeting at 4:30.
+
+563
+00:30:48,880 --> 00:30:52,157
+Call Remy. Make sure he doesn't get
+on his plane before I see him.
+
+564
+00:30:52,217 --> 00:30:53,628
+I'm on it.
+
+565
+00:30:56,221 --> 00:30:57,666
+
+566
+00:31:08,133 --> 00:31:09,544
+Oh, Mrs. Walker?
+
+567
+00:31:10,669 --> 00:31:12,546
+I just wanted to say
+how rewarding it's been,
+
+568
+00:31:12,637 --> 00:31:13,741
+working here
+in the West Wing.
+
+569
+00:31:13,839 --> 00:31:16,479
+And I'm so proud to be
+working for your husband.
+
+570
+00:31:17,309 --> 00:31:18,879
+Thank you.
+
+571
+00:31:18,977 --> 00:31:21,719
+I know he appreciates
+all your hard work.
+
+572
+00:31:21,813 --> 00:31:23,690
+Well, now that I'm working
+so closely with him,
+
+573
+00:31:24,049 --> 00:31:25,892
+if there's anything
+I can do for you,
+
+574
+00:31:25,984 --> 00:31:29,158
+anything that would make
+yours or his life easier...
+
+575
+00:31:30,922 --> 00:31:32,492
+Just keep doing
+what you're doing.
+
+576
+00:31:32,891 --> 00:31:34,097
+Truly, anything.
+
+577
+00:31:34,993 --> 00:31:38,406
+I want you to know you can
+rely on me, both of you.
+
+578
+00:31:39,498 --> 00:31:42,707
+I know that.
+Thank you, Christina.
+
+579
+00:31:42,768 --> 00:31:44,338
+Thanks, Mrs. Walker.
+
+580
+00:31:52,511 --> 00:31:55,515
+Here. Let me.
+It's just my hands.
+
+581
+00:31:55,580 --> 00:31:57,218
+Are they bothering you?
+Yeah.
+
+582
+00:31:57,282 --> 00:31:58,625
+Probably gonna
+get rain tonight.
+
+583
+00:31:58,717 --> 00:31:59,923
+
+584
+00:32:00,018 --> 00:32:01,053
+I'll get it.
+
+585
+00:32:01,119 --> 00:32:03,759
+Um, no. Just keep
+the broth moving.
+
+586
+00:32:09,027 --> 00:32:12,440
+Agent Green, FBI. Do you
+have a moment, Ms. Skorsky?
+
+587
+00:32:12,531 --> 00:32:14,477
+Yeah. I...
+May we come in?
+
+588
+00:32:14,566 --> 00:32:17,308
+I just need to
+turn the stove off.
+
+589
+00:32:19,538 --> 00:32:20,642
+Stay in here, Mom.
+
+590
+00:32:20,739 --> 00:32:23,049
+Who is it?
+Just stay in here.
+
+591
+00:32:27,045 --> 00:32:28,217
+Only that once?
+
+592
+00:32:28,280 --> 00:32:31,159
+And I haven't seen him since
+or returned his calls.
+
+593
+00:32:31,249 --> 00:32:33,627
+How many times has he
+tried to call you?
+
+594
+00:32:33,718 --> 00:32:36,494
+I don't know. Eight
+or nine times, maybe.
+
+595
+00:32:37,055 --> 00:32:39,126
+And then he stopped
+after a while.
+
+596
+00:32:39,224 --> 00:32:43,138
+Did he mention anything about
+HEROnymous Bot or Gavin Orsay?
+
+597
+00:32:43,228 --> 00:32:45,435
+You know, I think I
+should talk to a lawyer.
+
+598
+00:32:45,497 --> 00:32:47,773
+Right now, you're not suspected
+of being an accomplice.
+
+599
+00:32:47,833 --> 00:32:50,404
+If you call a lawyer,
+we might have to reconsider.
+
+600
+00:32:54,172 --> 00:32:57,517
+He mentioned some hacker.
+HEROnymous.
+
+601
+00:32:57,609 --> 00:32:59,953
+I told him I thought it was
+a bad idea to contact him.
+
+602
+00:33:00,445 --> 00:33:03,654
+Are you aware of what
+he's claiming? No.
+
+603
+00:33:03,748 --> 00:33:05,455
+That you and he were
+working together.
+
+604
+00:33:06,117 --> 00:33:08,097
+That you believe in
+this conspiracy theory.
+
+605
+00:33:08,153 --> 00:33:11,794
+That it was you who received
+explicit photos of Ms. Barnes.
+
+606
+00:33:12,924 --> 00:33:14,631
+Is any of that true?
+
+607
+00:33:20,765 --> 00:33:22,506
+We need you to come
+back to D.C. with us
+
+608
+00:33:22,601 --> 00:33:25,878
+and sign this statement in the
+presence of the US Attorney.
+
+609
+00:33:28,773 --> 00:33:30,878
+You want me to call him a liar.
+Isn't he?
+
+610
+00:33:31,343 --> 00:33:32,651
+I can't do that to him.
+
+611
+00:33:32,711 --> 00:33:35,453
+We also need you to speak
+with Tom Hammerschmidt.
+
+612
+00:33:35,514 --> 00:33:37,994
+You know what? Please, can
+you just keep me out of this?
+
+613
+00:33:38,049 --> 00:33:39,995
+I had nothing to do with
+the hacker or the...
+
+614
+00:33:40,051 --> 00:33:41,496
+Ms. Skorsky, we want
+to believe you,
+
+615
+00:33:41,553 --> 00:33:44,363
+and we will if you put
+all of it in writing.
+
+616
+00:33:44,456 --> 00:33:49,030
+He's not a criminal. You're
+going after the wrong person.
+
+617
+00:33:49,127 --> 00:33:51,129
+And if you think that
+you can intimidate me,
+
+618
+00:33:51,196 --> 00:33:53,233
+harass me like this
+in my own home,
+
+619
+00:33:53,331 --> 00:33:55,038
+I will file
+a formal complaint
+
+620
+00:33:55,133 --> 00:33:57,340
+You're starting to sound
+an awful lot like him.
+
+621
+00:33:59,638 --> 00:34:03,484
+You can't arrest me.
+I haven't done anything.
+
+622
+00:34:04,242 --> 00:34:05,653
+I'd like you to leave.
+
+623
+00:34:05,977 --> 00:34:07,047
+I have a right
+to legal counsel,
+
+624
+00:34:07,145 --> 00:34:08,556
+and you haven't
+presented a warrant.
+
+625
+00:34:08,647 --> 00:34:10,718
+We can arrest you,
+Ms. Skorsky,
+
+626
+00:34:10,815 --> 00:34:13,318
+for abetting an act
+of cyber terrorism.
+
+627
+00:34:14,853 --> 00:34:16,389
+Who's going to take
+care of your mother
+
+628
+00:34:16,488 --> 00:34:19,833
+while you're spending the next
+three years in courtrooms?
+
+629
+00:34:20,592 --> 00:34:21,593
+Would you please raise your arms?
+
+630
+00:34:23,728 --> 00:34:25,503
+No, Meechum.
+Sir...
+
+631
+00:34:25,564 --> 00:34:28,044
+Meechum. I know you don't
+want to shake my hand,
+
+632
+00:34:28,099 --> 00:34:30,170
+so we'll just
+skip that part.
+
+633
+00:34:32,003 --> 00:34:34,244
+The President didn't
+mention anything about ii.
+
+634
+00:34:34,339 --> 00:34:37,752
+Why would he? Better to
+catch you off-guard.
+
+635
+00:34:37,842 --> 00:34:39,515
+Then why would you?
+
+636
+00:34:39,578 --> 00:34:42,388
+So we can avoid
+unnecessary conflict.
+
+637
+00:34:43,214 --> 00:34:45,057
+Garrett's not
+a good liar.
+
+638
+00:34:45,684 --> 00:34:47,095
+The gift of
+a good liar
+
+639
+00:34:47,185 --> 00:34:50,530
+is making people think
+you lack a talent for lying.
+
+640
+00:34:50,589 --> 00:34:52,398
+I know him far
+better than you,
+
+641
+00:34:52,457 --> 00:34:55,370
+and so I know what
+talents he has and lacks.
+
+642
+00:34:55,427 --> 00:34:58,271
+But let's assume
+he did lie.
+
+643
+00:34:59,030 --> 00:35:02,273
+I'm not intimidated
+by a FERC investigation.
+
+644
+00:35:03,134 --> 00:35:04,875
+You'd have grid overload
+and brownouts
+
+645
+00:35:04,936 --> 00:35:06,244
+before you could
+even get a hearing.
+
+646
+00:35:06,304 --> 00:35:08,978
+You are deliberately keeping
+electric prices at inflated rates,
+
+647
+00:35:09,074 --> 00:35:11,054
+which is illegal.
+No.
+
+648
+00:35:11,810 --> 00:35:14,154
+I'm responding
+to free market.
+
+649
+00:35:14,245 --> 00:35:16,122
+A regulated free market.
+
+650
+00:35:17,215 --> 00:35:18,922
+Why are you
+doing this, Frank?
+
+651
+00:35:20,051 --> 00:35:22,292
+Remy asked me
+the same thing.
+
+652
+00:35:22,787 --> 00:35:24,789
+You're making
+this about me.
+
+653
+00:35:24,889 --> 00:35:26,232
+This isn't personal,
+Raymond.
+
+654
+00:35:26,591 --> 00:35:29,128
+The integrity of our energy
+markets is my only concern.
+
+655
+00:35:29,227 --> 00:35:30,638
+Of course it's personal.
+
+656
+00:35:30,929 --> 00:35:35,139
+I asked you personally to convince
+Garrett to pull back from China.
+
+657
+00:35:35,233 --> 00:35:37,304
+You personally
+chose not to.
+
+658
+00:35:37,402 --> 00:35:39,643
+You personally
+sabotaged the summit.
+
+659
+00:35:39,771 --> 00:35:42,308
+And you advised the Cabinet...
+I've never once in my career...
+
+660
+00:35:42,407 --> 00:35:43,681
+...to push me up
+against the wall...
+
+661
+00:35:43,775 --> 00:35:44,947
+...allowed personal
+feelings to...
+
+662
+00:35:45,010 --> 00:35:48,958
+Do not try and spin me, Frank.
+lam too old to tango.
+
+663
+00:35:49,247 --> 00:35:50,419
+Then I'll be blunt.
+
+664
+00:35:50,482 --> 00:35:52,587
+Accept the subsidies
+or deal with FERC.
+
+665
+00:35:52,651 --> 00:35:54,028
+There is no third way here.
+
+666
+00:35:55,754 --> 00:35:58,030
+Are you intentionally trying
+to destroy the President?
+
+667
+00:35:59,424 --> 00:36:02,428
+I'm trying to protect
+the President from you.
+
+668
+00:36:05,263 --> 00:36:07,539
+This is about the Secretary of
+State nomination, isn't it?
+
+669
+00:36:07,632 --> 00:36:08,940
+I'm the Vice President
+now, Raymond.
+
+670
+00:36:09,000 --> 00:36:11,002
+I don't cry over what
+happened in kindergarten.
+
+671
+00:36:11,102 --> 00:36:13,343
+You're Vice President
+because I vouched for you.
+
+672
+00:36:13,438 --> 00:36:17,147
+Because you had no other options.
+Political necessity.
+
+673
+00:36:20,111 --> 00:36:22,182
+You have 24 hours
+to decide.
+
+674
+00:36:22,280 --> 00:36:24,123
+I'll show myself out.
+
+675
+00:36:29,220 --> 00:36:30,858
+Hello.
+
+676
+00:36:30,955 --> 00:36:33,526
+Raymond, this is Claire.
+
+677
+00:36:35,326 --> 00:36:37,704
+Mrs. Underwood,
+it is an honor.
+
+678
+00:36:37,796 --> 00:36:43,508
+Jean, my wife, has been very
+taken with your recent efforts.
+
+679
+00:36:43,568 --> 00:36:44,876
+Well, I'd like to
+meet her one day.
+
+680
+00:36:44,969 --> 00:36:46,846
+She would very much
+like that, I'm sure.
+
+681
+00:36:47,305 --> 00:36:49,512
+And what about you?
+
+682
+00:36:49,574 --> 00:36:50,814
+I'm sorry?
+
+683
+00:36:50,875 --> 00:36:53,481
+What are your thoughts
+about our recent efforts?
+
+684
+00:36:53,545 --> 00:36:59,154
+I am in favor of anything that
+prevents unnecessary violence.
+
+685
+00:36:59,718 --> 00:37:01,755
+It was nice to meet you,
+Mrs. Underwood.
+
+686
+00:37:01,853 --> 00:37:05,926
+And good luck with that first pitch
+tonight, Mr. Vice President.
+
+687
+00:37:06,991 --> 00:37:09,164
+Make it to the plate
+this time.
+
+688
+00:37:09,994 --> 00:37:11,268
+Ma'am.
+
+689
+00:37:12,897 --> 00:37:16,037
+
+690
+00:37:31,950 --> 00:37:33,623
+This Kevlar is cooking me.
+
+691
+00:37:33,718 --> 00:37:34,856
+We have to use it, sir.
+
+692
+00:37:34,919 --> 00:37:36,398
+Well, l didn't
+practice with it,
+
+693
+00:37:36,454 --> 00:37:38,434
+and now I can
+hardly rotate my arm.
+
+694
+00:37:38,523 --> 00:37:39,866
+I should have mentioned it.
+I apologize.
+
+695
+00:37:39,924 --> 00:37:42,097
+If this ball doesn't make it
+over the plate, it's your ass.
+
+696
+00:37:43,394 --> 00:37:46,034
+And what are you doing here?
+Don't you have things to do?
+
+697
+00:37:46,097 --> 00:37:47,872
+Never been to
+Camden Yards.
+
+698
+00:38:02,313 --> 00:38:05,556
+<i>Ladies and gentlemen, hereto throw
+out the first pitch tonight,</i>
+
+699
+00:38:05,950 --> 00:38:07,588
+<i>we are honored to introduce</i>
+
+700
+00:38:07,652 --> 00:38:11,657
+<i>the Vice President of the
+United States, Frank Underwood.</i>
+
+701
+00:38:14,392 --> 00:38:16,065
+
+702
+00:38:22,233 --> 00:38:24,474
+Boss, boss.
+Meechum's ball.
+
+703
+00:38:32,177 --> 00:38:34,521
+Thank you very much.
+Where's the mascot?
+
+704
+00:38:36,014 --> 00:38:37,118
+Beautifully done.
+
+705
+00:38:38,783 --> 00:38:40,319
+<i>Good evening.</i>
+
+706
+00:38:40,418 --> 00:38:41,795
+<i>Now I know it's
+a hot night,</i>
+
+707
+00:38:41,853 --> 00:38:43,491
+<i>and you all want to
+get to the baseball.</i>
+
+708
+00:38:43,822 --> 00:38:45,995
+<i>So as soon as I
+throw this sucker,</i>
+
+709
+00:38:46,090 --> 00:38:48,263
+<i>grab a drink,
+enjoy the game,</i>
+
+710
+00:38:48,326 --> 00:38:49,930
+<i>and best of luck
+to both teams.</i>
+
+711
+00:38:51,429 --> 00:38:54,535
+<i>Scratch that. We're at Camden Yards.
+Go, Orioles!</i>
+
+712
+00:39:23,294 --> 00:39:25,171
+
+713
+00:39:31,903 --> 00:39:33,507
+Let's go! Move!
+
+714
+00:39:42,847 --> 00:39:44,019
+Go, go!
+
+715
+00:39:44,082 --> 00:39:45,322
+ <i>I'm told
+the distribution line</i>
+
+716
+00:39:45,383 --> 00:39:47,556
+that controls the pinch
+point caused the outages.
+
+717
+00:39:47,652 --> 00:39:49,063
+BAPCO, one of
+your companies.
+
+718
+00:39:49,153 --> 00:39:51,030
+ <i>Yes, sir. There
+was a capacity issue.</i>
+
+719
+00:39:51,089 --> 00:39:53,262
+<i>We're working as quickly
+as we can to resolve it.</i>
+
+720
+00:39:53,358 --> 00:39:54,837
+I've got three
+governors calling.
+
+721
+00:39:54,893 --> 00:39:56,531
+Hospitals on
+emergency power.
+
+722
+00:39:56,594 --> 00:39:57,664
+So quickly better
+mean quickly.
+
+723
+00:39:57,729 --> 00:40:01,006
+<i>The latest estimate I got was two
+to three hours, maybe sooner.</i>
+
+724
+00:40:01,065 --> 00:40:03,602
+Raymond, was
+this intentional?
+
+725
+00:40:04,102 --> 00:40:08,744
+Sir, I know you don't hold me in
+the highest regard at the moment.
+
+726
+00:40:09,507 --> 00:40:14,616
+But I am alarmed that you could
+even entertain such a thought.
+
+727
+00:40:14,712 --> 00:40:18,091
+<i>Yeah, well, the timing makes
+coincidence hard to swallow.</i>
+
+728
+00:40:18,783 --> 00:40:19,853
+There is a heat wave.
+
+729
+00:40:19,918 --> 00:40:22,524
+That always pushes
+the grid to its limits.
+
+730
+00:40:22,587 --> 00:40:23,895
+<i>All right, let's get the
+people out of the dark.</i>
+
+731
+00:40:23,955 --> 00:40:25,628
+Updates every 30 minutes
+on your progress.
+
+732
+00:40:25,723 --> 00:40:27,430
+<i>I should inform you, sir,</i>
+
+733
+00:40:27,525 --> 00:40:31,598
+that I may need to take two
+of my plants offline tomorrow
+
+734
+00:40:31,696 --> 00:40:33,801
+<i>for unscheduled maintenance.</i>
+
+735
+00:40:33,898 --> 00:40:36,606
+Why? Which ones?
+Georgia and Tennessee.
+
+736
+00:40:36,701 --> 00:40:39,307
+<i>This blackout has put a great
+deal of stress on them.</i>
+
+737
+00:40:39,404 --> 00:40:44,410
+My engineers are concerned about
+the seals on the fuel rods.
+
+738
+00:40:44,475 --> 00:40:46,819
+So we're looking at outages
+on the southeast grid, too?
+
+739
+00:40:46,911 --> 00:40:49,391
+<i>Could be. For a few days.</i>
+No, that's unacceptable.
+
+740
+00:40:49,781 --> 00:40:52,591
+Safety comes first.
+We don't want an accident.
+
+741
+00:40:52,650 --> 00:40:54,994
+All right, let's get a full
+report to Linda, ASAP.
+
+742
+00:40:55,086 --> 00:40:57,088
+Yes, sir. Thank you, sir.
+
+743
+00:40:59,958 --> 00:41:00,959
+He's toying with you.
+
+744
+00:41:01,059 --> 00:41:02,265
+No, this could be
+a legitimate safety issue.
+
+745
+00:41:02,327 --> 00:41:04,432
+He wants a seat back at the table.
+Those plants are fine.
+
+746
+00:41:04,495 --> 00:41:05,496
+Why is he doing this?
+
+747
+00:41:05,596 --> 00:41:06,597
+We've had our differences,
+
+748
+00:41:06,664 --> 00:41:08,507
+but something
+drastic like this?
+
+749
+00:41:08,599 --> 00:41:11,910
+Well, I did tell him about
+the possible FERC action.
+
+750
+00:41:12,904 --> 00:41:13,939
+You did what?
+
+751
+00:41:14,005 --> 00:41:15,814
+Well, he called me.
+I answered the call.
+
+752
+00:41:15,907 --> 00:41:17,250
+Why didn't you
+inform me immediately?
+
+753
+00:41:17,942 --> 00:41:19,580
+He told me you had
+a productive talk.
+
+754
+00:41:19,644 --> 00:41:21,282
+That he was on board
+with the subsidy.
+
+755
+00:41:21,346 --> 00:41:23,519
+I assumed
+everything was fine.
+
+756
+00:41:23,614 --> 00:41:24,922
+He was proposing
+renewed trade talks.
+
+757
+00:41:24,983 --> 00:41:26,428
+We didn't talk about
+the subsidy at all.
+
+758
+00:41:27,785 --> 00:41:29,662
+He's playing
+both of us then.
+
+759
+00:41:29,754 --> 00:41:32,667
+If he told you he was on board,
+why'd you bring up FERC?
+
+760
+00:41:32,757 --> 00:41:33,758
+I told him
+I was relieved.
+
+761
+00:41:33,825 --> 00:41:35,327
+That we could have taken
+action if he didn't comply.
+
+762
+00:41:35,426 --> 00:41:37,633
+You think he's fishing? To see
+what our next move might be?
+
+763
+00:41:37,695 --> 00:41:38,833
+I think so, sir.
+
+764
+00:41:38,930 --> 00:41:42,275
+I mean, he is lying about those
+two plants in the south.
+
+765
+00:41:42,333 --> 00:41:44,142
+Well, we can't guess.
+We have to be certain.
+
+766
+00:41:44,202 --> 00:41:46,614
+Well, do you want Raymond
+Tusk to assess that risk?
+
+767
+00:41:47,105 --> 00:41:48,516
+Or the United States
+government?
+
+768
+00:41:48,606 --> 00:41:50,517
+Are you suggesting we
+take over his facilities?
+
+769
+00:41:50,775 --> 00:41:52,186
+There is precedent there.
+
+770
+00:41:52,510 --> 00:41:55,389
+Woodrow Wilson did it with the
+rail roads for three full years.
+
+771
+00:41:55,480 --> 00:41:56,823
+In a time of war.
+
+772
+00:41:57,281 --> 00:42:00,558
+In a time of emergency,
+which is what this is.
+
+773
+00:42:00,651 --> 00:42:04,531
+The country needs a leader,
+Mr. President. Give them one.
+
+774
+00:42:04,622 --> 00:42:07,535
+Do not bend to
+Raymond Tusk.
+
+775
+00:42:17,301 --> 00:42:18,803
+<i>I'm done.</i>
+
+776
+00:42:22,340 --> 00:42:24,718
+I said you might not like it.
+It <i>makes</i> me seem crazy.
+
+777
+00:42:25,309 --> 00:42:27,653
+<i>This is the most
+toned-down version.</i>
+
+778
+00:42:28,246 --> 00:42:31,159
+<i>I tried to be as kind as I
+could without being biased.</i>
+
+779
+00:42:32,250 --> 00:42:34,321
+I don't think you want this
+going out into the world.
+
+780
+00:42:35,086 --> 00:42:36,258
+<i>Can I talk to Janine?</i>
+
+781
+00:42:45,496 --> 00:42:46,497
+<i>Tell him to go.</i>
+
+782
+00:42:52,937 --> 00:42:54,541
+He wants you to leave.
+
+783
+00:43:03,514 --> 00:43:04,925
+You lied.
+<i>Lucas...</i>
+
+784
+00:43:05,016 --> 00:43:06,461
+You lied to Tom. You
+lied to the US Attorney.
+
+785
+00:43:06,551 --> 00:43:09,122
+<i>I didn't knew what else to do.
+Tell the truth.</i>
+
+786
+00:43:11,756 --> 00:43:12,962
+<i>They'll arrest me.</i>
+
+787
+00:43:13,224 --> 00:43:15,226
+They'll discredit
+everything I say.
+
+788
+00:43:15,293 --> 00:43:18,274
+And nobody is going to believe
+me more than they believe you.
+
+789
+00:43:18,362 --> 00:43:20,865
+<i>But we can get the story out there.
+Get people asking questions.</i>
+
+790
+00:43:20,932 --> 00:43:24,937
+No. It'll just look like two
+crazy people instead of one.
+
+791
+00:43:29,040 --> 00:43:30,883
+<i>So you're saving yourself.</i>
+
+792
+00:43:32,743 --> 00:43:35,087
+<i>I'm trying to save
+the both of us.</i>
+
+793
+00:43:37,915 --> 00:43:42,295
+Please. Take the plea.
+I'm not guilty.
+
+794
+00:43:42,553 --> 00:43:43,964
+You are.
+
+795
+00:43:44,055 --> 00:43:47,059
+You committed a crime,
+multiple crimes.
+
+796
+00:43:47,291 --> 00:43:48,292
+<i>Not murder.</i>
+
+797
+00:43:51,129 --> 00:43:55,578
+Take the plea. Be good.
+Get out early.
+
+798
+00:43:59,637 --> 00:44:02,243
+<i>Everybody's fucked me.</i>
+
+799
+00:44:02,573 --> 00:44:05,281
+<i>If I was trying to fuck
+you, I wouldn't be here.</i>
+
+800
+00:44:07,445 --> 00:44:09,356
+<i>He's gonna get away
+with it, isn't he?</i>
+
+801
+00:44:13,518 --> 00:44:17,159
+<i>Yes. He is.</i>
+
+802
+00:44:25,363 --> 00:44:27,309
+
+803
+00:44:28,099 --> 00:44:30,943
+Take an iced tea if you have any.
+We don't.
+
+804
+00:44:35,940 --> 00:44:37,214
+I wish I didn't
+have to keep coming
+
+805
+00:44:37,308 --> 00:44:39,288
+through back doors
+like this.
+
+806
+00:44:39,343 --> 00:44:41,949
+Well, we wouldn't want our
+friends in the fourth estate
+
+807
+00:44:42,013 --> 00:44:43,492
+to know you were
+here, would we?
+
+808
+00:44:43,548 --> 00:44:45,721
+Especially, since you've
+gone to such lengths
+
+809
+00:44:45,816 --> 00:44:49,525
+to remain above
+the fray of politics.
+
+810
+00:44:50,454 --> 00:44:52,400
+You can't seize
+the plants, Frank.
+
+811
+00:44:52,490 --> 00:44:54,060
+We haven't
+seized anything yet.
+
+812
+00:44:54,158 --> 00:44:57,469
+We're ready to, but we
+won't if you cooperate.
+
+813
+00:44:57,528 --> 00:44:59,804
+It's illegal.
+It's not. You know that.
+
+814
+00:45:00,798 --> 00:45:03,711
+The President can issue an executive
+order in times of emergency.
+
+815
+00:45:03,801 --> 00:45:04,836
+I'll fight it in court.
+
+816
+00:45:04,902 --> 00:45:07,246
+Which will take even longer than
+a FERC investigation would.
+
+817
+00:45:07,338 --> 00:45:11,150
+And in the meantime, you make
+nothing from those plants.
+
+818
+00:45:11,976 --> 00:45:13,546
+We agreed.
+
+819
+00:45:14,378 --> 00:45:16,915
+Right here in this room,
+we agreed to work together.
+
+820
+00:45:17,014 --> 00:45:18,721
+We agreed as
+men of our word.
+
+821
+00:45:18,816 --> 00:45:20,318
+And I held up my end
+of that bargain
+
+822
+00:45:20,384 --> 00:45:21,829
+until you abandoned
+me on the bill...
+
+823
+00:45:21,886 --> 00:45:23,229
+I sent Remy to help you.
+
+824
+00:45:23,321 --> 00:45:25,597
+After I got it passed through the
+Senate with no help from you.
+
+825
+00:45:25,690 --> 00:45:27,863
+I had to protect my relationship
+with the President.
+
+826
+00:45:27,925 --> 00:45:30,337
+And then you tried to use me
+during the summit in Spotsylvania.
+
+827
+00:45:30,661 --> 00:45:34,609
+I was not put on this earth
+to be your best friend
+
+828
+00:45:34,999 --> 00:45:38,344
+or to share every piece of
+information I have with you.
+
+829
+00:45:39,170 --> 00:45:44,518
+We agreed to a mutually beneficial
+partnership. That's all.
+
+830
+00:45:47,011 --> 00:45:50,083
+Yes, and what's become
+very clear to me
+
+831
+00:45:50,181 --> 00:45:53,594
+is that I benefit in no way
+from this partnership.
+
+832
+00:45:53,684 --> 00:45:55,857
+Let's not pretend
+to be naive.
+
+833
+00:45:55,920 --> 00:45:59,527
+We both respect self-interest
+above all else.
+
+834
+00:46:00,358 --> 00:46:04,067
+Our versions of that
+no longer align.
+
+835
+00:46:06,697 --> 00:46:08,870
+You are on the
+verge of making
+
+836
+00:46:08,933 --> 00:46:11,607
+an irreversible mistake,
+Mr. Vice President.
+
+837
+00:46:12,203 --> 00:46:15,707
+I may well be making
+a mistake. Who knows?
+
+838
+00:46:17,541 --> 00:46:20,317
+What I do know is that
+you'll be calling Linda
+
+839
+00:46:20,411 --> 00:46:22,891
+and telling her that you'll
+accept the subsidies.
+
+840
+00:46:23,981 --> 00:46:25,551
+You may have all
+the money, Raymond,
+
+841
+00:46:25,783 --> 00:46:28,423
+but I have all
+the men with guns.
+
+842
+00:46:28,486 --> 00:46:31,490
+It's a burner, pre-dialed.
+She's expecting.
+
+843
+00:46:31,589 --> 00:46:34,729
+And yes, from last night.
+
+844
+00:46:35,926 --> 00:46:38,998
+"The hall's in your
+court," as they say.
+
+845
+00:46:57,648 --> 00:47:00,629
+Jesus Christ. You scared
+the shit out of me.
+
+846
+00:47:02,586 --> 00:47:05,590
+Are you supposed to take the
+Lord's name in vain like that?
+
+847
+00:47:06,524 --> 00:47:08,367
+Leave it on.
+It costs too much.
+
+848
+00:47:09,026 --> 00:47:10,699
+I'll take care of it.
+
+849
+00:47:15,499 --> 00:47:19,037
+Goodwin took the plea.
+He's going away.
+
+850
+00:47:20,271 --> 00:47:22,182
+So does that mean
+this is all over?
+
+851
+00:47:22,273 --> 00:47:25,686
+No. We still
+have to be careful.
+
+852
+00:47:25,776 --> 00:47:28,279
+But why? If he's gone, then
+nobody's looking for me, right?
+
+853
+00:47:28,346 --> 00:47:29,848
+Not that we know of.
+
+854
+00:47:29,947 --> 00:47:31,688
+Until we know,
+nothing changes.
+
+855
+00:47:31,782 --> 00:47:33,693
+So what, you just came over
+here to get my hopes up?
+
+856
+00:47:33,784 --> 00:47:37,061
+I came here to make sure that
+you don't go to church tonight.
+
+857
+00:47:45,396 --> 00:47:47,069
+Do you want to fuck me?
+
+858
+00:47:52,737 --> 00:47:55,411
+Is that what this is all about?
+No.
+
+859
+00:47:55,506 --> 00:47:58,487
+You've done it before.
+That was different.
+
+860
+00:48:08,319 --> 00:48:09,662
+Stop it.
+
+861
+00:48:14,325 --> 00:48:17,238
+If there's one thing I know,
+it's when a man wants me.
+
+862
+00:48:32,576 --> 00:48:35,284
+I learned who Rachel
+was in church.
+
+863
+00:48:36,914 --> 00:48:39,360
+She was young
+and beautiful.
+
+864
+00:48:40,050 --> 00:48:43,361
+Jacob fell in love with her
+while she was watering a lamb.
+
+865
+00:48:43,954 --> 00:48:45,399
+And she became his wife
+
+866
+00:48:45,456 --> 00:48:48,869
+after he worked seven years
+to earn her hand in marriage.
+
+867
+00:48:51,395 --> 00:48:55,207
+Rachel had one son, Joseph.
+
+868
+00:48:57,535 --> 00:48:59,242
+He became a king.
+
+869
+00:49:04,475 --> 00:49:06,045
+Are you hungry?
+\

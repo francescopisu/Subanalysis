@@ -1,0 +1,2356 @@
+1
+00:00:36,521 --> 00:00:40,144
+What is the cost of lies?
+
+2
+00:00:40,146 --> 00:00:43,102
+It's not that we'll
+mistake them for the truth.
+
+3
+00:00:43,104 --> 00:00:47,060
+The real danger is that
+if we hear enough lies,
+
+4
+00:00:47,062 --> 00:00:50,104
+then we no longer
+recognize the truth at all.
+
+5
+00:00:51,605 --> 00:00:53,352
+What can we do then?
+
+6
+00:00:53,354 --> 00:00:56,102
+What else is left but to
+abandon even the hope of truth
+
+7
+00:00:56,104 --> 00:01:00,769
+and content ourselves
+instead with stories?
+
+8
+00:01:00,771 --> 00:01:04,977
+In these stories, it doesn't
+matter who the heroes are.
+
+9
+00:01:04,979 --> 00:01:08,603
+All we want to know is: who is to blame?
+
+10
+00:01:08,605 --> 00:01:11,269
+In this story, it was Anatoly Dyatlov.
+
+11
+00:01:11,271 --> 00:01:13,060
+He was the best choice.
+
+12
+00:01:13,062 --> 00:01:15,144
+An arrogant, unpleasant man,
+
+13
+00:01:15,146 --> 00:01:18,436
+he ran the room that
+night, he gave the orders...
+
+14
+00:01:18,438 --> 00:01:20,436
+and no friends.
+
+15
+00:01:20,438 --> 00:01:24,104
+Or, at least, not important ones.
+
+16
+00:01:25,563 --> 00:01:29,406
+And now Dyatlov will
+spend the next ten years
+
+17
+00:01:29,409 --> 00:01:31,532
+in a prison labor camp.
+
+18
+00:01:31,535 --> 00:01:34,910
+Of course, that sentence
+is doubly unfair.
+
+19
+00:01:36,479 --> 00:01:40,187
+There were far greater
+criminals than him at work.
+
+20
+00:01:41,979 --> 00:01:44,977
+And as for what Dyatlov did do,
+
+21
+00:01:44,979 --> 00:01:47,354
+the man doesn't deserve prison.
+
+22
+00:01:48,521 --> 00:01:51,354
+He deserves death.
+
+23
+00:02:04,187 --> 00:02:09,185
+But instead, ten years for
+"criminal mismanagement."
+
+24
+00:02:09,187 --> 00:02:11,269
+What does that mean?
+
+25
+00:02:11,271 --> 00:02:15,021
+No one knows. It doesn't matter.
+
+26
+00:02:17,146 --> 00:02:20,769
+What does matter is that, to them,
+
+27
+00:02:20,771 --> 00:02:23,060
+justice was done.
+
+28
+00:02:23,062 --> 00:02:26,728
+Because, you see, to them
+
+29
+00:02:26,730 --> 00:02:30,438
+a just world is a sane world.
+
+30
+00:02:32,896 --> 00:02:35,896
+There was nothing sane about Chernobyl.
+
+31
+00:02:37,605 --> 00:02:39,853
+What happened there,
+what happened after,
+
+32
+00:02:39,855 --> 00:02:43,187
+even the good we did, all of it...
+
+33
+00:02:44,646 --> 00:02:49,187
+all of it... madness.
+
+34
+00:02:53,653 --> 00:02:57,737
+Well, I've given you everything I know.
+
+35
+00:02:59,729 --> 00:03:02,101
+They'll deny it, of course.
+
+36
+00:03:02,104 --> 00:03:03,849
+They always do.
+
+37
+00:03:09,521 --> 00:03:11,937
+I know you'll try your best.
+
+38
+00:06:24,047 --> 00:06:30,178
+- <font color="#D81D1D">Synced and corrected by VitoSilans</font> -
+-- <font color="#138CE9">www.Addic7ed.com</font> --
+
+39
+00:07:35,146 --> 00:07:36,728
+Lyudmilla?
+
+40
+00:08:01,563 --> 00:08:03,855
+Comrade Dyatlov!
+
+41
+00:08:07,271 --> 00:08:11,396
+Comrade Dyatlov! Comrade Dyatlov!
+
+42
+00:08:15,771 --> 00:08:19,028
+Comrade
+Dyatlov! Comrade Dyatlov!
+
+43
+00:08:19,031 --> 00:08:21,519
+What just happened?
+
+44
+00:08:21,521 --> 00:08:24,686
+I don't know.
+
+45
+00:08:24,688 --> 00:08:26,896
+There's a fire in the turbine hall.
+
+46
+00:08:28,354 --> 00:08:29,771
+The turbine hall.
+
+47
+00:08:30,855 --> 00:08:33,977
+The control system tank. Hydrogen.
+
+48
+00:08:33,979 --> 00:08:36,387
+You and Toptunov, you
+morons blew the tank!
+
+49
+00:08:36,390 --> 00:08:38,352
+- No, that's not...
+- This is an emergency.
+
+50
+00:08:38,354 --> 00:08:40,520
+Everyone stay calm.
+Our first priority is...
+
+51
+00:08:40,523 --> 00:08:41,935
+- It's exploded!
+- We know.
+
+52
+00:08:41,937 --> 00:08:43,477
+Akimov, are we cooling the reactor core?
+
+53
+00:08:43,479 --> 00:08:45,394
+We shut it down, but the
+control rods are still active.
+
+54
+00:08:45,396 --> 00:08:47,269
+They're not all the way
+in, I disengaged the clutch.
+
+55
+00:08:47,271 --> 00:08:49,812
+Try and disconnect the servos
+from the standby console.
+
+56
+00:08:49,815 --> 00:08:51,435
+You two, get the backup pumps running.
+
+57
+00:08:51,438 --> 00:08:53,023
+We need water moving through the core.
+
+58
+00:08:53,026 --> 00:08:56,268
+- That is all that matters.
+- There is no core.
+
+59
+00:08:56,271 --> 00:08:58,686
+It exploded, the core exploded.
+
+60
+00:09:02,104 --> 00:09:04,352
+He's in shock. Get him out of here.
+
+61
+00:09:04,354 --> 00:09:05,686
+The lid is off!
+
+62
+00:09:05,688 --> 00:09:07,561
+The stack is burning. I saw it.
+
+63
+00:09:07,563 --> 00:09:10,519
+You're confused. RBMK
+reactor cores don't explode.
+
+64
+00:09:10,521 --> 00:09:11,935
+- Akimov...
+- Sasha.
+
+65
+00:09:11,937 --> 00:09:13,227
+Don't worry, we did everything right.
+
+66
+00:09:13,229 --> 00:09:15,269
+Something... something
+strange has happened.
+
+67
+00:09:15,271 --> 00:09:17,477
+- Do you taste metal?
+- Akimov!
+
+68
+00:09:17,479 --> 00:09:20,477
+Comrade Perevozschenko, what you're
+saying is physically impossible.
+
+69
+00:09:20,479 --> 00:09:23,813
+The core can't explode.
+It has to be the tank.
+
+70
+00:09:24,479 --> 00:09:26,269
+We're wasting time. Let's go.
+
+71
+00:09:26,271 --> 00:09:29,465
+Get the hydrogen out of the generators
+and pump water into the core.
+
+72
+00:09:29,468 --> 00:09:33,394
+- What about the fire?
+- Call the fire brigade.
+
+73
+00:10:35,354 --> 00:10:37,029
+_
+
+74
+00:10:37,032 --> 00:10:38,017
+_
+
+75
+00:10:38,018 --> 00:10:39,227
+_
+
+76
+00:10:39,228 --> 00:10:44,566
+_
+
+77
+00:10:44,567 --> 00:10:46,076
+_
+
+78
+00:10:46,079 --> 00:10:46,818
+_
+
+79
+00:10:46,819 --> 00:10:48,903
+_
+
+80
+00:10:48,904 --> 00:10:51,053
+_
+
+81
+00:10:51,056 --> 00:10:55,476
+_
+
+82
+00:10:57,566 --> 00:10:58,496
+_
+
+83
+00:10:58,497 --> 00:10:59,455
+_
+
+84
+00:10:59,456 --> 00:11:00,040
+_
+
+85
+00:11:00,043 --> 00:11:02,365
+_
+
+86
+00:11:02,368 --> 00:11:03,192
+_
+
+87
+00:11:03,195 --> 00:11:04,127
+_
+
+88
+00:11:04,128 --> 00:11:08,693
+_
+
+89
+00:11:09,868 --> 00:11:11,436
+You're not on call tonight.
+
+90
+00:11:11,439 --> 00:11:13,889
+They're bringing everybody
+in, military and civil.
+
+91
+00:11:13,892 --> 00:11:17,728
+Pripyat, Polesskoe, Kiev.
+
+92
+00:11:17,730 --> 00:11:19,605
+This is a big one.
+
+93
+00:11:20,563 --> 00:11:23,443
+But it doesn't look right, the color.
+
+94
+00:11:23,446 --> 00:11:26,935
+Pravik says he thinks they're
+shining floodlights or something.
+
+95
+00:11:26,937 --> 00:11:28,394
+And what if there are chemicals?
+
+96
+00:11:28,396 --> 00:11:30,730
+Chemicals?
+
+97
+00:11:31,771 --> 00:11:33,394
+The problem's the roof.
+
+98
+00:11:33,396 --> 00:11:36,269
+It's covered in tar, so
+it's gonna burn all night,
+
+99
+00:11:36,271 --> 00:11:38,935
+and it'll stink like hell. That's it.
+
+100
+00:11:38,937 --> 00:11:40,771
+That's the worst of it.
+
+101
+00:11:42,730 --> 00:11:44,102
+Go back to bed.
+
+102
+00:12:19,937 --> 00:12:22,935
+- Is it war?
+- Where's the dosimeter?
+
+103
+00:12:22,937 --> 00:12:26,021
+Here... Here.
+
+104
+00:12:31,813 --> 00:12:33,479
+Are they bombing?
+
+105
+00:12:36,104 --> 00:12:39,144
+What the fuck is this?
+It's 3.6 roentgen.
+
+106
+00:12:39,146 --> 00:12:41,769
+That's as high as it goes. The
+good one's locked in a safe.
+
+107
+00:12:41,771 --> 00:12:43,269
+I don't have a key.
+
+108
+00:12:43,271 --> 00:12:47,521
+Valera... your face.
+
+109
+00:12:49,021 --> 00:12:50,477
+Come on.
+
+110
+00:12:50,479 --> 00:12:53,436
+I'm going to find
+Khodemchuk in the pump room.
+
+111
+00:12:53,438 --> 00:12:55,477
+You... here.
+
+112
+00:12:55,479 --> 00:12:59,185
+Get Shashenok. He's in 604. Go.
+
+113
+00:12:59,187 --> 00:13:00,935
+We need to get everyone out!
+
+114
+00:13:12,642 --> 00:13:15,477
+Shit.
+
+115
+00:13:15,479 --> 00:13:17,935
+Hey! We need to get to the reactor hall.
+
+116
+00:13:17,937 --> 00:13:21,019
+- The lift's destroyed.
+- Up two flights and across.
+
+117
+00:13:21,021 --> 00:13:24,519
+- Right.
+- Why are you going there?
+
+118
+00:13:43,688 --> 00:13:45,811
+Have you seen Khodemchuk?
+
+119
+00:13:45,813 --> 00:13:48,271
+- No. Where's Viktor?
+- Still in the pump room.
+
+120
+00:13:49,855 --> 00:13:52,688
+Stay here. I'll come back.
+
+121
+00:13:55,570 --> 00:13:57,278
+Viktor!
+
+122
+00:14:15,422 --> 00:14:16,545
+Viktor.
+
+123
+00:14:16,548 --> 00:14:19,673
+Viktor.
+
+124
+00:14:21,062 --> 00:14:23,811
+Viktor. I'm gonna get you out of here.
+
+125
+00:14:23,813 --> 00:14:25,769
+Can you stand?
+
+126
+00:14:25,771 --> 00:14:28,060
+Khodemchuk...
+
+127
+00:14:28,062 --> 00:14:29,730
+Where?
+
+128
+00:14:32,104 --> 00:14:34,313
+Get Khodemchuk.
+
+129
+00:15:17,396 --> 00:15:19,423
+I dropped the control
+rods from the other panel.
+
+130
+00:15:19,426 --> 00:15:21,311
+- They're still up.
+- What?
+
+131
+00:15:21,313 --> 00:15:23,811
+They're still only a third of
+the way in, I don't know why.
+
+132
+00:15:23,813 --> 00:15:26,538
+I already sent the trainees down to
+the reactor hall to lower them by hand.
+
+133
+00:15:26,540 --> 00:15:28,394
+- What about the pumps?
+- I can't get through to Khodemchuk.
+
+134
+00:15:28,396 --> 00:15:31,371
+- The lines are down.
+- Fuck the phones and fuck Khodemchuk.
+
+135
+00:15:31,374 --> 00:15:32,874
+- Are the pumps on or not?
+- Stolyarchuk?
+
+136
+00:15:32,876 --> 00:15:34,185
+My control panel's not working.
+
+137
+00:15:34,187 --> 00:15:35,686
+I tried calling for the electricians.
+
+138
+00:15:35,688 --> 00:15:37,394
+I don't give a shit about the panel!
+
+139
+00:15:37,396 --> 00:15:40,019
+I need water in my reactor core!
+
+140
+00:15:40,021 --> 00:15:42,563
+Get down there and make
+sure those pumps are on.
+
+141
+00:15:43,730 --> 00:15:45,313
+Now!
+
+142
+00:15:52,730 --> 00:15:54,217
+What does the dosimeter say?
+
+143
+00:15:54,220 --> 00:15:56,477
+3.6 roentgen, but that's
+as high as the meter...
+
+144
+00:15:56,479 --> 00:15:59,229
+3.6... not great, not terrible.
+
+145
+00:16:07,146 --> 00:16:09,354
+We did everything right.
+
+146
+00:16:53,730 --> 00:16:56,021
+You, connect those hooks!
+
+147
+00:17:00,956 --> 00:17:02,413
+Get the pumps going!
+
+148
+00:17:02,416 --> 00:17:04,666
+Yeah, over here!
+
+149
+00:17:08,479 --> 00:17:11,563
+We're working bottom to top. Go in fast.
+
+150
+00:17:32,401 --> 00:17:33,984
+Vasily...
+
+151
+00:17:35,438 --> 00:17:38,185
+- Hey, Vasily, what's this?
+- I don't know, Misha.
+
+152
+00:17:38,187 --> 00:17:40,688
+Don't fuck around with
+it. Hook these up, come on.
+
+153
+00:17:46,271 --> 00:17:47,811
+Do you taste metal?
+
+154
+00:17:47,813 --> 00:17:51,021
+- Yeah, what is that?
+- I don't know.
+
+155
+00:17:52,770 --> 00:17:54,498
+The valves, Misha! The valves, let's go!
+
+156
+00:17:54,501 --> 00:17:56,021
+The valves! Come on!
+
+157
+00:18:28,313 --> 00:18:29,644
+What do you need?
+
+158
+00:18:29,646 --> 00:18:31,977
+We need to get into the reactor hall
+
+159
+00:18:31,979 --> 00:18:34,396
+to lower the control rods,
+but the door is jammed.
+
+160
+00:18:35,646 --> 00:18:37,686
+I don't think there are control rods.
+
+161
+00:18:37,688 --> 00:18:39,354
+I don't think there's a core.
+
+162
+00:18:41,521 --> 00:18:43,396
+No, you're... You're mistaken.
+
+163
+00:18:44,354 --> 00:18:45,646
+Akimov said.
+
+164
+00:19:03,062 --> 00:19:04,396
+Let's go.
+
+165
+00:19:17,354 --> 00:19:19,060
+No!
+
+166
+00:19:19,062 --> 00:19:22,894
+Ignatenko, get on his hose!
+
+167
+00:19:22,896 --> 00:19:24,811
+It's all right. Breathe.
+
+168
+00:19:24,813 --> 00:19:26,561
+Misha.
+
+169
+00:19:26,563 --> 00:19:28,563
+All right, all right. Easy, Misha.
+
+170
+00:20:05,438 --> 00:20:07,271
+Are you sure?
+
+171
+00:20:08,730 --> 00:20:10,062
+Akimov...
+
+172
+00:20:23,438 --> 00:20:24,979
+Move.
+
+173
+00:20:35,313 --> 00:20:36,979
+Come on, go!
+
+174
+00:21:16,021 --> 00:21:17,626
+Let's go!
+
+175
+00:21:17,688 --> 00:21:19,021
+Let's go!
+
+176
+00:21:20,302 --> 00:21:21,758
+Hey!
+
+177
+00:21:28,646 --> 00:21:29,894
+Hey!
+
+178
+00:21:50,354 --> 00:21:52,728
+Lyudmilla! Do
+you want to come with us?
+
+179
+00:21:52,730 --> 00:21:53,946
+Come where?
+
+180
+00:21:53,949 --> 00:21:56,269
+We're going to the railroad
+bridge to get a better look.
+
+181
+00:21:56,271 --> 00:21:58,728
+It's not like anyone can
+sleep with all the sirens.
+
+182
+00:21:58,730 --> 00:22:01,123
+I don't think you should
+go. It could be dangerous.
+
+183
+00:22:01,126 --> 00:22:04,227
+What do you mean dangerous? It's a
+fire. It's over there, we're over here.
+
+184
+00:22:04,229 --> 00:22:05,855
+- Mikhail.
+- What?
+
+185
+00:22:07,232 --> 00:22:09,272
+Oh, sorry.
+
+186
+00:22:09,275 --> 00:22:10,858
+Oh.
+
+187
+00:22:13,730 --> 00:22:16,394
+- Is Vasily...?
+- Yeah.
+
+188
+00:22:16,396 --> 00:22:18,060
+Did he say it was bad?
+
+189
+00:22:18,062 --> 00:22:19,899
+No. No, he said it was just the roof.
+
+190
+00:22:19,902 --> 00:22:21,476
+Well, he's never gotten hurt before.
+
+191
+00:22:21,479 --> 00:22:23,104
+None of the boys have.
+
+192
+00:22:24,039 --> 00:22:25,690
+He'll be fine.
+
+193
+00:22:27,187 --> 00:22:28,563
+Get some rest.
+
+194
+00:22:40,062 --> 00:22:42,102
+The tank, it's big enough.
+
+195
+00:22:42,104 --> 00:22:46,436
+This kind of explosion, the control
+tank on 71, it's 100 cubic meters.
+
+196
+00:22:46,438 --> 00:22:47,853
+One hundred and ten.
+
+197
+00:22:47,855 --> 00:22:50,686
+Hundred and ten. It
+could do this, definitely.
+
+198
+00:22:50,688 --> 00:22:54,102
+It's gone.
+
+199
+00:22:54,104 --> 00:22:56,269
+I looked right into it.
+
+200
+00:22:56,271 --> 00:22:57,979
+I looked into the core.
+
+201
+00:22:59,104 --> 00:23:01,935
+Did you lower the control rods or not?
+
+202
+00:23:04,396 --> 00:23:06,771
+Take him to the infirmary.
+
+203
+00:23:08,271 --> 00:23:09,979
+Toptunov, take him!
+
+204
+00:23:13,396 --> 00:23:17,185
+- Where's Kudryavstev?
+- He fell.
+
+205
+00:23:17,187 --> 00:23:20,311
+- I need a medic! Anyone!
+- He's delusional.
+
+206
+00:23:20,313 --> 00:23:22,811
+- His face...
+- Ruptured condenser lines.
+
+207
+00:23:22,813 --> 00:23:24,811
+The feedwater is mildly contaminated.
+
+208
+00:23:24,813 --> 00:23:26,561
+He'll be fine. I've seen worse.
+
+209
+00:23:26,563 --> 00:23:28,979
+Do we still have a phone
+line to the outside?
+
+210
+00:23:30,813 --> 00:23:33,603
+Akimov?
+
+211
+00:23:33,605 --> 00:23:35,646
+Call in the day shift.
+
+212
+00:23:36,855 --> 00:23:39,475
+- But if the...
+- We have to keep water flowing into the core.
+
+213
+00:23:39,478 --> 00:23:42,646
+We need electricians,
+mechanics, we need bodies.
+
+214
+00:23:43,438 --> 00:23:46,021
+How many times do I have to say it?
+
+215
+00:23:53,937 --> 00:23:56,185
+I'm going to the
+Administration Building now
+
+216
+00:23:56,187 --> 00:23:58,811
+to call Bryukhanov and Fomin.
+
+217
+00:23:58,813 --> 00:24:01,229
+They're gonna want a full report.
+
+218
+00:24:02,271 --> 00:24:06,185
+Now, I don't know if I can
+make things better for you,
+
+219
+00:24:06,187 --> 00:24:09,021
+but I can certainly make them worse.
+
+220
+00:24:11,021 --> 00:24:13,646
+Call in the day shift, Comrade Akimov.
+
+221
+00:24:17,046 --> 00:24:18,714
+Yes, Comrade Dyatlov.
+
+222
+00:24:51,563 --> 00:24:54,368
+You're doing fine.
+
+223
+00:24:54,371 --> 00:24:56,288
+Raise her up.
+
+224
+00:24:59,646 --> 00:25:01,394
+That one, maybe an hour.
+
+225
+00:25:01,396 --> 00:25:03,563
+This one, not until morning.
+
+226
+00:25:05,645 --> 00:25:09,685
+- How's it downstairs, doctor?
+- Quiet.
+
+227
+00:25:09,688 --> 00:25:11,477
+Always is.
+
+228
+00:25:11,479 --> 00:25:14,229
+Nothing at this hour but babies.
+
+229
+00:25:15,104 --> 00:25:18,060
+You know, I once went
+two days without sleep?
+
+230
+00:25:18,062 --> 00:25:20,769
+Ten women went into
+labor at the same time.
+
+231
+00:25:20,771 --> 00:25:23,146
+- Did I ever tell you that story?
+- Yes.
+
+232
+00:25:25,271 --> 00:25:27,102
+Well, I won't need you
+in here for a while.
+
+233
+00:25:27,104 --> 00:25:29,896
+If you want, get some
+rest in the break room.
+
+234
+00:25:30,771 --> 00:25:33,019
+They haven't brought
+anyone in from the fire.
+
+235
+00:25:33,021 --> 00:25:36,104
+- What fire?
+- The power plant.
+
+236
+00:25:36,771 --> 00:25:39,771
+Oh. Then it mustn't be too bad.
+
+237
+00:25:40,841 --> 00:25:42,673
+Do we stock iodine?
+
+238
+00:25:42,676 --> 00:25:44,592
+- Hmm?
+- Iodine.
+
+239
+00:25:45,936 --> 00:25:47,326
+You mean disinfectant?
+
+240
+00:25:47,329 --> 00:25:50,143
+No, pills. Does the
+hospital stock iodine pills?
+
+241
+00:25:50,146 --> 00:25:53,104
+Iodine pills? Why would
+we have iodine pills?
+
+242
+00:26:05,313 --> 00:26:07,605
+Hello?
+
+243
+00:26:08,688 --> 00:26:10,104
+Hello?
+
+244
+00:26:17,075 --> 00:26:18,950
+Who else knows this?
+
+245
+00:26:21,021 --> 00:26:22,688
+Have you called Fomin?
+
+246
+00:26:23,979 --> 00:26:25,977
+Of course I want you to call him.
+
+247
+00:26:25,979 --> 00:26:28,187
+If I'm up, he's up.
+
+248
+00:27:06,392 --> 00:27:08,519
+Whatever the cause,
+the important thing is
+
+249
+00:27:08,521 --> 00:27:10,229
+that neither you nor I...
+
+250
+00:27:51,354 --> 00:27:53,436
+I take it the safety test was a failure?
+
+251
+00:27:53,438 --> 00:27:56,769
+- We have the situation under control.
+- Under control?
+
+252
+00:27:56,771 --> 00:27:59,563
+- It doesn't look like it's under control.
+- Shut up, Fomin.
+
+253
+00:28:00,896 --> 00:28:03,795
+I have to tell the Central Committee
+about this. Do you realize that?
+
+254
+00:28:03,798 --> 00:28:05,977
+I have to get on the
+phone and tell Maryin,
+
+255
+00:28:05,979 --> 00:28:07,519
+or God forbid Frolyshev,
+
+256
+00:28:07,521 --> 00:28:09,311
+that my power plant is on fire.
+
+257
+00:28:09,313 --> 00:28:11,811
+No one can blame you for
+this, Director Bryukhanov.
+
+258
+00:28:11,813 --> 00:28:13,603
+Of course no one can blame me for this.
+
+259
+00:28:13,605 --> 00:28:16,771
+How can I be responsible?
+I was sleeping.
+
+260
+00:28:17,605 --> 00:28:19,937
+Tell me what happened, quickly.
+
+261
+00:28:21,396 --> 00:28:25,185
+We ran the test exactly as
+Chief Engineer Fomin approved.
+
+262
+00:28:25,187 --> 00:28:28,162
+Unit Shift Chief Akimov
+and Engineer Toptunov
+
+263
+00:28:28,165 --> 00:28:30,173
+encountered technical
+difficulties leading
+
+264
+00:28:30,176 --> 00:28:33,852
+to an accumulation of hydrogen
+in the control system tank.
+
+265
+00:28:33,855 --> 00:28:35,477
+It regrettably ignited,
+
+266
+00:28:35,479 --> 00:28:38,104
+damaging the plant,
+setting the roof on fire.
+
+267
+00:28:40,354 --> 00:28:42,311
+The tank is quite large.
+
+268
+00:28:42,313 --> 00:28:44,436
+It's the only logical explanation.
+
+269
+00:28:44,438 --> 00:28:47,977
+Of course, Deputy Chief Engineer Dyatlov
+
+270
+00:28:47,979 --> 00:28:50,686
+was directly supervising the test,
+
+271
+00:28:50,688 --> 00:28:52,048
+so he would know best.
+
+272
+00:28:52,051 --> 00:28:54,479
+A hydrogen tank, fire...
+
+273
+00:28:56,521 --> 00:28:58,644
+- Reactor?
+- We're taking measures to ensure
+
+274
+00:28:58,646 --> 00:29:01,144
+a steady flow of water through the core.
+
+275
+00:29:01,146 --> 00:29:04,185
+- What about radiation?
+- Obviously, down here it's nothing.
+
+276
+00:29:04,187 --> 00:29:06,977
+But in the reactor
+building, I'm being told
+
+277
+00:29:06,979 --> 00:29:09,102
+3.6 roentgen per hour.
+
+278
+00:29:09,104 --> 00:29:11,352
+Well, that's not great,
+but it's not horrifying.
+
+279
+00:29:11,354 --> 00:29:13,019
+Not at all.
+
+280
+00:29:13,021 --> 00:29:16,144
+- From the feedwater, I assume?
+- Mm-hmm.
+
+281
+00:29:16,146 --> 00:29:18,519
+We'll have to limit shifts
+
+282
+00:29:18,521 --> 00:29:20,686
+to six hours at a time, but otherwise...
+
+283
+00:29:20,688 --> 00:29:23,271
+The dosimetrists should
+be checking regularly.
+
+284
+00:29:24,146 --> 00:29:28,062
+Have them use the good
+meter from the safe.
+
+285
+00:29:29,068 --> 00:29:32,235
+Right. I'll call Maryin.
+
+286
+00:29:33,271 --> 00:29:35,603
+Have them wake up the
+local executive committee.
+
+287
+00:29:35,605 --> 00:29:37,853
+There'll be orders coming down.
+
+288
+00:29:43,521 --> 00:29:45,060
+- Here.
+- No.
+
+289
+00:29:45,062 --> 00:29:47,688
+You sure? Okay.
+
+290
+00:29:50,688 --> 00:29:53,354
+- What do you think makes the colors?
+- Oh...
+
+291
+00:29:54,021 --> 00:29:57,477
+- It's the fuel for sure.
+- "Oh. It's the fuel for sure"?
+
+292
+00:29:57,479 --> 00:30:00,977
+What do you know about it? You
+clean floors at a train station.
+
+293
+00:30:00,979 --> 00:30:02,769
+My friend, Yuri, works
+at the power plant.
+
+294
+00:30:02,771 --> 00:30:04,436
+He says it runs cold.
+
+295
+00:30:04,438 --> 00:30:06,623
+No gas, no fire. Just atoms.
+
+296
+00:30:06,626 --> 00:30:09,732
+Yuri says the only thing is, you
+can't walk right up to the fuel.
+
+297
+00:30:09,735 --> 00:30:12,519
+If you do, a glass of vodka
+an hour for four hours.
+
+298
+00:30:12,521 --> 00:30:15,519
+Isn't Yuri a plumber?
+
+299
+00:30:15,521 --> 00:30:17,937
+At the nuclear power plant, yeah.
+
+300
+00:30:24,479 --> 00:30:26,062
+It is beautiful.
+
+301
+00:30:27,104 --> 00:30:28,730
+Yeah.
+
+302
+00:32:20,173 --> 00:32:22,173
+Do you have a cigarette?
+
+303
+00:32:47,646 --> 00:32:49,646
+Do you need help?
+
+304
+00:32:55,646 --> 00:32:57,730
+It's over.
+
+305
+00:34:01,798 --> 00:34:03,603
+We've done all we can
+from the perimeter.
+
+306
+00:34:03,605 --> 00:34:06,438
+We need to start making
+our way to the roof.
+
+307
+00:34:12,438 --> 00:34:15,771
+Vasily! You've gotta put it out.
+
+308
+00:34:19,146 --> 00:34:22,187
+That's enough,
+comrades. We're pushing ahead.
+
+309
+00:34:28,102 --> 00:34:29,726
+Come on, boys.
+
+310
+00:34:35,605 --> 00:34:37,561
+Vasily, it's just past, straight up.
+
+311
+00:34:37,563 --> 00:34:39,479
+All the way up, all the way in.
+
+312
+00:34:41,521 --> 00:34:43,021
+Come on!
+
+313
+00:34:55,146 --> 00:34:57,313
+Yeah. Going in now.
+
+314
+00:35:44,479 --> 00:35:46,811
+What about the auxiliary?
+
+315
+00:35:46,813 --> 00:35:50,311
+The pumps are gone, electrical's gone.
+
+316
+00:35:50,313 --> 00:35:54,229
+- The core?
+- I didn't go in there, and I won't.
+
+317
+00:35:55,610 --> 00:35:58,561
+- I think it's time we faced...
+- No, we have to get water into the core.
+
+318
+00:35:58,563 --> 00:36:00,394
+Otherwise, there'll be a meltdown.
+
+319
+00:36:00,396 --> 00:36:02,394
+We have to open the valves.
+
+320
+00:36:02,396 --> 00:36:04,509
+- Sasha...
+- What do you want, Boris?
+
+321
+00:36:04,512 --> 00:36:06,561
+If it's true, then we're dead,
+a million people are dead.
+
+322
+00:36:06,563 --> 00:36:08,730
+Is that what you need to hear?
+
+323
+00:36:10,187 --> 00:36:12,227
+We have to open the valves.
+
+324
+00:36:12,229 --> 00:36:14,436
+- By hand.
+- By hand?
+
+325
+00:36:14,438 --> 00:36:17,060
+You know, the number of valves,
+the amount of time to turn them,
+
+326
+00:36:17,062 --> 00:36:18,769
+you're talking about hours in there!
+
+327
+00:36:18,771 --> 00:36:20,568
+- Then help us.
+- Help you do what?
+
+328
+00:36:20,571 --> 00:36:23,730
+Pump water into a ditch?
+There's nothing there!
+
+329
+00:36:32,937 --> 00:36:34,896
+Leonid, I'm begging you.
+
+330
+00:36:48,271 --> 00:36:50,019
+Watch the panel while we're gone.
+
+331
+00:36:50,021 --> 00:36:51,479
+It's not working.
+
+332
+00:36:52,563 --> 00:36:54,396
+Just watch it.
+
+333
+00:37:16,062 --> 00:37:18,232
+I guess we know
+why they called us in early.
+
+334
+00:37:18,235 --> 00:37:20,644
+Is anyone
+saying what happened?
+
+335
+00:37:20,646 --> 00:37:22,977
+They were running the
+safety test on the turbines,
+
+336
+00:37:22,979 --> 00:37:25,104
+blew the control system tank.
+
+337
+00:37:26,229 --> 00:37:27,646
+It doesn't make sense to me either.
+
+338
+00:37:29,247 --> 00:37:31,454
+What about sabotage?
+
+339
+00:37:31,457 --> 00:37:32,998
+A bomb?
+
+340
+00:37:34,020 --> 00:37:37,560
+Sitnikov! Bryukhanov wants
+us to use the good dosimeter,
+
+341
+00:37:37,563 --> 00:37:40,436
+but it's in the safe,
+and we can't find the key.
+
+342
+00:37:40,438 --> 00:37:43,853
+It's in Building 2. Hasn't...?
+
+343
+00:37:43,855 --> 00:37:45,521
+Follow me.
+
+344
+00:37:56,936 --> 00:37:58,518
+Gentlemen, welcome.
+
+345
+00:37:58,521 --> 00:38:01,769
+Please, uh, find a seat. Plenty of room.
+
+346
+00:38:01,771 --> 00:38:05,352
+I apologize for the
+lateness of the hour.
+
+347
+00:38:05,354 --> 00:38:09,519
+Rest assured, we are
+all very safe down here.
+
+348
+00:38:09,521 --> 00:38:12,269
+We built this shelter to
+withstand a nuclear attack
+
+349
+00:38:12,271 --> 00:38:15,563
+by the Americans, so
+I think we'll be fine.
+
+350
+00:38:17,271 --> 00:38:19,686
+As you can see, we have
+experienced an accident.
+
+351
+00:38:19,688 --> 00:38:22,352
+A large control tank malfunctioned,
+
+352
+00:38:22,354 --> 00:38:26,311
+damaging reactor Building
+4 and starting a fire.
+
+353
+00:38:26,313 --> 00:38:30,060
+Now, I have spoken directly
+to Deputy Secretary Maryin.
+
+354
+00:38:30,062 --> 00:38:32,394
+Maryin spoke to Deputy Chief Frolyshev,
+
+355
+00:38:32,396 --> 00:38:35,686
+Frolyshev to Central
+Committee member Dolgikh,
+
+356
+00:38:35,688 --> 00:38:39,209
+and Dolgikh to General
+Secretary Gorbachev.
+
+357
+00:38:39,212 --> 00:38:40,977
+Now...
+
+358
+00:38:40,979 --> 00:38:46,311
+Because the Central Committee
+has the greatest respect
+
+359
+00:38:46,313 --> 00:38:50,352
+for the work of the
+Pripyat Executive Committee,
+
+360
+00:38:50,354 --> 00:38:54,354
+they have asked me to brief you
+on matters as they stand, so...
+
+361
+00:38:55,895 --> 00:38:59,727
+- First, the accident...
+- is well under control.
+
+362
+00:38:59,730 --> 00:39:05,060
+And second, because the efforts
+of the Soviet nuclear industry
+
+363
+00:39:05,062 --> 00:39:08,853
+are considered key state
+secrets, it is important
+
+364
+00:39:08,855 --> 00:39:12,269
+that we ensure that this incident
+
+365
+00:39:12,271 --> 00:39:14,436
+has no adverse consequences.
+
+366
+00:39:14,438 --> 00:39:18,644
+Now, to prevent a panic, the
+Central Committee have ordered
+
+367
+00:39:18,646 --> 00:39:21,603
+a detachment of military
+police to Pripyat.
+
+368
+00:39:21,605 --> 00:39:23,438
+How large of a detachment?
+
+369
+00:39:24,855 --> 00:39:26,977
+Between two and four thousand men.
+
+370
+00:39:29,104 --> 00:39:33,019
+What's really going on
+here? How dangerous is this?
+
+371
+00:39:33,021 --> 00:39:37,102
+There's mild radiation, but
+it's limited to the plant itself.
+
+372
+00:39:37,104 --> 00:39:40,269
+- No, it isn't.
+- Excuse me?
+
+373
+00:39:40,271 --> 00:39:44,269
+You saw men outside vomiting.
+
+374
+00:39:44,271 --> 00:39:46,104
+You saw men with burns.
+
+375
+00:39:47,187 --> 00:39:49,644
+There's more radiation
+than they're saying.
+
+376
+00:39:49,646 --> 00:39:52,019
+We have wives here, we have children.
+
+377
+00:39:52,021 --> 00:39:54,811
+I say we evacuate the town.
+
+378
+00:39:54,813 --> 00:39:56,644
+Gentlemen...
+
+379
+00:39:56,646 --> 00:40:00,808
+Please, please. My wife is here.
+
+380
+00:40:00,811 --> 00:40:02,934
+Do you think I would keep her in Pripyat
+
+381
+00:40:02,937 --> 00:40:04,476
+if it wasn't safe?
+
+382
+00:40:04,479 --> 00:40:08,185
+Bryukhanov, the air is glowing.
+
+383
+00:40:08,187 --> 00:40:11,399
+The Cherenkov effect.
+Completely normal phenomenon.
+
+384
+00:40:11,402 --> 00:40:13,269
+It can happen with minimal radiation.
+
+385
+00:40:23,605 --> 00:40:27,646
+I wonder how many of you
+know the name of this place.
+
+386
+00:40:29,813 --> 00:40:33,477
+We all call it "Chernobyl," of course.
+
+387
+00:40:33,479 --> 00:40:35,813
+What is its real name?
+
+388
+00:40:37,271 --> 00:40:40,930
+The Vladimir I. Lenin
+Nuclear Power Station.
+
+389
+00:40:40,933 --> 00:40:42,855
+Exactly.
+
+390
+00:40:44,979 --> 00:40:48,855
+Vladimir I. Lenin.
+
+391
+00:40:55,979 --> 00:40:59,688
+And how proud he would
+be of you all tonight.
+
+392
+00:41:00,730 --> 00:41:03,021
+Especially you, young man,
+
+393
+00:41:04,021 --> 00:41:06,896
+and the passion you have for the people.
+
+394
+00:41:07,688 --> 00:41:11,896
+For is that not the sole purpose
+of the apparatus of the State?
+
+395
+00:41:13,563 --> 00:41:15,646
+Sometimes, we forget.
+
+396
+00:41:16,855 --> 00:41:19,521
+Sometimes, we fall prey to fear.
+
+397
+00:41:21,145 --> 00:41:25,018
+But our faith in Soviet socialism
+
+398
+00:41:25,021 --> 00:41:27,937
+will always be rewarded.
+
+399
+00:41:30,354 --> 00:41:34,686
+Now, the State tells us the
+situation here is not dangerous.
+
+400
+00:41:34,688 --> 00:41:37,229
+Have faith, comrades.
+
+401
+00:41:38,854 --> 00:41:42,230
+The State tells us it
+wants to prevent a panic.
+
+402
+00:41:42,233 --> 00:41:44,442
+Listen well.
+
+403
+00:41:47,062 --> 00:41:51,271
+It's true, when the people see
+the police, they will be afraid.
+
+404
+00:41:52,605 --> 00:41:54,730
+But it is my experience
+
+405
+00:41:55,896 --> 00:41:58,060
+that when the people ask questions
+
+406
+00:41:58,062 --> 00:42:01,436
+that are not in their own best interest,
+
+407
+00:42:01,438 --> 00:42:03,436
+they should simply be told
+
+408
+00:42:03,438 --> 00:42:05,605
+to keep their minds on their labor
+
+409
+00:42:06,605 --> 00:42:11,479
+and leave matters of
+the State to the State.
+
+410
+00:42:13,146 --> 00:42:15,229
+We seal off the city.
+
+411
+00:42:16,396 --> 00:42:18,062
+No one leaves.
+
+412
+00:42:18,771 --> 00:42:20,977
+And cut the phone lines.
+
+413
+00:42:20,979 --> 00:42:23,771
+Contain the spread of misinformation.
+
+414
+00:42:26,438 --> 00:42:29,311
+That is how we keep the people
+
+415
+00:42:29,313 --> 00:42:32,479
+from undermining the
+fruits of their own labor.
+
+416
+00:42:35,521 --> 00:42:37,313
+Yes, comrades...
+
+417
+00:42:38,605 --> 00:42:42,646
+we will all be rewarded
+for what we do here tonight.
+
+418
+00:42:44,986 --> 00:42:49,486
+This is our moment to shine.
+
+419
+00:43:01,638 --> 00:43:02,855
+Thank you.
+
+420
+00:43:15,313 --> 00:43:18,313
+Comrade Sitnikov to
+see the Chief Engineer.
+
+421
+00:43:31,187 --> 00:43:32,354
+Well?
+
+422
+00:43:38,979 --> 00:43:42,187
+I sent my dosimetrists
+into the reactor building.
+
+423
+00:43:43,521 --> 00:43:45,060
+The large dosimeter from the safe,
+
+424
+00:43:45,062 --> 00:43:46,977
+the one with the
+1,000-roentgen capacity...
+
+425
+00:43:46,979 --> 00:43:48,313
+What was the number?
+
+426
+00:43:51,563 --> 00:43:52,853
+There was none.
+
+427
+00:43:52,855 --> 00:43:55,730
+The meter burned out the
+second it was turned on.
+
+428
+00:43:56,563 --> 00:43:58,705
+- It's typical.
+- See? This is what Moscow does.
+
+429
+00:43:58,708 --> 00:44:01,728
+Sends us shit equipment, then
+wonders why things go wrong.
+
+430
+00:44:01,730 --> 00:44:04,019
+We found another dosimeter
+
+431
+00:44:04,021 --> 00:44:06,060
+from the military fire department.
+
+432
+00:44:06,062 --> 00:44:09,102
+It only goes to 200 roentgen, but
+it's better than the small ones.
+
+433
+00:44:09,105 --> 00:44:10,220
+And?
+
+434
+00:44:11,479 --> 00:44:13,436
+It maxed out.
+
+435
+00:44:13,438 --> 00:44:15,021
+Two hundred roentgen.
+
+436
+00:44:17,520 --> 00:44:19,685
+What game are you playing?
+
+437
+00:44:19,688 --> 00:44:21,185
+No, I... I...
+
+438
+00:44:21,187 --> 00:44:24,894
+I asked him, he took multiple
+measurements, he's my best man.
+
+439
+00:44:24,896 --> 00:44:27,644
+It's another faulty meter.
+You're wasting our time.
+
+440
+00:44:27,646 --> 00:44:29,477
+I checked the meter against the control.
+
+441
+00:44:29,479 --> 00:44:31,811
+What's wrong with you?
+How'd you get that number
+
+442
+00:44:31,813 --> 00:44:34,062
+from feedwater leaking
+from a blown tank?
+
+443
+00:44:37,563 --> 00:44:41,104
+- You don't.
+- Then what the fuck are you talking about?
+
+444
+00:44:45,229 --> 00:44:47,104
+I, um...
+
+445
+00:44:48,937 --> 00:44:52,438
+I walked around the
+exterior of Building 4.
+
+446
+00:44:53,479 --> 00:44:56,937
+I think there's graphite
+on the ground in the rubble.
+
+447
+00:44:57,937 --> 00:44:59,730
+You didn't see graphite.
+
+448
+00:45:00,537 --> 00:45:02,454
+- I did.
+- You didn't.
+
+449
+00:45:03,479 --> 00:45:07,271
+You didn't! Because it's not there!
+
+450
+00:45:08,146 --> 00:45:09,853
+What?
+
+451
+00:45:09,855 --> 00:45:13,436
+Are you suggesting the core... what?
+
+452
+00:45:13,438 --> 00:45:15,605
+Exploded?
+
+453
+00:45:17,271 --> 00:45:18,605
+Yes.
+
+454
+00:45:27,021 --> 00:45:28,313
+Sitnikov.
+
+455
+00:45:29,563 --> 00:45:32,185
+You're a nuclear engineer, so am I.
+
+456
+00:45:32,187 --> 00:45:38,477
+Please tell me how an
+RBMK reactor core explodes.
+
+457
+00:45:38,479 --> 00:45:42,227
+Not a meltdown, an explosion.
+
+458
+00:45:42,237 --> 00:45:43,987
+I'd love to know.
+
+459
+00:45:44,927 --> 00:45:46,260
+I can't.
+
+460
+00:45:47,228 --> 00:45:48,729
+Are you stupid?
+
+461
+00:45:49,979 --> 00:45:52,771
+- No.
+- Then why can't you?
+
+462
+00:45:54,104 --> 00:45:55,688
+I...
+
+463
+00:45:57,646 --> 00:46:00,271
+I don't see how it could explode.
+
+464
+00:46:02,646 --> 00:46:04,663
+- But it did.
+- Enough!
+
+465
+00:46:04,666 --> 00:46:06,352
+I'll go up to the vent block roof.
+
+466
+00:46:06,354 --> 00:46:09,811
+From there you can look right
+down into reactor Building 4.
+
+467
+00:46:09,813 --> 00:46:13,561
+I'll see it with my own... my own eyes.
+
+468
+00:46:19,628 --> 00:46:21,211
+I apologize.
+
+469
+00:46:22,813 --> 00:46:24,563
+Guards! Guards!
+
+470
+00:46:25,521 --> 00:46:28,855
+Get him to the medic or the
+hospital! Whatever he needs!
+
+471
+00:46:44,937 --> 00:46:48,187
+It's the feedwater.
+Been around it all night.
+
+472
+00:46:50,563 --> 00:46:51,896
+You go then.
+
+473
+00:46:54,896 --> 00:46:56,477
+What?
+
+474
+00:46:56,479 --> 00:46:59,473
+Go to the vent block roof
+and report back what you see.
+
+475
+00:46:59,476 --> 00:47:00,569
+No.
+
+476
+00:47:04,438 --> 00:47:08,271
+- No, I won't do that.
+- Of course you will.
+
+477
+00:47:13,169 --> 00:47:16,503
+You'll be fine. You'll see.
+
+478
+00:47:17,991 --> 00:47:19,492
+Come on.
+
+479
+00:48:00,896 --> 00:48:02,271
+Okay.
+
+480
+00:48:03,819 --> 00:48:05,320
+Let's begin.
+
+481
+00:48:13,307 --> 00:48:14,849
+Leonid.
+
+482
+00:48:18,567 --> 00:48:19,942
+Leonid.
+
+483
+00:48:21,146 --> 00:48:22,479
+Oh...
+
+484
+00:48:28,438 --> 00:48:30,644
+It's all the way, okay?
+
+485
+00:48:30,647 --> 00:48:32,772
+All the way open.
+
+486
+00:48:41,479 --> 00:48:42,813
+I'm sorry.
+
+487
+00:48:46,422 --> 00:48:48,810
+There's nothing to be sorry for.
+
+488
+00:48:48,813 --> 00:48:52,146
+I told you, we did nothing wrong.
+
+489
+00:48:54,688 --> 00:48:56,187
+But we did.
+
+490
+00:52:44,122 --> 00:52:45,328
+Hello?
+
+491
+00:52:45,331 --> 00:52:47,268
+- Valery Legasov?
+- Yes.
+
+492
+00:52:47,271 --> 00:52:49,894
+You are the Legasov who is
+the First Deputy Director
+
+493
+00:52:49,896 --> 00:52:52,477
+of the Kurchatov
+Institute of Atomic Energy?
+
+494
+00:52:52,479 --> 00:52:55,060
+- I am. Who am I...?
+- This is Boris Shcherbina,
+
+495
+00:52:55,062 --> 00:52:57,144
+Deputy Chairman of the
+Council of Ministers
+
+496
+00:52:57,146 --> 00:52:59,853
+and head of the Bureau
+for Fuel and Energy.
+
+497
+00:52:59,855 --> 00:53:04,686
+There's been an accident at the
+Chernobyl Nuclear Power Plant.
+
+498
+00:53:04,688 --> 00:53:05,935
+How bad is it?
+
+499
+00:53:05,937 --> 00:53:08,185
+No. No need to panic. There was a fire.
+
+500
+00:53:08,187 --> 00:53:11,400
+It's mostly put out. The
+system control tank exploded.
+
+501
+00:53:11,403 --> 00:53:14,853
+Control system tank. And the core?
+
+502
+00:53:14,855 --> 00:53:18,102
+We've ordered them to
+continuously pump water.
+
+503
+00:53:18,104 --> 00:53:20,853
+Yes, I see. Any contamination?
+
+504
+00:53:20,855 --> 00:53:23,769
+It's mild. The plant manager,
+Bryukhanov, is reporting
+
+505
+00:53:23,771 --> 00:53:25,352
+3.6 roentgen per hour.
+
+506
+00:53:25,354 --> 00:53:27,603
+That's actually significant.
+You should evacuate the sur...
+
+507
+00:53:27,605 --> 00:53:32,102
+You're an expert on
+RBMK reactors, correct?
+
+508
+00:53:32,105 --> 00:53:33,689
+Yes, I've studied...
+
+509
+00:53:33,692 --> 00:53:36,394
+General Secretary Gorbachev
+has appointed a committee
+
+510
+00:53:36,396 --> 00:53:40,102
+to manage the accident. You're on it.
+
+511
+00:53:40,104 --> 00:53:42,352
+We'll convene at two this afternoon.
+
+512
+00:53:42,354 --> 00:53:45,519
+That late? Forgive
+me, but don't you think
+
+513
+00:53:45,521 --> 00:53:47,352
+given the amount of
+radiation that it would be...
+
+514
+00:53:47,354 --> 00:53:50,658
+Legasov, you're on this committee
+to answer direct questions
+
+515
+00:53:50,661 --> 00:53:53,144
+about the function of an RBMK reactor
+
+516
+00:53:53,146 --> 00:53:56,185
+if they should happen
+to arise. Nothing else.
+
+517
+00:53:56,187 --> 00:53:58,977
+Certainly not policy. Do you understand?
+
+518
+00:53:58,979 --> 00:54:01,977
+Yes, of course. I didn't mean to...
+
+519
+00:56:10,270 --> 00:56:17,268
+- <font color="#D81D1D">Synced and corrected by VitoSilans</font> -
+-- <font color="#138CE9">www.Addic7ed.com</font> --
+
+520
+00:58:52,065 --> 00:58:53,935
+I'm pleased to report that
+
+521
+00:58:53,937 --> 00:58:56,097
+the situation in Chernobyl is stable.
+
+522
+00:58:57,995 --> 00:58:59,561
+In terms of radiation,
+
+523
+00:58:59,563 --> 00:59:02,378
+I'm told it's the
+equivalent of a chest X-ray.
+
+524
+00:59:05,438 --> 00:59:06,769
+No!
+
+525
+00:59:06,771 --> 00:59:09,185
+The fire is giving off
+nearly twice the radiation
+
+526
+00:59:09,187 --> 00:59:10,979
+released by the bomb in Hiroshima.
+
+527
+00:59:12,062 --> 00:59:13,644
+It will burn and spread its poison
+
+528
+00:59:13,646 --> 00:59:16,269
+until the entire continent is dead.
+
+529
+00:59:20,271 --> 00:59:22,573
+Tell our soldiers,
+
+530
+00:59:22,576 --> 00:59:24,227
+"You will need to move quickly,
+
+531
+00:59:24,230 --> 00:59:26,021
+and you will need to move carefully.
+
+532
+00:59:27,605 --> 00:59:30,688
+These are the most important
+90 seconds of your lives.
+
+533
+00:59:32,479 --> 00:59:34,688
+I wish you good health and long life."
+
+534
+00:59:35,896 --> 00:59:37,956
+I serve the Soviet Union.
+
+535
+00:59:38,062 --> 00:59:39,730
+I serve the Soviet Union.
+
+536
+00:59:40,438 --> 00:59:42,104
+I serve the Soviet Union.
+
+537
+00:59:50,855 --> 00:59:53,401
+The official position of the state
+
+538
+00:59:53,404 --> 00:59:55,769
+is that a global nuclear catastrophe
+
+539
+00:59:55,771 --> 00:59:57,771
+is not possible in the Soviet Union.
+

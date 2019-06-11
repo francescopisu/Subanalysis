@@ -1,0 +1,515 @@
+1
+00:00:01,010 --> 00:00:01,850
+Water,
+
+2
+00:00:03,370 --> 00:00:04,120
+Earth,
+
+3
+00:00:05,310 --> 00:00:06,250
+Fire,
+
+4
+00:00:07,690 --> 00:00:08,510
+Air.
+
+5
+00:00:09,900 --> 00:00:13,940
+Long ago, the four nations lived together in harmony.
+
+6
+00:00:14,000 --> 00:00:17,490
+Then, everything changed when the fire nation attacked.
+
+7
+00:00:18,170 --> 00:00:22,310
+Only the Avatar, master of all four elements, could stop them.
+
+8
+00:00:22,340 --> 00:00:25,510
+But when the world needed him most, he vanished.
+
+9
+00:00:25,890 --> 00:00:29,580
+100 years passed, and my brother and I discovered the new Avatar,
+
+10
+00:00:29,640 --> 00:00:31,550
+an Airbender named Aang.
+
+11
+00:00:31,580 --> 00:00:33,970
+And although his airbending skills are great
+
+12
+00:00:34,000 --> 00:00:37,140
+He has a lot to learn before he's ready to save anyone.
+
+13
+00:00:37,330 --> 00:00:40,820
+But I believe Aang can save the world.
+
+14
+00:00:46,721 --> 00:00:49,421
+<i>Previously on Avatar</i>
+
+15
+00:00:49,922 --> 00:00:52,422
+Everyone, even my own past lives,
+
+16
+00:00:52,623 --> 00:00:55,023
+are expecting me to end someone's life.
+
+17
+00:00:55,173 --> 00:00:56,723
+But I don't know if I can do it.
+
+18
+00:00:56,724 --> 00:01:00,924
+Ba Sing Se, the Order of the White Lotus is here.
+
+19
+00:01:01,325 --> 00:01:03,425
+Here to set you free.
+
+20
+00:01:04,726 --> 00:01:05,426
+Sukki!
+
+21
+00:01:05,627 --> 00:01:08,727
+I'm okay, just finish the mission!
+
+22
+00:01:08,728 --> 00:01:11,728
+Sorry, but you're not gonna become Fire Lord today.
+
+23
+00:01:14,329 --> 00:01:15,729
+I am.
+
+24
+00:01:18,130 --> 00:01:18,830
+Zuko!
+
+25
+00:01:19,931 --> 00:01:23,731
+You're weak, just like the rest of your people.
+
+26
+00:01:23,832 --> 00:01:24,932
+Prepare to die!
+
+27
+00:01:40,080 --> 00:01:44,730
+Come on out, Avatar! You can't hide in there forever!
+
+28
+00:01:51,560 --> 00:01:54,600
+Toph, metalbend the rudder so it's jammed in a turning position.
+
+29
+00:01:54,750 --> 00:01:57,120
+The ship will spiral and slam into the others.
+
+30
+00:01:57,120 --> 00:01:57,690
+Got it
+
+31
+00:02:14,360 --> 00:02:17,720
+Have I ever mentioned how sweet it is that you invented metal bending?
+
+32
+00:02:17,970 --> 00:02:19,780
+You can stand to mention it more
+
+33
+00:02:31,830 --> 00:02:35,540
+Aaaaaargh!
+
+34
+00:02:42,180 --> 00:02:45,080
+My leg! Hang on Toph!
+
+35
+00:02:45,420 --> 00:02:46,960
+Aye-aye Captain!
+
+36
+00:03:04,850 --> 00:03:07,530
+Bye space sword...
+
+37
+00:03:14,600 --> 00:03:19,650
+I don't think boomerang's coming back Toph, It looks like this is the end.
+
+38
+00:03:31,110 --> 00:03:34,040
+How did that happen? Did boomerang come back?
+
+39
+00:03:34,370 --> 00:03:36,860
+No! Sukki did!
+
+40
+00:04:26,560 --> 00:04:30,290
+Come on out little boy. You are about to be...
+
+41
+00:07:13,840 --> 00:07:18,210
+I'd really rather our family physician look after little Zuzu if you don't mind!
+
+44
+00:09:12,820 --> 00:09:14,690
+Thank you Katara.
+
+45
+00:09:15,520 --> 00:09:18,060
+I think I'm the one who should be thanking you.
+
+46
+00:11:36,860 --> 00:11:42,020
+Fire Lord Ozai, You and your forefathers have devastated the balance of this world!
+
+47
+00:11:42,070 --> 00:11:45,170
+And now, you shall pay the ultimate price!
+
+48
+00:12:20,160 --> 00:12:22,550
+No, I'm not gonna end it like this.
+
+49
+00:12:23,990 --> 00:12:28,800
+Even with all the power in the world, You are still weak!
+
+50
+00:12:54,710 --> 00:13:04,890
+In the era before the Avatar we bent not the elements, but the energy within ourselves.
+
+51
+00:13:43,260 --> 00:13:49,970
+To bend another's energy, your own spirit must be unbendable,
+
+52
+00:13:49,971 --> 00:13:54,971
+or you will be corrupted and destroyed.
+
+53
+00:14:32,690 --> 00:14:35,240
+What... What did you do to me?
+
+54
+00:14:35,550 --> 00:14:37,150
+I took away your fire bending.
+
+55
+00:14:37,510 --> 00:14:40,870
+You can't use it to hurt or threaten anyone else ever again.
+
+56
+00:15:45,750 --> 00:15:49,050
+You did it! You should have seen yourself. It was amazing!
+
+57
+00:15:49,320 --> 00:15:50,170
+You are all like...
+
+58
+00:15:53,410 --> 00:15:54,580
+And the Fire Lord are like...
+
+59
+00:15:59,340 --> 00:16:03,200
+So did you, you know, finish the job?
+
+60
+00:16:03,930 --> 00:16:06,660
+I'm still alive...
+
+61
+00:16:08,100 --> 00:16:11,070
+I learned there was another way to defeat him and restore balance
+
+62
+00:16:11,510 --> 00:16:12,740
+I took his bending away
+
+63
+00:16:13,250 --> 00:16:15,130
+Wow, who taught you that?
+
+64
+00:16:15,530 --> 00:16:16,640
+A giant lionturtle
+
+65
+00:16:17,120 --> 00:16:19,900
+You have the craziest adventures when you disappear.
+
+66
+00:16:20,890 --> 00:16:25,480
+Well, look at you buster. Now when your fire bending is gone we should call you...
+
+67
+00:16:25,690 --> 00:16:27,280
+The Loser Lord
+
+68
+00:16:27,740 --> 00:16:31,620
+I am the Phoenix King!
+
+69
+00:16:32,950 --> 00:16:37,330
+<i>Oh sorry, Did me to offend you Phoenix King of getting butt whooped!</i>
+
+70
+00:16:37,780 --> 00:16:43,010
+Yeah, or how about... king of the... guys who don't win?
+
+71
+00:16:43,590 --> 00:16:45,230
+Leave the nicknames to us, honey.
+
+72
+00:17:07,690 --> 00:17:08,880
+You need some help with that?
+
+73
+00:17:12,240 --> 00:17:14,070
+Mai! You're okay!
+
+74
+00:17:15,220 --> 00:17:16,380
+They let you out of prison?
+
+75
+00:17:16,510 --> 00:17:18,020
+My uncle pulled some strings.
+
+76
+00:17:18,470 --> 00:17:21,670
+And it doesn't hurt the new Fire Lord is your boyfriend.
+
+77
+00:17:21,690 --> 00:17:23,270
+So does this mean you don't hate me anymore?
+
+78
+00:17:23,710 --> 00:17:27,440
+I think this means I actually kind of like you.
+
+79
+00:17:31,630 --> 00:17:34,540
+But don't ever break up with me again!
+
+80
+00:17:51,840 --> 00:17:52,260
+Dad!
+
+81
+00:17:52,490 --> 00:17:53,040
+Dad!
+
+82
+00:17:56,980 --> 00:17:58,650
+I heard what you two did.
+
+83
+00:17:59,220 --> 00:18:01,740
+I am the proudest father in the world.
+
+84
+00:18:03,200 --> 00:18:05,290
+And your mother would be proud too
+
+85
+00:18:08,260 --> 00:18:11,830
+There's my favorite warriors, I have to admit I kind missed the face paint.
+
+86
+00:18:12,410 --> 00:18:14,500
+So how's it feel to be back in uniform again?
+
+87
+00:18:14,930 --> 00:18:16,340
+It feels great!
+
+88
+00:18:18,270 --> 00:18:21,890
+Careful Sukki! Ty Lee's pretending to be a Kyoshi warrior again!
+
+89
+00:18:22,440 --> 00:18:24,890
+It's OK. She's one of us now
+
+90
+00:18:26,710 --> 00:18:29,440
+Yeah. The girls and I really bonded in prison.
+
+91
+00:18:29,440 --> 00:18:32,660
+And after a few chi-blocking lessons, they said I could join their group!
+
+92
+00:18:33,180 --> 00:18:35,220
+We gonna be best friends forever!
+
+93
+00:18:44,450 --> 00:18:47,360
+I can't believe a year ago, my purpose in life was hunting you down.
+
+94
+00:18:47,950 --> 00:18:48,790
+And now...
+
+95
+00:18:48,960 --> 00:18:50,040
+And now we're friends.
+
+96
+00:18:51,460 --> 00:18:53,810
+Yeah. We are friends.
+
+97
+00:18:54,360 --> 00:18:57,590
+I can't believe a year ago, I was still frozen in a block of ice.
+
+98
+00:18:58,170 --> 00:18:59,490
+The world is so different now.
+
+99
+00:19:00,330 --> 00:19:02,100
+And it's gonna be even more different.
+
+100
+00:19:02,870 --> 00:19:04,330
+We'll rebuild it together.
+
+101
+00:19:23,680 --> 00:19:27,830
+Please, the real hero is the Avatar.
+
+102
+00:19:40,950 --> 00:19:44,400
+Today, this war is finally over!
+
+103
+00:19:48,500 --> 00:19:53,420
+I promised my uncle that I would restore the honor of the Fire Nation.
+And I will!
+
+104
+00:19:53,560 --> 00:20:00,180
+The road ahead of us is challenging.
+A hundred years of fighting has left the world scared and divided.
+
+105
+00:20:01,210 --> 00:20:02,720
+But with the Avatar's help,
+
+106
+00:20:02,890 --> 00:20:08,910
+we can get it back on the right path.
+And begin a new era of Love, and Peace.
+
+107
+00:20:15,330 --> 00:20:18,570
+All Hail Fire Lord Zuko!
+
+108
+00:20:56,990 --> 00:20:59,290
+I should count myself lucky.
+
+109
+00:20:59,670 --> 00:21:03,700
+The new Fire Lord has graced me with his presence in my lonely prison cell.
+
+110
+00:21:04,300 --> 00:21:07,300
+You should count yourself lucky the Avatar spared your life.
+
+111
+00:21:09,310 --> 00:21:12,140
+Banishing me was the best thing you could have done for my life.
+
+112
+00:21:12,960 --> 00:21:14,400
+It put me on the right path.
+
+113
+00:21:15,550 --> 00:21:18,090
+Perhaps your time in here could do the same for you.
+
+114
+00:21:19,240 --> 00:21:21,780
+Why you really here?
+
+115
+00:21:21,760 --> 00:21:24,560
+Because you gonna tell me something.
+
+116
+00:21:26,290 --> 00:21:28,620
+Where is my mother?
+
+117
+00:21:59,520 --> 00:22:03,170
+Zuko stop moving! I'm trying to capture the moment.
+
+118
+00:22:04,320 --> 00:22:07,710
+I wanted to do a painting, so we always remember the good times together.
+
+119
+00:22:08,200 --> 00:22:10,040
+That's very thoughtful of you Sokka.
+
+120
+00:22:10,800 --> 00:22:13,190
+Wait, why you get me Momo's hair?
+
+121
+00:22:13,230 --> 00:22:15,070
+Those are your hair's loopies.
+
+122
+00:22:16,000 --> 00:22:19,660
+At least you don't look like a porcupine. My hair is not that spiky!
+
+123
+00:22:20,110 --> 00:22:21,370
+I look like a man.
+
+124
+00:22:21,660 --> 00:22:23,630
+And why did you paint me fire bending?
+
+125
+00:22:23,950 --> 00:22:26,340
+I thought it looked more exciting that way.
+
+126
+00:22:26,340 --> 00:22:27,220
+<i>[Momo chattering]</i>
+
+127
+00:22:27,310 --> 00:22:29,540
+Oh, you think you can do a better job, Momo?
+
+128
+00:22:29,540 --> 00:22:30,710
+<i>[Momo chattering]</i>
+
+129
+00:22:31,840 --> 00:22:36,560
+Hey, my belly's not that big anymore. I really trimmed down.
+
+130
+00:22:36,850 --> 00:22:38,980
+Well, I think you all look perfect!
+
