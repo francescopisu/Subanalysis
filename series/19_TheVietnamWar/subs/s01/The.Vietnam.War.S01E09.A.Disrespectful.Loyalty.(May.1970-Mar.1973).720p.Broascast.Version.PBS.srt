@@ -1,0 +1,8440 @@
+1
+00:00:01,566 --> 00:00:02,999
+ANNOUNCER: MAJOR SUPPORT
+FOR "THE VIETNAM WAR"
+
+2
+00:00:03,000 --> 00:00:06,499
+WAS PROVIDED BY MEMBERS OF
+THE BETTER ANGELS SOCIETY,
+
+3
+00:00:06,500 --> 00:00:10,464
+INCLUDING JONATHAN AND JEANNIE LAVINE,
+
+4
+00:00:10,465 --> 00:00:13,364
+DIANE AND HAL BRIERLEY,
+
+5
+00:00:13,365 --> 00:00:15,765
+AMY AND DAVID ABRAMS,
+
+6
+00:00:15,766 --> 00:00:18,264
+JOHN AND CATHERINE DEBS,
+
+7
+00:00:18,265 --> 00:00:21,165
+THE FULLERTON FAMILY CHARITABLE FUND,
+
+8
+00:00:21,166 --> 00:00:23,232
+THE MONTRONE FAMILY,
+
+9
+00:00:23,233 --> 00:00:25,564
+LYNDA AND STEWART RESNICK,
+
+10
+00:00:25,565 --> 00:00:28,331
+THE PERRY AND DONNA
+GOLKIN FAMILY FOUNDATION,
+
+11
+00:00:28,332 --> 00:00:29,332
+THE LYNCH FOUNDATION,
+
+12
+00:00:29,333 --> 00:00:32,199
+THE ROGER AND ROSEMARY ENRICO FOUNDATION,
+
+13
+00:00:32,200 --> 00:00:35,632
+AND BY THESE ADDITIONAL FUNDERS.
+
+14
+00:00:35,633 --> 00:00:37,532
+MAJOR FUNDING WAS ALSO PROVIDED
+
+15
+00:00:37,533 --> 00:00:39,265
+BY DAVID H. KOCH...
+
+16
+00:00:41,566 --> 00:00:43,765
+THE BLAVATNIK FAMILY FOUNDATION...
+
+17
+00:00:46,100 --> 00:00:48,532
+THE PARK FOUNDATION,
+
+18
+00:00:48,533 --> 00:00:50,699
+THE NATIONAL ENDOWMENT FOR THE HUMANITIES,
+
+19
+00:00:50,700 --> 00:00:52,898
+THE PEW CHARITABLE TRUSTS,
+
+20
+00:00:52,899 --> 00:00:55,565
+THE JOHN S. AND JAMES L. KNIGHT FOUNDATION,
+
+21
+00:00:55,566 --> 00:00:58,331
+THE ANDREW W. MELLON FOUNDATION,
+
+22
+00:00:58,332 --> 00:01:00,999
+THE ARTHUR VINING DAVIS FOUNDATIONS,
+
+23
+00:01:01,000 --> 00:01:03,199
+THE FORD FOUNDATION JUSTFILMS,
+
+24
+00:01:03,200 --> 00:01:04,399
+BY THE CORPORATION
+
+25
+00:01:04,400 --> 00:01:05,631
+FOR PUBLIC BROADCASTING,
+
+26
+00:01:05,632 --> 00:01:07,598
+AND BY VIEWERS LIKE YOU.
+
+27
+00:01:07,599 --> 00:01:08,733
+THANK YOU.
+
+28
+00:01:13,266 --> 00:01:15,399
+ANNOUNCER: BANK OF AMERICA PROUDLY SUPPORTS
+
+29
+00:01:15,400 --> 00:01:20,298
+KEN BURNS' AND LYNN NOVICK'S
+FILM "THE VIETNAM WAR"
+
+30
+00:01:20,299 --> 00:01:22,699
+BECAUSE FOSTERING DIFFERENT PERSPECTIVES
+
+31
+00:01:22,700 --> 00:01:25,298
+AND CIVIL DISCOURSE AROUND IMPORTANT ISSUES
+
+32
+00:01:25,299 --> 00:01:27,598
+FURTHERS PROGRESS, EQUALITY,
+
+33
+00:01:27,599 --> 00:01:29,599
+AND A MORE CONNECTED SOCIETY.
+
+34
+00:01:34,066 --> 00:01:38,099
+GO TO BANKOFAMERICA.COM/
+BETTERCONNECTED TO LEARN MORE.
+
+35
+00:01:43,332 --> 00:01:45,665
+CROWD (chanting): No more war! No more war!
+
+36
+00:01:45,765 --> 00:01:49,332
+No more war! No more war!
+
+37
+00:01:49,432 --> 00:01:51,000
+No more war! No more war!
+
+38
+00:01:51,099 --> 00:01:52,509
+("Get Together" by the Youngbloods playing)
+
+39
+00:01:52,533 --> 00:01:55,900
+No more war! No more war!
+
+40
+00:01:56,000 --> 00:01:58,766
+No more war! No more war!
+
+41
+00:01:58,865 --> 00:01:59,965
+No more war!
+
+42
+00:02:00,066 --> 00:02:03,633
+CROWD (chanting): U.S.A.!
+U.S.A.! U.S.A.! U.S.A.!
+
+43
+00:02:03,733 --> 00:02:06,865
+YOUNGBLOODS: ♪ Love is but a song to sing
+
+44
+00:02:06,966 --> 00:02:10,599
+♪ Fear's the way we die
+
+45
+00:02:10,699 --> 00:02:12,699
+(crowds shouting, clamoring)
+
+46
+00:02:15,466 --> 00:02:18,765
+♪ You can make the mountains ring ♪
+
+47
+00:02:18,865 --> 00:02:21,800
+♪ Or make the angels cry
+
+48
+00:02:24,400 --> 00:02:25,900
+(shouting continues)
+
+49
+00:02:26,000 --> 00:02:28,165
+♪ Come on, people, now
+
+50
+00:02:28,265 --> 00:02:29,800
+♪ Smile on your brother
+
+51
+00:02:29,900 --> 00:02:31,633
+♪ Everybody get together
+
+52
+00:02:31,733 --> 00:02:35,633
+♪ Try to love one another right now ♪
+
+53
+00:02:38,865 --> 00:02:40,765
+KARL MARLANTES: My brother picked me up
+
+54
+00:02:40,865 --> 00:02:44,000
+at Travis Air Force Base.
+
+55
+00:02:44,099 --> 00:02:46,199
+And I remember he had a Valiant,
+
+56
+00:02:46,300 --> 00:02:48,165
+an old beat-up Valiant.
+
+57
+00:02:48,265 --> 00:02:49,566
+And we met inside the terminal.
+
+58
+00:02:49,665 --> 00:02:51,265
+And I was so happy to see him.
+
+59
+00:02:51,365 --> 00:02:52,566
+I just love my brother.
+
+60
+00:02:52,665 --> 00:02:54,165
+(crowd shouting in distance)
+
+61
+00:02:54,265 --> 00:02:56,265
+He said, "Now, I don't
+want you to get upset,
+
+62
+00:02:56,366 --> 00:02:58,133
+"but we're probably gonna get some trouble
+
+63
+00:02:58,233 --> 00:03:01,699
+when we go outside."
+
+64
+00:03:01,800 --> 00:03:04,133
+And I went, "Trouble? I
+just got back from Vietnam.
+
+65
+00:03:04,233 --> 00:03:05,665
+What are you talking about?"
+
+66
+00:03:05,765 --> 00:03:07,699
+I mean, I knew that there was unrest.
+
+67
+00:03:07,800 --> 00:03:09,566
+YOUNGBLOODS: ♪ If you
+hear the song I sing
+
+68
+00:03:09,665 --> 00:03:13,300
+MARLANTES: But when we got in his car
+to drive away from the terminal,
+
+69
+00:03:13,400 --> 00:03:17,265
+we had to wind our way through protesters
+
+70
+00:03:17,365 --> 00:03:20,665
+that were pounding on the car
+with the ends of their signs
+
+71
+00:03:20,765 --> 00:03:22,765
+and were snarling at me
+
+72
+00:03:22,865 --> 00:03:26,265
+and pounding on the window and
+shouting obscenities at me.
+
+73
+00:03:27,432 --> 00:03:29,900
+That was my welcome home to America.
+
+74
+00:03:30,000 --> 00:03:31,699
+(shouting continues)
+
+75
+00:03:31,800 --> 00:03:33,533
+I was just stunned.
+
+76
+00:03:33,633 --> 00:03:35,042
+YOUNGBLOODS: ♪ Come on, people, now
+
+77
+00:03:35,066 --> 00:03:37,432
+I have never felt...
+
+78
+00:03:37,533 --> 00:03:41,000
+any anger toward people
+that were war protesters.
+
+79
+00:03:41,099 --> 00:03:44,633
+It's a legitimate political stance.
+
+80
+00:03:44,733 --> 00:03:48,865
+For people that descended into that, I...
+
+81
+00:03:48,966 --> 00:03:52,566
+I-I think that they were really wrong.
+
+82
+00:03:52,665 --> 00:03:55,066
+YOUNGBLOODS: ♪ Try to love
+one another right now ♪
+
+83
+00:03:55,165 --> 00:03:58,665
+It was this-this heartbreak
+of why are you doing this?
+
+84
+00:03:58,765 --> 00:04:01,365
+I mean, you don't know who I am.
+
+85
+00:04:01,466 --> 00:04:04,233
+And it happened over and over.
+
+86
+00:04:04,332 --> 00:04:06,233
+YOUNGBLOODS: ♪ Everybody get together
+
+87
+00:04:06,332 --> 00:04:09,966
+♪ Try to love one another right now ♪
+
+88
+00:04:10,065 --> 00:04:12,533
+♪ Right now
+
+89
+00:04:12,632 --> 00:04:16,533
+♪ Right now.
+
+90
+00:04:22,665 --> 00:04:23,932
+(siren wailing)
+
+91
+00:04:24,033 --> 00:04:26,100
+NARRATOR: In the spring of 1970,
+
+92
+00:04:26,199 --> 00:04:29,466
+despite the uproar over
+the invasion of Cambodia
+
+93
+00:04:29,566 --> 00:04:32,533
+and the killing of four
+students at Kent State,
+
+94
+00:04:32,632 --> 00:04:35,365
+President Nixon's hold on what he called
+
+95
+00:04:35,466 --> 00:04:39,266
+"the great silent majority" seemed secure.
+
+96
+00:04:39,365 --> 00:04:43,033
+A Gallup poll showed that most Americans
+
+97
+00:04:43,132 --> 00:04:45,832
+blamed the students, not
+the national guardsmen,
+
+98
+00:04:45,932 --> 00:04:47,000
+for what had happened.
+
+99
+00:04:47,100 --> 00:04:50,165
+(shouting, clamoring)
+
+100
+00:04:50,266 --> 00:04:53,466
+At an antiwar demonstration in Manhattan,
+
+101
+00:04:53,565 --> 00:04:56,565
+hundreds of construction
+workers in hard hats
+
+102
+00:04:56,665 --> 00:04:58,932
+attacked protestors,
+
+103
+00:04:59,033 --> 00:05:01,833
+sending 70 to the hospital.
+
+104
+00:05:04,665 --> 00:05:07,466
+And when workers marched on City Hall
+
+105
+00:05:07,565 --> 00:05:09,466
+a few days later,
+
+106
+00:05:09,565 --> 00:05:12,665
+Nixon wrote the president of their union
+
+107
+00:05:12,766 --> 00:05:14,665
+to say how pleased he was
+
+108
+00:05:14,766 --> 00:05:16,266
+"to see the tremendous outpouring
+
+109
+00:05:16,365 --> 00:05:18,565
+"of support for our country
+
+110
+00:05:18,665 --> 00:05:23,165
+demonstrated in your orderly
+and most heartening rally."
+
+111
+00:05:23,266 --> 00:05:25,106
+How do you feel about the
+construction workers
+
+112
+00:05:25,132 --> 00:05:27,042
+who attacked the, uh,
+demonstrators last Friday?
+
+113
+00:05:27,066 --> 00:05:29,233
+Don't say attacked. Don't say attacked.
+
+114
+00:05:29,332 --> 00:05:30,865
+They were provoked.
+
+115
+00:05:30,966 --> 00:05:32,800
+They were provoked, man.
+
+116
+00:05:32,899 --> 00:05:34,199
+We work for a living.
+
+117
+00:05:34,300 --> 00:05:36,365
+Every day we get up, we're
+out there in the cold,
+
+118
+00:05:36,466 --> 00:05:37,506
+the rain, the snow, right?
+
+119
+00:05:37,566 --> 00:05:39,533
+We got to have these dirty s...
+
+120
+00:05:39,632 --> 00:05:41,899
+Forget about it, I don't
+want to talk about it, man.
+
+121
+00:05:42,000 --> 00:05:44,266
+Anybody that can take a
+Viet Cong flag and fly it
+
+122
+00:05:44,365 --> 00:05:47,600
+and wave it and bring it up this avenue
+
+123
+00:05:47,699 --> 00:05:50,566
+and get away with it...
+and get away with it...
+
+124
+00:05:50,665 --> 00:05:52,865
+that's unpatriotic to me.
+
+125
+00:05:52,966 --> 00:05:57,500
+NARRATOR: When American
+troops withdrew from Cambodia
+
+126
+00:05:57,600 --> 00:05:59,165
+at the end of June,
+
+127
+00:05:59,266 --> 00:06:01,432
+the White House reported
+that they had killed
+
+128
+00:06:01,533 --> 00:06:05,365
+11,349 enemy troops,
+
+129
+00:06:05,466 --> 00:06:07,966
+captured 22,000 weapons
+
+130
+00:06:08,065 --> 00:06:14,699
+and had destroyed 11,688
+bunkers and buildings.
+
+131
+00:06:14,800 --> 00:06:17,865
+But after so many years of fighting,
+
+132
+00:06:17,966 --> 00:06:21,365
+more and more Americans
+were tired of the war,
+
+133
+00:06:21,466 --> 00:06:23,766
+wanted to get out of Southeast Asia,
+
+134
+00:06:23,865 --> 00:06:28,699
+and did not want the president
+to expand the conflict further.
+
+135
+00:06:28,800 --> 00:06:31,699
+Among their representatives in Congress,
+
+136
+00:06:31,800 --> 00:06:35,365
+antiwar sentiment had steadily grown.
+
+137
+00:06:35,466 --> 00:06:38,399
+As the president searched
+for a face-saving way
+
+138
+00:06:38,500 --> 00:06:41,365
+to end the war, he continued
+to withdraw troops.
+
+139
+00:06:41,466 --> 00:06:43,033
+CROWD (chanting): U.S.A.! U.S.A.!
+
+140
+00:06:43,132 --> 00:06:46,899
+But even as American casualty figures fell,
+
+141
+00:06:47,000 --> 00:06:50,665
+the gulf between Americans at home widened,
+
+142
+00:06:50,766 --> 00:06:53,333
+tearing communities, neighborhoods,
+
+143
+00:06:53,432 --> 00:06:55,865
+even families apart.
+
+144
+00:06:55,966 --> 00:06:59,033
+CROWD (chanting): No more war! No more war!
+
+145
+00:06:59,132 --> 00:07:00,766
+Nixon was convinced...
+
+146
+00:07:00,865 --> 00:07:03,000
+just as Lyndon Johnson had been...
+
+147
+00:07:03,100 --> 00:07:05,500
+that the antiwar movement was somehow
+
+148
+00:07:05,600 --> 00:07:07,632
+being directed from Hanoi,
+
+149
+00:07:07,733 --> 00:07:10,432
+Beijing and Moscow.
+
+150
+00:07:10,533 --> 00:07:12,966
+"Within the iron gates of the White House
+
+151
+00:07:13,065 --> 00:07:15,565
+a siege mentality was settling in,"
+
+152
+00:07:15,665 --> 00:07:18,266
+a Nixon aide remembered.
+
+153
+00:07:18,365 --> 00:07:21,766
+"It was now us against them.
+
+154
+00:07:21,865 --> 00:07:24,966
+"Gradually, as we drew the
+circle closer around us,
+
+155
+00:07:25,066 --> 00:07:28,632
+the ranks of them began to swell."
+
+156
+00:07:28,733 --> 00:07:32,000
+(crowd chattering)
+
+157
+00:07:32,100 --> 00:07:35,432
+PHIL GIOIA: I think the
+Vietnam War drove a stake
+
+158
+00:07:35,533 --> 00:07:38,932
+right into the heart of America.
+
+159
+00:07:39,033 --> 00:07:40,865
+It polarized the country
+
+160
+00:07:40,966 --> 00:07:43,533
+as it had probably never been polarized
+
+161
+00:07:43,632 --> 00:07:45,233
+since before the Civil War.
+
+162
+00:07:45,332 --> 00:07:47,600
+And unfortunately, we've never moved
+
+163
+00:07:47,699 --> 00:07:49,566
+really far away from that.
+
+164
+00:07:49,665 --> 00:07:52,266
+And we never recovered.
+
+165
+00:07:52,365 --> 00:07:54,266
+CROWD: No more war! No more war!
+
+166
+00:07:54,365 --> 00:07:56,432
+CROWD: U.S.A.! U.S.A.! U.S.A.!
+
+167
+00:07:56,533 --> 00:07:58,365
+CROWD: No more war! No more war!
+
+168
+00:07:58,466 --> 00:08:01,199
+No more war! No more war! U.S.A.! U.S.A.!
+
+169
+00:08:01,300 --> 00:08:03,800
+U.S.A.! U.S.A.! No more war! No more war!
+
+170
+00:08:03,899 --> 00:08:07,632
+No more war! No more war! No more war!
+
+171
+00:08:07,733 --> 00:08:10,533
+(chanting stops)
+
+172
+00:08:10,632 --> 00:08:13,100
+♪
+
+173
+00:08:14,733 --> 00:08:16,373
+DAVID FROST: Thank you very much, indeed,
+
+174
+00:08:16,466 --> 00:08:18,432
+and welcome to this, uh, special,
+
+175
+00:08:18,533 --> 00:08:20,899
+very special edition
+ofThe David Frost Show.
+
+176
+00:08:21,000 --> 00:08:24,800
+The vice president himself
+wanted to debate with students,
+
+177
+00:08:24,899 --> 00:08:28,665
+and we suggested a format in
+which he might like to do so.
+
+178
+00:08:28,765 --> 00:08:31,200
+Welcome Eva Jefferson from Northwestern,
+
+179
+00:08:31,298 --> 00:08:33,899
+who testified before the
+Scranton Commission
+
+180
+00:08:34,000 --> 00:08:37,000
+on Campus Unrest and is
+majoring in political science.
+
+181
+00:08:37,100 --> 00:08:38,566
+Is that right? Right.
+
+182
+00:08:38,665 --> 00:08:40,533
+NARRATOR: Eva Jefferson,
+
+183
+00:08:40,633 --> 00:08:43,133
+whose father had served in Vietnam,
+
+184
+00:08:43,232 --> 00:08:45,033
+was now the student body president
+
+185
+00:08:45,133 --> 00:08:47,432
+at Northwestern University.
+
+186
+00:08:47,533 --> 00:08:49,133
+After Kent State,
+
+187
+00:08:49,232 --> 00:08:52,232
+she had forcefully stopped angry protestors
+
+188
+00:08:52,332 --> 00:08:56,133
+from burning down the ROTC
+building at her school,
+
+189
+00:08:56,232 --> 00:09:00,133
+and later testified before
+a presidential commission
+
+190
+00:09:00,232 --> 00:09:04,133
+looking into the causes of student unrest.
+
+191
+00:09:04,232 --> 00:09:07,033
+She had warned then that some students
+
+192
+00:09:07,133 --> 00:09:08,966
+were becoming so frustrated
+
+193
+00:09:09,066 --> 00:09:10,966
+that they felt they had no choice
+
+194
+00:09:11,066 --> 00:09:14,265
+but to engage in violence.
+
+195
+00:09:14,365 --> 00:09:16,633
+And right now it's a privilege to welcome
+
+196
+00:09:16,732 --> 00:09:18,432
+the vice president of the United States,
+
+197
+00:09:18,533 --> 00:09:20,700
+Spiro T. Agnew.
+
+198
+00:09:20,799 --> 00:09:24,133
+(audience applauding)
+
+199
+00:09:24,232 --> 00:09:25,633
+AGNEW: Let me
+
+200
+00:09:25,732 --> 00:09:28,665
+take brief exception to
+one thing you've said,
+
+201
+00:09:28,765 --> 00:09:30,076
+that the only way to get the attention
+
+202
+00:09:30,100 --> 00:09:32,100
+of the society is to bomb buildings.
+
+203
+00:09:32,200 --> 00:09:34,033
+What I attempted to do
+
+204
+00:09:34,133 --> 00:09:36,000
+before the Scranton
+Committee was to explain
+
+205
+00:09:36,100 --> 00:09:38,665
+what could motivate someone
+to blow up a building.
+
+206
+00:09:38,765 --> 00:09:41,633
+I did not say I endorse this,
+and if you read my testimony
+
+207
+00:09:41,732 --> 00:09:44,200
+quite carefully, you'll know that I didn't.
+
+208
+00:09:44,299 --> 00:09:47,033
+And it's this type of-of
+just picking up on what,
+
+209
+00:09:47,133 --> 00:09:49,932
+allegedly, I said instead of
+really studying what I said
+
+210
+00:09:50,033 --> 00:09:51,500
+that-that really disturbs me.
+
+211
+00:09:51,600 --> 00:09:53,241
+(quietly): May I respond?
+Because you're making people
+
+212
+00:09:53,265 --> 00:09:55,432
+afraid of their own children.
+
+213
+00:09:55,533 --> 00:09:57,609
+Yet they're your children,
+they're my parents' children,
+
+214
+00:09:57,633 --> 00:09:58,908
+they're the children of this country.
+
+215
+00:09:58,932 --> 00:10:00,932
+Yet you're making people afraid of them.
+
+216
+00:10:01,033 --> 00:10:02,966
+And I think this is the
+greatest disservice.
+
+217
+00:10:03,066 --> 00:10:05,666
+There's an honest difference
+of agreement on issues,
+
+218
+00:10:05,765 --> 00:10:08,232
+but-but when you make people
+afraid of each other,
+
+219
+00:10:08,332 --> 00:10:11,200
+you-you isolate people, and
+maybe this is your goal,
+
+220
+00:10:11,299 --> 00:10:12,500
+but I think this is...
+
+221
+00:10:12,600 --> 00:10:14,466
+this could only have a disastrous effect
+
+222
+00:10:14,566 --> 00:10:16,700
+on the country. (applause)
+
+223
+00:10:16,799 --> 00:10:19,633
+Let me say first that isolating people
+
+224
+00:10:19,732 --> 00:10:20,832
+is not my goal.
+
+225
+00:10:20,932 --> 00:10:23,765
+If that were true I
+wouldn't be here tonight.
+
+226
+00:10:23,865 --> 00:10:25,799
+And let me take exception to that
+
+227
+00:10:25,899 --> 00:10:28,765
+oft-repeated rationale that, uh,
+
+228
+00:10:28,865 --> 00:10:31,200
+violence is the only way to get results.
+
+229
+00:10:31,299 --> 00:10:33,799
+I was trying to explain to you
+the rationale of some students
+
+230
+00:10:33,899 --> 00:10:35,066
+who are openly revolutionary.
+
+231
+00:10:35,165 --> 00:10:37,432
+You're not listening to what I'm saying.
+
+232
+00:10:37,533 --> 00:10:39,976
+I'm-I'm really distressed. Just what are...
+what are you advocating?
+
+233
+00:10:40,000 --> 00:10:42,009
+EVA JEFFERSON PATERSON: They
+were trying to politically
+
+234
+00:10:42,033 --> 00:10:44,332
+benefit from making us out to be
+
+235
+00:10:44,432 --> 00:10:47,966
+these scary, horrible, violent people.
+
+236
+00:10:48,066 --> 00:10:50,633
+We weren't. We were against the war.
+
+237
+00:10:50,732 --> 00:10:52,100
+We thought the war was wrong.
+
+238
+00:10:52,200 --> 00:10:53,533
+We thought we were lied to.
+
+239
+00:10:53,633 --> 00:10:55,200
+And we were in the streets.
+
+240
+00:10:55,299 --> 00:10:59,166
+America has always had a
+rich tradition of protests.
+
+241
+00:10:59,265 --> 00:11:02,765
+We were founded by protesting England.
+
+242
+00:11:02,865 --> 00:11:05,100
+So to make people afraid of their kids,
+
+243
+00:11:05,200 --> 00:11:07,280
+I think, was wrong, but
+that's what they were about.
+
+244
+00:11:07,365 --> 00:11:09,533
+They were fearmongers.
+
+245
+00:11:22,033 --> 00:11:24,765
+BAO NINH:
+
+246
+00:11:51,799 --> 00:11:54,332
+PHAN QUANG TUE: It was fratricide.
+
+247
+00:11:54,432 --> 00:11:56,832
+You can say, "Well, but-but
+they are communist."
+
+248
+00:11:56,932 --> 00:11:59,166
+Okay, they're communist.
+
+249
+00:11:59,265 --> 00:12:01,932
+"They are the worst Vietnamese
+in the entire world.
+
+250
+00:12:02,033 --> 00:12:03,865
+We were the good Vietnamese."
+
+251
+00:12:03,966 --> 00:12:06,732
+But let's face Vietnamese
+killing Vietnamese.
+
+252
+00:12:06,832 --> 00:12:08,966
+How-how do you deny that?
+
+253
+00:12:12,033 --> 00:12:13,732
+If you don't call that fratricide,
+
+254
+00:12:13,832 --> 00:12:17,466
+what do you call that?
+
+255
+00:12:17,566 --> 00:12:19,000
+What do you... how do we...
+
+256
+00:12:19,100 --> 00:12:21,033
+I explain that to-to my children?
+
+257
+00:12:25,865 --> 00:12:27,765
+NARRATOR: The Cambodian incursion had
+
+258
+00:12:27,865 --> 00:12:31,133
+at least temporarily reduced
+the flow of North Vietnamese
+
+259
+00:12:31,232 --> 00:12:34,932
+men and supplies through that country,
+
+260
+00:12:35,033 --> 00:12:37,000
+but they were still streaming down
+
+261
+00:12:37,100 --> 00:12:39,832
+the Ho Chi Minh Trail in Laos.
+
+262
+00:12:39,932 --> 00:12:42,732
+The White House wanted them stopped.
+
+263
+00:12:42,832 --> 00:12:46,399
+But this time, South Vietnamese troops
+
+264
+00:12:46,500 --> 00:12:49,100
+would have to try to do the job alone.
+
+265
+00:12:49,200 --> 00:12:54,133
+By the end of 1970, both houses of Congress
+
+266
+00:12:54,232 --> 00:12:57,000
+had barred all U.S. ground personnel,
+
+267
+00:12:57,100 --> 00:13:00,166
+even advisors and special forces,
+
+268
+00:13:00,265 --> 00:13:02,166
+from crossing the border.
+
+269
+00:13:02,265 --> 00:13:06,066
+On February 8, 1971,
+
+270
+00:13:06,166 --> 00:13:10,466
+17,000 ARVN troops began moving into Laos
+
+271
+00:13:10,566 --> 00:13:13,332
+to destroy the enemy's jungle bases
+
+272
+00:13:13,432 --> 00:13:17,100
+and to cut off the Ho Chi Minh trail.
+
+273
+00:13:17,200 --> 00:13:21,600
+The Americans could only
+provide air support.
+
+274
+00:13:21,700 --> 00:13:25,600
+Nixon and his National Security Advisor,
+
+275
+00:13:25,700 --> 00:13:28,799
+Henry Kissinger, believed
+that a successful operation
+
+276
+00:13:28,899 --> 00:13:31,033
+would boost morale in Saigon
+
+277
+00:13:31,133 --> 00:13:34,533
+and prove to Hanoi and the American public
+
+278
+00:13:34,633 --> 00:13:38,533
+that the ARVN could fight
+and win on their own,
+
+279
+00:13:38,633 --> 00:13:42,633
+that Vietnamization could work.
+
+280
+00:13:42,732 --> 00:13:46,832
+Their target was the North
+Vietnamese logistics hub,
+
+281
+00:13:46,932 --> 00:13:50,200
+the abandoned town of Tchepone.
+
+282
+00:13:50,299 --> 00:13:52,365
+U.S. intelligence
+
+283
+00:13:52,466 --> 00:13:54,265
+believed there were no more
+
+284
+00:13:54,365 --> 00:13:58,799
+than 22,000 North Vietnamese
+troops in the area.
+
+285
+00:13:58,899 --> 00:14:02,932
+But there would eventually
+turn out to be 60,000,
+
+286
+00:14:03,033 --> 00:14:06,765
+and their commanders knew
+there was only one route
+
+287
+00:14:06,865 --> 00:14:09,966
+the ARVN was likely to take.
+
+288
+00:14:10,066 --> 00:14:12,966
+Harry Hue, who had been
+fighting the communists
+
+289
+00:14:13,066 --> 00:14:16,600
+for eight years, was in the invasion force.
+
+290
+00:14:17,600 --> 00:14:19,566
+HUE (speaking English):
+
+291
+00:14:43,832 --> 00:14:46,732
+(explosion)
+
+292
+00:14:46,832 --> 00:14:50,432
+NARRATOR: Although individual
+ARVN units fought bravely,
+
+293
+00:14:50,533 --> 00:14:53,000
+the invasion was a failure.
+
+294
+00:15:10,666 --> 00:15:14,332
+Almost half of the 17,000 South Vietnamese
+
+295
+00:15:14,432 --> 00:15:15,865
+who entered Laos
+
+296
+00:15:15,966 --> 00:15:19,100
+would be killed, wounded or captured.
+
+297
+00:15:20,700 --> 00:15:24,066
+HUE:
+
+298
+00:15:56,000 --> 00:15:58,600
+BAO NINH:
+
+299
+00:16:20,200 --> 00:16:21,832
+NARRATOR: In late March,
+
+300
+00:16:21,932 --> 00:16:23,600
+as the surviving ARVN forces
+
+301
+00:16:23,700 --> 00:16:25,265
+straggled back across the border
+
+302
+00:16:25,365 --> 00:16:27,500
+into South Vietnam,
+
+303
+00:16:27,600 --> 00:16:31,432
+crowds of weeping women,
+children and old men...
+
+304
+00:16:31,533 --> 00:16:34,566
+dressed in white, the color of mourning...
+
+305
+00:16:34,665 --> 00:16:38,165
+begged for news of the
+soldiers who were missing.
+
+306
+00:16:38,265 --> 00:16:42,633
+In Vietnam, the dead must
+receive proper burial
+
+307
+00:16:42,732 --> 00:16:46,566
+so that their restless
+souls can have peace,
+
+308
+00:16:46,665 --> 00:16:48,665
+and their families needed to know
+
+309
+00:16:48,765 --> 00:16:50,332
+the time of their deaths
+
+310
+00:16:50,432 --> 00:16:53,466
+so that they could honor them each year.
+
+311
+00:16:56,000 --> 00:16:58,000
+Even before the invasion was over,
+
+312
+00:16:58,098 --> 00:17:00,500
+President Nixon had told an aide,
+
+313
+00:17:00,598 --> 00:17:02,665
+"We must claim victory,
+
+314
+00:17:02,766 --> 00:17:05,232
+whatever the outcome."
+
+315
+00:17:39,532 --> 00:17:41,732
+Consequently, tonight,
+
+316
+00:17:41,833 --> 00:17:46,032
+I can report that
+Vietnamization has succeeded.
+
+317
+00:17:46,133 --> 00:17:48,333
+Because of the increased strength
+
+318
+00:17:48,432 --> 00:17:49,799
+of the South Vietnamese,
+
+319
+00:17:49,900 --> 00:17:52,432
+because of the success of
+the Cambodian operation,
+
+320
+00:17:52,532 --> 00:17:53,732
+because of the achievements
+
+321
+00:17:53,833 --> 00:17:56,833
+of the South Vietnamese operation in Laos,
+
+322
+00:17:56,932 --> 00:17:58,465
+I am announcing an increase
+
+323
+00:17:58,566 --> 00:18:00,833
+in the rate of American withdrawals.
+
+324
+00:18:00,932 --> 00:18:03,333
+We have it in our power to leave Vietnam
+
+325
+00:18:03,432 --> 00:18:05,566
+in a way that offers a brave people
+
+326
+00:18:05,665 --> 00:18:08,299
+a realistic hope of freedom.
+
+327
+00:18:08,400 --> 00:18:09,700
+We have it in our power
+
+328
+00:18:09,799 --> 00:18:11,965
+to prove to our friends in the world
+
+329
+00:18:12,066 --> 00:18:14,833
+that America's sense of responsibility
+
+330
+00:18:14,932 --> 00:18:18,299
+remains the world's greatest
+single hope of peace.
+
+331
+00:18:18,400 --> 00:18:22,700
+And generations in the future
+
+332
+00:18:22,799 --> 00:18:26,200
+will look back at this difficult,
+
+333
+00:18:26,299 --> 00:18:29,965
+trying time in America's history,
+
+334
+00:18:30,066 --> 00:18:32,566
+and they will be proud
+
+335
+00:18:32,665 --> 00:18:35,865
+that we demonstrated
+
+336
+00:18:35,965 --> 00:18:38,532
+that we had the courage
+
+337
+00:18:38,633 --> 00:18:42,000
+and the character of a great people.
+
+338
+00:18:42,099 --> 00:18:42,965
+OPERATOR: Dr. Kissinger, sir.
+
+339
+00:18:43,066 --> 00:18:44,566
+NIXON: Yeah.
+
+340
+00:18:44,665 --> 00:18:45,566
+KISSINGER: Mr. President?
+
+341
+00:18:45,665 --> 00:18:46,732
+NIXON: Yeah. Hi, Henry.
+
+342
+00:18:46,833 --> 00:18:48,275
+KISSINGER: This was the best
+speech you've delivered
+
+343
+00:18:48,299 --> 00:18:49,419
+since you've been in office.
+
+344
+00:18:49,500 --> 00:18:50,500
+NIXON: Yeah.
+
+345
+00:18:50,599 --> 00:18:52,965
+I'll tell you one thing, this was, uh...
+
+346
+00:18:53,066 --> 00:18:55,165
+This little speech was a work of art.
+
+347
+00:18:55,266 --> 00:18:57,900
+I mean, I-I know a little
+something about speechwriting.
+
+348
+00:18:58,000 --> 00:19:00,200
+And it was no act, because
+no actor could do it.
+
+349
+00:19:00,299 --> 00:19:02,309
+No actor in Hollywood could
+have done that that well.
+
+350
+00:19:02,333 --> 00:19:03,633
+KISSINGER: It's the best...
+
+351
+00:19:03,732 --> 00:19:05,008
+NIXON: I thought that was
+done well, didn't you think?
+
+352
+00:19:05,032 --> 00:19:06,408
+KISSINGER: First of all, no
+actor could have written it,
+
+353
+00:19:06,432 --> 00:19:07,633
+to begin with.
+
+354
+00:19:07,732 --> 00:19:09,441
+You couldn't have done it
+unless you had meant it.
+
+355
+00:19:09,465 --> 00:19:10,700
+NIXON: Yeah.
+
+356
+00:19:10,799 --> 00:19:13,066
+And if it doesn't work, I don't care.
+
+357
+00:19:13,165 --> 00:19:15,299
+I mean, right now, if it doesn't work...
+
+358
+00:19:15,400 --> 00:19:16,400
+Then let me say, though,
+
+359
+00:19:16,500 --> 00:19:17,766
+I'm going to find out soon,
+
+360
+00:19:17,865 --> 00:19:19,145
+and then I'm going to turn right
+
+361
+00:19:19,200 --> 00:19:20,876
+so goddamn hard it'll make your head spin.
+
+362
+00:19:20,900 --> 00:19:22,476
+We'll bomb those bastards
+right out of the...
+
+363
+00:19:22,500 --> 00:19:25,333
+off the earth. I really mean it.
+
+364
+00:19:25,432 --> 00:19:28,432
+("We Gotta Get Out of This
+Place" by the Animals playing)
+
+365
+00:19:32,633 --> 00:19:36,932
+♪ In this dirty old part of the city ♪
+
+366
+00:19:37,032 --> 00:19:41,465
+♪ Where the sun refuse to shine ♪
+
+367
+00:19:41,566 --> 00:19:44,732
+♪ People tell me there
+ain't no use in trying ♪
+
+368
+00:19:49,500 --> 00:19:51,200
+Do you belong to the same generation
+
+369
+00:19:51,299 --> 00:19:52,465
+that is protesting at home?
+
+370
+00:19:52,566 --> 00:19:53,732
+Do you feel as if you belong
+
+371
+00:19:53,833 --> 00:19:55,432
+to those people? Very much.
+
+372
+00:19:55,532 --> 00:19:56,732
+You do? Very much.
+
+373
+00:19:56,833 --> 00:19:59,099
+I wish they'd get us out
+of here, I really do.
+
+374
+00:19:59,200 --> 00:20:02,299
+♪ We gotta get out of this place ♪
+
+375
+00:20:02,400 --> 00:20:06,266
+♪ If it's the last thing we ever do ♪
+
+376
+00:20:06,365 --> 00:20:09,500
+♪ We gotta get out of this place ♪
+
+377
+00:20:09,599 --> 00:20:11,232
+♪ Girl, there's a better life
+
+378
+00:20:11,333 --> 00:20:14,500
+JAMES GILLAM: Almost all
+of us were draftees.
+
+379
+00:20:14,599 --> 00:20:17,500
+None of us cared a damn about the war.
+
+380
+00:20:17,599 --> 00:20:20,200
+We just didn't want to get blown up.
+
+381
+00:20:20,299 --> 00:20:22,299
+We just didn't want to die in the jungle,
+
+382
+00:20:22,400 --> 00:20:24,799
+holding your guts in.
+
+383
+00:20:24,900 --> 00:20:30,365
+So the idea is do six
+months, maybe eight months,
+
+384
+00:20:30,465 --> 00:20:35,700
+get an R&R, take a deep
+breath and try to finish up,
+
+385
+00:20:35,799 --> 00:20:39,532
+try to do something that would
+get you sent to base camp.
+
+386
+00:20:39,633 --> 00:20:43,465
+Just don't die because
+you're not gonna win.
+
+387
+00:20:43,566 --> 00:20:45,633
+ANIMALS: ♪ We gotta get
+out of this place ♪
+
+388
+00:20:45,732 --> 00:20:49,133
+♪ If it's the last thing we ever do ♪
+
+389
+00:20:49,232 --> 00:20:51,400
+REPORTER: Chess is the most serious contest
+
+390
+00:20:51,500 --> 00:20:53,200
+Glen Hindley will engage in,
+
+391
+00:20:53,299 --> 00:20:56,133
+for he has not fired a
+shot in his nine months
+
+392
+00:20:56,232 --> 00:20:57,732
+in the field with Charlie Company.
+
+393
+00:20:57,833 --> 00:20:59,513
+HINDLEY: Well, I haven't shot anybody yet.
+
+394
+00:20:59,599 --> 00:21:01,299
+I don't plan on it.
+
+395
+00:21:01,400 --> 00:21:03,365
+I haven't fired my gun since I been here,
+
+396
+00:21:03,465 --> 00:21:05,500
+and I like it that way.
+
+397
+00:21:05,599 --> 00:21:07,700
+REPORTER: How can you get away with that?
+
+398
+00:21:07,799 --> 00:21:09,299
+Just don't fire it.
+
+399
+00:21:09,400 --> 00:21:10,700
+I plan to go across the...
+
+400
+00:21:10,799 --> 00:21:12,066
+across country when I get back
+
+401
+00:21:12,165 --> 00:21:14,032
+because I'll see the
+people I know over here,
+
+402
+00:21:14,133 --> 00:21:16,333
+plus I'll be able to talk
+to a lot of other people,
+
+403
+00:21:16,432 --> 00:21:18,500
+maybe convince them that killing for peace
+
+404
+00:21:18,599 --> 00:21:19,799
+just doesn't make sense.
+
+405
+00:21:19,900 --> 00:21:22,932
+ANIMALS: ♪ We gotta get
+out of this place ♪
+
+406
+00:21:23,032 --> 00:21:28,099
+♪ If it's the last thing we ever do ♪
+
+407
+00:21:28,200 --> 00:21:30,000
+♪ We gotta get out of this place. ♪
+
+408
+00:21:30,099 --> 00:21:32,242
+NARRATOR: "The morale,
+discipline, and battleworthiness
+
+409
+00:21:32,266 --> 00:21:36,165
+of the U.S. Armed Forces," a
+retired Marine colonel wrote
+
+410
+00:21:36,266 --> 00:21:38,566
+in the spring of 1971,
+
+411
+00:21:38,665 --> 00:21:41,900
+"are lower and worse than at any time,
+
+412
+00:21:42,000 --> 00:21:46,200
+possibly in the history
+of the United States."
+
+413
+00:21:46,299 --> 00:21:48,432
+An official report had found
+
+414
+00:21:48,532 --> 00:21:51,532
+that one out of four
+enlisted men in Vietnam
+
+415
+00:21:51,633 --> 00:21:54,500
+had used marijuana regularly...
+
+416
+00:21:54,599 --> 00:21:57,200
+but almost never in combat.
+
+417
+00:21:57,299 --> 00:21:59,566
+SOLDIER: There's, uh, drugs everywhere.
+
+418
+00:21:59,665 --> 00:22:00,865
+Really, you could, uh...
+
+419
+00:22:00,965 --> 00:22:03,432
+Well, within... within
+ten minutes in country,
+
+420
+00:22:03,532 --> 00:22:05,700
+I-I had people approaching me selling scag.
+
+421
+00:22:05,799 --> 00:22:07,032
+INTERVIEWER: What's scag?
+
+422
+00:22:07,133 --> 00:22:08,266
+It's heroin.
+
+423
+00:22:08,365 --> 00:22:11,299
+NARRATOR: Heroin was cheap,
+
+424
+00:22:11,400 --> 00:22:13,965
+pure, and everywhere.
+
+425
+00:22:14,066 --> 00:22:16,633
+The Pentagon would eventually acknowledge
+
+426
+00:22:16,732 --> 00:22:20,432
+that 40,000 American troops
+had been addicted to it.
+
+427
+00:22:20,532 --> 00:22:23,700
+ANIMALS: ♪ We gotta get
+out of this place ♪
+
+428
+00:22:23,799 --> 00:22:27,232
+♪ If it's the last thing we ever do ♪
+
+429
+00:22:27,333 --> 00:22:29,532
+♪ We gotta get out of this place ♪
+
+430
+00:22:29,633 --> 00:22:32,932
+♪ Girl, there's a better life
+
+431
+00:22:33,032 --> 00:22:34,133
+(coughs)
+
+432
+00:22:34,232 --> 00:22:36,700
+♪ For me and you
+
+433
+00:22:36,799 --> 00:22:38,700
+♪ Ooh, baby
+
+434
+00:22:38,799 --> 00:22:42,665
+"The rearguard of a once 500,000-man army,"
+
+435
+00:22:42,766 --> 00:22:44,032
+an officer wrote,
+
+436
+00:22:44,133 --> 00:22:47,900
+"is numbly extricating
+itself from a nightmare war
+
+437
+00:22:48,000 --> 00:22:51,133
+"the armed forces feel
+they had foisted on them
+
+438
+00:22:51,232 --> 00:22:54,700
+"by bright civilians who
+are now back on campus
+
+439
+00:22:54,799 --> 00:22:59,432
+writing books about the folly of it all."
+
+440
+00:22:59,532 --> 00:23:02,165
+Even General Creighton Abrams,
+
+441
+00:23:02,266 --> 00:23:05,400
+commander of military
+operations in Vietnam,
+
+442
+00:23:05,500 --> 00:23:07,299
+now admitted privately,
+
+443
+00:23:07,400 --> 00:23:10,633
+"I need to get this army home to save it."
+
+444
+00:23:10,732 --> 00:23:12,165
+ANIMALS: ♪ I know it, too, baby
+
+445
+00:23:12,266 --> 00:23:14,200
+♪ Oh, yeah.
+
+446
+00:23:23,532 --> 00:23:25,900
+The telegrams and letters
+coming into this courthouse
+
+447
+00:23:26,000 --> 00:23:28,165
+are from all parts of the country.
+
+448
+00:23:28,266 --> 00:23:31,099
+From Baton Rouge, Louisiana, a man writes,
+
+449
+00:23:31,200 --> 00:23:33,732
+"Congratulations to the Calley jurors.
+
+450
+00:23:33,833 --> 00:23:36,032
+"A courageous and fair decision.
+
+451
+00:23:36,133 --> 00:23:38,165
+Justice still exists."
+
+452
+00:23:38,266 --> 00:23:43,165
+NARRATOR: On March 29, 1971,
+
+453
+00:23:43,266 --> 00:23:45,099
+at Fort Benning, Georgia,
+
+454
+00:23:45,200 --> 00:23:48,232
+a military court found
+Lieutenant William Calley...
+
+455
+00:23:48,333 --> 00:23:50,566
+and only Lieutenant Calley...
+
+456
+00:23:50,665 --> 00:23:53,232
+guilty of murdering Vietnamese civilians
+
+457
+00:23:53,333 --> 00:23:56,333
+at My Lai back in 1968.
+
+458
+00:23:59,266 --> 00:24:03,566
+He was sentenced to life
+imprisonment at hard labor.
+
+459
+00:24:03,665 --> 00:24:06,299
+The commander of Calley's division,
+
+460
+00:24:06,400 --> 00:24:08,465
+General Samuel Koster,
+
+461
+00:24:08,566 --> 00:24:11,365
+who had watched some of the
+slaughter from a helicopter
+
+462
+00:24:11,465 --> 00:24:14,365
+and done nothing to stop it,
+was now the superintendent
+
+463
+00:24:14,465 --> 00:24:17,665
+of the U.S. Military Academy at West Point.
+
+464
+00:24:17,766 --> 00:24:21,566
+He was forced to resign.
+
+465
+00:24:21,665 --> 00:24:24,665
+The other 23 officers and men
+
+466
+00:24:24,766 --> 00:24:27,032
+who had been indicted were either acquitted
+
+467
+00:24:27,133 --> 00:24:29,799
+or had their cases dismissed.
+
+468
+00:24:29,900 --> 00:24:33,333
+The Calley verdict proved as controversial
+
+469
+00:24:33,432 --> 00:24:35,633
+as the war itself.
+
+470
+00:24:35,732 --> 00:24:37,799
+TROTTA: A lady in Cheyenne, Wyoming, says,
+
+471
+00:24:37,900 --> 00:24:40,165
+"What the jury has done
+to Lieutenant Calley
+
+472
+00:24:40,266 --> 00:24:42,365
+"is a disgrace to this nation.
+
+473
+00:24:42,465 --> 00:24:44,333
+"The enemy is the enemy,
+
+474
+00:24:44,432 --> 00:24:47,133
+the enemy is the enemy."
+
+475
+00:24:47,232 --> 00:24:49,465
+From Bellefontaine, Ohio, a doctor says,
+
+476
+00:24:49,566 --> 00:24:52,232
+"Let us not condemn Lieutenant Calley
+
+477
+00:24:52,333 --> 00:24:54,633
+"when it is the character of the war
+
+478
+00:24:54,732 --> 00:24:57,365
+which is at fault for such
+slaughters as My Lai."
+
+479
+00:24:57,465 --> 00:25:00,700
+What is your initial reaction
+to this verdict, sir?
+
+480
+00:25:00,799 --> 00:25:02,965
+I thought he would be found not guilty.
+
+481
+00:25:03,066 --> 00:25:04,932
+'Cause you send in a man into combat,
+
+482
+00:25:05,032 --> 00:25:07,333
+you train him to be a... a killer,
+
+483
+00:25:07,432 --> 00:25:09,599
+and then, when he does, why then,
+
+484
+00:25:09,700 --> 00:25:11,532
+uh, you prosecute him?
+
+485
+00:25:13,432 --> 00:25:17,099
+NARRATOR: Some believed everyone
+involved should have gone to jail;
+
+486
+00:25:17,200 --> 00:25:20,266
+others believed that Calley
+had been made a scapegoat
+
+487
+00:25:20,365 --> 00:25:24,133
+for the criminal misdeeds of his superiors.
+
+488
+00:25:24,232 --> 00:25:28,099
+And still others felt a
+systemic failure of leadership
+
+489
+00:25:28,200 --> 00:25:30,465
+had occurred in a chain of command
+
+490
+00:25:30,566 --> 00:25:35,200
+that stretched all the way up
+to the commander in chief.
+
+491
+00:25:37,766 --> 00:25:39,532
+According to a Gallup poll,
+
+492
+00:25:39,633 --> 00:25:44,833
+79% of the American public
+disagreed with the verdict.
+
+493
+00:25:44,932 --> 00:25:48,333
+Nixon decided to intervene.
+
+494
+00:25:50,700 --> 00:25:54,133
+Calley spent just three days behind bars.
+
+495
+00:25:55,400 --> 00:25:57,965
+The president ordered him transferred
+
+496
+00:25:58,066 --> 00:26:00,200
+from federal prison to house arrest
+
+497
+00:26:00,299 --> 00:26:02,465
+at Fort Benning, pending appeal.
+
+498
+00:26:02,566 --> 00:26:04,566
+MAN: Okay, I'm gonna walk
+back from each side.
+
+499
+00:26:04,665 --> 00:26:06,766
+NARRATOR: Captain Aubrey Daniel,
+
+500
+00:26:06,865 --> 00:26:09,400
+who had successfully prosecuted Calley,
+
+501
+00:26:09,500 --> 00:26:12,665
+wrote Nixon, accusing him of compromising
+
+502
+00:26:12,766 --> 00:26:15,333
+"such a fundamental moral principle
+
+503
+00:26:15,432 --> 00:26:17,833
+"as the inherent unlawfulness
+
+504
+00:26:17,932 --> 00:26:21,032
+of the murder of innocent persons."
+
+505
+00:26:21,133 --> 00:26:23,532
+A military appeals court
+
+506
+00:26:23,633 --> 00:26:27,365
+eventually reduced
+Calley's term to 20 years,
+
+507
+00:26:27,465 --> 00:26:30,333
+the secretary of the army cut it to ten,
+
+508
+00:26:30,432 --> 00:26:32,900
+and after just three-and-a-half years
+
+509
+00:26:33,000 --> 00:26:35,932
+under house arrest, he was paroled.
+
+510
+00:26:40,165 --> 00:26:42,566
+TIM O'BRIEN: Who's responsible?
+
+511
+00:26:44,833 --> 00:26:49,133
+The human beings who did this...
+
+512
+00:26:49,232 --> 00:26:52,665
+These are war crimes.
+
+513
+00:26:52,766 --> 00:26:56,700
+The individual human beings
+who put a rifle muzzle
+
+514
+00:26:56,799 --> 00:26:57,865
+up against a baby's head
+
+515
+00:26:57,965 --> 00:27:01,299
+and shot the brains out of that baby...
+
+516
+00:27:01,400 --> 00:27:04,165
+nothing happened to them.
+
+517
+00:27:04,266 --> 00:27:06,532
+Nothing!
+
+518
+00:27:13,932 --> 00:27:17,732
+HAL KUSHNER: And we walked
+up the Ho Chi Minh Trail.
+
+519
+00:27:19,900 --> 00:27:22,665
+And they said we walked 900 kilometers...
+
+520
+00:27:22,766 --> 00:27:28,400
+540 miles in 57 days.
+
+521
+00:27:28,500 --> 00:27:32,266
+And we met all these
+people going both ways.
+
+522
+00:27:32,365 --> 00:27:35,833
+We met civilians coming south.
+
+523
+00:27:35,932 --> 00:27:38,665
+We met soldiers going north and south.
+
+524
+00:27:38,766 --> 00:27:41,965
+We met people humping artillery rounds.
+
+525
+00:27:42,066 --> 00:27:43,333
+We met a...
+
+526
+00:27:43,432 --> 00:27:45,299
+I remember a whole unit,
+
+527
+00:27:45,400 --> 00:27:47,333
+a company-size unit, of women.
+
+528
+00:27:49,732 --> 00:27:52,700
+On the way, in one of these villages,
+
+529
+00:27:52,799 --> 00:27:56,299
+I stole a uniform.
+
+530
+00:27:57,865 --> 00:27:59,599
+Just khaki pants and khaki shirt.
+
+531
+00:27:59,700 --> 00:28:00,932
+And I stole it.
+
+532
+00:28:01,032 --> 00:28:04,432
+And I folded it up and I put it in my pack.
+
+533
+00:28:04,532 --> 00:28:07,766
+NARRATOR: By early 1971,
+
+534
+00:28:07,865 --> 00:28:09,732
+army doctor Hal Kushner
+
+535
+00:28:09,833 --> 00:28:11,599
+had been a prisoner of the Viet Cong
+
+536
+00:28:11,700 --> 00:28:15,032
+in South Vietnam for more than three years.
+
+537
+00:28:17,000 --> 00:28:20,700
+He had survived ill treatment
+and a host of illnesses,
+
+538
+00:28:20,799 --> 00:28:24,099
+and he had buried 13 of
+his fellow captives,
+
+539
+00:28:24,200 --> 00:28:26,032
+who had died of starvation
+
+540
+00:28:26,133 --> 00:28:29,665
+and sickness and despair.
+
+541
+00:28:29,766 --> 00:28:33,566
+Now, he and the other
+survivors from his camp
+
+542
+00:28:33,665 --> 00:28:37,299
+were being moved all the
+way to North Vietnam.
+
+543
+00:28:39,732 --> 00:28:41,333
+Kushner and his companions
+
+544
+00:28:41,432 --> 00:28:43,799
+eventually reached the city of Vinh,
+
+545
+00:28:43,900 --> 00:28:46,599
+where they boarded a train to Hanoi.
+
+546
+00:28:46,700 --> 00:28:48,732
+KUSHNER: And I put on this fresh uniform,
+
+547
+00:28:48,833 --> 00:28:50,599
+and when I got off the train
+
+548
+00:28:50,700 --> 00:28:54,400
+I was met with this officer in a jeep.
+
+549
+00:28:54,500 --> 00:28:56,099
+And he just looked at me and he said,
+
+550
+00:28:56,200 --> 00:28:57,376
+"You're an officer, aren't you?
+
+551
+00:28:57,400 --> 00:28:59,532
+You come here."
+
+552
+00:28:59,633 --> 00:29:01,900
+And he just... I felt very
+proud that I looked good
+
+553
+00:29:02,000 --> 00:29:03,900
+when I came off that train.
+
+554
+00:29:10,299 --> 00:29:13,599
+NARRATOR: Kushner joined
+hundreds of American captives
+
+555
+00:29:13,700 --> 00:29:16,200
+who were scattered among five prisons
+
+556
+00:29:16,299 --> 00:29:19,400
+in and around Hanoi.
+
+557
+00:29:19,500 --> 00:29:22,066
+KUSHNER: We hadn't been there
+long when the word came down
+
+558
+00:29:22,165 --> 00:29:24,900
+from the American senior ranking officer
+
+559
+00:29:25,000 --> 00:29:29,299
+that nobody would go home
+unless everybody went home.
+
+560
+00:29:29,400 --> 00:29:32,365
+That nobody would cooperate
+with the Vietnamese.
+
+561
+00:29:32,465 --> 00:29:34,400
+(indistinct voice on radio)
+
+562
+00:29:37,766 --> 00:29:41,333
+But we heard him on the camp radio once...
+
+563
+00:29:41,432 --> 00:29:43,333
+(radio transmission continuing)
+
+564
+00:29:43,432 --> 00:29:46,365
+...telling us that we should cooperate.
+
+565
+00:29:48,599 --> 00:29:51,400
+And it was obvious, from his
+voice and his inflection,
+
+566
+00:29:51,500 --> 00:29:53,532
+that he had been tortured and beaten
+
+567
+00:29:53,633 --> 00:29:56,532
+and was being made to say that.
+
+568
+00:29:56,633 --> 00:29:58,700
+And that's what they did.
+
+569
+00:29:58,799 --> 00:30:03,200
+NARRATOR: Eventually, Kushner,
+like most of the prisoners,
+
+570
+00:30:03,299 --> 00:30:06,000
+would be forced to record a statement
+
+571
+00:30:06,099 --> 00:30:08,032
+against the war.
+
+572
+00:30:09,266 --> 00:30:10,799
+(light clicks on)
+
+573
+00:30:13,599 --> 00:30:16,133
+KUSHNER (on recording):
+
+574
+00:30:42,365 --> 00:30:44,008
+KUSHNER: They wanted propaganda statements
+
+575
+00:30:44,032 --> 00:30:45,599
+to say the war was criminal,
+
+576
+00:30:45,700 --> 00:30:48,200
+to say that we were criminals.
+
+577
+00:30:48,299 --> 00:30:50,500
+And they used our weakness against us.
+
+578
+00:30:50,599 --> 00:30:52,000
+(light clicks off)
+
+579
+00:30:52,099 --> 00:30:55,066
+("Gimme Shelter" by the
+Rolling Stones playing)
+
+580
+00:30:55,165 --> 00:30:58,965
+CROWD (chanting): No more war!
+No more war! No more war!
+
+581
+00:30:59,066 --> 00:31:02,833
+No more war! No more war!
+
+582
+00:31:02,932 --> 00:31:04,932
+JOHN MUSGRAVE: The first
+time in our history
+
+583
+00:31:05,032 --> 00:31:07,500
+that veterans came home
+from a war and said...
+
+584
+00:31:07,599 --> 00:31:09,032
+while the war is still going on...
+
+585
+00:31:09,133 --> 00:31:12,133
+and said, "This war's got to stop."
+
+586
+00:31:12,232 --> 00:31:15,099
+And the American people
+
+587
+00:31:15,200 --> 00:31:17,532
+might not listen to a bunch
+of long-haired hippie kids.
+
+588
+00:31:17,633 --> 00:31:19,465
+What do they know?
+
+589
+00:31:19,566 --> 00:31:22,333
+But the working class, the
+great "silent majority"...
+
+590
+00:31:22,432 --> 00:31:24,865
+Richard Nixon always talked
+about his "silent majority"
+
+591
+00:31:24,965 --> 00:31:27,465
+that would back him by being silent...
+
+592
+00:31:27,566 --> 00:31:30,032
+we were their kids.
+
+593
+00:31:30,133 --> 00:31:32,766
+And it finally dawned on me...
+
+594
+00:31:32,865 --> 00:31:34,932
+and this was a long, painful process...
+
+595
+00:31:35,032 --> 00:31:37,900
+that... that I wasn't helping anybody
+
+596
+00:31:38,000 --> 00:31:41,099
+by keeping my mouth shut.
+
+597
+00:31:41,200 --> 00:31:44,365
+NARRATOR: Less than three
+weeks after Lieutenant Calley
+
+598
+00:31:44,465 --> 00:31:47,133
+was found guilty, some 2,000 members
+
+599
+00:31:47,232 --> 00:31:49,165
+of an organization called
+
+600
+00:31:49,266 --> 00:31:51,732
+Vietnam Veterans Against the War
+
+601
+00:31:51,833 --> 00:31:56,599
+and their followers descended
+upon Washington, D.C.
+
+602
+00:31:56,700 --> 00:32:00,633
+MICK JAGGER: ♪ Ooh, storm is threatening
+
+603
+00:32:00,732 --> 00:32:04,200
+♪ My very life today
+
+604
+00:32:04,299 --> 00:32:09,232
+♪ If I don't get some shelter
+
+605
+00:32:09,333 --> 00:32:12,732
+♪ Oh, yeah, I'm gonna fade away ♪
+
+606
+00:32:12,833 --> 00:32:16,333
+♪ War, children
+
+607
+00:32:16,432 --> 00:32:18,865
+♪ It's just a shot away
+
+608
+00:32:18,965 --> 00:32:20,965
+♪ It's just a shot away ♪
+
+609
+00:32:21,066 --> 00:32:24,400
+♪ War, children
+
+610
+00:32:24,500 --> 00:32:26,333
+♪ It's just a shot away
+
+611
+00:32:26,432 --> 00:32:30,000
+♪ It's just a shot away. ♪
+
+612
+00:32:30,099 --> 00:32:33,532
+VVAW was a-a... it was great therapy.
+
+613
+00:32:33,633 --> 00:32:35,700
+We were working it out ourselves.
+
+614
+00:32:35,799 --> 00:32:38,066
+Vets taking care of vets.
+
+615
+00:32:38,165 --> 00:32:39,865
+We were generals in our own right.
+
+616
+00:32:39,965 --> 00:32:41,500
+And we didn't join anything.
+
+617
+00:32:41,599 --> 00:32:43,165
+We became something.
+
+618
+00:32:43,266 --> 00:32:45,365
+And that, yes, I was a Marine,
+
+619
+00:32:45,465 --> 00:32:47,200
+but I was first and foremost
+
+620
+00:32:47,299 --> 00:32:49,566
+a citizen of the United States of America.
+
+621
+00:32:49,665 --> 00:32:53,432
+And being a citizen, I had
+certain responsibilities.
+
+622
+00:32:53,532 --> 00:32:56,599
+And the largest of those responsibilities
+
+623
+00:32:56,700 --> 00:33:00,000
+is standing up to your
+government and saying "no"
+
+624
+00:33:00,099 --> 00:33:02,133
+when it's doing something that you think
+
+625
+00:33:02,232 --> 00:33:04,932
+is not in this nation's best interest.
+
+626
+00:33:05,032 --> 00:33:10,232
+That is the most important
+job that every citizen has.
+
+627
+00:33:10,333 --> 00:33:14,000
+ROLLING STONES: ♪ Rape, murder
+
+628
+00:33:14,099 --> 00:33:17,232
+MUSGRAVE: I served my country as honorably,
+
+629
+00:33:17,333 --> 00:33:20,432
+when I was in Vietnam
+Veterans Against the War,
+
+630
+00:33:20,532 --> 00:33:24,066
+as I did as a United States Marine.
+
+631
+00:33:24,165 --> 00:33:27,500
+And, in fact, I conducted
+myself as a Marine
+
+632
+00:33:27,599 --> 00:33:30,299
+the whole time I was in VVAW.
+
+633
+00:33:30,400 --> 00:33:31,932
+I... My-my whole life,
+
+634
+00:33:32,032 --> 00:33:34,766
+I conduct myself as a Marine.
+
+635
+00:33:34,865 --> 00:33:38,200
+NARRATOR: Navy Lieutenant John Kerry,
+
+636
+00:33:38,299 --> 00:33:41,599
+who had commanded a swift
+boat in the Mekong Delta
+
+637
+00:33:41,700 --> 00:33:44,200
+and was one of the organization's leaders,
+
+638
+00:33:44,299 --> 00:33:45,633
+was invited to address
+
+639
+00:33:45,732 --> 00:33:47,865
+the Senate Foreign Relations Committee,
+
+640
+00:33:47,965 --> 00:33:50,932
+still chaired by J. William Fulbright.
+
+641
+00:33:51,032 --> 00:33:52,432
+Thank you.
+
+642
+00:33:52,532 --> 00:33:55,965
+MUSGRAVE: I went up for the presentation.
+
+643
+00:33:56,066 --> 00:33:58,266
+And it was standing room only.
+
+644
+00:33:58,365 --> 00:34:02,166
+And I was crammed up against
+the wall in the very back.
+
+645
+00:34:02,266 --> 00:34:05,300
+And when John...
+
+646
+00:34:05,400 --> 00:34:08,199
+gave that presentation... (gavel bangs)
+
+647
+00:34:08,300 --> 00:34:10,800
+...I felt like he was
+speaking for all of us.
+
+648
+00:34:10,900 --> 00:34:14,266
+KERRY: We could come back to this
+country and we could be quiet.
+
+649
+00:34:14,365 --> 00:34:15,865
+We could hold our silence.
+
+650
+00:34:15,965 --> 00:34:19,432
+We could not tell what went
+on in Vietnam, but we feel,
+
+651
+00:34:19,532 --> 00:34:22,365
+because of what threatens this country,
+
+652
+00:34:22,465 --> 00:34:24,233
+we have to speak out.
+
+653
+00:34:24,333 --> 00:34:26,166
+Millions of men who have been
+
+654
+00:34:26,266 --> 00:34:29,333
+taught to deal and to trade in violence
+
+655
+00:34:29,432 --> 00:34:31,733
+and who were given the chance to die
+
+656
+00:34:31,833 --> 00:34:34,032
+for the biggest nothing in history,
+
+657
+00:34:34,132 --> 00:34:37,766
+men who have returned with a sense of anger
+
+658
+00:34:37,865 --> 00:34:39,266
+and a sense of betrayal
+
+659
+00:34:39,365 --> 00:34:41,733
+which no one has yet grasped.
+
+660
+00:34:41,833 --> 00:34:44,465
+We rationalized destroying villages
+
+661
+00:34:44,565 --> 00:34:46,099
+in order to save them.
+
+662
+00:34:46,199 --> 00:34:48,266
+We saw America lose her sense of morality,
+
+663
+00:34:48,365 --> 00:34:51,300
+as she accepted very coolly a My Lai
+
+664
+00:34:51,400 --> 00:34:53,800
+and refused to give up the
+image of American soldiers
+
+665
+00:34:53,900 --> 00:34:56,599
+that hand out chocolate
+bars and chewing gum.
+
+666
+00:34:56,699 --> 00:34:59,266
+We learnt the meaning of free-fire zones,
+
+667
+00:34:59,365 --> 00:35:01,865
+shoot anything that moves,
+
+668
+00:35:01,965 --> 00:35:04,132
+and we watched while
+America placed a cheapness
+
+669
+00:35:04,233 --> 00:35:06,400
+on the lives of Orientals.
+
+670
+00:35:06,500 --> 00:35:10,400
+We watched the United States'
+falsification of body counts...
+
+671
+00:35:10,500 --> 00:35:13,932
+in fact, the glorification of body counts.
+
+672
+00:35:14,032 --> 00:35:16,599
+We watched while men charged up hills
+
+673
+00:35:16,699 --> 00:35:19,833
+because a general said
+that hill has to be taken.
+
+674
+00:35:19,932 --> 00:35:22,632
+And after losing one
+platoon or two platoons,
+
+675
+00:35:22,733 --> 00:35:24,032
+they marched away
+
+676
+00:35:24,132 --> 00:35:26,032
+to leave the hill for the reoccupation
+
+677
+00:35:26,132 --> 00:35:29,000
+of the North Vietnamese.
+
+678
+00:35:29,099 --> 00:35:31,666
+And we are asking Americans
+to think about that.
+
+679
+00:35:31,766 --> 00:35:33,932
+Because how do you ask a man
+
+680
+00:35:34,032 --> 00:35:36,766
+to be the last man to die in Vietnam?
+
+681
+00:35:36,865 --> 00:35:41,500
+How do you ask a man to be the
+last man to die for a mistake?
+
+682
+00:35:41,599 --> 00:35:44,632
+And so, when, 30 years from now,
+
+683
+00:35:44,733 --> 00:35:47,432
+our brothers go down the
+street without a leg,
+
+684
+00:35:47,532 --> 00:35:50,099
+without an arm or a face,
+
+685
+00:35:50,199 --> 00:35:52,833
+and small boys ask why,
+
+686
+00:35:52,932 --> 00:35:55,699
+we will be able to say "Vietnam"
+
+687
+00:35:55,800 --> 00:35:59,365
+and not mean a filthy, obscene memory
+
+688
+00:35:59,465 --> 00:36:04,766
+but mean instead the place
+where America finally turned
+
+689
+00:36:04,865 --> 00:36:09,565
+and where soldiers like us
+helped it in the turning.
+
+690
+00:36:09,666 --> 00:36:11,400
+Thank you.
+
+691
+00:36:11,500 --> 00:36:13,432
+(cheers and applause)
+
+692
+00:36:17,932 --> 00:36:20,833
+MUSGRAVE: I thought, "I have never heard
+
+693
+00:36:20,932 --> 00:36:23,766
+"so... such an incredible speech
+
+694
+00:36:23,865 --> 00:36:26,300
+that says exactly what I'm feeling."
+
+695
+00:36:26,400 --> 00:36:29,766
+You know? It was extraordinary.
+
+696
+00:36:29,865 --> 00:36:32,233
+Extraordinary.
+
+697
+00:36:32,333 --> 00:36:35,900
+NARRATOR: But some veterans
+remembered a different part
+
+698
+00:36:36,000 --> 00:36:37,833
+of Kerry's testimony,
+
+699
+00:36:37,932 --> 00:36:41,565
+testimony in which he repeated
+accounts of atrocities
+
+700
+00:36:41,666 --> 00:36:45,465
+he had heard from other American veterans.
+
+701
+00:36:45,565 --> 00:36:48,733
+KERRY: They told the stories of times
+
+702
+00:36:48,833 --> 00:36:53,800
+that they had personally raped,
+cut off ears, cut off heads,
+
+703
+00:36:53,900 --> 00:36:57,666
+taped wires from portable
+telephones to human genitals
+
+704
+00:36:57,766 --> 00:36:59,465
+and turned up the power,
+
+705
+00:36:59,565 --> 00:37:02,900
+cut off limbs, blown up bodies,
+
+706
+00:37:03,000 --> 00:37:05,565
+randomly shot at civilians,
+
+707
+00:37:05,666 --> 00:37:09,900
+razed villages in fashion
+reminiscent of Genghis Khan...
+
+708
+00:37:10,000 --> 00:37:12,432
+GIOIA: What I saw in Vietnam
+was not the soldier
+
+709
+00:37:12,532 --> 00:37:14,432
+that Mr. Kerry or his colleagues
+
+710
+00:37:14,532 --> 00:37:16,565
+were describing at that time.
+
+711
+00:37:16,666 --> 00:37:19,099
+There was no widespread atrocity.
+
+712
+00:37:19,199 --> 00:37:20,839
+There was... there were a couple of units
+
+713
+00:37:20,865 --> 00:37:23,365
+that went right off the rails,
+and we can talk about that.
+
+714
+00:37:23,465 --> 00:37:26,099
+But they were not out-of-control animals,
+
+715
+00:37:26,199 --> 00:37:28,233
+which was the way they were portrayed.
+
+716
+00:37:28,333 --> 00:37:31,900
+And what was even worse was
+they were alluding to the fact
+
+717
+00:37:32,000 --> 00:37:33,320
+that you would take ordinary kids
+
+718
+00:37:33,400 --> 00:37:35,865
+and turn them into these savages,
+
+719
+00:37:35,965 --> 00:37:37,465
+war criminals, and the...
+
+720
+00:37:37,565 --> 00:37:38,932
+that the military was doing that.
+
+721
+00:37:39,032 --> 00:37:41,599
+And it didn't. Didn't happen that way.
+
+722
+00:37:41,699 --> 00:37:44,065
+I'm still very angry about that.
+
+723
+00:37:44,166 --> 00:37:46,000
+ROLLING STONES: ♪ War, children
+
+724
+00:37:46,099 --> 00:37:47,532
+NARRATOR: The next day,
+
+725
+00:37:47,632 --> 00:37:50,800
+700 Vietnam Veterans Against the War
+
+726
+00:37:50,900 --> 00:37:53,065
+gathered at the Capitol.
+
+727
+00:37:53,166 --> 00:37:56,132
+MUSGRAVE: We originally intended
+to put our medals in a body bag
+
+728
+00:37:56,233 --> 00:37:59,099
+and have them delivered to Congress.
+
+729
+00:37:59,199 --> 00:38:02,500
+But the Nixon administration erected
+
+730
+00:38:02,599 --> 00:38:08,099
+this big wire and wood fence
+on the steps of our Capitol
+
+731
+00:38:08,199 --> 00:38:11,733
+to keep us out.
+
+732
+00:38:11,833 --> 00:38:13,733
+To keep out the young men and women
+
+733
+00:38:13,833 --> 00:38:16,400
+who were fighting that war.
+
+734
+00:38:16,500 --> 00:38:18,865
+And all that did was piss us off
+
+735
+00:38:18,965 --> 00:38:22,865
+and give us the greatest photo opportunity
+
+736
+00:38:22,965 --> 00:38:25,632
+that we could ever have.
+
+737
+00:38:25,733 --> 00:38:26,876
+Silver Star. STEVE SHAW: Purple Heart.
+
+738
+00:38:26,900 --> 00:38:29,032
+MAN: Bronze Star.
+
+739
+00:38:29,132 --> 00:38:30,941
+Cross of Gallantry. SACHS:
+Distinguished Flying Cross.
+
+740
+00:38:30,965 --> 00:38:32,333
+And everything else! (cheering)
+
+741
+00:38:32,432 --> 00:38:34,209
+FERRIZZI: I don't want
+these fucking medals, man!
+
+742
+00:38:34,233 --> 00:38:37,465
+The Silver Star, the third
+highest medal in the country,
+
+743
+00:38:37,565 --> 00:38:39,065
+it doesn't mean anything!
+
+744
+00:38:39,166 --> 00:38:41,465
+Bob Smeal died for these medals!
+
+745
+00:38:41,565 --> 00:38:43,965
+Lieutenant Panamaroff
+died so I got a medal!
+
+746
+00:38:44,065 --> 00:38:46,400
+Sergeant Johns died so I got a medal!
+
+747
+00:38:46,500 --> 00:38:48,400
+I got a Silver Star, a Purple Heart,
+
+748
+00:38:48,500 --> 00:38:50,800
+Army Commendation Medal, eight Air Medals,
+
+749
+00:38:50,900 --> 00:38:52,266
+National Defense,
+
+750
+00:38:52,365 --> 00:38:53,508
+and the rest of this garbage!
+
+751
+00:38:53,532 --> 00:38:55,365
+It doesn't mean a thing!
+
+752
+00:38:55,465 --> 00:38:56,865
+(cheering)
+
+753
+00:38:56,965 --> 00:39:00,532
+JAGGER: ♪ Mm, the flood is threatening
+
+754
+00:39:00,632 --> 00:39:02,065
+♪ My very life
+
+755
+00:39:02,166 --> 00:39:04,286
+FERRIZZI: Throwing my medals
+back was probably harder
+
+756
+00:39:04,365 --> 00:39:05,666
+than going to the war.
+
+757
+00:39:05,766 --> 00:39:08,333
+Was actually harder than going
+and serving in Vietnam.
+
+758
+00:39:08,432 --> 00:39:12,865
+JAGGER: ♪ Or I'm gonna fade away
+
+759
+00:39:12,965 --> 00:39:15,441
+FERRIZZI: If this medal is so
+important, let's make it important.
+
+760
+00:39:15,465 --> 00:39:17,065
+Here it is. You can have it back.
+
+761
+00:39:17,166 --> 00:39:19,199
+End the war in Vietnam.
+
+762
+00:39:19,300 --> 00:39:20,833
+What else is there?
+
+763
+00:39:20,932 --> 00:39:22,199
+I... There was nothing else.
+
+764
+00:39:22,300 --> 00:39:23,776
+I wouldn't put 'em on my wall for my son.
+
+765
+00:39:23,800 --> 00:39:25,932
+I never want... that was the
+last thing in the world
+
+766
+00:39:26,032 --> 00:39:28,632
+I would ever want my son to revere.
+
+767
+00:39:28,733 --> 00:39:30,965
+(indistinct shouting)
+
+768
+00:39:31,065 --> 00:39:33,900
+TOM VALLELY: It was a
+difficult decision for me.
+
+769
+00:39:34,000 --> 00:39:38,900
+I did it out of a disrespectful loyalty.
+
+770
+00:39:39,000 --> 00:39:42,932
+I was proud of my military service.
+
+771
+00:39:43,032 --> 00:39:45,266
+And I wanted to say,
+"You know, I don't think
+
+772
+00:39:45,365 --> 00:39:48,065
+you guys know that much,"
+the American military.
+
+773
+00:39:48,166 --> 00:39:51,166
+"You know, I think you should think again
+
+774
+00:39:51,266 --> 00:39:52,632
+"about this enterprise.
+
+775
+00:39:52,733 --> 00:39:55,099
+And here you go, pal."
+
+776
+00:39:55,199 --> 00:39:56,965
+Tim Bagwell from Sacramento, California,
+
+777
+00:39:57,065 --> 00:39:59,965
+still on active duty, and
+I say get the hell out.
+
+778
+00:40:00,065 --> 00:40:01,065
+(cheering)
+
+779
+00:40:01,132 --> 00:40:03,766
+("Gimme Shelter" continues)
+
+780
+00:40:13,333 --> 00:40:15,699
+MUSGRAVE: When we threw our medals away,
+
+781
+00:40:15,800 --> 00:40:17,300
+that got their attention,
+
+782
+00:40:17,400 --> 00:40:19,965
+because America values those things.
+
+783
+00:40:20,065 --> 00:40:21,400
+So do we.
+
+784
+00:40:21,500 --> 00:40:23,699
+That's why it was so important.
+
+785
+00:40:23,800 --> 00:40:26,833
+NARRATOR: The police had
+been ordered not to arrest
+
+786
+00:40:26,932 --> 00:40:29,432
+any of the veterans, because,
+
+787
+00:40:29,532 --> 00:40:32,032
+Pat Buchanan, a White House aide, wrote,
+
+788
+00:40:32,132 --> 00:40:35,500
+they were "being received in a
+far more sympathetic fashion
+
+789
+00:40:35,599 --> 00:40:37,699
+"than other demonstrators.
+
+790
+00:40:37,800 --> 00:40:41,432
+The 'crazies' will be in town
+soon enough," he continued,
+
+791
+00:40:41,532 --> 00:40:43,599
+"and if we want a confrontation,
+
+792
+00:40:43,699 --> 00:40:45,666
+let's have it with them."
+
+793
+00:40:45,766 --> 00:40:48,065
+He was right.
+
+794
+00:40:48,166 --> 00:40:50,400
+In the days immediately following
+
+795
+00:40:50,500 --> 00:40:51,865
+the veterans' protest,
+
+796
+00:40:51,965 --> 00:40:54,000
+other groups of antiwar activists
+
+797
+00:40:54,099 --> 00:40:57,099
+moved into the capital.
+
+798
+00:40:57,199 --> 00:41:00,865
+The most radical called
+itself the May Day Tribe
+
+799
+00:41:00,965 --> 00:41:03,932
+and threatened to close the city down.
+
+800
+00:41:04,032 --> 00:41:07,266
+For three days, they
+staged hit-and-run raids
+
+801
+00:41:07,365 --> 00:41:09,132
+throughout Washington...
+
+802
+00:41:09,233 --> 00:41:11,666
+blocking bridges and traffic circles,
+
+803
+00:41:11,766 --> 00:41:13,099
+smashing windows,
+
+804
+00:41:13,199 --> 00:41:15,599
+hurling rocks, burning cars.
+
+805
+00:41:15,699 --> 00:41:16,699
+(sirens wailing)
+
+806
+00:41:16,766 --> 00:41:18,142
+RENNIE DAVIS: If Richard Nixon thought
+
+807
+00:41:18,166 --> 00:41:21,465
+that this week was something,
+wait until the next round.
+
+808
+00:41:21,565 --> 00:41:24,132
+This is only a warm-up of
+what is going to come.
+
+809
+00:41:24,233 --> 00:41:26,965
+This is going to continue
+until the war ends.
+
+810
+00:41:27,065 --> 00:41:29,266
+NARRATOR: Some 12,000 were arrested...
+
+811
+00:41:29,365 --> 00:41:31,833
+7,000 on a single day,
+
+812
+00:41:31,932 --> 00:41:35,400
+the largest number of arrests in 24 hours
+
+813
+00:41:35,500 --> 00:41:37,900
+in United States history.
+
+814
+00:41:38,000 --> 00:41:41,365
+BILL ZIMMERMAN: I realized,
+coming away from Washington,
+
+815
+00:41:41,465 --> 00:41:43,766
+that our whole strategy was wrong
+
+816
+00:41:43,865 --> 00:41:47,500
+and that we were becoming
+more and more militant
+
+817
+00:41:47,599 --> 00:41:50,365
+at a time when more and more Americans
+
+818
+00:41:50,465 --> 00:41:51,965
+were opposing the war
+
+819
+00:41:52,065 --> 00:41:54,565
+but were turned off by our militancy.
+
+820
+00:41:54,666 --> 00:41:57,565
+So we were doing exactly the wrong thing.
+
+821
+00:41:57,666 --> 00:42:01,132
+NARRATOR: The White House
+was initially pleased.
+
+822
+00:42:01,233 --> 00:42:04,300
+Public sympathy for the
+veterans was largely forgotten
+
+823
+00:42:04,400 --> 00:42:08,333
+in the face of days of
+battle in the streets.
+
+824
+00:42:08,432 --> 00:42:11,465
+Polls showed that most Americans approved
+
+825
+00:42:11,565 --> 00:42:13,365
+of the arrests.
+
+826
+00:42:17,532 --> 00:42:20,565
+But those same polls also showed
+
+827
+00:42:20,666 --> 00:42:23,365
+that most Americans no longer believed
+
+828
+00:42:23,465 --> 00:42:27,166
+they were being told the
+truth about Vietnam.
+
+829
+00:42:32,132 --> 00:42:34,833
+MUSGRAVE: When I got home, my...
+so my dad's pissed off.
+
+830
+00:42:34,932 --> 00:42:38,666
+'Cause he's-he's a true believer, you know?
+
+831
+00:42:40,199 --> 00:42:42,432
+He was already receiving threats
+
+832
+00:42:42,532 --> 00:42:45,666
+because I'd thrown away their medals.
+
+833
+00:42:47,432 --> 00:42:50,400
+And that pissed my dad off then.
+
+834
+00:42:50,500 --> 00:42:53,132
+And you would've thought I
+hadn't done anything wrong.
+
+835
+00:42:53,233 --> 00:42:56,266
+Because then somebody outside
+the family was messing with me.
+
+836
+00:42:56,365 --> 00:42:58,400
+And he said, "Son, don't worry.
+
+837
+00:42:58,500 --> 00:43:00,400
+"Those were your medals. You paid for 'em.
+
+838
+00:43:00,500 --> 00:43:01,876
+"You can do anything you want with 'em.
+
+839
+00:43:01,900 --> 00:43:03,965
+"They want to jack with
+us, they'll face us both.
+
+840
+00:43:04,065 --> 00:43:05,705
+We'll-we'll take 'em on in the driveway."
+
+841
+00:43:05,800 --> 00:43:08,465
+You know? "Yo, Dad."
+
+842
+00:43:09,733 --> 00:43:11,666
+(applause)
+
+843
+00:43:13,365 --> 00:43:15,800
+(band playing "Thank
+Heaven for Little Girls")
+
+844
+00:43:15,900 --> 00:43:18,800
+NARRATOR: On June 12, 1971,
+
+845
+00:43:18,900 --> 00:43:21,132
+Richard Nixon's daughter, Tricia,
+
+846
+00:43:21,233 --> 00:43:25,766
+married Edward Cox in the
+White House Rose Garden.
+
+847
+00:43:25,865 --> 00:43:29,465
+The country watched it all on television.
+
+848
+00:43:32,900 --> 00:43:36,065
+The wedding was still news the next day.
+
+849
+00:43:36,166 --> 00:43:39,666
+But another story on the front
+page of theNew York Times
+
+850
+00:43:39,766 --> 00:43:42,565
+caught the president's attention.
+
+851
+00:43:42,666 --> 00:43:45,733
+The article, by Neil Sheehan,
+
+852
+00:43:45,833 --> 00:43:48,532
+was the first report of
+what came to be called
+
+853
+00:43:48,632 --> 00:43:50,400
+the Pentagon Papers,
+
+854
+00:43:50,500 --> 00:43:54,065
+7,000 pages of highly classified documents
+
+855
+00:43:54,166 --> 00:43:56,132
+and historical narrative,
+
+856
+00:43:56,233 --> 00:43:58,465
+compiled secretly at the orders
+
+857
+00:43:58,565 --> 00:44:02,333
+of former Secretary of
+Defense Robert McNamara.
+
+858
+00:44:02,432 --> 00:44:05,666
+He had hoped a study of the
+decision-making process
+
+859
+00:44:05,766 --> 00:44:09,266
+that had led the United States
+to become so deeply involved
+
+860
+00:44:09,365 --> 00:44:12,599
+in Vietnam would help future policymakers
+
+861
+00:44:12,699 --> 00:44:15,300
+avoid similar errors.
+
+862
+00:44:16,900 --> 00:44:18,932
+SHEEHAN: I thought I knew a great deal.
+
+863
+00:44:19,032 --> 00:44:21,065
+I thought I knew most of
+what was worth knowing
+
+864
+00:44:21,166 --> 00:44:22,400
+about the war.
+
+865
+00:44:22,500 --> 00:44:26,199
+And, suddenly, I didn't.
+
+866
+00:44:26,300 --> 00:44:29,266
+It wasn't a reporter's version of an event.
+
+867
+00:44:29,365 --> 00:44:31,199
+It wasthe ir version of an event.
+
+868
+00:44:31,300 --> 00:44:33,532
+It was their telegrams, their orders,
+
+869
+00:44:33,632 --> 00:44:35,465
+their memoranda, et cetera.
+
+870
+00:44:49,932 --> 00:44:53,000
+NARRATOR: The documents proved
+that American presidents
+
+871
+00:44:53,099 --> 00:44:54,932
+and their closest advisors
+
+872
+00:44:55,032 --> 00:44:57,000
+had steered the United States
+
+873
+00:44:57,099 --> 00:44:59,800
+toward deeper involvement in Vietnam,
+
+874
+00:44:59,900 --> 00:45:04,300
+despite their own grave doubts
+about the chances for victory.
+
+875
+00:45:13,166 --> 00:45:15,666
+They had known that the Saigon government
+
+876
+00:45:15,766 --> 00:45:18,166
+was weak and incompetent...
+
+877
+00:45:25,532 --> 00:45:29,465
+...that the enemy was
+disciplined and resilient...
+
+878
+00:45:35,565 --> 00:45:39,333
+...and that the bombing of
+the North wasn't working.
+
+879
+00:45:46,900 --> 00:45:50,965
+Yet, they had routinely
+lied about all these things
+
+880
+00:45:51,065 --> 00:45:53,599
+to Congress and the American people.
+
+881
+00:46:17,766 --> 00:46:19,432
+(sighs)
+
+882
+00:46:19,532 --> 00:46:22,465
+I certainly don't endorse
+
+883
+00:46:22,565 --> 00:46:27,465
+anyone releasing top-secret
+material to the press.
+
+884
+00:46:29,166 --> 00:46:33,065
+Um, on the other hand, uh...
+
+885
+00:46:33,166 --> 00:46:36,300
+I was very concerned
+
+886
+00:46:36,400 --> 00:46:38,833
+about the fact that the, uh,
+
+887
+00:46:38,932 --> 00:46:44,199
+government was not being up
+front with the American people
+
+888
+00:46:44,300 --> 00:46:47,965
+in certain respects with the Vietnam War.
+
+889
+00:46:48,065 --> 00:46:51,233
+NARRATOR: Two copies of the
+report had been stored
+
+890
+00:46:51,333 --> 00:46:54,666
+at the RAND Corporation,
+a California think tank,
+
+891
+00:46:54,766 --> 00:46:56,733
+where Daniel Ellsberg,
+
+892
+00:46:56,833 --> 00:47:01,532
+one of the study's 36 authors,
+worked as an analyst.
+
+893
+00:47:01,632 --> 00:47:04,565
+Ellsberg had once supported the war.
+
+894
+00:47:04,666 --> 00:47:06,565
+He'd served in the Pentagon,
+
+895
+00:47:06,666 --> 00:47:09,065
+and spent two years working
+for the State Department
+
+896
+00:47:09,166 --> 00:47:11,300
+in Vietnam.
+
+897
+00:47:11,400 --> 00:47:15,800
+But he had come to see the
+war as profoundly immoral,
+
+898
+00:47:15,900 --> 00:47:18,400
+and hoped that if Americans understood
+
+899
+00:47:18,500 --> 00:47:22,833
+how administration after
+administration had misled them
+
+900
+00:47:22,932 --> 00:47:25,400
+about what was being done in their name,
+
+901
+00:47:25,500 --> 00:47:28,032
+they might help bring it to an end.
+
+902
+00:47:28,132 --> 00:47:31,865
+He and Anthony Russo,
+another RAND employee,
+
+903
+00:47:31,965 --> 00:47:35,365
+secretly copied most of the report.
+
+904
+00:47:35,465 --> 00:47:39,565
+Ellsberg offered it to three
+leading antiwar senators,
+
+905
+00:47:39,666 --> 00:47:43,565
+hoping they would be willing
+to reveal its contents.
+
+906
+00:47:43,666 --> 00:47:46,300
+None dared do it.
+
+907
+00:47:46,400 --> 00:47:49,900
+Meanwhile, Neil Sheehan
+of theNew York Times,
+
+908
+00:47:50,000 --> 00:47:54,032
+who had been reporting
+on Vietnam since 1962,
+
+909
+00:47:54,132 --> 00:47:57,900
+and had already secretly
+read some of the documents,
+
+910
+00:47:58,000 --> 00:48:01,965
+asked Ellsberg to show
+him the whole report.
+
+911
+00:48:02,065 --> 00:48:05,099
+SHEEHAN: At that point, I was
+very passionate about the war.
+
+912
+00:48:05,199 --> 00:48:08,632
+I felt that it was really wrong,
+
+913
+00:48:08,733 --> 00:48:10,599
+because we were getting a lot of Americans
+
+914
+00:48:10,699 --> 00:48:12,932
+and a lot of Vietnamese
+killed for no purpose.
+
+915
+00:48:13,032 --> 00:48:16,766
+We were gonna lose this war.
+
+916
+00:48:16,865 --> 00:48:21,065
+And so I vowed to myself
+when I saw this material
+
+917
+00:48:21,166 --> 00:48:22,932
+that this is never gonna go back
+
+918
+00:48:23,032 --> 00:48:24,599
+into a government safe again.
+
+919
+00:48:24,699 --> 00:48:26,365
+The American public had paid for it
+
+920
+00:48:26,465 --> 00:48:29,132
+with the lives of their sons
+and with their treasure,
+
+921
+00:48:29,233 --> 00:48:30,932
+and it's gonna be published.
+
+922
+00:48:31,032 --> 00:48:32,599
+NIXON: That piece in theTimes
+
+923
+00:48:32,699 --> 00:48:33,900
+is, of course,
+
+924
+00:48:34,000 --> 00:48:37,065
+a massive security leak from
+the Pentagon, you know.
+
+925
+00:48:37,166 --> 00:48:38,865
+ROGERS: Yeah.
+
+926
+00:48:38,965 --> 00:48:42,000
+NIXON: It all relates, of course,
+to everything up until we came in.
+
+927
+00:48:42,099 --> 00:48:43,699
+ROGERS: Yeah.
+
+928
+00:48:43,800 --> 00:48:46,233
+NIXON: And it's, uh, it's ver...
+it's hard on Johnson,
+
+929
+00:48:46,333 --> 00:48:49,666
+it's hard on Kennedy, it's hard on Lodge.
+
+930
+00:48:49,766 --> 00:48:53,166
+NARRATOR: At first, Nixon
+was not unduly disturbed
+
+931
+00:48:53,266 --> 00:48:55,666
+by the newspaper's revelations.
+
+932
+00:48:55,766 --> 00:48:59,300
+They reflected badly on his
+Democratic predecessors,
+
+933
+00:48:59,400 --> 00:49:01,766
+not on him.
+
+934
+00:49:01,865 --> 00:49:05,065
+But Henry Kissinger quickly convinced Nixon
+
+935
+00:49:05,166 --> 00:49:06,965
+that if theTime s were permitted
+
+936
+00:49:07,065 --> 00:49:10,800
+to reveal the classified
+secrets of earlier presidents,
+
+937
+00:49:10,900 --> 00:49:15,900
+it was only a matter of time
+until someone leaked his own.
+
+938
+00:49:16,000 --> 00:49:19,833
+The Justice Department obtained
+a temporary court order
+
+939
+00:49:19,932 --> 00:49:23,500
+forbidding theTi mes from
+publishing further installments
+
+940
+00:49:23,599 --> 00:49:26,632
+on the grounds of national security.
+
+941
+00:49:26,733 --> 00:49:30,432
+But soon, both theBoston Globe
+
+942
+00:49:30,532 --> 00:49:34,400
+and theWashington Pos t were
+also printing excerpts.
+
+943
+00:49:36,032 --> 00:49:38,565
+On June 30, 1971,
+
+944
+00:49:38,666 --> 00:49:41,333
+the United States Supreme Court,
+
+945
+00:49:41,432 --> 00:49:43,599
+citing the First Amendment,
+
+946
+00:49:43,699 --> 00:49:47,266
+ruled six to three that
+theTimes had the right
+
+947
+00:49:47,365 --> 00:49:50,833
+to publish the stolen documents.
+
+948
+00:49:50,932 --> 00:49:53,032
+SHEEHAN: And I went down into the basement
+
+949
+00:49:53,132 --> 00:49:55,432
+to wait for the presses to start to roll,
+
+950
+00:49:55,532 --> 00:49:58,132
+and they had these huge
+round reams of paper.
+
+951
+00:49:58,233 --> 00:49:59,333
+(whirring)
+
+952
+00:49:59,432 --> 00:50:01,008
+And, finally, the presses started to roll.
+
+953
+00:50:01,032 --> 00:50:05,465
+And it was just an exquisite
+moment of vindication
+
+954
+00:50:05,565 --> 00:50:07,699
+of the freedom of the press in this country
+
+955
+00:50:07,800 --> 00:50:09,400
+and how important it is.
+
+956
+00:50:09,500 --> 00:50:11,465
+(rhythmic rattling)
+
+957
+00:50:11,565 --> 00:50:14,233
+KARL MARLANTES: That changed
+
+958
+00:50:14,333 --> 00:50:16,233
+our whole attitude toward government.
+
+959
+00:50:16,333 --> 00:50:18,699
+Up until then, the president wouldn't lie.
+
+960
+00:50:18,800 --> 00:50:20,932
+After then, they always lie.
+
+961
+00:50:21,032 --> 00:50:23,500
+NARRATOR: The day the presses
+began to roll again,
+
+962
+00:50:23,599 --> 00:50:26,833
+Nixon ordered attorney
+general John Mitchell
+
+963
+00:50:26,932 --> 00:50:30,500
+to try to discredit Daniel
+Ellsberg, who had just
+
+964
+00:50:30,599 --> 00:50:32,800
+been indicted by a federal grand jury
+
+965
+00:50:32,900 --> 00:50:35,065
+for theft and conspiracy
+
+966
+00:50:35,166 --> 00:50:39,132
+under the Espionage Act of 1917.
+
+967
+00:51:14,099 --> 00:51:18,300
+NARRATOR: Nixon feared Ellsberg
+possessed more classified documents
+
+968
+00:51:18,400 --> 00:51:20,833
+that would show that he himself had lied
+
+969
+00:51:20,932 --> 00:51:24,699
+about the secret bombing
+of Cambodia and Laos,
+
+970
+00:51:24,800 --> 00:51:27,532
+and he believed that Ellsberg had had help
+
+971
+00:51:27,632 --> 00:51:31,065
+and wanted to know the names
+of his co-conspirators.
+
+972
+00:51:31,166 --> 00:51:33,500
+The president created a private,
+
+973
+00:51:33,599 --> 00:51:36,900
+clandestine investigative
+unit within the White House.
+
+974
+00:51:37,000 --> 00:51:39,900
+It came to be called "The Plumbers."
+
+975
+00:51:40,000 --> 00:51:43,532
+John Ehrlichman, one of
+Nixon's closest aides,
+
+976
+00:51:43,632 --> 00:51:47,000
+eventually ordered them
+to burglarize the office
+
+977
+00:51:47,099 --> 00:51:50,032
+of Ellsberg's Los Angeles psychiatrist
+
+978
+00:51:50,132 --> 00:51:52,099
+in search of material
+
+979
+00:51:52,199 --> 00:51:55,900
+with which he could be
+blackmailed into silence.
+
+980
+00:51:56,000 --> 00:52:00,199
+Nixon may have privately
+feared something else as well.
+
+981
+00:52:00,300 --> 00:52:03,099
+He was told that the safe
+at another think tank,
+
+982
+00:52:03,199 --> 00:52:06,800
+the Brookings Institution
+in Washington, D.C.,
+
+983
+00:52:06,900 --> 00:52:10,965
+contained files that might
+reveal the secret role
+
+984
+00:52:11,065 --> 00:52:14,932
+his campaign had played in
+torpedoing the peace talks
+
+985
+00:52:15,032 --> 00:52:18,233
+on the eve of his election
+three years earlier,
+
+986
+00:52:18,333 --> 00:52:22,932
+which President Johnson had
+then considered treason.
+
+987
+00:52:23,032 --> 00:52:26,733
+Nixon wanted his "plumbers"
+to break into Brookings,
+
+988
+00:52:26,833 --> 00:52:31,166
+crack the safe, and remove the files.
+
+989
+00:52:31,266 --> 00:52:33,465
+None of it was legal.
+
+990
+00:52:33,565 --> 00:52:36,699
+Nixon did not care.
+
+991
+00:53:07,432 --> 00:53:11,666
+NARRATOR: The Brookings break-in
+would never take place.
+
+992
+00:53:11,766 --> 00:53:14,233
+The burglars would be unable
+
+993
+00:53:14,333 --> 00:53:17,432
+to find Ellsberg's file
+in his doctor's office.
+
+994
+00:53:17,532 --> 00:53:20,965
+But Nixon's obsession with his enemies
+
+995
+00:53:21,065 --> 00:53:24,800
+would be the undoing of his presidency.
+
+996
+00:53:26,099 --> 00:53:29,565
+("Embryonic Journey" by
+Jefferson Airplane playing)
+
+997
+00:53:33,532 --> 00:53:35,500
+(laughter and chatter)
+
+998
+00:53:42,065 --> 00:53:44,346
+(indistinct voice of man
+speaking French over microphone)
+
+999
+00:53:45,400 --> 00:53:47,666
+JACK TODD: Once a month, I have a dream
+
+1000
+00:53:47,766 --> 00:53:52,300
+that I'm... I'm back... I'm
+back in basic training.
+
+1001
+00:53:52,400 --> 00:53:53,833
+But I'm the age I am now,
+
+1002
+00:53:53,932 --> 00:53:56,199
+which is way too old to be in the military.
+
+1003
+00:53:56,300 --> 00:53:58,666
+But, you know, somehow
+I've gotten a waiver,
+
+1004
+00:53:58,766 --> 00:54:00,365
+and I'm going through all the training,
+
+1005
+00:54:00,465 --> 00:54:02,532
+and there's some major war going on.
+
+1006
+00:54:02,632 --> 00:54:05,766
+And I'm going to get there,
+and I'm going to be a hero
+
+1007
+00:54:05,865 --> 00:54:11,166
+and vindicate myself and be
+taken back by my country.
+
+1008
+00:54:11,266 --> 00:54:13,099
+(car horn honks)
+
+1009
+00:54:13,199 --> 00:54:17,432
+NARRATOR: Jack Todd had crossed
+into Canada in early 1970,
+
+1010
+00:54:17,532 --> 00:54:19,266
+rather than take part
+
+1011
+00:54:19,365 --> 00:54:22,000
+in what he believed to
+be a dishonorable war.
+
+1012
+00:54:24,400 --> 00:54:28,166
+He found himself living in a
+strange underground world
+
+1013
+00:54:28,266 --> 00:54:30,333
+of deserters and draft evaders
+
+1014
+00:54:30,432 --> 00:54:34,733
+and the disaffected Canadians
+who gathered around them.
+
+1015
+00:54:34,833 --> 00:54:38,900
+In 1971, he was living in Montreal,
+
+1016
+00:54:39,000 --> 00:54:41,032
+restless and often depressed,
+
+1017
+00:54:41,132 --> 00:54:44,733
+increasingly alienated from his country,
+
+1018
+00:54:44,833 --> 00:54:47,965
+but also anxious always for news from home,
+
+1019
+00:54:48,065 --> 00:54:50,833
+and eager to know how his boyhood friends
+
+1020
+00:54:50,932 --> 00:54:53,965
+from Scottsbluff, Nebraska, were doing.
+
+1021
+00:54:54,065 --> 00:54:56,666
+One, named Ron Bales,
+
+1022
+00:54:56,766 --> 00:54:59,833
+had lived just down the street.
+
+1023
+00:54:59,932 --> 00:55:04,699
+And, uh... my mother sent me a letter, um,
+
+1024
+00:55:04,800 --> 00:55:06,965
+and I remember taking
+the clipping out of it.
+
+1025
+00:55:07,065 --> 00:55:10,565
+I had walked up to Mount Royal
+in Montreal to read the letter.
+
+1026
+00:55:10,666 --> 00:55:13,532
+And the clipping was from
+theScottsbluff Star-Herald,
+
+1027
+00:55:13,632 --> 00:55:16,400
+and it was about Ron
+being killed in Vietnam.
+
+1028
+00:55:19,632 --> 00:55:22,599
+Why? Why?
+
+1029
+00:55:22,699 --> 00:55:26,666
+It was long after we knew
+how wrong the war was,
+
+1030
+00:55:26,766 --> 00:55:30,833
+and guys like Ron were
+still dying, you know.
+
+1031
+00:55:32,666 --> 00:55:34,599
+Why?
+
+1032
+00:55:35,900 --> 00:55:38,233
+The government today restricted the use
+
+1033
+00:55:38,333 --> 00:55:40,833
+of the weed killer 2,4,5-T on the ground
+
+1034
+00:55:40,932 --> 00:55:42,833
+that the chemical has caused birth defects
+
+1035
+00:55:42,932 --> 00:55:45,465
+in some laboratory animals.
+
+1036
+00:55:47,365 --> 00:55:52,065
+NARRATOR: Since 1962, American
+and South Vietnamese forces
+
+1037
+00:55:52,166 --> 00:55:55,532
+had sprayed some 20 million
+gallons of herbicides
+
+1038
+00:55:55,632 --> 00:55:59,833
+over roughly one quarter of South Vietnam.
+
+1039
+00:55:59,932 --> 00:56:03,099
+The idea had been to reduce casualties
+
+1040
+00:56:03,199 --> 00:56:06,666
+by clearing areas around U.S.
+installations,
+
+1041
+00:56:06,766 --> 00:56:10,965
+and to deny the enemy
+crops and forest cover.
+
+1042
+00:56:11,065 --> 00:56:15,132
+The most frequently used
+defoliant was Agent Orange,
+
+1043
+00:56:15,233 --> 00:56:18,132
+which contained 2,4,5-T.
+
+1044
+00:56:18,233 --> 00:56:20,300
+When environmentalists convinced
+
+1045
+00:56:20,400 --> 00:56:23,465
+the Nixon administration
+to ban the weed killer
+
+1046
+00:56:23,565 --> 00:56:25,132
+on American farms,
+
+1047
+00:56:25,233 --> 00:56:28,032
+the Pentagon had reluctantly agreed
+
+1048
+00:56:28,132 --> 00:56:31,766
+to stop using Agent Orange in Vietnam.
+
+1049
+00:56:31,865 --> 00:56:36,599
+The ecological damage
+defoliants did was obvious.
+
+1050
+00:56:36,699 --> 00:56:40,699
+The damage done to soldiers and civilians
+
+1051
+00:56:40,800 --> 00:56:45,000
+would be the subject of
+angry debate for decades.
+
+1052
+00:56:48,300 --> 00:56:51,199
+(crowd shouting in Vietnamese)
+
+1053
+00:56:51,300 --> 00:56:54,032
+TED KOPPEL: Opposition
+to the Saigon government
+
+1054
+00:56:54,132 --> 00:56:56,465
+is not just Viet Cong.
+
+1055
+00:56:56,565 --> 00:56:58,065
+TUE: How many governments
+
+1056
+00:56:58,166 --> 00:57:01,166
+actually care for the Vietnamese people?
+
+1057
+00:57:01,266 --> 00:57:05,000
+KOPPEL: The student antiwar,
+anti-American movement
+
+1058
+00:57:05,099 --> 00:57:07,532
+is larger than its small
+demonstrations indicate.
+
+1059
+00:57:07,632 --> 00:57:10,400
+TUE: You don't need military aid...
+
+1060
+00:57:12,465 --> 00:57:14,865
+...to promote democracy in Vietnam.
+
+1061
+00:57:14,965 --> 00:57:18,233
+To return to the Vietnamese people
+
+1062
+00:57:18,333 --> 00:57:20,666
+their right that...
+
+1063
+00:57:20,766 --> 00:57:22,932
+their right to speak freely.
+
+1064
+00:57:23,032 --> 00:57:25,699
+You don't need even one penny.
+
+1065
+00:57:25,800 --> 00:57:28,900
+You don't need to consult the White House,
+
+1066
+00:57:29,000 --> 00:57:31,932
+you don't need to care
+about the American media,
+
+1067
+00:57:32,032 --> 00:57:34,532
+you don't need French,
+you don't need Chinese,
+
+1068
+00:57:34,632 --> 00:57:36,199
+you don't need Americans.
+
+1069
+00:57:36,300 --> 00:57:40,733
+If you really care for Vietnam
+then you turn back inside.
+
+1070
+00:57:40,833 --> 00:57:44,365
+NARRATOR: South Vietnamese
+president Nguyen Van Thieu
+
+1071
+00:57:44,465 --> 00:57:46,432
+was campaigning for reelection.
+
+1072
+00:57:46,532 --> 00:57:48,865
+The Americans had insisted on it
+
+1073
+00:57:48,965 --> 00:57:51,632
+and urged him not to rig the race,
+
+1074
+00:57:51,733 --> 00:57:54,733
+for fear it would resemble too closely
+
+1075
+00:57:54,833 --> 00:57:57,266
+the fraudulent communist "elections"
+
+1076
+00:57:57,365 --> 00:58:00,766
+routinely denounced by the United States.
+
+1077
+00:58:00,865 --> 00:58:02,432
+But Thieu made sure
+
+1078
+00:58:02,532 --> 00:58:05,432
+no serious candidates ran against him,
+
+1079
+00:58:05,532 --> 00:58:09,300
+and claimed to have won 94% of the vote.
+
+1080
+00:58:09,400 --> 00:58:13,099
+It became known as "the one-man election,"
+
+1081
+00:58:13,199 --> 00:58:14,365
+and added to the ranks
+
+1082
+00:58:14,465 --> 00:58:17,465
+of what was called the "Third Force":
+
+1083
+00:58:17,565 --> 00:58:21,333
+South Vietnamese hoping for
+a negotiated settlement
+
+1084
+00:58:21,432 --> 00:58:23,599
+and an end to the bloodshed.
+
+1085
+00:58:40,333 --> 00:58:42,465
+NARRATOR: By the middle of 1971,
+
+1086
+00:58:42,565 --> 00:58:45,465
+Nixon and Kissinger were looking for a way
+
+1087
+00:58:45,565 --> 00:58:48,965
+to get all U.S. troops out of Vietnam
+
+1088
+00:58:49,065 --> 00:58:51,565
+before his re-election campaign began
+
+1089
+00:58:51,666 --> 00:58:53,565
+the following year,
+
+1090
+00:58:53,666 --> 00:58:56,065
+but to do so without causing
+
+1091
+00:58:56,166 --> 00:58:59,099
+Saigon to fall too soon.
+
+1092
+00:59:35,900 --> 00:59:38,300
+NARRATOR: At the secret talks in Paris,
+
+1093
+00:59:38,400 --> 00:59:41,465
+Kissinger had offered his
+North Vietnamese counterpart,
+
+1094
+00:59:41,565 --> 00:59:44,766
+Le Duc Tho, the most
+significant concessions
+
+1095
+00:59:44,865 --> 00:59:47,833
+the United States had yet made:
+
+1096
+00:59:47,932 --> 00:59:51,432
+North Vietnam could keep
+its troops in the South...
+
+1097
+00:59:51,532 --> 00:59:53,432
+tens of thousands of them.
+
+1098
+00:59:53,532 --> 00:59:57,932
+And in exchange for the release
+of American prisoners of war,
+
+1099
+00:59:58,032 --> 00:59:59,632
+all American troops
+
+1100
+00:59:59,733 --> 01:00:03,000
+would be withdrawn within seven months.
+
+1101
+01:00:05,199 --> 01:00:08,565
+Le Duc Tho countered with
+a new offer of his own:
+
+1102
+01:00:08,666 --> 01:00:10,865
+Hanoi would release the prisoners
+
+1103
+01:00:10,965 --> 01:00:14,766
+simultaneously with the
+departure of U.S. forces.
+
+1104
+01:00:14,865 --> 01:00:18,032
+But he still insisted
+that Washington remove
+
+1105
+01:00:18,132 --> 01:00:21,599
+President Thieu from power.
+
+1106
+01:00:21,699 --> 01:00:24,465
+Kissinger was encouraged
+that the North Vietnamese
+
+1107
+01:00:24,565 --> 01:00:28,333
+seemed, for the first time,
+to be negotiating seriously.
+
+1108
+01:00:28,432 --> 01:00:33,199
+He could almost "taste
+peace," he told a friend.
+
+1109
+01:00:33,300 --> 01:00:34,865
+Thieu knew nothing
+
+1110
+01:00:34,965 --> 01:00:38,099
+about the new American
+concessions to Hanoi.
+
+1111
+01:00:38,199 --> 01:00:42,065
+He was worried about something else.
+
+1112
+01:00:45,199 --> 01:00:47,199
+ANNOUNCER: NBC News interrupts
+regular programming
+
+1113
+01:00:47,233 --> 01:00:49,032
+to bring you a special report.
+
+1114
+01:00:49,132 --> 01:00:51,599
+The announcement I shall
+now read is being issued
+
+1115
+01:00:51,699 --> 01:00:56,365
+simultaneously in Peking
+and in the United States.
+
+1116
+01:00:56,465 --> 01:00:58,132
+NARRATOR: Richard Nixon,
+
+1117
+01:00:58,233 --> 01:01:01,333
+famous for the ferocity
+of his anticommunism,
+
+1118
+01:01:01,432 --> 01:01:03,965
+astonished the world by announcing
+
+1119
+01:01:04,065 --> 01:01:07,599
+that he was planning to
+restore relations with China
+
+1120
+01:01:07,699 --> 01:01:11,065
+that had been severed for
+more than two decades.
+
+1121
+01:01:11,166 --> 01:01:14,800
+The United States had
+gone to war in Vietnam
+
+1122
+01:01:14,900 --> 01:01:17,932
+in part to block Chinese expansionism.
+
+1123
+01:01:18,032 --> 01:01:22,166
+What would Nixon's visit
+mean for Thieu's future
+
+1124
+01:01:22,266 --> 01:01:24,500
+or for that of his country?
+
+1125
+01:01:24,599 --> 01:01:27,766
+Thieu was afraid he knew.
+
+1126
+01:01:27,865 --> 01:01:30,500
+"America has been looking
+for a new mistress,"
+
+1127
+01:01:30,599 --> 01:01:31,900
+he told an aide,
+
+1128
+01:01:32,000 --> 01:01:34,733
+"and now Nixon has discovered China.
+
+1129
+01:01:34,833 --> 01:01:38,565
+"He does not want to have
+the old mistress around.
+
+1130
+01:01:38,666 --> 01:01:42,400
+Vietnam has become old and ugly."
+
+1131
+01:01:55,099 --> 01:01:58,699
+KUSHNER: I believe it was
+in the fall of 1971.
+
+1132
+01:02:01,300 --> 01:02:05,400
+And they called us out and
+they hung a bed sheet
+
+1133
+01:02:05,500 --> 01:02:10,166
+and they had a projector and they showed us
+
+1134
+01:02:10,266 --> 01:02:13,733
+color and black and white movies
+
+1135
+01:02:13,833 --> 01:02:17,132
+of these protests in Washington.
+
+1136
+01:02:17,233 --> 01:02:19,166
+(shouting)
+
+1137
+01:02:21,932 --> 01:02:23,865
+And in the same film
+
+1138
+01:02:23,965 --> 01:02:26,132
+it showed John Kerry.
+
+1139
+01:02:26,233 --> 01:02:28,365
+And I remember he was very articulate,
+
+1140
+01:02:28,465 --> 01:02:30,632
+very, very well spoken,
+
+1141
+01:02:30,733 --> 01:02:33,699
+very fluent
+
+1142
+01:02:33,800 --> 01:02:36,400
+and a good spokesman
+
+1143
+01:02:36,500 --> 01:02:37,900
+for his cause.
+
+1144
+01:02:38,000 --> 01:02:40,065
+Someone has to die so that President Nixon
+
+1145
+01:02:40,166 --> 01:02:42,766
+won't be... and these are his words...
+
+1146
+01:02:42,865 --> 01:02:46,599
+"the first president to lose a war."
+
+1147
+01:02:46,699 --> 01:02:47,865
+And I remember very well,
+
+1148
+01:02:47,965 --> 01:02:50,500
+he's sitting with his fatigue jacket
+
+1149
+01:02:50,599 --> 01:02:52,199
+and long hair
+
+1150
+01:02:52,300 --> 01:02:54,432
+and testifying about atrocities
+
+1151
+01:02:54,532 --> 01:02:56,465
+and war crimes that...
+
+1152
+01:02:56,565 --> 01:02:58,565
+we perpetrated.
+
+1153
+01:02:58,666 --> 01:03:01,632
+Cut off limbs, blown up bodies,
+
+1154
+01:03:01,733 --> 01:03:04,000
+randomly shot at civilians...
+
+1155
+01:03:04,099 --> 01:03:06,065
+KUSHNER: But I was shocked by what he said.
+
+1156
+01:03:06,166 --> 01:03:07,900
+And I didn't believe it.
+
+1157
+01:03:08,000 --> 01:03:11,365
+I didn't believe it at all.
+
+1158
+01:03:13,099 --> 01:03:15,965
+I mean, I'm sophisticated
+to know, and I knew then,
+
+1159
+01:03:16,065 --> 01:03:18,565
+that bad things happen in war
+and they happen on both sides,
+
+1160
+01:03:18,666 --> 01:03:22,300
+and I had seen the evidence
+of the other side too, also.
+
+1161
+01:03:22,400 --> 01:03:23,699
+And I knew it.
+
+1162
+01:03:23,800 --> 01:03:26,032
+And... but still, to hear the testimony
+
+1163
+01:03:26,132 --> 01:03:31,065
+and to hear it used as a weapon
+
+1164
+01:03:31,166 --> 01:03:33,699
+against our further prosecution of this war
+
+1165
+01:03:33,800 --> 01:03:38,632
+that we were suffering for
+was very powerful indeed.
+
+1166
+01:03:38,733 --> 01:03:41,365
+NARRATOR: A few months later
+
+1167
+01:03:41,465 --> 01:03:44,632
+Kushner got an even bigger shock.
+
+1168
+01:03:44,733 --> 01:03:47,000
+VALERIE KUSHNER (on recording):
+My son has no father.
+
+1169
+01:03:47,099 --> 01:03:50,699
+This Christmas Day we celebrate
+the birth of a son to Mary
+
+1170
+01:03:50,800 --> 01:03:53,365
+and this Christmas Day
+some other mother's son
+
+1171
+01:03:53,465 --> 01:03:55,800
+will die in Vietnam.
+
+1172
+01:03:55,900 --> 01:03:58,465
+That death takes away all
+that was taught to us
+
+1173
+01:03:58,565 --> 01:04:01,132
+by Christ's birth.
+
+1174
+01:04:01,233 --> 01:04:03,532
+KUSHNER: The whole time I was in the South
+
+1175
+01:04:03,632 --> 01:04:05,965
+I never got one letter,
+one bit of information.
+
+1176
+01:04:06,065 --> 01:04:08,099
+When I got to North
+Vietnam I got no letter,
+
+1177
+01:04:08,199 --> 01:04:10,632
+no bit of information, nothing.
+
+1178
+01:04:10,733 --> 01:04:16,365
+Then, I think it may have
+been Christmas of '71,
+
+1179
+01:04:16,465 --> 01:04:20,900
+my wife wrote an op-ed piece
+in theNew York Times.
+
+1180
+01:04:21,000 --> 01:04:24,465
+She had become politically active.
+
+1181
+01:04:24,565 --> 01:04:26,800
+NARRATOR: The families of POWs
+
+1182
+01:04:26,900 --> 01:04:30,565
+overwhelmingly supported
+the Nixon administration.
+
+1183
+01:04:30,666 --> 01:04:33,565
+Valerie Kushner did not,
+
+1184
+01:04:33,666 --> 01:04:35,300
+and the North Vietnamese were quick
+
+1185
+01:04:35,400 --> 01:04:38,632
+to exploit her antiwar views.
+
+1186
+01:04:38,733 --> 01:04:40,565
+They broadcast a message
+
+1187
+01:04:40,666 --> 01:04:43,599
+they had permitted her
+husband to record for her.
+
+1188
+01:04:43,699 --> 01:04:46,400
+It was the first time
+she had heard his voice
+
+1189
+01:04:46,500 --> 01:04:48,432
+in four years.
+
+1190
+01:04:50,766 --> 01:04:53,500
+KUSHNER (on recording): I
+received the glasses, Val,
+
+1191
+01:04:53,599 --> 01:04:56,365
+and my eyes have improved considerably.
+
+1192
+01:04:56,465 --> 01:04:59,099
+Please let me know about Brother John.
+
+1193
+01:04:59,199 --> 01:05:01,666
+He or she is almost four now,
+
+1194
+01:05:01,766 --> 01:05:04,333
+and he or she is old enough to understand
+
+1195
+01:05:04,432 --> 01:05:07,865
+where Daddy is and that I love him or her
+
+1196
+01:05:07,965 --> 01:05:11,233
+immeasurably despite our never meeting.
+
+1197
+01:05:11,333 --> 01:05:14,965
+I calculate that T-Bird
+is now in second grade,
+
+1198
+01:05:15,065 --> 01:05:17,099
+and I know she is doing well.
+
+1199
+01:05:17,199 --> 01:05:19,000
+She is a grown-up lady now
+
+1200
+01:05:19,099 --> 01:05:22,932
+and I hope you have plans for
+piano or ballet lessons soon.
+
+1201
+01:05:23,032 --> 01:05:25,532
+Happy eighth birthday, dear T-Bird,
+
+1202
+01:05:25,632 --> 01:05:27,099
+and Merry Christmas.
+
+1203
+01:05:27,199 --> 01:05:29,432
+When I left you I promised to come home
+
+1204
+01:05:29,532 --> 01:05:31,065
+before you were five.
+
+1205
+01:05:31,166 --> 01:05:34,900
+I didn't fulfill that promise,
+but when I do return,
+
+1206
+01:05:35,000 --> 01:05:37,565
+I will never leave you again.
+
+1207
+01:05:37,666 --> 01:05:40,365
+His optimism about the
+whole situation amazes me.
+
+1208
+01:05:40,465 --> 01:05:41,833
+I'm just very happy
+
+1209
+01:05:41,932 --> 01:05:44,300
+that he can't see this morning's newspaper.
+
+1210
+01:05:44,400 --> 01:05:47,365
+Because I-I don't have the same optimism
+
+1211
+01:05:47,465 --> 01:05:49,132
+or the same confidence in this government
+
+1212
+01:05:49,233 --> 01:05:52,032
+that he seems to have.
+
+1213
+01:05:56,000 --> 01:06:01,465
+NARRATOR: President Nixon's visit
+to China in February of 1972
+
+1214
+01:06:01,565 --> 01:06:04,099
+not only alarmed President Thieu,
+
+1215
+01:06:04,199 --> 01:06:07,065
+it worried Hanoi as well.
+
+1216
+01:06:07,166 --> 01:06:10,300
+The North Vietnamese
+remembered how Ho Chi Minh
+
+1217
+01:06:10,400 --> 01:06:13,300
+had felt betrayed in 1954
+
+1218
+01:06:13,400 --> 01:06:16,000
+when Moscow and Beijing had compelled them
+
+1219
+01:06:16,099 --> 01:06:20,233
+to sign the Geneva Accords,
+dividing Vietnam in two.
+
+1220
+01:06:20,333 --> 01:06:23,432
+Now, they were concerned
+that warmer relations
+
+1221
+01:06:23,532 --> 01:06:25,800
+between the United States and China
+
+1222
+01:06:25,900 --> 01:06:29,699
+might soon mean less support from Beijing.
+
+1223
+01:06:29,800 --> 01:06:33,632
+Nixon was also planning to travel to Moscow
+
+1224
+01:06:33,733 --> 01:06:37,199
+to meet with Soviet
+premier Leonid Brezhnev,
+
+1225
+01:06:37,300 --> 01:06:39,099
+seeking to ease tensions
+
+1226
+01:06:39,199 --> 01:06:43,000
+with North Vietnam's
+other communist patron.
+
+1227
+01:06:43,099 --> 01:06:47,800
+Before that summit took place,
+First Secretary Le Duan,
+
+1228
+01:06:47,900 --> 01:06:50,766
+the man who headed the Politburo in Hanoi,
+
+1229
+01:06:50,865 --> 01:06:54,233
+decided to undertake a
+new kind of offensive.
+
+1230
+01:06:54,333 --> 01:06:58,032
+It would be conventional warfare this time,
+
+1231
+01:06:58,132 --> 01:07:02,000
+and on a scale he had
+never before attempted.
+
+1232
+01:07:02,099 --> 01:07:04,900
+Le Duan had several goals in mind:
+
+1233
+01:07:05,000 --> 01:07:07,333
+to strengthen his hand at the peace talks
+
+1234
+01:07:07,432 --> 01:07:09,865
+by altering the military balance of power
+
+1235
+01:07:09,965 --> 01:07:11,532
+in South Vietnam,
+
+1236
+01:07:11,632 --> 01:07:15,032
+to show that the ARVN could
+not stand on their own,
+
+1237
+01:07:15,132 --> 01:07:18,833
+and to convince the Soviets and the Chinese
+
+1238
+01:07:18,932 --> 01:07:22,800
+his revolution was still worth supporting.
+
+1239
+01:07:26,932 --> 01:07:30,865
+The assault began on March 30, 1972.
+
+1240
+01:07:30,965 --> 01:07:34,400
+14 North Vietnamese infantry divisions...
+
+1241
+01:07:34,500 --> 01:07:37,132
+more than 120,000 men...
+
+1242
+01:07:37,233 --> 01:07:39,733
+now, for the first time,
+
+1243
+01:07:39,833 --> 01:07:43,766
+supported by hundreds of
+Soviet and Chinese-made tanks
+
+1244
+01:07:43,865 --> 01:07:48,932
+and other armored vehicles,
+attacked on three fronts:
+
+1245
+01:07:49,032 --> 01:07:52,699
+across the demilitarized zone,
+
+1246
+01:07:52,800 --> 01:07:57,199
+in the Central Highlands
+
+1247
+01:07:57,300 --> 01:08:01,766
+and west of Saigon.
+
+1248
+01:08:01,865 --> 01:08:06,900
+Americans would call it
+"The Easter Offensive."
+
+1249
+01:08:07,000 --> 01:08:09,800
+To the South Vietnamese,
+
+1250
+01:08:09,899 --> 01:08:13,432
+it would be remembered as
+"The Summer of Flames."
+
+1251
+01:08:13,533 --> 01:08:16,600
+REPORTER: The South Vietnamese
+Army knew this day was coming:
+
+1252
+01:08:16,699 --> 01:08:17,966
+the day without Americans.
+
+1253
+01:08:18,065 --> 01:08:19,399
+It was to be the big test,
+
+1254
+01:08:19,500 --> 01:08:20,733
+both for them
+
+1255
+01:08:20,832 --> 01:08:23,765
+and for President Nixon's
+Vietnamization program.
+
+1256
+01:08:23,865 --> 01:08:26,733
+The results in so far are not encouraging.
+
+1257
+01:08:26,832 --> 01:08:29,800
+Whole battalions of the
+government's third division
+
+1258
+01:08:29,899 --> 01:08:32,199
+joined the refugees on the road south.
+
+1259
+01:08:32,300 --> 01:08:36,132
+They had been outnumbered,
+overpowered, overwhelmed.
+
+1260
+01:08:36,233 --> 01:08:38,432
+NARRATOR: An entire ARVN regiment
+
+1261
+01:08:38,533 --> 01:08:40,733
+surrendered at Camp Carroll.
+
+1262
+01:08:40,832 --> 01:08:42,600
+North Vietnamese troops
+
+1263
+01:08:42,699 --> 01:08:45,500
+then swiftly overran Quang Tri Province,
+
+1264
+01:08:45,600 --> 01:08:50,565
+driving tens of thousands of
+terrified refugees southward.
+
+1265
+01:08:50,666 --> 01:08:54,199
+They nearly cut South Vietnam in half
+
+1266
+01:08:54,300 --> 01:08:57,033
+through the Central Highlands
+
+1267
+01:08:57,132 --> 01:09:01,332
+and drove toward Saigon,
+hoping to seize large areas
+
+1268
+01:09:01,432 --> 01:09:04,365
+along the Cambodian border.
+
+1269
+01:09:04,466 --> 01:09:07,265
+It looked as if it were going to be
+
+1270
+01:09:07,365 --> 01:09:10,033
+a total defeat for the ARVN.
+
+1271
+01:09:10,132 --> 01:09:14,065
+There were only 60,000 U.S.
+military personnel
+
+1272
+01:09:14,166 --> 01:09:16,132
+left in South Vietnam,
+
+1273
+01:09:16,233 --> 01:09:19,233
+and very few of them were combat troops.
+
+1274
+01:09:21,765 --> 01:09:24,865
+Suddenly, the survival of
+everything Nixon and Kissinger
+
+1275
+01:09:24,966 --> 01:09:27,199
+had worked for was in peril.
+
+1276
+01:09:27,300 --> 01:09:31,632
+They had to do something... and fast.
+
+1277
+01:09:53,800 --> 01:09:57,233
+NARRATOR: Nixon ordered
+up Operation Linebacker...
+
+1278
+01:09:57,332 --> 01:09:59,832
+massive air attacks
+
+1279
+01:09:59,932 --> 01:10:01,332
+on the advancing North Vietnamese.
+
+1280
+01:10:03,132 --> 01:10:05,233
+"The bastards have never been bombed
+
+1281
+01:10:05,332 --> 01:10:08,265
+"like they're going to
+be this time," he said.
+
+1282
+01:10:11,966 --> 01:10:15,166
+The most crucial battle
+of the Easter Offensive
+
+1283
+01:10:15,265 --> 01:10:17,000
+was fought at An Loc,
+
+1284
+01:10:17,100 --> 01:10:19,666
+a city that commanded Route 13,
+
+1285
+01:10:19,765 --> 01:10:23,000
+a paved highway that led
+directly to Saigon,
+
+1286
+01:10:23,100 --> 01:10:25,399
+just 60 miles away.
+
+1287
+01:10:28,265 --> 01:10:30,600
+North Vietnamese artillery fire
+
+1288
+01:10:30,699 --> 01:10:32,632
+and a massive infantry and armor attack
+
+1289
+01:10:32,733 --> 01:10:34,832
+drove the city's ARVN defenders
+
+1290
+01:10:34,932 --> 01:10:39,233
+into an area less than a mile square.
+
+1291
+01:10:39,332 --> 01:10:44,666
+Repeated efforts to reinforce
+and resupply them failed.
+
+1292
+01:10:44,765 --> 01:10:48,065
+The ARVN bravely held out.
+
+1293
+01:10:48,166 --> 01:10:50,600
+JAMES WILLBANKS: The
+number one thing we did
+
+1294
+01:10:50,699 --> 01:10:53,300
+was coordinate the air strikes.
+
+1295
+01:10:53,399 --> 01:10:55,832
+General Hollingsworth
+went to General Abrams
+
+1296
+01:10:55,932 --> 01:10:58,033
+and begged for all the B-52s he could get,
+
+1297
+01:10:58,132 --> 01:10:59,966
+and on the 10th and 11th of May,
+
+1298
+01:11:00,065 --> 01:11:05,765
+he planned a B-52 strike every
+50 minutes for 24 hours.
+
+1299
+01:11:16,432 --> 01:11:17,666
+NARRATOR: In the end,
+
+1300
+01:11:17,765 --> 01:11:22,166
+American airpower made the difference.
+
+1301
+01:11:27,699 --> 01:11:30,365
+The North Vietnamese and
+their armored columns,
+
+1302
+01:11:30,466 --> 01:11:31,899
+massed in the open,
+
+1303
+01:11:32,000 --> 01:11:35,832
+proved easy targets for American pilots.
+
+1304
+01:11:35,932 --> 01:11:39,899
+"This," one American advisor said,
+
+1305
+01:11:40,000 --> 01:11:43,966
+"was the kind of war we came to fight."
+
+1306
+01:11:54,632 --> 01:11:57,600
+PHAM LUC:
+
+1307
+01:12:35,865 --> 01:12:37,600
+(explosion)
+
+1308
+01:12:37,699 --> 01:12:41,000
+NARRATOR: The North Vietnamese
+suffered 10,000 casualties
+
+1309
+01:12:41,100 --> 01:12:42,832
+at An Loc alone
+
+1310
+01:12:42,932 --> 01:12:47,065
+and lost most of their
+tanks and heavy artillery.
+
+1311
+01:12:47,166 --> 01:12:48,666
+(explosions continue)
+
+1312
+01:12:50,466 --> 01:12:52,899
+WILLBANKS: The bottom line
+was that all the air power
+
+1313
+01:12:53,000 --> 01:12:54,600
+in the world would not make a difference
+
+1314
+01:12:54,699 --> 01:12:56,108
+if the ARVN hadn't stood and fought.
+
+1315
+01:12:56,132 --> 01:12:57,565
+(people shouting)
+
+1316
+01:12:57,666 --> 01:13:01,033
+They had held Kon Tum,
+they had held An Loc,
+
+1317
+01:13:01,132 --> 01:13:02,800
+they had re-taken Quang Tri.
+
+1318
+01:13:02,899 --> 01:13:04,966
+They had taken the best
+that the North Vietnamese
+
+1319
+01:13:05,065 --> 01:13:06,699
+had to throw at them.
+
+1320
+01:13:06,800 --> 01:13:10,033
+So I thought if we continue
+to maintain that support,
+
+1321
+01:13:10,132 --> 01:13:11,332
+perhaps they had a chance.
+
+1322
+01:13:11,432 --> 01:13:15,332
+DUONG VAN MAI ELLIOTT: The
+Easter Offensive, to me,
+
+1323
+01:13:15,432 --> 01:13:18,666
+showed that the South
+Vietnamese could fight,
+
+1324
+01:13:18,765 --> 01:13:21,733
+but only up to a certain point.
+
+1325
+01:13:21,832 --> 01:13:24,500
+So, my question would be,
+
+1326
+01:13:24,600 --> 01:13:26,500
+what would happen when the Americans left
+
+1327
+01:13:26,600 --> 01:13:29,166
+with their B-52s, you know?
+
+1328
+01:13:29,265 --> 01:13:30,765
+(protestors chanting)
+
+1329
+01:13:30,865 --> 01:13:33,932
+NARRATOR: Americans may have
+approved of the renewed use
+
+1330
+01:13:34,033 --> 01:13:37,300
+of American air power to
+stop the communist advance
+
+1331
+01:13:37,399 --> 01:13:38,765
+into the South,
+
+1332
+01:13:38,865 --> 01:13:43,432
+but Nixon had also ordered
+American planes to resume
+
+1333
+01:13:43,533 --> 01:13:46,733
+sustained bombing of North Vietnam,
+
+1334
+01:13:46,832 --> 01:13:50,399
+which had been halted since
+the Johnson administration.
+
+1335
+01:13:50,500 --> 01:13:54,300
+Some saw the new bombing,
+which vastly exceeded
+
+1336
+01:13:54,399 --> 01:13:56,399
+all previous campaigns,
+
+1337
+01:13:56,500 --> 01:14:01,233
+as evidence that a war Nixon
+had promised was winding down
+
+1338
+01:14:01,332 --> 01:14:04,100
+was once again being escalated.
+
+1339
+01:14:04,199 --> 01:14:07,533
+(plane soaring)
+
+1340
+01:14:07,632 --> 01:14:09,065
+LESLIE GELB: The bombing campaign
+
+1341
+01:14:09,166 --> 01:14:10,632
+was much more extensive
+
+1342
+01:14:10,733 --> 01:14:15,199
+than the bombing campaign
+under Lyndon Johnson.
+
+1343
+01:14:15,300 --> 01:14:16,365
+And from a standpoint
+
+1344
+01:14:16,466 --> 01:14:18,966
+of pressuring them to make concessions
+
+1345
+01:14:19,065 --> 01:14:20,899
+at the negotiating table,
+
+1346
+01:14:21,000 --> 01:14:23,365
+historically, that's how you did it.
+
+1347
+01:14:23,466 --> 01:14:25,699
+Only it didn't work with these guys.
+
+1348
+01:14:25,800 --> 01:14:27,632
+(bombs exploding)
+
+1349
+01:14:27,733 --> 01:14:29,399
+They took the pounding.
+
+1350
+01:14:31,466 --> 01:14:33,265
+(men yelling in Vietnamese)
+
+1351
+01:14:36,533 --> 01:14:40,132
+NARRATOR: Le Minh Khue,
+who had served four years
+
+1352
+01:14:40,233 --> 01:14:43,600
+as a Youth Volunteer on
+the Ho Chi Minh trail,
+
+1353
+01:14:43,699 --> 01:14:46,332
+was now back home in North Vietnam.
+
+1354
+01:14:47,632 --> 01:14:50,832
+LE MINH KHUE:
+
+1355
+01:15:28,399 --> 01:15:31,300
+NARRATOR: Among the thousands
+of South Vietnamese
+
+1356
+01:15:31,399 --> 01:15:34,100
+who lost their lives in
+the Easter Offensive
+
+1357
+01:15:34,199 --> 01:15:37,365
+was the brother of Phan Quang Tue.
+
+1358
+01:15:37,466 --> 01:15:40,000
+PHAN QUANG TUE: I had a brother, Tuan.
+
+1359
+01:15:40,100 --> 01:15:44,199
+And we were raised together.
+
+1360
+01:15:44,300 --> 01:15:48,000
+He would have been now 67.
+
+1361
+01:15:48,100 --> 01:15:50,832
+When his plane was shot down
+
+1362
+01:15:50,932 --> 01:15:55,000
+and later on they weren't
+able to recover him,
+
+1363
+01:15:55,100 --> 01:15:57,666
+his body, so he disappeared,
+
+1364
+01:15:57,765 --> 01:16:02,132
+he was missing in action,
+he was 26 years old.
+
+1365
+01:16:02,233 --> 01:16:05,600
+He has his full life ahead of him.
+
+1366
+01:16:05,699 --> 01:16:08,699
+(voice breaking): Tuan never
+had a chance to live his life.
+
+1367
+01:16:10,800 --> 01:16:14,432
+And I can never overcome the feeling,
+
+1368
+01:16:14,533 --> 01:16:18,632
+as to himself
+
+1369
+01:16:18,733 --> 01:16:20,966
+and his generation,
+
+1370
+01:16:21,065 --> 01:16:24,300
+sacrifice their lives for what?
+
+1371
+01:16:26,132 --> 01:16:30,466
+And the frustrating thing is
+that even Vietnamese themself
+
+1372
+01:16:30,565 --> 01:16:32,500
+do not seem to value that loss.
+
+1373
+01:16:38,800 --> 01:16:41,800
+NIXON: There's only one
+way to stop the killing.
+
+1374
+01:16:41,899 --> 01:16:45,533
+That is to keep the weapons
+of war out of the hands
+
+1375
+01:16:45,632 --> 01:16:51,365
+of the international
+outlaws of North Vietnam.
+
+1376
+01:16:51,466 --> 01:16:52,699
+Throughout the war in Vietnam,
+
+1377
+01:16:52,800 --> 01:16:55,565
+the United States has exercised
+a degree of restraint
+
+1378
+01:16:55,666 --> 01:16:57,800
+unprecedented in the annals of war...
+
+1379
+01:16:57,899 --> 01:16:59,399
+(planes flying overhead)
+
+1380
+01:16:59,500 --> 01:17:02,300
+NARRATOR: Le Duan's Easter
+Offensive, like Tet,
+
+1381
+01:17:02,399 --> 01:17:04,632
+had been a great gamble.
+
+1382
+01:17:04,733 --> 01:17:07,466
+So was Nixon's next move.
+
+1383
+01:17:07,565 --> 01:17:10,600
+The massive North Vietnamese
+assault had failed,
+
+1384
+01:17:10,699 --> 01:17:12,100
+the president said,
+
+1385
+01:17:12,199 --> 01:17:15,233
+but it could never have been
+mounted in the first place
+
+1386
+01:17:15,332 --> 01:17:17,832
+without weapons and
+supplies provided by China
+
+1387
+01:17:17,932 --> 01:17:20,500
+and the Soviet Union.
+
+1388
+01:17:20,600 --> 01:17:24,765
+Accordingly, he ordered 11,000 mines laid
+
+1389
+01:17:24,865 --> 01:17:28,265
+in North Vietnamese waters
+to block further access
+
+1390
+01:17:28,365 --> 01:17:30,033
+to Haiphong harbor.
+
+1391
+01:17:30,132 --> 01:17:33,865
+It was something the Joint
+Chiefs had been asking for
+
+1392
+01:17:33,966 --> 01:17:35,800
+for years.
+
+1393
+01:17:35,899 --> 01:17:38,033
+The scheduled summit with the Soviets
+
+1394
+01:17:38,132 --> 01:17:39,832
+was just two weeks away,
+
+1395
+01:17:39,932 --> 01:17:42,132
+and some advisors had urged the president
+
+1396
+01:17:42,233 --> 01:17:45,166
+not to take any action
+that directly threatened
+
+1397
+01:17:45,265 --> 01:17:49,033
+Soviet ships, for fear
+they would cancel it.
+
+1398
+01:17:49,132 --> 01:17:51,733
+Nixon thought he had to take the risk.
+
+1399
+01:17:51,832 --> 01:17:55,899
+And so he spoke directly to Moscow.
+
+1400
+01:17:56,000 --> 01:17:59,432
+Let us not slide back
+toward the dark shadows
+
+1401
+01:17:59,533 --> 01:18:02,365
+of a previous age.
+
+1402
+01:18:02,466 --> 01:18:07,132
+We do not ask you to
+sacrifice your principles
+
+1403
+01:18:07,233 --> 01:18:09,233
+or your friends,
+
+1404
+01:18:09,332 --> 01:18:12,666
+but neither should you
+permit Hanoi's intransigence
+
+1405
+01:18:12,765 --> 01:18:15,365
+to blot out the prospects we together
+
+1406
+01:18:15,466 --> 01:18:16,832
+have so patiently prepared.
+
+1407
+01:18:19,666 --> 01:18:22,399
+NARRATOR: Nixon's gamble paid off.
+
+1408
+01:18:22,500 --> 01:18:24,065
+The Soviets and the Chinese denounced
+
+1409
+01:18:24,166 --> 01:18:29,600
+the president's action,
+but then did nothing.
+
+1410
+01:18:29,699 --> 01:18:34,765
+On May 26, the United States
+and the Soviet Union signed
+
+1411
+01:18:34,865 --> 01:18:38,800
+an historic Anti-Ballistic Missile Treaty,
+
+1412
+01:18:38,899 --> 01:18:42,100
+the first agreement to
+limit nuclear armaments
+
+1413
+01:18:42,199 --> 01:18:44,565
+since the Cold War began.
+
+1414
+01:18:44,666 --> 01:18:47,733
+For the Soviet Union, for China,
+
+1415
+01:18:47,832 --> 01:18:50,199
+as well as for the United States,
+
+1416
+01:18:50,300 --> 01:18:54,800
+Vietnam's significance
+was steadily receding.
+
+1417
+01:19:31,399 --> 01:19:33,166
+NIXON: I know.
+
+1418
+01:19:57,065 --> 01:19:59,000
+(camera shutter clicks)
+
+1419
+01:20:01,199 --> 01:20:05,765
+NARRATOR: On the morning of June 8, 1972,
+
+1420
+01:20:05,865 --> 01:20:10,265
+Nick Ut, a 21-year-old South
+Vietnamese photographer
+
+1421
+01:20:10,365 --> 01:20:12,600
+working for the Associated Press,
+
+1422
+01:20:12,699 --> 01:20:16,132
+was accompanying ARVN
+troops on Highway One,
+
+1423
+01:20:16,233 --> 01:20:18,699
+moving toward a village called Trang Bang,
+
+1424
+01:20:18,800 --> 01:20:21,565
+to dislodge North Vietnamese forces
+
+1425
+01:20:21,666 --> 01:20:25,432
+that had occupied it during
+the Easter Offensive.
+
+1426
+01:20:25,533 --> 01:20:28,699
+Ut was beginning to put his cameras away,
+
+1427
+01:20:28,800 --> 01:20:30,733
+ready to return to Saigon,
+
+1428
+01:20:30,832 --> 01:20:35,565
+when he saw a South Vietnamese
+fighter suddenly dip down
+
+1429
+01:20:35,666 --> 01:20:37,699
+toward the fleeing refugees,
+
+1430
+01:20:37,800 --> 01:20:40,699
+whom the pilot mistook for the enemy.
+
+1431
+01:20:40,800 --> 01:20:45,033
+(explosions)
+
+1432
+01:20:45,132 --> 01:20:49,932
+(camera shutter clicking)
+
+1433
+01:20:54,166 --> 01:20:57,399
+(speaking English):
+
+1434
+01:21:31,600 --> 01:21:33,132
+(speaking Vietnamese)
+
+1435
+01:22:04,166 --> 01:22:09,199
+NARRATOR: Ut drove the badly
+burned girl, Kim Phuc,
+
+1436
+01:22:09,300 --> 01:22:11,533
+and several other injured children
+
+1437
+01:22:11,632 --> 01:22:13,865
+to a hospital in Saigon.
+
+1438
+01:22:13,966 --> 01:22:18,332
+She had been burned over 30% of her body.
+
+1439
+01:22:18,432 --> 01:22:21,666
+Then, Ut raced to the AP darkroom
+
+1440
+01:22:21,765 --> 01:22:25,166
+to find out what he had caught on film.
+
+1441
+01:22:43,399 --> 01:22:46,265
+NARRATOR: His photo
+editor in Saigon told him
+
+1442
+01:22:46,365 --> 01:22:49,332
+they could not send the
+picture out on the wire,
+
+1443
+01:22:49,432 --> 01:22:51,800
+because the girl was naked.
+
+1444
+01:22:51,899 --> 01:22:54,332
+But then Ut's boss,
+
+1445
+01:22:54,432 --> 01:22:58,100
+the legendary combat
+photographer Horst Faas,
+
+1446
+01:22:58,199 --> 01:23:00,132
+saw the pictures.
+
+1447
+01:23:00,600 --> 01:23:02,265
+UT:
+
+1448
+01:23:12,065 --> 01:23:15,966
+NARRATOR: Nick Ut's photograph appeared
+
+1449
+01:23:16,065 --> 01:23:18,865
+on front pages around the world
+
+1450
+01:23:18,966 --> 01:23:22,899
+and won the Pulitzer Prize.
+
+1451
+01:23:23,000 --> 01:23:25,899
+For many Americans,
+
+1452
+01:23:26,000 --> 01:23:29,233
+even many of those who
+had supported the war,
+
+1453
+01:23:29,332 --> 01:23:33,932
+the image seemed to signal
+that enough was enough.
+
+1454
+01:23:37,533 --> 01:23:39,899
+Kim Phuc would survive.
+
+1455
+01:23:40,000 --> 01:23:45,432
+She eventually left Vietnam
+and settled outside Toronto.
+
+1456
+01:23:50,899 --> 01:23:55,100
+(cheers and applause)
+
+1457
+01:23:55,199 --> 01:23:57,265
+(rhythmic clapping)
+
+1458
+01:24:00,865 --> 01:24:04,865
+I introduce Valerie Kushner of Virginia
+
+1459
+01:24:04,966 --> 01:24:07,632
+to second the nomination
+of George McGovern.
+
+1460
+01:24:07,733 --> 01:24:09,932
+(applause and cheering)
+
+1461
+01:24:10,033 --> 01:24:13,632
+Mr. Chairman, Democrats,
+
+1462
+01:24:13,733 --> 01:24:18,199
+my participation in this
+convention is a tribute
+
+1463
+01:24:18,300 --> 01:24:21,466
+to the reforms instituted
+by the Democratic Party,
+
+1464
+01:24:21,565 --> 01:24:25,500
+for I am a woman, and I am under 30.
+
+1465
+01:24:25,600 --> 01:24:29,166
+But I also represent an
+even smaller minority:
+
+1466
+01:24:29,265 --> 01:24:32,000
+the wives of Americans who are missing
+
+1467
+01:24:32,100 --> 01:24:34,533
+or imprisoned in Southeast Asia.
+
+1468
+01:24:34,632 --> 01:24:38,166
+(cheers and applause)
+
+1469
+01:24:38,265 --> 01:24:40,932
+NARRATOR: Valerie Kushner,
+
+1470
+01:24:41,033 --> 01:24:44,500
+hoping to get her husband,
+Hal, home as soon as possible,
+
+1471
+01:24:44,600 --> 01:24:47,533
+had become an ardent
+supporter of the candidacy
+
+1472
+01:24:47,632 --> 01:24:51,233
+of Senator George McGovern of South Dakota.
+
+1473
+01:24:51,332 --> 01:24:55,365
+A decorated bomber pilot in World War II,
+
+1474
+01:24:55,466 --> 01:24:58,166
+McGovern had called for an early end
+
+1475
+01:24:58,265 --> 01:24:59,565
+to the bombing of the North,
+
+1476
+01:24:59,666 --> 01:25:02,765
+a halt to Congressional
+funding for the war,
+
+1477
+01:25:02,865 --> 01:25:04,765
+and immediate withdrawal
+
+1478
+01:25:04,865 --> 01:25:09,432
+from Vietnam once the POWs were released.
+
+1479
+01:25:09,533 --> 01:25:12,932
+I knew that he would bring my husband home.
+
+1480
+01:25:13,033 --> 01:25:15,666
+(applause)
+
+1481
+01:25:17,199 --> 01:25:21,865
+But even more important, he
+will bring America home.
+
+1482
+01:25:21,966 --> 01:25:24,932
+(applause and cheering)
+
+1483
+01:25:25,033 --> 01:25:28,033
+And it is for that reason
+
+1484
+01:25:28,132 --> 01:25:30,399
+that I am proud to second the nomination
+
+1485
+01:25:30,500 --> 01:25:35,233
+of our next president, Senator George S.
+McGovern.
+
+1486
+01:25:35,332 --> 01:25:38,265
+(applause and cheering)
+
+1487
+01:25:40,800 --> 01:25:43,033
+NARRATOR: By the time her candidate
+
+1488
+01:25:43,132 --> 01:25:45,533
+finally accepted the nomination,
+
+1489
+01:25:45,632 --> 01:25:48,265
+it was 2:48 in the morning.
+
+1490
+01:25:48,365 --> 01:25:51,300
+Most Americans were asleep.
+
+1491
+01:25:51,399 --> 01:25:56,233
+McGOVERN: During four
+administrations of both parties,
+
+1492
+01:25:56,332 --> 01:26:01,300
+a terrible war has been
+charted behind closed doors.
+
+1493
+01:26:01,399 --> 01:26:03,432
+(cheers and applause)
+
+1494
+01:26:03,533 --> 01:26:05,899
+I want those doors opened,
+
+1495
+01:26:06,000 --> 01:26:09,000
+and I want that war closed.
+
+1496
+01:26:09,100 --> 01:26:11,765
+(raucous cheers and applause)
+
+1497
+01:26:11,865 --> 01:26:13,332
+(static)
+
+1498
+01:26:13,432 --> 01:26:17,132
+NARRATOR: McGovern's
+campaign quickly collapsed.
+
+1499
+01:26:17,233 --> 01:26:20,432
+He botched the selection
+of his running mate,
+
+1500
+01:26:20,533 --> 01:26:23,800
+and secretly asked an aide in Paris
+
+1501
+01:26:23,899 --> 01:26:27,166
+to talk with the North
+Vietnamese about POWs,
+
+1502
+01:26:27,265 --> 01:26:32,365
+and then denied he'd meddled
+in the peace process.
+
+1503
+01:26:32,466 --> 01:26:34,432
+Organized labor,
+
+1504
+01:26:34,533 --> 01:26:37,600
+traditionally the Democrats'
+most reliable ally,
+
+1505
+01:26:37,699 --> 01:26:40,533
+refused to endorse the party's candidate
+
+1506
+01:26:40,632 --> 01:26:44,166
+for the first time in 20 years.
+
+1507
+01:26:44,265 --> 01:26:50,000
+McGovern's poll numbers eroded
+steadily over the summer.
+
+1508
+01:26:50,100 --> 01:26:53,033
+Still, hoping to find material
+
+1509
+01:26:53,132 --> 01:26:56,033
+that might be used to smear the opposition,
+
+1510
+01:26:56,132 --> 01:26:59,765
+Nixon's aides had already
+authorized the Plumbers
+
+1511
+01:26:59,865 --> 01:27:02,065
+to make another break-in,
+
+1512
+01:27:02,166 --> 01:27:05,800
+this time at Democratic
+National Headquarters
+
+1513
+01:27:05,899 --> 01:27:08,699
+in the Washington, D.C., apartment complex
+
+1514
+01:27:08,800 --> 01:27:11,733
+called the Watergate.
+
+1515
+01:27:11,832 --> 01:27:13,832
+They had been caught.
+
+1516
+01:27:13,932 --> 01:27:16,565
+JOHN CHANCELLOR: One of the most
+fascinating and exotic stories
+
+1517
+01:27:16,666 --> 01:27:18,365
+ever to come out of Washington, D.C.,
+
+1518
+01:27:18,466 --> 01:27:20,399
+is the talk of the Capitol today.
+
+1519
+01:27:20,500 --> 01:27:22,466
+Five men were arrested early Saturday
+
+1520
+01:27:22,565 --> 01:27:25,365
+while trying to install
+eavesdropping equipment
+
+1521
+01:27:25,466 --> 01:27:27,565
+at the Democratic National Committee.
+
+1522
+01:27:27,666 --> 01:27:29,865
+And it turns out that one
+of them has an office
+
+1523
+01:27:29,966 --> 01:27:32,233
+in the headquarters of the Committee
+
+1524
+01:27:32,332 --> 01:27:34,065
+for the Re-Election of the President.
+
+1525
+01:27:34,166 --> 01:27:37,466
+(camera shutter clicking)
+
+1526
+01:27:42,300 --> 01:27:44,399
+("Barbarella" by Bob Crewe
+and Charles Fox playing)
+
+1527
+01:27:44,500 --> 01:27:50,033
+♪ It's a wonder, wonder woman ♪
+
+1528
+01:27:50,132 --> 01:27:55,699
+♪ You're so wild and wonderful ♪
+
+1529
+01:27:55,800 --> 01:28:00,765
+♪ 'Cause it seems whenever
+
+1530
+01:28:00,865 --> 01:28:03,265
+♪ We're together
+
+1531
+01:28:03,365 --> 01:28:05,033
+♪ The planets all...
+
+1532
+01:28:05,132 --> 01:28:08,600
+JOHN MUSGRAVE: Barbarella...
+Jane Fonda was...
+
+1533
+01:28:08,699 --> 01:28:12,765
+was one of our major fantasies.
+
+1534
+01:28:12,865 --> 01:28:16,966
+You know? I mean, major fantasies.
+
+1535
+01:28:17,065 --> 01:28:20,300
+And, uh, we couldn't believe it
+
+1536
+01:28:20,399 --> 01:28:24,733
+when that fantasy went to North Vietnam.
+
+1537
+01:28:24,832 --> 01:28:27,399
+She was held to a different
+standard of conduct
+
+1538
+01:28:27,500 --> 01:28:31,365
+by being our fantasy, you
+know, our dream girl.
+
+1539
+01:28:31,466 --> 01:28:35,000
+It's like our dream girl betrayed us.
+
+1540
+01:28:35,100 --> 01:28:36,375
+("Where Have All the Flowers
+Gone" by Joan Baez playing)
+
+1541
+01:28:36,399 --> 01:28:38,466
+♪ Where have all the young men gone? ♪
+
+1542
+01:28:38,565 --> 01:28:42,832
+♪ They are all in uniform
+
+1543
+01:28:42,932 --> 01:28:48,432
+♪ When will they ever learn?
+
+1544
+01:28:48,533 --> 01:28:53,365
+♪ When will they ever learn? ♪
+
+1545
+01:28:53,466 --> 01:28:55,332
+♪ Where have all...
+
+1546
+01:28:55,432 --> 01:28:57,932
+NARRATOR: Over the years, a steady stream
+
+1547
+01:28:58,033 --> 01:29:01,533
+of Americans opposed to the
+war would visit Hanoi,
+
+1548
+01:29:01,632 --> 01:29:04,865
+including the folk singer Joan Baez,
+
+1549
+01:29:04,966 --> 01:29:08,533
+David Dellinger of the
+War Resisters League,
+
+1550
+01:29:08,632 --> 01:29:11,832
+the writer Susan Sontag,
+
+1551
+01:29:11,932 --> 01:29:16,300
+and Tom Hayden of the
+Indochina Peace Campaign.
+
+1552
+01:29:16,399 --> 01:29:19,533
+But no visitor made more headlines
+
+1553
+01:29:19,632 --> 01:29:21,966
+than the actress Jane Fonda.
+
+1554
+01:29:22,065 --> 01:29:25,399
+During two weeks in the summer of 1972,
+
+1555
+01:29:25,500 --> 01:29:29,733
+she broadcast at least ten
+times over Radio Hanoi,
+
+1556
+01:29:29,832 --> 01:29:32,199
+denouncing American POWs
+
+1557
+01:29:32,300 --> 01:29:34,666
+for having committed war crimes,
+
+1558
+01:29:34,765 --> 01:29:37,265
+urging the North Vietnamese to hold out
+
+1559
+01:29:37,365 --> 01:29:40,733
+against American imperialism.
+
+1560
+01:29:40,832 --> 01:29:44,199
+Many Americans would never forgive her
+
+1561
+01:29:44,300 --> 01:29:47,565
+for what she did and said.
+
+1562
+01:29:47,666 --> 01:29:50,100
+FONDA: According to international law,
+
+1563
+01:29:50,199 --> 01:29:52,600
+these men are war criminals.
+
+1564
+01:29:52,699 --> 01:29:54,166
+That's according to law,
+
+1565
+01:29:54,265 --> 01:29:55,576
+according to the Nuremberg principles,
+
+1566
+01:29:55,600 --> 01:29:58,000
+according to the Geneva Accord, and others.
+
+1567
+01:29:58,100 --> 01:30:01,000
+They should be tried in front of a court
+
+1568
+01:30:01,100 --> 01:30:03,533
+and probably executed for what they did.
+
+1569
+01:30:03,632 --> 01:30:07,199
+MUSGRAVE: She's taken a lot
+of heat for what she did.
+
+1570
+01:30:07,300 --> 01:30:09,865
+And deservedly so.
+
+1571
+01:30:09,966 --> 01:30:13,466
+She did some things that were terrible.
+
+1572
+01:30:13,565 --> 01:30:16,132
+And-and, yes,
+
+1573
+01:30:16,233 --> 01:30:18,733
+we have a right to be pissed off at her.
+
+1574
+01:30:18,832 --> 01:30:21,733
+But, you know,
+
+1575
+01:30:21,832 --> 01:30:24,565
+she wasn't the only one.
+
+1576
+01:30:24,666 --> 01:30:29,166
+She's just the only one
+we fantasized about.
+
+1577
+01:30:30,166 --> 01:30:34,600
+(cheers and applause)
+
+1578
+01:30:39,365 --> 01:30:41,500
+AUDIENCE: Four more years!
+
+1579
+01:30:41,600 --> 01:30:44,432
+Four more years! Four more years!
+
+1580
+01:30:44,533 --> 01:30:46,932
+NIXON: We have brought over
+half a million men home,
+
+1581
+01:30:47,033 --> 01:30:48,932
+and more will be coming home.
+
+1582
+01:30:49,033 --> 01:30:52,065
+We have ended America's ground combat role.
+
+1583
+01:30:52,166 --> 01:30:54,733
+No draftees are being sent to Vietnam.
+
+1584
+01:30:54,832 --> 01:30:57,733
+We have reduced our casualties by 98%.
+
+1585
+01:30:57,832 --> 01:30:59,632
+We've gone the extra mile.
+
+1586
+01:30:59,733 --> 01:31:02,432
+In fact, we've gone tens
+of thousands of miles
+
+1587
+01:31:02,533 --> 01:31:04,932
+trying to seek a negotiated
+settlement of the war.
+
+1588
+01:31:05,033 --> 01:31:06,699
+(applause)
+
+1589
+01:31:06,800 --> 01:31:09,500
+There are three things,
+however, that we have not
+
+1590
+01:31:09,600 --> 01:31:11,632
+and that we will not offer.
+
+1591
+01:31:11,733 --> 01:31:14,832
+We will never abandon our prisoners of war.
+
+1592
+01:31:14,932 --> 01:31:16,332
+(cheers and applause)
+
+1593
+01:31:22,199 --> 01:31:23,832
+And, second,
+
+1594
+01:31:23,932 --> 01:31:27,500
+we will not join our enemies
+
+1595
+01:31:27,600 --> 01:31:31,100
+in imposing a communist
+government on our ally,
+
+1596
+01:31:31,199 --> 01:31:33,533
+the 17 million people of South Vietnam.
+
+1597
+01:31:33,632 --> 01:31:36,332
+(cheers and applause)
+
+1598
+01:31:39,666 --> 01:31:41,565
+And we will never stain the honor
+
+1599
+01:31:41,666 --> 01:31:43,733
+of the United States of America.
+
+1600
+01:31:43,832 --> 01:31:45,765
+(cheers)
+
+1601
+01:32:26,765 --> 01:32:29,865
+NARRATOR: Back in Paris, Henry
+Kissinger was determined
+
+1602
+01:32:29,966 --> 01:32:34,399
+to hammer out a peace agreement
+before Election Day.
+
+1603
+01:32:34,500 --> 01:32:37,765
+Now Le Duc Tho made a key concession.
+
+1604
+01:32:37,865 --> 01:32:40,065
+Hanoi no longer insisted
+
+1605
+01:32:40,166 --> 01:32:43,699
+that President Thieu had to go.
+
+1606
+01:32:43,800 --> 01:32:46,533
+JOHN NEGROPONTE: There was
+somehow this compulsion
+
+1607
+01:32:46,632 --> 01:32:50,132
+to come to some kind of an agreement.
+
+1608
+01:32:50,233 --> 01:32:53,132
+I remember Le Duc Tho when he
+produced the draft agreement
+
+1609
+01:32:53,233 --> 01:32:59,466
+in October 8 of '72 to Kissinger, saying,
+
+1610
+01:32:59,565 --> 01:33:00,865
+"You're in a hurry, aren't you?
+
+1611
+01:33:00,966 --> 01:33:02,865
+You want to do this quickly."
+
+1612
+01:33:02,966 --> 01:33:06,533
+And-and the response was, "Yes."
+
+1613
+01:33:06,632 --> 01:33:10,065
+NARRATOR: The two sides
+soon had a tentative deal,
+
+1614
+01:33:10,166 --> 01:33:12,065
+a "cease-fire in place"
+
+1615
+01:33:12,166 --> 01:33:14,565
+to be followed within 60 days
+
+1616
+01:33:14,666 --> 01:33:17,565
+by a complete withdrawal of U.S. troops
+
+1617
+01:33:17,666 --> 01:33:21,166
+and the return of all American POWs.
+
+1618
+01:33:21,265 --> 01:33:25,432
+The United States stopped
+bombing the North.
+
+1619
+01:33:25,533 --> 01:33:31,033
+No one had told President
+Thieu any of the terms.
+
+1620
+01:33:32,666 --> 01:33:36,365
+The day before Kissinger was to
+arrive in Saigon to brief him,
+
+1621
+01:33:36,466 --> 01:33:40,100
+Thieu was handed a document
+found in an enemy bunker
+
+1622
+01:33:40,199 --> 01:33:42,332
+in Quang Tin Province.
+
+1623
+01:33:42,432 --> 01:33:46,765
+It was entitled "General
+Instructions for Cease-Fire."
+
+1624
+01:33:46,865 --> 01:33:51,533
+It meant that communist cadres
+in an isolated province
+
+1625
+01:33:51,632 --> 01:33:55,966
+of his own country already
+knew more about what Kissinger
+
+1626
+01:33:56,065 --> 01:34:01,000
+and Le Duc Tho had agreed
+to in Paris than he did.
+
+1627
+01:34:01,100 --> 01:34:04,432
+NEGROPONTE: And imagine
+being given an agreement
+
+1628
+01:34:04,533 --> 01:34:09,899
+concerning the fate of
+your own country and, uh,
+
+1629
+01:34:10,000 --> 01:34:11,666
+being told that you really don't have
+
+1630
+01:34:11,765 --> 01:34:15,332
+any input in the matter.
+
+1631
+01:34:15,432 --> 01:34:18,899
+And, oh, by the way, we
+didn't even yet have
+
+1632
+01:34:19,000 --> 01:34:20,800
+the Vietnamese translation,
+
+1633
+01:34:20,899 --> 01:34:22,632
+because that hadn't been completed.
+
+1634
+01:34:22,733 --> 01:34:26,199
+And we gave him the English version.
+
+1635
+01:34:26,300 --> 01:34:29,533
+So, I mean, as a professional diplomat,
+
+1636
+01:34:29,632 --> 01:34:32,800
+somebody who's been in this
+business all my life, uh,
+
+1637
+01:34:32,899 --> 01:34:35,565
+I've got to tell you,
+that just an awful lot
+
+1638
+01:34:35,666 --> 01:34:38,365
+of diplomatic rules were broken there.
+
+1639
+01:34:38,466 --> 01:34:42,300
+NARRATOR: Thieu refused
+to accept the terms.
+
+1640
+01:34:42,399 --> 01:34:45,565
+Allowing North Vietnamese
+troops to remain in the South
+
+1641
+01:34:45,666 --> 01:34:48,733
+would be the death of his country.
+
+1642
+01:34:48,832 --> 01:34:53,000
+Nonetheless, after Kissinger returned home
+
+1643
+01:34:53,100 --> 01:34:55,533
+12 days before the election,
+
+1644
+01:34:55,632 --> 01:34:59,800
+he told the press, "Peace is at hand."
+
+1645
+01:34:59,899 --> 01:35:02,365
+("Tail Dragger" by Link Wray playing)
+
+1646
+01:35:05,466 --> 01:35:08,399
+On November 7, 1972,
+
+1647
+01:35:08,500 --> 01:35:11,565
+Richard Nixon won a stunning victory.
+
+1648
+01:35:11,666 --> 01:35:16,399
+He was reelected with more
+than 60% of the popular vote...
+
+1649
+01:35:16,500 --> 01:35:22,399
+521 electoral votes to McGovern's 17.
+
+1650
+01:35:22,500 --> 01:35:26,199
+He took every single state
+except Massachusetts
+
+1651
+01:35:26,300 --> 01:35:28,800
+and the District of Columbia.
+
+1652
+01:35:28,899 --> 01:35:32,000
+Now, the president resolved to rid himself
+
+1653
+01:35:32,100 --> 01:35:37,666
+of Vietnam completely before
+his second inauguration.
+
+1654
+01:35:37,765 --> 01:35:40,533
+To calm Thieu's fears of what was to come,
+
+1655
+01:35:40,632 --> 01:35:43,466
+Nixon launched another massive airlift
+
+1656
+01:35:43,565 --> 01:35:46,399
+of military equipment to South Vietnam.
+
+1657
+01:35:46,500 --> 01:35:49,500
+"If we had given this aid
+to the North Vietnamese,"
+
+1658
+01:35:49,600 --> 01:35:51,399
+one American general said,
+
+1659
+01:35:51,500 --> 01:35:55,800
+"they could have fought us for
+the rest of the century."
+
+1660
+01:35:55,899 --> 01:35:59,765
+The Paris peace talks resumed.
+
+1661
+01:35:59,865 --> 01:36:03,132
+But then, Le Duc Tho suddenly announced
+
+1662
+01:36:03,233 --> 01:36:07,399
+he needed to return to
+Hanoi for consultation.
+
+1663
+01:36:07,500 --> 01:36:09,408
+NEGROPONTE: We could only
+conclude that maybe they were
+
+1664
+01:36:09,432 --> 01:36:10,899
+having some doubts about whether
+
+1665
+01:36:11,000 --> 01:36:12,899
+they wanted to go through
+with the agreement,
+
+1666
+01:36:13,000 --> 01:36:15,600
+because we had sent so many supplies
+
+1667
+01:36:15,699 --> 01:36:18,800
+to Saigon in the intervening weeks.
+
+1668
+01:36:18,899 --> 01:36:21,500
+NARRATOR: There turned out to be dissension
+
+1669
+01:36:21,600 --> 01:36:24,132
+on the communist side as well.
+
+1670
+01:36:24,233 --> 01:36:27,699
+Hanoi, like Washington, had
+not bothered to consult
+
+1671
+01:36:27,800 --> 01:36:29,932
+with its southern comrades.
+
+1672
+01:36:30,033 --> 01:36:32,733
+It had dropped the two
+demands that meant the most
+
+1673
+01:36:32,832 --> 01:36:36,765
+to the Viet Cong... the removal
+of Thieu, and the release
+
+1674
+01:36:36,865 --> 01:36:40,000
+of some 30,000 of their prisoners.
+
+1675
+01:36:40,100 --> 01:36:43,065
+"Hanoi's message was clear,"
+
+1676
+01:36:43,166 --> 01:36:45,533
+one bitter Viet Cong official said.
+
+1677
+01:36:45,632 --> 01:36:49,432
+"It cared more about
+American prisoners of war
+
+1678
+01:36:49,533 --> 01:36:52,199
+than it did for us."
+
+1679
+01:36:52,300 --> 01:36:55,832
+Nixon ordered Kissinger
+to suspend the talks,
+
+1680
+01:36:55,932 --> 01:36:58,865
+and then he resumed the
+bombing of North Vietnam
+
+1681
+01:36:58,966 --> 01:37:01,132
+to further punish Hanoi,
+
+1682
+01:37:01,233 --> 01:37:04,065
+and to signal to both Hanoi and Saigon
+
+1683
+01:37:04,166 --> 01:37:07,733
+that the United States
+might use its airpower
+
+1684
+01:37:07,832 --> 01:37:10,000
+to defend South Vietnam
+
+1685
+01:37:10,100 --> 01:37:14,500
+even after a peace agreement was signed.
+
+1686
+01:37:15,899 --> 01:37:17,733
+On December 18,
+
+1687
+01:37:17,832 --> 01:37:21,199
+Nixon unleashed round-the-clock air strikes
+
+1688
+01:37:21,300 --> 01:37:24,365
+that flattened targets
+around Hanoi and Haiphong.
+
+1689
+01:37:24,466 --> 01:37:26,199
+(explosions)
+
+1690
+01:37:26,300 --> 01:37:29,466
+It would be remembered as
+the Christmas Bombing.
+
+1691
+01:37:29,565 --> 01:37:32,899
+(bombs exploding, people shouting)
+
+1692
+01:37:33,000 --> 01:37:34,765
+HAL KUSHNER: And all of a sudden,
+
+1693
+01:37:34,865 --> 01:37:36,865
+around Christmastime,
+
+1694
+01:37:36,966 --> 01:37:39,265
+we hear an Arc Light operation,
+
+1695
+01:37:39,365 --> 01:37:41,832
+B-52s... bom-bom-bom-bom-bom.
+
+1696
+01:37:41,932 --> 01:37:43,800
+And it's all around, and
+it is just exploding.
+
+1697
+01:37:43,899 --> 01:37:48,699
+And everyone knew they were B-52s.
+
+1698
+01:37:48,800 --> 01:37:51,033
+And is... in the two
+years that I was there,
+
+1699
+01:37:51,132 --> 01:37:53,800
+that was the first time
+I ever heard a bomb.
+
+1700
+01:37:53,899 --> 01:37:55,332
+And it was close.
+
+1701
+01:37:55,432 --> 01:37:57,699
+It was really close.
+
+1702
+01:37:57,800 --> 01:37:59,932
+It was frightening, but
+we were still cheering.
+
+1703
+01:38:00,033 --> 01:38:03,699
+I mean, we were cheering because
+something was happening.
+
+1704
+01:38:03,800 --> 01:38:06,033
+(explosions)
+
+1705
+01:38:06,132 --> 01:38:07,932
+HUY DUC:
+
+1706
+01:38:36,800 --> 01:38:38,166
+NARRATOR: Around the world,
+
+1707
+01:38:38,265 --> 01:38:41,500
+antiwar demonstrators
+returned to the streets.
+
+1708
+01:38:41,600 --> 01:38:44,699
+The prime minister of Sweden
+compared the United States
+
+1709
+01:38:44,800 --> 01:38:46,432
+to Nazi Germany.
+
+1710
+01:38:46,533 --> 01:38:48,632
+The Pope called the bombing,
+
+1711
+01:38:48,733 --> 01:38:51,432
+which killed more than 1,600 civilians,
+
+1712
+01:38:51,533 --> 01:38:54,632
+"the object of daily grief."
+
+1713
+01:38:54,733 --> 01:38:59,033
+James Reston of theNew York
+Times pronounced the raids
+
+1714
+01:38:59,132 --> 01:39:00,932
+"war by tantrum."
+
+1715
+01:39:01,033 --> 01:39:05,466
+Republican Senator William
+Saxbe of Ohio said
+
+1716
+01:39:05,565 --> 01:39:10,166
+the president had taken
+leave of his senses.
+
+1717
+01:39:10,265 --> 01:39:11,800
+(gunfire)
+
+1718
+01:39:11,899 --> 01:39:15,865
+North Vietnam shot down 15 B-52s,
+
+1719
+01:39:15,966 --> 01:39:20,233
+along with 11 other aircraft.
+
+1720
+01:39:20,332 --> 01:39:24,300
+93 crewmen were reported missing.
+
+1721
+01:39:24,399 --> 01:39:29,065
+45 new prisoners of war
+were locked up in Hanoi,
+
+1722
+01:39:29,166 --> 01:39:33,765
+one of whom died in captivity.
+
+1723
+01:39:33,865 --> 01:39:38,765
+Meanwhile, both the Chinese
+and the Soviets pressed Hanoi
+
+1724
+01:39:38,865 --> 01:39:41,365
+to resume negotiations.
+
+1725
+01:39:41,466 --> 01:39:45,065
+"The most important thing is
+to let the Americans leave,"
+
+1726
+01:39:45,166 --> 01:39:48,332
+Zhou Enlai told a North
+Vietnamese official.
+
+1727
+01:39:48,432 --> 01:39:53,132
+"The situation will change
+in six months or a year."
+
+1728
+01:39:55,199 --> 01:39:59,265
+On December 26, Hanoi
+signaled its willingness
+
+1729
+01:39:59,365 --> 01:40:01,600
+to return to Paris.
+
+1730
+01:40:01,699 --> 01:40:06,265
+It would take just six days
+to reach a final agreement.
+
+1731
+01:40:06,365 --> 01:40:12,565
+NEGROPONTE: We bombed them into
+accepting our concessions.
+
+1732
+01:40:12,666 --> 01:40:16,765
+We bombed them into
+accepting our concessions.
+
+1733
+01:40:16,865 --> 01:40:20,600
+And I stand by that statement,
+because, in effect,
+
+1734
+01:40:20,699 --> 01:40:26,932
+what we did was to carry out
+this massive bombing campaign
+
+1735
+01:40:27,033 --> 01:40:31,832
+in order to basically get
+back to pretty much exactly
+
+1736
+01:40:31,932 --> 01:40:35,565
+where we were at the end of October in '72.
+
+1737
+01:40:37,533 --> 01:40:40,466
+NARRATOR: President Thieu
+still balked at signing on.
+
+1738
+01:40:40,565 --> 01:40:42,832
+Nixon was adamant.
+
+1739
+01:40:42,932 --> 01:40:45,932
+Thieu had to go along with
+what Washington and Hanoi
+
+1740
+01:40:46,033 --> 01:40:47,600
+had worked out.
+
+1741
+01:40:47,699 --> 01:40:50,399
+But without informing Congress,
+
+1742
+01:40:50,500 --> 01:40:53,399
+the president assured Thieu in writing
+
+1743
+01:40:53,500 --> 01:40:57,233
+that the United States would
+"respond with full force"
+
+1744
+01:40:57,332 --> 01:41:00,932
+if the North ever violated the agreement.
+
+1745
+01:41:01,033 --> 01:41:04,565
+"The Americans really leave
+me no choice," Thieu said.
+
+1746
+01:41:04,666 --> 01:41:08,533
+"Either sign or they will cut off aid.
+
+1747
+01:41:08,632 --> 01:41:12,733
+"On the other hand, we have an
+absolute guarantee from Nixon
+
+1748
+01:41:12,832 --> 01:41:15,033
+"to defend the country.
+
+1749
+01:41:15,132 --> 01:41:19,600
+"I am going to agree to sign
+and hold him to his word.
+
+1750
+01:41:19,699 --> 01:41:23,399
+He is an honest man and I
+am going to trust him."
+
+1751
+01:41:32,065 --> 01:41:36,132
+On January 22, 1973,
+
+1752
+01:41:36,233 --> 01:41:40,132
+at his ranch in the Hill Country of Texas,
+
+1753
+01:41:40,233 --> 01:41:43,166
+Lyndon Baines Johnson,
+
+1754
+01:41:43,265 --> 01:41:45,865
+the president who had
+committed the United States
+
+1755
+01:41:45,966 --> 01:41:48,832
+to a ground war in Vietnam,
+
+1756
+01:41:48,932 --> 01:41:53,233
+and had seen that war undercut
+his domestic social programs
+
+1757
+01:41:53,332 --> 01:41:56,332
+and end his political career,
+
+1758
+01:41:56,432 --> 01:41:58,600
+died of congestive heart failure.
+
+1759
+01:42:03,832 --> 01:42:08,632
+The following evening, Richard
+Nixon spoke to the nation.
+
+1760
+01:42:08,733 --> 01:42:11,332
+28 years after the United States
+
+1761
+01:42:11,432 --> 01:42:14,233
+first became involved in Vietnam,
+
+1762
+01:42:14,332 --> 01:42:17,199
+it was finally getting out.
+
+1763
+01:42:17,300 --> 01:42:18,733
+NIXON: I have asked for this radio
+
+1764
+01:42:18,832 --> 01:42:21,100
+and television time tonight
+
+1765
+01:42:21,199 --> 01:42:24,666
+for the purpose of announcing that we today
+
+1766
+01:42:24,765 --> 01:42:28,033
+have concluded an agreement to end the war
+
+1767
+01:42:28,132 --> 01:42:32,132
+and bring peace with honor in
+Vietnam and in Southeast Asia.
+
+1768
+01:42:32,233 --> 01:42:35,632
+A cease-fire, internationally supervised,
+
+1769
+01:42:35,733 --> 01:42:39,533
+will begin at 7:00 p.m.
+this Saturday, January 27,
+
+1770
+01:42:39,632 --> 01:42:41,365
+Washington time.
+
+1771
+01:42:41,466 --> 01:42:43,466
+Within 60 days from this Saturday,
+
+1772
+01:42:43,565 --> 01:42:47,800
+all Americans held prisoners
+of war throughout Indochina
+
+1773
+01:42:47,899 --> 01:42:50,332
+will be released.
+
+1774
+01:42:52,100 --> 01:42:56,932
+NARRATOR: American prisoners
+of war, 591 of them,
+
+1775
+01:42:57,033 --> 01:43:00,233
+were to be released in batches of 40.
+
+1776
+01:43:00,332 --> 01:43:03,233
+Those who had been in captivity the longest
+
+1777
+01:43:03,332 --> 01:43:05,899
+were to come home first.
+
+1778
+01:43:06,000 --> 01:43:09,932
+Today the largest contingents of
+repatriated prisoners so far,
+
+1779
+01:43:10,033 --> 01:43:11,800
+60 men, were flown from Clark
+
+1780
+01:43:11,899 --> 01:43:13,765
+to Travis Air Force Base, California.
+
+1781
+01:43:13,865 --> 01:43:15,776
+ROGER PETERSON: Today's
+most dramatic moment came
+
+1782
+01:43:15,800 --> 01:43:18,399
+when Everett Alvarez made his
+happy trek down the ramp,
+
+1783
+01:43:18,500 --> 01:43:19,600
+home at last.
+
+1784
+01:43:19,699 --> 01:43:21,108
+For almost as long as most Americans
+
+1785
+01:43:21,132 --> 01:43:22,600
+have been aware of Vietnam,
+
+1786
+01:43:22,699 --> 01:43:26,533
+Lieutenant Commander Alvarez
+has been a prisoner in Hanoi.
+
+1787
+01:43:26,632 --> 01:43:29,466
+He was shot down August 5, 1964,
+during the first raids flown
+
+1788
+01:43:29,565 --> 01:43:32,533
+in retaliation for the
+Tonkin Gulf incident.
+
+1789
+01:43:32,632 --> 01:43:34,432
+And finally, today, he was home.
+
+1790
+01:43:34,533 --> 01:43:36,899
+For years and years,
+
+1791
+01:43:37,000 --> 01:43:43,233
+we dreamed of this day, and we kept faith.
+
+1792
+01:43:43,332 --> 01:43:48,033
+Faith in God, in our president,
+
+1793
+01:43:48,132 --> 01:43:49,699
+and in our country.
+
+1794
+01:43:49,800 --> 01:43:52,932
+("America the Beautiful"
+by Ray Charles playing)
+
+1795
+01:43:54,733 --> 01:43:59,265
+NARRATOR: Hal Kushner's
+turn came in mid-March.
+
+1796
+01:43:59,365 --> 01:44:01,800
+CHARLES: ♪ Oh, beautiful
+
+1797
+01:44:01,899 --> 01:44:05,932
+♪ For heroes proved
+
+1798
+01:44:08,500 --> 01:44:12,300
+♪ In liberating strife
+
+1799
+01:44:12,399 --> 01:44:14,932
+KUSHNER: And they... then
+they called our name.
+
+1800
+01:44:15,033 --> 01:44:17,565
+And I walked out in the sunlight.
+
+1801
+01:44:17,666 --> 01:44:20,500
+And the first thing I saw
+was a girl in a miniskirt.
+
+1802
+01:44:20,600 --> 01:44:23,265
+She was a reporter for one
+of the news organizations.
+
+1803
+01:44:23,365 --> 01:44:25,300
+I'd never seen a real-life miniskirt.
+
+1804
+01:44:25,399 --> 01:44:31,000
+CHARLES: ♪ And mercy more than life
+
+1805
+01:44:31,100 --> 01:44:33,365
+KUSHNER: And there was a
+table with the Vietnamese
+
+1806
+01:44:33,466 --> 01:44:35,500
+and American authorities on one side,
+
+1807
+01:44:35,600 --> 01:44:38,100
+and there was a brigadier
+general, Air Force general
+
+1808
+01:44:38,199 --> 01:44:40,500
+in Class A uniform.
+
+1809
+01:44:40,600 --> 01:44:43,765
+And he looked magnificent.
+
+1810
+01:44:43,865 --> 01:44:46,666
+And I looked at him...
+
+1811
+01:44:46,765 --> 01:44:48,500
+(voice breaking): and he had breadth,
+
+1812
+01:44:48,600 --> 01:44:52,600
+he had thickness that we didn't have.
+
+1813
+01:44:52,699 --> 01:44:55,865
+And his hair was... he
+had on a garrison cap.
+
+1814
+01:44:55,966 --> 01:44:59,000
+And his hair was plump and moist,
+
+1815
+01:44:59,100 --> 01:45:01,600
+and our hair was like straw, you know.
+
+1816
+01:45:01,699 --> 01:45:03,899
+It was dry and we were skinny.
+
+1817
+01:45:04,000 --> 01:45:05,000
+(clears throat)
+
+1818
+01:45:06,332 --> 01:45:08,033
+And I went out and I saluted,
+
+1819
+01:45:08,132 --> 01:45:10,800
+which was a courtesy
+that had been denied us
+
+1820
+01:45:10,899 --> 01:45:13,632
+for so many years.
+
+1821
+01:45:13,733 --> 01:45:16,132
+And he saluted me, and he...
+
+1822
+01:45:16,233 --> 01:45:18,199
+I shook hands with him and he hugged me,
+
+1823
+01:45:18,300 --> 01:45:19,733
+he actually hugged me,
+
+1824
+01:45:19,832 --> 01:45:23,432
+and he said, "Welcome home, Major.
+
+1825
+01:45:23,533 --> 01:45:25,132
+We're glad to see you, doctor."
+
+1826
+01:45:25,233 --> 01:45:28,000
+And the tears were
+streaming down his cheeks.
+
+1827
+01:45:28,100 --> 01:45:31,132
+And it was just a-a powerful moment.
+
+1828
+01:45:31,233 --> 01:45:35,765
+CHARLES: ♪ For purple mountains
+
+1829
+01:45:35,865 --> 01:45:37,233
+♪ Majesty
+
+1830
+01:45:37,332 --> 01:45:39,600
+KUSHNER: And then this
+liaison officer they called
+
+1831
+01:45:39,699 --> 01:45:43,166
+that came out and got me and
+escorted me on this C-141.
+
+1832
+01:45:43,265 --> 01:45:47,100
+It was this beautiful white
+airplane with a flag.
+
+1833
+01:45:47,199 --> 01:45:50,500
+(sighs)
+
+1834
+01:45:50,600 --> 01:45:55,733
+An American flag on the tail and USAF.
+
+1835
+01:45:55,832 --> 01:45:58,265
+CHARLES: ♪ America
+
+1836
+01:45:58,365 --> 01:45:59,699
+♪ You know
+
+1837
+01:45:59,800 --> 01:46:04,265
+♪ God done shed his grace on thee ♪
+
+1838
+01:46:04,365 --> 01:46:07,932
+KUSHNER: And they had these real
+cute flight nurses on there.
+
+1839
+01:46:08,033 --> 01:46:09,966
+They were all tall and
+blonde and, you know,
+
+1840
+01:46:10,065 --> 01:46:12,000
+they-they were just gorgeous.
+
+1841
+01:46:12,100 --> 01:46:14,432
+And we got on this thing and, and she said,
+
+1842
+01:46:14,533 --> 01:46:17,533
+this nurse... we sat in
+these seats and she said,
+
+1843
+01:46:17,632 --> 01:46:19,199
+"We have anything you want, you know.
+
+1844
+01:46:19,300 --> 01:46:20,332
+"Do... what do you want?"
+
+1845
+01:46:20,432 --> 01:46:22,500
+And I-I wanted a Coke with crushed ice
+
+1846
+01:46:22,600 --> 01:46:24,733
+and some chewing gum.
+
+1847
+01:46:24,832 --> 01:46:28,132
+CHARLES: ♪ You know, I wish had
+somebody to help me sing this ♪
+
+1848
+01:46:28,233 --> 01:46:32,199
+♪ America
+
+1849
+01:46:32,300 --> 01:46:34,565
+♪ America ♪ America
+
+1850
+01:46:34,666 --> 01:46:36,000
+♪ I love you, America
+
+1851
+01:46:36,100 --> 01:46:38,733
+♪ God shed ♪ You see
+
+1852
+01:46:38,832 --> 01:46:41,000
+♪ My God, he done shed ♪ His grace
+
+1853
+01:46:41,100 --> 01:46:43,600
+♪ His grace on thee ♪ On thee
+
+1854
+01:46:43,699 --> 01:46:45,899
+♪ And you ought to love him for it ♪
+
+1855
+01:46:46,000 --> 01:46:50,432
+♪ 'Cause he, he, he,
+he crowned thy good ♪
+
+1856
+01:46:50,533 --> 01:46:52,265
+♪ He told me he would
+
+1857
+01:46:52,365 --> 01:46:55,966
+♪ With brotherhood
+
+1858
+01:46:56,065 --> 01:46:58,233
+♪ From sea
+
+1859
+01:46:58,332 --> 01:47:00,466
+♪ To shining
+
+1860
+01:47:00,565 --> 01:47:03,000
+♪ Shining sea ♪ Sea
+
+1861
+01:47:03,100 --> 01:47:04,966
+♪ Oh, Lord
+
+1862
+01:47:05,065 --> 01:47:06,199
+♪ Oh, Lord!
+
+1863
+01:47:06,300 --> 01:47:08,565
+♪ I thank you, Lord
+
+1864
+01:47:08,666 --> 01:47:14,199
+♪ Shining sea.
+
+1865
+01:47:20,800 --> 01:47:23,200
+("The Lord Is in This Place" by
+Fairport Convention playing)
+
+1866
+01:47:26,399 --> 01:47:29,500
+NARRATOR: Within a few days
+of Hal Kushner's release,
+
+1867
+01:47:29,600 --> 01:47:34,500
+the last American combat
+troops would leave Vietnam.
+
+1868
+01:47:34,600 --> 01:47:39,332
+But they would leave behind
+many unanswered questions.
+
+1869
+01:47:39,432 --> 01:47:44,132
+How long could the South
+Vietnamese government survive?
+
+1870
+01:47:44,233 --> 01:47:47,432
+What was the value of American promises,
+
+1871
+01:47:47,533 --> 01:47:50,365
+and American sacrifice?
+
+1872
+01:47:50,466 --> 01:47:54,632
+And how long would it take for
+the wounds of war to heal?
+
+1873
+01:48:07,733 --> 01:48:09,666
+("What's Going On?" by Marvin Gaye playing)
+
+1874
+01:48:11,300 --> 01:48:13,233
+(indistinct conversations)
+
+1875
+01:48:17,332 --> 01:48:19,865
+♪ Mother, mother
+
+1876
+01:48:19,966 --> 01:48:24,033
+♪ There's too many of you crying ♪
+
+1877
+01:48:26,932 --> 01:48:29,065
+♪ Brother, brother, brother
+
+1878
+01:48:29,166 --> 01:48:33,166
+♪ There's far too many of you dying ♪
+
+1879
+01:48:35,132 --> 01:48:38,265
+♪ You know we've got to find a way ♪
+
+1880
+01:48:40,065 --> 01:48:42,966
+♪ To bring some loving here today ♪
+
+1881
+01:48:43,065 --> 01:48:45,899
+♪ Yeah
+
+1882
+01:48:46,000 --> 01:48:47,600
+♪ Father, father
+
+1883
+01:48:49,432 --> 01:48:51,733
+♪ We don't need to escalate
+
+1884
+01:48:54,600 --> 01:48:58,765
+♪ You see, war is not the answer ♪
+
+1885
+01:48:58,865 --> 01:49:03,500
+♪ For only love can conquer hate ♪
+
+1886
+01:49:03,600 --> 01:49:06,466
+♪ You know we've got to find a way ♪
+
+1887
+01:49:08,533 --> 01:49:11,733
+♪ To bring some loving here today ♪
+
+1888
+01:49:11,832 --> 01:49:14,233
+♪ Oh
+
+1889
+01:49:14,332 --> 01:49:16,365
+♪ Picket lines ♪ Sister
+
+1890
+01:49:16,466 --> 01:49:18,765
+♪ And picket signs ♪ Sister
+
+1891
+01:49:18,865 --> 01:49:20,533
+♪ Don't punish me ♪ Sister
+
+1892
+01:49:20,632 --> 01:49:23,800
+♪ With brutality ♪ Sister
+
+1893
+01:49:23,899 --> 01:49:25,733
+♪ Talk to me ♪ Sister
+
+1894
+01:49:25,832 --> 01:49:27,765
+♪ So you can see ♪ Sister
+
+1895
+01:49:27,865 --> 01:49:30,265
+♪ Oh, what's going on ♪ What's going on
+
+1896
+01:49:30,365 --> 01:49:32,332
+♪ What's going on ♪ What's going on
+
+1897
+01:49:32,432 --> 01:49:34,699
+♪ Yeah, what's going
+on ♪ What's going on
+
+1898
+01:49:34,800 --> 01:49:36,966
+♪ Ah, what's going on ♪ What's going on
+
+1899
+01:49:37,065 --> 01:49:39,832
+♪ Ah ♪ Right on
+
+1900
+01:49:39,932 --> 01:49:41,565
+♪ Whoo! Right on, brother
+
+1901
+01:49:41,666 --> 01:49:43,033
+(indistinct conversations)
+
+1902
+01:49:43,132 --> 01:49:45,065
+(scatting)
+
+1903
+01:49:46,533 --> 01:49:48,632
+MAN: Hey, man, what's your name? Whoo!
+
+1904
+01:49:48,733 --> 01:49:50,466
+♪ Right on, baby
+
+1905
+01:49:50,565 --> 01:49:52,332
+Right on. ♪ Right on
+
+1906
+01:49:52,432 --> 01:49:55,365
+(scatting)
+
+1907
+01:50:08,100 --> 01:50:09,332
+Whoo! ♪ Whoo
+
+1908
+01:50:09,432 --> 01:50:12,199
+♪ Right on, baby
+
+1909
+01:50:12,300 --> 01:50:14,233
+(scatting)
+
+1910
+01:50:26,565 --> 01:50:27,565
+Whoo!
+
+1911
+01:50:27,666 --> 01:50:29,066
+-♪ Right on, baby -(man whooping)
+
+1912
+01:50:29,100 --> 01:50:30,100
+♪ Come on
+
+1913
+01:50:30,166 --> 01:50:31,466
+♪ Right on
+
+1914
+01:50:31,565 --> 01:50:33,500
+(singer scatting, man whooping)
+
+1915
+01:50:36,699 --> 01:50:39,699
+♪ Whoo! Right on
+
+1916
+01:50:39,800 --> 01:50:41,100
+♪ Go slow
+
+1917
+01:50:41,199 --> 01:50:43,132
+(scatting)
+
+1918
+01:50:53,466 --> 01:50:54,732
+ANNOUNCER: LEARN MORE ABOUT THE FILM
+
+1919
+01:50:54,733 --> 01:50:57,599
+AND FIND ADDITIONAL RESOURCES
+AT PBS.ORG/VIETNAMWAR
+
+1920
+01:50:57,600 --> 01:51:01,532
+AND JOIN THE CONVERSATION
+USING HASHTAG VIETNAMWARPBS.
+
+1921
+01:51:01,533 --> 01:51:02,999
+"THE VIETNAM WAR" IS AVAILABLE
+
+1922
+01:51:03,000 --> 01:51:04,665
+ON BLU-RAY AND DVD.
+
+1923
+01:51:04,666 --> 01:51:06,331
+THE COMPANION BOOK, SOUNDTRACK,
+
+1924
+01:51:06,332 --> 01:51:07,732
+AND ORIGINAL SCORE FROM THE FILM
+
+1925
+01:51:07,733 --> 01:51:08,864
+ARE ALSO AVAILABLE.
+
+1926
+01:51:08,865 --> 01:51:10,965
+TO ORDER, VISIT SHOPPBS.ORG
+
+1927
+01:51:10,966 --> 01:51:13,431
+OR CALL 1-800-PLAY-PBS.
+
+1928
+01:51:13,432 --> 01:51:14,864
+EPISODES OF THIS SERIES ALSO
+
+1929
+01:51:14,865 --> 01:51:15,965
+AVAILABLE FOR DOWNLOAD
+
+1930
+01:51:15,966 --> 01:51:17,065
+FROM iTUNES.
+
+1931
+01:51:20,332 --> 01:51:22,465
+ANNOUNCER: BANK OF AMERICA PROUDLY SUPPORTS
+
+1932
+01:51:22,466 --> 01:51:27,364
+KEN BURNS' AND LYNN NOVICK'S
+FILM "THE VIETNAM WAR"
+
+1933
+01:51:27,365 --> 01:51:29,764
+BECAUSE FOSTERING DIFFERENT PERSPECTIVES
+
+1934
+01:51:29,765 --> 01:51:32,364
+AND CIVIL DISCOURSE AROUND IMPORTANT ISSUES
+
+1935
+01:51:32,365 --> 01:51:34,665
+FURTHERS PROGRESS, EQUALITY,
+
+1936
+01:51:34,666 --> 01:51:36,666
+AND A MORE CONNECTED SOCIETY.
+
+1937
+01:51:41,132 --> 01:51:45,166
+GO TO BANKOFAMERICA.COM/
+BETTERCONNECTED TO LEARN MORE.
+
+1938
+01:51:48,632 --> 01:51:50,064
+ANNOUNCER: MAJOR SUPPORT
+FOR "THE VIETNAM WAR"
+
+1939
+01:51:50,065 --> 01:51:53,564
+WAS PROVIDED BY MEMBERS OF
+THE BETTER ANGELS SOCIETY,
+
+1940
+01:51:53,565 --> 01:51:57,599
+INCLUDING JONATHAN AND JEANNIE LAVINE,
+
+1941
+01:51:57,600 --> 01:52:00,499
+DIANE AND HAL BRIERLEY,
+
+1942
+01:52:00,500 --> 01:52:02,898
+AMY AND DAVID ABRAMS,
+
+1943
+01:52:02,899 --> 01:52:05,398
+JOHN AND CATHERINE DEBS,
+
+1944
+01:52:05,399 --> 01:52:08,299
+THE FULLERTON FAMILY CHARITABLE FUND,
+
+1945
+01:52:08,300 --> 01:52:10,364
+THE MONTRONE FAMILY,
+
+1946
+01:52:10,365 --> 01:52:12,698
+LYNDA AND STEWART RESNICK,
+
+1947
+01:52:12,699 --> 01:52:15,465
+THE PERRY AND DONNA
+GOLKIN FAMILY FOUNDATION,
+
+1948
+01:52:15,466 --> 01:52:16,466
+THE LYNCH FOUNDATION,
+
+1949
+01:52:16,467 --> 01:52:19,331
+THE ROGER AND ROSEMARY ENRICO FOUNDATION,
+
+1950
+01:52:19,332 --> 01:52:22,764
+AND BY THESE ADDITIONAL FUNDERS.
+
+1951
+01:52:22,765 --> 01:52:24,665
+MAJOR FUNDING WAS ALSO PROVIDED
+
+1952
+01:52:24,666 --> 01:52:26,399
+BY DAVID H. KOCH...
+
+1953
+01:52:28,699 --> 01:52:30,899
+THE BLAVATNIK FAMILY FOUNDATION...
+
+1954
+01:52:33,233 --> 01:52:35,665
+THE PARK FOUNDATION,
+
+1955
+01:52:35,666 --> 01:52:37,831
+THE NATIONAL ENDOWMENT FOR THE HUMANITIES,
+
+1956
+01:52:37,832 --> 01:52:40,032
+THE PEW CHARITABLE TRUSTS,
+
+1957
+01:52:40,033 --> 01:52:42,698
+THE JOHN S. AND JAMES L. KNIGHT FOUNDATION,
+
+1958
+01:52:42,699 --> 01:52:45,465
+THE ANDREW W. MELLON FOUNDATION,
+
+1959
+01:52:45,466 --> 01:52:48,064
+THE ARTHUR VINING DAVIS FOUNDATIONS,
+
+1960
+01:52:48,065 --> 01:52:50,264
+THE FORD FOUNDATION JUSTFILMS,
+
+1961
+01:52:50,265 --> 01:52:51,465
+BY THE CORPORATION
+
+1962
+01:52:51,466 --> 01:52:52,698
+FOR PUBLIC BROADCASTING,
+
+1963
+01:52:52,699 --> 01:52:54,732
+AND BY VIEWERS LIKE YOU.
+
+1964
+01:52:54,733 --> 01:52:55,865
+THANK YOU.
+

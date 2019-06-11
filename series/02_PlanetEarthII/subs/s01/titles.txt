@@ -1,0 +1,7 @@
+Islands
+Mountains
+Jungles
+Deserts
+Grasslands
+Cities
+

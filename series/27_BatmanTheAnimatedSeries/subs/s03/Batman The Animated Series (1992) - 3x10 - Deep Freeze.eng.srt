@@ -1,0 +1,885 @@
+﻿1
+00:02:15,509 --> 00:02:16,719
+Fire!
+
+2
+00:02:42,995 --> 00:02:44,580
+Interesting.
+
+3
+00:02:57,134 --> 00:02:58,844
+Guard? Guard?
+
+4
+00:03:00,638 --> 00:03:01,722
+Guard!
+
+5
+00:03:06,519 --> 00:03:09,230
+Help me!
+
+6
+00:03:15,820 --> 00:03:17,488
+You gotta give Mr. Freeze credit.
+
+7
+00:03:17,571 --> 00:03:20,157
+That's the most original breakout
+this year.
+
+8
+00:03:20,241 --> 00:03:22,034
+Yes, but I don't think he was behind it.
+
+9
+00:03:22,118 --> 00:03:24,120
+Look at the expression of fear
+on his face.
+
+10
+00:03:24,245 --> 00:03:25,454
+That's not easy to fake,
+
+11
+00:03:25,538 --> 00:03:28,332
+especially for a man
+claiming to be dead to emotions.
+
+12
+00:03:28,416 --> 00:03:30,209
+Freeze was taken against his will,
+
+13
+00:03:30,292 --> 00:03:32,795
+and obviously by someone
+with expertise in robotics.
+
+14
+00:03:32,962 --> 00:03:36,424
+Then maybe we'd better consult
+our own robot expert.
+
+15
+00:03:43,597 --> 00:03:45,266
+Greetings, dynamic duo.
+
+16
+00:03:45,349 --> 00:03:46,684
+I'm your biggest fan.
+
+17
+00:03:48,227 --> 00:03:49,937
+What is it?
+
+18
+00:03:51,021 --> 00:03:52,148
+Mwah!
+
+19
+00:03:53,107 --> 00:03:54,483
+I just wanna help.
+
+20
+00:03:57,027 --> 00:03:59,280
+Just wanna help. Just wanna help.
+
+21
+00:04:00,656 --> 00:04:01,866
+Poor little critter.
+
+22
+00:04:01,949 --> 00:04:03,993
+I never could get his programming right.
+
+23
+00:04:04,076 --> 00:04:05,286
+Cute toy, Karl.
+
+24
+00:04:05,369 --> 00:04:08,414
+You know I'm out
+of the robot business, Batman.
+
+25
+00:04:10,082 --> 00:04:13,169
+All I make anymore are little friends
+to keep me company.
+
+26
+00:04:13,252 --> 00:04:14,462
+Like Tiny, here?
+
+27
+00:04:15,713 --> 00:04:18,215
+Well, if it isn't old M-9.
+
+28
+00:04:18,299 --> 00:04:20,342
+- It's one of yours?
+- Not really.
+
+29
+00:04:20,468 --> 00:04:23,554
+I once created a smaller prototype
+for Grant Walker.
+
+30
+00:04:23,929 --> 00:04:25,931
+- The guy who builds those theme parks?
+- Yeah.
+
+31
+00:04:26,015 --> 00:04:28,642
+I was one of Walker's
+original visioneers.
+
+32
+00:04:28,726 --> 00:04:31,437
+Constructing and programming
+the animatronic figures
+
+33
+00:04:31,520 --> 00:04:33,439
+he used in his park attractions.
+
+34
+00:04:33,731 --> 00:04:37,109
+Though it looks like old Grant's boys
+pumped up the design a bit.
+
+35
+00:04:37,193 --> 00:04:39,653
+I'm wondering
+how improved these robots are.
+
+36
+00:04:39,820 --> 00:04:42,656
+And why one of them was sent
+to kidnap Mr. Freeze.
+
+37
+00:05:16,440 --> 00:05:18,025
+Impressive.
+
+38
+00:05:18,108 --> 00:05:19,401
+"Impressive?"
+
+39
+00:05:19,485 --> 00:05:22,029
+You gaze upon all this
+and can only say "impressive"?
+
+40
+00:05:22,238 --> 00:05:24,615
+Though perhaps I shouldn't be surprised.
+
+41
+00:05:25,074 --> 00:05:29,036
+I've made a hobby of studying
+your chilly history, Victor Fries.
+
+42
+00:05:29,245 --> 00:05:30,788
+And you are?
+
+43
+00:05:30,996 --> 00:05:32,915
+Grant Walker, at your service, sir.
+
+44
+00:05:33,082 --> 00:05:36,585
+This is Oceana,
+my prototype vision of the future.
+
+45
+00:05:36,877 --> 00:05:39,672
+A vision that
+you shall help make a reality.
+
+46
+00:05:39,839 --> 00:05:41,048
+Doubtful.
+
+47
+00:05:41,131 --> 00:05:42,258
+We'll see.
+
+48
+00:05:42,341 --> 00:05:44,343
+Make sure that our guest is comfortable.
+
+49
+00:05:48,013 --> 00:05:50,599
+<i>Sir, we've picked up
+an unauthorized craft entering our area.</i>
+
+50
+00:05:51,684 --> 00:05:55,104
+Can't afford nosy trespassers
+at this stage of the game.
+
+51
+00:05:55,187 --> 00:05:57,857
+Dispatch our usual deterrents,
+Mr. Johnson.
+
+52
+00:06:03,320 --> 00:06:06,782
+I still don't see why a theme-park mogul
+would kidnap Mr. Freeze.
+
+53
+00:06:06,866 --> 00:06:09,743
+Men like Walker are obsessed
+with getting their own way.
+
+54
+00:06:09,827 --> 00:06:12,621
+And they don't let little things
+like the law stop them.
+
+55
+00:06:13,873 --> 00:06:15,499
+I'm picking something up on the scanner.
+
+56
+00:06:15,583 --> 00:06:17,501
+Three small objects coming in fast.
+
+57
+00:06:38,314 --> 00:06:39,356
+Hang on!
+
+58
+00:07:02,171 --> 00:07:03,422
+The power shorted out.
+
+59
+00:07:03,505 --> 00:07:05,549
+And those things are coming back.
+
+60
+00:07:13,557 --> 00:07:15,309
+Intruder threat
+has been neutralized, sir.
+
+61
+00:07:15,392 --> 00:07:16,727
+<i>Excellent.</i>
+
+62
+00:07:28,113 --> 00:07:30,074
+Looks like we're swimming home.
+
+63
+00:07:30,157 --> 00:07:32,910
+Not before we have a talk
+with Mr. Walker.
+
+64
+00:07:57,184 --> 00:08:00,646
+I think you'll find that suit
+is a perfect duplicate of your original.
+
+65
+00:08:00,729 --> 00:08:03,983
+Automatic temperature control,
+increased cybernetic strength.
+
+66
+00:08:04,191 --> 00:08:06,151
+Even the cold gun works.
+
+67
+00:08:19,373 --> 00:08:22,668
+Yes. Logically,
+I should do the same to you.
+
+68
+00:08:22,751 --> 00:08:24,461
+Just hear me out, please.
+
+69
+00:08:24,545 --> 00:08:27,089
+As I said,
+I've studied you and your work.
+
+70
+00:08:27,172 --> 00:08:29,299
+Do you realize that in your frozen state
+
+71
+00:08:29,383 --> 00:08:32,928
+you'll age much slower
+than an ordinary human?
+
+72
+00:08:33,012 --> 00:08:35,431
+You're practically immortal, my friend.
+
+73
+00:08:35,514 --> 00:08:39,977
+Yes, eternal life
+trapped in this wretched shell.
+
+74
+00:08:40,144 --> 00:08:42,062
+What a miserable joke.
+
+75
+00:08:42,187 --> 00:08:46,150
+Oh, miserable to you,
+but a godsend to me.
+
+76
+00:08:46,233 --> 00:08:48,694
+Look at me, Mr. Freeze. I'm an old man.
+
+77
+00:08:48,777 --> 00:08:51,363
+I've created wonders in my lifetime,
+
+78
+00:08:51,447 --> 00:08:53,824
+but there is still so much to do.
+
+79
+00:08:53,991 --> 00:08:56,035
+I want to change as you have.
+
+80
+00:08:56,118 --> 00:09:01,415
+To become like you,
+a being of blessed, eternal cold.
+
+81
+00:09:01,790 --> 00:09:03,459
+You're insane.
+
+82
+00:09:03,542 --> 00:09:07,546
+Only you have the know-how to duplicate
+the accident that made you what you are.
+
+83
+00:09:07,629 --> 00:09:10,049
+What I long to become.
+
+84
+00:09:11,467 --> 00:09:13,427
+You want to live like this?
+
+85
+00:09:13,510 --> 00:09:15,804
+Abandoned and alone?
+
+86
+00:09:15,888 --> 00:09:19,016
+A prisoner in a world you can see,
+but never touch?
+
+87
+00:09:23,103 --> 00:09:25,564
+Old and infirm as you are,
+
+88
+00:09:25,647 --> 00:09:30,194
+I'd trade 1,000 of my frozen years
+for your worst day.
+
+89
+00:09:30,569 --> 00:09:32,029
+Actually,
+
+90
+00:09:32,112 --> 00:09:35,074
+I had another kind of swap in mind.
+
+91
+00:09:42,581 --> 00:09:43,957
+Nora.
+
+92
+00:09:44,041 --> 00:09:47,127
+I was a major investor in GothCorp
+a few years back
+
+93
+00:09:47,211 --> 00:09:50,130
+and put up some money
+for their cryogenics program.
+
+94
+00:09:51,423 --> 00:09:55,094
+I trust you know the young lady
+behind the glass.
+
+95
+00:09:57,179 --> 00:09:58,305
+My wife.
+
+96
+00:09:58,388 --> 00:10:01,558
+The GothCorp execs
+think she perished in the fire,
+
+97
+00:10:01,642 --> 00:10:02,976
+but my men got her out.
+
+98
+00:10:03,060 --> 00:10:06,313
+I have the technology
+to restore her, my friend.
+
+99
+00:10:06,396 --> 00:10:09,441
+All you have to do is grant my wish.
+
+100
+00:10:10,818 --> 00:10:12,361
+Very well.
+
+101
+00:11:00,159 --> 00:11:02,035
+<i>Welcome, friends.</i>
+
+102
+00:11:02,119 --> 00:11:06,540
+<i>Thanks to all our hard work,
+Oceana's nearly up and running.</i>
+
+103
+00:11:06,665 --> 00:11:10,711
+<i>Now, while most folks believe
+Oceana's just another theme park,</i>
+
+104
+00:11:10,961 --> 00:11:12,713
+<i>we know better.</i>
+
+105
+00:11:12,921 --> 00:11:16,425
+<i>Fact of the matter is,
+it's not too nice out there anymore.</i>
+
+106
+00:11:16,508 --> 00:11:19,052
+<i>Crime, hatred, violence.</i>
+
+107
+00:11:19,178 --> 00:11:21,054
+<i>Things keep going on like that,</i>
+
+108
+00:11:21,388 --> 00:11:23,765
+<i>it could mean the end of civilization.</i>
+
+109
+00:11:23,932 --> 00:11:29,188
+<i>That's why I decided to build a city
+where good folks can live in peace.</i>
+
+110
+00:11:29,605 --> 00:11:32,357
+<i>A new Garden of Eden, you might say,</i>
+
+111
+00:11:32,441 --> 00:11:35,194
+<i>from which a new race
+of people can spring.</i>
+
+112
+00:11:35,485 --> 00:11:38,697
+<i>Now, of course you can't have spring
+without a little winter.</i>
+
+113
+00:11:38,989 --> 00:11:41,241
+<i>About five years of it, I'd say.</i>
+
+114
+00:11:44,578 --> 00:11:46,288
+<i>Now, don't anybody worry.</i>
+
+115
+00:11:46,371 --> 00:11:49,917
+<i>We'll all be warm as toast in here.</i>
+
+116
+00:11:50,000 --> 00:11:53,295
+<i>As for those folks outside,
+well, it's sad,</i>
+
+117
+00:11:53,378 --> 00:11:56,673
+<i>but I'm only speeding up
+what they were doing to themselves.</i>
+
+118
+00:11:56,798 --> 00:11:58,675
+Brother. He's all heart, isn't he?
+
+119
+00:11:58,759 --> 00:12:00,219
+Walker's a madman.
+
+120
+00:12:00,636 --> 00:12:01,887
+Whoa!
+
+121
+00:12:33,627 --> 00:12:36,129
+- Look.
+<i>- Every time I open a park,</i>
+
+122
+00:12:36,213 --> 00:12:38,215
+<i>I get gate-crashers.</i>
+
+123
+00:12:38,298 --> 00:12:41,343
+We've seen your insane vision
+of the future, Walker.
+
+124
+00:12:41,551 --> 00:12:46,390
+<i>My world will have no crime,
+violence, or pain.</i>
+
+125
+00:12:46,556 --> 00:12:48,976
+You can add free will to that list too.
+
+126
+00:12:49,059 --> 00:12:51,103
+<i>A small price to pay for order.</i>
+
+127
+00:12:51,353 --> 00:12:52,604
+Your order.
+
+128
+00:12:52,688 --> 00:12:54,189
+For your select few.
+
+129
+00:12:54,314 --> 00:12:57,317
+<i>Excuse me, but I fail to see
+the problem with that.</i>
+
+130
+00:13:20,757 --> 00:13:24,344
+Freeze, I don't know
+what Walker said or promised you,
+
+131
+00:13:24,553 --> 00:13:26,513
+but you can't help him
+go through with this plan.
+
+132
+00:13:26,680 --> 00:13:29,099
+I have no choice.
+
+133
+00:13:47,784 --> 00:13:49,536
+I know it's a bit chilly
+in there,
+
+134
+00:13:49,619 --> 00:13:52,331
+but I figured you'd like to stick around
+and see the show.
+
+135
+00:13:52,414 --> 00:13:53,790
+How are we doing?
+
+136
+00:13:56,209 --> 00:13:57,336
+Ready.
+
+137
+00:13:57,419 --> 00:13:58,712
+Let's do it.
+
+138
+00:14:28,450 --> 00:14:30,118
+Incredible.
+
+139
+00:14:30,202 --> 00:14:33,163
+This suit has more power
+than I ever dreamed.
+
+140
+00:14:35,957 --> 00:14:37,125
+Oh!
+
+141
+00:14:38,502 --> 00:14:39,753
+Are you all right, sir?
+
+142
+00:14:39,836 --> 00:14:42,297
+This takes
+a little getting used to.
+
+143
+00:14:42,381 --> 00:14:45,717
+Once Project Deep Freeze is completed,
+you won't need the suit.
+
+144
+00:14:45,801 --> 00:14:47,469
+Well, let's get that started.
+
+145
+00:14:47,552 --> 00:14:48,804
+Coming, Mr. Freeze?
+
+146
+00:14:49,054 --> 00:14:50,847
+I've done what you wanted.
+
+147
+00:14:50,931 --> 00:14:53,016
+Now leave me alone with my wife.
+
+148
+00:14:53,642 --> 00:14:55,143
+Suit yourself.
+
+149
+00:14:56,061 --> 00:14:57,813
+You can't let Walker do this.
+
+150
+00:14:57,979 --> 00:14:59,940
+Billions of people will perish.
+
+151
+00:15:00,023 --> 00:15:01,775
+That's not my concern.
+
+152
+00:15:01,858 --> 00:15:04,820
+All that matters is
+I once again have my wife
+
+153
+00:15:04,903 --> 00:15:06,571
+and the means to restore her.
+
+154
+00:15:07,280 --> 00:15:11,827
+She'll wake up in a dead, frozen world
+that you helped destroy.
+
+155
+00:15:11,910 --> 00:15:13,161
+She'll hate you for that.
+
+156
+00:15:13,245 --> 00:15:14,496
+Silence.
+
+157
+00:15:14,579 --> 00:15:16,248
+You think you're alone now?
+
+158
+00:15:16,331 --> 00:15:17,999
+Wait until she learns the truth.
+
+159
+00:15:18,083 --> 00:15:20,669
+I said silence!
+
+160
+00:15:31,471 --> 00:15:33,140
+Forgive me.
+
+161
+00:15:41,690 --> 00:15:43,984
+Come. There is much to do.
+
+162
+00:15:50,699 --> 00:15:52,492
+The cannon is operational, sir.
+
+163
+00:16:06,631 --> 00:16:08,008
+Excellent.
+
+164
+00:16:10,802 --> 00:16:14,055
+Ah! You've come to join us after all,
+my friend.
+
+165
+00:16:17,976 --> 00:16:19,352
+Wait. What are you doing?
+
+166
+00:16:29,321 --> 00:16:30,489
+Stop him!
+
+167
+00:17:12,989 --> 00:17:14,824
+This is my dream.
+
+168
+00:17:14,908 --> 00:17:16,284
+My vision!
+
+169
+00:17:16,368 --> 00:17:21,122
+I cheated death to make it real,
+and you won't stop me.
+
+170
+00:17:21,206 --> 00:17:26,044
+You may live forever, Grant Walker,
+but your mad dream dies now.
+
+171
+00:17:35,387 --> 00:17:38,265
+What are you doing?
+That's the main power core.
+
+172
+00:17:38,348 --> 00:17:40,976
+An overload will blow this city
+out of the water.
+
+173
+00:17:41,059 --> 00:17:42,185
+Exactly.
+
+174
+00:17:44,229 --> 00:17:45,772
+No!
+
+175
+00:17:51,278 --> 00:17:53,989
+<i>Attention, all residents of Oceana.</i>
+
+176
+00:17:54,072 --> 00:17:56,032
+<i>Your city is doomed.</i>
+
+177
+00:17:56,241 --> 00:17:59,411
+<i>If you value your lives,
+you will evacuate now.</i>
+
+178
+00:17:59,619 --> 00:18:01,037
+<i>That is all.</i>
+
+179
+00:18:08,295 --> 00:18:10,797
+- Mr. Walker!
+- Get out of here. Now!
+
+180
+00:18:28,189 --> 00:18:29,899
+There's our ride.
+
+181
+00:18:30,525 --> 00:18:33,320
+- Let's go.
+- I'm staying with Nora.
+
+182
+00:18:33,403 --> 00:18:36,323
+Don't be a fool.
+This whole place is going under.
+
+183
+00:18:36,406 --> 00:18:38,408
+I won't lose her again.
+
+184
+00:18:39,743 --> 00:18:41,328
+There's nothing you can do for her.
+
+185
+00:18:41,411 --> 00:18:42,621
+Come with us.
+
+186
+00:18:44,414 --> 00:18:46,750
+I am the least of your worries.
+
+187
+00:18:50,629 --> 00:18:52,088
+Robin!
+
+188
+00:18:53,923 --> 00:18:55,925
+Take the boy and go.
+
+189
+00:18:59,721 --> 00:19:02,140
+Relax. You're going to be okay.
+
+190
+00:19:16,571 --> 00:19:19,282
+We're together again, my love.
+
+191
+00:19:59,864 --> 00:20:01,074
+Man...
+
+192
+00:20:01,157 --> 00:20:03,243
+If I spent any more time
+in that immersion tank,
+
+193
+00:20:03,326 --> 00:20:04,369
+I'd be growing gills.
+
+194
+00:20:04,452 --> 00:20:06,955
+I'm just glad I was able to
+get you back here in time.
+
+195
+00:20:07,038 --> 00:20:08,289
+Thanks.
+
+196
+00:20:08,456 --> 00:20:10,256
+For a while
+I thought I'd wind up like Walker,
+
+197
+00:20:10,291 --> 00:20:11,793
+trapped in an ice cube forever.
+
+198
+00:20:12,919 --> 00:20:14,337
+What about Mr. Freeze?
+
+199
+00:20:14,421 --> 00:20:15,880
+You think he's gone for good?
+
+200
+00:20:15,964 --> 00:20:17,048
+I'm not sure.
+
+201
+00:20:17,132 --> 00:20:20,760
+But if Freeze's condition
+has made him truly immortal,
+
+202
+00:20:21,302 --> 00:20:23,763
+<i>we may not have seen the last of him.</i>
+
